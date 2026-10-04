@@ -2,6 +2,12 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.03] - 2026-10-04
+
+- RCS now shows a reliable Connection status, so it no longer reads as unavailable when RCS is actually working. The old availability flag stays as extra info.
+- The RCS export now includes more of the provisioning details (sensitive data like your number and passwords is left out).
+- Small fix to how the timezone is shown.
+
 ## [1.02] - 2026-10-04
 
 - Export is now JSON, and you can save it to a file (not just share it).
