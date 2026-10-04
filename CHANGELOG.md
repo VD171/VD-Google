@@ -2,6 +2,12 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.05] - 2026-10-04
+
+- The carrier is now detected on more phones (some Samsung and others did not report it before).
+- The "Marked unavailable" line is hidden when RCS is connected, since that backend flag can stay stale.
+- Saved exports are now named with the date and time, like vdgoogle-20261004-2014.json.
+
 ## [1.04] - 2026-10-04
 
 - Fixed a layout glitch where a long status value could stack vertically, one letter per line.
