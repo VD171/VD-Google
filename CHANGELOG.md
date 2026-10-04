@@ -2,6 +2,10 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.06] - 2026-10-04
+
+- "Last RCS message" now also counts messages you sent, not only ones you received.
+
 ## [1.05] - 2026-10-04
 
 - The carrier is now detected on more phones (some Samsung and others did not report it before).
