@@ -2,6 +2,12 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.04] - 2026-10-04
+
+- Fixed a layout glitch where a long status value could stack vertically, one letter per line.
+- The invalid-configuration reason is now hidden when there is nothing wrong, and shown without its long technical prefix when there is.
+- Extra safety on the RCS export so provisioning session cookies are never included, even in rare layouts.
+
 ## [1.03] - 2026-10-04
 
 - RCS now shows a reliable Connection status, so it no longer reads as unavailable when RCS is actually working. The old availability flag stays as extra info.
