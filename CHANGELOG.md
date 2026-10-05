@@ -2,6 +2,12 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.07] - 2026-10-04
+
+- New in the Wallet tab: "Device attested" now matches what Google Wallet shows, plus a button (with confirmation) to clear the last security-check time so Wallet re-checks on its next attestation. Every action is kept in a local log on your device. Still no internet.
+- More reliable reading of the on-device databases, so RCS details (availability, contacts, last message) and the carrier now show up on phones where they were blank.
+- Text in the RCS export now reads normally instead of showing codes like '.
+
 ## [1.06] - 2026-10-04
 
 - "Last RCS message" now also counts messages you sent, not only ones you received.
