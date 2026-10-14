@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Dịch vụ Google của bạn, đọc ngay trên máy</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Ví</string>
+    <string name="tab_att">Chứng thực</string>
+    <string name="tab_about">Giới thiệu</string>
+
+    <string name="v_yes">Có</string>
+    <string name="v_no">Không</string>
+    <string name="action_reveal">Hiện</string>
+    <string name="action_hide">Ẩn</string>
+    <string name="tz_footer">Thời gian hiển thị theo múi giờ của thiết bị: %1$s</string>
+
+    <string name="root_needed_title">Cần quyền root</string>
+    <string name="root_needed_body">VD Google đọc thông tin mà Google lưu trong các vùng được bảo vệ, chỉ hệ thống mới truy cập được. Để đọc được cần quyền siêu người dùng (root). Yêu cầu đã bị từ chối hoặc bỏ qua. Hãy cấp quyền trong trình quản lý root rồi thử lại.</string>
+    <string name="root_retry">Thử lại</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Dịch vụ</string>
+    <string name="rcs_callout_mversion_zero">Phiên bản cấu hình là 0, thường có nghĩa là nhà mạng hoặc Google chưa gửi một cấu hình RCS hợp lệ cho số máy này. Khi còn là 0, RCS thường không thể bật, ngay cả trên một chiếc máy còn nguyên vẹn.</string>
+
+    <string name="rcs_sec_status">Trạng thái</string>
+    <string name="rcs_available">RCS khả dụng</string>
+    <string name="rcs_available_m">Một chỉ báo được lưu đệm mà ứng dụng nhắn tin giữ cho số của bạn. Nó có thể vẫn cũ ngay cả khi RCS đã hoạt động, vì vậy hãy tin vào dòng Kết nối ở trên.</string>
+    <string name="rcs_connected">Kết nối</string>
+    <string name="rcs_connected_m">RCS có thực sự được thiết lập và hoạt động trên đường dây này hay không, dựa trên cấu hình trò chuyện và công cụ cấp phép. Đây là tín hiệu đáng tin cậy. Chỉ báo khả dụng bên dưới là bộ nhớ đệm theo từng liên hệ và có thể bị trễ.</string>
+    <string name="rcs_st_connected">Đã kết nối</string>
+    <string name="rcs_st_setup">Chưa kết nối</string>
+    <string name="rcs_st_off">Đã tắt</string>
+    <string name="rcs_self_number">Số RCS của bạn</string>
+    <string name="rcs_self_number_m">Số điện thoại được đăng ký cho RCS trên thiết bị này.</string>
+    <string name="rcs_state">Trạng thái RCS</string>
+    <string name="rcs_state_m">Trạng thái cấp phép nội bộ mà ứng dụng tin nhắn báo cáo cho số máy của bạn.</string>
+    <string name="rcs_cfg_version">Phiên bản cấu hình</string>
+    <string name="rcs_cfg_version_m">Phiên bản cấu hình RCS được gửi cho số máy này. Giá trị 0 nghĩa là chưa có cấu hình hợp lệ nào đến.</string>
+    <string name="rcs_capable">Liên hệ hỗ trợ RCS</string>
+    <string name="rcs_capable_m">Hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện RCS.</string>
+    <string name="rcs_flag_enabled">Tính năng đã bật</string>
+    <string name="rcs_flag_enabled_m">Ứng dụng tin nhắn có bật tính năng RCS hay không.</string>
+    <string name="rcs_flag_unavailable">Bị đánh dấu không khả dụng</string>
+    <string name="rcs_flag_unavailable_m">Dịch vụ có đánh dấu RCS là không khả dụng cho số máy này hay không.</string>
+    <string name="rcs_entitlement">Quyền của nhà mạng</string>
+    <string name="rcs_entitlement_m">Dịch vụ cấp quyền của nhà mạng cho phép RCS có được bật hay không.</string>
+    <string name="rcs_uce">Hiện diện (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, cho phép số máy của bạn thông báo và phát hiện khả năng RCS.</string>
+    <string name="rcs_ims_pkg">Có dịch vụ IMS</string>
+    <string name="rcs_ims_pkg_m">Dịch vụ IMS của nhà mạng mà RCS dựa vào có được cài trên thiết bị hay không.</string>
+
+    <string name="rcs_sec_times">Dấu thời gian</string>
+    <string name="rcs_cfg_updated">Cấu hình được cập nhật</string>
+    <string name="rcs_cfg_updated_m">Thời điểm cấu hình RCS hiện tại được nhận gần nhất.</string>
+    <string name="rcs_cfg_validity">Hiệu lực cấu hình</string>
+    <string name="rcs_cfg_validity_m">Cấu hình hiện tại còn hợp lệ trong bao lâu trước khi phải làm mới.</string>
+    <string name="rcs_token_exp">Hết hạn token</string>
+    <string name="rcs_token_exp_m">Thời điểm token cấp phép hiện tại hết hạn.</string>
+    <string name="rcs_prov_last">Cấp phép gần nhất</string>
+    <string name="rcs_prov_last_m">Thời điểm thiết bị lần gần nhất thử cấp phép RCS với nhà mạng.</string>
+    <string name="rcs_prov_next">Cấp phép kế tiếp</string>
+    <string name="rcs_prov_next_m">Thời điểm thiết bị dự định thử cấp phép lại.</string>
+    <string name="rcs_msg_last">Tin nhắn RCS gần nhất</string>
+    <string name="rcs_msg_last_m">Thời điểm tin nhắn gần nhất được gửi hoặc nhận qua RCS được ghi lại.</string>
+    <string name="rcs_cap_refresh">Khả năng được làm mới</string>
+    <string name="rcs_cap_refresh_m">Thời điểm bộ nhớ đệm khả năng RCS của các liên hệ được làm mới gần nhất.</string>
+    <string name="rcs_full_sync">Đồng bộ toàn bộ</string>
+    <string name="rcs_full_sync_m">Thời điểm ứng dụng tin nhắn thực hiện đồng bộ toàn bộ gần nhất.</string>
+    <string name="rcs_last_sync">Đồng bộ gần nhất</string>
+    <string name="rcs_last_sync_m">Thời điểm ứng dụng tin nhắn đồng bộ gần nhất.</string>
+
+    <string name="wallet_chip_attested">Đã chứng thực</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Thiết bị</string>
+    <string name="wallet_nfc">Phần cứng NFC</string>
+    <string name="wallet_nfc_m">Thiết bị này có chip NFC cần thiết để thanh toán bằng cách chạm hay không.</string>
+    <string name="wallet_pkg">Đã cài Ví</string>
+    <string name="wallet_pkg_m">Ứng dụng Google Ví có được cài trên thiết bị này hay không.</string>
+
+    <string name="wallet_sec_att">Chứng thực</string>
+    <string name="wallet_attested">Thiết bị đã chứng thực</string>
+    <string name="wallet_attested_m">Google có đánh giá thiết bị này là chính hãng và đủ an toàn để lưu thẻ thanh toán hay không. Nếu là Không, thanh toán bằng cách chạm thường không hoạt động.</string>
+    <string name="wallet_attested_time">Kiểm tra gần nhất</string>
+    <string name="wallet_attested_time_m">Thời điểm thiết bị hoàn tất lần kiểm tra an toàn này gần nhất.</string>
+    <string name="wallet_service">Dịch vụ Ví</string>
+    <string name="wallet_service_m">Dịch vụ thanh toán bên trong Google Ví có được bật hay không.</string>
+    <string name="wallet_tapandpay">Chạm để thanh toán</string>
+    <string name="wallet_tapandpay_m">Thanh toán không tiếp xúc bằng cách chạm có được bật hay không.</string>
+    <string name="wallet_password">Khóa màn hình được chấp nhận</string>
+    <string name="wallet_password_m">Khóa màn hình của bạn có được đánh giá đủ mạnh để thanh toán hay không. Ví yêu cầu khóa màn hình an toàn.</string>
+    <string name="wallet_token">Đã từng thêm thẻ</string>
+    <string name="wallet_token_m">Đã từng có thẻ thanh toán nào được thiết lập trên thiết bị này hay chưa.</string>
+    <string name="wallet_reset_btn">Đặt lại kiểm tra bảo mật Wallet</string>
+    <string name="wallet_reset_msg">Xóa thời điểm kiểm tra bảo mật gần nhất của Google Wallet ngay bây giờ, để nó kiểm tra lại ở lần chứng thực tiếp theo? Dịch vụ Google Play sẽ khởi động lại trong giây lát.</string>
+    <string name="wallet_reset_confirm">Xóa</string>
+    <string name="wallet_reset_cancel">Hủy</string>
+    <string name="wallet_reset_info">Xóa dấu thời gian kiểm tra gần nhất (last_attestation_result_time) khỏi GMS tapandpay và khởi động lại dịch vụ Play. Wallet khi đó coi việc kiểm tra là đến hạn và chứng thực lại ở lần kiểm tra nền hoặc thanh toán kế tiếp - kết quả gần nhất vẫn giữ đến lúc đó. Ghi cục bộ, không internet.</string>
+
+    <string name="att_sec_apps">Ứng dụng đã yêu cầu chứng thực</string>
+    <string name="att_intro">Những ứng dụng này gần đây đã yêu cầu Google Play Integrity bảo đảm cho thiết bị này. Đó là cách ứng dụng ngân hàng và các ứng dụng nhạy cảm khác quyết định có tin tưởng thiết bị mà chúng đang chạy hay không.</string>
+    <string name="att_empty">Gần đây không có ứng dụng nào yêu cầu chứng thực tính toàn vẹn.</string>
+    <string name="att_last_call">Yêu cầu gần nhất: %1$s</string>
+    <string name="att_calls">Yêu cầu trong cửa sổ hiện tại: %1$s</string>
+
+    <string name="about_no_internet">Ứng dụng này hoàn toàn không có quyền truy cập internet. Không điều gì bạn thấy ở đây rời khỏi thiết bị của bạn.</string>
+    <string name="about_project">Dự án</string>
+    <string name="about_developer">Nhà phát triển</string>
+    <string name="about_source">Mã nguồn</string>
+    <string name="about_license">Giấy phép</string>
+    <string name="about_contacts">Liên hệ</string>
+    <string name="about_support">Hỗ trợ</string>
+
+    <string name="action_close">Đóng</string>
+    <string name="action_language">Ngôn ngữ</string>
+    <string name="lang_title">Chọn ngôn ngữ</string>
+    <string name="lang_system">Mặc định hệ thống</string>
+    <string name="att_search">Tìm ứng dụng</string>
+    <string name="root_needed_su">Trên KernelSU, hãy bật khả năng tương thích su để ứng dụng có thể được cấp quyền root.</string>
+    <string name="action_reload">Tải lại</string>
+    <string name="action_info">Thông tin</string>
+    <string name="action_export">Xuất</string>
+    <string name="action_save">Lưu</string>
+    <string name="rcs_carrier">Nhà mạng</string>
+    <string name="rcs_carrier_m">Nhà mạng di động của số máy bạn (tên và MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Lý do cấu hình không hợp lệ</string>
+    <string name="rcs_invalid_reason_m">Nếu cấu hình RCS không hợp lệ, lý do do dịch vụ báo cáo.</string>
+</resources>

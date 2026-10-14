@@ -13,6 +13,15 @@ VD Google به شما نشان می‌دهد که خود Google درباره س�
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## اپلیکیشن یا WebUI
+
+هر نسخه به دو شکل عرضه می‌شود و هر دو همان اطلاعات را روی دستگاه شما و بدون اینترنت می‌خوانند:
+
+- **App** - فایل `.apk`، یک برنامهٔ عادی اندروید.
+- **WebUI** - فایل `.zip`، ماژولی که در مدیر روت خود (KernelSU، Magisk یا APatch) فلش می‌کنید و از همان‌جا باز می‌کنید.
+
+در هر دو حالت، روت لازم است.
+
 ## چه چیزی نمایش می‌دهد
 
 ### RCS

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Vaše služby Google, čtené v zařízení</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Peněženka</string>
+    <string name="tab_att">Atestace</string>
+    <string name="tab_about">O aplikaci</string>
+
+    <string name="v_yes">Ano</string>
+    <string name="v_no">Ne</string>
+    <string name="action_reveal">Zobrazit</string>
+    <string name="action_hide">Skrýt</string>
+    <string name="tz_footer">Časy se zobrazují v časovém pásmu vašeho zařízení: %1$s</string>
+
+    <string name="root_needed_title">Je vyžadován přístup root</string>
+    <string name="root_needed_body">VD Google čte informace, které Google ukládá v chráněných oblastech přístupných pouze systému. Ke čtení je potřeba přístup superuživatele (root). Žádost byla odmítnuta nebo zamítnuta. Udělte přístup ve svém správci rootu a zkuste to znovu.</string>
+    <string name="root_retry">Zkusit znovu</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Služba</string>
+    <string name="rcs_callout_mversion_zero">Verze konfigurace je 0, což obvykle znamená, že operátor nebo Google dosud nedodal pro tuto linku platnou konfiguraci RCS. Dokud zůstává 0, RCS se normálně nemůže zapnout, ani na nedotčeném telefonu.</string>
+
+    <string name="rcs_sec_status">Stav</string>
+    <string name="rcs_available">RCS dostupné</string>
+    <string name="rcs_available_m">Uložený příznak, který aplikace zpráv udržuje pro vaše vlastní číslo. Může zůstat neaktuální i poté, co RCS už funguje, proto se řiďte řádkem Připojení výše.</string>
+    <string name="rcs_connected">Připojení</string>
+    <string name="rcs_connected_m">Zda je RCS na této lince skutečně nastavené a funkční, podle konfigurace chatu a zřizovacího enginu. Toto je spolehlivý ukazatel. Příznak dostupnosti níže je mezipaměť pro jednotlivé kontakty a může se zpožďovat.</string>
+    <string name="rcs_st_connected">Připojeno</string>
+    <string name="rcs_st_setup">Nepřipojeno</string>
+    <string name="rcs_st_off">Vypnuto</string>
+    <string name="rcs_self_number">Vaše číslo RCS</string>
+    <string name="rcs_self_number_m">Telefonní číslo registrované pro RCS v tomto zařízení.</string>
+    <string name="rcs_state">Stav RCS</string>
+    <string name="rcs_state_m">Interní stav provisioningu hlášený aplikací pro zprávy pro vaši linku.</string>
+    <string name="rcs_cfg_version">Verze konfigurace</string>
+    <string name="rcs_cfg_version_m">Verze konfigurace RCS dodané na tuto linku. Hodnota 0 znamená, že platná konfigurace dosud nedorazila.</string>
+    <string name="rcs_capable">Kontakty s podporou RCS</string>
+    <string name="rcs_capable_m">Kolik vašich kontaktů je momentálně známo jako podporující chat RCS.</string>
+    <string name="rcs_flag_enabled">Funkce zapnuta</string>
+    <string name="rcs_flag_enabled_m">Zda má aplikace pro zprávy zapnutou funkci RCS.</string>
+    <string name="rcs_flag_unavailable">Označeno jako nedostupné</string>
+    <string name="rcs_flag_unavailable_m">Zda služba označila RCS pro tuto linku jako nedostupné.</string>
+    <string name="rcs_entitlement">Oprávnění operátora</string>
+    <string name="rcs_entitlement_m">Zda je zapnuta služba oprávnění operátora, která autorizuje RCS.</string>
+    <string name="rcs_uce">Přítomnost (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, který umožňuje vaší lince oznamovat a zjišťovat možnosti RCS.</string>
+    <string name="rcs_ims_pkg">Služba IMS přítomna</string>
+    <string name="rcs_ims_pkg_m">Zda je v zařízení nainstalována služba IMS operátora, na níž RCS závisí.</string>
+
+    <string name="rcs_sec_times">Časové značky</string>
+    <string name="rcs_cfg_updated">Konfigurace aktualizována</string>
+    <string name="rcs_cfg_updated_m">Kdy byla aktuální konfigurace RCS naposledy přijata.</string>
+    <string name="rcs_cfg_validity">Platnost konfigurace</string>
+    <string name="rcs_cfg_validity_m">Jak dlouho zůstává aktuální konfigurace platná, než se musí obnovit.</string>
+    <string name="rcs_token_exp">Vypršení tokenu</string>
+    <string name="rcs_token_exp_m">Kdy vyprší aktuální token provisioningu.</string>
+    <string name="rcs_prov_last">Poslední provisioning</string>
+    <string name="rcs_prov_last_m">Kdy se zařízení naposledy pokusilo o provisioning RCS u operátora.</string>
+    <string name="rcs_prov_next">Příští provisioning</string>
+    <string name="rcs_prov_next_m">Kdy zařízení plánuje provisioning zopakovat.</string>
+    <string name="rcs_msg_last">Poslední zpráva RCS</string>
+    <string name="rcs_msg_last_m">Kdy byla zaznamenána nejnovější zpráva odeslaná nebo přijatá přes RCS.</string>
+    <string name="rcs_cap_refresh">Možnosti obnoveny</string>
+    <string name="rcs_cap_refresh_m">Kdy byla naposledy obnovena mezipaměť možností RCS kontaktů.</string>
+    <string name="rcs_full_sync">Úplná synchronizace</string>
+    <string name="rcs_full_sync_m">Kdy aplikace pro zprávy naposledy provedla úplnou synchronizaci.</string>
+    <string name="rcs_last_sync">Poslední synchronizace</string>
+    <string name="rcs_last_sync_m">Kdy se aplikace pro zprávy naposledy synchronizovala.</string>
+
+    <string name="wallet_chip_attested">Atestováno</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Zařízení</string>
+    <string name="wallet_nfc">Hardware NFC</string>
+    <string name="wallet_nfc_m">Zda má toto zařízení čip NFC potřebný k placení přiložením.</string>
+    <string name="wallet_pkg">Peněženka nainstalována</string>
+    <string name="wallet_pkg_m">Zda je v tomto zařízení nainstalována aplikace Peněženka Google.</string>
+
+    <string name="wallet_sec_att">Atestace</string>
+    <string name="wallet_attested">Zařízení atestováno</string>
+    <string name="wallet_attested_m">Zda Google vyhodnotil toto zařízení jako pravé a dostatečně bezpečné pro uchování platebních karet. Pokud je Ne, placení přiložením obvykle nefunguje.</string>
+    <string name="wallet_attested_time">Naposledy zkontrolováno</string>
+    <string name="wallet_attested_time_m">Kdy zařízení naposledy dokončilo tuto bezpečnostní kontrolu.</string>
+    <string name="wallet_service">Služba Peněženky</string>
+    <string name="wallet_service_m">Zda je zapnuta platební služba uvnitř Peněženky Google.</string>
+    <string name="wallet_tapandpay">Placení přiložením</string>
+    <string name="wallet_tapandpay_m">Zda je zapnuto bezkontaktní placení přiložením.</string>
+    <string name="wallet_password">Zámek obrazovky přijat</string>
+    <string name="wallet_password_m">Zda byl váš zámek obrazovky vyhodnocen jako dostatečně silný pro platby. Peněženka vyžaduje bezpečný zámek obrazovky.</string>
+    <string name="wallet_token">Karta někdy přidána</string>
+    <string name="wallet_token_m">Zda byla na tomto zařízení někdy nastavena platební karta.</string>
+    <string name="wallet_reset_btn">Obnovit bezpečnostní kontrolu Wallet</string>
+    <string name="wallet_reset_msg">Vymazat nyní čas poslední bezpečnostní kontroly Google Wallet, aby při příští atestaci zkontroloval znovu? Služby Google Play se krátce restartují.</string>
+    <string name="wallet_reset_confirm">Vymazat</string>
+    <string name="wallet_reset_cancel">Zrušit</string>
+    <string name="wallet_reset_info">Smaže časové razítko poslední kontroly (last_attestation_result_time) z GMS tapandpay a restartuje služby Play. Wallet pak považuje kontrolu za nutnou a znovu atestuje při příští kontrole na pozadí nebo platbě - poslední výsledek zůstává do té doby. Zaznamenáno lokálně, bez internetu.</string>
+
+    <string name="att_sec_apps">Aplikace, které požádaly o atestaci</string>
+    <string name="att_intro">Tyto aplikace nedávno požádaly Google Play Integrity, aby se za toto zařízení zaručil. Takto bankovní a jiné citlivé aplikace rozhodují, zda důvěřují zařízení, na kterém běží.</string>
+    <string name="att_empty">Žádná aplikace nedávno nepožádala o atestaci integrity.</string>
+    <string name="att_last_call">Poslední žádost: %1$s</string>
+    <string name="att_calls">Žádosti v aktuálním okně: %1$s</string>
+
+    <string name="about_no_internet">Tato aplikace nemá vůbec žádné oprávnění k internetu. Nic z toho, co zde vidíte, nikdy neopustí vaše zařízení.</string>
+    <string name="about_project">Projekt</string>
+    <string name="about_developer">Vývojář</string>
+    <string name="about_source">Zdrojový kód</string>
+    <string name="about_license">Licence</string>
+    <string name="about_contacts">Kontakty</string>
+    <string name="about_support">Podpora</string>
+
+    <string name="action_close">Zavřít</string>
+    <string name="action_language">Jazyk</string>
+    <string name="lang_title">Vyberte jazyk</string>
+    <string name="lang_system">Výchozí systému</string>
+    <string name="att_search">Hledat aplikace</string>
+    <string name="root_needed_su">V KernelSU zapněte kompatibilitu su, aby aplikace mohly získat root.</string>
+    <string name="action_reload">Znovu načíst</string>
+    <string name="action_info">Info</string>
+    <string name="action_export">Exportovat</string>
+    <string name="action_save">Uložit</string>
+    <string name="rcs_carrier">Operátor</string>
+    <string name="rcs_carrier_m">Mobilní operátor vaší linky (název a MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Důvod neplatné konfigurace</string>
+    <string name="rcs_invalid_reason_m">Pokud je konfigurace RCS neplatná, důvod hlášený službou.</string>
+</resources>

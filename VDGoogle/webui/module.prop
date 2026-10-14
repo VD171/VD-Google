@@ -1,0 +1,8 @@
+id=vdgoogle
+name=VD Google (WebUI)
+version=v1.08
+versionCode=9
+author=VD171
+description=Read your RCS, Google Wallet and Play Integrity attestation state on-device, via root. No internet. Open the WebUI from your root manager.
+minMagisk=20400
+updateJson=https://raw.githubusercontent.com/VD171/VD-Google/main/VDGoogle/webui/update.json

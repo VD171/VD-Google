@@ -13,6 +13,15 @@ VD Google แสดงให้คุณเห็นสิ่งที่ Google
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## แอปหรือ WebUI
+
+แต่ละรุ่นมีให้สองแบบ และทั้งสองแบบอ่านข้อมูลเดียวกันบนอุปกรณ์ของคุณโดยไม่ใช้อินเทอร์เน็ต:
+
+- **App** - ไฟล์ `.apk` แอป Android ทั่วไป
+- **WebUI** - ไฟล์ `.zip` โมดูลที่คุณแฟลชในตัวจัดการ root (KernelSU, Magisk หรือ APatch) แล้วเปิดจากที่นั่น
+
+ไม่ว่าแบบใดก็ต้องใช้ root
+
 ## แสดงอะไรบ้าง
 
 ### RCS

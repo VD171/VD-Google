@@ -13,6 +13,15 @@ VD Google visar vad Google självt registrerar i din telefon om tre saker, och f
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## App eller WebUI
+
+Varje version finns i två former, och båda läser samma saker på din enhet, utan internet:
+
+- **App** - `.apk`-filen, en vanlig Android-app.
+- **WebUI** - `.zip`-filen, en modul som du flashar i din root-hanterare (KernelSU, Magisk eller APatch) och öppnar därifrån.
+
+I båda fallen krävs root.
+
 ## Vad den visar
 
 ### RCS

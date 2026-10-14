@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">سرویس‌های Google شما، خوانده‌شده روی دستگاه</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">کیف پول</string>
+    <string name="tab_att">گواهی‌ها</string>
+    <string name="tab_about">درباره</string>
+
+    <string name="v_yes">بله</string>
+    <string name="v_no">خیر</string>
+    <string name="action_reveal">نمایش</string>
+    <string name="action_hide">پنهان کردن</string>
+    <string name="tz_footer">زمان‌ها بر اساس منطقه زمانی دستگاه شما نمایش داده می‌شوند: %1$s</string>
+
+    <string name="root_needed_title">دسترسی روت لازم است</string>
+    <string name="root_needed_body">VD Google اطلاعاتی را می‌خواند که Google آن‌ها را در نواحی محافظت‌شده‌ای نگه می‌دارد که فقط سیستم به آن‌ها دسترسی دارد. برای خواندن آن‌ها دسترسی اَبَرکاربر (روت) لازم است. درخواست رد یا نادیده گرفته شد. دسترسی را در مدیر روت خود بدهید و دوباره تلاش کنید.</string>
+    <string name="root_retry">تلاش دوباره</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">سرویس</string>
+    <string name="rcs_callout_mversion_zero">نسخه پیکربندی ۰ است، که معمولاً یعنی اپراتور یا Google هنوز یک پیکربندی معتبر RCS برای این خط نفرستاده است. تا زمانی که ۰ بماند، RCS معمولاً حتی روی گوشی دست‌نخورده هم روشن نمی‌شود.</string>
+
+    <string name="rcs_sec_status">وضعیت</string>
+    <string name="rcs_available">RCS در دسترس</string>
+    <string name="rcs_available_m">نشانگری ذخیره‌شده که برنامهٔ پیام‌رسان برای شمارهٔ خودتان نگه می‌دارد. ممکن است پس از کارکردن RCS همچنان قدیمی بماند، پس به خط اتصال بالا اعتماد کنید.</string>
+    <string name="rcs_connected">اتصال</string>
+    <string name="rcs_connected_m">اینکه آیا RCS واقعاً روی این خط تنظیم شده و کار می‌کند، بر اساس پیکربندی گفتگو و موتور تأمین. این نشانهٔ قابل‌اعتماد است. نشانگر دسترس‌پذیری پایین یک حافظهٔ موقت برای هر مخاطب است و ممکن است عقب بماند.</string>
+    <string name="rcs_st_connected">متصل</string>
+    <string name="rcs_st_setup">متصل نیست</string>
+    <string name="rcs_st_off">خاموش</string>
+    <string name="rcs_self_number">شماره RCS شما</string>
+    <string name="rcs_self_number_m">شماره تلفنی که روی این دستگاه برای RCS ثبت شده است.</string>
+    <string name="rcs_state">وضعیت RCS</string>
+    <string name="rcs_state_m">وضعیت داخلی تدارک که اپ پیام‌رسان برای خط شما گزارش می‌دهد.</string>
+    <string name="rcs_cfg_version">نسخه پیکربندی</string>
+    <string name="rcs_cfg_version_m">نسخه پیکربندی RCS که به این خط رسیده است. مقدار ۰ یعنی هنوز پیکربندی معتبری نرسیده است.</string>
+    <string name="rcs_capable">مخاطبان با قابلیت RCS</string>
+    <string name="rcs_capable_m">چند نفر از مخاطبان شما در حال حاضر شناخته‌شده‌اند که از گفتگوی RCS پشتیبانی می‌کنند.</string>
+    <string name="rcs_flag_enabled">قابلیت فعال</string>
+    <string name="rcs_flag_enabled_m">اینکه آیا اپ پیام‌رسان قابلیت RCS را روشن کرده است.</string>
+    <string name="rcs_flag_unavailable">علامت‌خورده به‌عنوان در دسترس نبودن</string>
+    <string name="rcs_flag_unavailable_m">اینکه آیا سرویس، RCS را برای این خط به‌عنوان در دسترس نبودن علامت زده است.</string>
+    <string name="rcs_entitlement">اجازه اپراتور</string>
+    <string name="rcs_entitlement_m">اینکه آیا سرویس اجازه اپراتور که RCS را مجاز می‌کند فعال است.</string>
+    <string name="rcs_uce">حضور (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange، که به خط شما اجازه می‌دهد قابلیت‌های RCS را اعلام و کشف کند.</string>
+    <string name="rcs_ims_pkg">سرویس IMS موجود</string>
+    <string name="rcs_ims_pkg_m">اینکه آیا سرویس IMS اپراتور که RCS به آن متکی است روی دستگاه نصب است.</string>
+
+    <string name="rcs_sec_times">برچسب‌های زمانی</string>
+    <string name="rcs_cfg_updated">پیکربندی به‌روزرسانی شد</string>
+    <string name="rcs_cfg_updated_m">آخرین باری که پیکربندی فعلی RCS دریافت شد.</string>
+    <string name="rcs_cfg_validity">اعتبار پیکربندی</string>
+    <string name="rcs_cfg_validity_m">پیکربندی فعلی تا پیش از نیاز به تمدید چه مدت معتبر می‌ماند.</string>
+    <string name="rcs_token_exp">انقضای توکن</string>
+    <string name="rcs_token_exp_m">زمانی که توکن تدارک فعلی منقضی می‌شود.</string>
+    <string name="rcs_prov_last">آخرین تدارک</string>
+    <string name="rcs_prov_last_m">آخرین باری که دستگاه تلاش کرد RCS را نزد اپراتور تدارک ببیند.</string>
+    <string name="rcs_prov_next">تدارک بعدی</string>
+    <string name="rcs_prov_next_m">زمانی که دستگاه قصد دارد دوباره تدارک را امتحان کند.</string>
+    <string name="rcs_msg_last">آخرین پیام RCS</string>
+    <string name="rcs_msg_last_m">زمانی که تازه‌ترین پیام ارسال یا دریافت‌شده از طریق RCS ثبت شد.</string>
+    <string name="rcs_cap_refresh">قابلیت‌ها تازه‌سازی شد</string>
+    <string name="rcs_cap_refresh_m">آخرین باری که حافظه نهان قابلیت‌های RCS مخاطبان تازه‌سازی شد.</string>
+    <string name="rcs_full_sync">همگام‌سازی کامل</string>
+    <string name="rcs_full_sync_m">آخرین باری که اپ پیام‌رسان همگام‌سازی کامل انجام داد.</string>
+    <string name="rcs_last_sync">آخرین همگام‌سازی</string>
+    <string name="rcs_last_sync_m">آخرین باری که اپ پیام‌رسان همگام‌سازی کرد.</string>
+
+    <string name="wallet_chip_attested">گواهی‌شده</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">دستگاه</string>
+    <string name="wallet_nfc">سخت‌افزار NFC</string>
+    <string name="wallet_nfc_m">اینکه آیا این دستگاه تراشه NFC لازم برای پرداخت با تماس را دارد.</string>
+    <string name="wallet_pkg">کیف پول نصب‌شده</string>
+    <string name="wallet_pkg_m">اینکه آیا اپ Google Wallet روی این دستگاه نصب است.</string>
+
+    <string name="wallet_sec_att">گواهی</string>
+    <string name="wallet_attested">دستگاه گواهی‌شده</string>
+    <string name="wallet_attested_m">اینکه آیا Google این دستگاه را اصل و به‌اندازه کافی امن برای نگهداری کارت‌های پرداخت دانسته است. اگر خیر باشد، پرداخت با تماس معمولاً کار نمی‌کند.</string>
+    <string name="wallet_attested_time">آخرین بررسی</string>
+    <string name="wallet_attested_time_m">آخرین باری که دستگاه این بررسی امنیتی را کامل کرد.</string>
+    <string name="wallet_service">سرویس کیف پول</string>
+    <string name="wallet_service_m">اینکه آیا سرویس پرداخت درون Google Wallet روشن است.</string>
+    <string name="wallet_tapandpay">پرداخت با تماس</string>
+    <string name="wallet_tapandpay_m">اینکه آیا پرداخت بدون تماس با نزدیک کردن فعال است.</string>
+    <string name="wallet_password">قفل صفحه پذیرفته‌شده</string>
+    <string name="wallet_password_m">اینکه آیا قفل صفحه شما برای پرداخت‌ها به‌اندازه کافی قوی تشخیص داده شد. کیف پول به یک قفل صفحه امن نیاز دارد.</string>
+    <string name="wallet_token">تا کنون کارتی افزوده شده</string>
+    <string name="wallet_token_m">اینکه آیا تا کنون کارت پرداختی روی این دستگاه تنظیم شده است.</string>
+    <string name="wallet_reset_btn">بازنشانی بررسی امنیتی Wallet</string>
+    <string name="wallet_reset_msg">زمان آخرین بررسی امنیتی Google Wallet اکنون پاک شود تا در تأیید بعدی دوباره بررسی کند؟ سرویس‌های Google Play کمی بازراه‌اندازی می‌شوند.</string>
+    <string name="wallet_reset_confirm">پاک کردن</string>
+    <string name="wallet_reset_cancel">لغو</string>
+    <string name="wallet_reset_info">برچسب زمانی آخرین بررسی (last_attestation_result_time) را از GMS tapandpay حذف می‌کند و سرویس‌های Play را بازراه‌اندازی می‌کند. آنگاه Wallet بررسی را سررسیدشده می‌داند و در بررسی پس‌زمینه یا پرداخت بعدی دوباره تأیید می‌کند - نتیجهٔ آخر تا آن زمان می‌ماند. به‌صورت محلی ثبت می‌شود، بدون اینترنت.</string>
+
+    <string name="att_sec_apps">اپ‌هایی که درخواست گواهی داده‌اند</string>
+    <string name="att_intro">این اپ‌ها اخیراً از Google Play Integrity خواسته‌اند تا این دستگاه را تضمین کند. اپ‌های بانکی و دیگر اپ‌های حساس این‌گونه تصمیم می‌گیرند که آیا به دستگاهی که روی آن اجرا می‌شوند اعتماد کنند یا نه.</string>
+    <string name="att_empty">اخیراً هیچ اپی درخواست گواهی یکپارچگی نداده است.</string>
+    <string name="att_last_call">آخرین درخواست: %1$s</string>
+    <string name="att_calls">درخواست‌ها در بازه فعلی: %1$s</string>
+
+    <string name="about_no_internet">این اپ هیچ مجوز اینترنتی ندارد. هیچ‌چیزی از آنچه اینجا می‌بینید هرگز از دستگاه شما خارج نمی‌شود.</string>
+    <string name="about_project">پروژه</string>
+    <string name="about_developer">توسعه‌دهنده</string>
+    <string name="about_source">کد منبع</string>
+    <string name="about_license">مجوز</string>
+    <string name="about_contacts">راه‌های ارتباط</string>
+    <string name="about_support">پشتیبانی</string>
+
+    <string name="action_close">بستن</string>
+    <string name="action_language">زبان</string>
+    <string name="lang_title">انتخاب زبان</string>
+    <string name="lang_system">پیش‌فرض سیستم</string>
+    <string name="att_search">جستجوی برنامه‌ها</string>
+    <string name="root_needed_su">در KernelSU سازگاری su را روشن کنید تا برنامه‌ها بتوانند روت بگیرند.</string>
+    <string name="action_reload">بارگذاری مجدد</string>
+    <string name="action_info">اطلاعات</string>
+    <string name="action_export">برون‌بری</string>
+    <string name="action_save">ذخیره</string>
+    <string name="rcs_carrier">اپراتور</string>
+    <string name="rcs_carrier_m">اپراتور تلفن همراه خط شما (نام و MCC/MNC).</string>
+    <string name="rcs_invalid_reason">دلیل پیکربندی نامعتبر</string>
+    <string name="rcs_invalid_reason_m">اگر پیکربندی RCS نامعتبر باشد، دلیلی که سرویس گزارش می‌دهد.</string>
+</resources>

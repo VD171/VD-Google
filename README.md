@@ -13,6 +13,15 @@ VD Google shows you what Google itself records on your phone about three things,
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## App or WebUI
+
+Every release comes two ways, and both read the same things on your device with no internet:
+
+- **App** - the `.apk`, a normal Android app.
+- **WebUI** - the `.zip`, a module you flash in your root manager (KernelSU, Magisk or APatch) and open from there.
+
+Either way, root is required.
+
 ## What it shows
 
 ### RCS

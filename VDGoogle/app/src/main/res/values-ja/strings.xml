@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">あなたの Google サービスを端末上で読み取る</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">ウォレット</string>
+    <string name="tab_att">認証</string>
+    <string name="tab_about">概要</string>
+
+    <string name="v_yes">はい</string>
+    <string name="v_no">いいえ</string>
+    <string name="action_reveal">表示</string>
+    <string name="action_hide">非表示</string>
+    <string name="tz_footer">時刻は端末のタイムゾーンで表示されます: %1$s</string>
+
+    <string name="root_needed_title">Root アクセスが必要です</string>
+    <string name="root_needed_body">VD Google は、Google がシステムのみアクセスできる保護領域に保存している情報を読み取ります。読み取るにはスーパーユーザー (root) アクセスが必要です。要求は拒否されたか無視されました。root マネージャーでアクセスを許可してから、もう一度お試しください。</string>
+    <string name="root_retry">再試行</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">サービス</string>
+    <string name="rcs_callout_mversion_zero">構成バージョンが 0 です。これは通常、通信事業者または Google がこの回線にまだ有効な RCS 構成を配信していないことを意味します。0 のままでは、改変していない端末でも通常 RCS は有効になりません。</string>
+
+    <string name="rcs_sec_status">状態</string>
+    <string name="rcs_available">RCS 利用可能</string>
+    <string name="rcs_available_m">メッセージアプリが自分の番号について保持するキャッシュのフラグです。RCS がすでに動作していても古いままになることがあるため、上の接続の行を信頼してください。</string>
+    <string name="rcs_connected">接続</string>
+    <string name="rcs_connected_m">チャット設定とプロビジョニングエンジンに基づき、この回線で RCS が実際に設定され動作しているかどうか。これが信頼できる指標です。下の利用可否フラグは連絡先ごとのキャッシュで、遅れることがあります。</string>
+    <string name="rcs_st_connected">接続済み</string>
+    <string name="rcs_st_setup">未接続</string>
+    <string name="rcs_st_off">オフ</string>
+    <string name="rcs_self_number">あなたの RCS 番号</string>
+    <string name="rcs_self_number_m">この端末で RCS 用に登録されている電話番号。</string>
+    <string name="rcs_state">RCS の状態</string>
+    <string name="rcs_state_m">メッセージアプリが回線について報告する内部プロビジョニング状態。</string>
+    <string name="rcs_cfg_version">構成バージョン</string>
+    <string name="rcs_cfg_version_m">この回線に配信された RCS 構成のバージョン。値が 0 の場合、有効な構成がまだ届いていないことを示します。</string>
+    <string name="rcs_capable">RCS 対応の連絡先</string>
+    <string name="rcs_capable_m">現在 RCS チャットに対応していると判明している連絡先の数。</string>
+    <string name="rcs_flag_enabled">機能が有効</string>
+    <string name="rcs_flag_enabled_m">メッセージアプリで RCS 機能がオンになっているかどうか。</string>
+    <string name="rcs_flag_unavailable">利用不可と表示</string>
+    <string name="rcs_flag_unavailable_m">サービスがこの回線の RCS を利用不可として表示しているかどうか。</string>
+    <string name="rcs_entitlement">事業者の権限</string>
+    <string name="rcs_entitlement_m">RCS を許可する通信事業者の権限サービスが有効かどうか。</string>
+    <string name="rcs_uce">プレゼンス (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange。回線が RCS の機能を通知し、検出できるようにします。</string>
+    <string name="rcs_ims_pkg">IMS サービスあり</string>
+    <string name="rcs_ims_pkg_m">RCS が依存する通信事業者の IMS サービスが端末にインストールされているかどうか。</string>
+
+    <string name="rcs_sec_times">タイムスタンプ</string>
+    <string name="rcs_cfg_updated">構成を更新</string>
+    <string name="rcs_cfg_updated_m">現在の RCS 構成を最後に受信した日時。</string>
+    <string name="rcs_cfg_validity">構成の有効期間</string>
+    <string name="rcs_cfg_validity_m">現在の構成が更新を必要とするまで有効であり続ける期間。</string>
+    <string name="rcs_token_exp">トークンの有効期限</string>
+    <string name="rcs_token_exp_m">現在のプロビジョニングトークンが期限切れになる日時。</string>
+    <string name="rcs_prov_last">前回のプロビジョニング</string>
+    <string name="rcs_prov_last_m">端末が通信事業者で RCS のプロビジョニングを最後に試みた日時。</string>
+    <string name="rcs_prov_next">次回のプロビジョニング</string>
+    <string name="rcs_prov_next_m">端末が次にプロビジョニングを試みる予定の日時。</string>
+    <string name="rcs_msg_last">最後の RCS メッセージ</string>
+    <string name="rcs_msg_last_m">RCS で送受信された最新のメッセージが記録された日時。</string>
+    <string name="rcs_cap_refresh">機能を更新</string>
+    <string name="rcs_cap_refresh_m">連絡先の RCS 機能のキャッシュを最後に更新した日時。</string>
+    <string name="rcs_full_sync">完全同期</string>
+    <string name="rcs_full_sync_m">メッセージアプリが最後に完全同期を実行した日時。</string>
+    <string name="rcs_last_sync">最後の同期</string>
+    <string name="rcs_last_sync_m">メッセージアプリが最後に同期した日時。</string>
+
+    <string name="wallet_chip_attested">認証済み</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">端末</string>
+    <string name="wallet_nfc">NFC ハードウェア</string>
+    <string name="wallet_nfc_m">この端末にタッチ決済に必要な NFC チップがあるかどうか。</string>
+    <string name="wallet_pkg">ウォレットをインストール済み</string>
+    <string name="wallet_pkg_m">この端末に Google ウォレットアプリがインストールされているかどうか。</string>
+
+    <string name="wallet_sec_att">認証</string>
+    <string name="wallet_attested">端末が認証済み</string>
+    <string name="wallet_attested_m">Google がこの端末を正規かつ決済カードを保持できるほど安全と判断したかどうか。いいえの場合、タッチ決済は通常機能しません。</string>
+    <string name="wallet_attested_time">最終確認</string>
+    <string name="wallet_attested_time_m">端末がこのセキュリティ確認を最後に完了した日時。</string>
+    <string name="wallet_service">ウォレットサービス</string>
+    <string name="wallet_service_m">Google ウォレット内の決済サービスがオンかどうか。</string>
+    <string name="wallet_tapandpay">タッチ決済</string>
+    <string name="wallet_tapandpay_m">非接触のタッチ決済が有効かどうか。</string>
+    <string name="wallet_password">画面ロックが承認済み</string>
+    <string name="wallet_password_m">画面ロックが決済に十分に強いと判断されたかどうか。ウォレットには安全な画面ロックが必要です。</string>
+    <string name="wallet_token">カードの追加履歴</string>
+    <string name="wallet_token_m">この端末にこれまで決済カードが設定されたことがあるかどうか。</string>
+    <string name="wallet_reset_btn">Wallet のセキュリティ確認をリセット</string>
+    <string name="wallet_reset_msg">Google Wallet の最後のセキュリティ確認の時刻を今すぐ消去し、次の認証で再確認させますか？ Google Play サービスが少し再起動します。</string>
+    <string name="wallet_reset_confirm">消去</string>
+    <string name="wallet_reset_cancel">キャンセル</string>
+    <string name="wallet_reset_info">最後の確認のタイムスタンプ（last_attestation_result_time）を GMS tapandpay から削除し、Play サービスを再起動します。すると Wallet は確認を期限切れと見なし、次のバックグラウンドまたは支払い確認時に再認証します - それまで直近の判定は残ります。ローカルに記録、インターネットなし。</string>
+
+    <string name="att_sec_apps">認証を要求したアプリ</string>
+    <string name="att_intro">これらのアプリは最近、Google Play Integrity にこの端末の保証を要求しました。銀行などの機密性の高いアプリは、こうして実行中の端末を信頼するかどうかを判断します。</string>
+    <string name="att_empty">最近、整合性の認証を要求したアプリはありません。</string>
+    <string name="att_last_call">最後の要求: %1$s</string>
+    <string name="att_calls">現在のウィンドウ内の要求数: %1$s</string>
+
+    <string name="about_no_internet">このアプリにはインターネット権限が一切ありません。ここで見える情報が端末の外に出ることは決してありません。</string>
+    <string name="about_project">プロジェクト</string>
+    <string name="about_developer">開発者</string>
+    <string name="about_source">ソースコード</string>
+    <string name="about_license">ライセンス</string>
+    <string name="about_contacts">連絡先</string>
+    <string name="about_support">サポート</string>
+
+    <string name="action_close">閉じる</string>
+    <string name="action_language">言語</string>
+    <string name="lang_title">言語を選択</string>
+    <string name="lang_system">システムの既定</string>
+    <string name="att_search">アプリを検索</string>
+    <string name="root_needed_su">KernelSU では、アプリが root を取得できるように su 互換性を有効にしてください。</string>
+    <string name="action_reload">再読み込み</string>
+    <string name="action_info">情報</string>
+    <string name="action_export">エクスポート</string>
+    <string name="action_save">保存</string>
+    <string name="rcs_carrier">通信事業者</string>
+    <string name="rcs_carrier_m">回線の通信事業者 (名前と MCC/MNC)。</string>
+    <string name="rcs_invalid_reason">無効な構成の理由</string>
+    <string name="rcs_invalid_reason_m">RCS 構成が無効な場合に、サービスが報告する理由。</string>
+</resources>

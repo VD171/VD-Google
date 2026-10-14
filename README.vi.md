@@ -13,6 +13,15 @@ VD Google cho bạn thấy những gì chính Google ghi lại trên điện tho
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## Ứng dụng hoặc WebUI
+
+Mỗi bản phát hành có hai dạng, và cả hai đều đọc cùng những thông tin trên thiết bị của bạn, không cần internet:
+
+- **App** - tệp `.apk`, một ứng dụng Android thông thường.
+- **WebUI** - tệp `.zip`, một mô-đun bạn cài trong trình quản lý root (KernelSU, Magisk hoặc APatch) và mở từ đó.
+
+Dù bằng cách nào, vẫn cần quyền root.
+
 ## Những gì ứng dụng hiển thị
 
 ### RCS

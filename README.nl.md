@@ -13,6 +13,15 @@ VD Google laat je zien wat Google zelf op je telefoon vastlegt over drie dingen,
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## App of WebUI
+
+Elke release komt in twee vormen, en beide lezen dezelfde dingen op je apparaat, zonder internet:
+
+- **App** - de `.apk`, een gewone Android-app.
+- **WebUI** - de `.zip`, een module die je in je root-manager (KernelSU, Magisk of APatch) flasht en daar opent.
+
+In beide gevallen is root vereist.
+
 ## Wat het toont
 
 ### RCS

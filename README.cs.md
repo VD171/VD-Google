@@ -13,6 +13,15 @@ VD Google vám ukáže, co si sám Google ve vašem telefonu zaznamenává o tř
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## Aplikace nebo WebUI
+
+Každé vydání je dostupné ve dvou podobách a obě čtou totéž ve vašem zařízení, bez internetu:
+
+- **App** - soubor `.apk`, běžná aplikace pro Android.
+- **WebUI** - soubor `.zip`, modul, který nainstalujete ve svém správci rootu (KernelSU, Magisk nebo APatch) a odtud jej otevřete.
+
+V obou případech je vyžadován root.
+
 ## Co zobrazuje
 
 ### RCS

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">你的 Google 服务，在本机读取</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">钱包</string>
+    <string name="tab_att">认证</string>
+    <string name="tab_about">关于</string>
+
+    <string name="v_yes">是</string>
+    <string name="v_no">否</string>
+    <string name="action_reveal">显示</string>
+    <string name="action_hide">隐藏</string>
+    <string name="tz_footer">时间以你设备的时区显示：%1$s</string>
+
+    <string name="root_needed_title">需要 Root 权限</string>
+    <string name="root_needed_body">VD Google 读取 Google 存放在仅系统可访问的受保护区域中的信息。读取这些信息需要超级用户（root）权限。请求被拒绝或忽略。请在你的 root 管理器中授予权限，然后重试。</string>
+    <string name="root_retry">重试</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">服务</string>
+    <string name="rcs_callout_mversion_zero">配置版本为 0，这通常表示运营商或 Google 尚未向该号码下发有效的 RCS 配置。只要保持为 0，即使是未经改动的手机，RCS 通常也无法开启。</string>
+
+    <string name="rcs_sec_status">状态</string>
+    <string name="rcs_available">RCS 可用</string>
+    <string name="rcs_available_m">短信应用为你自己的号码保存的缓存标志。即使 RCS 已经工作，它也可能保持过时，因此请以上方的连接行为准。</string>
+    <string name="rcs_connected">连接</string>
+    <string name="rcs_connected_m">根据聊天配置和预配引擎，判断此线路上的 RCS 是否真正设置并正常工作。这是可靠的信号。下方的可用性标志是按联系人缓存的，可能会滞后。</string>
+    <string name="rcs_st_connected">已连接</string>
+    <string name="rcs_st_setup">未连接</string>
+    <string name="rcs_st_off">已关闭</string>
+    <string name="rcs_self_number">你的 RCS 号码</string>
+    <string name="rcs_self_number_m">本机为 RCS 注册的电话号码。</string>
+    <string name="rcs_state">RCS 状态</string>
+    <string name="rcs_state_m">消息应用为你的号码报告的内部开通状态。</string>
+    <string name="rcs_cfg_version">配置版本</string>
+    <string name="rcs_cfg_version_m">下发到该号码的 RCS 配置版本。值为 0 表示尚未收到有效配置。</string>
+    <string name="rcs_capable">支持 RCS 的联系人</string>
+    <string name="rcs_capable_m">目前已知有多少联系人支持 RCS 聊天。</string>
+    <string name="rcs_flag_enabled">功能已启用</string>
+    <string name="rcs_flag_enabled_m">消息应用是否已开启 RCS 功能。</string>
+    <string name="rcs_flag_unavailable">被标记为不可用</string>
+    <string name="rcs_flag_unavailable_m">服务是否已将该号码的 RCS 标记为不可用。</string>
+    <string name="rcs_entitlement">运营商授权</string>
+    <string name="rcs_entitlement_m">授权 RCS 的运营商授权服务是否已启用。</string>
+    <string name="rcs_uce">在线状态（UCE）</string>
+    <string name="rcs_uce_m">User Capability Exchange，让你的号码可以宣告并发现 RCS 能力。</string>
+    <string name="rcs_ims_pkg">存在 IMS 服务</string>
+    <string name="rcs_ims_pkg_m">RCS 所依赖的运营商 IMS 服务是否已安装在设备上。</string>
+
+    <string name="rcs_sec_times">时间戳</string>
+    <string name="rcs_cfg_updated">配置更新</string>
+    <string name="rcs_cfg_updated_m">最近一次收到当前 RCS 配置的时间。</string>
+    <string name="rcs_cfg_validity">配置有效期</string>
+    <string name="rcs_cfg_validity_m">当前配置在需要刷新之前还能保持有效的时长。</string>
+    <string name="rcs_token_exp">令牌到期</string>
+    <string name="rcs_token_exp_m">当前开通令牌的到期时间。</string>
+    <string name="rcs_prov_last">上次开通</string>
+    <string name="rcs_prov_last_m">设备上次尝试向运营商开通 RCS 的时间。</string>
+    <string name="rcs_prov_next">下次开通</string>
+    <string name="rcs_prov_next_m">设备计划再次尝试开通的时间。</string>
+    <string name="rcs_msg_last">上一条 RCS 消息</string>
+    <string name="rcs_msg_last_m">记录到最近一条通过 RCS 发送或接收的消息的时间。</string>
+    <string name="rcs_cap_refresh">能力刷新</string>
+    <string name="rcs_cap_refresh_m">上次刷新联系人 RCS 能力缓存的时间。</string>
+    <string name="rcs_full_sync">完整同步</string>
+    <string name="rcs_full_sync_m">消息应用上次执行完整同步的时间。</string>
+    <string name="rcs_last_sync">上次同步</string>
+    <string name="rcs_last_sync_m">消息应用上次同步的时间。</string>
+
+    <string name="wallet_chip_attested">已认证</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">设备</string>
+    <string name="wallet_nfc">NFC 硬件</string>
+    <string name="wallet_nfc_m">本机是否具备刷卡支付所需的 NFC 芯片。</string>
+    <string name="wallet_pkg">已安装钱包</string>
+    <string name="wallet_pkg_m">本机是否已安装 Google 钱包应用。</string>
+
+    <string name="wallet_sec_att">认证</string>
+    <string name="wallet_attested">设备已认证</string>
+    <string name="wallet_attested_m">Google 是否判定本机为正品且足够安全，可以保存支付卡。如果为否，刷卡支付通常无法使用。</string>
+    <string name="wallet_attested_time">上次检查</string>
+    <string name="wallet_attested_time_m">设备上次完成该安全检查的时间。</string>
+    <string name="wallet_service">钱包服务</string>
+    <string name="wallet_service_m">Google 钱包内部的支付服务是否已开启。</string>
+    <string name="wallet_tapandpay">刷卡支付</string>
+    <string name="wallet_tapandpay_m">是否已启用非接触式刷卡支付。</string>
+    <string name="wallet_password">屏幕锁已接受</string>
+    <string name="wallet_password_m">你的屏幕锁是否被判定为足够强以用于支付。钱包要求使用安全的屏幕锁。</string>
+    <string name="wallet_token">曾添加过卡片</string>
+    <string name="wallet_token_m">本机是否曾经设置过支付卡。</string>
+    <string name="wallet_reset_btn">重置 Wallet 安全检查</string>
+    <string name="wallet_reset_msg">现在清除 Google Wallet 上次安全检查的时间，让它在下次证明时重新检查吗？Google Play 服务会短暂重启。</string>
+    <string name="wallet_reset_confirm">清除</string>
+    <string name="wallet_reset_cancel">取消</string>
+    <string name="wallet_reset_info">从 GMS tapandpay 删除上次检查的时间戳（last_attestation_result_time）并重启 Play 服务。随后 Wallet 会将检查视为到期，并在下次后台或支付检查时重新证明 - 在此之前保留上次的结果。本地记录，无网络。</string>
+
+    <string name="att_sec_apps">请求过认证的应用</string>
+    <string name="att_intro">这些应用最近请求 Google Play Integrity 为本机背书。银行等敏感应用正是以此决定是否信任其运行所在的设备。</string>
+    <string name="att_empty">最近没有应用请求过完整性认证。</string>
+    <string name="att_last_call">上次请求：%1$s</string>
+    <string name="att_calls">当前时间窗内的请求数：%1$s</string>
+
+    <string name="about_no_internet">本应用完全没有任何联网权限。你在这里看到的一切都绝不会离开你的设备。</string>
+    <string name="about_project">项目</string>
+    <string name="about_developer">开发者</string>
+    <string name="about_source">源代码</string>
+    <string name="about_license">许可证</string>
+    <string name="about_contacts">联系方式</string>
+    <string name="about_support">支持</string>
+
+    <string name="action_close">关闭</string>
+    <string name="action_language">语言</string>
+    <string name="lang_title">选择语言</string>
+    <string name="lang_system">系统默认</string>
+    <string name="att_search">搜索应用</string>
+    <string name="root_needed_su">在 KernelSU 上，请启用 su 兼容性，应用才能获得 root。</string>
+    <string name="action_reload">重新加载</string>
+    <string name="action_info">信息</string>
+    <string name="action_export">导出</string>
+    <string name="action_save">保存</string>
+    <string name="rcs_carrier">运营商</string>
+    <string name="rcs_carrier_m">你号码的移动运营商（名称和 MCC/MNC）。</string>
+    <string name="rcs_invalid_reason">配置无效原因</string>
+    <string name="rcs_invalid_reason_m">如果 RCS 配置无效，服务报告的原因。</string>
+</resources>

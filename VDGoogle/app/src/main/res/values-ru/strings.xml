@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Ваши сервисы Google, прочитанные на устройстве</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Кошелёк</string>
+    <string name="tab_att">Аттестации</string>
+    <string name="tab_about">О приложении</string>
+
+    <string name="v_yes">Да</string>
+    <string name="v_no">Нет</string>
+    <string name="action_reveal">Показать</string>
+    <string name="action_hide">Скрыть</string>
+    <string name="tz_footer">Время показано в часовом поясе вашего устройства: %1$s</string>
+
+    <string name="root_needed_title">Требуется root-доступ</string>
+    <string name="root_needed_body">VD Google читает сведения, которые Google хранит в защищённых областях, доступных только системе. Для их чтения нужен доступ суперпользователя (root). Запрос был отклонён или отменён. Предоставьте доступ в своём менеджере root и повторите попытку.</string>
+    <string name="root_retry">Повторить</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Служба</string>
+    <string name="rcs_callout_mversion_zero">Версия конфигурации равна 0, что обычно означает, что оператор или Google ещё не доставил действительную конфигурацию RCS на эту линию. Пока значение остаётся 0, RCS, как правило, не может включиться даже на нетронутом телефоне.</string>
+
+    <string name="rcs_sec_status">Состояние</string>
+    <string name="rcs_available">RCS доступен</string>
+    <string name="rcs_available_m">Кэшированный признак, который приложение сообщений хранит для вашего номера. Он может оставаться устаревшим даже после того, как RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
+    <string name="rcs_connected">Подключение</string>
+    <string name="rcs_connected_m">Действительно ли RCS настроен и работает на этой линии, судя по конфигурации чата и движку подготовки. Это надёжный признак. Показатель доступности ниже - это кэш по каждому контакту, и он может отставать.</string>
+    <string name="rcs_st_connected">Подключено</string>
+    <string name="rcs_st_setup">Не подключено</string>
+    <string name="rcs_st_off">Выключено</string>
+    <string name="rcs_self_number">Ваш номер RCS</string>
+    <string name="rcs_self_number_m">Номер телефона, зарегистрированный для RCS на этом устройстве.</string>
+    <string name="rcs_state">Состояние RCS</string>
+    <string name="rcs_state_m">Внутреннее состояние подготовки, о котором сообщает приложение сообщений для вашей линии.</string>
+    <string name="rcs_cfg_version">Версия конфигурации</string>
+    <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила.</string>
+    <string name="rcs_capable">Контакты с поддержкой RCS</string>
+    <string name="rcs_capable_m">Сколько ваших контактов в настоящее время известны как поддерживающие чат RCS.</string>
+    <string name="rcs_flag_enabled">Функция включена</string>
+    <string name="rcs_flag_enabled_m">Включена ли функция RCS в приложении сообщений.</string>
+    <string name="rcs_flag_unavailable">Помечено как недоступное</string>
+    <string name="rcs_flag_unavailable_m">Пометила ли служба RCS как недоступный для этой линии.</string>
+    <string name="rcs_entitlement">Разрешение оператора</string>
+    <string name="rcs_entitlement_m">Включена ли служба разрешений оператора, которая авторизует RCS.</string>
+    <string name="rcs_uce">Присутствие (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, позволяющий вашей линии объявлять и обнаруживать возможности RCS.</string>
+    <string name="rcs_ims_pkg">Служба IMS присутствует</string>
+    <string name="rcs_ims_pkg_m">Установлена ли на устройстве служба IMS оператора, от которой зависит RCS.</string>
+
+    <string name="rcs_sec_times">Метки времени</string>
+    <string name="rcs_cfg_updated">Конфигурация обновлена</string>
+    <string name="rcs_cfg_updated_m">Когда текущая конфигурация RCS была получена в последний раз.</string>
+    <string name="rcs_cfg_validity">Срок действия конфигурации</string>
+    <string name="rcs_cfg_validity_m">Как долго текущая конфигурация остаётся действительной, прежде чем её нужно обновить.</string>
+    <string name="rcs_token_exp">Истечение токена</string>
+    <string name="rcs_token_exp_m">Когда истекает текущий токен подготовки.</string>
+    <string name="rcs_prov_last">Последняя подготовка</string>
+    <string name="rcs_prov_last_m">Когда устройство в последний раз пыталось подготовить RCS у оператора.</string>
+    <string name="rcs_prov_next">Следующая подготовка</string>
+    <string name="rcs_prov_next_m">Когда устройство планирует снова попытаться выполнить подготовку.</string>
+    <string name="rcs_msg_last">Последнее сообщение RCS</string>
+    <string name="rcs_msg_last_m">Когда было зарегистрировано последнее сообщение, отправленное или полученное по RCS.</string>
+    <string name="rcs_cap_refresh">Возможности обновлены</string>
+    <string name="rcs_cap_refresh_m">Когда в последний раз обновлялся кэш возможностей RCS ваших контактов.</string>
+    <string name="rcs_full_sync">Полная синхронизация</string>
+    <string name="rcs_full_sync_m">Когда приложение сообщений в последний раз выполняло полную синхронизацию.</string>
+    <string name="rcs_last_sync">Последняя синхронизация</string>
+    <string name="rcs_last_sync_m">Когда приложение сообщений синхронизировалось в последний раз.</string>
+
+    <string name="wallet_chip_attested">Аттестовано</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Устройство</string>
+    <string name="wallet_nfc">Оборудование NFC</string>
+    <string name="wallet_nfc_m">Есть ли у этого устройства чип NFC, необходимый для оплаты прикосновением.</string>
+    <string name="wallet_pkg">Кошелёк установлен</string>
+    <string name="wallet_pkg_m">Установлено ли на этом устройстве приложение Google Кошелёк.</string>
+
+    <string name="wallet_sec_att">Аттестация</string>
+    <string name="wallet_attested">Устройство аттестовано</string>
+    <string name="wallet_attested_m">Счёл ли Google это устройство подлинным и достаточно безопасным для хранения платёжных карт. Если здесь Нет, оплата прикосновением обычно не работает.</string>
+    <string name="wallet_attested_time">Последняя проверка</string>
+    <string name="wallet_attested_time_m">Когда устройство в последний раз завершило эту проверку безопасности.</string>
+    <string name="wallet_service">Служба Кошелька</string>
+    <string name="wallet_service_m">Включена ли платёжная служба внутри Google Кошелька.</string>
+    <string name="wallet_tapandpay">Оплата прикосновением</string>
+    <string name="wallet_tapandpay_m">Включена ли бесконтактная оплата прикосновением.</string>
+    <string name="wallet_password">Блокировка экрана принята</string>
+    <string name="wallet_password_m">Сочтена ли ваша блокировка экрана достаточно надёжной для платежей. Кошелёк требует безопасной блокировки экрана.</string>
+    <string name="wallet_token">Карта когда-либо добавлялась</string>
+    <string name="wallet_token_m">Была ли на этом устройстве когда-либо настроена платёжная карта.</string>
+    <string name="wallet_reset_btn">Сбросить проверку безопасности Wallet</string>
+    <string name="wallet_reset_msg">Очистить сейчас время последней проверки безопасности Google Wallet, чтобы он перепроверил при следующей аттестации? Сервисы Google Play ненадолго перезапустятся.</string>
+    <string name="wallet_reset_confirm">Очистить</string>
+    <string name="wallet_reset_cancel">Отмена</string>
+    <string name="wallet_reset_info">Удаляет метку времени последней проверки (last_attestation_result_time) из GMS tapandpay и перезапускает сервисы Play. Тогда Wallet считает проверку просроченной и заново аттестует при следующей фоновой или платёжной проверке - последний вердикт остаётся до этого. Записывается локально, без интернета.</string>
+
+    <string name="att_sec_apps">Приложения, запросившие аттестацию</string>
+    <string name="att_intro">Эти приложения недавно попросили Google Play Integrity поручиться за это устройство. Так банковские и другие чувствительные приложения решают, доверять ли устройству, на котором они работают.</string>
+    <string name="att_empty">Ни одно приложение недавно не запрашивало аттестацию целостности.</string>
+    <string name="att_last_call">Последний запрос: %1$s</string>
+    <string name="att_calls">Запросов в текущем окне: %1$s</string>
+
+    <string name="about_no_internet">У этого приложения вообще нет разрешения на доступ в интернет. Ничто из того, что вы здесь видите, никогда не покидает ваше устройство.</string>
+    <string name="about_project">Проект</string>
+    <string name="about_developer">Разработчик</string>
+    <string name="about_source">Исходный код</string>
+    <string name="about_license">Лицензия</string>
+    <string name="about_contacts">Контакты</string>
+    <string name="about_support">Поддержка</string>
+
+    <string name="action_close">Закрыть</string>
+    <string name="action_language">Язык</string>
+    <string name="lang_title">Выберите язык</string>
+    <string name="lang_system">Системный по умолчанию</string>
+    <string name="att_search">Поиск приложений</string>
+    <string name="root_needed_su">В KernelSU включите совместимость su, чтобы приложения могли получать root.</string>
+    <string name="action_reload">Обновить</string>
+    <string name="action_info">Инфо</string>
+    <string name="action_export">Экспорт</string>
+    <string name="action_save">Сохранить</string>
+    <string name="rcs_carrier">Оператор</string>
+    <string name="rcs_carrier_m">Мобильный оператор вашей линии (название и MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Причина недействительной конфигурации</string>
+    <string name="rcs_invalid_reason_m">Если конфигурация RCS недействительна, причина, сообщаемая службой.</string>
+</resources>

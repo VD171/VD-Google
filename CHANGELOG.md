@@ -2,6 +2,10 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.08] - 2026-10-10
+
+- New WebUI edition. Every release now ships two ways to use VD Google: the app (APK) and a flashable WebUI module (ZIP) you open from your root manager (KernelSU, Magisk or APatch). Both read the same RCS, Google Wallet and Play Integrity state on-device, in the same 21 languages, and neither uses the internet.
+
 ## [1.07] - 2026-10-04
 
 - New in the Wallet tab: "Device attested" now matches what Google Wallet shows, plus a button (with confirmation) to clear the last security-check time so Wallet re-checks on its next attestation. Every action is kept in a local log on your device. Still no internet.

@@ -13,6 +13,15 @@ VD Google은 Google이 직접 휴대폰에 기록하는 세 가지 항목을 보
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## 앱 또는 WebUI
+
+모든 릴리스는 두 가지 형태로 제공되며, 둘 다 인터넷 없이 기기에서 동일한 정보를 읽습니다.
+
+- **App** - `.apk`, 일반 Android 앱입니다.
+- **WebUI** - `.zip`, 루트 관리자(KernelSU, Magisk 또는 APatch)에 플래시하여 거기서 여는 모듈입니다.
+
+두 경우 모두 루트가 필요합니다.
+
 ## 무엇을 보여주나요
 
 ### RCS

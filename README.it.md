@@ -13,6 +13,15 @@ VD Google ti mostra ciò che Google stesso registra sul tuo telefono riguardo a 
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## App o WebUI
+
+Ogni versione è disponibile in due forme, ed entrambe leggono le stesse informazioni sul tuo dispositivo, senza internet:
+
+- **App** - l'`.apk`, una normale app Android.
+- **WebUI** - lo `.zip`, un modulo che installi nel tuo gestore root (KernelSU, Magisk o APatch) e apri da lì.
+
+In entrambi i casi è necessario il root.
+
 ## Cosa mostra
 
 ### RCS

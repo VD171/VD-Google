@@ -13,6 +13,15 @@ VD Google は、Google 自身があなたの端末に記録している 3 つの
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## アプリまたは WebUI
+
+各リリースには2つの形式があり、どちらもインターネットを使わず、端末上で同じ情報を読み取ります。
+
+- **App** - `.apk`。通常の Android アプリです。
+- **WebUI** - `.zip`。root マネージャー（KernelSU、Magisk、APatch）で書き込み、そこから開くモジュールです。
+
+どちらの場合も root が必要です。
+
 ## 表示する内容
 
 ### RCS

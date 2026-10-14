@@ -1,0 +1,6 @@
+-keep class ru.vd171.vdgoogle.root.** { *; }
+-keep class com.topjohnwu.superuser.** { *; }
+-keep class com.topjohnwu.superuser.ipc.** { *; }
+-keepclassmembers class * extends com.topjohnwu.superuser.ipc.RootService { *; }
+-keep interface ru.vd171.vdgoogle.root.IRootIpc { *; }
+-keepattributes RuntimeVisibleAnnotations,RuntimeVisibleParameterAnnotations

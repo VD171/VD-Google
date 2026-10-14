@@ -13,6 +13,15 @@ VD Google, Google'ın üç konu hakkında telefonunuza kaydettiklerini size gös
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## Uygulama veya WebUI
+
+Her sürüm iki biçimde gelir ve ikisi de aynı bilgileri cihazınızda, internet olmadan okur:
+
+- **App** - `.apk` dosyası, normal bir Android uygulaması.
+- **WebUI** - `.zip` dosyası, root yöneticinize (KernelSU, Magisk veya APatch) kurup oradan açtığınız bir modül.
+
+Her iki durumda da root gereklidir.
+
 ## Neleri gösterir
 
 ### RCS

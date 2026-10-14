@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Je Google-diensten, gelezen op je toestel</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">Attestaties</string>
+    <string name="tab_about">Over</string>
+
+    <string name="v_yes">Ja</string>
+    <string name="v_no">Nee</string>
+    <string name="action_reveal">Tonen</string>
+    <string name="action_hide">Verbergen</string>
+    <string name="tz_footer">Tijden worden getoond in de tijdzone van je toestel: %1$s</string>
+
+    <string name="root_needed_title">Roottoegang vereist</string>
+    <string name="root_needed_body">VD Google leest gegevens die Google bewaart in beschermde, alleen voor het systeem toegankelijke gebieden. Om ze te lezen is superuser-toegang (root) nodig. Het verzoek is geweigerd of genegeerd. Verleen de toegang in je rootbeheerder en probeer het opnieuw.</string>
+    <string name="root_retry">Opnieuw proberen</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Dienst</string>
+    <string name="rcs_callout_mversion_zero">De configuratieversie is 0, wat meestal betekent dat je provider of Google nog geen geldige RCS-configuratie aan deze lijn heeft geleverd. Zolang deze op 0 blijft, kan RCS normaal gesproken niet worden ingeschakeld, zelfs niet op een ongewijzigd toestel.</string>
+
+    <string name="rcs_sec_status">Status</string>
+    <string name="rcs_available">RCS beschikbaar</string>
+    <string name="rcs_available_m">Een gecachte indicator die de berichten-app voor je eigen nummer bijhoudt. Die kan verouderd blijven terwijl RCS al werkt, vertrouw dus op de regel Verbinding hierboven.</string>
+    <string name="rcs_connected">Verbinding</string>
+    <string name="rcs_connected_m">Of RCS op deze lijn echt is ingesteld en werkt, op basis van de chatconfiguratie en de provisioning-engine. Dit is het betrouwbare signaal. De beschikbaarheidsindicator hieronder is een cache per contact en kan achterlopen.</string>
+    <string name="rcs_st_connected">Verbonden</string>
+    <string name="rcs_st_setup">Niet verbonden</string>
+    <string name="rcs_st_off">Uitgeschakeld</string>
+    <string name="rcs_self_number">Je RCS-nummer</string>
+    <string name="rcs_self_number_m">Het telefoonnummer dat op dit toestel voor RCS is geregistreerd.</string>
+    <string name="rcs_state">RCS-status</string>
+    <string name="rcs_state_m">De interne provisioningstatus die de berichten-app voor je lijn meldt.</string>
+    <string name="rcs_cfg_version">Configuratieversie</string>
+    <string name="rcs_cfg_version_m">Versie van de aan deze lijn geleverde RCS-configuratie. De waarde 0 betekent dat er nog geen geldige configuratie is aangekomen.</string>
+    <string name="rcs_capable">RCS-geschikte contacten</string>
+    <string name="rcs_capable_m">Hoeveel van je contacten op dit moment bekend staan als geschikt voor RCS-chat.</string>
+    <string name="rcs_flag_enabled">Functie ingeschakeld</string>
+    <string name="rcs_flag_enabled_m">Of de berichten-app de RCS-functie heeft ingeschakeld.</string>
+    <string name="rcs_flag_unavailable">Gemarkeerd als niet beschikbaar</string>
+    <string name="rcs_flag_unavailable_m">Of de dienst RCS als niet beschikbaar heeft gemarkeerd voor deze lijn.</string>
+    <string name="rcs_entitlement">Providerrechten</string>
+    <string name="rcs_entitlement_m">Of de rechtendienst van de provider die RCS toestaat is ingeschakeld.</string>
+    <string name="rcs_uce">Aanwezigheid (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, waarmee je lijn RCS-mogelijkheden kan aankondigen en ontdekken.</string>
+    <string name="rcs_ims_pkg">IMS-dienst aanwezig</string>
+    <string name="rcs_ims_pkg_m">Of de IMS-dienst van de provider, waarvan RCS afhankelijk is, op het toestel is geïnstalleerd.</string>
+
+    <string name="rcs_sec_times">Tijdstempels</string>
+    <string name="rcs_cfg_updated">Configuratie bijgewerkt</string>
+    <string name="rcs_cfg_updated_m">Wanneer de huidige RCS-configuratie voor het laatst is ontvangen.</string>
+    <string name="rcs_cfg_validity">Geldigheid configuratie</string>
+    <string name="rcs_cfg_validity_m">Hoe lang de huidige configuratie geldig blijft voordat ze moet worden vernieuwd.</string>
+    <string name="rcs_token_exp">Tokenverval</string>
+    <string name="rcs_token_exp_m">Wanneer het huidige provisioningtoken verloopt.</string>
+    <string name="rcs_prov_last">Laatste provisioning</string>
+    <string name="rcs_prov_last_m">Wanneer het toestel voor het laatst heeft geprobeerd RCS bij de provider te provisioneren.</string>
+    <string name="rcs_prov_next">Volgende provisioning</string>
+    <string name="rcs_prov_next_m">Wanneer het toestel de provisioning opnieuw wil proberen.</string>
+    <string name="rcs_msg_last">Laatste RCS-bericht</string>
+    <string name="rcs_msg_last_m">Wanneer het meest recente via RCS verzonden of ontvangen bericht is vastgelegd.</string>
+    <string name="rcs_cap_refresh">Mogelijkheden vernieuwd</string>
+    <string name="rcs_cap_refresh_m">Wanneer de cache met RCS-mogelijkheden van contacten voor het laatst is vernieuwd.</string>
+    <string name="rcs_full_sync">Volledige synchronisatie</string>
+    <string name="rcs_full_sync_m">Wanneer de berichten-app voor het laatst een volledige synchronisatie heeft uitgevoerd.</string>
+    <string name="rcs_last_sync">Laatste synchronisatie</string>
+    <string name="rcs_last_sync_m">Wanneer de berichten-app voor het laatst heeft gesynchroniseerd.</string>
+
+    <string name="wallet_chip_attested">Geattesteerd</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Toestel</string>
+    <string name="wallet_nfc">NFC-hardware</string>
+    <string name="wallet_nfc_m">Of dit toestel de NFC-chip heeft die nodig is om te betalen door te tikken.</string>
+    <string name="wallet_pkg">Wallet geïnstalleerd</string>
+    <string name="wallet_pkg_m">Of de Google Wallet-app op dit toestel is geïnstalleerd.</string>
+
+    <string name="wallet_sec_att">Attestatie</string>
+    <string name="wallet_attested">Toestel geattesteerd</string>
+    <string name="wallet_attested_m">Of Google dit toestel echt en veilig genoeg achtte om betaalkaarten te bewaren. Als dit Nee is, werkt tikken om te betalen normaal gesproken niet.</string>
+    <string name="wallet_attested_time">Laatst gecontroleerd</string>
+    <string name="wallet_attested_time_m">Wanneer het toestel deze beveiligingscontrole voor het laatst heeft voltooid.</string>
+    <string name="wallet_service">Wallet-dienst</string>
+    <string name="wallet_service_m">Of de betaaldienst binnen Google Wallet is ingeschakeld.</string>
+    <string name="wallet_tapandpay">Tikken om te betalen</string>
+    <string name="wallet_tapandpay_m">Of contactloos betalen door te tikken is ingeschakeld.</string>
+    <string name="wallet_password">Schermvergrendeling geaccepteerd</string>
+    <string name="wallet_password_m">Of je schermvergrendeling sterk genoeg werd bevonden voor betalingen. Wallet vereist een veilige schermvergrendeling.</string>
+    <string name="wallet_token">Ooit kaart toegevoegd</string>
+    <string name="wallet_token_m">Of er ooit een betaalkaart op dit toestel is ingesteld.</string>
+    <string name="wallet_reset_btn">Wallet-beveiligingscontrole opnieuw instellen</string>
+    <string name="wallet_reset_msg">De tijd van de laatste beveiligingscontrole van Google Wallet nu wissen, zodat het opnieuw controleert bij de volgende attestatie? Google Play-services starten kort opnieuw op.</string>
+    <string name="wallet_reset_confirm">Wissen</string>
+    <string name="wallet_reset_cancel">Annuleren</string>
+    <string name="wallet_reset_info">Verwijdert de tijdstempel van de laatste controle (last_attestation_result_time) uit GMS tapandpay en start Play-services opnieuw. Wallet beschouwt de controle dan als verschuldigd en attesteert opnieuw bij de volgende achtergrond- of betaalcontrole - het laatste oordeel blijft tot dan. Lokaal gelogd, geen internet.</string>
+
+    <string name="att_sec_apps">Apps die om attestatie vroegen</string>
+    <string name="att_intro">Deze apps hebben onlangs Google Play Integrity gevraagd om voor dit toestel in te staan. Zo bepalen bank-apps en andere gevoelige apps of ze het toestel vertrouwen waarop ze draaien.</string>
+    <string name="att_empty">Geen enkele app heeft onlangs een integriteitsattestatie aangevraagd.</string>
+    <string name="att_last_call">Laatste verzoek: %1$s</string>
+    <string name="att_calls">Verzoeken in het huidige venster: %1$s</string>
+
+    <string name="about_no_internet">Deze app heeft helemaal geen internettoegang. Niets van wat je hier ziet verlaat ooit je toestel.</string>
+    <string name="about_project">Project</string>
+    <string name="about_developer">Ontwikkelaar</string>
+    <string name="about_source">Broncode</string>
+    <string name="about_license">Licentie</string>
+    <string name="about_contacts">Contacten</string>
+    <string name="about_support">Ondersteuning</string>
+
+    <string name="action_close">Sluiten</string>
+    <string name="action_language">Taal</string>
+    <string name="lang_title">Kies een taal</string>
+    <string name="lang_system">Systeemstandaard</string>
+    <string name="att_search">Apps zoeken</string>
+    <string name="root_needed_su">Schakel bij KernelSU su-compatibiliteit in zodat apps root kunnen krijgen.</string>
+    <string name="action_reload">Herladen</string>
+    <string name="action_info">Info</string>
+    <string name="action_export">Exporteren</string>
+    <string name="action_save">Opslaan</string>
+    <string name="rcs_carrier">Provider</string>
+    <string name="rcs_carrier_m">De mobiele provider van je lijn (naam en MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Reden ongeldige configuratie</string>
+    <string name="rcs_invalid_reason_m">Als de RCS-configuratie ongeldig is, de reden die de dienst meldt.</string>
+</resources>

@@ -13,6 +13,15 @@ VD Google आपको दिखाता है कि Google स्वयं �
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## ऐप या WebUI
+
+हर रिलीज़ दो रूपों में आती है, और दोनों आपके डिवाइस पर बिना इंटरनेट के वही जानकारी पढ़ती हैं:
+
+- **App** - `.apk`, एक सामान्य Android ऐप।
+- **WebUI** - `.zip`, एक मॉड्यूल जिसे आप अपने root मैनेजर (KernelSU, Magisk या APatch) में फ़्लैश करके वहीं से खोलते हैं।
+
+दोनों ही स्थितियों में root आवश्यक है।
+
 ## यह क्या दिखाता है
 
 ### RCS

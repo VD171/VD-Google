@@ -13,6 +13,15 @@ VD Google показывает, что сам Google записывает на �
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## Приложение или WebUI
+
+Каждый выпуск доступен в двух вариантах, и оба читают одно и то же на вашем устройстве, без интернета:
+
+- **App** - файл `.apk`, обычное приложение Android.
+- **WebUI** - файл `.zip`, модуль, который вы устанавливаете в своём root-менеджере (KernelSU, Magisk или APatch) и открываете оттуда.
+
+В обоих случаях требуется root.
+
 ## Что он показывает
 
 ### RCS

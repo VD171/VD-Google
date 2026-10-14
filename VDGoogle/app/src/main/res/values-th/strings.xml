@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">บริการ Google ของคุณ อ่านบนเครื่อง</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">การรับรอง</string>
+    <string name="tab_about">เกี่ยวกับ</string>
+
+    <string name="v_yes">ใช่</string>
+    <string name="v_no">ไม่</string>
+    <string name="action_reveal">แสดง</string>
+    <string name="action_hide">ซ่อน</string>
+    <string name="tz_footer">เวลาจะแสดงตามเขตเวลาของอุปกรณ์ของคุณ: %1$s</string>
+
+    <string name="root_needed_title">ต้องมีสิทธิ์ root</string>
+    <string name="root_needed_body">VD Google อ่านข้อมูลที่ Google เก็บไว้ในพื้นที่ที่ได้รับการป้องกันซึ่งเข้าถึงได้เฉพาะระบบเท่านั้น การอ่านข้อมูลนี้ต้องใช้สิทธิ์ผู้ใช้ขั้นสูง (root) คำขอถูกปฏิเสธหรือยกเลิก โปรดให้สิทธิ์ในตัวจัดการ root ของคุณแล้วลองอีกครั้ง</string>
+    <string name="root_retry">ลองอีกครั้ง</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">บริการ</string>
+    <string name="rcs_callout_mversion_zero">เวอร์ชันการกำหนดค่าเป็น 0 ซึ่งมักหมายความว่าผู้ให้บริการหรือ Google ยังไม่ได้ส่งการกำหนดค่า RCS ที่ใช้ได้มายังเลขหมายนี้ ตราบใดที่ยังเป็น 0 โดยปกติ RCS จะเปิดใช้งานไม่ได้ แม้บนเครื่องที่ไม่ได้ถูกแก้ไข</string>
+
+    <string name="rcs_sec_status">สถานะ</string>
+    <string name="rcs_available">RCS พร้อมใช้งาน</string>
+    <string name="rcs_available_m">ตัวบ่งชี้ที่แคชไว้ซึ่งแอปข้อความเก็บไว้สำหรับหมายเลขของคุณเอง อาจยังเก่าอยู่แม้ว่า RCS จะทำงานแล้ว จึงควรเชื่อถือบรรทัดการเชื่อมต่อด้านบน</string>
+    <string name="rcs_connected">การเชื่อมต่อ</string>
+    <string name="rcs_connected_m">RCS ได้รับการตั้งค่าและทำงานบนสายนี้จริงหรือไม่ โดยอ้างอิงจากการกำหนดค่าแชทและเอนจินการจัดเตรียม นี่คือสัญญาณที่เชื่อถือได้ ตัวบ่งชี้ความพร้อมใช้งานด้านล่างเป็นแคชต่อผู้ติดต่อและอาจล่าช้าได้</string>
+    <string name="rcs_st_connected">เชื่อมต่อแล้ว</string>
+    <string name="rcs_st_setup">ไม่ได้เชื่อมต่อ</string>
+    <string name="rcs_st_off">ปิดอยู่</string>
+    <string name="rcs_self_number">เลขหมาย RCS ของคุณ</string>
+    <string name="rcs_self_number_m">หมายเลขโทรศัพท์ที่ลงทะเบียนไว้สำหรับ RCS บนอุปกรณ์นี้</string>
+    <string name="rcs_state">สถานะ RCS</string>
+    <string name="rcs_state_m">สถานะการจัดเตรียมภายในที่แอปข้อความรายงานสำหรับเลขหมายของคุณ</string>
+    <string name="rcs_cfg_version">เวอร์ชันการกำหนดค่า</string>
+    <string name="rcs_cfg_version_m">เวอร์ชันของการกำหนดค่า RCS ที่ส่งมายังเลขหมายนี้ ค่า 0 หมายความว่ายังไม่มีการกำหนดค่าที่ใช้ได้มาถึง</string>
+    <string name="rcs_capable">รายชื่อที่รองรับ RCS</string>
+    <string name="rcs_capable_m">จำนวนรายชื่อของคุณที่ทราบในปัจจุบันว่ารองรับแชต RCS</string>
+    <string name="rcs_flag_enabled">เปิดใช้ฟีเจอร์แล้ว</string>
+    <string name="rcs_flag_enabled_m">ว่าแอปข้อความเปิดฟีเจอร์ RCS ไว้หรือไม่</string>
+    <string name="rcs_flag_unavailable">ถูกทำเครื่องหมายว่าไม่พร้อมใช้งาน</string>
+    <string name="rcs_flag_unavailable_m">ว่าบริการได้ทำเครื่องหมาย RCS ว่าไม่พร้อมใช้งานสำหรับเลขหมายนี้หรือไม่</string>
+    <string name="rcs_entitlement">สิทธิ์จากผู้ให้บริการ</string>
+    <string name="rcs_entitlement_m">ว่าบริการสิทธิ์ของผู้ให้บริการที่อนุญาต RCS เปิดใช้งานอยู่หรือไม่</string>
+    <string name="rcs_uce">การแสดงตน (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange ซึ่งให้เลขหมายของคุณประกาศและค้นพบความสามารถ RCS ได้</string>
+    <string name="rcs_ims_pkg">มีบริการ IMS</string>
+    <string name="rcs_ims_pkg_m">ว่าบริการ IMS ของผู้ให้บริการที่ RCS ต้องพึ่งพานั้นติดตั้งอยู่บนอุปกรณ์หรือไม่</string>
+
+    <string name="rcs_sec_times">การประทับเวลา</string>
+    <string name="rcs_cfg_updated">อัปเดตการกำหนดค่าแล้ว</string>
+    <string name="rcs_cfg_updated_m">ครั้งล่าสุดที่ได้รับการกำหนดค่า RCS ปัจจุบัน</string>
+    <string name="rcs_cfg_validity">อายุการใช้งานของการกำหนดค่า</string>
+    <string name="rcs_cfg_validity_m">การกำหนดค่าปัจจุบันยังใช้ได้นานเท่าใดก่อนที่จะต้องต่ออายุ</string>
+    <string name="rcs_token_exp">โทเค็นหมดอายุ</string>
+    <string name="rcs_token_exp_m">เวลาที่โทเค็นการจัดเตรียมปัจจุบันหมดอายุ</string>
+    <string name="rcs_prov_last">การจัดเตรียมครั้งล่าสุด</string>
+    <string name="rcs_prov_last_m">ครั้งล่าสุดที่อุปกรณ์พยายามจัดเตรียม RCS กับผู้ให้บริการ</string>
+    <string name="rcs_prov_next">การจัดเตรียมครั้งถัดไป</string>
+    <string name="rcs_prov_next_m">เวลาที่อุปกรณ์วางแผนจะลองจัดเตรียมอีกครั้ง</string>
+    <string name="rcs_msg_last">ข้อความ RCS ล่าสุด</string>
+    <string name="rcs_msg_last_m">เวลาที่บันทึกข้อความล่าสุดที่ส่งหรือรับผ่าน RCS</string>
+    <string name="rcs_cap_refresh">รีเฟรชความสามารถแล้ว</string>
+    <string name="rcs_cap_refresh_m">ครั้งล่าสุดที่รีเฟรชแคชความสามารถ RCS ของรายชื่อ</string>
+    <string name="rcs_full_sync">ซิงค์เต็มรูปแบบ</string>
+    <string name="rcs_full_sync_m">ครั้งล่าสุดที่แอปข้อความทำการซิงค์เต็มรูปแบบ</string>
+    <string name="rcs_last_sync">ซิงค์ครั้งล่าสุด</string>
+    <string name="rcs_last_sync_m">ครั้งล่าสุดที่แอปข้อความซิงค์</string>
+
+    <string name="wallet_chip_attested">รับรองแล้ว</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">อุปกรณ์</string>
+    <string name="wallet_nfc">ฮาร์ดแวร์ NFC</string>
+    <string name="wallet_nfc_m">ว่าอุปกรณ์นี้มีชิป NFC ที่จำเป็นสำหรับการชำระเงินแบบแตะหรือไม่</string>
+    <string name="wallet_pkg">ติดตั้ง Wallet แล้ว</string>
+    <string name="wallet_pkg_m">ว่าแอป Google Wallet ติดตั้งอยู่บนอุปกรณ์นี้หรือไม่</string>
+
+    <string name="wallet_sec_att">การรับรอง</string>
+    <string name="wallet_attested">อุปกรณ์ได้รับการรับรอง</string>
+    <string name="wallet_attested_m">ว่า Google ตัดสินว่าอุปกรณ์นี้เป็นของแท้และปลอดภัยพอที่จะเก็บบัตรชำระเงินหรือไม่ หากเป็นไม่ การชำระเงินแบบแตะมักจะใช้ไม่ได้</string>
+    <string name="wallet_attested_time">ตรวจสอบครั้งล่าสุด</string>
+    <string name="wallet_attested_time_m">ครั้งล่าสุดที่อุปกรณ์ทำการตรวจสอบความปลอดภัยนี้เสร็จสิ้น</string>
+    <string name="wallet_service">บริการ Wallet</string>
+    <string name="wallet_service_m">ว่าบริการชำระเงินภายใน Google Wallet เปิดอยู่หรือไม่</string>
+    <string name="wallet_tapandpay">แตะเพื่อจ่าย</string>
+    <string name="wallet_tapandpay_m">ว่าการชำระเงินแบบไร้สัมผัสด้วยการแตะเปิดใช้งานอยู่หรือไม่</string>
+    <string name="wallet_password">ยอมรับการล็อกหน้าจอ</string>
+    <string name="wallet_password_m">ว่าการล็อกหน้าจอของคุณถูกตัดสินว่าแข็งแรงพอสำหรับการชำระเงินหรือไม่ Wallet ต้องใช้การล็อกหน้าจอที่ปลอดภัย</string>
+    <string name="wallet_token">เคยเพิ่มบัตรหรือไม่</string>
+    <string name="wallet_token_m">ว่าเคยมีการตั้งค่าบัตรชำระเงินบนอุปกรณ์นี้หรือไม่</string>
+    <string name="wallet_reset_btn">รีเซ็ตการตรวจสอบความปลอดภัยของ Wallet</string>
+    <string name="wallet_reset_msg">ล้างเวลาการตรวจสอบความปลอดภัยครั้งล่าสุดของ Google Wallet ตอนนี้ เพื่อให้ตรวจสอบใหม่ในการรับรองครั้งถัดไปไหม บริการ Google Play จะรีสตาร์ทชั่วครู่</string>
+    <string name="wallet_reset_confirm">ล้าง</string>
+    <string name="wallet_reset_cancel">ยกเลิก</string>
+    <string name="wallet_reset_info">ลบการประทับเวลาการตรวจสอบครั้งล่าสุด (last_attestation_result_time) ออกจาก GMS tapandpay และรีสตาร์ทบริการ Play จากนั้น Wallet จะถือว่าการตรวจสอบถึงกำหนดและรับรองใหม่ในการตรวจสอบเบื้องหลังหรือการชำระเงินครั้งถัดไป - ผลล่าสุดจะยังอยู่จนถึงตอนนั้น บันทึกในเครื่อง ไม่ใช้อินเทอร์เน็ต</string>
+
+    <string name="att_sec_apps">แอปที่ขอการรับรอง</string>
+    <string name="att_intro">แอปเหล่านี้เพิ่งขอให้ Google Play Integrity รับรองอุปกรณ์นี้ นี่คือวิธีที่แอปธนาคารและแอปที่มีความอ่อนไหวอื่น ๆ ใช้ตัดสินว่าจะเชื่อถืออุปกรณ์ที่ตนทำงานอยู่หรือไม่</string>
+    <string name="att_empty">ไม่มีแอปใดขอการรับรองความสมบูรณ์เมื่อเร็ว ๆ นี้</string>
+    <string name="att_last_call">คำขอล่าสุด: %1$s</string>
+    <string name="att_calls">คำขอในช่วงเวลาปัจจุบัน: %1$s</string>
+
+    <string name="about_no_internet">แอปนี้ไม่มีสิทธิ์เข้าถึงอินเทอร์เน็ตเลย ไม่มีสิ่งใดที่คุณเห็นที่นี่ออกไปจากอุปกรณ์ของคุณ</string>
+    <string name="about_project">โปรเจกต์</string>
+    <string name="about_developer">ผู้พัฒนา</string>
+    <string name="about_source">ซอร์สโค้ด</string>
+    <string name="about_license">สัญญาอนุญาต</string>
+    <string name="about_contacts">ช่องทางติดต่อ</string>
+    <string name="about_support">การสนับสนุน</string>
+
+    <string name="action_close">ปิด</string>
+    <string name="action_language">ภาษา</string>
+    <string name="lang_title">เลือกภาษา</string>
+    <string name="lang_system">ค่าเริ่มต้นของระบบ</string>
+    <string name="att_search">ค้นหาแอป</string>
+    <string name="root_needed_su">บน KernelSU โปรดเปิดความเข้ากันได้ของ su เพื่อให้แอปได้รับสิทธิ์ root</string>
+    <string name="action_reload">โหลดใหม่</string>
+    <string name="action_info">ข้อมูล</string>
+    <string name="action_export">ส่งออก</string>
+    <string name="action_save">บันทึก</string>
+    <string name="rcs_carrier">ผู้ให้บริการ</string>
+    <string name="rcs_carrier_m">ผู้ให้บริการมือถือของเลขหมายคุณ (ชื่อและ MCC/MNC)</string>
+    <string name="rcs_invalid_reason">เหตุผลที่การกำหนดค่าไม่ถูกต้อง</string>
+    <string name="rcs_invalid_reason_m">หากการกำหนดค่า RCS ไม่ถูกต้อง เหตุผลที่บริการรายงาน</string>
+</resources>

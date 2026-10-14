@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">خدمات Google الخاصة بك، تُقرأ على جهازك</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">المحفظة</string>
+    <string name="tab_att">الإثباتات</string>
+    <string name="tab_about">حول</string>
+
+    <string name="v_yes">نعم</string>
+    <string name="v_no">لا</string>
+    <string name="action_reveal">إظهار</string>
+    <string name="action_hide">إخفاء</string>
+    <string name="tz_footer">تُعرض الأوقات حسب المنطقة الزمنية لجهازك: %1$s</string>
+
+    <string name="root_needed_title">يلزم وصول الجذر</string>
+    <string name="root_needed_body">يقرأ VD Google معلومات يخزّنها Google في مناطق محمية لا يصل إليها سوى النظام. تتطلب قراءتها وصول المستخدم الخارق (الجذر). تم رفض الطلب أو تجاهله. امنح الوصول في مدير الجذر لديك ثم أعد المحاولة.</string>
+    <string name="root_retry">إعادة المحاولة</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">الخدمة</string>
+    <string name="rcs_callout_mversion_zero">إصدار الإعداد هو 0، وهذا يعني عادةً أن مشغّل الشبكة أو Google لم يسلّم بعد إعداد RCS صالحًا لهذا الخط. وطالما بقي 0، لا يمكن عادةً تشغيل RCS، حتى على هاتف لم يُعبث به.</string>
+
+    <string name="rcs_sec_status">الحالة</string>
+    <string name="rcs_available">RCS متاح</string>
+    <string name="rcs_available_m">مؤشر مخزّن مؤقتًا يحتفظ به تطبيق الرسائل لرقمك. قد يبقى قديمًا بعد أن يعمل RCS فعلاً، لذا اعتمد على سطر الاتصال أعلاه.</string>
+    <string name="rcs_connected">الاتصال</string>
+    <string name="rcs_connected_m">ما إذا كان RCS مُعدًّا ويعمل فعليًا على هذا الخط، استنادًا إلى إعدادات الدردشة ومحرّك التزويد. هذه هي الإشارة الموثوقة. أما مؤشر التوفّر أدناه فهو ذاكرة مؤقتة لكل جهة اتصال وقد يتأخّر.</string>
+    <string name="rcs_st_connected">متصل</string>
+    <string name="rcs_st_setup">غير متصل</string>
+    <string name="rcs_st_off">مُعطَّل</string>
+    <string name="rcs_self_number">رقم RCS الخاص بك</string>
+    <string name="rcs_self_number_m">رقم الهاتف المسجَّل لـ RCS على هذا الجهاز.</string>
+    <string name="rcs_state">حالة RCS</string>
+    <string name="rcs_state_m">حالة التهيئة الداخلية التي يبلّغ عنها تطبيق الرسائل لخطك.</string>
+    <string name="rcs_cfg_version">إصدار الإعداد</string>
+    <string name="rcs_cfg_version_m">إصدار إعداد RCS المسلَّم إلى هذا الخط. القيمة 0 تعني أنه لم يصل بعد إعداد صالح.</string>
+    <string name="rcs_capable">جهات الاتصال التي تدعم RCS</string>
+    <string name="rcs_capable_m">كم عدد جهات اتصالك المعروف حاليًا أنها تدعم دردشة RCS.</string>
+    <string name="rcs_flag_enabled">الميزة مفعَّلة</string>
+    <string name="rcs_flag_enabled_m">ما إذا كان تطبيق الرسائل قد شغّل ميزة RCS.</string>
+    <string name="rcs_flag_unavailable">مُعلَّم كغير متاح</string>
+    <string name="rcs_flag_unavailable_m">ما إذا كانت الخدمة قد وضعت علامة على RCS كغير متاح لهذا الخط.</string>
+    <string name="rcs_entitlement">تخويل المشغّل</string>
+    <string name="rcs_entitlement_m">ما إذا كانت خدمة تخويل المشغّل التي تصرّح بـ RCS مفعَّلة.</string>
+    <string name="rcs_uce">الحضور (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange، الذي يتيح لخطك الإعلان عن قدرات RCS واكتشافها.</string>
+    <string name="rcs_ims_pkg">خدمة IMS موجودة</string>
+    <string name="rcs_ims_pkg_m">ما إذا كانت خدمة IMS الخاصة بالمشغّل، التي يعتمد عليها RCS، مثبَّتة على الجهاز.</string>
+
+    <string name="rcs_sec_times">الطوابع الزمنية</string>
+    <string name="rcs_cfg_updated">تم تحديث الإعداد</string>
+    <string name="rcs_cfg_updated_m">متى استُلم إعداد RCS الحالي آخر مرة.</string>
+    <string name="rcs_cfg_validity">صلاحية الإعداد</string>
+    <string name="rcs_cfg_validity_m">كم يبقى الإعداد الحالي صالحًا قبل أن يحتاج إلى التجديد.</string>
+    <string name="rcs_token_exp">انتهاء الرمز المميز</string>
+    <string name="rcs_token_exp_m">متى ينتهي صلاحية رمز التهيئة الحالي.</string>
+    <string name="rcs_prov_last">آخر تهيئة</string>
+    <string name="rcs_prov_last_m">متى حاول الجهاز آخر مرة تهيئة RCS لدى المشغّل.</string>
+    <string name="rcs_prov_next">التهيئة التالية</string>
+    <string name="rcs_prov_next_m">متى يعتزم الجهاز إعادة محاولة التهيئة.</string>
+    <string name="rcs_msg_last">آخر رسالة RCS</string>
+    <string name="rcs_msg_last_m">متى سُجِّلت أحدث رسالة أُرسلت أو استُلمت عبر RCS.</string>
+    <string name="rcs_cap_refresh">تم تحديث القدرات</string>
+    <string name="rcs_cap_refresh_m">متى حُدِّثت آخر مرة ذاكرة قدرات RCS لجهات الاتصال.</string>
+    <string name="rcs_full_sync">مزامنة كاملة</string>
+    <string name="rcs_full_sync_m">متى أجرى تطبيق الرسائل آخر مزامنة كاملة.</string>
+    <string name="rcs_last_sync">آخر مزامنة</string>
+    <string name="rcs_last_sync_m">متى تزامن تطبيق الرسائل آخر مرة.</string>
+
+    <string name="wallet_chip_attested">مُثبَت</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">الجهاز</string>
+    <string name="wallet_nfc">عتاد NFC</string>
+    <string name="wallet_nfc_m">ما إذا كان هذا الجهاز يحتوي على شريحة NFC اللازمة للدفع باللمس.</string>
+    <string name="wallet_pkg">المحفظة مثبَّتة</string>
+    <string name="wallet_pkg_m">ما إذا كان تطبيق Google Wallet مثبَّتًا على هذا الجهاز.</string>
+
+    <string name="wallet_sec_att">الإثبات</string>
+    <string name="wallet_attested">الجهاز مُثبَت</string>
+    <string name="wallet_attested_m">ما إذا كان Google قد اعتبر هذا الجهاز أصليًا وآمنًا بما يكفي لحفظ بطاقات الدفع. إذا كانت الإجابة لا، فلن يعمل الدفع باللمس عادةً.</string>
+    <string name="wallet_attested_time">آخر فحص</string>
+    <string name="wallet_attested_time_m">متى أكمل الجهاز آخر مرة فحص الأمان هذا.</string>
+    <string name="wallet_service">خدمة المحفظة</string>
+    <string name="wallet_service_m">ما إذا كانت خدمة الدفع داخل Google Wallet مشغَّلة.</string>
+    <string name="wallet_tapandpay">الدفع باللمس</string>
+    <string name="wallet_tapandpay_m">ما إذا كان الدفع اللاتلامسي باللمس مفعَّلًا.</string>
+    <string name="wallet_password">قفل الشاشة مقبول</string>
+    <string name="wallet_password_m">ما إذا اعتُبر قفل شاشتك قويًا بما يكفي للمدفوعات. تتطلب المحفظة قفل شاشة آمنًا.</string>
+    <string name="wallet_token">سبق إضافة بطاقة</string>
+    <string name="wallet_token_m">ما إذا سبق أن تمت تهيئة بطاقة دفع على هذا الجهاز.</string>
+    <string name="wallet_reset_btn">إعادة تعيين فحص أمان Wallet</string>
+    <string name="wallet_reset_msg">مسح وقت آخر فحص أمان لـ Google Wallet الآن ليعيد الفحص في التصديق التالي؟ ستُعاد خدمات Google Play تشغيلها لفترة وجيزة.</string>
+    <string name="wallet_reset_confirm">مسح</string>
+    <string name="wallet_reset_cancel">إلغاء</string>
+    <string name="wallet_reset_info">يحذف الطابع الزمني لآخر فحص (last_attestation_result_time) من GMS tapandpay ويعيد تشغيل خدمات Play. عندئذ يعتبر Wallet الفحص مستحقًا ويعيد التصديق في الفحص التالي بالخلفية أو عند الدفع - تبقى النتيجة الأخيرة حتى ذلك الحين. يُسجَّل محليًا، بدون إنترنت.</string>
+
+    <string name="att_sec_apps">التطبيقات التي طلبت الإثبات</string>
+    <string name="att_intro">طلبت هذه التطبيقات مؤخرًا من Google Play Integrity أن يضمن هذا الجهاز. هكذا تقرر التطبيقات المصرفية وغيرها من التطبيقات الحساسة ما إذا كانت تثق بالجهاز الذي تعمل عليه.</string>
+    <string name="att_empty">لم يطلب أي تطبيق إثبات سلامة مؤخرًا.</string>
+    <string name="att_last_call">آخر طلب: %1$s</string>
+    <string name="att_calls">الطلبات في النافذة الحالية: %1$s</string>
+
+    <string name="about_no_internet">لا يملك هذا التطبيق أي إذن للإنترنت على الإطلاق. لا شيء مما تراه هنا يغادر جهازك أبدًا.</string>
+    <string name="about_project">المشروع</string>
+    <string name="about_developer">المطوّر</string>
+    <string name="about_source">الكود المصدري</string>
+    <string name="about_license">الترخيص</string>
+    <string name="about_contacts">جهات الاتصال</string>
+    <string name="about_support">الدعم</string>
+
+    <string name="action_close">إغلاق</string>
+    <string name="action_language">اللغة</string>
+    <string name="lang_title">اختر اللغة</string>
+    <string name="lang_system">افتراضي النظام</string>
+    <string name="att_search">البحث عن التطبيقات</string>
+    <string name="root_needed_su">في KernelSU، فعّل توافق su حتى تتمكن التطبيقات من الحصول على الجذر.</string>
+    <string name="action_reload">إعادة تحميل</string>
+    <string name="action_info">معلومات</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_save">حفظ</string>
+    <string name="rcs_carrier">المشغّل</string>
+    <string name="rcs_carrier_m">مشغّل الهاتف المحمول لخطك (الاسم و MCC/MNC).</string>
+    <string name="rcs_invalid_reason">سبب الإعداد غير الصالح</string>
+    <string name="rcs_invalid_reason_m">إذا كان إعداد RCS غير صالح، السبب الذي تبلّغ عنه الخدمة.</string>
+</resources>

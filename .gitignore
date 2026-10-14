@@ -1,0 +1,10 @@
+# Repo root. The Gradle project keeps its own ignore file at VDGoogle/.gitignore.
+/local.properties
+.gradle/
+.kotlin/
+.idea/
+.DS_Store
+*.iml
+
+# Packaged WebUI module zips (built by VDGoogle/webui/package.sh).
+/dist/

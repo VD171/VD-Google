@@ -13,6 +13,15 @@ VD Google menunjukkan apa yang dicatat Google sendiri di ponsel Anda tentang tig
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## Aplikasi atau WebUI
+
+Setiap rilis hadir dalam dua bentuk, dan keduanya membaca hal yang sama di perangkat Anda, tanpa internet:
+
+- **App** - berkas `.apk`, aplikasi Android biasa.
+- **WebUI** - berkas `.zip`, modul yang Anda pasang di pengelola root (KernelSU, Magisk, atau APatch) dan buka dari sana.
+
+Keduanya memerlukan root.
+
 ## Apa yang ditampilkan
 
 ### RCS

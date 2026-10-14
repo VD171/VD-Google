@@ -13,6 +13,15 @@ VD Google 向你展示 Google 自己在你手机上记录的三类信息，并�
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## 应用或 WebUI
+
+每个版本都有两种形式，两者都在你的设备上读取相同的信息，且不联网：
+
+- **App** - `.apk`，一个普通的 Android 应用。
+- **WebUI** - `.zip`，一个在你的 root 管理器（KernelSU、Magisk 或 APatch）中刷入并从那里打开的模块。
+
+两种方式都需要 root。
+
 ## 它显示什么
 
 ### RCS

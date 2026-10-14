@@ -1,0 +1,39 @@
+/*
+ * ======================================================================
+ *  VD GOOGLE  ::  your Google services, read on-device
+ *  RCS, Google Wallet and Play Integrity attestations - local, no internet.
+ *
+ *  Copyright (C) 2026  VD171
+ *  SPDX-License-Identifier: AGPL-3.0-or-later
+ *
+ *  Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+ *  modified version, even as a service, and you MUST offer its source.
+ *
+ *  Site           : https://vd171.ru
+ *  Site           : https://vd.priv8.ru
+ *  Source         : https://github.com/VD171/VD-Google
+ *  GitHub         : @VD171 https://github.com/VD171
+ *  XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+ *  Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+ *  Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+ *  E-mail         : vd.priv8@pm.me
+ * ======================================================================
+ */
+package ru.vd171.vdgoogle
+
+import android.app.Application
+import com.topjohnwu.superuser.Shell
+import java.io.File
+
+class VDGoogleApp : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        val escalator = File(applicationInfo.nativeLibraryDir, "libksusu.so").absolutePath
+        Shell.enableVerboseLogging = BuildConfig.DEBUG
+        Shell.setDefaultBuilder(
+            Shell.Builder.create()
+                .setTimeout(15)
+                .setCommands(escalator),
+        )
+    }
+}

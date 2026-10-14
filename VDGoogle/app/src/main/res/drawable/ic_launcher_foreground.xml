@@ -1,0 +1,62 @@
+<!--
+  VD GOOGLE - adaptive icon foreground: "V" and "D", each letter sweeping the
+  four Google "G" colors (blue, red, yellow, green).
+  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M28,40 L34,55"
+        android:strokeColor="#4285F4"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M34,55 L40,70"
+        android:strokeColor="#EA4335"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M40,70 L46,55"
+        android:strokeColor="#FBBC04"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M46,55 L52,40"
+        android:strokeColor="#34A853"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M63,40 L63,55"
+        android:strokeColor="#4285F4"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M63,55 L63,70"
+        android:strokeColor="#EA4335"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M63,40 C79,40 81,47 81,55"
+        android:strokeColor="#34A853"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M81,55 C81,63 79,70 63,70"
+        android:strokeColor="#FBBC04"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

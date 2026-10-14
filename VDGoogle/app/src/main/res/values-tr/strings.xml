@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Google hizmetleriniz, cihazınızda okunur</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Cüzdan</string>
+    <string name="tab_att">Tasdikler</string>
+    <string name="tab_about">Hakkında</string>
+
+    <string name="v_yes">Evet</string>
+    <string name="v_no">Hayır</string>
+    <string name="action_reveal">Göster</string>
+    <string name="action_hide">Gizle</string>
+    <string name="tz_footer">Saatler cihazınızın saat diliminde gösterilir: %1$s</string>
+
+    <string name="root_needed_title">Root erişimi gerekli</string>
+    <string name="root_needed_body">VD Google, Google\'ın yalnızca sisteme açık korumalı alanlarda sakladığı bilgileri okur. Bunları okumak için süper kullanıcı (root) erişimi gerekir. İstek reddedildi veya yok sayıldı. Root yöneticinizden erişimi verin ve tekrar deneyin.</string>
+    <string name="root_retry">Tekrar dene</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Hizmet</string>
+    <string name="rcs_callout_mversion_zero">Yapılandırma sürümü 0; bu genellikle operatörünüzün ya da Google\'ın bu hat için henüz geçerli bir RCS yapılandırması göndermediği anlamına gelir. 0 kaldığı sürece, el değmemiş bir telefonda bile RCS normalde açılamaz.</string>
+
+    <string name="rcs_sec_status">Durum</string>
+    <string name="rcs_available">RCS kullanılabilir</string>
+    <string name="rcs_available_m">Mesajlaşma uygulamasının kendi numaranız için tuttuğu önbelleğe alınmış bir gösterge. RCS zaten çalışıyor olsa bile güncelliğini yitirmiş kalabilir, bu yüzden yukarıdaki Bağlantı satırına güvenin.</string>
+    <string name="rcs_connected">Bağlantı</string>
+    <string name="rcs_connected_m">Sohbet yapılandırması ve temel hazırlık motoruna göre, RCS\'nin bu hatta gerçekten kurulu ve çalışıyor olup olmadığı. Güvenilir sinyal budur. Aşağıdaki kullanılabilirlik göstergesi kişi başına bir önbellektir ve geride kalabilir.</string>
+    <string name="rcs_st_connected">Bağlı</string>
+    <string name="rcs_st_setup">Bağlı değil</string>
+    <string name="rcs_st_off">Kapalı</string>
+    <string name="rcs_self_number">RCS numaranız</string>
+    <string name="rcs_self_number_m">Bu cihazda RCS için kayıtlı telefon numarası.</string>
+    <string name="rcs_state">RCS durumu</string>
+    <string name="rcs_state_m">Mesajlaşma uygulamasının hattınız için bildirdiği dahili sağlama durumu.</string>
+    <string name="rcs_cfg_version">Yapılandırma sürümü</string>
+    <string name="rcs_cfg_version_m">Bu hatta gönderilen RCS yapılandırmasının sürümü. 0 değeri, henüz geçerli bir yapılandırmanın gelmediği anlamına gelir.</string>
+    <string name="rcs_capable">RCS destekleyen kişiler</string>
+    <string name="rcs_capable_m">Kişilerinizden kaçının şu anda RCS sohbetini desteklediği biliniyor.</string>
+    <string name="rcs_flag_enabled">Özellik etkin</string>
+    <string name="rcs_flag_enabled_m">Mesajlaşma uygulamasının RCS özelliğinin açık olup olmadığı.</string>
+    <string name="rcs_flag_unavailable">Kullanılamaz olarak işaretli</string>
+    <string name="rcs_flag_unavailable_m">Hizmetin bu hat için RCS\'yi kullanılamaz olarak işaretleyip işaretlemediği.</string>
+    <string name="rcs_entitlement">Operatör yetkisi</string>
+    <string name="rcs_entitlement_m">RCS\'yi yetkilendiren operatör yetkilendirme hizmetinin etkin olup olmadığı.</string>
+    <string name="rcs_uce">Mevcudiyet (UCE)</string>
+    <string name="rcs_uce_m">Hattınızın RCS yeteneklerini duyurmasını ve keşfetmesini sağlayan User Capability Exchange.</string>
+    <string name="rcs_ims_pkg">IMS hizmeti mevcut</string>
+    <string name="rcs_ims_pkg_m">RCS\'nin dayandığı operatör IMS hizmetinin cihazda yüklü olup olmadığı.</string>
+
+    <string name="rcs_sec_times">Zaman damgaları</string>
+    <string name="rcs_cfg_updated">Yapılandırma güncellendi</string>
+    <string name="rcs_cfg_updated_m">Geçerli RCS yapılandırmasının en son ne zaman alındığı.</string>
+    <string name="rcs_cfg_validity">Yapılandırma geçerliliği</string>
+    <string name="rcs_cfg_validity_m">Geçerli yapılandırmanın yenilenmesi gerekene kadar ne kadar süre geçerli kaldığı.</string>
+    <string name="rcs_token_exp">Jeton sona ermesi</string>
+    <string name="rcs_token_exp_m">Geçerli sağlama jetonunun ne zaman sona erdiği.</string>
+    <string name="rcs_prov_last">Son sağlama</string>
+    <string name="rcs_prov_last_m">Cihazın operatörde RCS sağlamayı en son ne zaman denediği.</string>
+    <string name="rcs_prov_next">Sonraki sağlama</string>
+    <string name="rcs_prov_next_m">Cihazın sağlamayı tekrar denemeyi planladığı zaman.</string>
+    <string name="rcs_msg_last">Son RCS mesajı</string>
+    <string name="rcs_msg_last_m">RCS üzerinden gönderilen veya alınan en son mesajın ne zaman kaydedildiği.</string>
+    <string name="rcs_cap_refresh">Yetenekler yenilendi</string>
+    <string name="rcs_cap_refresh_m">Kişilerin RCS yetenekleri önbelleğinin en son ne zaman yenilendiği.</string>
+    <string name="rcs_full_sync">Tam eşitleme</string>
+    <string name="rcs_full_sync_m">Mesajlaşma uygulamasının en son ne zaman tam eşitleme yaptığı.</string>
+    <string name="rcs_last_sync">Son eşitleme</string>
+    <string name="rcs_last_sync_m">Mesajlaşma uygulamasının en son ne zaman eşitlendiği.</string>
+
+    <string name="wallet_chip_attested">Tasdikli</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Cihaz</string>
+    <string name="wallet_nfc">NFC donanımı</string>
+    <string name="wallet_nfc_m">Bu cihazda dokunarak ödeme için gereken NFC yongasının olup olmadığı.</string>
+    <string name="wallet_pkg">Cüzdan yüklü</string>
+    <string name="wallet_pkg_m">Bu cihazda Google Cüzdan uygulamasının yüklü olup olmadığı.</string>
+
+    <string name="wallet_sec_att">Tasdik</string>
+    <string name="wallet_attested">Cihaz tasdikli</string>
+    <string name="wallet_attested_m">Google\'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz.</string>
+    <string name="wallet_attested_time">Son kontrol</string>
+    <string name="wallet_attested_time_m">Cihazın bu güvenlik kontrolünü en son ne zaman tamamladığı.</string>
+    <string name="wallet_service">Cüzdan hizmeti</string>
+    <string name="wallet_service_m">Google Cüzdan içindeki ödeme hizmetinin açık olup olmadığı.</string>
+    <string name="wallet_tapandpay">Dokunarak öde</string>
+    <string name="wallet_tapandpay_m">Temassız dokunarak ödemenin etkin olup olmadığı.</string>
+    <string name="wallet_password">Ekran kilidi kabul edildi</string>
+    <string name="wallet_password_m">Ekran kilidinizin ödemeler için yeterince güçlü bulunup bulunmadığı. Cüzdan güvenli bir ekran kilidi gerektirir.</string>
+    <string name="wallet_token">Hiç kart eklendi mi</string>
+    <string name="wallet_token_m">Bu cihazda daha önce hiç ödeme kartı tanımlanıp tanımlanmadığı.</string>
+    <string name="wallet_reset_btn">Wallet güvenlik kontrolünü sıfırla</string>
+    <string name="wallet_reset_msg">Google Wallet\'ın son güvenlik kontrolü zamanı şimdi silinsin mi, böylece bir sonraki doğrulamada yeniden kontrol etsin? Google Play Hizmetleri kısaca yeniden başlar.</string>
+    <string name="wallet_reset_confirm">Sil</string>
+    <string name="wallet_reset_cancel">İptal</string>
+    <string name="wallet_reset_info">Son kontrol zaman damgasını (last_attestation_result_time) GMS tapandpay\'den siler ve Play Hizmetleri\'ni yeniden başlatır. Wallet kontrolü gecikmiş sayar ve bir sonraki arka plan veya ödeme kontrolünde yeniden doğrular - son sonuç o zamana kadar kalır. Yerel olarak kaydedilir, internet yok.</string>
+
+    <string name="att_sec_apps">Tasdik isteyen uygulamalar</string>
+    <string name="att_intro">Bu uygulamalar kısa süre önce Google Play Integrity\'den bu cihaza kefil olmasını istedi. Bankacılık ve diğer hassas uygulamalar, üzerinde çalıştıkları cihaza güvenip güvenmeyeceklerine böyle karar verir.</string>
+    <string name="att_empty">Yakın zamanda hiçbir uygulama bütünlük tasdiki istemedi.</string>
+    <string name="att_last_call">Son istek: %1$s</string>
+    <string name="att_calls">Geçerli penceredeki istekler: %1$s</string>
+
+    <string name="about_no_internet">Bu uygulamanın hiçbir internet izni yoktur. Burada gördüğünüz hiçbir şey cihazınızdan asla çıkmaz.</string>
+    <string name="about_project">Proje</string>
+    <string name="about_developer">Geliştirici</string>
+    <string name="about_source">Kaynak kodu</string>
+    <string name="about_license">Lisans</string>
+    <string name="about_contacts">İletişim</string>
+    <string name="about_support">Destek</string>
+
+    <string name="action_close">Kapat</string>
+    <string name="action_language">Dil</string>
+    <string name="lang_title">Dil seçin</string>
+    <string name="lang_system">Sistem varsayılanı</string>
+    <string name="att_search">Uygulama ara</string>
+    <string name="root_needed_su">KernelSU\'da, uygulamaların root alabilmesi için su uyumluluğunu etkinleştirin.</string>
+    <string name="action_reload">Yeniden yükle</string>
+    <string name="action_info">Bilgi</string>
+    <string name="action_export">Dışa aktar</string>
+    <string name="action_save">Kaydet</string>
+    <string name="rcs_carrier">Operatör</string>
+    <string name="rcs_carrier_m">Hattınızın mobil operatörü (ad ve MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Geçersiz yapılandırma nedeni</string>
+    <string name="rcs_invalid_reason_m">RCS yapılandırması geçersizse, hizmetin bildirdiği neden.</string>
+</resources>

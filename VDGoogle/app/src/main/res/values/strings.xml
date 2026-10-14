@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Your Google services, read on your device</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">Attestations</string>
+    <string name="tab_about">About</string>
+
+    <string name="v_yes">Yes</string>
+    <string name="v_no">No</string>
+    <string name="action_reveal">Reveal</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_close">Close</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_info">Info</string>
+    <string name="action_save">Save</string>
+    <string name="action_export">Export</string>
+    <string name="action_language">Language</string>
+    <string name="lang_title">Choose language</string>
+    <string name="lang_system">System default</string>
+    <string name="tz_footer">Times are shown in your device timezone: %1$s</string>
+
+    <string name="root_needed_title">Root access is required</string>
+    <string name="root_needed_body">VD Google reads status that Google stores in protected, system-only areas of your device. Reading it needs superuser (root) access. The request was dismissed or denied. Grant it in your root manager, then try again.</string>
+    <string name="root_needed_su">On KernelSU, enable su compatibility so apps can be granted root.</string>
+    <string name="root_retry">Try again</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Backend</string>
+    <string name="rcs_callout_mversion_zero">The configuration version is 0, which usually means your carrier or Google has not yet delivered a valid RCS configuration to this line. While it stays 0, RCS normally cannot turn on, even on an untouched phone.</string>
+
+    <string name="rcs_sec_status">Status</string>
+    <string name="rcs_available">RCS available</string>
+    <string name="rcs_available_m">A cached flag the messaging app keeps for your own number. It can stay out of date after RCS is already working, so trust the Connection line above.</string>
+    <string name="rcs_connected">Connection</string>
+    <string name="rcs_connected_m">Whether RCS is really set up and working on this line, based on the chat configuration and the provisioning engine. This is the reliable signal. The availability flag below is a per-contact cache that can lag behind.</string>
+    <string name="rcs_st_connected">Connected</string>
+    <string name="rcs_st_setup">Not connected</string>
+    <string name="rcs_st_off">Turned off</string>
+    <string name="rcs_self_number">Your RCS number</string>
+    <string name="rcs_self_number_m">The phone number registered for RCS on this device.</string>
+    <string name="rcs_state">RCS state</string>
+    <string name="rcs_state_m">The internal provisioning state reported by the messaging app for your line.</string>
+    <string name="rcs_cfg_version">Configuration version</string>
+    <string name="rcs_cfg_version_m">Version of the RCS configuration delivered to this line. A value of 0 means no valid configuration has arrived yet.</string>
+    <string name="rcs_capable">RCS-capable contacts</string>
+    <string name="rcs_capable_m">How many of your contacts are currently known to support RCS chat.</string>
+    <string name="rcs_flag_enabled">Feature enabled</string>
+    <string name="rcs_flag_enabled_m">Whether the messaging app has the RCS feature switched on.</string>
+    <string name="rcs_flag_unavailable">Marked unavailable</string>
+    <string name="rcs_flag_unavailable_m">Whether the backend has flagged RCS as unavailable for this line.</string>
+    <string name="rcs_entitlement">Carrier entitlement</string>
+    <string name="rcs_entitlement_m">Whether the carrier entitlement service that authorizes RCS is enabled.</string>
+    <string name="rcs_uce">Presence (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, which lets your line advertise and discover RCS capabilities.</string>
+    <string name="rcs_ims_pkg">IMS service present</string>
+    <string name="rcs_ims_pkg_m">Whether the carrier IMS service that RCS relies on is installed on the device.</string>
+
+    <string name="rcs_sec_times">Timestamps</string>
+    <string name="rcs_cfg_updated">Configuration updated</string>
+    <string name="rcs_cfg_updated_m">When the current RCS configuration was last received.</string>
+    <string name="rcs_cfg_validity">Configuration validity</string>
+    <string name="rcs_cfg_validity_m">How long the current configuration stays valid before it must be refreshed.</string>
+    <string name="rcs_token_exp">Token expiration</string>
+    <string name="rcs_token_exp_m">When the current provisioning token expires.</string>
+    <string name="rcs_prov_last">Last provisioning</string>
+    <string name="rcs_prov_last_m">When the device last tried to provision RCS with the carrier.</string>
+    <string name="rcs_prov_next">Next provisioning</string>
+    <string name="rcs_prov_next_m">When the device plans to attempt provisioning again.</string>
+    <string name="rcs_msg_last">Last RCS message</string>
+    <string name="rcs_msg_last_m">When the most recent message sent or received over RCS was recorded.</string>
+    <string name="rcs_cap_refresh">Capabilities refreshed</string>
+    <string name="rcs_cap_refresh_m">When the cache of contacts\' RCS capabilities was last refreshed.</string>
+    <string name="rcs_full_sync">Full sync</string>
+    <string name="rcs_full_sync_m">When the messaging app last performed a full synchronization.</string>
+    <string name="rcs_last_sync">Last sync</string>
+    <string name="rcs_last_sync_m">When the messaging app last synchronized.</string>
+
+    <string name="wallet_chip_attested">Attested</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Device</string>
+    <string name="wallet_nfc">NFC hardware</string>
+    <string name="wallet_nfc_m">Whether this device has the NFC chip needed to pay by tapping.</string>
+    <string name="wallet_pkg">Wallet installed</string>
+    <string name="wallet_pkg_m">Whether the Google Wallet app is installed on this device.</string>
+
+    <string name="wallet_sec_att">Attestation</string>
+    <string name="wallet_attested">Device attested</string>
+    <string name="wallet_attested_m">Whether Google judged this device genuine and secure enough to hold payment cards. If this is No, tap-to-pay normally will not work.</string>
+    <string name="wallet_attested_time">Last checked</string>
+    <string name="wallet_attested_time_m">When the device last completed this security check.</string>
+    <string name="wallet_service">Wallet service</string>
+    <string name="wallet_service_m">Whether the payment service inside Google Wallet is turned on.</string>
+    <string name="wallet_tapandpay">Tap and pay</string>
+    <string name="wallet_tapandpay_m">Whether contactless tap-to-pay is enabled.</string>
+    <string name="wallet_password">Screen lock accepted</string>
+    <string name="wallet_password_m">Whether your screen lock was judged strong enough for payments. Wallet requires a secure lock screen.</string>
+    <string name="wallet_token">Card ever added</string>
+    <string name="wallet_token_m">Whether a payment card has ever been provisioned on this device.</string>
+    <string name="wallet_reset_btn">Reset Wallet security check</string>
+    <string name="wallet_reset_msg">Clear Google Wallet\'s last security-check time now, so it re-checks on its next attestation? Google Play services will restart briefly.</string>
+    <string name="wallet_reset_confirm">Clear</string>
+    <string name="wallet_reset_cancel">Cancel</string>
+    <string name="wallet_reset_info">Deletes the last-checked timestamp (last_attestation_result_time) from GMS tapandpay and restarts Play services. Wallet then treats the check as due and re-attests on its next background or payment check - the last verdict stays until then. Logged locally, no internet.</string>
+
+    <string name="att_sec_apps">Apps that requested attestation</string>
+    <string name="att_search">Search apps</string>
+    <string name="att_intro">These apps recently asked Google Play Integrity to vouch for this device. It is how banking and other sensitive apps decide whether to trust the device they are running on.</string>
+    <string name="att_empty">No app has requested an integrity attestation recently.</string>
+    <string name="att_last_call">Last request: %1$s</string>
+    <string name="att_calls">Requests in the current window: %1$s</string>
+
+    <string name="about_no_internet">This app has no internet permission at all. Nothing you see here ever leaves your device.</string>
+    <string name="about_project">Project</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_source">Source</string>
+    <string name="about_license">License</string>
+    <string name="about_contacts">Contacts</string>
+    <string name="about_support">Support</string>
+
+    <string name="rcs_carrier">Carrier</string>
+    <string name="rcs_carrier_m">The mobile carrier for your line (name and MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Invalid config reason</string>
+    <string name="rcs_invalid_reason_m">If the RCS configuration is invalid, the reason the backend reports.</string>
+</resources>

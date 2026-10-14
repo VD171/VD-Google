@@ -13,6 +13,15 @@
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/>
 
+## التطبيق أو WebUI
+
+يأتي كل إصدار بطريقتين، وكلاهما يقرأ المعلومات نفسها على جهازك دون إنترنت:
+
+- **App** - ملف `.apk`، تطبيق أندرويد عادي.
+- **WebUI** - ملف `.zip`، وحدة تثبّتها في مدير الروت لديك (KernelSU أو Magisk أو APatch) وتفتحها من هناك.
+
+في كلتا الحالتين، الروت مطلوب.
+
 ## ما الذي يعرضه
 
 ### RCS

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">I tuoi servizi Google, letti sul dispositivo</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">Attestazioni</string>
+    <string name="tab_about">Info</string>
+
+    <string name="v_yes">Sì</string>
+    <string name="v_no">No</string>
+    <string name="action_reveal">Mostra</string>
+    <string name="action_hide">Nascondi</string>
+    <string name="tz_footer">Gli orari sono mostrati nel fuso orario del dispositivo: %1$s</string>
+
+    <string name="root_needed_title">È necessario l\'accesso root</string>
+    <string name="root_needed_body">VD Google legge informazioni che Google conserva in aree protette, accessibili solo al sistema. Per leggerle serve l\'accesso da superutente (root). La richiesta è stata rifiutata o ignorata. Concedi l\'accesso nel tuo gestore di root e riprova.</string>
+    <string name="root_retry">Riprova</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Servizio</string>
+    <string name="rcs_callout_mversion_zero">La versione della configurazione è 0, il che di solito significa che l\'operatore o Google non ha ancora fornito una configurazione RCS valida a questa linea. Finché resta a 0, l\'RCS normalmente non può attivarsi, anche su un telefono intatto.</string>
+
+    <string name="rcs_sec_status">Stato</string>
+    <string name="rcs_available">RCS disponibile</string>
+    <string name="rcs_available_m">Un indicatore in cache che l\'app di messaggi mantiene per il tuo numero. Può restare obsoleto anche se RCS funziona già, quindi fidati della riga Connessione qui sopra.</string>
+    <string name="rcs_connected">Connessione</string>
+    <string name="rcs_connected_m">Se RCS è davvero configurato e funzionante su questa linea, in base alla configurazione della chat e al motore di provisioning. Questo è il segnale affidabile. L\'indicatore di disponibilità qui sotto è una cache per contatto e può essere in ritardo.</string>
+    <string name="rcs_st_connected">Connesso</string>
+    <string name="rcs_st_setup">Non connesso</string>
+    <string name="rcs_st_off">Disattivato</string>
+    <string name="rcs_self_number">Il tuo numero RCS</string>
+    <string name="rcs_self_number_m">Il numero di telefono registrato per l\'RCS su questo dispositivo.</string>
+    <string name="rcs_state">Stato RCS</string>
+    <string name="rcs_state_m">Lo stato interno di provisioning segnalato dall\'app di messaggi per la tua linea.</string>
+    <string name="rcs_cfg_version">Versione della configurazione</string>
+    <string name="rcs_cfg_version_m">Versione della configurazione RCS fornita a questa linea. Il valore 0 significa che non è ancora arrivata una configurazione valida.</string>
+    <string name="rcs_capable">Contatti compatibili con RCS</string>
+    <string name="rcs_capable_m">Quanti dei tuoi contatti risultano al momento supportare la chat RCS.</string>
+    <string name="rcs_flag_enabled">Funzione attivata</string>
+    <string name="rcs_flag_enabled_m">Se l\'app di messaggi ha la funzione RCS attivata.</string>
+    <string name="rcs_flag_unavailable">Segnato come non disponibile</string>
+    <string name="rcs_flag_unavailable_m">Se il servizio ha segnato l\'RCS come non disponibile per questa linea.</string>
+    <string name="rcs_entitlement">Abilitazione dell\'operatore</string>
+    <string name="rcs_entitlement_m">Se il servizio di abilitazione dell\'operatore che autorizza l\'RCS è attivo.</string>
+    <string name="rcs_uce">Presenza (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, che consente alla tua linea di annunciare e scoprire le capacità RCS.</string>
+    <string name="rcs_ims_pkg">Servizio IMS presente</string>
+    <string name="rcs_ims_pkg_m">Se il servizio IMS dell\'operatore, da cui dipende l\'RCS, è installato sul dispositivo.</string>
+
+    <string name="rcs_sec_times">Date e orari</string>
+    <string name="rcs_cfg_updated">Configurazione aggiornata</string>
+    <string name="rcs_cfg_updated_m">Quando la configurazione RCS attuale è stata ricevuta l\'ultima volta.</string>
+    <string name="rcs_cfg_validity">Validità della configurazione</string>
+    <string name="rcs_cfg_validity_m">Per quanto tempo la configurazione attuale resta valida prima di dover essere rinnovata.</string>
+    <string name="rcs_token_exp">Scadenza del token</string>
+    <string name="rcs_token_exp_m">Quando scade il token di provisioning attuale.</string>
+    <string name="rcs_prov_last">Ultimo provisioning</string>
+    <string name="rcs_prov_last_m">Quando il dispositivo ha tentato l\'ultima volta di eseguire il provisioning dell\'RCS con l\'operatore.</string>
+    <string name="rcs_prov_next">Prossimo provisioning</string>
+    <string name="rcs_prov_next_m">Quando il dispositivo prevede di ritentare il provisioning.</string>
+    <string name="rcs_msg_last">Ultimo messaggio RCS</string>
+    <string name="rcs_msg_last_m">Quando è stato registrato il messaggio più recente inviato o ricevuto tramite RCS.</string>
+    <string name="rcs_cap_refresh">Capacità aggiornate</string>
+    <string name="rcs_cap_refresh_m">Quando la cache delle capacità RCS dei contatti è stata aggiornata l\'ultima volta.</string>
+    <string name="rcs_full_sync">Sincronizzazione completa</string>
+    <string name="rcs_full_sync_m">Quando l\'app di messaggi ha eseguito l\'ultima sincronizzazione completa.</string>
+    <string name="rcs_last_sync">Ultima sincronizzazione</string>
+    <string name="rcs_last_sync_m">Quando l\'app di messaggi si è sincronizzata l\'ultima volta.</string>
+
+    <string name="wallet_chip_attested">Attestato</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Dispositivo</string>
+    <string name="wallet_nfc">Hardware NFC</string>
+    <string name="wallet_nfc_m">Se questo dispositivo ha il chip NFC necessario per pagare in modalità contactless.</string>
+    <string name="wallet_pkg">Wallet installato</string>
+    <string name="wallet_pkg_m">Se l\'app Google Wallet è installata su questo dispositivo.</string>
+
+    <string name="wallet_sec_att">Attestazione</string>
+    <string name="wallet_attested">Dispositivo attestato</string>
+    <string name="wallet_attested_m">Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona.</string>
+    <string name="wallet_attested_time">Ultimo controllo</string>
+    <string name="wallet_attested_time_m">Quando il dispositivo ha completato l\'ultima volta questo controllo di sicurezza.</string>
+    <string name="wallet_service">Servizio Wallet</string>
+    <string name="wallet_service_m">Se il servizio di pagamento all\'interno di Google Wallet è attivo.</string>
+    <string name="wallet_tapandpay">Pagamento contactless</string>
+    <string name="wallet_tapandpay_m">Se il pagamento contactless è attivato.</string>
+    <string name="wallet_password">Blocco schermo accettato</string>
+    <string name="wallet_password_m">Se il tuo blocco schermo è stato giudicato abbastanza forte per i pagamenti. Wallet richiede un blocco schermo sicuro.</string>
+    <string name="wallet_token">Carta mai aggiunta</string>
+    <string name="wallet_token_m">Se su questo dispositivo è mai stata registrata una carta di pagamento.</string>
+    <string name="wallet_reset_btn">Reimposta la verifica di sicurezza di Wallet</string>
+    <string name="wallet_reset_msg">Cancellare ora l\'ora dell\'ultima verifica di sicurezza di Google Wallet, così ricontrolla alla prossima attestazione? I servizi Google Play si riavvieranno brevemente.</string>
+    <string name="wallet_reset_confirm">Cancella</string>
+    <string name="wallet_reset_cancel">Annulla</string>
+    <string name="wallet_reset_info">Elimina il timestamp dell\'ultima verifica (last_attestation_result_time) da GMS tapandpay e riavvia i servizi Play. Wallet considera quindi la verifica come dovuta e riattesta al prossimo controllo in background o di pagamento - l\'ultimo verdetto resta fino ad allora. Registrato localmente, senza internet.</string>
+
+    <string name="att_sec_apps">App che hanno richiesto l\'attestazione</string>
+    <string name="att_intro">Queste app hanno chiesto di recente a Google Play Integrity di garantire per questo dispositivo. È così che le app bancarie e altre app sensibili decidono se fidarsi del dispositivo su cui vengono eseguite.</string>
+    <string name="att_empty">Nessuna app ha richiesto un\'attestazione di integrità di recente.</string>
+    <string name="att_last_call">Ultima richiesta: %1$s</string>
+    <string name="att_calls">Richieste nella finestra attuale: %1$s</string>
+
+    <string name="about_no_internet">Questa app non ha alcun permesso di accesso a Internet. Nulla di ciò che vedi qui lascia mai il tuo dispositivo.</string>
+    <string name="about_project">Progetto</string>
+    <string name="about_developer">Sviluppatore</string>
+    <string name="about_source">Codice sorgente</string>
+    <string name="about_license">Licenza</string>
+    <string name="about_contacts">Contatti</string>
+    <string name="about_support">Supporto</string>
+
+    <string name="action_close">Chiudi</string>
+    <string name="action_language">Lingua</string>
+    <string name="lang_title">Scegli la lingua</string>
+    <string name="lang_system">Predefinito di sistema</string>
+    <string name="att_search">Cerca app</string>
+    <string name="root_needed_su">Su KernelSU, attiva la compatibilità su affinché le app possano ottenere il root.</string>
+    <string name="action_reload">Ricarica</string>
+    <string name="action_info">Info</string>
+    <string name="action_export">Esporta</string>
+    <string name="action_save">Salva</string>
+    <string name="rcs_carrier">Operatore</string>
+    <string name="rcs_carrier_m">L\'operatore mobile della tua linea (nome e MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Motivo config non valida</string>
+    <string name="rcs_invalid_reason_m">Se la configurazione RCS non è valida, il motivo riportato dal servizio.</string>
+</resources>

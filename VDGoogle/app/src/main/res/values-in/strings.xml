@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Layanan Google Anda, dibaca di perangkat</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">Atestasi</string>
+    <string name="tab_about">Tentang</string>
+
+    <string name="v_yes">Ya</string>
+    <string name="v_no">Tidak</string>
+    <string name="action_reveal">Tampilkan</string>
+    <string name="action_hide">Sembunyikan</string>
+    <string name="tz_footer">Waktu ditampilkan dalam zona waktu perangkat Anda: %1$s</string>
+
+    <string name="root_needed_title">Akses root diperlukan</string>
+    <string name="root_needed_body">VD Google membaca informasi yang disimpan Google di area terlindungi yang hanya dapat diakses sistem. Membacanya membutuhkan akses superuser (root). Permintaan ditolak atau diabaikan. Berikan akses di pengelola root Anda, lalu coba lagi.</string>
+    <string name="root_retry">Coba lagi</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Layanan</string>
+    <string name="rcs_callout_mversion_zero">Versi konfigurasi adalah 0, yang biasanya berarti operator atau Google belum mengirimkan konfigurasi RCS yang valid untuk jalur ini. Selama tetap 0, RCS biasanya tidak dapat menyala, bahkan pada ponsel yang masih utuh.</string>
+
+    <string name="rcs_sec_status">Status</string>
+    <string name="rcs_available">RCS tersedia</string>
+    <string name="rcs_available_m">Penanda yang disimpan aplikasi pesan untuk nomor Anda sendiri. Bisa tetap usang meski RCS sudah berfungsi, jadi andalkan baris Koneksi di atas.</string>
+    <string name="rcs_connected">Koneksi</string>
+    <string name="rcs_connected_m">Apakah RCS benar-benar disiapkan dan berfungsi di jalur ini, berdasarkan konfigurasi chat dan mesin penyediaan. Ini sinyal yang andal. Indikator ketersediaan di bawah adalah cache per kontak dan bisa tertinggal.</string>
+    <string name="rcs_st_connected">Tersambung</string>
+    <string name="rcs_st_setup">Tidak tersambung</string>
+    <string name="rcs_st_off">Dimatikan</string>
+    <string name="rcs_self_number">Nomor RCS Anda</string>
+    <string name="rcs_self_number_m">Nomor telepon yang terdaftar untuk RCS di perangkat ini.</string>
+    <string name="rcs_state">Status RCS</string>
+    <string name="rcs_state_m">Status provisioning internal yang dilaporkan aplikasi pesan untuk jalur Anda.</string>
+    <string name="rcs_cfg_version">Versi konfigurasi</string>
+    <string name="rcs_cfg_version_m">Versi konfigurasi RCS yang dikirimkan ke jalur ini. Nilai 0 berarti belum ada konfigurasi valid yang tiba.</string>
+    <string name="rcs_capable">Kontak yang mendukung RCS</string>
+    <string name="rcs_capable_m">Berapa banyak kontak Anda yang saat ini diketahui mendukung chat RCS.</string>
+    <string name="rcs_flag_enabled">Fitur diaktifkan</string>
+    <string name="rcs_flag_enabled_m">Apakah aplikasi pesan mengaktifkan fitur RCS.</string>
+    <string name="rcs_flag_unavailable">Ditandai tidak tersedia</string>
+    <string name="rcs_flag_unavailable_m">Apakah layanan menandai RCS sebagai tidak tersedia untuk jalur ini.</string>
+    <string name="rcs_entitlement">Hak operator</string>
+    <string name="rcs_entitlement_m">Apakah layanan hak operator yang mengizinkan RCS diaktifkan.</string>
+    <string name="rcs_uce">Kehadiran (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, yang memungkinkan jalur Anda mengumumkan dan menemukan kemampuan RCS.</string>
+    <string name="rcs_ims_pkg">Layanan IMS ada</string>
+    <string name="rcs_ims_pkg_m">Apakah layanan IMS operator, yang menjadi sandaran RCS, terpasang di perangkat.</string>
+
+    <string name="rcs_sec_times">Stempel waktu</string>
+    <string name="rcs_cfg_updated">Konfigurasi diperbarui</string>
+    <string name="rcs_cfg_updated_m">Kapan konfigurasi RCS saat ini terakhir diterima.</string>
+    <string name="rcs_cfg_validity">Masa berlaku konfigurasi</string>
+    <string name="rcs_cfg_validity_m">Berapa lama konfigurasi saat ini tetap valid sebelum harus diperbarui.</string>
+    <string name="rcs_token_exp">Kedaluwarsa token</string>
+    <string name="rcs_token_exp_m">Kapan token provisioning saat ini kedaluwarsa.</string>
+    <string name="rcs_prov_last">Provisioning terakhir</string>
+    <string name="rcs_prov_last_m">Kapan perangkat terakhir mencoba melakukan provisioning RCS dengan operator.</string>
+    <string name="rcs_prov_next">Provisioning berikutnya</string>
+    <string name="rcs_prov_next_m">Kapan perangkat berencana mencoba provisioning lagi.</string>
+    <string name="rcs_msg_last">Pesan RCS terakhir</string>
+    <string name="rcs_msg_last_m">Kapan pesan terbaru yang dikirim atau diterima melalui RCS dicatat.</string>
+    <string name="rcs_cap_refresh">Kemampuan disegarkan</string>
+    <string name="rcs_cap_refresh_m">Kapan cache kemampuan RCS kontak terakhir disegarkan.</string>
+    <string name="rcs_full_sync">Sinkronisasi penuh</string>
+    <string name="rcs_full_sync_m">Kapan aplikasi pesan terakhir melakukan sinkronisasi penuh.</string>
+    <string name="rcs_last_sync">Sinkronisasi terakhir</string>
+    <string name="rcs_last_sync_m">Kapan aplikasi pesan terakhir disinkronkan.</string>
+
+    <string name="wallet_chip_attested">Teratestasi</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Perangkat</string>
+    <string name="wallet_nfc">Perangkat keras NFC</string>
+    <string name="wallet_nfc_m">Apakah perangkat ini memiliki chip NFC yang diperlukan untuk membayar dengan menempelkan.</string>
+    <string name="wallet_pkg">Wallet terpasang</string>
+    <string name="wallet_pkg_m">Apakah aplikasi Google Wallet terpasang di perangkat ini.</string>
+
+    <string name="wallet_sec_att">Atestasi</string>
+    <string name="wallet_attested">Perangkat teratestasi</string>
+    <string name="wallet_attested_m">Apakah Google menilai perangkat ini asli dan cukup aman untuk menyimpan kartu pembayaran. Jika Tidak, pembayaran dengan menempelkan biasanya tidak berfungsi.</string>
+    <string name="wallet_attested_time">Terakhir diperiksa</string>
+    <string name="wallet_attested_time_m">Kapan perangkat terakhir menyelesaikan pemeriksaan keamanan ini.</string>
+    <string name="wallet_service">Layanan Wallet</string>
+    <string name="wallet_service_m">Apakah layanan pembayaran di dalam Google Wallet diaktifkan.</string>
+    <string name="wallet_tapandpay">Bayar dengan menempelkan</string>
+    <string name="wallet_tapandpay_m">Apakah pembayaran nirsentuh dengan menempelkan diaktifkan.</string>
+    <string name="wallet_password">Kunci layar diterima</string>
+    <string name="wallet_password_m">Apakah kunci layar Anda dinilai cukup kuat untuk pembayaran. Wallet mewajibkan kunci layar yang aman.</string>
+    <string name="wallet_token">Kartu pernah ditambahkan</string>
+    <string name="wallet_token_m">Apakah kartu pembayaran pernah disiapkan di perangkat ini.</string>
+    <string name="wallet_reset_btn">Setel ulang pemeriksaan keamanan Wallet</string>
+    <string name="wallet_reset_msg">Hapus sekarang waktu pemeriksaan keamanan terakhir Google Wallet, agar memeriksa lagi pada atestasi berikutnya? Layanan Google Play akan dimulai ulang sebentar.</string>
+    <string name="wallet_reset_confirm">Hapus</string>
+    <string name="wallet_reset_cancel">Batal</string>
+    <string name="wallet_reset_info">Menghapus stempel waktu pemeriksaan terakhir (last_attestation_result_time) dari GMS tapandpay dan memulai ulang layanan Play. Wallet lalu menganggap pemeriksaan jatuh tempo dan melakukan atestasi lagi pada pemeriksaan latar belakang atau pembayaran berikutnya - putusan terakhir tetap sampai saat itu. Dicatat lokal, tanpa internet.</string>
+
+    <string name="att_sec_apps">Aplikasi yang meminta atestasi</string>
+    <string name="att_intro">Aplikasi-aplikasi ini baru-baru ini meminta Google Play Integrity untuk menjamin perangkat ini. Begitulah aplikasi perbankan dan aplikasi sensitif lainnya memutuskan apakah memercayai perangkat tempat mereka berjalan.</string>
+    <string name="att_empty">Tidak ada aplikasi yang meminta atestasi integritas baru-baru ini.</string>
+    <string name="att_last_call">Permintaan terakhir: %1$s</string>
+    <string name="att_calls">Permintaan dalam jendela saat ini: %1$s</string>
+
+    <string name="about_no_internet">Aplikasi ini sama sekali tidak memiliki izin internet. Tidak ada yang Anda lihat di sini yang pernah meninggalkan perangkat Anda.</string>
+    <string name="about_project">Proyek</string>
+    <string name="about_developer">Pengembang</string>
+    <string name="about_source">Kode sumber</string>
+    <string name="about_license">Lisensi</string>
+    <string name="about_contacts">Kontak</string>
+    <string name="about_support">Dukungan</string>
+
+    <string name="action_close">Tutup</string>
+    <string name="action_language">Bahasa</string>
+    <string name="lang_title">Pilih bahasa</string>
+    <string name="lang_system">Default sistem</string>
+    <string name="att_search">Cari aplikasi</string>
+    <string name="root_needed_su">Di KernelSU, aktifkan kompatibilitas su agar aplikasi bisa diberi root.</string>
+    <string name="action_reload">Muat ulang</string>
+    <string name="action_info">Info</string>
+    <string name="action_export">Ekspor</string>
+    <string name="action_save">Simpan</string>
+    <string name="rcs_carrier">Operator</string>
+    <string name="rcs_carrier_m">Operator seluler untuk jalur Anda (nama dan MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Alasan konfigurasi tidak valid</string>
+    <string name="rcs_invalid_reason_m">Jika konfigurasi RCS tidak valid, alasan yang dilaporkan layanan.</string>
+</resources>

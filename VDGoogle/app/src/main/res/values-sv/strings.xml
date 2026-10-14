@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Dina Google-tjänster, lästa på din enhet</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="tab_att">Attesteringar</string>
+    <string name="tab_about">Om</string>
+
+    <string name="v_yes">Ja</string>
+    <string name="v_no">Nej</string>
+    <string name="action_reveal">Visa</string>
+    <string name="action_hide">Dölj</string>
+    <string name="tz_footer">Tider visas i enhetens tidszon: %1$s</string>
+
+    <string name="root_needed_title">Root-åtkomst krävs</string>
+    <string name="root_needed_body">VD Google läser information som Google lagrar i skyddade områden som bara systemet kommer åt. För att läsa den krävs superanvändaråtkomst (root). Begäran avvisades eller ignorerades. Bevilja åtkomsten i din root-hanterare och försök igen.</string>
+    <string name="root_retry">Försök igen</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Tjänst</string>
+    <string name="rcs_callout_mversion_zero">Konfigurationsversionen är 0, vilket oftast betyder att din operatör eller Google ännu inte har levererat en giltig RCS-konfiguration till den här linjen. Så länge den är 0 kan RCS normalt inte slås på, inte ens på en orörd telefon.</string>
+
+    <string name="rcs_sec_status">Status</string>
+    <string name="rcs_available">RCS tillgängligt</string>
+    <string name="rcs_available_m">En cachad flagga som meddelandeappen håller för ditt eget nummer. Den kan förbli inaktuell även när RCS redan fungerar, så lita på raden Anslutning ovan.</string>
+    <string name="rcs_connected">Anslutning</string>
+    <string name="rcs_connected_m">Om RCS verkligen är konfigurerat och fungerar på den här linjen, utifrån chattkonfigurationen och etableringsmotorn. Det här är den tillförlitliga signalen. Tillgänglighetsflaggan nedan är en cache per kontakt och kan ligga efter.</string>
+    <string name="rcs_st_connected">Ansluten</string>
+    <string name="rcs_st_setup">Inte ansluten</string>
+    <string name="rcs_st_off">Avstängd</string>
+    <string name="rcs_self_number">Ditt RCS-nummer</string>
+    <string name="rcs_self_number_m">Telefonnumret som är registrerat för RCS på den här enheten.</string>
+    <string name="rcs_state">RCS-tillstånd</string>
+    <string name="rcs_state_m">Det interna provisioneringstillstånd som meddelandeappen rapporterar för din linje.</string>
+    <string name="rcs_cfg_version">Konfigurationsversion</string>
+    <string name="rcs_cfg_version_m">Version av RCS-konfigurationen som levererats till den här linjen. Värdet 0 betyder att ingen giltig konfiguration har kommit ännu.</string>
+    <string name="rcs_capable">RCS-kapabla kontakter</string>
+    <string name="rcs_capable_m">Hur många av dina kontakter som för närvarande är kända för att stödja RCS-chatt.</string>
+    <string name="rcs_flag_enabled">Funktion aktiverad</string>
+    <string name="rcs_flag_enabled_m">Om meddelandeappen har RCS-funktionen påslagen.</string>
+    <string name="rcs_flag_unavailable">Markerad som otillgänglig</string>
+    <string name="rcs_flag_unavailable_m">Om tjänsten har markerat RCS som otillgängligt för den här linjen.</string>
+    <string name="rcs_entitlement">Operatörsbehörighet</string>
+    <string name="rcs_entitlement_m">Om operatörens behörighetstjänst som godkänner RCS är aktiverad.</string>
+    <string name="rcs_uce">Närvaro (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange, som låter din linje annonsera och upptäcka RCS-förmågor.</string>
+    <string name="rcs_ims_pkg">IMS-tjänst finns</string>
+    <string name="rcs_ims_pkg_m">Om operatörens IMS-tjänst, som RCS förlitar sig på, är installerad på enheten.</string>
+
+    <string name="rcs_sec_times">Tidsstämplar</string>
+    <string name="rcs_cfg_updated">Konfiguration uppdaterad</string>
+    <string name="rcs_cfg_updated_m">När den aktuella RCS-konfigurationen togs emot senast.</string>
+    <string name="rcs_cfg_validity">Konfigurationens giltighet</string>
+    <string name="rcs_cfg_validity_m">Hur länge den aktuella konfigurationen förblir giltig innan den måste förnyas.</string>
+    <string name="rcs_token_exp">Tokens utgång</string>
+    <string name="rcs_token_exp_m">När det aktuella provisioneringstoken går ut.</string>
+    <string name="rcs_prov_last">Senaste provisionering</string>
+    <string name="rcs_prov_last_m">När enheten senast försökte provisionera RCS hos operatören.</string>
+    <string name="rcs_prov_next">Nästa provisionering</string>
+    <string name="rcs_prov_next_m">När enheten planerar att försöka provisionera igen.</string>
+    <string name="rcs_msg_last">Senaste RCS-meddelande</string>
+    <string name="rcs_msg_last_m">När det senaste meddelandet som skickats eller tagits emot via RCS registrerades.</string>
+    <string name="rcs_cap_refresh">Förmågor uppdaterade</string>
+    <string name="rcs_cap_refresh_m">När cachen med kontakternas RCS-förmågor senast uppdaterades.</string>
+    <string name="rcs_full_sync">Fullständig synk</string>
+    <string name="rcs_full_sync_m">När meddelandeappen senast utförde en fullständig synkronisering.</string>
+    <string name="rcs_last_sync">Senaste synk</string>
+    <string name="rcs_last_sync_m">När meddelandeappen senast synkroniserade.</string>
+
+    <string name="wallet_chip_attested">Attesterad</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Enhet</string>
+    <string name="wallet_nfc">NFC-hårdvara</string>
+    <string name="wallet_nfc_m">Om den här enheten har NFC-chipet som behövs för att betala genom att hålla mot.</string>
+    <string name="wallet_pkg">Wallet installerat</string>
+    <string name="wallet_pkg_m">Om appen Google Wallet är installerad på den här enheten.</string>
+
+    <string name="wallet_sec_att">Attestering</string>
+    <string name="wallet_attested">Enhet attesterad</string>
+    <string name="wallet_attested_m">Om Google bedömde den här enheten som äkta och tillräckligt säker för att hålla betalkort. Om detta är Nej fungerar betalning genom att hålla mot normalt inte.</string>
+    <string name="wallet_attested_time">Senast kontrollerad</string>
+    <string name="wallet_attested_time_m">När enheten senast slutförde den här säkerhetskontrollen.</string>
+    <string name="wallet_service">Wallet-tjänst</string>
+    <string name="wallet_service_m">Om betaltjänsten i Google Wallet är påslagen.</string>
+    <string name="wallet_tapandpay">Betala genom att hålla mot</string>
+    <string name="wallet_tapandpay_m">Om kontaktlös betalning genom att hålla mot är aktiverad.</string>
+    <string name="wallet_password">Skärmlås accepterat</string>
+    <string name="wallet_password_m">Om ditt skärmlås bedömdes vara tillräckligt starkt för betalningar. Wallet kräver ett säkert skärmlås.</string>
+    <string name="wallet_token">Kort någonsin tillagt</string>
+    <string name="wallet_token_m">Om ett betalkort någonsin har registrerats på den här enheten.</string>
+    <string name="wallet_reset_btn">Återställ Wallets säkerhetskontroll</string>
+    <string name="wallet_reset_msg">Rensa tiden för Google Wallets senaste säkerhetskontroll nu, så att det kontrollerar igen vid nästa attestering? Google Play-tjänster startar om en kort stund.</string>
+    <string name="wallet_reset_confirm">Rensa</string>
+    <string name="wallet_reset_cancel">Avbryt</string>
+    <string name="wallet_reset_info">Tar bort tidsstämpeln för den senaste kontrollen (last_attestation_result_time) från GMS tapandpay och startar om Play-tjänster. Wallet betraktar då kontrollen som förfallen och attesterar på nytt vid nästa bakgrunds- eller betalkontroll - det senaste utslaget stannar till dess. Loggas lokalt, utan internet.</string>
+
+    <string name="att_sec_apps">Appar som begärde attestering</string>
+    <string name="att_intro">Dessa appar bad nyligen Google Play Integrity att gå i god för den här enheten. Så avgör bankappar och andra känsliga appar om de litar på enheten de körs på.</string>
+    <string name="att_empty">Ingen app har begärt en integritetsattestering nyligen.</string>
+    <string name="att_last_call">Senaste begäran: %1$s</string>
+    <string name="att_calls">Begäranden i aktuellt fönster: %1$s</string>
+
+    <string name="about_no_internet">Den här appen har ingen internetbehörighet alls. Inget av det du ser här lämnar någonsin din enhet.</string>
+    <string name="about_project">Projekt</string>
+    <string name="about_developer">Utvecklare</string>
+    <string name="about_source">Källkod</string>
+    <string name="about_license">Licens</string>
+    <string name="about_contacts">Kontakter</string>
+    <string name="about_support">Support</string>
+
+    <string name="action_close">Stäng</string>
+    <string name="action_language">Språk</string>
+    <string name="lang_title">Välj språk</string>
+    <string name="lang_system">Systemstandard</string>
+    <string name="att_search">Sök appar</string>
+    <string name="root_needed_su">I KernelSU, aktivera su-kompatibilitet så att appar kan beviljas root.</string>
+    <string name="action_reload">Ladda om</string>
+    <string name="action_info">Info</string>
+    <string name="action_export">Exportera</string>
+    <string name="action_save">Spara</string>
+    <string name="rcs_carrier">Operatör</string>
+    <string name="rcs_carrier_m">Mobiloperatören för din linje (namn och MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Orsak till ogiltig konfiguration</string>
+    <string name="rcs_invalid_reason_m">Om RCS-konfigurationen är ogiltig, orsaken som tjänsten rapporterar.</string>
+</resources>
