@@ -2,6 +2,10 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.08.1] - 2026-10-14
+
+- The Wallet security-check reset now restores the file's original security context after it clears the last-checked time, so the file is left exactly as the system labels it.
+
 ## [1.08] - 2026-10-10
 
 - New WebUI edition. Every release now ships two ways to use VD Google: the app (APK) and a flashable WebUI module (ZIP) you open from your root manager (KernelSU, Magisk or APatch). Both read the same RCS, Google Wallet and Play Integrity state on-device, in the same 21 languages, and neither uses the internet.

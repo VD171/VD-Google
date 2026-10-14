@@ -496,7 +496,7 @@
   }
 
   async function logAction(action, ok) {
-    var entry = JSON.stringify({ ts: Date.now(), action: action, ok: ok, version: "v1.08" });
+    var entry = JSON.stringify({ ts: Date.now(), action: action, ok: ok, version: "v1.08.1" });
     try {
       await ex("mkdir -p " + STATE + " && printf '%s\\n' '" + entry + "' >> " + STATE + "/actions.jsonl" +
         " && tail -n 200 " + STATE + "/actions.jsonl > " + STATE + "/actions.jsonl.tmp && mv -f " + STATE + "/actions.jsonl.tmp " + STATE + "/actions.jsonl");
@@ -517,7 +517,7 @@
       var fails = val(w.fails);
       var obj = {
         app: "VD Google (WebUI)",
-        version: "v1.08",
+        version: "v1.08.1",
         exportedAt: tsMs(Date.now()),
         timezone: tzLabel(),
         device: { model: val(dev.model), brand: val(dev.brand), android: val(dev.android), sdk: val(dev.sdk) },
@@ -568,10 +568,12 @@
 
   async function resetWallet() {
     var ok = false;
+    var tap = "/data/data/com.google.android.gms/shared_prefs/com.google.android.gms.tapandpay.service.TapAndPayServiceStorage.xml";
     try {
-      await ex("am force-stop com.google.android.gms; sleep 1; " +
-        "sed -i '/name=\"last_attestation_result_time/d' " +
-        "/data/data/com.google.android.gms/shared_prefs/com.google.android.gms.tapandpay.service.TapAndPayServiceStorage.xml");
+      await ex("ctx=$(stat -c %C '" + tap + "' 2>/dev/null); " +
+        "am force-stop com.google.android.gms; sleep 1; " +
+        "sed -i '/name=\"last_attestation_result_time/d' '" + tap + "'; " +
+        "[ -n \"$ctx\" ] && chcon \"$ctx\" '" + tap + "'; true");
       ok = true;
     } catch (e) {}
     await logAction("clear_wallet_last_checked", ok);

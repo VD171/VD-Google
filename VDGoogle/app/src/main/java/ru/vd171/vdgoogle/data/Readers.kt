@@ -206,8 +206,10 @@ object WalletReader {
 
     suspend fun resetAttestation(): Boolean =
         RootRepo.exec(
-            "am force-stop com.google.android.gms; sleep 1; " +
-                "sed -i '/name=\"last_attestation_result_time/d' '$TAP'",
+            "ctx=$(stat -c %C '$TAP' 2>/dev/null); " +
+                "am force-stop com.google.android.gms; sleep 1; " +
+                "sed -i '/name=\"last_attestation_result_time/d' '$TAP'; " +
+                "[ -n \"\$ctx\" ] && chcon \"\$ctx\" '$TAP'; true",
         ) != null
 }
 
