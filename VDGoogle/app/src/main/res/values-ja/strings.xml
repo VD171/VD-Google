@@ -8,6 +8,7 @@
     <string name="tab_wallet">ウォレット</string>
     <string name="tab_att">認証</string>
     <string name="tab_about">概要</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">はい</string>
     <string name="v_no">いいえ</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">最近、整合性の認証を要求したアプリはありません。</string>
     <string name="att_last_call">最後の要求: %1$s</string>
     <string name="att_calls">現在のウィンドウ内の要求数: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">認定済み</string>
+    <string name="att_cert_m">この端末が認定済みとして Google Play に認識されているかどうか。Play ストアに表示される Play プロテクト認定です。</string>
+    <string name="att_sec_dg">認証キャッシュ (DroidGuard)</string>
+    <string name="att_dg_intro">この端末が Play Integrity と DroidGuard 用にキャッシュしている認証です。表示される時刻は各認証の有効期限です。</string>
+    <string name="att_dg_valid">有効期間 %1$s</string>
 
     <string name="about_no_internet">このアプリにはインターネット権限が一切ありません。ここで見える情報が端末の外に出ることは決してありません。</string>
     <string name="about_project">プロジェクト</string>

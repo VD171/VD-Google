@@ -8,6 +8,7 @@
     <string name="tab_wallet">Portfel</string>
     <string name="tab_att">Atestacje</string>
     <string name="tab_about">O aplikacji</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Tak</string>
     <string name="v_no">Nie</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Żadna aplikacja nie zażądała ostatnio atestacji integralności.</string>
     <string name="att_last_call">Ostatnie żądanie: %1$s</string>
     <string name="att_calls">Żądania w bieżącym oknie: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Certyfikowane</string>
+    <string name="att_cert_m">Czy Google Play rozpoznaje to urządzenie jako certyfikowane. To certyfikat Play Protect widoczny w Sklepie Play.</string>
+    <string name="att_sec_dg">Pamięć podręczna atestacji (DroidGuard)</string>
+    <string name="att_dg_intro">Atestacje, które to urządzenie przechowuje w pamięci podręcznej dla Play Integrity i DroidGuard. Pokazany czas to moment wygaśnięcia każdej z nich.</string>
+    <string name="att_dg_valid">Ważne przez %1$s</string>
 
     <string name="about_no_internet">Ta aplikacja nie ma żadnego uprawnienia do internetu. Nic z tego, co tu widzisz, nigdy nie opuszcza Twojego urządzenia.</string>
     <string name="about_project">Projekt</string>

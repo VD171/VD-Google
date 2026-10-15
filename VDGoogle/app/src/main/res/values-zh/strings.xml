@@ -8,6 +8,7 @@
     <string name="tab_wallet">钱包</string>
     <string name="tab_att">认证</string>
     <string name="tab_about">关于</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">是</string>
     <string name="v_no">否</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">最近没有应用请求过完整性认证。</string>
     <string name="att_last_call">上次请求：%1$s</string>
     <string name="att_calls">当前时间窗内的请求数：%1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">已认证</string>
+    <string name="att_cert_m">Google Play 是否将此设备识别为已认证。这就是 Play 商店中显示的 Play 保护机制认证。</string>
+    <string name="att_sec_dg">认证缓存 (DroidGuard)</string>
+    <string name="att_dg_intro">此设备为 Play Integrity 和 DroidGuard 缓存的认证。显示的时间是每项认证的过期时间。</string>
+    <string name="att_dg_valid">有效期 %1$s</string>
 
     <string name="about_no_internet">本应用完全没有任何联网权限。你在这里看到的一切都绝不会离开你的设备。</string>
     <string name="about_project">项目</string>

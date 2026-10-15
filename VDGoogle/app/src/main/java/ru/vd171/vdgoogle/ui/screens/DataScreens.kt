@@ -77,6 +77,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import ru.vd171.vdgoogle.R
 import ru.vd171.vdgoogle.data.AttApp
+import ru.vd171.vdgoogle.data.AttData
 import ru.vd171.vdgoogle.data.RcsData
 import ru.vd171.vdgoogle.data.RcsHealth
 import ru.vd171.vdgoogle.data.Tone
@@ -290,13 +291,14 @@ fun WalletScreen(data: WalletData?, onReset: () -> Unit, modifier: Modifier = Mo
 private class AppMeta(val label: String?, val icon: ImageBitmap?)
 
 @Composable
-fun AttScreen(data: List<AttApp>?, onReload: () -> Unit, modifier: Modifier = Modifier) {
+fun AttScreen(data: AttData?, onReload: () -> Unit, modifier: Modifier = Modifier) {
     if (data == null) {
         Loader(); return
     }
+    val apps = data.apps
     val ctx = LocalContext.current
-    val meta by produceState(emptyMap<String, AppMeta>(), data) {
-        value = withContext(Dispatchers.IO) { data.associate { it.pkg to resolveMeta(ctx, it) } }
+    val meta by produceState(emptyMap<String, AppMeta>(), apps) {
+        value = withContext(Dispatchers.IO) { apps.associate { it.pkg to resolveMeta(ctx, it) } }
     }
     var query by remember { mutableStateOf("") }
     Column(modifier.then(pageModifier()).verticalScroll(rememberScrollState())) {
@@ -306,7 +308,7 @@ fun AttScreen(data: List<AttApp>?, onReload: () -> Unit, modifier: Modifier = Mo
                 Icon(Icons.Outlined.Refresh, stringResource(R.string.action_reload))
             }
         }
-        if (data.isEmpty()) {
+        if (apps.isEmpty()) {
             NoteText(stringResource(R.string.att_empty))
         } else {
             NoteText(stringResource(R.string.att_intro))
@@ -326,12 +328,40 @@ fun AttScreen(data: List<AttApp>?, onReload: () -> Unit, modifier: Modifier = Mo
                 modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
             )
             val q = query.trim()
-            val shown = if (q.isEmpty()) data else data.filter {
+            val shown = if (q.isEmpty()) apps else apps.filter {
                 it.pkg.contains(q, ignoreCase = true) ||
                     (meta[it.pkg]?.label?.contains(q, ignoreCase = true) == true)
             }
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 for (a in shown) AttCard(a, meta[a.pkg])
+            }
+        }
+        TzFooter()
+    }
+}
+
+@Composable
+fun DgScreen(data: AttData?, modifier: Modifier = Modifier) {
+    if (data == null) {
+        Loader(); return
+    }
+    Column(modifier.then(pageModifier()).verticalScroll(rememberScrollState())) {
+        SectionTitle(stringResource(R.string.att_sec_cert))
+        InfoCard {
+            boolRow(stringResource(R.string.att_cert), data.certified, stringResource(R.string.att_cert_m))
+        }
+        if (data.droidGuard.isNotEmpty()) {
+            SectionTitle(stringResource(R.string.att_sec_dg))
+            NoteText(stringResource(R.string.att_dg_intro))
+            InfoCard {
+                for (f in data.droidGuard) {
+                    InfoRow(
+                        f.flow,
+                        Fmt.tsSecs(f.expirySecs),
+                        Tone.NEUTRAL,
+                        stringResource(R.string.att_dg_valid, Fmt.durationSecs(f.expirySecs - f.issuedSecs) ?: "-"),
+                    )
+                }
             }
         }
         TzFooter()

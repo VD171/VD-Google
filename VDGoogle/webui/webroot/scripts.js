@@ -25,7 +25,7 @@
   var MOD = "/data/adb/modules/vdgoogle";
   var STATE = "/data/adb/vdgoogle";
   var cache = {};
-  var curTab = "rcs";
+  var curTab = "about";
 
   function ex(c) {
     return new Promise(function (ok, no) {
@@ -199,14 +199,26 @@
   }
 
   async function readAtt() {
-    var cmd =
+    var cmd = PRE +
       "V=/data/data/com.android.vending/shared_prefs\n" +
+      "DEV=/data/data/com.android.vending/files/finsky/shared/device_verification_valuestore.pb\n" +
+      "DG=/data/data/com.google.android.gms/databases/dg.db\n" +
+      "cp $DG $Q/dg.db 2>/dev/null; [ -f $DG-wal ] && cp $DG-wal $Q/dg.db-wal 2>/dev/null\n" +
       "echo '---TS---'\n" +
       "cat $V/integrity_service_sharedprefs_timestamp_of_last_call.xml 2>/dev/null\n" +
       "echo '---CNT---'\n" +
-      "cat $V/integrity_service_sharedprefs_number_of_calls_in_throttling_window.xml 2>/dev/null\n";
+      "cat $V/integrity_service_sharedprefs_number_of_calls_in_throttling_window.xml 2>/dev/null\n" +
+      "echo '---CERT---'\n" +
+      "od -An -tu1 -N2 \"$DEV\" 2>/dev/null\n" +
+      "echo '---DG---'\n" +
+      "\"$SQ\" $Q/dg.db \"SELECT a, b, h FROM main ORDER BY b DESC\" 2>/dev/null\n" +
+      cleanQ();
     var out = await ex(cmd);
-    var parts = out.split("---CNT---");
+    var dgPart = out.split("---DG---")[1] || "";
+    var beforeDg = out.split("---DG---")[0] || "";
+    var certPart = beforeDg.split("---CERT---")[1] || "";
+    var head = beforeDg.split("---CERT---")[0] || "";
+    var parts = head.split("---CNT---");
     var tsBlock = (parts[0] || "").split("---TS---").pop();
     var cntBlock = parts[1] || "";
     var counts = {};
@@ -220,7 +232,18 @@
       if (g) apps.push({ pkg: g[1], ts: Number(g[2]), calls: counts[g[1]] || "1" });
     });
     apps.sort(function (a, b) { return b.ts - a.ts; });
-    return apps;
+    var ct = certPart.trim().split(/\s+/).filter(Boolean);
+    var certified = (ct.length >= 2 && ct[0] === "8") ? (ct[1] === "1" ? "true" : "false") : null;
+    var dg = [], dgSeen = {};
+    dgPart.split("\n").forEach(function (l) {
+      l = l.trim(); if (!l) return;
+      var p = l.split("|");
+      if (p.length < 3) return;
+      var h = Number(p[p.length - 1]), b = Number(p[p.length - 2]);
+      var flow = p.slice(0, p.length - 2).join("|").split("/")[0];
+      if (flow && !dgSeen[flow]) { dgSeen[flow] = 1; dg.push({ flow: flow, issued: b, expiry: h }); }
+    });
+    return { apps: apps, certified: certified, droidGuard: dg };
   }
 
   function rcsHealth(d) {
@@ -346,7 +369,23 @@
 
   var attQuery = "";
 
-  function renderAtt(apps) {
+  function renderDg(data) {
+    var h = "<div class=\"seclabel\">" + esc(t("att_sec_cert")) + "</div><div class=\"card\">" +
+      boolRow(t("att_cert"), data.certified, t("att_cert_m")) + "</div>";
+    if (data.droidGuard && data.droidGuard.length) {
+      h += "<div class=\"seclabel\">" + esc(t("att_sec_dg")) + "</div>";
+      h += "<div class=\"note\">" + esc(t("att_dg_intro")) + "</div>";
+      h += "<div class=\"card\">";
+      data.droidGuard.forEach(function (f) {
+        h += row(f.flow, tsSecs(f.expiry), "", t("att_dg_valid").split("%1$s").join(durationSecs(f.expiry - f.issued) || "-"));
+      });
+      h += "</div>";
+    }
+    return h + tzFoot();
+  }
+
+  function renderAtt(data) {
+    var apps = data.apps;
     var h = "<div class=\"toprow\"><div class=\"seclabel\" style=\"margin:6px 4px\">" + esc(t("att_sec_apps")) + "</div></div>";
     if (!apps.length) { return h + "<div class=\"note\">" + esc(t("att_empty")) + "</div>"; }
     h += "<div class=\"note\">" + esc(t("att_intro")) + "</div>";
@@ -440,12 +479,13 @@
     });
     if (tab === "about") { view.innerHTML = renderAbout(); return; }
     if (!hasRoot()) { renderNoRoot(); return; }
-    if (!force && cache[tab]) { paint(tab); return; }
+    var cacheKey = tab === "droidguard" ? "att" : tab;
+    if (!force && cache[cacheKey]) { paint(tab); return; }
     spinner();
     try {
       if (tab === "rcs") cache.rcs = await readRcs();
       else if (tab === "wallet") cache.wallet = await readWallet();
-      else if (tab === "att") cache.att = await readAtt();
+      else if (tab === "att" || tab === "droidguard") cache.att = await readAtt();
     } catch (e) {
       view.innerHTML = "<div class=\"note\">" + esc(String(e)) + "</div>";
       return;
@@ -457,6 +497,7 @@
     if (tab === "rcs") view.innerHTML = renderRcs(cache.rcs);
     else if (tab === "wallet") view.innerHTML = renderWallet(cache.wallet);
     else if (tab === "att") view.innerHTML = renderAtt(cache.att);
+    else if (tab === "droidguard") view.innerHTML = renderDg(cache.att);
   }
 
   function renderNoRoot() {
@@ -496,7 +537,7 @@
   }
 
   async function logAction(action, ok) {
-    var entry = JSON.stringify({ ts: Date.now(), action: action, ok: ok, version: "v1.08.1" });
+    var entry = JSON.stringify({ ts: Date.now(), action: action, ok: ok, version: "v1.09" });
     try {
       await ex("mkdir -p " + STATE + " && printf '%s\\n' '" + entry + "' >> " + STATE + "/actions.jsonl" +
         " && tail -n 200 " + STATE + "/actions.jsonl > " + STATE + "/actions.jsonl.tmp && mv -f " + STATE + "/actions.jsonl.tmp " + STATE + "/actions.jsonl");
@@ -517,7 +558,7 @@
       var fails = val(w.fails);
       var obj = {
         app: "VD Google (WebUI)",
-        version: "v1.08.1",
+        version: "v1.09",
         exportedAt: tsMs(Date.now()),
         timezone: tzLabel(),
         device: { model: val(dev.model), brand: val(dev.brand), android: val(dev.android), sdk: val(dev.sdk) },
@@ -630,14 +671,14 @@
       confirmDialog(t("wallet_reset_btn"), t("wallet_reset_msg"), t("wallet_reset_confirm"), t("wallet_reset_cancel"), resetWallet);
     }
     else if (a === "wallet-info") { infoDialog(t("wallet_reset_btn"), t("wallet_reset_info")); }
-    else if (a === "att-clear") { attQuery = ""; var inp = document.getElementById("attq"); if (inp) inp.value = ""; document.getElementById("attlist").innerHTML = attList(cache.att || []); }
+    else if (a === "att-clear") { attQuery = ""; var inp = document.getElementById("attq"); if (inp) inp.value = ""; document.getElementById("attlist").innerHTML = attList((cache.att && cache.att.apps) || []); }
   });
 
   view.addEventListener("input", function (e) {
     if (e.target.id === "attq") {
       attQuery = e.target.value;
       var list = document.getElementById("attlist");
-      if (list) list.innerHTML = attList(cache.att || []);
+      if (list) list.innerHTML = attList((cache.att && cache.att.apps) || []);
     }
   });
 
@@ -665,6 +706,6 @@
         .then(function (v) { v = (v || "").trim(); if (v) document.getElementById("ver").textContent = v; })
         .catch(function () {});
     }
-    loadTab("rcs", false);
+    loadTab("about", false);
   })();
 })();

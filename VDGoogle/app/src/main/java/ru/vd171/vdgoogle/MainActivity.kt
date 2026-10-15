@@ -45,6 +45,7 @@ import androidx.compose.material.icons.outlined.CreditCard
 import androidx.compose.material.icons.outlined.SaveAlt
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.Share
+import androidx.compose.material.icons.outlined.Shield
 import androidx.compose.material.icons.outlined.VerifiedUser
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -78,6 +79,7 @@ import ru.vd171.vdgoogle.ui.RootGate
 import ru.vd171.vdgoogle.ui.components.LanguageDialog
 import ru.vd171.vdgoogle.ui.screens.AboutScreen
 import ru.vd171.vdgoogle.ui.screens.AttScreen
+import ru.vd171.vdgoogle.ui.screens.DgScreen
 import ru.vd171.vdgoogle.ui.screens.RcsScreen
 import ru.vd171.vdgoogle.ui.screens.RootDeniedScreen
 import ru.vd171.vdgoogle.ui.screens.WalletScreen
@@ -168,7 +170,7 @@ private data class Tab(val titleRes: Int, val icon: ImageVector)
 private fun MainScaffold(
     rcs: ru.vd171.vdgoogle.data.RcsData?,
     wallet: ru.vd171.vdgoogle.data.WalletData?,
-    att: List<ru.vd171.vdgoogle.data.AttApp>?,
+    att: ru.vd171.vdgoogle.data.AttData?,
     onOpenLanguage: () -> Unit,
     onReloadAtt: () -> Unit,
     onResetWallet: () -> Unit,
@@ -177,10 +179,11 @@ private fun MainScaffold(
 ) {
     val tabs = remember {
         listOf(
+            Tab(R.string.tab_about, Icons.Outlined.Info),
+            Tab(R.string.tab_droidguard, Icons.Outlined.Shield),
             Tab(R.string.tab_rcs, Icons.AutoMirrored.Outlined.Chat),
             Tab(R.string.tab_wallet, Icons.Outlined.CreditCard),
             Tab(R.string.tab_att, Icons.Outlined.VerifiedUser),
-            Tab(R.string.tab_about, Icons.Outlined.Info),
         )
     }
     var sel by rememberSaveable { mutableIntStateOf(0) }
@@ -236,10 +239,11 @@ private fun MainScaffold(
     ) { inner ->
         Box(Modifier.fillMaxSize().padding(inner)) {
             when (sel) {
-                0 -> RcsScreen(rcs)
-                1 -> WalletScreen(wallet, onReset = onResetWallet)
-                2 -> AttScreen(att, onReload = onReloadAtt)
-                else -> AboutScreen()
+                0 -> AboutScreen()
+                1 -> DgScreen(att)
+                2 -> RcsScreen(rcs)
+                3 -> WalletScreen(wallet, onReset = onResetWallet)
+                else -> AttScreen(att, onReload = onReloadAtt)
             }
         }
     }

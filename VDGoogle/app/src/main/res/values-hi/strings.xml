@@ -8,6 +8,7 @@
     <string name="tab_wallet">वॉलेट</string>
     <string name="tab_att">प्रमाणन</string>
     <string name="tab_about">परिचय</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">हाँ</string>
     <string name="v_no">नहीं</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">हाल ही में किसी ऐप ने अखंडता प्रमाणन का अनुरोध नहीं किया।</string>
     <string name="att_last_call">अंतिम अनुरोध: %1$s</string>
     <string name="att_calls">वर्तमान अवधि में अनुरोध: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">प्रमाणित</string>
+    <string name="att_cert_m">क्या Google Play इस डिवाइस को प्रमाणित मानता है। यह Play Store में दिखाई जाने वाली Play Protect प्रमाणन है।</string>
+    <string name="att_sec_dg">प्रमाणन कैश (DroidGuard)</string>
+    <string name="att_dg_intro">इस डिवाइस ने Play Integrity और DroidGuard के लिए कैश की हुई प्रमाणन। दिखाया गया समय वह है जब हर एक समाप्त होती है।</string>
+    <string name="att_dg_valid">%1$s के लिए मान्य</string>
 
     <string name="about_no_internet">इस ऐप के पास इंटरनेट की कोई अनुमति नहीं है। यहाँ आप जो कुछ भी देखते हैं वह कभी आपके डिवाइस से बाहर नहीं जाता।</string>
     <string name="about_project">परियोजना</string>

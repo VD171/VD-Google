@@ -30,6 +30,9 @@ Hattınız için RCS'nin kullanılabilir olup olmadığı, RCS numaranız, RCS d
 ### Google Cüzdan
 Cihazınızın ödemeler için tasdikli olup olmadığı, NFC donanımı olup olmadığı, Cüzdan'ın yüklü olup olmadığı, ödeme hizmeti ve dokunarak ödeme durumu, ekran kilidinizin kabul edilip edilmediği ve hiç kart eklenip eklenmediği.
 
+### DroidGuard
+Google Play'in bu cihazı sertifikalı olarak tanıyıp tanımadığı. Play Store'da gösterilen Play Protect sertifikasıdır. Bu cihazın Play Integrity ve DroidGuard için önbelleğe aldığı doğrulamalar. Gösterilen saat, her birinin sona erdiği zamandır.
+
 ### Tasdikler (Play Integrity)
 Yakın zamanda Google Play Integrity'den cihazınıza kefil olmasını isteyen uygulamalar; her biri simgesi, adı, son isteğinin tam zamanı ve geçerli penceredeki istek sayısıyla.
 

@@ -29,7 +29,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import ru.vd171.vdgoogle.data.AttApp
+import ru.vd171.vdgoogle.data.AttData
 import ru.vd171.vdgoogle.data.AttReader
 import ru.vd171.vdgoogle.data.RcsData
 import ru.vd171.vdgoogle.data.RcsReader
@@ -44,7 +44,7 @@ data class UiState(
     val loading: Boolean = false,
     val rcs: RcsData? = null,
     val wallet: WalletData? = null,
-    val att: List<AttApp>? = null,
+    val att: AttData? = null,
 )
 
 class AppViewModel(app: Application) : AndroidViewModel(app) {

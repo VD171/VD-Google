@@ -30,6 +30,9 @@ Zda je RCS dostupné pro vaši linku, vaše číslo RCS, stav RCS, verze konfigu
 ### Google Wallet
 Zda je vaše zařízení atestováno pro platby, zda má hardware NFC, zda je Wallet nainstalován, stav platební služby a placení přiložením, zda je váš zámek obrazovky přijat a zda byla někdy přidána karta.
 
+### DroidGuard
+Zda Google Play rozpoznává toto zařízení jako certifikované. Jde o certifikaci Play Protect zobrazenou v Obchodě Play. Atestace, které má toto zařízení uložené v mezipaměti pro Play Integrity a DroidGuard. Zobrazený čas je okamžik vypršení platnosti každé z nich.
+
 ### Atestace (Play Integrity)
 Aplikace, které nedávno požádaly Google Play Integrity, aby se za vaše zařízení zaručil, každá se svou ikonou, názvem, úplným časem poslední žádosti a počtem žádostí v aktuálním okně.
 

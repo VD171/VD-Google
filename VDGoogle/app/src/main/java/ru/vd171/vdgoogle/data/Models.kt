@@ -84,3 +84,15 @@ data class AttApp(
     val lastCallMs: Long,
     val calls: String,
 )
+
+data class DgFlow(
+    val flow: String,
+    val issuedSecs: Long,
+    val expirySecs: Long,
+)
+
+data class AttData(
+    val apps: List<AttApp>,
+    val certified: String? = null,
+    val droidGuard: List<DgFlow> = emptyList(),
+)

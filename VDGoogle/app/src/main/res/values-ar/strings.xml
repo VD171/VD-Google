@@ -8,6 +8,7 @@
     <string name="tab_wallet">المحفظة</string>
     <string name="tab_att">الإثباتات</string>
     <string name="tab_about">حول</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">نعم</string>
     <string name="v_no">لا</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">لم يطلب أي تطبيق إثبات سلامة مؤخرًا.</string>
     <string name="att_last_call">آخر طلب: %1$s</string>
     <string name="att_calls">الطلبات في النافذة الحالية: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">معتمد</string>
+    <string name="att_cert_m">ما إذا كان Google Play يعترف بهذا الجهاز كجهاز معتمد. هذه هي شهادة Play Protect الظاهرة في متجر Play.</string>
+    <string name="att_sec_dg">ذاكرة التصديقات المؤقتة (DroidGuard)</string>
+    <string name="att_dg_intro">التصديقات التي خزّنها هذا الجهاز مؤقتًا لـ Play Integrity و DroidGuard. الوقت المعروض هو موعد انتهاء صلاحية كل منها.</string>
+    <string name="att_dg_valid">صالح لمدة %1$s</string>
 
     <string name="about_no_internet">لا يملك هذا التطبيق أي إذن للإنترنت على الإطلاق. لا شيء مما تراه هنا يغادر جهازك أبدًا.</string>
     <string name="about_project">المشروع</string>

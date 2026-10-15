@@ -2,6 +2,11 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.09] - 2026-10-15
+
+- New DroidGuard tab. It shows your device's Play Protect certification: whether Google Play recognizes this device as certified, the same state shown in the Play Store. Read on-device, no internet.
+- The DroidGuard tab also lists the attestations your device has cached for Play Integrity and DroidGuard, with when each one expires.
+
 ## [1.08.1] - 2026-10-14
 
 - The Wallet security-check reset now restores the file's original security context after it clears the last-checked time, so the file is left exactly as the system labels it.

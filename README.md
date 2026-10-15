@@ -30,6 +30,9 @@ Whether RCS is available for your line, your RCS number, the RCS state, the conf
 ### Google Wallet
 Whether your device is attested for payments, whether it has NFC hardware, whether Wallet is installed, the payment service and tap-to-pay state, whether your screen lock is accepted, and whether a card has ever been added.
 
+### DroidGuard
+Whether Google Play recognizes this device as certified. This is the Play Protect certification shown in the Play Store. Attestations this device has cached for Play Integrity and DroidGuard. The time shown is when each one expires.
+
 ### Attestations (Play Integrity)
 The apps that recently asked Google Play Integrity to vouch for your device, each with its icon, its name, the full time of its last request, and how many requests it made in the current window.
 

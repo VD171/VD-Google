@@ -30,6 +30,9 @@ RCS có khả dụng cho số máy của bạn hay không, số RCS của bạn,
 ### Google Ví
 Thiết bị của bạn có được chứng thực để thanh toán hay không, có phần cứng NFC hay không, Ví có được cài hay không, trạng thái dịch vụ thanh toán và chạm để thanh toán, khóa màn hình của bạn có được chấp nhận hay không, và đã từng thêm thẻ nào chưa.
 
+### DroidGuard
+Liệu Google Play có công nhận thiết bị này là đã chứng nhận hay không. Đây là chứng nhận Play Protect hiển thị trong Cửa hàng Play. Các chứng thực mà thiết bị này đã lưu vào bộ nhớ đệm cho Play Integrity và DroidGuard. Thời gian hiển thị là khi mỗi chứng thực hết hạn.
+
 ### Chứng thực (Play Integrity)
 Các ứng dụng gần đây đã yêu cầu Google Play Integrity bảo đảm cho thiết bị của bạn, mỗi ứng dụng kèm biểu tượng, tên, thời gian đầy đủ của yêu cầu gần nhất và số yêu cầu đã thực hiện trong cửa sổ hiện tại.
 

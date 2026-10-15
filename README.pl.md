@@ -30,6 +30,9 @@ Czy RCS jest dostępny dla Twojej linii, Twój numer RCS, stan RCS, wersja konfi
 ### Google Wallet
 Czy Twoje urządzenie jest poświadczone do płatności, czy ma sprzęt NFC, czy Wallet jest zainstalowany, stan usługi płatności i płatności zbliżeniowych, czy Twoja blokada ekranu jest akceptowana oraz czy kiedykolwiek dodano kartę.
 
+### DroidGuard
+Czy Google Play rozpoznaje to urządzenie jako certyfikowane. To certyfikat Play Protect widoczny w Sklepie Play. Atestacje, które to urządzenie przechowuje w pamięci podręcznej dla Play Integrity i DroidGuard. Pokazany czas to moment wygaśnięcia każdej z nich.
+
 ### Atestacje (Play Integrity)
 Aplikacje, które niedawno poprosiły Google Play Integrity o poręczenie za Twoje urządzenie, każda ze swoją ikoną, nazwą, pełnym czasem ostatniego żądania oraz liczbą żądań w bieżącym oknie.
 

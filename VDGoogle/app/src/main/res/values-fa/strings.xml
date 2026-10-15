@@ -8,6 +8,7 @@
     <string name="tab_wallet">کیف پول</string>
     <string name="tab_att">گواهی‌ها</string>
     <string name="tab_about">درباره</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">بله</string>
     <string name="v_no">خیر</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">اخیراً هیچ اپی درخواست گواهی یکپارچگی نداده است.</string>
     <string name="att_last_call">آخرین درخواست: %1$s</string>
     <string name="att_calls">درخواست‌ها در بازه فعلی: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">تأییدشده</string>
+    <string name="att_cert_m">اینکه Google Play این دستگاه را تأییدشده بشناسد. این همان گواهی Play Protect است که در Play Store نمایش داده می‌شود.</string>
+    <string name="att_sec_dg">حافظهٔ گواهی‌ها (DroidGuard)</string>
+    <string name="att_dg_intro">گواهی‌هایی که این دستگاه برای Play Integrity و DroidGuard در حافظهٔ موقت دارد. زمان نمایش‌داده‌شده زمان انقضای هر کدام است.</string>
+    <string name="att_dg_valid">معتبر برای %1$s</string>
 
     <string name="about_no_internet">این اپ هیچ مجوز اینترنتی ندارد. هیچ‌چیزی از آنچه اینجا می‌بینید هرگز از دستگاه شما خارج نمی‌شود.</string>
     <string name="about_project">پروژه</string>

@@ -30,6 +30,9 @@ Ob RCS für deine Leitung verfügbar ist, deine RCS-Nummer, der RCS-Zustand, die
 ### Google Wallet
 Ob dein Gerät für Zahlungen attestiert ist, ob es NFC-Hardware hat, ob Wallet installiert ist, der Zustand des Zahlungsdienstes und des Bezahlens durch Auflegen, ob deine Bildschirmsperre akzeptiert wird und ob jemals eine Karte hinzugefügt wurde.
 
+### DroidGuard
+Ob Google Play dieses Gerät als zertifiziert erkennt. Das ist die Play Protect-Zertifizierung, die im Play Store angezeigt wird. Attestierungen, die dieses Gerät für Play Integrity und DroidGuard zwischengespeichert hat. Die angezeigte Zeit ist der jeweilige Ablaufzeitpunkt.
+
 ### Attestierungen (Play Integrity)
 Die Apps, die kürzlich Google Play Integrity gebeten haben, für dein Gerät zu bürgen, jeweils mit Symbol, Name, der vollständigen Zeit der letzten Anfrage und der Anzahl der Anfragen im aktuellen Zeitfenster.
 

@@ -30,6 +30,9 @@ Of RCS beschikbaar is voor je lijn, je RCS-nummer, de RCS-status, de configurati
 ### Google Wallet
 Of je toestel geattesteerd is voor betalingen, of het NFC-hardware heeft, of Wallet geïnstalleerd is, de status van de betaaldienst en van tikken om te betalen, of je schermvergrendeling geaccepteerd is, en of er ooit een kaart is toegevoegd.
 
+### DroidGuard
+Of Google Play dit apparaat als gecertificeerd herkent. Dit is de Play Protect-certificering die in de Play Store wordt getoond. Attestaties die dit apparaat in de cache heeft voor Play Integrity en DroidGuard. De getoonde tijd is wanneer elk verloopt.
+
 ### Attestaties (Play Integrity)
 De apps die onlangs Google Play Integrity hebben gevraagd om voor je toestel in te staan, elk met zijn pictogram, zijn naam, de volledige tijd van het laatste verzoek en hoeveel verzoeken het in het huidige venster deed.
 

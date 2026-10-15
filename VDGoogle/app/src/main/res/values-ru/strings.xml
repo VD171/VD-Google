@@ -8,6 +8,7 @@
     <string name="tab_wallet">Кошелёк</string>
     <string name="tab_att">Аттестации</string>
     <string name="tab_about">О приложении</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Да</string>
     <string name="v_no">Нет</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Ни одно приложение недавно не запрашивало аттестацию целостности.</string>
     <string name="att_last_call">Последний запрос: %1$s</string>
     <string name="att_calls">Запросов в текущем окне: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Сертифицировано</string>
+    <string name="att_cert_m">Признаёт ли Google Play это устройство сертифицированным. Это сертификация Play Protect, показываемая в Google Play.</string>
+    <string name="att_sec_dg">Кэш аттестаций (DroidGuard)</string>
+    <string name="att_dg_intro">Аттестации, которые это устройство кэшировало для Play Integrity и DroidGuard. Показано время, когда каждая из них истекает.</string>
+    <string name="att_dg_valid">Действует %1$s</string>
 
     <string name="about_no_internet">У этого приложения вообще нет разрешения на доступ в интернет. Ничто из того, что вы здесь видите, никогда не покидает ваше устройство.</string>
     <string name="about_project">Проект</string>

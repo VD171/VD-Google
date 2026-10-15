@@ -8,6 +8,7 @@
     <string name="tab_wallet">Peněženka</string>
     <string name="tab_att">Atestace</string>
     <string name="tab_about">O aplikaci</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Ano</string>
     <string name="v_no">Ne</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Žádná aplikace nedávno nepožádala o atestaci integrity.</string>
     <string name="att_last_call">Poslední žádost: %1$s</string>
     <string name="att_calls">Žádosti v aktuálním okně: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Certifikováno</string>
+    <string name="att_cert_m">Zda Google Play rozpoznává toto zařízení jako certifikované. Jde o certifikaci Play Protect zobrazenou v Obchodě Play.</string>
+    <string name="att_sec_dg">Mezipaměť atestací (DroidGuard)</string>
+    <string name="att_dg_intro">Atestace, které má toto zařízení uložené v mezipaměti pro Play Integrity a DroidGuard. Zobrazený čas je okamžik vypršení platnosti každé z nich.</string>
+    <string name="att_dg_valid">Platné %1$s</string>
 
     <string name="about_no_internet">Tato aplikace nemá vůbec žádné oprávnění k internetu. Nic z toho, co zde vidíte, nikdy neopustí vaše zařízení.</string>
     <string name="about_project">Projekt</string>

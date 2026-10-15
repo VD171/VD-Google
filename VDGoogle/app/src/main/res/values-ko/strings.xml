@@ -8,6 +8,7 @@
     <string name="tab_wallet">월렛</string>
     <string name="tab_att">증명</string>
     <string name="tab_about">정보</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">예</string>
     <string name="v_no">아니요</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">최근 무결성 증명을 요청한 앱이 없습니다.</string>
     <string name="att_last_call">마지막 요청: %1$s</string>
     <string name="att_calls">현재 기간 내 요청 수: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">인증됨</string>
+    <string name="att_cert_m">Google Play가 이 기기를 인증된 기기로 인식하는지 여부입니다. Play 스토어에 표시되는 Play 프로텍트 인증입니다.</string>
+    <string name="att_sec_dg">증명 캐시 (DroidGuard)</string>
+    <string name="att_dg_intro">이 기기가 Play Integrity 및 DroidGuard를 위해 캐시한 증명입니다. 표시된 시간은 각 증명이 만료되는 시점입니다.</string>
+    <string name="att_dg_valid">%1$s 동안 유효</string>
 
     <string name="about_no_internet">이 앱에는 인터넷 권한이 전혀 없습니다. 여기에 보이는 어떤 것도 기기를 떠나지 않습니다.</string>
     <string name="about_project">프로젝트</string>

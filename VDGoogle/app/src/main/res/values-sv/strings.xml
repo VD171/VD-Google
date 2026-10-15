@@ -8,6 +8,7 @@
     <string name="tab_wallet">Wallet</string>
     <string name="tab_att">Attesteringar</string>
     <string name="tab_about">Om</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Ja</string>
     <string name="v_no">Nej</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Ingen app har begärt en integritetsattestering nyligen.</string>
     <string name="att_last_call">Senaste begäran: %1$s</string>
     <string name="att_calls">Begäranden i aktuellt fönster: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Certifierad</string>
+    <string name="att_cert_m">Om Google Play känner igen den här enheten som certifierad. Det är Play Protect-certifieringen som visas i Play Butik.</string>
+    <string name="att_sec_dg">Attesteringscache (DroidGuard)</string>
+    <string name="att_dg_intro">Attesteringar som den här enheten har cachat för Play Integrity och DroidGuard. Tiden som visas är när var och en upphör att gälla.</string>
+    <string name="att_dg_valid">Giltig i %1$s</string>
 
     <string name="about_no_internet">Den här appen har ingen internetbehörighet alls. Inget av det du ser här lämnar någonsin din enhet.</string>
     <string name="about_project">Projekt</string>

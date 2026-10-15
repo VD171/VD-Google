@@ -8,6 +8,7 @@
     <string name="tab_wallet">Wallet</string>
     <string name="tab_att">Atestasi</string>
     <string name="tab_about">Tentang</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Ya</string>
     <string name="v_no">Tidak</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Tidak ada aplikasi yang meminta atestasi integritas baru-baru ini.</string>
     <string name="att_last_call">Permintaan terakhir: %1$s</string>
     <string name="att_calls">Permintaan dalam jendela saat ini: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Bersertifikat</string>
+    <string name="att_cert_m">Apakah Google Play mengenali perangkat ini sebagai bersertifikat. Ini adalah sertifikasi Play Protect yang ditampilkan di Play Store.</string>
+    <string name="att_sec_dg">Cache atestasi (DroidGuard)</string>
+    <string name="att_dg_intro">Atestasi yang disimpan perangkat ini dalam cache untuk Play Integrity dan DroidGuard. Waktu yang ditampilkan adalah saat masing-masing kedaluwarsa.</string>
+    <string name="att_dg_valid">Berlaku selama %1$s</string>
 
     <string name="about_no_internet">Aplikasi ini sama sekali tidak memiliki izin internet. Tidak ada yang Anda lihat di sini yang pernah meninggalkan perangkat Anda.</string>
     <string name="about_project">Proyek</string>

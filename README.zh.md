@@ -30,6 +30,9 @@ VD Google 向你展示 Google 自己在你手机上记录的三类信息，并�
 ### Google 钱包
 你的设备是否已通过支付认证、是否具备 NFC 硬件、是否已安装钱包、支付服务与刷卡支付状态、你的屏幕锁是否被接受，以及是否曾添加过卡片。
 
+### DroidGuard
+Google Play 是否将此设备识别为已认证。这就是 Play 商店中显示的 Play 保护机制认证。 此设备为 Play Integrity 和 DroidGuard 缓存的认证。显示的时间是每项认证的过期时间。
+
 ### 认证（Play Integrity）
 最近请求 Google Play Integrity 为你的设备背书的应用，每个都附带其图标、名称、上次请求的完整时间，以及在当前时间窗内发出的请求数。
 

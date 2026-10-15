@@ -8,6 +8,7 @@
     <string name="tab_wallet">Wallet</string>
     <string name="tab_att">การรับรอง</string>
     <string name="tab_about">เกี่ยวกับ</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">ใช่</string>
     <string name="v_no">ไม่</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">ไม่มีแอปใดขอการรับรองความสมบูรณ์เมื่อเร็ว ๆ นี้</string>
     <string name="att_last_call">คำขอล่าสุด: %1$s</string>
     <string name="att_calls">คำขอในช่วงเวลาปัจจุบัน: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">ได้รับการรับรอง</string>
+    <string name="att_cert_m">Google Play รับรองอุปกรณ์นี้ว่าผ่านการรับรองหรือไม่ นี่คือการรับรอง Play Protect ที่แสดงใน Play Store</string>
+    <string name="att_sec_dg">แคชการรับรอง (DroidGuard)</string>
+    <string name="att_dg_intro">การรับรองที่อุปกรณ์นี้แคชไว้สำหรับ Play Integrity และ DroidGuard เวลาที่แสดงคือเวลาที่แต่ละรายการหมดอายุ</string>
+    <string name="att_dg_valid">ใช้ได้ %1$s</string>
 
     <string name="about_no_internet">แอปนี้ไม่มีสิทธิ์เข้าถึงอินเทอร์เน็ตเลย ไม่มีสิ่งใดที่คุณเห็นที่นี่ออกไปจากอุปกรณ์ของคุณ</string>
     <string name="about_project">โปรเจกต์</string>

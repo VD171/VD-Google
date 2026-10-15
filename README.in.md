@@ -30,6 +30,9 @@ Apakah RCS tersedia untuk jalur Anda, nomor RCS Anda, status RCS, versi konfigur
 ### Google Wallet
 Apakah perangkat Anda teratestasi untuk pembayaran, apakah memiliki perangkat keras NFC, apakah Wallet terpasang, status layanan pembayaran dan bayar dengan menempelkan, apakah kunci layar Anda diterima, dan apakah kartu pernah ditambahkan.
 
+### DroidGuard
+Apakah Google Play mengenali perangkat ini sebagai bersertifikat. Ini adalah sertifikasi Play Protect yang ditampilkan di Play Store. Atestasi yang disimpan perangkat ini dalam cache untuk Play Integrity dan DroidGuard. Waktu yang ditampilkan adalah saat masing-masing kedaluwarsa.
+
 ### Atestasi (Play Integrity)
 Aplikasi yang baru-baru ini meminta Google Play Integrity untuk menjamin perangkat Anda, masing-masing dengan ikon, nama, waktu lengkap permintaan terakhir, dan berapa banyak permintaan yang dibuatnya dalam jendela saat ini.
 

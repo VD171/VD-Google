@@ -8,6 +8,7 @@
     <string name="tab_wallet">Wallet</string>
     <string name="tab_att">Attestaties</string>
     <string name="tab_about">Over</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Ja</string>
     <string name="v_no">Nee</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Geen enkele app heeft onlangs een integriteitsattestatie aangevraagd.</string>
     <string name="att_last_call">Laatste verzoek: %1$s</string>
     <string name="att_calls">Verzoeken in het huidige venster: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Gecertificeerd</string>
+    <string name="att_cert_m">Of Google Play dit apparaat als gecertificeerd herkent. Dit is de Play Protect-certificering die in de Play Store wordt getoond.</string>
+    <string name="att_sec_dg">Attestatiecache (DroidGuard)</string>
+    <string name="att_dg_intro">Attestaties die dit apparaat in de cache heeft voor Play Integrity en DroidGuard. De getoonde tijd is wanneer elk verloopt.</string>
+    <string name="att_dg_valid">Geldig voor %1$s</string>
 
     <string name="about_no_internet">Deze app heeft helemaal geen internettoegang. Niets van wat je hier ziet verlaat ooit je toestel.</string>
     <string name="about_project">Project</string>

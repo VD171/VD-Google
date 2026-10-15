@@ -8,6 +8,7 @@
     <string name="tab_wallet">Ví</string>
     <string name="tab_att">Chứng thực</string>
     <string name="tab_about">Giới thiệu</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Có</string>
     <string name="v_no">Không</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Gần đây không có ứng dụng nào yêu cầu chứng thực tính toàn vẹn.</string>
     <string name="att_last_call">Yêu cầu gần nhất: %1$s</string>
     <string name="att_calls">Yêu cầu trong cửa sổ hiện tại: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Đã chứng nhận</string>
+    <string name="att_cert_m">Liệu Google Play có công nhận thiết bị này là đã chứng nhận hay không. Đây là chứng nhận Play Protect hiển thị trong Cửa hàng Play.</string>
+    <string name="att_sec_dg">Bộ nhớ đệm chứng thực (DroidGuard)</string>
+    <string name="att_dg_intro">Các chứng thực mà thiết bị này đã lưu vào bộ nhớ đệm cho Play Integrity và DroidGuard. Thời gian hiển thị là khi mỗi chứng thực hết hạn.</string>
+    <string name="att_dg_valid">Có hiệu lực trong %1$s</string>
 
     <string name="about_no_internet">Ứng dụng này hoàn toàn không có quyền truy cập internet. Không điều gì bạn thấy ở đây rời khỏi thiết bị của bạn.</string>
     <string name="about_project">Dự án</string>

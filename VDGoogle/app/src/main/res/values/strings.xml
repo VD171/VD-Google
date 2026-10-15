@@ -8,6 +8,7 @@
     <string name="tab_wallet">Wallet</string>
     <string name="tab_att">Attestations</string>
     <string name="tab_about">About</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Yes</string>
     <string name="v_no">No</string>
@@ -113,6 +114,12 @@
     <string name="att_empty">No app has requested an integrity attestation recently.</string>
     <string name="att_last_call">Last request: %1$s</string>
     <string name="att_calls">Requests in the current window: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Certified</string>
+    <string name="att_cert_m">Whether Google Play recognizes this device as certified. This is the Play Protect certification shown in the Play Store.</string>
+    <string name="att_sec_dg">Attestation cache (DroidGuard)</string>
+    <string name="att_dg_intro">Attestations this device has cached for Play Integrity and DroidGuard. The time shown is when each one expires.</string>
+    <string name="att_dg_valid">Valid for %1$s</string>
 
     <string name="about_no_internet">This app has no internet permission at all. Nothing you see here ever leaves your device.</string>
     <string name="about_project">Project</string>

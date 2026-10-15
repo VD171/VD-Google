@@ -30,7 +30,9 @@ private const val GMS = "/data/data/com.google.android.gms"
 private const val TAP = "$GMS/shared_prefs/com.google.android.gms.tapandpay.service.TapAndPayServiceStorage.xml"
 private const val TAP_SET = "$GMS/shared_prefs/com.google.android.gms.tapandpay.settings.TapAndPaySettingsStorage.xml"
 private const val PAY_DB = "$GMS/databases/android_pay"
+private const val DG_DB = "$GMS/databases/dg.db"
 private const val VENDING = "/data/data/com.android.vending/shared_prefs"
+private const val DEVVERIFY = "/data/data/com.android.vending/files/finsky/shared/device_verification_valuestore.pb"
 private const val TELEPHONY = "/data/user_de/0/com.android.providers.telephony/databases/telephony.db"
 
 private fun longPref(xml: String?, name: String): Long? =
@@ -214,7 +216,18 @@ object WalletReader {
 }
 
 object AttReader {
-    suspend fun load(): List<AttApp> {
+    suspend fun load(): AttData = AttData(loadApps(), certState(), dgFlows())
+
+    private suspend fun dgFlows(): List<DgFlow> =
+        RootRepo.queryDb(DG_DB, "SELECT a, b, h FROM main ORDER BY b DESC").mapNotNull { row ->
+            val c = row.split('\t')
+            val a = c.getOrNull(0)?.takeIf { it.isNotBlank() } ?: return@mapNotNull null
+            val b = c.getOrNull(1)?.toLongOrNull() ?: return@mapNotNull null
+            val h = c.getOrNull(2)?.toLongOrNull() ?: return@mapNotNull null
+            DgFlow(a.substringBefore('/'), b, h)
+        }.distinctBy { it.flow }
+
+    private suspend fun loadApps(): List<AttApp> {
         val tsXml = Root.text("$VENDING/integrity_service_sharedprefs_timestamp_of_last_call.xml") ?: return emptyList()
         val cntXml = Root.text("$VENDING/integrity_service_sharedprefs_number_of_calls_in_throttling_window.xml")
         val calls = HashMap<String, String>()
@@ -230,5 +243,12 @@ object AttReader {
         }
         out.sortByDescending { it.lastCallMs }
         return out
+    }
+
+    private suspend fun certState(): String? {
+        val out = RootRepo.exec("od -An -tu1 -N2 '$DEVVERIFY' 2>/dev/null")?.trim() ?: return null
+        val t = out.split(Regex("\\s+")).filter { it.isNotEmpty() }
+        if (t.size < 2 || t[0] != "8") return null
+        return if (t[1] == "1") "true" else "false"
     }
 }

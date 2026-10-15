@@ -8,6 +8,7 @@
     <string name="tab_wallet">Cüzdan</string>
     <string name="tab_att">Tasdikler</string>
     <string name="tab_about">Hakkında</string>
+    <string name="tab_droidguard">DroidGuard</string>
 
     <string name="v_yes">Evet</string>
     <string name="v_no">Hayır</string>
@@ -103,6 +104,12 @@
     <string name="att_empty">Yakın zamanda hiçbir uygulama bütünlük tasdiki istemedi.</string>
     <string name="att_last_call">Son istek: %1$s</string>
     <string name="att_calls">Geçerli penceredeki istekler: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Sertifikalı</string>
+    <string name="att_cert_m">Google Play\'in bu cihazı sertifikalı olarak tanıyıp tanımadığı. Play Store\'da gösterilen Play Protect sertifikasıdır.</string>
+    <string name="att_sec_dg">Doğrulama önbelleği (DroidGuard)</string>
+    <string name="att_dg_intro">Bu cihazın Play Integrity ve DroidGuard için önbelleğe aldığı doğrulamalar. Gösterilen saat, her birinin sona erdiği zamandır.</string>
+    <string name="att_dg_valid">%1$s geçerli</string>
 
     <string name="about_no_internet">Bu uygulamanın hiçbir internet izni yoktur. Burada gördüğünüz hiçbir şey cihazınızdan asla çıkmaz.</string>
     <string name="about_project">Proje</string>

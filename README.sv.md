@@ -30,6 +30,9 @@ Om RCS är tillgängligt för din linje, ditt RCS-nummer, RCS-tillståndet, konf
 ### Google Wallet
 Om din enhet är attesterad för betalningar, om den har NFC-hårdvara, om Wallet är installerat, tillståndet för betaltjänsten och betalning genom att hålla mot, om ditt skärmlås accepteras och om ett kort någonsin har lagts till.
 
+### DroidGuard
+Om Google Play känner igen den här enheten som certifierad. Det är Play Protect-certifieringen som visas i Play Butik. Attesteringar som den här enheten har cachat för Play Integrity och DroidGuard. Tiden som visas är när var och en upphör att gälla.
+
 ### Attesteringar (Play Integrity)
 Apparna som nyligen bad Google Play Integrity att gå i god för din enhet, var och en med sin ikon, sitt namn, den fullständiga tiden för sin senaste begäran och hur många begäranden den gjorde i det aktuella fönstret.
 
