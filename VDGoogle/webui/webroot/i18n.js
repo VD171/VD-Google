@@ -22,12 +22,12 @@
 (function () {
   "use strict";
   var AVAILABLE = ["en", "ar", "cs", "de", "es", "fa", "fr", "hi", "in", "it", "ja",
-                   "ko", "nl", "pl", "pt", "ru", "sv", "th", "tr", "vi", "zh"];
+                   "ko", "nl", "pl", "pt", "ru", "sv", "th", "tr", "ua", "vi", "zh"];
   var NAMES = {
     en: "English", ar: "العربية", cs: "Čeština", de: "Deutsch", es: "Español",
     fa: "فارسی", fr: "Français", hi: "हिन्दी", in: "Bahasa Indonesia", it: "Italiano",
     ja: "日本語", ko: "한국어", nl: "Nederlands", pl: "Polski", pt: "Português",
-    ru: "Русский", sv: "Svenska", th: "ไทย", tr: "Türkçe", vi: "Tiếng Việt", zh: "中文"
+    ru: "Русский", sv: "Svenska", th: "ไทย", tr: "Türkçe", ua: "Українська", vi: "Tiếng Việt", zh: "中文"
   };
   var RTL = { ar: 1, fa: 1 };
   var dict = {}, fallback = (window.__I18N_EN || {});
