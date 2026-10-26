@@ -95,7 +95,7 @@
   "v_no": "아니요",
   "v_yes": "예",
   "wallet_attested": "기기 증명됨",
-  "wallet_attested_m": "Google이 이 기기를 정품이며 결제 카드를 보관할 만큼 안전하다고 판단했는지 여부. 아니요이면 터치 결제가 보통 작동하지 않습니다.",
+  "wallet_attested_m": "Google이 이 기기를 정품이며 결제 카드를 보관할 만큼 안전하다고 판단했는지 여부. 아니요이면 터치 결제가 보통 작동하지 않습니다. Google가 이 기기에 저장한 마지막 결과이므로, Google가 다시 확인하기 전까지는 Wallet 앱보다 뒤처질 수 있습니다.",
   "wallet_attested_time": "마지막 확인",
   "wallet_attested_time_m": "기기가 이 보안 확인을 마지막으로 완료한 시점.",
   "wallet_chip_attested": "증명됨",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "터치 결제",
   "wallet_tapandpay_m": "비접촉 터치 결제가 사용 설정되어 있는지 여부.",
   "wallet_token": "카드 추가 이력",
-  "wallet_token_m": "이 기기에 결제 카드가 설정된 적이 있는지 여부."
+  "wallet_token_m": "이 기기에 결제 카드가 설정된 적이 있는지 여부.",
+  "action_theme": "테마"
 }

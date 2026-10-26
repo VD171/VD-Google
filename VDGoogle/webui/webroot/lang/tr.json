@@ -95,7 +95,7 @@
   "v_no": "Hayır",
   "v_yes": "Evet",
   "wallet_attested": "Cihaz tasdikli",
-  "wallet_attested_m": "Google'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz.",
+  "wallet_attested_m": "Google'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz. Bu, Google'ın bu cihazda kaydettiği son sonuçtur; bu nedenle Google yeniden denetleyene kadar Wallet uygulamasının gerisinde kalabilir.",
   "wallet_attested_time": "Son kontrol",
   "wallet_attested_time_m": "Cihazın bu güvenlik kontrolünü en son ne zaman tamamladığı.",
   "wallet_chip_attested": "Tasdikli",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Dokunarak öde",
   "wallet_tapandpay_m": "Temassız dokunarak ödemenin etkin olup olmadığı.",
   "wallet_token": "Hiç kart eklendi mi",
-  "wallet_token_m": "Bu cihazda daha önce hiç ödeme kartı tanımlanıp tanımlanmadığı."
+  "wallet_token_m": "Bu cihazda daha önce hiç ödeme kartı tanımlanıp tanımlanmadığı.",
+  "action_theme": "Tema"
 }

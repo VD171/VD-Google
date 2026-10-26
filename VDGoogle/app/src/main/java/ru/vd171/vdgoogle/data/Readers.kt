@@ -197,7 +197,7 @@ object WalletReader {
         return WalletData(
             hasNfc = hasNfc,
             walletPkgPresent = Root.present("com.google.android.apps.walletnfcrel"),
-            attested = failsAtt?.let { if (it == "0") "true" else "false" } ?: boolPref(tap, "last_attestation_result"),
+            attested = boolPref(tap, "last_attestation_result") ?: failsAtt?.let { if (it == "0") "true" else "false" },
             attestedTimeMs = longPref(tap, "last_attestation_result_time"),
             serviceEnabled = boolPref(tap, "wallet_service_enabled"),
             tapAndPayEnabled = boolPref(tap, "tap_and_pay_enabled"),

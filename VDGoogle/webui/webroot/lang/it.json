@@ -95,7 +95,7 @@
   "v_no": "No",
   "v_yes": "Sì",
   "wallet_attested": "Dispositivo attestato",
-  "wallet_attested_m": "Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona.",
+  "wallet_attested_m": "Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona. È l'ultimo risultato che Google ha salvato su questo dispositivo, quindi può essere in ritardo rispetto all'app Wallet finché Google non verifica di nuovo.",
   "wallet_attested_time": "Ultimo controllo",
   "wallet_attested_time_m": "Quando il dispositivo ha completato l'ultima volta questo controllo di sicurezza.",
   "wallet_chip_attested": "Attestato",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Pagamento contactless",
   "wallet_tapandpay_m": "Se il pagamento contactless è attivato.",
   "wallet_token": "Carta mai aggiunta",
-  "wallet_token_m": "Se su questo dispositivo è mai stata registrata una carta di pagamento."
+  "wallet_token_m": "Se su questo dispositivo è mai stata registrata una carta di pagamento.",
+  "action_theme": "Tema"
 }

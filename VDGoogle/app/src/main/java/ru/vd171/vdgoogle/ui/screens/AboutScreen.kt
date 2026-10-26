@@ -135,6 +135,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
             AboutRow(Icons.AutoMirrored.Outlined.Chat, "Discord", "@VD.Priv8", "https://discord.com/users/1296831918989639721")
             AboutRow(Icons.Outlined.Email, "E-mail", "vd.priv8@pm.me", "mailto:vd.priv8@pm.me")
             AboutRow(Icons.Outlined.Forum, "XDA", "@VD171", "https://xdaforums.com/m/vd171.4699873/")
+            AboutRow(Icons.Outlined.Forum, "XDA thread", "VD-Google", "https://xdaforums.com/t/VD-Google.4803837/")
             AboutRow(Icons.Outlined.Link, "GitHub", "@VD171", "https://github.com/VD171")
         }
 

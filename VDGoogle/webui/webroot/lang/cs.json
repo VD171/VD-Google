@@ -95,7 +95,7 @@
   "v_no": "Ne",
   "v_yes": "Ano",
   "wallet_attested": "Zařízení atestováno",
-  "wallet_attested_m": "Zda Google vyhodnotil toto zařízení jako pravé a dostatečně bezpečné pro uchování platebních karet. Pokud je Ne, placení přiložením obvykle nefunguje.",
+  "wallet_attested_m": "Zda Google vyhodnotil toto zařízení jako pravé a dostatečně bezpečné pro uchování platebních karet. Pokud je Ne, placení přiložením obvykle nefunguje. Je to poslední výsledek, který Google uložil v tomto zařízení, takže se oproti aplikaci Wallet může opožďovat, dokud Google neprovede novou kontrolu.",
   "wallet_attested_time": "Naposledy zkontrolováno",
   "wallet_attested_time_m": "Kdy zařízení naposledy dokončilo tuto bezpečnostní kontrolu.",
   "wallet_chip_attested": "Atestováno",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Placení přiložením",
   "wallet_tapandpay_m": "Zda je zapnuto bezkontaktní placení přiložením.",
   "wallet_token": "Karta někdy přidána",
-  "wallet_token_m": "Zda byla na tomto zařízení někdy nastavena platební karta."
+  "wallet_token_m": "Zda byla na tomto zařízení někdy nastavena platební karta.",
+  "action_theme": "Motiv"
 }

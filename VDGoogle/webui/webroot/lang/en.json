@@ -95,7 +95,7 @@
   "v_no": "No",
   "v_yes": "Yes",
   "wallet_attested": "Device attested",
-  "wallet_attested_m": "Whether Google judged this device genuine and secure enough to hold payment cards. If this is No, tap-to-pay normally will not work.",
+  "wallet_attested_m": "Whether Google judged this device genuine and secure enough to hold payment cards. If this is No, tap-to-pay normally will not work. It is the last result Google saved on this device, so it can lag the Wallet app until Google re-checks.",
   "wallet_attested_time": "Last checked",
   "wallet_attested_time_m": "When the device last completed this security check.",
   "wallet_chip_attested": "Attested",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Tap and pay",
   "wallet_tapandpay_m": "Whether contactless tap-to-pay is enabled.",
   "wallet_token": "Card ever added",
-  "wallet_token_m": "Whether a payment card has ever been provisioned on this device."
+  "wallet_token_m": "Whether a payment card has ever been provisioned on this device.",
+  "action_theme": "Theme"
 }

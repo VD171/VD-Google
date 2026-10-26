@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ======================================================================
+     VD GOOGLE  ::  your Google services, read on-device
+     RCS, Google Wallet and Play Integrity attestations - local, no internet.
+     Copyright (C) 2026  VD171
+     SPDX-License-Identifier: AGPL-3.0-or-later
+     Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+     modified version, even as a service, and you MUST offer its source.
+     Site           : https://vd171.ru
+     Site           : https://vd.priv8.ru
+     Source         : https://github.com/VD171/VD-Google
+     GitHub         : @VD171 https://github.com/VD171
+     XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+     Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+     Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+     E-mail         : vd.priv8@pm.me
+     ======================================================================
+-->
+<resources>
+
+    <string name="app_name">VD Google</string>
+    <string name="app_tagline">Відомості про служби Google безпосередньо з вашого пристрою</string>
+
+    <string name="tab_rcs">RCS</string>
+    <string name="tab_wallet">Гаманець</string>
+    <string name="tab_att">Атестація</string>
+    <string name="tab_about">Про додаток</string>
+    <string name="tab_droidguard">DroidGuard</string>
+
+    <string name="v_yes">Так</string>
+    <string name="v_no">Ні</string>
+    <string name="action_reveal">Показати</string>
+    <string name="action_hide">Приховати</string>
+    <string name="action_close">Закрити</string>
+    <string name="action_reload">Оновити</string>
+    <string name="action_theme">Тема</string>
+    <string name="action_info">Відомості</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_export">Експортувати</string>
+    <string name="action_language">Мова</string>
+    <string name="lang_title">Виберіть мову</string>
+    <string name="lang_system">Типова мова системи</string>
+    <string name="tz_footer">Час наведено в часовому поясі вашого пристрою: %1$s</string>
+
+    <string name="root_needed_title">Потрібні root-права</string>
+    <string name="root_needed_body">VD Google зчитує відомості, які Google зберігає в захищених системних розділах. Для доступу до них потрібні права суперкористувача (root). Запит на надання прав було відхилено або скасовано. Надайте доступ у менеджері root-прав і повторіть спробу.</string>
+    <string name="root_needed_su">У KernelSU увімкніть сумісність із su, щоб додатки могли отримувати root-права.</string>
+    <string name="root_retry">Повторити спробу</string>
+
+    <string name="rcs_chip_active">RCS</string>
+    <string name="rcs_chip_backend">Служба</string>
+    <string name="rcs_callout_mversion_zero">Версія конфігурації дорівнює 0. Зазвичай це означає, що оператор або Google ще не надіслав чинну конфігурацію RCS для цієї SIM-картки. Поки значення залишається 0, RCS зазвичай не вдається активувати навіть на пристрої без модифікацій.</string>
+
+    <string name="rcs_sec_status">Стан</string>
+    <string name="rcs_available">RCS доступний</string>
+    <string name="rcs_available_m">Кешований прапорець, у якому додаток Повідомлення зберігає відомості про доступність RCS для вашого номера. Він може застаріти навіть тоді, коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
+    <string name="rcs_connected">Підключення</string>
+    <string name="rcs_connected_m">Чи налаштовано і працює RCS для цієї SIM-картки згідно з конфігурацією чатів і механізмом активації служби. Це надійний показник. Наведений нижче показник доступності зберігається в кеші окремо для кожного контакту й може оновлюватися із затримкою.</string>
+    <string name="rcs_st_connected">Підключено</string>
+    <string name="rcs_st_setup">Не підключено</string>
+    <string name="rcs_st_off">Вимкнено</string>
+    <string name="rcs_self_number">Ваш номер RCS</string>
+    <string name="rcs_self_number_m">Номер телефону, зареєстрований для RCS на цьому пристрої.</string>
+    <string name="rcs_state">Стан RCS</string>
+    <string name="rcs_state_m">Внутрішній стан активації RCS для вашої SIM-картки, про який повідомляє додаток Повідомлення.</string>
+    <string name="rcs_cfg_version">Версія конфігурації</string>
+    <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано.</string>
+    <string name="rcs_capable">Контакти з підтримкою RCS</string>
+    <string name="rcs_capable_m">Кількість контактів, для яких наразі відомо, що вони підтримують чати RCS.</string>
+    <string name="rcs_flag_enabled">Функцію ввімкнено</string>
+    <string name="rcs_flag_enabled_m">Чи ввімкнено функцію RCS у застосунку Повідомлення.</string>
+    <string name="rcs_flag_unavailable">Позначено як недоступне</string>
+    <string name="rcs_flag_unavailable_m">Чи позначила служба RCS цю SIM-картку як таку, для якої RCS недоступний.</string>
+    <string name="rcs_entitlement">Авторизація оператора</string>
+    <string name="rcs_entitlement_m">Чи активна служба авторизації оператора, яка надає дозвіл на використання RCS.</string>
+    <string name="rcs_uce">Обмін відомостями про можливості (UCE)</string>
+    <string name="rcs_uce_m">User Capability Exchange - механізм, за допомогою якого ваша SIM-картка повідомляє про підтримувані можливості RCS та виявляє такі можливості в інших абонентів.</string>
+    <string name="rcs_ims_pkg">Службу IMS встановлено</string>
+    <string name="rcs_ims_pkg_m">Чи встановлено на пристрої службу IMS мобільного оператора, від якої залежить робота RCS.</string>
+
+    <string name="rcs_sec_times">Часові позначки</string>
+    <string name="rcs_cfg_updated">Конфігурацію оновлено</string>
+    <string name="rcs_cfg_updated_m">Час останнього отримання поточної конфігурації RCS.</string>
+    <string name="rcs_cfg_validity">Строк дії конфігурації</string>
+    <string name="rcs_cfg_validity_m">Як довго поточна конфігурація залишається чинною, перш ніж її потрібно буде оновити.</string>
+    <string name="rcs_token_exp">Закінчення строку дії токена</string>
+    <string name="rcs_token_exp_m">Час закінчення строку дії поточного токена активації.</string>
+    <string name="rcs_prov_last">Остання спроба активації</string>
+    <string name="rcs_prov_last_m">Час останньої спроби активувати RCS через мобільного оператора.</string>
+    <string name="rcs_prov_next">Наступна спроба активації</string>
+    <string name="rcs_prov_next_m">Час, на який заплановано наступну спробу активації RCS.</string>
+    <string name="rcs_msg_last">Останнє повідомлення RCS</string>
+    <string name="rcs_msg_last_m">Час реєстрації останнього повідомлення, надісланого або отриманого через RCS.</string>
+    <string name="rcs_cap_refresh">Можливості оновлено</string>
+    <string name="rcs_cap_refresh_m">Час останнього оновлення кешу можливостей RCS для ваших контактів.</string>
+    <string name="rcs_full_sync">Повна синхронізація</string>
+    <string name="rcs_full_sync_m">Час останньої повної синхронізації, виконаної застосунком Повідомлення.</string>
+    <string name="rcs_last_sync">Остання синхронізація</string>
+    <string name="rcs_last_sync_m">Час останньої синхронізації додатка Повідомлення.</string>
+
+    <string name="wallet_chip_attested">Атестовано</string>
+    <string name="wallet_chip_nfc">NFC</string>
+
+    <string name="wallet_sec_device">Пристрій</string>
+    <string name="wallet_nfc">Модуль NFC</string>
+    <string name="wallet_nfc_m">Чи оснащено пристрій модулем NFC, необхідним для безконтактної оплати.</string>
+    <string name="wallet_pkg">Гаманець установлено</string>
+    <string name="wallet_pkg_m">Чи встановлено на цьому пристрої додаток Google Гаманець.</string>
+
+    <string name="wallet_sec_att">Атестація</string>
+    <string name="wallet_attested">Пристрій пройшов атестацію</string>
+    <string name="wallet_attested_m">Чи визнав Google пристрій справжнім і достатньо захищеним для зберігання платіжних карток. Якщо тут указано «Ні», безконтактна оплата зазвичай не працює. Це останній результат, який Google зберіг на цьому пристрої, тож він може відставати від застосунку Wallet, доки Google не перевірить знову.</string>
+    <string name="wallet_attested_time">Остання перевірка</string>
+    <string name="wallet_attested_time_m">Час останнього успішного завершення цієї перевірки безпеки.</string>
+    <string name="wallet_service">Служба Гаманця</string>
+    <string name="wallet_service_m">Чи ввімкнено платіжну службу всередині Google Гаманця.</string>
+    <string name="wallet_tapandpay">Безконтактна оплата</string>
+    <string name="wallet_tapandpay_m">Чи ввімкнено безконтактну оплату.</string>
+    <string name="wallet_password">Блокування екрана прийнятне</string>
+    <string name="wallet_password_m">Чи вважається вибраний спосіб блокування екрана достатньо надійним для здійснення платежів. Google Гаманець вимагає надійного блокування екрана.</string>
+    <string name="wallet_token">Платіжну картку додавали раніше</string>
+    <string name="wallet_token_m">Чи налаштовували коли-небудь на цьому пристрої платіжну картку.</string>
+    <string name="wallet_reset_btn">Скинути перевірку безпеки Google Гаманця</string>
+    <string name="wallet_reset_msg">Очистити часову мітку останньої перевірки безпеки Google Гаманця, щоб під час наступної атестації він перевірив пристрій повторно? Служби Google Play буде ненадовго перезапущено.</string>
+    <string name="wallet_reset_confirm">Очистити</string>
+    <string name="wallet_reset_cancel">Скасувати</string>
+    <string name="wallet_reset_info">Видаляє часову мітку останньої перевірки (last_attestation_result_time) із компонента tapandpay у GMS і перезапускає служби Google Play. Після цього Google Гаманець вважає, що строк дії перевірки минув, і повторно проводить атестацію під час наступної фонової перевірки або перевірки перед оплатою. До цього моменту попередній результат перевірки залишається чинним. Усі зміни виконуються локально, без доступу до інтернету.</string>
+
+    <string name="att_sec_apps">Додатки, які запитували атестацію</string>
+    <string name="att_search">Пошук додатків</string>
+    <string name="att_intro">Ці додатки нещодавно зверталися до Google Play Integrity, щоб перевірити надійність цього пристрою. Так банківські та інші додатки, для яких важлива безпека, визначають, чи можна довіряти пристрою, на якому вони працюють.</string>
+    <string name="att_empty">Жоден додаток останнім часом не запитував атестацію цілісності пристрою.</string>
+    <string name="att_last_call">Останній запит: %1$s</string>
+    <string name="att_calls">Запитів за поточний період: %1$s</string>
+    <string name="att_sec_cert">Play Protect</string>
+    <string name="att_cert">Сертифіковано</string>
+    <string name="att_cert_m">Чи визнає Google Play цей пристрій сертифікованим. Ідеться про сертифікацію Play Protect, відображену в Google Play.</string>
+    <string name="att_sec_dg">Кеш атестацій (DroidGuard)</string>
+    <string name="att_dg_intro">Атестації, кешовані на цьому пристрої для Play Integrity і DroidGuard. Для кожної атестації показано час завершення строку її дії.</string>
+    <string name="att_dg_valid">Діє ще %1$s</string>
+
+    <string name="about_no_internet">Цей додаток не має дозволу на доступ до інтернету. Все, що ви тут бачите, залишається на вашому пристрої і нікуди не передається.</string>
+    <string name="about_project">Проєкт</string>
+    <string name="about_developer">Розробник</string>
+    <string name="about_source">Вихідний код</string>
+    <string name="about_license">Ліцензія</string>
+    <string name="about_contacts">Контакти</string>
+    <string name="about_support">Підтримка</string>
+
+    <string name="rcs_carrier">Мобільний оператор</string>
+    <string name="rcs_carrier_m">Мобільний оператор, який обслуговує вашу SIM-картку (назва та коди MCC/MNC).</string>
+    <string name="rcs_invalid_reason">Недійсна причина RCS</string>
+    <string name="rcs_invalid_reason_m">Причина, яку повідомляє служба, якщо конфігурація RCS недійсна.</string>
+</resources>

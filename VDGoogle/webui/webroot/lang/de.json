@@ -95,7 +95,7 @@
   "v_no": "Nein",
   "v_yes": "Ja",
   "wallet_attested": "Gerät attestiert",
-  "wallet_attested_m": "Ob Google dieses Gerät als echt und sicher genug eingestuft hat, um Zahlungskarten zu speichern. Wenn hier Nein steht, funktioniert das Bezahlen durch Auflegen normalerweise nicht.",
+  "wallet_attested_m": "Ob Google dieses Gerät als echt und sicher genug eingestuft hat, um Zahlungskarten zu speichern. Wenn hier Nein steht, funktioniert das Bezahlen durch Auflegen normalerweise nicht. Es ist das letzte Ergebnis, das Google auf diesem Gerät gespeichert hat, und kann der Wallet-App daher hinterherhinken, bis Google erneut prüft.",
   "wallet_attested_time": "Zuletzt geprüft",
   "wallet_attested_time_m": "Wann das Gerät diese Sicherheitsprüfung zuletzt abgeschlossen hat.",
   "wallet_chip_attested": "Attestiert",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Durch Auflegen bezahlen",
   "wallet_tapandpay_m": "Ob kontaktloses Bezahlen durch Auflegen aktiviert ist.",
   "wallet_token": "Jemals Karte hinzugefügt",
-  "wallet_token_m": "Ob auf diesem Gerät jemals eine Zahlungskarte eingerichtet wurde."
+  "wallet_token_m": "Ob auf diesem Gerät jemals eine Zahlungskarte eingerichtet wurde.",
+  "action_theme": "Design"
 }

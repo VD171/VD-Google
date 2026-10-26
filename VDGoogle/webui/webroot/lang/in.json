@@ -95,7 +95,7 @@
   "v_no": "Tidak",
   "v_yes": "Ya",
   "wallet_attested": "Perangkat teratestasi",
-  "wallet_attested_m": "Apakah Google menilai perangkat ini asli dan cukup aman untuk menyimpan kartu pembayaran. Jika Tidak, pembayaran dengan menempelkan biasanya tidak berfungsi.",
+  "wallet_attested_m": "Apakah Google menilai perangkat ini asli dan cukup aman untuk menyimpan kartu pembayaran. Jika Tidak, pembayaran dengan menempelkan biasanya tidak berfungsi. Ini hasil terakhir yang disimpan Google di perangkat ini, jadi bisa tertinggal dari aplikasi Wallet sampai Google memeriksa ulang.",
   "wallet_attested_time": "Terakhir diperiksa",
   "wallet_attested_time_m": "Kapan perangkat terakhir menyelesaikan pemeriksaan keamanan ini.",
   "wallet_chip_attested": "Teratestasi",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Bayar dengan menempelkan",
   "wallet_tapandpay_m": "Apakah pembayaran nirsentuh dengan menempelkan diaktifkan.",
   "wallet_token": "Kartu pernah ditambahkan",
-  "wallet_token_m": "Apakah kartu pembayaran pernah disiapkan di perangkat ini."
+  "wallet_token_m": "Apakah kartu pembayaran pernah disiapkan di perangkat ini.",
+  "action_theme": "Tema"
 }

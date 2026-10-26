@@ -126,6 +126,20 @@ private fun pageModifier() = Modifier
     .padding(horizontal = 16.dp)
 
 @Composable
+private fun imsRow(label: String, raw: String?, meaning: String, neutral: Boolean) {
+    if (!neutral) {
+        boolRow(label, raw, meaning)
+    } else {
+        val disp = when (truthy(raw)) {
+            true -> stringResource(R.string.v_yes)
+            false -> stringResource(R.string.v_no)
+            null -> raw
+        }
+        InfoRow(label, disp, Tone.NEUTRAL, meaning)
+    }
+}
+
+@Composable
 fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
     if (data == null) {
         Loader(); return
@@ -136,10 +150,11 @@ fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
             RcsHealth.OFF -> R.string.rcs_st_off to Tone.BAD
             else -> R.string.rcs_st_setup to Tone.WARN
         }
+        val connected = data.health == RcsHealth.CONNECTED
         StatusStrip(
             listOf(
                 stringResource(R.string.rcs_chip_active) to healthTone,
-                stringResource(R.string.rcs_chip_backend) to (if (data.imsPkgPresent) Tone.GOOD else Tone.WARN),
+                stringResource(R.string.rcs_chip_backend) to (if (data.imsPkgPresent || connected) Tone.GOOD else Tone.WARN),
             ),
         )
 
@@ -177,13 +192,13 @@ fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
                 )
             }
             InfoRow(stringResource(R.string.rcs_capable), data.capableContacts, Tone.NEUTRAL, stringResource(R.string.rcs_capable_m))
-            boolRow(stringResource(R.string.rcs_flag_enabled), data.flagEnabled, stringResource(R.string.rcs_flag_enabled_m))
+            imsRow(stringResource(R.string.rcs_flag_enabled), data.flagEnabled, stringResource(R.string.rcs_flag_enabled_m), connected)
             if (data.health != RcsHealth.CONNECTED) {
                 boolRow(stringResource(R.string.rcs_flag_unavailable), data.flagUnavailable, stringResource(R.string.rcs_flag_unavailable_m), trueGood = false)
             }
             InfoRow(stringResource(R.string.rcs_entitlement), data.entitlement, Tone.NEUTRAL, stringResource(R.string.rcs_entitlement_m))
-            boolRow(stringResource(R.string.rcs_uce), data.uce, stringResource(R.string.rcs_uce_m))
-            boolRow(stringResource(R.string.rcs_ims_pkg), if (data.imsPkgPresent) "true" else "false", stringResource(R.string.rcs_ims_pkg_m))
+            imsRow(stringResource(R.string.rcs_uce), data.uce, stringResource(R.string.rcs_uce_m), connected)
+            imsRow(stringResource(R.string.rcs_ims_pkg), if (data.imsPkgPresent) "true" else "false", stringResource(R.string.rcs_ims_pkg_m), connected)
         }
 
         SectionTitle(stringResource(R.string.rcs_sec_times))

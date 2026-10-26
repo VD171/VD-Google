@@ -95,7 +95,7 @@
   "v_no": "Không",
   "v_yes": "Có",
   "wallet_attested": "Thiết bị đã chứng thực",
-  "wallet_attested_m": "Google có đánh giá thiết bị này là chính hãng và đủ an toàn để lưu thẻ thanh toán hay không. Nếu là Không, thanh toán bằng cách chạm thường không hoạt động.",
+  "wallet_attested_m": "Google có đánh giá thiết bị này là chính hãng và đủ an toàn để lưu thẻ thanh toán hay không. Nếu là Không, thanh toán bằng cách chạm thường không hoạt động. Đây là kết quả gần nhất mà Google đã lưu trên thiết bị này, nên nó có thể chậm hơn ứng dụng Wallet cho đến khi Google kiểm tra lại.",
   "wallet_attested_time": "Kiểm tra gần nhất",
   "wallet_attested_time_m": "Thời điểm thiết bị hoàn tất lần kiểm tra an toàn này gần nhất.",
   "wallet_chip_attested": "Đã chứng thực",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Chạm để thanh toán",
   "wallet_tapandpay_m": "Thanh toán không tiếp xúc bằng cách chạm có được bật hay không.",
   "wallet_token": "Đã từng thêm thẻ",
-  "wallet_token_m": "Đã từng có thẻ thanh toán nào được thiết lập trên thiết bị này hay chưa."
+  "wallet_token_m": "Đã từng có thẻ thanh toán nào được thiết lập trên thiết bị này hay chưa.",
+  "action_theme": "Giao diện"
 }

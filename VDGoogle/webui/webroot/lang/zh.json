@@ -95,7 +95,7 @@
   "v_no": "否",
   "v_yes": "是",
   "wallet_attested": "设备已认证",
-  "wallet_attested_m": "Google 是否判定本机为正品且足够安全，可以保存支付卡。如果为否，刷卡支付通常无法使用。",
+  "wallet_attested_m": "Google 是否判定本机为正品且足够安全，可以保存支付卡。如果为否，刷卡支付通常无法使用。 这是 Google 在本设备上保存的最后结果，因此在 Google 重新检查之前，它可能落后于 Wallet 应用。",
   "wallet_attested_time": "上次检查",
   "wallet_attested_time_m": "设备上次完成该安全检查的时间。",
   "wallet_chip_attested": "已认证",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "刷卡支付",
   "wallet_tapandpay_m": "是否已启用非接触式刷卡支付。",
   "wallet_token": "曾添加过卡片",
-  "wallet_token_m": "本机是否曾经设置过支付卡。"
+  "wallet_token_m": "本机是否曾经设置过支付卡。",
+  "action_theme": "主题"
 }

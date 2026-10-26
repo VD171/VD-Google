@@ -95,7 +95,7 @@
   "v_no": "Non",
   "v_yes": "Oui",
   "wallet_attested": "Appareil attesté",
-  "wallet_attested_m": "Si Google a jugé cet appareil authentique et assez sûr pour contenir des cartes de paiement. Si c'est Non, le paiement sans contact ne fonctionne normalement pas.",
+  "wallet_attested_m": "Si Google a jugé cet appareil authentique et assez sûr pour contenir des cartes de paiement. Si c'est Non, le paiement sans contact ne fonctionne normalement pas. C'est le dernier résultat que Google a enregistré sur cet appareil ; il peut donc être en retard sur l'application Wallet jusqu'à ce que Google vérifie à nouveau.",
   "wallet_attested_time": "Dernière vérification",
   "wallet_attested_time_m": "Quand l'appareil a effectué cette vérification de sécurité pour la dernière fois.",
   "wallet_chip_attested": "Attesté",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Paiement sans contact",
   "wallet_tapandpay_m": "Si le paiement sans contact est activé.",
   "wallet_token": "Carte déjà ajoutée",
-  "wallet_token_m": "Si une carte de paiement a déjà été provisionnée sur cet appareil."
+  "wallet_token_m": "Si une carte de paiement a déjà été provisionnée sur cet appareil.",
+  "action_theme": "Thème"
 }

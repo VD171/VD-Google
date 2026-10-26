@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    ======================================================================
+     VD GOOGLE  ::  your Google services, read on-device
+     RCS, Google Wallet and Play Integrity attestations - local, no internet.
+     Copyright (C) 2026  VD171
+     SPDX-License-Identifier: AGPL-3.0-or-later
+     Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+     modified version, even as a service, and you MUST offer its source.
+     Site           : https://vd171.ru
+     Site           : https://vd.priv8.ru
+     Source         : https://github.com/VD171/VD-Google
+     GitHub         : @VD171 https://github.com/VD171
+     XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+     Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+     Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+     E-mail         : vd.priv8@pm.me
+     ======================================================================
+-->
 <resources>
 
     <string name="app_name">VD Google</string>
@@ -82,7 +100,7 @@
 
     <string name="wallet_sec_att">Tasdik</string>
     <string name="wallet_attested">Cihaz tasdikli</string>
-    <string name="wallet_attested_m">Google\'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz.</string>
+    <string name="wallet_attested_m">Google\'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz. Bu, Google\'ın bu cihazda kaydettiği son sonuçtur; bu nedenle Google yeniden denetleyene kadar Wallet uygulamasının gerisinde kalabilir.</string>
     <string name="wallet_attested_time">Son kontrol</string>
     <string name="wallet_attested_time_m">Cihazın bu güvenlik kontrolünü en son ne zaman tamamladığı.</string>
     <string name="wallet_service">Cüzdan hizmeti</string>
@@ -126,6 +144,7 @@
     <string name="att_search">Uygulama ara</string>
     <string name="root_needed_su">KernelSU\'da, uygulamaların root alabilmesi için su uyumluluğunu etkinleştirin.</string>
     <string name="action_reload">Yeniden yükle</string>
+    <string name="action_theme">Tema</string>
     <string name="action_info">Bilgi</string>
     <string name="action_export">Dışa aktar</string>
     <string name="action_save">Kaydet</string>

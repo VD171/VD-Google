@@ -24,6 +24,7 @@
 
   var MOD = "/data/adb/modules/vdgoogle";
   var STATE = "/data/adb/vdgoogle";
+  var APPVER = "";
   var cache = {};
   var curTab = "about";
 
@@ -273,6 +274,12 @@
     return row(label, disp, tone, meaning);
   }
 
+  function imsRow(label, raw, meaning, conn) {
+    if (!conn) return boolRow(label, raw, meaning);
+    var b = truthy(raw);
+    return row(label, b === true ? t("v_yes") : b === false ? t("v_no") : val(raw), "", meaning);
+  }
+
   function strip(chips) {
     return "<div class=\"strip\">" + chips.map(function (c) {
       return "<span class=\"chip\"><span class=\"dot " + c[1] + "\"></span>" + esc(c[0]) + "</span>";
@@ -291,7 +298,8 @@
     var carrier = carrierLabel(d.simname, d.simmcc, d.simmnc) ||
       propCarrier(d.gsmalpha, d.gsmnum) || domainCarrier(d.mdomain);
 
-    var h = strip([[t("rcs_chip_active"), hTone], [t("rcs_chip_backend"), truthy(d.ims) || Number(d.ims) > 0 ? "good" : "warn"]]);
+    var conn = health === "connected";
+    var h = strip([[t("rcs_chip_active"), hTone], [t("rcs_chip_backend"), (truthy(d.ims) || Number(d.ims) > 0 || conn) ? "good" : "warn"]]);
 
     if (health !== "connected" && d.mversion === "0") {
       h += "<div class=\"callout\">" + esc(t("rcs_callout_mversion_zero")) + "</div>";
@@ -317,11 +325,11 @@
       h += row(t("rcs_invalid_reason"), invalid.replace(/^INVALID_CONFIG_REASON_/, ""), "warn", t("rcs_invalid_reason_m"));
     }
     h += row(t("rcs_capable"), val(d.cap), "", t("rcs_capable_m"));
-    h += boolRow(t("rcs_flag_enabled"), d.flagen, t("rcs_flag_enabled_m"));
+    h += imsRow(t("rcs_flag_enabled"), d.flagen, t("rcs_flag_enabled_m"), conn);
     if (health !== "connected") h += boolRow(t("rcs_flag_unavailable"), d.flagun, t("rcs_flag_unavailable_m"), false);
     h += row(t("rcs_entitlement"), val(d.ent), "", t("rcs_entitlement_m"));
-    h += boolRow(t("rcs_uce"), d.uce, t("rcs_uce_m"));
-    h += boolRow(t("rcs_ims_pkg"), Number(d.ims) > 0 ? "true" : "false", t("rcs_ims_pkg_m"));
+    h += imsRow(t("rcs_uce"), d.uce, t("rcs_uce_m"), conn);
+    h += imsRow(t("rcs_ims_pkg"), Number(d.ims) > 0 ? "true" : "false", t("rcs_ims_pkg_m"), conn);
     h += "</div>";
 
     h += "<div class=\"seclabel\">" + esc(t("rcs_sec_times")) + "</div><div class=\"card\">";
@@ -340,7 +348,8 @@
 
   function renderWallet(d) {
     var fails = val(d.fails);
-    var attested = fails != null ? (fails === "0" ? "true" : "false") : val(d.watt);
+    var watt = val(d.watt);
+    var attested = watt != null ? watt : (fails != null ? (fails === "0" ? "true" : "false") : null);
     var at = truthy(attested);
     var attTone = at === true ? "good" : at === false ? "bad" : "warn";
     var nfc = Number(d.nfc) > 0;
@@ -455,6 +464,7 @@
     h += aboutRow(IC.chat, "Discord", "@VD.Priv8", "https://discord.com/users/1296831918989639721");
     h += aboutRow(IC.mail, "E-mail", "vd.priv8@pm.me", "mailto:vd.priv8@pm.me");
     h += aboutRow(IC.forum, "XDA", "@VD171", "https://xdaforums.com/m/vd171.4699873/");
+    h += aboutRow(IC.forum, "XDA thread", "VD-Google", "https://xdaforums.com/t/VD-Google.4803837/");
     h += aboutRow(IC.link, "GitHub", "@VD171", "https://github.com/VD171");
     h += "</div>";
 
@@ -537,7 +547,7 @@
   }
 
   async function logAction(action, ok) {
-    var entry = JSON.stringify({ ts: Date.now(), action: action, ok: ok, version: "v1.09" });
+    var entry = JSON.stringify({ time: tsMs(Date.now()), action: action, ok: ok, appVersion: APPVER });
     try {
       await ex("mkdir -p " + STATE + " && printf '%s\\n' '" + entry + "' >> " + STATE + "/actions.jsonl" +
         " && tail -n 200 " + STATE + "/actions.jsonl > " + STATE + "/actions.jsonl.tmp && mv -f " + STATE + "/actions.jsonl.tmp " + STATE + "/actions.jsonl");
@@ -558,7 +568,7 @@
       var fails = val(w.fails);
       var obj = {
         app: "VD Google (WebUI)",
-        version: "v1.09",
+        version: APPVER,
         exportedAt: tsMs(Date.now()),
         timezone: tzLabel(),
         device: { model: val(dev.model), brand: val(dev.brand), android: val(dev.android), sdk: val(dev.sdk) },
@@ -589,7 +599,7 @@
           lastSync: tsMs(r.lastsync)
         },
         wallet: {
-          attested: fails != null ? (fails === "0") : truthy(w.watt),
+          attested: val(w.watt) != null ? truthy(w.watt) : (val(w.fails) != null ? (val(w.fails) === "0") : null),
           lastChecked: tsMs(w.wattt),
           nfc: Number(w.nfc) > 0,
           walletInstalled: Number(w.wpkg) > 0,
@@ -626,6 +636,7 @@
     I18N.apply(document);
     document.getElementById("refresh").setAttribute("title", t("action_reload"));
     document.getElementById("export").setAttribute("title", t("action_export"));
+    document.getElementById("theme").setAttribute("title", t("action_theme"));
   }
 
   function setTheme(mode) {
@@ -646,6 +657,8 @@
   });
 
   document.getElementById("refresh").addEventListener("click", function () {
+    this.classList.remove("spin"); void this.offsetWidth; this.classList.add("spin");
+    var b = this; setTimeout(function () { b.classList.remove("spin"); }, 1000);
     if (curTab === "about") return;
     cache[curTab] = null;
     loadTab(curTab, true);
@@ -703,7 +716,7 @@
     applyChrome();
     if (hasRoot()) {
       ex("grep '^version=' " + MOD + "/module.prop 2>/dev/null | cut -d= -f2")
-        .then(function (v) { v = (v || "").trim(); if (v) document.getElementById("ver").textContent = v; })
+        .then(function (v) { v = (v || "").trim(); if (v) { document.getElementById("ver").textContent = v; APPVER = v.replace(/^v/, ""); } })
         .catch(function () {});
     }
     loadTab("about", false);

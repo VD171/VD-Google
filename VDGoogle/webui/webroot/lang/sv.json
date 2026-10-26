@@ -95,7 +95,7 @@
   "v_no": "Nej",
   "v_yes": "Ja",
   "wallet_attested": "Enhet attesterad",
-  "wallet_attested_m": "Om Google bedömde den här enheten som äkta och tillräckligt säker för att hålla betalkort. Om detta är Nej fungerar betalning genom att hålla mot normalt inte.",
+  "wallet_attested_m": "Om Google bedömde den här enheten som äkta och tillräckligt säker för att hålla betalkort. Om detta är Nej fungerar betalning genom att hålla mot normalt inte. Det är det senaste resultatet som Google har sparat på den här enheten, så det kan släpa efter Wallet-appen tills Google kontrollerar igen.",
   "wallet_attested_time": "Senast kontrollerad",
   "wallet_attested_time_m": "När enheten senast slutförde den här säkerhetskontrollen.",
   "wallet_chip_attested": "Attesterad",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Betala genom att hålla mot",
   "wallet_tapandpay_m": "Om kontaktlös betalning genom att hålla mot är aktiverad.",
   "wallet_token": "Kort någonsin tillagt",
-  "wallet_token_m": "Om ett betalkort någonsin har registrerats på den här enheten."
+  "wallet_token_m": "Om ett betalkort någonsin har registrerats på den här enheten.",
+  "action_theme": "Tema"
 }

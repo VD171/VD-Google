@@ -95,7 +95,7 @@
   "v_no": "Nee",
   "v_yes": "Ja",
   "wallet_attested": "Toestel geattesteerd",
-  "wallet_attested_m": "Of Google dit toestel echt en veilig genoeg achtte om betaalkaarten te bewaren. Als dit Nee is, werkt tikken om te betalen normaal gesproken niet.",
+  "wallet_attested_m": "Of Google dit toestel echt en veilig genoeg achtte om betaalkaarten te bewaren. Als dit Nee is, werkt tikken om te betalen normaal gesproken niet. Dit is het laatste resultaat dat Google op dit apparaat heeft opgeslagen, dus het kan achterlopen op de Wallet-app totdat Google opnieuw controleert.",
   "wallet_attested_time": "Laatst gecontroleerd",
   "wallet_attested_time_m": "Wanneer het toestel deze beveiligingscontrole voor het laatst heeft voltooid.",
   "wallet_chip_attested": "Geattesteerd",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Tikken om te betalen",
   "wallet_tapandpay_m": "Of contactloos betalen door te tikken is ingeschakeld.",
   "wallet_token": "Ooit kaart toegevoegd",
-  "wallet_token_m": "Of er ooit een betaalkaart op dit toestel is ingesteld."
+  "wallet_token_m": "Of er ooit een betaalkaart op dit toestel is ingesteld.",
+  "action_theme": "Thema"
 }

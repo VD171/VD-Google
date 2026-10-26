@@ -75,8 +75,8 @@ fun stateColors(): StateColors {
 }
 
 @Composable
-fun VDGoogleTheme(content: @Composable () -> Unit) {
-    val dark = isSystemInDarkTheme()
+fun VDGoogleTheme(darkOverride: Boolean? = null, content: @Composable () -> Unit) {
+    val dark = darkOverride ?: isSystemInDarkTheme()
     val ctx = LocalContext.current
     val scheme = when {
         Build.VERSION.SDK_INT >= Build.VERSION_CODES.S ->

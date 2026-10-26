@@ -95,7 +95,7 @@
   "v_no": "いいえ",
   "v_yes": "はい",
   "wallet_attested": "端末が認証済み",
-  "wallet_attested_m": "Google がこの端末を正規かつ決済カードを保持できるほど安全と判断したかどうか。いいえの場合、タッチ決済は通常機能しません。",
+  "wallet_attested_m": "Google がこの端末を正規かつ決済カードを保持できるほど安全と判断したかどうか。いいえの場合、タッチ決済は通常機能しません。 これは Google がこの端末に保存した最後の結果です。そのため、Google が再確認するまで Wallet アプリより古いことがあります。",
   "wallet_attested_time": "最終確認",
   "wallet_attested_time_m": "端末がこのセキュリティ確認を最後に完了した日時。",
   "wallet_chip_attested": "認証済み",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "タッチ決済",
   "wallet_tapandpay_m": "非接触のタッチ決済が有効かどうか。",
   "wallet_token": "カードの追加履歴",
-  "wallet_token_m": "この端末にこれまで決済カードが設定されたことがあるかどうか。"
+  "wallet_token_m": "この端末にこれまで決済カードが設定されたことがあるかどうか。",
+  "action_theme": "テーマ"
 }

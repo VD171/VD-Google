@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    ======================================================================
+     VD GOOGLE  ::  your Google services, read on-device
+     RCS, Google Wallet and Play Integrity attestations - local, no internet.
+     Copyright (C) 2026  VD171
+     SPDX-License-Identifier: AGPL-3.0-or-later
+     Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+     modified version, even as a service, and you MUST offer its source.
+     Site           : https://vd171.ru
+     Site           : https://vd.priv8.ru
+     Source         : https://github.com/VD171/VD-Google
+     GitHub         : @VD171 https://github.com/VD171
+     XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+     Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+     Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+     E-mail         : vd.priv8@pm.me
+     ======================================================================
+-->
 <resources>
 
     <string name="app_name">VD Google</string>
@@ -82,7 +100,7 @@
 
     <string name="wallet_sec_att">Attestazione</string>
     <string name="wallet_attested">Dispositivo attestato</string>
-    <string name="wallet_attested_m">Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona.</string>
+    <string name="wallet_attested_m">Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona. È l\'ultimo risultato che Google ha salvato su questo dispositivo, quindi può essere in ritardo rispetto all\'app Wallet finché Google non verifica di nuovo.</string>
     <string name="wallet_attested_time">Ultimo controllo</string>
     <string name="wallet_attested_time_m">Quando il dispositivo ha completato l\'ultima volta questo controllo di sicurezza.</string>
     <string name="wallet_service">Servizio Wallet</string>
@@ -126,6 +144,7 @@
     <string name="att_search">Cerca app</string>
     <string name="root_needed_su">Su KernelSU, attiva la compatibilità su affinché le app possano ottenere il root.</string>
     <string name="action_reload">Ricarica</string>
+    <string name="action_theme">Tema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Esporta</string>
     <string name="action_save">Salva</string>

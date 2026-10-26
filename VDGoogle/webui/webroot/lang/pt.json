@@ -95,7 +95,7 @@
   "v_no": "Não",
   "v_yes": "Sim",
   "wallet_attested": "Aparelho atestado",
-  "wallet_attested_m": "Se o Google considerou este aparelho genuíno e seguro o bastante para guardar cartões de pagamento. Se estiver Não, o pagamento por aproximação normalmente não funciona.",
+  "wallet_attested_m": "Se o Google considerou este aparelho genuíno e seguro o bastante para guardar cartões de pagamento. Se estiver Não, o pagamento por aproximação normalmente não funciona. É o último resultado que o Google salvou neste aparelho, então pode atrasar em relação ao app Wallet até o Google reverificar.",
   "wallet_attested_time": "Última verificação",
   "wallet_attested_time_m": "Quando o aparelho concluiu essa verificação de segurança pela última vez.",
   "wallet_chip_attested": "Atestado",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Pagar por aproximação",
   "wallet_tapandpay_m": "Se o pagamento por aproximação (contactless) está ativado.",
   "wallet_token": "Cartão já adicionado",
-  "wallet_token_m": "Se algum cartão de pagamento já foi provisionado neste aparelho."
+  "wallet_token_m": "Se algum cartão de pagamento já foi provisionado neste aparelho.",
+  "action_theme": "Tema"
 }

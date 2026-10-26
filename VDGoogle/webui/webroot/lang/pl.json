@@ -95,7 +95,7 @@
   "v_no": "Nie",
   "v_yes": "Tak",
   "wallet_attested": "Urządzenie poświadczone",
-  "wallet_attested_m": "Czy Google uznał to urządzenie za autentyczne i wystarczająco bezpieczne, by przechowywać karty płatnicze. Jeśli Nie, płatności zbliżeniowe zwykle nie działają.",
+  "wallet_attested_m": "Czy Google uznał to urządzenie za autentyczne i wystarczająco bezpieczne, by przechowywać karty płatnicze. Jeśli Nie, płatności zbliżeniowe zwykle nie działają. To ostatni wynik zapisany przez Google na tym urządzeniu, więc może być opóźniony względem aplikacji Wallet, dopóki Google nie sprawdzi ponownie.",
   "wallet_attested_time": "Ostatnio sprawdzone",
   "wallet_attested_time_m": "Kiedy urządzenie ostatnio ukończyło tę kontrolę bezpieczeństwa.",
   "wallet_chip_attested": "Poświadczone",
@@ -118,5 +118,6 @@
   "wallet_tapandpay": "Płatności zbliżeniowe",
   "wallet_tapandpay_m": "Czy płatności zbliżeniowe są włączone.",
   "wallet_token": "Kiedykolwiek dodano kartę",
-  "wallet_token_m": "Czy na tym urządzeniu kiedykolwiek skonfigurowano kartę płatniczą."
+  "wallet_token_m": "Czy na tym urządzeniu kiedykolwiek skonfigurowano kartę płatniczą.",
+  "action_theme": "Motyw"
 }

@@ -30,7 +30,11 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -42,6 +46,9 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.Chat
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material.icons.outlined.CreditCard
+import androidx.compose.material.icons.outlined.DarkMode
+import androidx.compose.material.icons.outlined.LightMode
+import androidx.compose.material.icons.outlined.Refresh
 import androidx.compose.material.icons.outlined.SaveAlt
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.Share
@@ -67,6 +74,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -87,6 +95,7 @@ import ru.vd171.vdgoogle.ui.theme.VDGoogleTheme
 import ru.vd171.vdgoogle.util.Export
 import ru.vd171.vdgoogle.util.Fmt
 import ru.vd171.vdgoogle.util.LocalePrefs
+import ru.vd171.vdgoogle.util.ThemePrefs
 
 class MainActivity : ComponentActivity() {
     override fun attachBaseContext(newBase: Context) {
@@ -97,12 +106,19 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContent {
-            VDGoogleTheme {
-                val ctx = LocalContext.current
+            val ctx = LocalContext.current
+            var themeMode by rememberSaveable { mutableStateOf(ThemePrefs.mode(ctx)) }
+            val darkOverride = when (themeMode) {
+                "dark" -> true
+                "light" -> false
+                else -> null
+            }
+            VDGoogleTheme(darkOverride = darkOverride) {
                 val vm: AppViewModel = viewModel()
                 val state by vm.state.collectAsStateWithLifecycle()
                 var showLang by remember { mutableStateOf(!LocalePrefs.chosen(ctx)) }
                 var pendingReport by remember { mutableStateOf("") }
+                val effectiveDark = darkOverride ?: isSystemInDarkTheme()
                 val saveLauncher = rememberLauncherForActivityResult(
                     ActivityResultContracts.CreateDocument("application/json"),
                 ) { uri -> if (uri != null) Export.writeTo(ctx, uri, pendingReport) }
@@ -119,7 +135,14 @@ class MainActivity : ComponentActivity() {
                         )
                         RootGate.GRANTED -> MainScaffold(
                             state.rcs, state.wallet, state.att,
+                            isDark = effectiveDark,
                             onOpenLanguage = { showLang = true },
+                            onRefresh = { vm.refresh() },
+                            onToggleTheme = {
+                                val next = if (effectiveDark) "light" else "dark"
+                                themeMode = next
+                                ThemePrefs.setMode(ctx, next)
+                            },
                             onReloadAtt = { vm.reloadAtt() },
                             onResetWallet = { vm.resetWalletCheck() },
                             onExport = { Export.share(ctx, Export.buildReport(state.rcs, state.wallet)) },
@@ -171,7 +194,10 @@ private fun MainScaffold(
     rcs: ru.vd171.vdgoogle.data.RcsData?,
     wallet: ru.vd171.vdgoogle.data.WalletData?,
     att: ru.vd171.vdgoogle.data.AttData?,
+    isDark: Boolean,
     onOpenLanguage: () -> Unit,
+    onRefresh: () -> Unit,
+    onToggleTheme: () -> Unit,
     onReloadAtt: () -> Unit,
     onResetWallet: () -> Unit,
     onExport: () -> Unit,
@@ -187,6 +213,8 @@ private fun MainScaffold(
         )
     }
     var sel by rememberSaveable { mutableIntStateOf(0) }
+    var spins by remember { mutableIntStateOf(0) }
+    val spin by animateFloatAsState(spins * 360f, tween(durationMillis = 1000, easing = LinearEasing), label = "refreshSpin")
 
     Scaffold(
         topBar = {
@@ -212,6 +240,9 @@ private fun MainScaffold(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { spins++; onRefresh() }) {
+                        Icon(Icons.Outlined.Refresh, stringResource(R.string.action_reload), Modifier.rotate(spin))
+                    }
                     IconButton(onClick = onSave) {
                         Icon(Icons.Outlined.SaveAlt, stringResource(R.string.action_save))
                     }
@@ -220,6 +251,12 @@ private fun MainScaffold(
                     }
                     IconButton(onClick = onOpenLanguage) {
                         Icon(Icons.Outlined.Settings, stringResource(R.string.action_language))
+                    }
+                    IconButton(onClick = onToggleTheme) {
+                        Icon(
+                            if (isDark) Icons.Outlined.LightMode else Icons.Outlined.DarkMode,
+                            stringResource(R.string.action_theme),
+                        )
                     }
                 },
             )

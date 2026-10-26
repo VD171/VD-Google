@@ -52,6 +52,7 @@ object LocalePrefs {
         "sv" to "Svenska",
         "th" to "ไทย",
         "tr" to "Türkçe",
+        "uk" to "Українська",
         "vi" to "Tiếng Việt",
         "zh" to "中文",
     )

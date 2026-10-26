@@ -2,6 +2,14 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.10] - 2026-10-26
+
+- VD Google now speaks Ukrainian, for 22 languages in all.
+- New Reload button in the top bar: it refreshes everything on screen without reopening the app, with a one-second spin so the refresh is clearly visible.
+- New light/dark theme toggle in the top bar.
+- The Wallet "Device attested" status and its "Last checked" time now come from the same place, so they always match. The status is the last result Google saved on this device, so it can lag the Wallet app until Google re-checks.
+- The RCS tab reads right when RCS is connected: the backend shows green, and signals that do not apply to a Google-provisioned line (UCE, Carrier Services and a couple of cached flags) stay neutral instead of looking like errors.
+
 ## [1.09] - 2026-10-15
 
 - New DroidGuard tab. It shows your device's Play Protect certification: whether Google Play recognizes this device as certified, the same state shown in the Play Store. Read on-device, no internet.
