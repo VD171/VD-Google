@@ -30,6 +30,7 @@
 
     <string name="v_yes">Sim</string>
     <string name="v_no">Não</string>
+    <string name="v_unknown">Desconhecido</string>
     <string name="action_reveal">Mostrar</string>
     <string name="action_hide">Ocultar</string>
     <string name="tz_footer">Os horários são exibidos no fuso do seu aparelho: %1$s</string>

@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Les heures sont affichées dans le fuseau horaire de votre appareil : %1$s",
   "v_no": "Non",
+  "v_unknown": "Inconnu",
   "v_yes": "Oui",
   "wallet_attested": "Appareil attesté",
   "wallet_attested_m": "Si Google a jugé cet appareil authentique et assez sûr pour contenir des cartes de paiement. Si c'est Non, le paiement sans contact ne fonctionne normalement pas. C'est le dernier résultat que Google a enregistré sur cet appareil ; il peut donc être en retard sur l'application Wallet jusqu'à ce que Google vérifie à nouveau.",

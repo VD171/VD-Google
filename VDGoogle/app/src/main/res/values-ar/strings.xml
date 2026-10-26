@@ -30,6 +30,7 @@
 
     <string name="v_yes">نعم</string>
     <string name="v_no">لا</string>
+    <string name="v_unknown">غير معروف</string>
     <string name="action_reveal">إظهار</string>
     <string name="action_hide">إخفاء</string>
     <string name="tz_footer">تُعرض الأوقات حسب المنطقة الزمنية لجهازك: %1$s</string>

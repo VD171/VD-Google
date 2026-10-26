@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Gli orari sono mostrati nel fuso orario del dispositivo: %1$s",
   "v_no": "No",
+  "v_unknown": "Sconosciuto",
   "v_yes": "Sì",
   "wallet_attested": "Dispositivo attestato",
   "wallet_attested_m": "Se Google ha giudicato questo dispositivo autentico e abbastanza sicuro da contenere carte di pagamento. Se è No, il pagamento contactless di norma non funziona. È l'ultimo risultato che Google ha salvato su questo dispositivo, quindi può essere in ritardo rispetto all'app Wallet finché Google non verifica di nuovo.",

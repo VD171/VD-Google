@@ -93,6 +93,7 @@
   "tab_wallet": "Cüzdan",
   "tz_footer": "Saatler cihazınızın saat diliminde gösterilir: %1$s",
   "v_no": "Hayır",
+  "v_unknown": "Bilinmiyor",
   "v_yes": "Evet",
   "wallet_attested": "Cihaz tasdikli",
   "wallet_attested_m": "Google'ın bu cihazı ödeme kartı tutacak kadar gerçek ve güvenli bulup bulmadığı. Hayır ise dokunarak ödeme normalde çalışmaz. Bu, Google'ın bu cihazda kaydettiği son sonuçtur; bu nedenle Google yeniden denetleyene kadar Wallet uygulamasının gerisinde kalabilir.",

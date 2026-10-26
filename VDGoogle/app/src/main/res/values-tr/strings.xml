@@ -30,6 +30,7 @@
 
     <string name="v_yes">Evet</string>
     <string name="v_no">Hayır</string>
+    <string name="v_unknown">Bilinmiyor</string>
     <string name="action_reveal">Göster</string>
     <string name="action_hide">Gizle</string>
     <string name="tz_footer">Saatler cihazınızın saat diliminde gösterilir: %1$s</string>

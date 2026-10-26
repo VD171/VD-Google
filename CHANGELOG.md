@@ -2,6 +2,11 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.10.1] - 2026-10-26
+
+- The Wallet "Device attested" status now reads Unknown, not No, when this device has no saved attestation result, so a device whose Wallet works is never shown as not attested.
+- Fixed the Reload button icon briefly stretching into an oval when tapped.
+
 ## [1.10] - 2026-10-26
 
 - VD Google now speaks Ukrainian, for 22 languages in all.

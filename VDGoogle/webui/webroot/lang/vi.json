@@ -93,6 +93,7 @@
   "tab_wallet": "Ví",
   "tz_footer": "Thời gian hiển thị theo múi giờ của thiết bị: %1$s",
   "v_no": "Không",
+  "v_unknown": "Không rõ",
   "v_yes": "Có",
   "wallet_attested": "Thiết bị đã chứng thực",
   "wallet_attested_m": "Google có đánh giá thiết bị này là chính hãng và đủ an toàn để lưu thẻ thanh toán hay không. Nếu là Không, thanh toán bằng cách chạm thường không hoạt động. Đây là kết quả gần nhất mà Google đã lưu trên thiết bị này, nên nó có thể chậm hơn ứng dụng Wallet cho đến khi Google kiểm tra lại.",

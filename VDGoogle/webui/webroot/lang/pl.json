@@ -93,6 +93,7 @@
   "tab_wallet": "Portfel",
   "tz_footer": "Godziny są wyświetlane w strefie czasowej urządzenia: %1$s",
   "v_no": "Nie",
+  "v_unknown": "Nieznane",
   "v_yes": "Tak",
   "wallet_attested": "Urządzenie poświadczone",
   "wallet_attested_m": "Czy Google uznał to urządzenie za autentyczne i wystarczająco bezpieczne, by przechowywać karty płatnicze. Jeśli Nie, płatności zbliżeniowe zwykle nie działają. To ostatni wynik zapisany przez Google na tym urządzeniu, więc może być opóźniony względem aplikacji Wallet, dopóki Google nie sprawdzi ponownie.",

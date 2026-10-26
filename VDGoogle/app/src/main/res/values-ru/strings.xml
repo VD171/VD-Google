@@ -30,6 +30,7 @@
 
     <string name="v_yes">Да</string>
     <string name="v_no">Нет</string>
+    <string name="v_unknown">Неизвестно</string>
     <string name="action_reveal">Показать</string>
     <string name="action_hide">Скрыть</string>
     <string name="tz_footer">Время показано в часовом поясе вашего устройства: %1$s</string>

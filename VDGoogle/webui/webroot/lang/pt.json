@@ -93,6 +93,7 @@
   "tab_wallet": "Carteira",
   "tz_footer": "Os horários são exibidos no fuso do seu aparelho: %1$s",
   "v_no": "Não",
+  "v_unknown": "Desconhecido",
   "v_yes": "Sim",
   "wallet_attested": "Aparelho atestado",
   "wallet_attested_m": "Se o Google considerou este aparelho genuíno e seguro o bastante para guardar cartões de pagamento. Se estiver Não, o pagamento por aproximação normalmente não funciona. É o último resultado que o Google salvou neste aparelho, então pode atrasar em relação ao app Wallet até o Google reverificar.",

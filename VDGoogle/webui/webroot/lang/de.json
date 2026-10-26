@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Die Zeiten werden in der Zeitzone deines Geräts angezeigt: %1$s",
   "v_no": "Nein",
+  "v_unknown": "Unbekannt",
   "v_yes": "Ja",
   "wallet_attested": "Gerät attestiert",
   "wallet_attested_m": "Ob Google dieses Gerät als echt und sicher genug eingestuft hat, um Zahlungskarten zu speichern. Wenn hier Nein steht, funktioniert das Bezahlen durch Auflegen normalerweise nicht. Es ist das letzte Ergebnis, das Google auf diesem Gerät gespeichert hat, und kann der Wallet-App daher hinterherhinken, bis Google erneut prüft.",

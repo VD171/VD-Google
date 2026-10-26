@@ -30,6 +30,7 @@
 
     <string name="v_yes">بله</string>
     <string name="v_no">خیر</string>
+    <string name="v_unknown">نامشخص</string>
     <string name="action_reveal">نمایش</string>
     <string name="action_hide">پنهان کردن</string>
     <string name="tz_footer">زمان‌ها بر اساس منطقه زمانی دستگاه شما نمایش داده می‌شوند: %1$s</string>

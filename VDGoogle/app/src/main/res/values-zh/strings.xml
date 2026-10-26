@@ -30,6 +30,7 @@
 
     <string name="v_yes">是</string>
     <string name="v_no">否</string>
+    <string name="v_unknown">未知</string>
     <string name="action_reveal">显示</string>
     <string name="action_hide">隐藏</string>
     <string name="tz_footer">时间以你设备的时区显示：%1$s</string>

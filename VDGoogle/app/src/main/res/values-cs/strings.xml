@@ -30,6 +30,7 @@
 
     <string name="v_yes">Ano</string>
     <string name="v_no">Ne</string>
+    <string name="v_unknown">Neznámé</string>
     <string name="action_reveal">Zobrazit</string>
     <string name="action_hide">Skrýt</string>
     <string name="tz_footer">Časy se zobrazují v časovém pásmu vašeho zařízení: %1$s</string>

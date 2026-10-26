@@ -30,6 +30,7 @@
 
     <string name="v_yes">Có</string>
     <string name="v_no">Không</string>
+    <string name="v_unknown">Không rõ</string>
     <string name="action_reveal">Hiện</string>
     <string name="action_hide">Ẩn</string>
     <string name="tz_footer">Thời gian hiển thị theo múi giờ của thiết bị: %1$s</string>

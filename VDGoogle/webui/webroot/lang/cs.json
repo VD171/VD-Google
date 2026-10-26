@@ -93,6 +93,7 @@
   "tab_wallet": "Peněženka",
   "tz_footer": "Časy se zobrazují v časovém pásmu vašeho zařízení: %1$s",
   "v_no": "Ne",
+  "v_unknown": "Neznámé",
   "v_yes": "Ano",
   "wallet_attested": "Zařízení atestováno",
   "wallet_attested_m": "Zda Google vyhodnotil toto zařízení jako pravé a dostatečně bezpečné pro uchování platebních karet. Pokud je Ne, placení přiložením obvykle nefunguje. Je to poslední výsledek, který Google uložil v tomto zařízení, takže se oproti aplikaci Wallet může opožďovat, dokud Google neprovede novou kontrolu.",

@@ -30,6 +30,7 @@
 
     <string name="v_yes">Ja</string>
     <string name="v_no">Nej</string>
+    <string name="v_unknown">Okänt</string>
     <string name="action_reveal">Visa</string>
     <string name="action_hide">Dölj</string>
     <string name="tz_footer">Tider visas i enhetens tidszon: %1$s</string>

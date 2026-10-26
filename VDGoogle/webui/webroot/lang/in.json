@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Waktu ditampilkan dalam zona waktu perangkat Anda: %1$s",
   "v_no": "Tidak",
+  "v_unknown": "Tidak diketahui",
   "v_yes": "Ya",
   "wallet_attested": "Perangkat teratestasi",
   "wallet_attested_m": "Apakah Google menilai perangkat ini asli dan cukup aman untuk menyimpan kartu pembayaran. Jika Tidak, pembayaran dengan menempelkan biasanya tidak berfungsi. Ini hasil terakhir yang disimpan Google di perangkat ini, jadi bisa tertinggal dari aplikasi Wallet sampai Google memeriksa ulang.",

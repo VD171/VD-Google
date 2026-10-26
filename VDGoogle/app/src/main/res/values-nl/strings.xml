@@ -30,6 +30,7 @@
 
     <string name="v_yes">Ja</string>
     <string name="v_no">Nee</string>
+    <string name="v_unknown">Onbekend</string>
     <string name="action_reveal">Tonen</string>
     <string name="action_hide">Verbergen</string>
     <string name="tz_footer">Tijden worden getoond in de tijdzone van je toestel: %1$s</string>

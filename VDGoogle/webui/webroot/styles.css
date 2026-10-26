@@ -257,7 +257,7 @@ body {
     border-top-color: var(--primary); border-radius: 50%; animation: sp 0.8s linear infinite;
 }
 @keyframes sp { to { transform: rotate(360deg); } }
-#refresh.spin svg { animation: sp 1s linear; }
+#refresh.spinning svg { animation: sp 1s linear; }
 
 .theme-toggle { margin-left: auto; }
 .hidden { display: none !important; }

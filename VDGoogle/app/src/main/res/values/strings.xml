@@ -30,6 +30,7 @@
 
     <string name="v_yes">Yes</string>
     <string name="v_no">No</string>
+    <string name="v_unknown">Unknown</string>
     <string name="action_reveal">Reveal</string>
     <string name="action_hide">Hide</string>
     <string name="action_close">Close</string>

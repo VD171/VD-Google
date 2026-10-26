@@ -104,7 +104,7 @@ private fun boolRow(label: String, raw: String?, meaning: String, trueGood: Bool
     val disp = when (b) {
         true -> stringResource(R.string.v_yes)
         false -> stringResource(R.string.v_no)
-        null -> raw
+        null -> raw ?: stringResource(R.string.v_unknown)
     }
     val tone = when (b) {
         null -> Tone.NEUTRAL
@@ -229,7 +229,7 @@ fun WalletScreen(data: WalletData?, onReset: () -> Unit, modifier: Modifier = Mo
         val attTone = when (truthy(data.attested)) {
             true -> Tone.GOOD
             false -> Tone.BAD
-            null -> Tone.WARN
+            null -> Tone.NEUTRAL
         }
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) {

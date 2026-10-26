@@ -29,7 +29,6 @@ private const val PREFS = "$MSG/shared_prefs"
 private const val GMS = "/data/data/com.google.android.gms"
 private const val TAP = "$GMS/shared_prefs/com.google.android.gms.tapandpay.service.TapAndPayServiceStorage.xml"
 private const val TAP_SET = "$GMS/shared_prefs/com.google.android.gms.tapandpay.settings.TapAndPaySettingsStorage.xml"
-private const val PAY_DB = "$GMS/databases/android_pay"
 private const val DG_DB = "$GMS/databases/dg.db"
 private const val VENDING = "/data/data/com.android.vending/shared_prefs"
 private const val DEVVERIFY = "/data/data/com.android.vending/files/finsky/shared/device_verification_valuestore.pb"
@@ -193,11 +192,10 @@ object WalletReader {
     suspend fun load(hasNfc: Boolean): WalletData {
         val tap = Root.text(TAP)
         val tapSet = Root.text(TAP_SET)
-        val failsAtt = firstCell(RootRepo.queryDb(PAY_DB, "SELECT fails_attestation FROM Wallets ORDER BY is_active_wallet DESC LIMIT 1"))
         return WalletData(
             hasNfc = hasNfc,
             walletPkgPresent = Root.present("com.google.android.apps.walletnfcrel"),
-            attested = boolPref(tap, "last_attestation_result") ?: failsAtt?.let { if (it == "0") "true" else "false" },
+            attested = boolPref(tap, "last_attestation_result"),
             attestedTimeMs = longPref(tap, "last_attestation_result_time"),
             serviceEnabled = boolPref(tap, "wallet_service_enabled"),
             tapAndPayEnabled = boolPref(tap, "tap_and_pay_enabled"),

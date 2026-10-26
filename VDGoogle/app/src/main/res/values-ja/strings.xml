@@ -30,6 +30,7 @@
 
     <string name="v_yes">はい</string>
     <string name="v_no">いいえ</string>
+    <string name="v_unknown">不明</string>
     <string name="action_reveal">表示</string>
     <string name="action_hide">非表示</string>
     <string name="tz_footer">時刻は端末のタイムゾーンで表示されます: %1$s</string>

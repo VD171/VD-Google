@@ -30,6 +30,7 @@
 
     <string name="v_yes">हाँ</string>
     <string name="v_no">नहीं</string>
+    <string name="v_unknown">अज्ञात</string>
     <string name="action_reveal">दिखाएँ</string>
     <string name="action_hide">छिपाएँ</string>
     <string name="tz_footer">समय आपके डिवाइस के समय क्षेत्र में दिखाया गया है: %1$s</string>

@@ -185,11 +185,9 @@
       "TAP=$GMS/shared_prefs/com.google.android.gms.tapandpay.service.TapAndPayServiceStorage.xml\n" +
       "TAPSET=$GMS/shared_prefs/com.google.android.gms.tapandpay.settings.TapAndPaySettingsStorage.xml\n" +
       "PKGS=/data/system/packages.list\n" +
-      copyDb("$GMS/databases/android_pay", "p") +
       line("nfc", "pm list features 2>/dev/null | grep -c \"feature:android.hardware.nfc\\$\"") +
       line("wpkg", "grep -c \"^com.google.android.apps.walletnfcrel \" \"$PKGS\" 2>/dev/null") +
-      line("fails", "\"$SQ\" $Q/p.db \"SELECT fails_attestation FROM Wallets ORDER BY is_active_wallet DESC LIMIT 1\" 2>/dev/null") +
-      line("watt", "grep -oE \"last_attestation_result\\\" value=\\\"(true|false)\" \"$TAP\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
+      line("watt","grep -oE \"last_attestation_result\\\" value=\\\"(true|false)\" \"$TAP\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("wattt", "grep -oE \"last_attestation_result_time\\\" value=\\\"-?[0-9]+\" \"$TAP\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("wsvc", "grep -oE \"wallet_service_enabled\\\" value=\\\"(true|false)\" \"$TAP\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("wtap", "grep -oE \"tap_and_pay_enabled\\\" value=\\\"(true|false)\" \"$TAP\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
@@ -269,7 +267,7 @@
   function boolRow(label, raw, meaning, trueGood) {
     if (trueGood === undefined) trueGood = true;
     var b = truthy(raw);
-    var disp = b === true ? t("v_yes") : b === false ? t("v_no") : (blank(raw) ? null : raw);
+    var disp = b === true ? t("v_yes") : b === false ? t("v_no") : (blank(raw) ? t("v_unknown") : raw);
     var tone = b === null ? "" : (b === trueGood ? "good" : "bad");
     return row(label, disp, tone, meaning);
   }
@@ -347,11 +345,10 @@
   }
 
   function renderWallet(d) {
-    var fails = val(d.fails);
     var watt = val(d.watt);
-    var attested = watt != null ? watt : (fails != null ? (fails === "0" ? "true" : "false") : null);
+    var attested = watt;
     var at = truthy(attested);
-    var attTone = at === true ? "good" : at === false ? "bad" : "warn";
+    var attTone = at === true ? "good" : at === false ? "bad" : "";
     var nfc = Number(d.nfc) > 0;
 
     var h = "<div class=\"toprow\">" +
@@ -565,7 +562,6 @@
         "v=$(getprop ro.build.version.sdk); echo \"sdk=$v\"\n"));
       var r = cache.rcs, w = cache.wallet;
       var carrier = carrierLabel(r.simname, r.simmcc, r.simmnc) || propCarrier(r.gsmalpha, r.gsmnum) || domainCarrier(r.mdomain);
-      var fails = val(w.fails);
       var obj = {
         app: "VD Google (WebUI)",
         version: APPVER,
@@ -599,7 +595,7 @@
           lastSync: tsMs(r.lastsync)
         },
         wallet: {
-          attested: val(w.watt) != null ? truthy(w.watt) : (val(w.fails) != null ? (val(w.fails) === "0") : null),
+          attested: truthy(val(w.watt)),
           lastChecked: tsMs(w.wattt),
           nfc: Number(w.nfc) > 0,
           walletInstalled: Number(w.wpkg) > 0,
@@ -657,8 +653,8 @@
   });
 
   document.getElementById("refresh").addEventListener("click", function () {
-    this.classList.remove("spin"); void this.offsetWidth; this.classList.add("spin");
-    var b = this; setTimeout(function () { b.classList.remove("spin"); }, 1000);
+    this.classList.remove("spinning"); void this.offsetWidth; this.classList.add("spinning");
+    var b = this; setTimeout(function () { b.classList.remove("spinning"); }, 1000);
     if (curTab === "about") return;
     cache[curTab] = null;
     loadTab(curTab, true);

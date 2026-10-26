@@ -30,6 +30,7 @@
 
     <string name="v_yes">Ja</string>
     <string name="v_no">Nein</string>
+    <string name="v_unknown">Unbekannt</string>
     <string name="action_reveal">Anzeigen</string>
     <string name="action_hide">Verbergen</string>
     <string name="tz_footer">Die Zeiten werden in der Zeitzone deines Geräts angezeigt: %1$s</string>

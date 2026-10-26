@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Times are shown in your device timezone: %1$s",
   "v_no": "No",
+  "v_unknown": "Unknown",
   "v_yes": "Yes",
   "wallet_attested": "Device attested",
   "wallet_attested_m": "Whether Google judged this device genuine and secure enough to hold payment cards. If this is No, tap-to-pay normally will not work. It is the last result Google saved on this device, so it can lag the Wallet app until Google re-checks.",

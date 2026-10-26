@@ -30,6 +30,7 @@
 
     <string name="v_yes">Так</string>
     <string name="v_no">Ні</string>
+    <string name="v_unknown">Невідомо</string>
     <string name="action_reveal">Показати</string>
     <string name="action_hide">Приховати</string>
     <string name="action_close">Закрити</string>

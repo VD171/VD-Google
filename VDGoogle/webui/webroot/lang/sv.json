@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Tider visas i enhetens tidszon: %1$s",
   "v_no": "Nej",
+  "v_unknown": "Okänt",
   "v_yes": "Ja",
   "wallet_attested": "Enhet attesterad",
   "wallet_attested_m": "Om Google bedömde den här enheten som äkta och tillräckligt säker för att hålla betalkort. Om detta är Nej fungerar betalning genom att hålla mot normalt inte. Det är det senaste resultatet som Google har sparat på den här enheten, så det kan släpa efter Wallet-appen tills Google kontrollerar igen.",

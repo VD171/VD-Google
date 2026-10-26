@@ -30,6 +30,7 @@
 
     <string name="v_yes">Tak</string>
     <string name="v_no">Nie</string>
+    <string name="v_unknown">Nieznane</string>
     <string name="action_reveal">Pokaż</string>
     <string name="action_hide">Ukryj</string>
     <string name="tz_footer">Godziny są wyświetlane w strefie czasowej urządzenia: %1$s</string>

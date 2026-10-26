@@ -93,6 +93,7 @@
   "tab_wallet": "钱包",
   "tz_footer": "时间以你设备的时区显示：%1$s",
   "v_no": "否",
+  "v_unknown": "未知",
   "v_yes": "是",
   "wallet_attested": "设备已认证",
   "wallet_attested_m": "Google 是否判定本机为正品且足够安全，可以保存支付卡。如果为否，刷卡支付通常无法使用。 这是 Google 在本设备上保存的最后结果，因此在 Google 重新检查之前，它可能落后于 Wallet 应用。",

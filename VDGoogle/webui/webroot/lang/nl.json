@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Tijden worden getoond in de tijdzone van je toestel: %1$s",
   "v_no": "Nee",
+  "v_unknown": "Onbekend",
   "v_yes": "Ja",
   "wallet_attested": "Toestel geattesteerd",
   "wallet_attested_m": "Of Google dit toestel echt en veilig genoeg achtte om betaalkaarten te bewaren. Als dit Nee is, werkt tikken om te betalen normaal gesproken niet. Dit is het laatste resultaat dat Google op dit apparaat heeft opgeslagen, dus het kan achterlopen op de Wallet-app totdat Google opnieuw controleert.",

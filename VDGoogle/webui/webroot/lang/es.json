@@ -93,6 +93,7 @@
   "tab_wallet": "Wallet",
   "tz_footer": "Las horas se muestran en la zona horaria de tu dispositivo: %1$s",
   "v_no": "No",
+  "v_unknown": "Desconocido",
   "v_yes": "Sí",
   "wallet_attested": "Dispositivo atestado",
   "wallet_attested_m": "Si Google consideró este dispositivo genuino y lo bastante seguro para guardar tarjetas de pago. Si es No, el pago sin contacto normalmente no funcionará. Es el último resultado que Google guardó en este dispositivo, por lo que puede ir con retraso respecto a la app Wallet hasta que Google vuelva a verificar.",

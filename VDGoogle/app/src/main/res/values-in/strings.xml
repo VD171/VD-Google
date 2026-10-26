@@ -30,6 +30,7 @@
 
     <string name="v_yes">Ya</string>
     <string name="v_no">Tidak</string>
+    <string name="v_unknown">Tidak diketahui</string>
     <string name="action_reveal">Tampilkan</string>
     <string name="action_hide">Sembunyikan</string>
     <string name="tz_footer">Waktu ditampilkan dalam zona waktu perangkat Anda: %1$s</string>

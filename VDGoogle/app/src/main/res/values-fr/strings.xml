@@ -30,6 +30,7 @@
 
     <string name="v_yes">Oui</string>
     <string name="v_no">Non</string>
+    <string name="v_unknown">Inconnu</string>
     <string name="action_reveal">Afficher</string>
     <string name="action_hide">Masquer</string>
     <string name="tz_footer">Les heures sont affichées dans le fuseau horaire de votre appareil : %1$s</string>
