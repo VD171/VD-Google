@@ -25,7 +25,7 @@ In beide gevallen is root vereist.
 ## Wat het toont
 
 ### RCS
-Of RCS beschikbaar is voor je lijn, je RCS-nummer, de RCS-status, de configuratieversie, hoeveel van je contacten RCS ondersteunen, de providerrechten, de aanwezigheid (UCE) en de bijbehorende tijdstempels (provisioning, synchronisatie, laatste bericht, tokenverval en meer).
+Of RCS beschikbaar is voor je lijn, je RCS-nummer, de RCS-status, de configuratieversie, hoeveel van je contacten RCS ondersteunen, de providerrechten, de aanwezigheid (UCE) en de bijbehorende tijdstempels (provisioning, synchronisatie, laatste bericht, tokenverval en meer). Toont ook of Gemini in Google Messages klaar is: Magic Compose (Gemini's schrijfhulp), de AI-engine op het toestel (AICore, waarop Gemini Nano draait) en de Gemini-chat, die via RCS wordt geleverd.
 
 ### Google Wallet
 Of je toestel geattesteerd is voor betalingen, of het NFC-hardware heeft, of Wallet geïnstalleerd is, de status van de betaaldienst en van tikken om te betalen, of je schermvergrendeling geaccepteerd is, en of er ooit een kaart is toegevoegd.

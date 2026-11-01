@@ -25,7 +25,7 @@ I båda fallen krävs root.
 ## Vad den visar
 
 ### RCS
-Om RCS är tillgängligt för din linje, ditt RCS-nummer, RCS-tillståndet, konfigurationsversionen, hur många av dina kontakter som stöder RCS, operatörsbehörigheten, närvaron (UCE) och de relaterade tidsstämplarna (provisionering, synkronisering, senaste meddelande, tokenutgång med mera).
+Om RCS är tillgängligt för din linje, ditt RCS-nummer, RCS-tillståndet, konfigurationsversionen, hur många av dina kontakter som stöder RCS, operatörsbehörigheten, närvaron (UCE) och de relaterade tidsstämplarna (provisionering, synkronisering, senaste meddelande, tokenutgång med mera). Visar också om Gemini i Google Messages är redo: Magic Compose (Geminis skrivhjälp), AI-motorn på enheten (AICore, som kör Gemini Nano) och Gemini-chatten, som levereras via RCS.
 
 ### Google Wallet
 Om din enhet är attesterad för betalningar, om den har NFC-hårdvara, om Wallet är installerat, tillståndet för betaltjänsten och betalning genom att hålla mot, om ditt skärmlås accepteras och om ett kort någonsin har lagts till.

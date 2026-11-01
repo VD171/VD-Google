@@ -25,7 +25,7 @@ En cualquier caso, se requiere root.
 ## Qué muestra
 
 ### RCS
-Si RCS está disponible para tu línea, tu número RCS, el estado de RCS, la versión de la configuración, cuántos de tus contactos admiten RCS, la autorización del operador, la presencia (UCE) y las marcas de tiempo relacionadas (aprovisionamiento, sincronización, último mensaje, caducidad del token y más).
+Si RCS está disponible para tu línea, tu número RCS, el estado de RCS, la versión de la configuración, cuántos de tus contactos admiten RCS, la autorización del operador, la presencia (UCE) y las marcas de tiempo relacionadas (aprovisionamiento, sincronización, último mensaje, caducidad del token y más). También muestra si Gemini en Google Messages está listo: Magic Compose (la ayuda de escritura de Gemini), el modelo en el dispositivo (AICore, que ejecuta Gemini Nano) y el chat de Gemini, que se entrega por RCS.
 
 ### Google Wallet
 Si tu dispositivo está atestado para pagos, si tiene hardware NFC, si Wallet está instalada, el estado del servicio de pago y del pago sin contacto, si tu bloqueo de pantalla se acepta y si alguna vez se ha añadido una tarjeta.

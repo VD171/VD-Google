@@ -25,7 +25,7 @@ Dù bằng cách nào, vẫn cần quyền root.
 ## Những gì ứng dụng hiển thị
 
 ### RCS
-RCS có khả dụng cho số máy của bạn hay không, số RCS của bạn, trạng thái RCS, phiên bản cấu hình, bao nhiêu liên hệ của bạn hỗ trợ RCS, quyền của nhà mạng, hiện diện (UCE) và các dấu thời gian liên quan (cấp phép, đồng bộ, tin nhắn gần nhất, hết hạn token và hơn thế).
+RCS có khả dụng cho số máy của bạn hay không, số RCS của bạn, trạng thái RCS, phiên bản cấu hình, bao nhiêu liên hệ của bạn hỗ trợ RCS, quyền của nhà mạng, hiện diện (UCE) và các dấu thời gian liên quan (cấp phép, đồng bộ, tin nhắn gần nhất, hết hạn token và hơn thế). Cũng cho biết Gemini trong Google Messages đã sẵn sàng hay chưa: Magic Compose (trợ giúp viết của Gemini), công cụ AI trên thiết bị (AICore, chạy Gemini Nano) và trò chuyện Gemini, được cung cấp qua RCS.
 
 ### Google Ví
 Thiết bị của bạn có được chứng thực để thanh toán hay không, có phần cứng NFC hay không, Ví có được cài hay không, trạng thái dịch vụ thanh toán và chạm để thanh toán, khóa màn hình của bạn có được chấp nhận hay không, và đã từng thêm thẻ nào chưa.

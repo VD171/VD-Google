@@ -25,7 +25,7 @@ Her iki durumda da root gereklidir.
 ## Neleri gösterir
 
 ### RCS
-Hattınız için RCS'nin kullanılabilir olup olmadığı, RCS numaranız, RCS durumu, yapılandırma sürümü, kişilerinizden kaçının RCS desteklediği, operatör yetkisi, mevcudiyet (UCE) ve ilgili zaman damgaları (sağlama, eşitleme, son mesaj, jeton sona ermesi ve daha fazlası).
+Hattınız için RCS'nin kullanılabilir olup olmadığı, RCS numaranız, RCS durumu, yapılandırma sürümü, kişilerinizden kaçının RCS desteklediği, operatör yetkisi, mevcudiyet (UCE) ve ilgili zaman damgaları (sağlama, eşitleme, son mesaj, jeton sona ermesi ve daha fazlası). Ayrıca Google Messages'taki Gemini'nin hazır olup olmadığını da gösterir: Magic Compose (Gemini'nin yazma yardımı), cihazdaki yapay zekâ motoru (Gemini Nano'yu çalıştıran AICore) ve RCS üzerinden sunulan Gemini sohbeti.
 
 ### Google Cüzdan
 Cihazınızın ödemeler için tasdikli olup olmadığı, NFC donanımı olup olmadığı, Cüzdan'ın yüklü olup olmadığı, ödeme hizmeti ve dokunarak ödeme durumu, ekran kilidinizin kabul edilip edilmediği ve hiç kart eklenip eklenmediği.

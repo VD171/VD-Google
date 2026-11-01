@@ -25,7 +25,7 @@ V obou případech je vyžadován root.
 ## Co zobrazuje
 
 ### RCS
-Zda je RCS dostupné pro vaši linku, vaše číslo RCS, stav RCS, verze konfigurace, kolik vašich kontaktů podporuje RCS, oprávnění operátora, přítomnost (UCE) a související časové značky (provisioning, synchronizace, poslední zpráva, vypršení tokenu a další).
+Zda je RCS dostupné pro vaši linku, vaše číslo RCS, stav RCS, verze konfigurace, kolik vašich kontaktů podporuje RCS, oprávnění operátora, přítomnost (UCE) a související časové značky (provisioning, synchronizace, poslední zpráva, vypršení tokenu a další). Také ukazuje, zda je Gemini v Google Messages připraven: Magic Compose (pomoc Gemini s psaním), engine umělé inteligence v zařízení (AICore, na kterém běží Gemini Nano) a chat s Gemini, který je doručován přes RCS.
 
 ### Google Wallet
 Zda je vaše zařízení atestováno pro platby, zda má hardware NFC, zda je Wallet nainstalován, stav platební služby a placení přiložením, zda je váš zámek obrazovky přijat a zda byla někdy přidána karta.
