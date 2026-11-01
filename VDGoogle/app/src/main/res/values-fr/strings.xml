@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Service</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">La version de la configuration est 0, ce qui signifie généralement que votre opérateur ou Google n\'a pas encore fourni de configuration RCS valide à cette ligne. Tant qu\'elle reste à 0, le RCS ne peut normalement pas s\'activer, même sur un téléphone intact.</string>
 
     <string name="rcs_sec_status">État</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Dernière synchronisation</string>
     <string name="rcs_last_sync_m">Quand l\'application de messagerie s\'est synchronisée pour la dernière fois.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">L\'aide à la rédaction de Gemini dans Google Messages, sur l\'appareil (réécrit et suggère des réponses).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Le modèle sur l\'appareil (Gemini Nano, via AICore) qui alimente Magic Compose. Certains téléphones utilisent un autre moteur ou le cloud.</string>
+    <string name="rcs_gemini_chat">Chat Gemini</string>
+    <string name="rcs_gemini_chat_m">Discuter avec Gemini dans Google Messages passe par le RCS ; il faut donc que le RCS soit connecté.</string>
+
     <string name="wallet_chip_attested">Attesté</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Effacer maintenant l\'heure de la dernière vérification de sécurité de Google Wallet, pour qu\'il revérifie à la prochaine attestation ? Les services Google Play redémarreront brièvement.</string>
     <string name="wallet_reset_confirm">Effacer</string>
     <string name="wallet_reset_cancel">Annuler</string>
-    <string name="wallet_reset_info">Supprime l\'horodatage de la dernière vérification (last_attestation_result_time) de GMS tapandpay et redémarre les services Play. Wallet considère alors la vérification comme due et réatteste à sa prochaine vérification en arrière-plan ou de paiement - le dernier verdict reste jusque-là. Journalisé localement, sans internet.</string>
+    <string name="wallet_reset_info">Supprime le résultat d\'attestation enregistré et son horodatage (last_attestation_result*) de GMS tapandpay et redémarre les services Play. Wallet considère alors la vérification comme due et réatteste à sa prochaine vérification en arrière-plan ou de paiement ; jusque-là le statut affiche Inconnu. Journalisé localement, sans internet.</string>
 
     <string name="att_sec_apps">Applications ayant demandé une attestation</string>
     <string name="att_intro">Ces applications ont récemment demandé à Google Play Integrity de se porter garant de cet appareil. C\'est ainsi que les applications bancaires et autres applications sensibles décident si elles font confiance à l\'appareil sur lequel elles s\'exécutent.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Cette application n\'a aucune autorisation d\'accès à Internet. Rien de ce que vous voyez ici ne quitte jamais votre appareil.</string>
     <string name="about_project">Projet</string>
+    <string name="about_see_also">Voir aussi</string>
     <string name="about_developer">Développeur</string>
     <string name="about_source">Code source</string>
     <string name="about_license">Licence</string>

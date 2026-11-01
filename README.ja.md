@@ -66,6 +66,13 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) を参照。ネットワーク条項を含むコピーレフト：改変版を（サービスとしてでも）実行する者は、そのソースを提供しなければなりません。フォークをオープンに保つため意図的に選びました。
 
+<!-- vd-see-also -->
+
+## 関連アプリ
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - メソッドデバッガー
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD はデバイススプーファーです
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

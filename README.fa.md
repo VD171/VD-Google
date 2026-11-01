@@ -66,6 +66,13 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 **GNU AGPL-3.0-or-later** - به [LICENSE](LICENSE) مراجعه کنید. کپی‌لفت شامل بند شبکه: هر کسی نسخه‌ای تغییریافته را (حتی به‌عنوان سرویس) اجرا کند باید کد منبع آن را ارائه دهد. عمداً انتخاب شده تا فورک‌ها باز بمانند.
 
+<!-- vd-see-also -->
+
+## همچنین ببینید
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - اشکال‌زدای روش‌ها
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD یک جعل‌کننده دستگاه است
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

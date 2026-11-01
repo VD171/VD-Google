@@ -66,6 +66,13 @@ Alle tijden worden getoond in de huidige tijdzone van je toestel, en de tijdzone
 
 **GNU AGPL-3.0-or-later** - zie [LICENSE](LICENSE). Copyleft, inclusief de netwerkclausule: wie een gewijzigde versie draait (ook als dienst) moet de broncode aanbieden. Bewust gekozen om forks open te houden.
 
+<!-- vd-see-also -->
+
+## Zie ook
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Methode-debugger
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD is een apparaatspoofer
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

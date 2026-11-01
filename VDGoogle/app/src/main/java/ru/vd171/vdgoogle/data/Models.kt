@@ -52,6 +52,8 @@ data class RcsData(
     val engineState: String? = null,
     val provStatusPev2: String? = null,
     val tachyonRegistered: Boolean = false,
+    val magicCompose: String? = null,
+    val aicorePresent: Boolean = false,
     val provConfig: Map<String, String> = emptyMap(),
 ) {
     val health: RcsHealth

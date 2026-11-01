@@ -151,9 +151,11 @@ object RcsReader {
 
         var flagEnabled: String? = null
         var flagUnavailable: String? = null
+        var magicCompose: String? = null
         Root.text("$PREFS/PhenotypePrefs.xml")?.let { x ->
             flagEnabled = Regex("RcsFlags__rcs_enabled\"\\s+value=\"(true|false)\"").find(x)?.groupValues?.get(1)
             flagUnavailable = Regex("notify_backend_rcs_is_unavailable\"\\s+value=\"(true|false)\"").find(x)?.groupValues?.get(1)
+            magicCompose = Regex("enable_magic_compose_conv_2\"\\s+value=\"(true|false)\"").find(x)?.groupValues?.get(1)
         }
 
         return RcsData(
@@ -183,6 +185,8 @@ object RcsReader {
             engineState = strPref(prov, "provisioning_engine_state_key"),
             provStatusPev2 = intPref(bugleXml, "rcs_provisioning_status_pev2"),
             tachyonRegistered = hasPref(bugleXml, "tachyon_registration_id"),
+            magicCompose = magicCompose,
+            aicorePresent = Root.present("com.google.android.aicore"),
             provConfig = provConfig(prov),
         )
     }
@@ -208,7 +212,7 @@ object WalletReader {
         RootRepo.exec(
             "ctx=$(stat -c %C '$TAP' 2>/dev/null); " +
                 "am force-stop com.google.android.gms; sleep 1; " +
-                "sed -i '/name=\"last_attestation_result_time/d' '$TAP'; " +
+                "sed -i '/name=\"last_attestation_result/d' '$TAP'; " +
                 "[ -n \"\$ctx\" ] && chcon \"\$ctx\" '$TAP'; true",
         ) != null
 }

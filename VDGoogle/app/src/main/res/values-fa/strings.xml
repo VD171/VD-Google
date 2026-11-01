@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">سرویس</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">نسخه پیکربندی ۰ است، که معمولاً یعنی اپراتور یا Google هنوز یک پیکربندی معتبر RCS برای این خط نفرستاده است. تا زمانی که ۰ بماند، RCS معمولاً حتی روی گوشی دست‌نخورده هم روشن نمی‌شود.</string>
 
     <string name="rcs_sec_status">وضعیت</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">آخرین همگام‌سازی</string>
     <string name="rcs_last_sync_m">آخرین باری که اپ پیام‌رسان همگام‌سازی کرد.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">کمک نگارش Gemini در Google Messages، روی خود دستگاه (بازنویسی و پیشنهاد پاسخ).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">مدل روی دستگاه (Gemini Nano از طریق AICore) که Magic Compose را اجرا می‌کند. برخی گوشی‌ها از موتور دیگری یا ابر استفاده می‌کنند.</string>
+    <string name="rcs_gemini_chat">گفت‌وگوی Gemini</string>
+    <string name="rcs_gemini_chat_m">گفت‌وگو با Gemini در Google Messages از طریق RCS انجام می‌شود، پس به اتصال RCS نیاز دارد.</string>
+
     <string name="wallet_chip_attested">گواهی‌شده</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">زمان آخرین بررسی امنیتی Google Wallet اکنون پاک شود تا در تأیید بعدی دوباره بررسی کند؟ سرویس‌های Google Play کمی بازراه‌اندازی می‌شوند.</string>
     <string name="wallet_reset_confirm">پاک کردن</string>
     <string name="wallet_reset_cancel">لغو</string>
-    <string name="wallet_reset_info">برچسب زمانی آخرین بررسی (last_attestation_result_time) را از GMS tapandpay حذف می‌کند و سرویس‌های Play را بازراه‌اندازی می‌کند. آنگاه Wallet بررسی را سررسیدشده می‌داند و در بررسی پس‌زمینه یا پرداخت بعدی دوباره تأیید می‌کند - نتیجهٔ آخر تا آن زمان می‌ماند. به‌صورت محلی ثبت می‌شود، بدون اینترنت.</string>
+    <string name="wallet_reset_info">نتیجه گواهی ذخیره‌شده و مهر زمانی آن (last_attestation_result*) را از GMS tapandpay حذف می‌کند و سرویس‌های Play را دوباره راه‌اندازی می‌کند. سپس Wallet بررسی را سررسید تلقی می‌کند و در بررسی پس‌زمینه یا پرداخت بعدی دوباره گواهی می‌کند؛ تا آن زمان وضعیت نامشخص نشان داده می‌شود. به‌صورت محلی ثبت می‌شود، بدون اینترنت.</string>
 
     <string name="att_sec_apps">اپ‌هایی که درخواست گواهی داده‌اند</string>
     <string name="att_intro">این اپ‌ها اخیراً از Google Play Integrity خواسته‌اند تا این دستگاه را تضمین کند. اپ‌های بانکی و دیگر اپ‌های حساس این‌گونه تصمیم می‌گیرند که آیا به دستگاهی که روی آن اجرا می‌شوند اعتماد کنند یا نه.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">این اپ هیچ مجوز اینترنتی ندارد. هیچ‌چیزی از آنچه اینجا می‌بینید هرگز از دستگاه شما خارج نمی‌شود.</string>
     <string name="about_project">پروژه</string>
+    <string name="about_see_also">همچنین ببینید</string>
     <string name="about_developer">توسعه‌دهنده</string>
     <string name="about_source">کد منبع</string>
     <string name="about_license">مجوز</string>

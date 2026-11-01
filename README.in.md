@@ -66,6 +66,13 @@ Semua waktu ditampilkan dalam zona waktu perangkat Anda saat ini, dan zona waktu
 
 **GNU AGPL-3.0-or-later** - lihat [LICENSE](LICENSE). Copyleft, termasuk klausul jaringan: siapa pun yang menjalankan versi modifikasi (bahkan sebagai layanan) harus menyediakan kode sumbernya. Dipilih dengan sengaja agar fork tetap terbuka.
 
+<!-- vd-see-also -->
+
+## Lihat juga
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Debugger metode
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD adalah pengusur (spoofer) perangkat
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

@@ -2,6 +2,13 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.11] - 2026-11-01
+
+- New Gemini section in the RCS tab, with Gemini and Magic Compose status chips at the top: whether Magic Compose is available in Google Messages, whether the on-device AI engine (AICore) is present, and whether Gemini chat (delivered over RCS) works. It lives under RCS because Gemini in Messages rides RCS.
+- The top bar and the About header now show the version on its own line under the name, so a longer version like v1.10.1 no longer wraps or overlaps the title.
+- The bottom tab labels now stay on one line instead of wrapping (DroidGuard, Attestations).
+- The Wallet "Clear" button now also drops the saved attestation result, not just its time, so the status reads Unknown instead of a stale No until Google re-checks on its own.
+
 ## [1.10.1] - 2026-10-26
 
 - The Wallet "Device attested" status now reads Unknown, not No, when this device has no saved attestation result, so a device whose Wallet works is never shown as not attested.

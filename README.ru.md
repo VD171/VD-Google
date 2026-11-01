@@ -66,6 +66,13 @@ VD Google не объявляет **вообще никаких разрешен
 
 **GNU AGPL-3.0-or-later** - см. [LICENSE](LICENSE). Копилефт, включая сетевую оговорку: любой, кто запускает изменённую версию (даже как сервис), обязан предоставить её исходный код. Выбрана намеренно, чтобы форки оставались открытыми.
 
+<!-- vd-see-also -->
+
+## Смотрите также
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Отладчик методов
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD - это спуфер устройства
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

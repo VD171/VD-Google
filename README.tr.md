@@ -66,6 +66,13 @@ Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi h
 
 **GNU AGPL-3.0-or-later** - bkz. [LICENSE](LICENSE). Ağ maddesi dahil copyleft: değiştirilmiş bir sürümü (hizmet olarak bile) çalıştıran herkes kaynak kodunu sunmalıdır. Fork’ları açık tutmak için bilinçli olarak seçildi.
 
+<!-- vd-see-also -->
+
+## Ayrıca bakınız
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Yöntem hata ayıklayıcı
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD bir cihaz sahteleyicidir
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

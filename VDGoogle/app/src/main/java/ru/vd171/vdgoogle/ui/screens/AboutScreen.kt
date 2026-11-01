@@ -92,24 +92,25 @@ fun AboutScreen(modifier: Modifier = Modifier) {
             }
             Spacer(Modifier.width(14.dp))
             Column {
-                Row(verticalAlignment = Alignment.Bottom) {
-                    Text(
-                        stringResource(R.string.app_name),
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                    )
-                    Spacer(Modifier.width(8.dp))
-                    Text(
-                        "v" + BuildConfig.VERSION_NAME + "  ·  SDK " + targetSdk,
-                        style = MaterialTheme.typography.labelLarge,
-                        fontWeight = FontWeight.SemiBold,
-                        color = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(6.dp))
-                            .background(MaterialTheme.colorScheme.primaryContainer)
-                            .padding(horizontal = 6.dp, vertical = 1.dp),
-                    )
-                }
+                Text(
+                    stringResource(R.string.app_name),
+                    style = MaterialTheme.typography.headlineSmall,
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 1,
+                )
+                Text(
+                    "v" + BuildConfig.VERSION_NAME + "  ·  SDK " + targetSdk,
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.primary,
+                    maxLines = 1,
+                    softWrap = false,
+                    modifier = Modifier
+                        .padding(top = 3.dp)
+                        .clip(RoundedCornerShape(6.dp))
+                        .background(MaterialTheme.colorScheme.primaryContainer)
+                        .padding(horizontal = 6.dp, vertical = 1.dp),
+                )
                 Text(
                     stringResource(R.string.app_tagline),
                     style = MaterialTheme.typography.bodyMedium,
@@ -125,6 +126,12 @@ fun AboutScreen(modifier: Modifier = Modifier) {
             AboutRow(Icons.Outlined.Person, stringResource(R.string.about_developer), "VD171", "https://github.com/VD171")
             AboutRow(Icons.Outlined.Code, stringResource(R.string.about_source), "github.com/VD171/VD-Google", "https://github.com/VD171/VD-Google")
             AboutRow(Icons.Outlined.Gavel, stringResource(R.string.about_license), "GNU AGPL-3.0-or-later")
+        }
+
+        AboutSectionLabel(stringResource(R.string.about_see_also))
+        AboutCard {
+            AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, "VD Infos", "github.com/VD171/VD-Infos", "https://github.com/VD171/VD-Infos")
+            AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, "COPG-VD", "github.com/VD171/COPG-VD", "https://github.com/VD171/COPG-VD")
         }
 
         AboutSectionLabel(stringResource(R.string.about_contacts))

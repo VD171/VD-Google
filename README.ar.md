@@ -66,6 +66,13 @@
 
 **GNU AGPL-3.0-or-later** - راجع [LICENSE](LICENSE). حقوق متروكة تشمل بند الشبكة: من يشغّل نسخة معدّلة (حتى كخدمة) يجب أن يوفّر شفرتها المصدرية. اختيرت عمدًا لإبقاء الاشتقاقات مفتوحة.
 
+<!-- vd-see-also -->
+
+## انظر أيضًا
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - مُنقّح الطرق
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD هو spoofer للجهاز
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

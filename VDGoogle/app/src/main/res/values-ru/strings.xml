@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Служба</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Версия конфигурации равна 0, что обычно означает, что оператор или Google ещё не доставил действительную конфигурацию RCS на эту линию. Пока значение остаётся 0, RCS, как правило, не может включиться даже на нетронутом телефоне.</string>
 
     <string name="rcs_sec_status">Состояние</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Последняя синхронизация</string>
     <string name="rcs_last_sync_m">Когда приложение сообщений синхронизировалось в последний раз.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Помощь Gemini в написании в Google Messages, прямо на устройстве (переписывает и предлагает ответы).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Модель на устройстве (Gemini Nano через AICore), которая обеспечивает Magic Compose. Некоторые телефоны используют другой движок или облако.</string>
+    <string name="rcs_gemini_chat">Чат Gemini</string>
+    <string name="rcs_gemini_chat_m">Общение с Gemini внутри Google Messages доставляется через RCS, поэтому нужен подключённый RCS.</string>
+
     <string name="wallet_chip_attested">Аттестовано</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Очистить сейчас время последней проверки безопасности Google Wallet, чтобы он перепроверил при следующей аттестации? Сервисы Google Play ненадолго перезапустятся.</string>
     <string name="wallet_reset_confirm">Очистить</string>
     <string name="wallet_reset_cancel">Отмена</string>
-    <string name="wallet_reset_info">Удаляет метку времени последней проверки (last_attestation_result_time) из GMS tapandpay и перезапускает сервисы Play. Тогда Wallet считает проверку просроченной и заново аттестует при следующей фоновой или платёжной проверке - последний вердикт остаётся до этого. Записывается локально, без интернета.</string>
+    <string name="wallet_reset_info">Удаляет сохранённый результат аттестации и его метку времени (last_attestation_result*) из GMS tapandpay и перезапускает сервисы Play. Затем Wallet считает проверку назревшей и повторно аттестует при следующей фоновой или платёжной проверке; до тех пор статус показывает Неизвестно. Записывается локально, без интернета.</string>
 
     <string name="att_sec_apps">Приложения, запросившие аттестацию</string>
     <string name="att_intro">Эти приложения недавно попросили Google Play Integrity поручиться за это устройство. Так банковские и другие чувствительные приложения решают, доверять ли устройству, на котором они работают.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">У этого приложения вообще нет разрешения на доступ в интернет. Ничто из того, что вы здесь видите, никогда не покидает ваше устройство.</string>
     <string name="about_project">Проект</string>
+    <string name="about_see_also">Смотрите также</string>
     <string name="about_developer">Разработчик</string>
     <string name="about_source">Исходный код</string>
     <string name="about_license">Лицензия</string>

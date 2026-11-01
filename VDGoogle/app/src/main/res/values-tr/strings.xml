@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Hizmet</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Yapılandırma sürümü 0; bu genellikle operatörünüzün ya da Google\'ın bu hat için henüz geçerli bir RCS yapılandırması göndermediği anlamına gelir. 0 kaldığı sürece, el değmemiş bir telefonda bile RCS normalde açılamaz.</string>
 
     <string name="rcs_sec_status">Durum</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Son eşitleme</string>
     <string name="rcs_last_sync_m">Mesajlaşma uygulamasının en son ne zaman eşitlendiği.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Gemini\'nin Google Messages\'taki cihaz üzerinde yazma yardımı (yeniden yazar ve yanıt önerir).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Magic Compose\'u çalıştıran cihaz üzerindeki model (AICore üzerinden Gemini Nano). Bazı telefonlar farklı bir motor veya bulut kullanır.</string>
+    <string name="rcs_gemini_chat">Gemini sohbeti</string>
+    <string name="rcs_gemini_chat_m">Google Messages içinde Gemini ile sohbet RCS üzerinden iletilir, bu yüzden RCS\'nin bağlı olması gerekir.</string>
+
     <string name="wallet_chip_attested">Tasdikli</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Google Wallet\'ın son güvenlik kontrolü zamanı şimdi silinsin mi, böylece bir sonraki doğrulamada yeniden kontrol etsin? Google Play Hizmetleri kısaca yeniden başlar.</string>
     <string name="wallet_reset_confirm">Sil</string>
     <string name="wallet_reset_cancel">İptal</string>
-    <string name="wallet_reset_info">Son kontrol zaman damgasını (last_attestation_result_time) GMS tapandpay\'den siler ve Play Hizmetleri\'ni yeniden başlatır. Wallet kontrolü gecikmiş sayar ve bir sonraki arka plan veya ödeme kontrolünde yeniden doğrular - son sonuç o zamana kadar kalır. Yerel olarak kaydedilir, internet yok.</string>
+    <string name="wallet_reset_info">Kaydedilen doğrulama sonucunu ve zaman damgasını (last_attestation_result*) GMS tapandpay\'den siler ve Play hizmetlerini yeniden başlatır. Wallet ardından denetimi gereken olarak değerlendirir ve sonraki arka plan veya ödeme denetiminde yeniden doğrular; o zamana kadar durum Bilinmiyor gösterir. Yerel olarak günlüğe kaydedilir, internet yok.</string>
 
     <string name="att_sec_apps">Tasdik isteyen uygulamalar</string>
     <string name="att_intro">Bu uygulamalar kısa süre önce Google Play Integrity\'den bu cihaza kefil olmasını istedi. Bankacılık ve diğer hassas uygulamalar, üzerinde çalıştıkları cihaza güvenip güvenmeyeceklerine böyle karar verir.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Bu uygulamanın hiçbir internet izni yoktur. Burada gördüğünüz hiçbir şey cihazınızdan asla çıkmaz.</string>
     <string name="about_project">Proje</string>
+    <string name="about_see_also">Ayrıca bakınız</string>
     <string name="about_developer">Geliştirici</string>
     <string name="about_source">Kaynak kodu</string>
     <string name="about_license">Lisans</string>

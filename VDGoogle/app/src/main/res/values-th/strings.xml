@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">บริการ</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">เวอร์ชันการกำหนดค่าเป็น 0 ซึ่งมักหมายความว่าผู้ให้บริการหรือ Google ยังไม่ได้ส่งการกำหนดค่า RCS ที่ใช้ได้มายังเลขหมายนี้ ตราบใดที่ยังเป็น 0 โดยปกติ RCS จะเปิดใช้งานไม่ได้ แม้บนเครื่องที่ไม่ได้ถูกแก้ไข</string>
 
     <string name="rcs_sec_status">สถานะ</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">ซิงค์ครั้งล่าสุด</string>
     <string name="rcs_last_sync_m">ครั้งล่าสุดที่แอปข้อความซิงค์</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">ตัวช่วยเขียนของ Gemini ใน Google Messages บนเครื่อง (เขียนใหม่และแนะนำคำตอบ)</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">โมเดลบนเครื่อง (Gemini Nano ผ่าน AICore) ที่ขับเคลื่อน Magic Compose บางเครื่องใช้เอนจินอื่นหรือคลาวด์</string>
+    <string name="rcs_gemini_chat">แชท Gemini</string>
+    <string name="rcs_gemini_chat_m">การแชทกับ Gemini ภายใน Google Messages ส่งผ่าน RCS จึงต้องเชื่อมต่อ RCS</string>
+
     <string name="wallet_chip_attested">รับรองแล้ว</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">ล้างเวลาการตรวจสอบความปลอดภัยครั้งล่าสุดของ Google Wallet ตอนนี้ เพื่อให้ตรวจสอบใหม่ในการรับรองครั้งถัดไปไหม บริการ Google Play จะรีสตาร์ทชั่วครู่</string>
     <string name="wallet_reset_confirm">ล้าง</string>
     <string name="wallet_reset_cancel">ยกเลิก</string>
-    <string name="wallet_reset_info">ลบการประทับเวลาการตรวจสอบครั้งล่าสุด (last_attestation_result_time) ออกจาก GMS tapandpay และรีสตาร์ทบริการ Play จากนั้น Wallet จะถือว่าการตรวจสอบถึงกำหนดและรับรองใหม่ในการตรวจสอบเบื้องหลังหรือการชำระเงินครั้งถัดไป - ผลล่าสุดจะยังอยู่จนถึงตอนนั้น บันทึกในเครื่อง ไม่ใช้อินเทอร์เน็ต</string>
+    <string name="wallet_reset_info">ลบผลการรับรองที่บันทึกไว้และการประทับเวลา (last_attestation_result*) ออกจาก GMS tapandpay แล้วรีสตาร์ตบริการ Play จากนั้น Wallet จะถือว่าการตรวจสอบถึงกำหนดและรับรองใหม่ในการตรวจสอบเบื้องหลังหรือการชำระเงินครั้งถัดไป จนกว่าจะถึงตอนนั้นสถานะจะแสดงไม่ทราบ บันทึกในเครื่อง ไม่ใช้อินเทอร์เน็ต</string>
 
     <string name="att_sec_apps">แอปที่ขอการรับรอง</string>
     <string name="att_intro">แอปเหล่านี้เพิ่งขอให้ Google Play Integrity รับรองอุปกรณ์นี้ นี่คือวิธีที่แอปธนาคารและแอปที่มีความอ่อนไหวอื่น ๆ ใช้ตัดสินว่าจะเชื่อถืออุปกรณ์ที่ตนทำงานอยู่หรือไม่</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">แอปนี้ไม่มีสิทธิ์เข้าถึงอินเทอร์เน็ตเลย ไม่มีสิ่งใดที่คุณเห็นที่นี่ออกไปจากอุปกรณ์ของคุณ</string>
     <string name="about_project">โปรเจกต์</string>
+    <string name="about_see_also">ดูเพิ่มเติม</string>
     <string name="about_developer">ผู้พัฒนา</string>
     <string name="about_source">ซอร์สโค้ด</string>
     <string name="about_license">สัญญาอนุญาต</string>

@@ -66,6 +66,13 @@ Mọi thời gian được hiển thị theo múi giờ hiện tại của thi�
 
 **GNU AGPL-3.0-or-later** - xem [LICENSE](LICENSE). Copyleft, bao gồm điều khoản mạng: bất kỳ ai chạy phiên bản đã sửa đổi (kể cả dưới dạng dịch vụ) đều phải cung cấp mã nguồn của nó. Được chọn có chủ đích để giữ cho các fork luôn mở.
 
+<!-- vd-see-also -->
+
+## Xem thêm
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Trình gỡ lỗi phương thức
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD là một trình giả mạo thiết bị
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

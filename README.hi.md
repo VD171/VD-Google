@@ -66,6 +66,13 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) देखें। नेटवर्क क्लॉज़ सहित कॉपीलेफ्ट: जो कोई संशोधित संस्करण चलाता है (सेवा के रूप में भी) उसे उसका सोर्स देना होगा। फोर्क खुले रखने के लिए जानबूझकर चुना गया।
 
+<!-- vd-see-also -->
+
+## यह भी देखें
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - मेथड डिबगर
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD एक डिवाइस स्पूफर है
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

@@ -36,6 +36,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -79,7 +80,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import ru.vd171.vdgoogle.ui.AppViewModel
@@ -220,22 +223,19 @@ private fun MainScaffold(
         topBar = {
             TopAppBar(
                 title = {
-                    Row(verticalAlignment = Alignment.Bottom) {
+                    Column {
                         Text(
                             stringResource(R.string.app_name),
                             style = MaterialTheme.typography.titleLarge,
+                            maxLines = 1,
                         )
-                        Spacer(Modifier.width(8.dp))
                         Text(
                             "v" + BuildConfig.VERSION_NAME,
-                            style = MaterialTheme.typography.labelLarge,
+                            style = MaterialTheme.typography.labelMedium,
                             fontWeight = FontWeight.SemiBold,
                             color = MaterialTheme.colorScheme.primary,
-                            modifier = Modifier
-                                .padding(bottom = 3.dp)
-                                .clip(RoundedCornerShape(6.dp))
-                                .background(MaterialTheme.colorScheme.primaryContainer)
-                                .padding(horizontal = 6.dp, vertical = 1.dp),
+                            maxLines = 1,
+                            softWrap = false,
                         )
                     }
                 },
@@ -268,7 +268,15 @@ private fun MainScaffold(
                         selected = sel == i,
                         onClick = { sel = i },
                         icon = { Icon(tab.icon, null) },
-                        label = { Text(stringResource(tab.titleRes)) },
+                        label = {
+                            Text(
+                                stringResource(tab.titleRes),
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis,
+                                fontSize = 11.sp,
+                            )
+                        },
                     )
                 }
             }

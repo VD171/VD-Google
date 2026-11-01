@@ -171,6 +171,8 @@
       line("rcsenabled", "grep -oE \"enable_rcs\\\" value=\\\"(true|false)\" \"$BUG\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("flagen", "grep -oE \"RcsFlags__rcs_enabled\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("flagun", "grep -oE \"notify_backend_rcs_is_unavailable\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
+      line("magic", "grep -oE \"enable_magic_compose_conv_2\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
+      line("aicore", "grep -c \"^com.google.android.aicore \" \"$PKGS\" 2>/dev/null") +
       line("ims", "grep -c \"^com.google.android.ims \" \"$PKGS\" 2>/dev/null") +
       line("ent", "dumpsys package com.android.imsserviceentitlement 2>/dev/null | grep -oE \"enabled=[A-Za-z0-9]+\" | head -1 | cut -d= -f2") +
       line("gsmalpha", "getprop gsm.sim.operator.alpha") +
@@ -297,7 +299,8 @@
       propCarrier(d.gsmalpha, d.gsmnum) || domainCarrier(d.mdomain);
 
     var conn = health === "connected";
-    var h = strip([[t("rcs_chip_active"), hTone], [t("rcs_chip_backend"), (truthy(d.ims) || Number(d.ims) > 0 || conn) ? "good" : "warn"]]);
+    var magicOk = truthy(d.magic) === true;
+    var h = strip([[t("rcs_chip_active"), hTone], [t("rcs_chip_backend"), (truthy(d.ims) || Number(d.ims) > 0 || conn) ? "good" : "warn"], [t("rcs_chip_gemini"), conn ? "good" : "warn"], [t("rcs_chip_magic"), magicOk ? "good" : "warn"]]);
 
     if (health !== "connected" && d.mversion === "0") {
       h += "<div class=\"callout\">" + esc(t("rcs_callout_mversion_zero")) + "</div>";
@@ -328,6 +331,12 @@
     h += row(t("rcs_entitlement"), val(d.ent), "", t("rcs_entitlement_m"));
     h += imsRow(t("rcs_uce"), d.uce, t("rcs_uce_m"), conn);
     h += imsRow(t("rcs_ims_pkg"), Number(d.ims) > 0 ? "true" : "false", t("rcs_ims_pkg_m"), conn);
+    h += "</div>";
+
+    h += "<div class=\"seclabel\">" + esc(t("rcs_gemini_sec")) + "</div><div class=\"card\">";
+    h += boolRow(t("rcs_magic_compose"), d.magic, t("rcs_magic_compose_m"));
+    h += boolRow(t("rcs_aicore"), Number(d.aicore) > 0 ? "true" : "false", t("rcs_aicore_m"));
+    h += row(t("rcs_gemini_chat"), conn ? t("v_yes") : t("v_no"), conn ? "good" : "warn", t("rcs_gemini_chat_m"));
     h += "</div>";
 
     h += "<div class=\"seclabel\">" + esc(t("rcs_sec_times")) + "</div><div class=\"card\">";
@@ -452,6 +461,11 @@
     h += aboutRow(IC.person, t("about_developer"), "VD171", "https://github.com/VD171");
     h += aboutRow(IC.code, t("about_source"), "github.com/VD171/VD-Google", "https://github.com/VD171/VD-Google");
     h += aboutRow(IC.gavel, t("about_license"), "GNU AGPL-3.0-or-later", null);
+    h += "</div>";
+
+    h += "<div class=\"seclabel\">" + esc(t("about_see_also")) + "</div><div class=\"card\">";
+    h += aboutRow(IC.open, "VD Infos", "github.com/VD171/VD-Infos", "https://github.com/VD171/VD-Infos");
+    h += aboutRow(IC.open, "COPG-VD", "github.com/VD171/COPG-VD", "https://github.com/VD171/COPG-VD");
     h += "</div>";
 
     h += "<div class=\"seclabel\">" + esc(t("about_contacts")) + "</div><div class=\"card\">";
@@ -619,7 +633,7 @@
     try {
       await ex("ctx=$(stat -c %C '" + tap + "' 2>/dev/null); " +
         "am force-stop com.google.android.gms; sleep 1; " +
-        "sed -i '/name=\"last_attestation_result_time/d' '" + tap + "'; " +
+        "sed -i '/name=\"last_attestation_result/d' '" + tap + "'; " +
         "[ -n \"$ctx\" ] && chcon \"$ctx\" '" + tap + "'; true");
       ok = true;
     } catch (e) {}

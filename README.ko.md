@@ -66,6 +66,13 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) 참조. 네트워크 조항을 포함한 카피레프트: 수정된 버전을 (서비스로라도) 실행하는 사람은 그 소스를 제공해야 합니다. 포크를 공개 상태로 유지하기 위해 의도적으로 선택했습니다.
 
+<!-- vd-see-also -->
+
+## 관련 앱
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - 메서드 디버거
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD는 기기 스푸퍼입니다
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

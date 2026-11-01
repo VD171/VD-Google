@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Dịch vụ</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Phiên bản cấu hình là 0, thường có nghĩa là nhà mạng hoặc Google chưa gửi một cấu hình RCS hợp lệ cho số máy này. Khi còn là 0, RCS thường không thể bật, ngay cả trên một chiếc máy còn nguyên vẹn.</string>
 
     <string name="rcs_sec_status">Trạng thái</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Đồng bộ gần nhất</string>
     <string name="rcs_last_sync_m">Thời điểm ứng dụng tin nhắn đồng bộ gần nhất.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Trợ giúp viết của Gemini trong Google Messages, ngay trên thiết bị (viết lại và gợi ý câu trả lời).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Mô hình trên thiết bị (Gemini Nano, qua AICore) chạy Magic Compose. Một số điện thoại dùng engine khác hoặc đám mây.</string>
+    <string name="rcs_gemini_chat">Trò chuyện Gemini</string>
+    <string name="rcs_gemini_chat_m">Trò chuyện với Gemini trong Google Messages được gửi qua RCS, nên cần RCS đã kết nối.</string>
+
     <string name="wallet_chip_attested">Đã chứng thực</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Xóa thời điểm kiểm tra bảo mật gần nhất của Google Wallet ngay bây giờ, để nó kiểm tra lại ở lần chứng thực tiếp theo? Dịch vụ Google Play sẽ khởi động lại trong giây lát.</string>
     <string name="wallet_reset_confirm">Xóa</string>
     <string name="wallet_reset_cancel">Hủy</string>
-    <string name="wallet_reset_info">Xóa dấu thời gian kiểm tra gần nhất (last_attestation_result_time) khỏi GMS tapandpay và khởi động lại dịch vụ Play. Wallet khi đó coi việc kiểm tra là đến hạn và chứng thực lại ở lần kiểm tra nền hoặc thanh toán kế tiếp - kết quả gần nhất vẫn giữ đến lúc đó. Ghi cục bộ, không internet.</string>
+    <string name="wallet_reset_info">Xóa kết quả chứng thực đã lưu và dấu thời gian của nó (last_attestation_result*) khỏi GMS tapandpay và khởi động lại dịch vụ Play. Wallet khi đó coi việc kiểm tra là đến hạn và chứng thực lại ở lần kiểm tra nền hoặc thanh toán tiếp theo; cho đến lúc đó trạng thái hiển thị Không rõ. Ghi nhật ký cục bộ, không có internet.</string>
 
     <string name="att_sec_apps">Ứng dụng đã yêu cầu chứng thực</string>
     <string name="att_intro">Những ứng dụng này gần đây đã yêu cầu Google Play Integrity bảo đảm cho thiết bị này. Đó là cách ứng dụng ngân hàng và các ứng dụng nhạy cảm khác quyết định có tin tưởng thiết bị mà chúng đang chạy hay không.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Ứng dụng này hoàn toàn không có quyền truy cập internet. Không điều gì bạn thấy ở đây rời khỏi thiết bị của bạn.</string>
     <string name="about_project">Dự án</string>
+    <string name="about_see_also">Xem thêm</string>
     <string name="about_developer">Nhà phát triển</string>
     <string name="about_source">Mã nguồn</string>
     <string name="about_license">Giấy phép</string>

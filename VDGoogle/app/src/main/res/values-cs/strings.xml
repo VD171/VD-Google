@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Služba</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Verze konfigurace je 0, což obvykle znamená, že operátor nebo Google dosud nedodal pro tuto linku platnou konfiguraci RCS. Dokud zůstává 0, RCS se normálně nemůže zapnout, ani na nedotčeném telefonu.</string>
 
     <string name="rcs_sec_status">Stav</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Poslední synchronizace</string>
     <string name="rcs_last_sync_m">Kdy se aplikace pro zprávy naposledy synchronizovala.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Pomoc Gemini s psaním v Google Messages, přímo v zařízení (přepíše a navrhne odpovědi).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Model v zařízení (Gemini Nano přes AICore), který pohání Magic Compose. Některé telefony používají jiný engine nebo cloud.</string>
+    <string name="rcs_gemini_chat">Chat s Gemini</string>
+    <string name="rcs_gemini_chat_m">Chatování s Gemini v Google Messages probíhá přes RCS, takže vyžaduje připojené RCS.</string>
+
     <string name="wallet_chip_attested">Atestováno</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Vymazat nyní čas poslední bezpečnostní kontroly Google Wallet, aby při příští atestaci zkontroloval znovu? Služby Google Play se krátce restartují.</string>
     <string name="wallet_reset_confirm">Vymazat</string>
     <string name="wallet_reset_cancel">Zrušit</string>
-    <string name="wallet_reset_info">Smaže časové razítko poslední kontroly (last_attestation_result_time) z GMS tapandpay a restartuje služby Play. Wallet pak považuje kontrolu za nutnou a znovu atestuje při příští kontrole na pozadí nebo platbě - poslední výsledek zůstává do té doby. Zaznamenáno lokálně, bez internetu.</string>
+    <string name="wallet_reset_info">Odstraní uložený výsledek atestace a jeho časové razítko (last_attestation_result*) z GMS tapandpay a restartuje služby Play. Wallet pak považuje kontrolu za nevyřízenou a znovu atestuje při příští kontrole na pozadí nebo při platbě; do té doby stav zobrazuje Neznámé. Zaznamenáno lokálně, bez internetu.</string>
 
     <string name="att_sec_apps">Aplikace, které požádaly o atestaci</string>
     <string name="att_intro">Tyto aplikace nedávno požádaly Google Play Integrity, aby se za toto zařízení zaručil. Takto bankovní a jiné citlivé aplikace rozhodují, zda důvěřují zařízení, na kterém běží.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Tato aplikace nemá vůbec žádné oprávnění k internetu. Nic z toho, co zde vidíte, nikdy neopustí vaše zařízení.</string>
     <string name="about_project">Projekt</string>
+    <string name="about_see_also">Viz také</string>
     <string name="about_developer">Vývojář</string>
     <string name="about_source">Zdrojový kód</string>
     <string name="about_license">Licence</string>

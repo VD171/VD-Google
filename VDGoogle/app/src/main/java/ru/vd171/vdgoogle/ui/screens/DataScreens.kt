@@ -151,10 +151,13 @@ fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
             else -> R.string.rcs_st_setup to Tone.WARN
         }
         val connected = data.health == RcsHealth.CONNECTED
+        val magicOk = truthy(data.magicCompose) == true
         StatusStrip(
             listOf(
                 stringResource(R.string.rcs_chip_active) to healthTone,
                 stringResource(R.string.rcs_chip_backend) to (if (data.imsPkgPresent || connected) Tone.GOOD else Tone.WARN),
+                stringResource(R.string.rcs_chip_gemini) to (if (connected) Tone.GOOD else Tone.WARN),
+                stringResource(R.string.rcs_chip_magic) to (if (magicOk) Tone.GOOD else Tone.WARN),
             ),
         )
 
@@ -199,6 +202,18 @@ fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
             InfoRow(stringResource(R.string.rcs_entitlement), data.entitlement, Tone.NEUTRAL, stringResource(R.string.rcs_entitlement_m))
             imsRow(stringResource(R.string.rcs_uce), data.uce, stringResource(R.string.rcs_uce_m), connected)
             imsRow(stringResource(R.string.rcs_ims_pkg), if (data.imsPkgPresent) "true" else "false", stringResource(R.string.rcs_ims_pkg_m), connected)
+        }
+
+        SectionTitle(stringResource(R.string.rcs_gemini_sec))
+        InfoCard {
+            boolRow(stringResource(R.string.rcs_magic_compose), data.magicCompose, stringResource(R.string.rcs_magic_compose_m))
+            boolRow(stringResource(R.string.rcs_aicore), if (data.aicorePresent) "true" else "false", stringResource(R.string.rcs_aicore_m))
+            InfoRow(
+                stringResource(R.string.rcs_gemini_chat),
+                stringResource(if (connected) R.string.v_yes else R.string.v_no),
+                if (connected) Tone.GOOD else Tone.WARN,
+                stringResource(R.string.rcs_gemini_chat_m),
+            )
         }
 
         SectionTitle(stringResource(R.string.rcs_sec_times))

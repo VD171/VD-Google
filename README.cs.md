@@ -66,6 +66,13 @@ Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení 
 
 **GNU AGPL-3.0-or-later** - viz [LICENSE](LICENSE). Copyleft včetně síťové klauzule: kdo provozuje upravenou verzi (i jako službu), musí nabídnout její zdrojový kód. Zvoleno záměrně, aby forky zůstaly otevřené.
 
+<!-- vd-see-also -->
+
+## Viz také
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Debugger metod
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD je spoofer zařízení
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">服务</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">配置版本为 0，这通常表示运营商或 Google 尚未向该号码下发有效的 RCS 配置。只要保持为 0，即使是未经改动的手机，RCS 通常也无法开启。</string>
 
     <string name="rcs_sec_status">状态</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">上次同步</string>
     <string name="rcs_last_sync_m">消息应用上次同步的时间。</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Gemini 在 Google Messages 中的设备端写作帮助（改写并建议回复）。</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">驱动 Magic Compose 的设备端模型（通过 AICore 的 Gemini Nano）。有些手机使用其他引擎或云端。</string>
+    <string name="rcs_gemini_chat">Gemini 聊天</string>
+    <string name="rcs_gemini_chat_m">在 Google Messages 中与 Gemini 聊天通过 RCS 传送，因此需要 RCS 已连接。</string>
+
     <string name="wallet_chip_attested">已认证</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">现在清除 Google Wallet 上次安全检查的时间，让它在下次证明时重新检查吗？Google Play 服务会短暂重启。</string>
     <string name="wallet_reset_confirm">清除</string>
     <string name="wallet_reset_cancel">取消</string>
-    <string name="wallet_reset_info">从 GMS tapandpay 删除上次检查的时间戳（last_attestation_result_time）并重启 Play 服务。随后 Wallet 会将检查视为到期，并在下次后台或支付检查时重新证明 - 在此之前保留上次的结果。本地记录，无网络。</string>
+    <string name="wallet_reset_info">从 GMS tapandpay 删除已保存的认证结果及其时间戳 (last_attestation_result*) 并重启 Play 服务。随后 Wallet 将该检查视为待执行，并在下次后台或支付检查时重新认证；在此之前状态显示未知。本地记录，无需联网。</string>
 
     <string name="att_sec_apps">请求过认证的应用</string>
     <string name="att_intro">这些应用最近请求 Google Play Integrity 为本机背书。银行等敏感应用正是以此决定是否信任其运行所在的设备。</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">本应用完全没有任何联网权限。你在这里看到的一切都绝不会离开你的设备。</string>
     <string name="about_project">项目</string>
+    <string name="about_see_also">另请参阅</string>
     <string name="about_developer">开发者</string>
     <string name="about_source">源代码</string>
     <string name="about_license">许可证</string>

@@ -51,6 +51,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Служба</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Версія конфігурації дорівнює 0. Зазвичай це означає, що оператор або Google ще не надіслав чинну конфігурацію RCS для цієї SIM-картки. Поки значення залишається 0, RCS зазвичай не вдається активувати навіть на пристрої без модифікацій.</string>
 
     <string name="rcs_sec_status">Стан</string>
@@ -100,6 +102,14 @@
     <string name="rcs_last_sync">Остання синхронізація</string>
     <string name="rcs_last_sync_m">Час останньої синхронізації додатка Повідомлення.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Допомога Gemini з написанням у Google Messages, безпосередньо на пристрої (переписує й пропонує відповіді).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Модель на пристрої (Gemini Nano через AICore), що забезпечує Magic Compose. Деякі телефони використовують інший рушій або хмару.</string>
+    <string name="rcs_gemini_chat">Чат Gemini</string>
+    <string name="rcs_gemini_chat_m">Спілкування з Gemini всередині Google Messages доставляється через RCS, тож потрібне підключене RCS.</string>
+
     <string name="wallet_chip_attested">Атестовано</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -126,7 +136,7 @@
     <string name="wallet_reset_msg">Очистити часову мітку останньої перевірки безпеки Google Гаманця, щоб під час наступної атестації він перевірив пристрій повторно? Служби Google Play буде ненадовго перезапущено.</string>
     <string name="wallet_reset_confirm">Очистити</string>
     <string name="wallet_reset_cancel">Скасувати</string>
-    <string name="wallet_reset_info">Видаляє часову мітку останньої перевірки (last_attestation_result_time) із компонента tapandpay у GMS і перезапускає служби Google Play. Після цього Google Гаманець вважає, що строк дії перевірки минув, і повторно проводить атестацію під час наступної фонової перевірки або перевірки перед оплатою. До цього моменту попередній результат перевірки залишається чинним. Усі зміни виконуються локально, без доступу до інтернету.</string>
+    <string name="wallet_reset_info">Видаляє збережений результат атестації та його позначку часу (last_attestation_result*) з GMS tapandpay і перезапускає сервіси Play. Тоді Wallet вважає перевірку простроченою й повторно атестує під час наступної фонової або платіжної перевірки; до того часу стан показує Невідомо. Записується локально, без інтернету.</string>
 
     <string name="att_sec_apps">Додатки, які запитували атестацію</string>
     <string name="att_search">Пошук додатків</string>
@@ -143,6 +153,7 @@
 
     <string name="about_no_internet">Цей додаток не має дозволу на доступ до інтернету. Все, що ви тут бачите, залишається на вашому пристрої і нікуди не передається.</string>
     <string name="about_project">Проєкт</string>
+    <string name="about_see_also">Дивіться також</string>
     <string name="about_developer">Розробник</string>
     <string name="about_source">Вихідний код</string>
     <string name="about_license">Ліцензія</string>

@@ -66,6 +66,13 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 **GNU AGPL-3.0-or-later** - 参见 [LICENSE](LICENSE)。Copyleft，包含网络条款：任何运行修改版（即使作为服务）的人都必须提供其源代码。特意选择它以保持各分支开放。
 
+<!-- vd-see-also -->
+
+## 另请参阅
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - 方法调试器
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD 是一个设备伪装器
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

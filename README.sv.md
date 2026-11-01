@@ -66,6 +66,13 @@ Alla tider visas i enhetens aktuella tidszon, och tidszonen anges alltid.
 
 **GNU AGPL-3.0-or-later** - se [LICENSE](LICENSE). Copyleft, inklusive nätverksklausulen: den som kör en modifierad version (även som tjänst) måste erbjuda dess källkod. Vald med avsikt för att hålla forkar öppna.
 
+<!-- vd-see-also -->
+
+## Se även
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Metod-debugger
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD är en enhetsspoofer
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

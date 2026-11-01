@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">서비스</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">구성 버전이 0입니다. 이는 보통 통신사나 Google이 이 회선에 아직 유효한 RCS 구성을 전달하지 않았음을 뜻합니다. 0으로 남아 있는 동안에는 손대지 않은 휴대폰에서도 RCS가 일반적으로 켜지지 않습니다.</string>
 
     <string name="rcs_sec_status">상태</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">마지막 동기화</string>
     <string name="rcs_last_sync_m">메시지 앱이 마지막으로 동기화한 시점.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Google Messages에서 기기 내 글쓰기 도움(다시 쓰기 및 답장 제안).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Magic Compose를 구동하는 기기 내 모델(AICore를 통한 Gemini Nano). 일부 기기는 다른 엔진이나 클라우드를 사용합니다.</string>
+    <string name="rcs_gemini_chat">Gemini 채팅</string>
+    <string name="rcs_gemini_chat_m">Google Messages 안에서 Gemini와 채팅하는 것은 RCS로 전달되므로 RCS가 연결되어 있어야 합니다.</string>
+
     <string name="wallet_chip_attested">증명됨</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Google Wallet의 마지막 보안 확인 시각을 지금 지워 다음 증명 때 다시 확인하도록 할까요? Google Play 서비스가 잠시 다시 시작됩니다.</string>
     <string name="wallet_reset_confirm">지우기</string>
     <string name="wallet_reset_cancel">취소</string>
-    <string name="wallet_reset_info">마지막 확인 타임스탬프(last_attestation_result_time)를 GMS tapandpay에서 삭제하고 Play 서비스를 다시 시작합니다. 그러면 Wallet은 확인을 기한이 지난 것으로 보고 다음 백그라운드 또는 결제 확인 때 다시 증명합니다 - 그때까지 마지막 판정은 유지됩니다. 로컬에 기록, 인터넷 없음.</string>
+    <string name="wallet_reset_info">저장된 증명 결과와 타임스탬프(last_attestation_result*)를 GMS tapandpay에서 삭제하고 Play 서비스를 다시 시작합니다. 그러면 Wallet은 검사를 대기 중으로 처리하고 다음 백그라운드 또는 결제 검사에서 다시 증명합니다. 그때까지 상태는 알 수 없음으로 표시됩니다. 로컬에 기록, 인터넷 없음.</string>
 
     <string name="att_sec_apps">증명을 요청한 앱</string>
     <string name="att_intro">이 앱들은 최근 Google Play Integrity에 이 기기를 보증해 달라고 요청했습니다. 은행 등 민감한 앱은 이렇게 실행 중인 기기를 신뢰할지 결정합니다.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">이 앱에는 인터넷 권한이 전혀 없습니다. 여기에 보이는 어떤 것도 기기를 떠나지 않습니다.</string>
     <string name="about_project">프로젝트</string>
+    <string name="about_see_also">관련 앱</string>
     <string name="about_developer">개발자</string>
     <string name="about_source">소스 코드</string>
     <string name="about_license">라이선스</string>

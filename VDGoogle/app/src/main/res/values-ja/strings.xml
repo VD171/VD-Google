@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">サービス</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">構成バージョンが 0 です。これは通常、通信事業者または Google がこの回線にまだ有効な RCS 構成を配信していないことを意味します。0 のままでは、改変していない端末でも通常 RCS は有効になりません。</string>
 
     <string name="rcs_sec_status">状態</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">最後の同期</string>
     <string name="rcs_last_sync_m">メッセージアプリが最後に同期した日時。</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Google Messages でのオンデバイスの文章作成支援（書き換えや返信候補）。</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Magic Compose を動かすオンデバイスのモデル（AICore 経由の Gemini Nano）。別のエンジンやクラウドを使う端末もあります。</string>
+    <string name="rcs_gemini_chat">Gemini チャット</string>
+    <string name="rcs_gemini_chat_m">Google Messages 内で Gemini とチャットするのは RCS 経由で届くため、RCS の接続が必要です。</string>
+
     <string name="wallet_chip_attested">認証済み</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Google Wallet の最後のセキュリティ確認の時刻を今すぐ消去し、次の認証で再確認させますか？ Google Play サービスが少し再起動します。</string>
     <string name="wallet_reset_confirm">消去</string>
     <string name="wallet_reset_cancel">キャンセル</string>
-    <string name="wallet_reset_info">最後の確認のタイムスタンプ（last_attestation_result_time）を GMS tapandpay から削除し、Play サービスを再起動します。すると Wallet は確認を期限切れと見なし、次のバックグラウンドまたは支払い確認時に再認証します - それまで直近の判定は残ります。ローカルに記録、インターネットなし。</string>
+    <string name="wallet_reset_info">GMS tapandpay から保存済みの認証結果とそのタイムスタンプ (last_attestation_result*) を削除し、Play サービスを再起動します。その後 Wallet はチェックを保留中として扱い、次のバックグラウンドまたは支払いチェックで再認証します。それまでステータスは不明と表示されます。ローカルに記録、インターネットなし。</string>
 
     <string name="att_sec_apps">認証を要求したアプリ</string>
     <string name="att_intro">これらのアプリは最近、Google Play Integrity にこの端末の保証を要求しました。銀行などの機密性の高いアプリは、こうして実行中の端末を信頼するかどうかを判断します。</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">このアプリにはインターネット権限が一切ありません。ここで見える情報が端末の外に出ることは決してありません。</string>
     <string name="about_project">プロジェクト</string>
+    <string name="about_see_also">関連アプリ</string>
     <string name="about_developer">開発者</string>
     <string name="about_source">ソースコード</string>
     <string name="about_license">ライセンス</string>

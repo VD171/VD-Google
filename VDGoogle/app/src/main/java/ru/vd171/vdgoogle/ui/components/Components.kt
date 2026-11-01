@@ -23,6 +23,8 @@ package ru.vd171.vdgoogle.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -163,13 +165,15 @@ fun RevealRow(label: String, value: String, meaning: String? = null) {
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun StatusStrip(chips: List<Pair<String, Tone>>) {
-    Row(
+    FlowRow(
         Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         for ((label, tone) in chips) {
             Row(

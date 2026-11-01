@@ -66,6 +66,13 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 **GNU AGPL-3.0-or-later** - ดู [LICENSE](LICENSE) Copyleft รวมถึงข้อกำหนดเครือข่าย: ผู้ที่รันเวอร์ชันที่ดัดแปลง (แม้เป็นบริการ) ต้องเสนอซอร์สโค้ดของมัน เลือกอย่างตั้งใจเพื่อให้ฟอร์กเปิดอยู่เสมอ
 
+<!-- vd-see-also -->
+
+## ดูเพิ่มเติม
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - ตัวดีบักเมธอด
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD เป็นเครื่องมือปลอมแปลงอุปกรณ์
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

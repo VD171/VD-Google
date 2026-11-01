@@ -66,6 +66,13 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 **GNU AGPL-3.0-or-later** - див. [LICENSE](LICENSE). Копілефт, зокрема мережева умова: кожен, хто запускає змінену версію (навіть як сервіс), зобов'язаний надати її вихідний код. Обрано свідомо, щоб форки залишалися відкритими.
 
+<!-- vd-see-also -->
+
+## Дивіться також
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Device method debugger
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD is a device spoofer
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

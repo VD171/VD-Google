@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Tjänst</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Konfigurationsversionen är 0, vilket oftast betyder att din operatör eller Google ännu inte har levererat en giltig RCS-konfiguration till den här linjen. Så länge den är 0 kan RCS normalt inte slås på, inte ens på en orörd telefon.</string>
 
     <string name="rcs_sec_status">Status</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Senaste synk</string>
     <string name="rcs_last_sync_m">När meddelandeappen senast synkroniserade.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Geminis skrivhjälp i Google Messages, direkt på enheten (skriver om och föreslår svar).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Modellen på enheten (Gemini Nano, via AICore) som driver Magic Compose. Vissa telefoner använder en annan motor eller molnet.</string>
+    <string name="rcs_gemini_chat">Gemini-chatt</string>
+    <string name="rcs_gemini_chat_m">Att chatta med Gemini i Google Messages levereras via RCS, så RCS måste vara anslutet.</string>
+
     <string name="wallet_chip_attested">Attesterad</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Rensa tiden för Google Wallets senaste säkerhetskontroll nu, så att det kontrollerar igen vid nästa attestering? Google Play-tjänster startar om en kort stund.</string>
     <string name="wallet_reset_confirm">Rensa</string>
     <string name="wallet_reset_cancel">Avbryt</string>
-    <string name="wallet_reset_info">Tar bort tidsstämpeln för den senaste kontrollen (last_attestation_result_time) från GMS tapandpay och startar om Play-tjänster. Wallet betraktar då kontrollen som förfallen och attesterar på nytt vid nästa bakgrunds- eller betalkontroll - det senaste utslaget stannar till dess. Loggas lokalt, utan internet.</string>
+    <string name="wallet_reset_info">Tar bort det sparade attesteringsresultatet och dess tidsstämpel (last_attestation_result*) från GMS tapandpay och startar om Play-tjänsterna. Wallet behandlar då kontrollen som förfallen och attesterar om vid nästa bakgrunds- eller betalningskontroll; fram till dess visar statusen Okänt. Loggas lokalt, utan internet.</string>
 
     <string name="att_sec_apps">Appar som begärde attestering</string>
     <string name="att_intro">Dessa appar bad nyligen Google Play Integrity att gå i god för den här enheten. Så avgör bankappar och andra känsliga appar om de litar på enheten de körs på.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Den här appen har ingen internetbehörighet alls. Inget av det du ser här lämnar någonsin din enhet.</string>
     <string name="about_project">Projekt</string>
+    <string name="about_see_also">Se även</string>
     <string name="about_developer">Utvecklare</string>
     <string name="about_source">Källkod</string>
     <string name="about_license">Licens</string>

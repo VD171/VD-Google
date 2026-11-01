@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Dienst</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">De configuratieversie is 0, wat meestal betekent dat je provider of Google nog geen geldige RCS-configuratie aan deze lijn heeft geleverd. Zolang deze op 0 blijft, kan RCS normaal gesproken niet worden ingeschakeld, zelfs niet op een ongewijzigd toestel.</string>
 
     <string name="rcs_sec_status">Status</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Laatste synchronisatie</string>
     <string name="rcs_last_sync_m">Wanneer de berichten-app voor het laatst heeft gesynchroniseerd.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Gemini\'s schrijfhulp in Google Messages, op het toestel zelf (herschrijven en antwoorden voorstellen).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Het model op het toestel (Gemini Nano, via AICore) dat Magic Compose aandrijft. Sommige telefoons gebruiken een andere engine of de cloud.</string>
+    <string name="rcs_gemini_chat">Gemini-chat</string>
+    <string name="rcs_gemini_chat_m">Chatten met Gemini in Google Messages verloopt via RCS, dus RCS moet verbonden zijn.</string>
+
     <string name="wallet_chip_attested">Geattesteerd</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">De tijd van de laatste beveiligingscontrole van Google Wallet nu wissen, zodat het opnieuw controleert bij de volgende attestatie? Google Play-services starten kort opnieuw op.</string>
     <string name="wallet_reset_confirm">Wissen</string>
     <string name="wallet_reset_cancel">Annuleren</string>
-    <string name="wallet_reset_info">Verwijdert de tijdstempel van de laatste controle (last_attestation_result_time) uit GMS tapandpay en start Play-services opnieuw. Wallet beschouwt de controle dan als verschuldigd en attesteert opnieuw bij de volgende achtergrond- of betaalcontrole - het laatste oordeel blijft tot dan. Lokaal gelogd, geen internet.</string>
+    <string name="wallet_reset_info">Verwijdert het opgeslagen attestatieresultaat en de tijdstempel (last_attestation_result*) uit GMS tapandpay en herstart de Play-services. Wallet beschouwt de controle dan als verschuldigd en attesteert opnieuw bij de volgende achtergrond- of betaalcontrole; tot dan toont de status Onbekend. Lokaal gelogd, zonder internet.</string>
 
     <string name="att_sec_apps">Apps die om attestatie vroegen</string>
     <string name="att_intro">Deze apps hebben onlangs Google Play Integrity gevraagd om voor dit toestel in te staan. Zo bepalen bank-apps en andere gevoelige apps of ze het toestel vertrouwen waarop ze draaien.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Deze app heeft helemaal geen internettoegang. Niets van wat je hier ziet verlaat ooit je toestel.</string>
     <string name="about_project">Project</string>
+    <string name="about_see_also">Zie ook</string>
     <string name="about_developer">Ontwikkelaar</string>
     <string name="about_source">Broncode</string>
     <string name="about_license">Licentie</string>

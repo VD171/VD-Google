@@ -51,6 +51,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Backend</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">The configuration version is 0, which usually means your carrier or Google has not yet delivered a valid RCS configuration to this line. While it stays 0, RCS normally cannot turn on, even on an untouched phone.</string>
 
     <string name="rcs_sec_status">Status</string>
@@ -100,6 +102,14 @@
     <string name="rcs_last_sync">Last sync</string>
     <string name="rcs_last_sync_m">When the messaging app last synchronized.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Gemini\'s on-device writing help in Google Messages (rewrite and suggest replies).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">The on-device model (Gemini Nano, through AICore) that powers Magic Compose. Some phones use a different engine or the cloud.</string>
+    <string name="rcs_gemini_chat">Gemini chat</string>
+    <string name="rcs_gemini_chat_m">Chatting with Gemini inside Google Messages is delivered over RCS, so it needs RCS to be connected.</string>
+
     <string name="wallet_chip_attested">Attested</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -126,7 +136,7 @@
     <string name="wallet_reset_msg">Clear Google Wallet\'s last security-check time now, so it re-checks on its next attestation? Google Play services will restart briefly.</string>
     <string name="wallet_reset_confirm">Clear</string>
     <string name="wallet_reset_cancel">Cancel</string>
-    <string name="wallet_reset_info">Deletes the last-checked timestamp (last_attestation_result_time) from GMS tapandpay and restarts Play services. Wallet then treats the check as due and re-attests on its next background or payment check - the last verdict stays until then. Logged locally, no internet.</string>
+    <string name="wallet_reset_info">Deletes the saved attestation result and its timestamp (last_attestation_result*) from GMS tapandpay and restarts Play services. Wallet then treats the check as due and re-attests on its next background or payment check; until then the status shows Unknown. Logged locally, no internet.</string>
 
     <string name="att_sec_apps">Apps that requested attestation</string>
     <string name="att_search">Search apps</string>
@@ -143,6 +153,7 @@
 
     <string name="about_no_internet">This app has no internet permission at all. Nothing you see here ever leaves your device.</string>
     <string name="about_project">Project</string>
+    <string name="about_see_also">See also</string>
     <string name="about_developer">Developer</string>
     <string name="about_source">Source</string>
     <string name="about_license">License</string>

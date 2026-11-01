@@ -66,6 +66,13 @@ Toutes les heures sont affichées dans le fuseau horaire actuel de votre apparei
 
 **GNU AGPL-3.0-or-later** - voir [LICENSE](LICENSE). Copyleft, y compris la clause réseau : quiconque exécute une version modifiée (même comme service) doit en proposer le code source. Choisie délibérément pour garder les forks ouverts.
 
+<!-- vd-see-also -->
+
+## Voir aussi
+
+- **[VD Infos](https://github.com/VD171/VD-Infos)** - Débogueur de méthodes
+- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD est un usurpateur d'appareil
+
 ---
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

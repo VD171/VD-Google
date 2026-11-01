@@ -101,12 +101,12 @@ body {
 
 .appbar { display: flex; align-items: center; gap: 14px; padding: 16px 2px 6px; }
 .appbar img { width: 48px; height: 48px; border-radius: 14px; }
-.appbar .title { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.appbar .title { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
 .appbar .title h1 { font-size: 22px; font-weight: 600; margin: 0; }
 .appbar .ver {
     font-size: 12px; font-weight: 600; color: var(--primary);
     background: var(--primary-container); color: var(--on-primary-container);
-    border-radius: 6px; padding: 1px 7px;
+    border-radius: 6px; padding: 1px 7px; white-space: nowrap;
 }
 .appbar .tagline { font-size: 13px; color: var(--on-variant); margin-top: 2px; }
 

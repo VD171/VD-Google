@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">सेवा</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">कॉन्फ़िगरेशन संस्करण 0 है, जिसका आमतौर पर मतलब है कि आपके कैरियर या Google ने इस लाइन के लिए अभी तक कोई मान्य RCS कॉन्फ़िगरेशन नहीं भेजा है। जब तक यह 0 रहता है, RCS आमतौर पर चालू नहीं हो पाता, भले ही फ़ोन से छेड़छाड़ न की गई हो।</string>
 
     <string name="rcs_sec_status">स्थिति</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">अंतिम समन्वयन</string>
     <string name="rcs_last_sync_m">संदेश ऐप ने आखिरी बार कब समन्वयन किया।</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Google Messages में Gemini की ऑन-डिवाइस लेखन सहायता (फिर से लिखना और जवाब सुझाना)।</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">ऑन-डिवाइस मॉडल (AICore के ज़रिए Gemini Nano) जो Magic Compose चलाता है। कुछ फ़ोन अलग इंजन या क्लाउड इस्तेमाल करते हैं।</string>
+    <string name="rcs_gemini_chat">Gemini चैट</string>
+    <string name="rcs_gemini_chat_m">Google Messages के अंदर Gemini से चैट RCS के ज़रिए पहुँचती है, इसलिए इसके लिए RCS कनेक्ट होना ज़रूरी है।</string>
+
     <string name="wallet_chip_attested">प्रमाणित</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Google Wallet की पिछली सुरक्षा जांच का समय अभी मिटाएं, ताकि अगली अटेस्टेशन पर वह दोबारा जांचे? Google Play services थोड़ी देर के लिए रीस्टार्ट होंगी।</string>
     <string name="wallet_reset_confirm">मिटाएं</string>
     <string name="wallet_reset_cancel">रद्द करें</string>
-    <string name="wallet_reset_info">पिछली जांच का टाइमस्टैम्प (last_attestation_result_time) GMS tapandpay से मिटाता है और Play services रीस्टार्ट करता है। फिर Wallet जांच को बकाया मानता है और अगली बैकग्राउंड या भुगतान जांच पर दोबारा अटेस्ट करता है - तब तक पिछला नतीजा बना रहता है। लोकल रूप से लॉग, बिना इंटरनेट।</string>
+    <string name="wallet_reset_info">GMS tapandpay से सहेजा गया प्रमाणन परिणाम और उसका टाइमस्टैम्प (last_attestation_result*) हटाता है और Play सेवाएँ पुनः आरंभ करता है। फिर Wallet जाँच को लंबित मानता है और अगली पृष्ठभूमि या भुगतान जाँच पर फिर से प्रमाणित करता है; तब तक स्थिति अज्ञात दिखाती है। स्थानीय रूप से लॉग किया गया, बिना इंटरनेट।</string>
 
     <string name="att_sec_apps">प्रमाणन का अनुरोध करने वाले ऐप</string>
     <string name="att_intro">इन ऐप्स ने हाल ही में Google Play Integrity से इस डिवाइस की पुष्टि करने को कहा। बैंकिंग और अन्य संवेदनशील ऐप इसी तरह तय करते हैं कि जिस डिवाइस पर वे चल रहे हैं उस पर भरोसा करें या नहीं।</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">इस ऐप के पास इंटरनेट की कोई अनुमति नहीं है। यहाँ आप जो कुछ भी देखते हैं वह कभी आपके डिवाइस से बाहर नहीं जाता।</string>
     <string name="about_project">परियोजना</string>
+    <string name="about_see_also">यह भी देखें</string>
     <string name="about_developer">डेवलपर</string>
     <string name="about_source">स्रोत कोड</string>
     <string name="about_license">लाइसेंस</string>

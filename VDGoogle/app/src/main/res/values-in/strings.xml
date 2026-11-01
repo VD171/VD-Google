@@ -41,6 +41,8 @@
 
     <string name="rcs_chip_active">RCS</string>
     <string name="rcs_chip_backend">Layanan</string>
+    <string name="rcs_chip_gemini">Gemini</string>
+    <string name="rcs_chip_magic">Magic Compose</string>
     <string name="rcs_callout_mversion_zero">Versi konfigurasi adalah 0, yang biasanya berarti operator atau Google belum mengirimkan konfigurasi RCS yang valid untuk jalur ini. Selama tetap 0, RCS biasanya tidak dapat menyala, bahkan pada ponsel yang masih utuh.</string>
 
     <string name="rcs_sec_status">Status</string>
@@ -90,6 +92,14 @@
     <string name="rcs_last_sync">Sinkronisasi terakhir</string>
     <string name="rcs_last_sync_m">Kapan aplikasi pesan terakhir disinkronkan.</string>
 
+    <string name="rcs_gemini_sec">Gemini</string>
+    <string name="rcs_magic_compose">Magic Compose</string>
+    <string name="rcs_magic_compose_m">Bantuan menulis Gemini di Google Messages, langsung di perangkat (menulis ulang dan menyarankan balasan).</string>
+    <string name="rcs_aicore">AICore</string>
+    <string name="rcs_aicore_m">Model di perangkat (Gemini Nano, melalui AICore) yang menjalankan Magic Compose. Beberapa ponsel memakai mesin lain atau cloud.</string>
+    <string name="rcs_gemini_chat">Chat Gemini</string>
+    <string name="rcs_gemini_chat_m">Mengobrol dengan Gemini di dalam Google Messages dikirim lewat RCS, jadi perlu RCS tersambung.</string>
+
     <string name="wallet_chip_attested">Teratestasi</string>
     <string name="wallet_chip_nfc">NFC</string>
 
@@ -116,7 +126,7 @@
     <string name="wallet_reset_msg">Hapus sekarang waktu pemeriksaan keamanan terakhir Google Wallet, agar memeriksa lagi pada atestasi berikutnya? Layanan Google Play akan dimulai ulang sebentar.</string>
     <string name="wallet_reset_confirm">Hapus</string>
     <string name="wallet_reset_cancel">Batal</string>
-    <string name="wallet_reset_info">Menghapus stempel waktu pemeriksaan terakhir (last_attestation_result_time) dari GMS tapandpay dan memulai ulang layanan Play. Wallet lalu menganggap pemeriksaan jatuh tempo dan melakukan atestasi lagi pada pemeriksaan latar belakang atau pembayaran berikutnya - putusan terakhir tetap sampai saat itu. Dicatat lokal, tanpa internet.</string>
+    <string name="wallet_reset_info">Menghapus hasil atestasi tersimpan dan stempel waktunya (last_attestation_result*) dari GMS tapandpay dan memulai ulang layanan Play. Wallet lalu menganggap pemeriksaan jatuh tempo dan mengatestasi ulang pada pemeriksaan latar belakang atau pembayaran berikutnya; hingga saat itu status menampilkan Tidak diketahui. Dicatat secara lokal, tanpa internet.</string>
 
     <string name="att_sec_apps">Aplikasi yang meminta atestasi</string>
     <string name="att_intro">Aplikasi-aplikasi ini baru-baru ini meminta Google Play Integrity untuk menjamin perangkat ini. Begitulah aplikasi perbankan dan aplikasi sensitif lainnya memutuskan apakah memercayai perangkat tempat mereka berjalan.</string>
@@ -132,6 +142,7 @@
 
     <string name="about_no_internet">Aplikasi ini sama sekali tidak memiliki izin internet. Tidak ada yang Anda lihat di sini yang pernah meninggalkan perangkat Anda.</string>
     <string name="about_project">Proyek</string>
+    <string name="about_see_also">Lihat juga</string>
     <string name="about_developer">Pengembang</string>
     <string name="about_source">Kode sumber</string>
     <string name="about_license">Lisensi</string>
