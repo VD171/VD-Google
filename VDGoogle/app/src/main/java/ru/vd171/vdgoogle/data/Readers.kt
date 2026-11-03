@@ -135,9 +135,11 @@ object RcsReader {
         val cap = firstCell(RootRepo.queryDb(BUGLE, "SELECT COUNT(*) FROM participants WHERE is_rcs_available=1"))
         val msgLast = firstCell(RootRepo.queryDb(BUGLE, "SELECT MAX(max(IFNULL(received_timestamp,0), IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3"))?.toLongOrNull()
         val capLast = firstCell(RootRepo.queryDb(BUGLE, "SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache"))?.toLongOrNull()
-        val uce = firstCell(RootRepo.queryDb(TELEPHONY, "SELECT ims_rcs_uce_enabled FROM siminfo LIMIT 1"))
-        val simCarrier = RootRepo.queryDb(TELEPHONY, "SELECT carrier_name, mcc_string, mnc_string FROM siminfo LIMIT 1").firstOrNull()?.split('\t')
-        val carrierSim = simCarrier?.let { c ->
+        val dataSub = RootRepo.exec("settings get global multi_sim_data_call")?.trim()?.toIntOrNull()?.takeIf { it > 0 }
+        val simCols = (dataSub?.let { RootRepo.queryDb(TELEPHONY, "SELECT carrier_name, mcc_string, mnc_string, ims_rcs_uce_enabled FROM siminfo WHERE _id=$it LIMIT 1").firstOrNull() }
+            ?: RootRepo.queryDb(TELEPHONY, "SELECT carrier_name, mcc_string, mnc_string, ims_rcs_uce_enabled FROM siminfo LIMIT 1").firstOrNull())?.split('\t')
+        val uce = simCols?.getOrNull(3)?.takeIf { it.isNotBlank() }
+        val carrierSim = simCols?.let { c ->
             carrierLabel(c.getOrNull(0), c.getOrNull(1), c.getOrNull(2))
         }
 

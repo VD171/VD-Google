@@ -72,6 +72,7 @@ Wszystkie godziny są wyświetlane w bieżącej strefie czasowej urządzenia, a 
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Debuger metod
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD to spoofer urządzenia
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Twórz kopie zapasowe aplikacji i danych oraz je przywracaj
 
 ---
 

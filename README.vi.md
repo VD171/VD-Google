@@ -72,6 +72,7 @@ Mọi thời gian được hiển thị theo múi giờ hiện tại của thi�
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Trình gỡ lỗi phương thức
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD là một trình giả mạo thiết bị
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Sao lưu và khôi phục ứng dụng và dữ liệu của bạn
 
 ---
 

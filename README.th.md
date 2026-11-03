@@ -72,6 +72,7 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - ตัวดีบักเมธอด
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD เป็นเครื่องมือปลอมแปลงอุปกรณ์
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - สำรองและกู้คืนแอปและข้อมูลของคุณ
 
 ---
 

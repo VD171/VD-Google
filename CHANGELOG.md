@@ -2,6 +2,12 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.12] - 2026-11-03
+
+- On dual-SIM phones, the carrier and RCS details now follow your data SIM, instead of sometimes showing another SIM's. The app and the WebUI now always agree.
+- The WebUI module now works right after you flash it, with no reboot: VD Google mounts nothing, so it is placed live and your root manager can list it and open its WebUI at once. (The app is unaffected; it never needed a reboot.)
+- Fixed the module update in your root manager failing with a "Fetch changelog failed" error: the update now carries a changelog link so the manager can show what changed.
+
 ## [1.11] - 2026-11-01
 
 - New Gemini section in the RCS tab, with Gemini and Magic Compose status chips at the top: whether Magic Compose is available in Google Messages, whether the on-device AI engine (AICore) is present, and whether Gemini chat (delivered over RCS) works. It lives under RCS because Gemini in Messages rides RCS.

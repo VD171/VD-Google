@@ -72,6 +72,7 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - اشکال‌زدای روش‌ها
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD یک جعل‌کننده دستگاه است
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - از برنامه‌ها و داده‌های خود نسخه پشتیبان بگیرید و بازیابی کنید
 
 ---
 

@@ -72,6 +72,7 @@
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - مُنقّح الطرق
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD هو spoofer للجهاز
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - انسخ تطبيقاتك وبياناتك احتياطيًا واستعدها
 
 ---
 

@@ -72,6 +72,7 @@ Alla tider visas i enhetens aktuella tidszon, och tidszonen anges alltid.
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Metod-debugger
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD är en enhetsspoofer
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Säkerhetskopiera och återställ dina appar och data
 
 ---
 

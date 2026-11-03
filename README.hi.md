@@ -72,6 +72,7 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - मेथड डिबगर
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD एक डिवाइस स्पूफर है
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - अपने ऐप्स और डेटा का बैकअप लें और पुनर्स्थापित करें
 
 ---
 

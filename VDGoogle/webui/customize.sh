@@ -41,3 +41,20 @@ ui_print ""
 
 set_perm_recursive "$MODPATH/bin" 0 0 0755 0755
 set_perm_recursive "$MODPATH/webroot" 0 0 0755 0644
+
+MID="${MODID:-$(grep_prop id "$MODPATH/module.prop")}"
+ACTIVE="/data/adb/modules/$MID"
+if [ "$BOOTMODE" = "true" ] && [ -n "$MID" ] && [ "$MODPATH" != "$ACTIVE" ]; then
+  rm -rf "$ACTIVE.new"
+  if cp -af "$MODPATH" "$ACTIVE.new" 2>/dev/null; then
+    rm -rf "$ACTIVE"
+    mv "$ACTIVE.new" "$ACTIVE"
+    rm -f "$ACTIVE/update" "$ACTIVE/remove" "$ACTIVE/disable"
+    setsid sh -c "n=0; while [ \$n -lt 30 ]; do rm -f '$ACTIVE/update' '$ACTIVE/remove' '$ACTIVE/disable'; sleep 1; n=\$((n+1)); done" >/dev/null 2>&1 &
+    ui_print "  Activated now - no reboot needed."
+  else
+    rm -rf "$ACTIVE.new"
+    ui_print "  ! Live activation failed; active after a reboot."
+  fi
+  ui_print ""
+fi

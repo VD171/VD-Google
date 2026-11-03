@@ -72,6 +72,7 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - 方法调试器
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD 是一个设备伪装器
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - 备份和恢复您的应用和数据
 
 ---
 

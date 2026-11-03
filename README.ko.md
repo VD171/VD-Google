@@ -72,6 +72,7 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - 메서드 디버거
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD는 기기 스푸퍼입니다
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - 앱과 데이터를 백업하고 복원
 
 ---
 

@@ -72,6 +72,7 @@ VD Google не объявляет **вообще никаких разрешен
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Отладчик методов
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD - это спуфер устройства
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Резервное копирование и восстановление приложений и данных
 
 ---
 

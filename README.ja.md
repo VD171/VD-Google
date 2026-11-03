@@ -72,6 +72,7 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - メソッドデバッガー
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD はデバイススプーファーです
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - アプリとデータのバックアップと復元
 
 ---
 

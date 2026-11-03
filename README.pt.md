@@ -72,6 +72,7 @@ Todos os horários são exibidos no fuso atual do seu aparelho, e o fuso é semp
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Debugger de métodos
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD é um spoofer de dispositivo
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Faça backup e restaure seus apps e dados
 
 ---
 

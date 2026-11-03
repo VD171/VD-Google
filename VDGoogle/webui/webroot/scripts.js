@@ -147,15 +147,17 @@
       "PKGS=/data/system/packages.list\n" +
       copyDb("$MSG/databases/bugle_db", "b") +
       copyDb("$TEL", "t") +
+      "DS=$(settings get global multi_sim_data_call 2>/dev/null)\n" +
+      "case \"$DS\" in ''|*[!0-9]*) SW=\"\";; *) [ \"$(\"$SQ\" $Q/t.db \"SELECT COUNT(*) FROM siminfo WHERE _id=$DS\" 2>/dev/null)\" = \"1\" ] && SW=\"WHERE _id=$DS\" || SW=\"\";; esac\n" +
       line("avail", "\"$SQ\" $Q/b.db \"SELECT p.is_rcs_available FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
       line("selfnum", "\"$SQ\" $Q/b.db \"SELECT p.normalized_destination FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
       line("cap", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM participants WHERE is_rcs_available=1\" 2>/dev/null") +
       line("msglast", "\"$SQ\" $Q/b.db \"SELECT MAX(max(IFNULL(received_timestamp,0),IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
       line("caplast", "\"$SQ\" $Q/b.db \"SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("uce", "\"$SQ\" $Q/t.db \"SELECT ims_rcs_uce_enabled FROM siminfo LIMIT 1\" 2>/dev/null") +
-      line("simname", "\"$SQ\" $Q/t.db \"SELECT carrier_name FROM siminfo LIMIT 1\" 2>/dev/null") +
-      line("simmcc", "\"$SQ\" $Q/t.db \"SELECT mcc_string FROM siminfo LIMIT 1\" 2>/dev/null") +
-      line("simmnc", "\"$SQ\" $Q/t.db \"SELECT mnc_string FROM siminfo LIMIT 1\" 2>/dev/null") +
+      line("uce", "\"$SQ\" $Q/t.db \"SELECT ims_rcs_uce_enabled FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simname", "\"$SQ\" $Q/t.db \"SELECT carrier_name FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simmcc", "\"$SQ\" $Q/t.db \"SELECT mcc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simmnc", "\"$SQ\" $Q/t.db \"SELECT mnc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
       line("mversion", "grep -oE \"mVersion&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
       line("rcsstate", "grep -oE \"rcsState&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
       line("cfgupd", "grep -oE \"mLastUpdateSecs&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +

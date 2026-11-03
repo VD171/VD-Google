@@ -72,6 +72,7 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Device method debugger
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD is a device spoofer
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Резервне копіювання та відновлення додатків і даних
 
 ---
 

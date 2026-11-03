@@ -72,6 +72,7 @@ Alle tijden worden getoond in de huidige tijdzone van je toestel, en de tijdzone
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Methode-debugger
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD is een apparaatspoofer
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Maak back-ups van je apps en gegevens en zet ze terug
 
 ---
 

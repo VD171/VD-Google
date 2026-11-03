@@ -72,6 +72,7 @@ Semua waktu ditampilkan dalam zona waktu perangkat Anda saat ini, dan zona waktu
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Debugger metode
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD adalah pengusur (spoofer) perangkat
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Cadangkan dan pulihkan aplikasi dan data Anda
 
 ---
 

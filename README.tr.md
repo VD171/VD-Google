@@ -72,6 +72,7 @@ Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi h
 
 - **[VD Infos](https://github.com/VD171/VD-Infos)** - Yöntem hata ayıklayıcı
 - **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD bir cihaz sahteleyicidir
+- **[VD Backup](https://github.com/VD171/VD-Backup)** - Uygulamalarını ve verilerini yedekle ve geri yükle
 
 ---
 
