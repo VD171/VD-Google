@@ -152,7 +152,7 @@
       "case \"$DS\" in ''|*[!0-9]*) SW=\"\";; *) [ \"$(\"$SQ\" $Q/t.db \"SELECT COUNT(*) FROM siminfo WHERE _id=$DS\" 2>/dev/null)\" = \"1\" ] && SW=\"WHERE _id=$DS\" || SW=\"\";; esac\n" +
       line("avail", "\"$SQ\" $Q/b.db \"SELECT p.is_rcs_available FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
       line("selfnum", "\"$SQ\" $Q/b.db \"SELECT p.normalized_destination FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
-      line("cap", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM participants WHERE is_rcs_available=1\" 2>/dev/null") +
+      line("cap", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache WHERE instr(rcs_capabilities, x'33677070')>0\" 2>/dev/null") +
       line("msglast", "\"$SQ\" $Q/b.db \"SELECT MAX(max(IFNULL(received_timestamp,0),IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
       line("caplast", "\"$SQ\" $Q/b.db \"SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
       line("uce", "\"$SQ\" $Q/t.db \"SELECT ims_rcs_uce_enabled FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
@@ -172,6 +172,10 @@
       line("fullsync", "grep -oE \"last_full_sync_time_millis\\\" value=\\\"-?[0-9]+\" \"$BUG\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("lastsync", "grep -oE \"last_sync_time_millis\\\" value=\\\"-?[0-9]+\" \"$BUG\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("rcsenabled", "grep -oE \"enable_rcs\\\" value=\\\"(true|false)\" \"$BUG\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
+      line("pev2", "grep -oE \"rcs_provisioning_status_pev2\\\" value=\\\"-?[0-9]+\" \"$BUG\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
+      line("configstate", "grep -oE \"mConfigState&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
+      line("tachyon", "[ -n \"$(grep -o tachyon_registration_id \"$BUG\" 2>/dev/null)\" ] && echo true || echo false") +
+      line("provraw", "base64 \"$PV\" 2>/dev/null | tr -d '\\n'") +
       line("flagen", "grep -oE \"RcsFlags__rcs_enabled\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("flagun", "grep -oE \"notify_backend_rcs_is_unavailable\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
       line("magic", "grep -oE \"enable_magic_compose_conv_2\\\" value=\\\"(true|false)\" \"$PH\" 2>/dev/null | sed \"s/.*\\\"//\" | head -1") +
@@ -250,13 +254,153 @@
     return { apps: apps, certified: certified, droidGuard: dg };
   }
 
+  async function readDiag() {
+    var cmd = PRE +
+      "MSG=/data/data/com.google.android.apps.messaging\n" +
+      "PH=$MSG/shared_prefs/PhenotypePrefs.xml\n" +
+      "TEL=/data/user_de/0/com.android.providers.telephony/databases/telephony.db\n" +
+      "DG=/data/data/com.google.android.gms/databases/dg.db\n" +
+      copyDb("$MSG/databases/bugle_db", "b") +
+      copyDb("$TEL", "t") +
+      copyDb("$DG", "dg") +
+      "D30=$(( ($(date +%s) - 2592000) * 1000 ))\n" +
+      line("sqlver", "\"$SQ\" $Q/t.db \"SELECT sqlite_version()\" 2>/dev/null") +
+      line("ptotal", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM participants\" 2>/dev/null") +
+      line("pavail1", "\"$SQ\" $Q/b.db \"SELECT SUM(is_rcs_available=1) FROM participants\" 2>/dev/null") +
+      line("captotal", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("cap3gpp", "\"$SQ\" $Q/b.db \"SELECT SUM(instr(rcs_capabilities,x'33677070')>0) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capfresh", "\"$SQ\" $Q/b.db \"SELECT SUM(last_refresh_timestamp>$D30) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capmin", "\"$SQ\" $Q/b.db \"SELECT MIN(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capmax", "\"$SQ\" $Q/b.db \"SELECT MAX(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("rcsmsg", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
+      line("simrows", "\"$SQ\" $Q/t.db \"SELECT COUNT(*) FROM siminfo\" 2>/dev/null") +
+      line("datasub", "settings get global multi_sim_data_call 2>/dev/null") +
+      line("dgcount", "\"$SQ\" $Q/dg.db \"SELECT COUNT(*) FROM main\" 2>/dev/null") +
+      line("pkgmsg", "dumpsys package com.google.android.apps.messaging 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
+      line("pkggms", "dumpsys package com.google.android.gms 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
+      line("pkgvending", "dumpsys package com.android.vending 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
+      "echo '---TABLES---'\n" +
+      "\"$SQ\" $Q/b.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
+      "echo '---DGTABLES---'\n" +
+      "\"$SQ\" $Q/dg.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
+      "echo '---DGCOLS---'\n" +
+      "\"$SQ\" $Q/dg.db \"SELECT name FROM pragma_table_info('main')\" 2>/dev/null\n" +
+      "echo '---CPART---'\n" +
+      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('participants')\" 2>/dev/null\n" +
+      "echo '---CCAP---'\n" +
+      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('rcs_remote_capabilities_cache')\" 2>/dev/null\n" +
+      "echo '---CMSG---'\n" +
+      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('messages')\" 2>/dev/null\n" +
+      "echo '---CSELF---'\n" +
+      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('self_participants')\" 2>/dev/null\n" +
+      "echo '---CSIM---'\n" +
+      "\"$SQ\" $Q/t.db \"SELECT name FROM pragma_table_info('siminfo')\" 2>/dev/null\n" +
+      "echo '---PH---'\n" +
+      "cat $PH 2>/dev/null\n" +
+      "echo '---END---'\n" +
+      cleanQ();
+    var out = await ex(cmd);
+    var d = kv(out.split("---TABLES---")[0] || "");
+    function blk(from, to) {
+      var a = out.split(from)[1] || "";
+      return to ? (a.split(to)[0] || "") : a;
+    }
+    function lines(b) {
+      return (b || "").split("\n").map(function (s) { return s.trim().replace(/[0-9a-f]{16,}/g, "*"); }).filter(Boolean);
+    }
+    var tables = lines(blk("---TABLES---", "---DGTABLES---"));
+    var dgTables = lines(blk("---DGTABLES---", "---DGCOLS---"));
+    var dgCols = lines(blk("---DGCOLS---", "---CPART---"));
+    var cPart = lines(blk("---CPART---", "---CCAP---"));
+    var cCap = lines(blk("---CCAP---", "---CMSG---"));
+    var cMsg = lines(blk("---CMSG---", "---CSELF---"));
+    var cSelf = lines(blk("---CSELF---", "---CSIM---"));
+    var cSim = lines(blk("---CSIM---", "---PH---"));
+    var phBlk = blk("---PH---", "---END---");
+    var flags = {};
+    var fre = /name="(RcsFlags__[A-Za-z0-9_]+|notify_backend_rcs_is_unavailable)"\s+value="(true|false)"/g, fm;
+    while ((fm = fre.exec(phBlk)) !== null) flags[fm[1]] = fm[2] === "true";
+
+    var md = { opened: tables.length > 0, tables: tables };
+    if (d.ptotal !== undefined && d.ptotal !== "") {
+      md.participants = { total: jlong(d.ptotal), rcsAvailable1: jlong(d.pavail1) };
+    }
+    if (d.captotal !== undefined && d.captotal !== "") {
+      md.capabilitiesCache = {
+        total: jlong(d.captotal),
+        withRcsTag3gpp: jlong(d.cap3gpp),
+        freshLast30d: jlong(d.capfresh),
+        blobMin: jlong(d.capmin),
+        blobMax: jlong(d.capmax)
+      };
+    }
+    md.rcsMessages = jlong(d.rcsmsg);
+    md.columns = {
+      participants: cPart,
+      rcs_remote_capabilities_cache: cCap,
+      messages: cMsg,
+      self_participants: cSelf
+    };
+
+    return {
+      sqliteVersion: js(d.sqlver),
+      messagesDb: md,
+      phenotypeRcsFlags: flags,
+      telephonyDb: { siminfoRows: jlong(d.simrows), dataSub: jlong(d.datasub), columns: { siminfo: cSim } },
+      droidguardDb: { tables: dgTables, mainColumns: dgCols, mainCount: jlong(d.dgcount) },
+      packages: { messages: js(d.pkgmsg), gms: js(d.pkggms), vending: js(d.pkgvending) }
+    };
+  }
+
   function rcsHealth(d) {
     var enabled = truthy(d.rcsenabled);
     var version = parseInt(d.mversion, 10) || 0;
     if (enabled === false) return "off";
-    if (version > 0) return "connected";
+    if (version > 0 || parseInt(d.pev2, 10) === 3) return "connected";
     if (d.engine === "ConfiguredState" || enabled === true) return "setup";
     return "unknown";
+  }
+
+  function provConfig(provB64) {
+    var out = {};
+    if (!provB64) return out;
+    var prov;
+    try { prov = atob(provB64); } catch (e) { return out; }
+    var SK = /password|secret|token|user|identity|phone|iccid|msisdn|imsi|imei|cred|digest|cookie|acs/i;
+    var SV = /cookie|secret|token|password|credential/i;
+    var re = /&quot;(\w+)&quot;:(?:&quot;([^&]*)&quot;|(-?\d+)|(true|false))/g, m;
+    while ((m = re.exec(prov)) !== null) {
+      var key = m[1];
+      if (key.length < 2 || SK.test(key)) continue;
+      var raw = (m[2] !== undefined && m[2] !== "") ? m[2] : (m[3] !== undefined ? m[3] : m[4]);
+      if (!raw || Object.prototype.hasOwnProperty.call(out, key) || SV.test(raw)) continue;
+      var value = raw.indexOf("\\u") < 0 ? raw : raw.replace(/\\u([0-9a-fA-F]{4})/g, function (_, h) { return String.fromCharCode(parseInt(h, 16)); });
+      out[key] = (value.replace(/\D/g, "").length >= 8) ? "[redacted]" : value;
+    }
+    return out;
+  }
+
+  function jb(raw) {
+    var s = (raw == null ? "" : String(raw)).trim().toLowerCase();
+    if (s === "1" || s === "true" || s === "yes" || s === "enabled" || s === "available") return true;
+    if (s === "0" || s === "false" || s === "no" || s === "disabled") return false;
+    if (s === "") return null;
+    return raw;
+  }
+  function jn(raw) {
+    if (raw == null) return null;
+    var s = String(raw).trim();
+    if (s === "") return null;
+    return /^-?\d+$/.test(s) ? parseInt(s, 10) : s;
+  }
+  function js(raw) {
+    if (raw == null) return null;
+    var s = String(raw);
+    return s.trim() === "" ? null : s;
+  }
+  function jlong(raw) {
+    var s = val(raw);
+    return (s != null && /^-?\d+$/.test(s)) ? parseInt(s, 10) : null;
   }
 
   function toneCls(t) { return t ? " " + t : ""; }
@@ -323,7 +467,7 @@
         "<button class=\"reveal\" data-act=\"reveal\">" + esc(revealed ? t("action_hide") : t("action_reveal")) + "</button></div></div>";
     }
     h += row(t("rcs_state"), val(d.rcsstate), "", t("rcs_state_m"));
-    h += row(t("rcs_cfg_version"), val(d.mversion), d.mversion === "0" ? "bad" : !blank(d.mversion) ? "good" : "", t("rcs_cfg_version_m"));
+    h += row(t("rcs_cfg_version"), val(d.mversion), d.mversion === "0" ? (health === "connected" ? "" : "bad") : !blank(d.mversion) ? "good" : "", t("rcs_cfg_version_m"));
     var invalid = val(d.invalid);
     if (invalid && !/UNSPECIFIED$/.test(invalid)) {
       h += row(t("rcs_invalid_reason"), invalid.replace(/^INVALID_CONFIG_REASON_/, ""), "warn", t("rcs_invalid_reason_m"));
@@ -469,6 +613,7 @@
     h += "<div class=\"seclabel\">" + esc(t("about_see_also")) + "</div><div class=\"card\">";
     h += aboutRow(IC.open, "VD Infos", "github.com/VD171/VD-Infos", "https://github.com/VD171/VD-Infos");
     h += aboutRow(IC.open, "COPG-VD", "github.com/VD171/COPG-VD", "https://github.com/VD171/COPG-VD");
+    h += aboutRow(IC.open, "VD Backup", "github.com/VD171/VD-Backup", "https://github.com/VD171/VD-Backup");
     h += "</div>";
 
     h += "<div class=\"seclabel\">" + esc(t("about_contacts")) + "</div><div class=\"card\">";
@@ -484,6 +629,7 @@
 
     h += "<div class=\"seclabel\">" + esc(t("about_support")) + "</div><div class=\"card\">";
     h += aboutRow(IC.open, null, "github.com/VD171/VD-Google/releases", "https://github.com/VD171/VD-Google/releases");
+    h += aboutRow(IC.open, null, "@Priv8_VD on Telegram", "https://t.me/Priv8_VD");
     h += aboutRow(IC.open, null, "@RootDetected on Telegram", "https://t.me/RootDetected");
     h += aboutRow(IC.open, null, "@BlankAssistance on Telegram", "https://t.me/BlankAssistance");
     h += "</div>";
@@ -574,7 +720,7 @@
       if (!cache.wallet) cache.wallet = await readWallet();
       var dev = kv(await ex(
         "v=$(getprop ro.product.model); echo \"model=$v\"\n" +
-        "v=$(getprop ro.product.brand); echo \"brand=$v\"\n" +
+        "v=$(getprop ro.product.manufacturer); echo \"man=$v\"\n" +
         "v=$(getprop ro.build.version.release); echo \"android=$v\"\n" +
         "v=$(getprop ro.build.version.sdk); echo \"sdk=$v\"\n"));
       var r = cache.rcs, w = cache.wallet;
@@ -584,44 +730,49 @@
         version: APPVER,
         exportedAt: tsMs(Date.now()),
         timezone: tzLabel(),
-        device: { model: val(dev.model), brand: val(dev.brand), android: val(dev.android), sdk: val(dev.sdk) },
+        device: { manufacturer: js(dev.man), model: js(dev.model), androidRelease: js(dev.android), sdk: jn(dev.sdk) },
         rcs: {
+          carrier: js(carrier),
           connected: rcsHealth(r),
-          available: val(r.avail),
-          carrier: carrier,
-          configVersion: val(r.mversion),
-          rcsState: val(r.rcsstate),
-          rcsEnabled: val(r.rcsenabled),
-          engineState: val(r.engine),
-          featureEnabled: val(r.flagen),
-          markedUnavailable: val(r.flagun),
-          carrierEntitlement: val(r.ent),
-          uce: val(r.uce),
-          imsPresent: Number(r.ims) > 0,
-          capableContacts: val(r.cap),
-          invalidConfigReason: val(r.invalid),
-          domain: val(r.mdomain),
-          configUpdated: tsSecs(r.cfgupd),
-          configValidity: durationSecs(r.cfgval),
-          tokenExpiry: tsMs(r.tokenexp),
-          lastProvisioning: tsSecs(r.provlast),
-          nextProvisioning: tsSecs(r.provnext),
-          lastRcsMessage: tsMs(r.msglast),
-          capabilitiesRefreshed: tsMs(r.caplast),
-          fullSync: tsMs(r.fullsync),
-          lastSync: tsMs(r.lastsync)
+          rcsEnabled: jb(r.rcsenabled),
+          engineState: js(r.engine),
+          provisioningStatusPev2: jn(r.pev2),
+          transportRegistered: r.tachyon === "true",
+          available: jb(r.avail),
+          state: jn(r.rcsstate),
+          configVersion: jn(r.mversion),
+          configState: jn(r.configstate),
+          invalidConfigReason: js(r.invalid),
+          capableContacts: jn(r.cap),
+          featureEnabled: jb(r.flagen),
+          markedUnavailable: jb(r.flagun),
+          carrierEntitlement: jb(r.ent),
+          presenceUce: jb(r.uce),
+          imsServicePresent: Number(r.ims) > 0,
+          configUpdated: js(tsSecs(r.cfgupd)),
+          configValidity: js(durationSecs(r.cfgval)),
+          tokenExpiration: js(tsMs(r.tokenexp)),
+          lastProvisioning: js(tsSecs(r.provlast)),
+          nextProvisioning: js(tsSecs(r.provnext)),
+          lastRcsMessage: js(tsMs(r.msglast)),
+          capabilitiesRefreshed: js(tsMs(r.caplast)),
+          fullSync: js(tsMs(r.fullsync)),
+          lastSync: js(tsMs(r.lastsync))
         },
         wallet: {
-          attested: truthy(val(w.watt)),
-          lastChecked: tsMs(w.wattt),
-          nfc: Number(w.nfc) > 0,
+          deviceAttested: jb(w.watt),
+          lastChecked: js(tsMs(w.wattt)),
+          nfcHardware: Number(w.nfc) > 0,
           walletInstalled: Number(w.wpkg) > 0,
-          walletService: val(w.wsvc),
-          tapAndPay: val(w.wtap),
-          screenLockAccepted: val(w.wpwd),
-          cardEverAdded: val(w.wtok)
+          walletService: jb(w.wsvc),
+          tapAndPay: jb(w.wtap),
+          screenLockAccepted: jb(w.wpwd),
+          cardEverAdded: jb(w.wtok)
         }
       };
+      var prov = provConfig(r.provraw);
+      if (Object.keys(prov).length) obj.rcs.provisioning = prov;
+      obj.diagnostics = await readDiag();
       var name = "vdgoogle-" + stamp() + ".json";
       var b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj, null, 2))));
       await ex("mkdir -p /sdcard/Download/VDGoogle && printf '%s' '" + b64 + "' | base64 -d > '/sdcard/Download/VDGoogle/" + name + "'");
@@ -668,6 +819,22 @@
     var b = e.target.closest(".tab");
     if (b) loadTab(b.getAttribute("data-tab"), false);
   });
+
+  var SWIPE_TABS = ["about", "droidguard", "rcs", "wallet", "att"];
+  (function () {
+    var x0 = 0, y0 = 0, t0 = 0;
+    view.addEventListener("touchstart", function (e) {
+      var p = e.changedTouches[0]; x0 = p.clientX; y0 = p.clientY; t0 = Date.now();
+    }, { passive: true });
+    view.addEventListener("touchend", function (e) {
+      var p = e.changedTouches[0], dx = p.clientX - x0, dy = p.clientY - y0;
+      if (Date.now() - t0 > 600 || Math.abs(dx) < 50 || Math.abs(dx) <= Math.abs(dy)) return;
+      var i = SWIPE_TABS.indexOf(curTab);
+      if (i < 0) return;
+      if (dx < 0 && i < SWIPE_TABS.length - 1) loadTab(SWIPE_TABS[i + 1], false);
+      else if (dx > 0 && i > 0) loadTab(SWIPE_TABS[i - 1], false);
+    }, { passive: true });
+  })();
 
   document.getElementById("refresh").addEventListener("click", function () {
     this.classList.remove("spinning"); void this.offsetWidth; this.classList.add("spinning");

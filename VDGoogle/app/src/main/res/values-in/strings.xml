@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">Versi konfigurasi adalah 0, yang biasanya berarti operator atau Google belum mengirimkan konfigurasi RCS yang valid untuk jalur ini. Selama tetap 0, RCS biasanya tidak dapat menyala, bahkan pada ponsel yang masih utuh.</string>
 
     <string name="rcs_sec_status">Status</string>
-    <string name="rcs_available">RCS tersedia</string>
+    <string name="rcs_available">Flag ketersediaan (di-cache)</string>
     <string name="rcs_available_m">Penanda yang disimpan aplikasi pesan untuk nomor Anda sendiri. Bisa tetap usang meski RCS sudah berfungsi, jadi andalkan baris Koneksi di atas.</string>
     <string name="rcs_connected">Koneksi</string>
     <string name="rcs_connected_m">Apakah RCS benar-benar disiapkan dan berfungsi di jalur ini, berdasarkan konfigurasi chat dan mesin penyediaan. Ini sinyal yang andal. Indikator ketersediaan di bawah adalah cache per kontak dan bisa tertinggal.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Dimatikan</string>
     <string name="rcs_self_number">Nomor RCS Anda</string>
     <string name="rcs_self_number_m">Nomor telepon yang terdaftar untuk RCS di perangkat ini.</string>
-    <string name="rcs_state">Status RCS</string>
-    <string name="rcs_state_m">Status provisioning internal yang dilaporkan aplikasi pesan untuk jalur Anda.</string>
+    <string name="rcs_state">Status provisioning (di-cache)</string>
+    <string name="rcs_state_m">Nilai provisioning internal yang disimpan aplikasi pesan untuk jalur Anda. Bisa tetap 0 meski RCS sudah berfungsi, jadi andalkan baris Koneksi di atas.</string>
     <string name="rcs_cfg_version">Versi konfigurasi</string>
     <string name="rcs_cfg_version_m">Versi konfigurasi RCS yang dikirimkan ke jalur ini. Nilai 0 berarti belum ada konfigurasi valid yang tiba.</string>
     <string name="rcs_capable">Kontak yang mendukung RCS</string>
     <string name="rcs_capable_m">Berapa banyak kontak Anda yang saat ini diketahui mendukung chat RCS.</string>
-    <string name="rcs_flag_enabled">Fitur diaktifkan</string>
-    <string name="rcs_flag_enabled_m">Apakah aplikasi pesan mengaktifkan fitur RCS.</string>
+    <string name="rcs_flag_enabled">Flag fitur (di-cache)</string>
+    <string name="rcs_flag_enabled_m">Penanda yang di-cache tentang apakah aplikasi pesan mengaktifkan fitur RCS. Bisa tetap nonaktif meski RCS sudah berfungsi, jadi andalkan baris Koneksi di atas.</string>
     <string name="rcs_flag_unavailable">Ditandai tidak tersedia</string>
     <string name="rcs_flag_unavailable_m">Apakah layanan menandai RCS sebagai tidak tersedia untuk jalur ini.</string>
     <string name="rcs_entitlement">Hak operator</string>

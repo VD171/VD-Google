@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">إصدار الإعداد هو 0، وهذا يعني عادةً أن مشغّل الشبكة أو Google لم يسلّم بعد إعداد RCS صالحًا لهذا الخط. وطالما بقي 0، لا يمكن عادةً تشغيل RCS، حتى على هاتف لم يُعبث به.</string>
 
     <string name="rcs_sec_status">الحالة</string>
-    <string name="rcs_available">RCS متاح</string>
+    <string name="rcs_available">علامة التوفر (مخزَّنة مؤقتًا)</string>
     <string name="rcs_available_m">مؤشر مخزّن مؤقتًا يحتفظ به تطبيق الرسائل لرقمك. قد يبقى قديمًا بعد أن يعمل RCS فعلاً، لذا اعتمد على سطر الاتصال أعلاه.</string>
     <string name="rcs_connected">الاتصال</string>
     <string name="rcs_connected_m">ما إذا كان RCS مُعدًّا ويعمل فعليًا على هذا الخط، استنادًا إلى إعدادات الدردشة ومحرّك التزويد. هذه هي الإشارة الموثوقة. أما مؤشر التوفّر أدناه فهو ذاكرة مؤقتة لكل جهة اتصال وقد يتأخّر.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">مُعطَّل</string>
     <string name="rcs_self_number">رقم RCS الخاص بك</string>
     <string name="rcs_self_number_m">رقم الهاتف المسجَّل لـ RCS على هذا الجهاز.</string>
-    <string name="rcs_state">حالة RCS</string>
-    <string name="rcs_state_m">حالة التهيئة الداخلية التي يبلّغ عنها تطبيق الرسائل لخطك.</string>
+    <string name="rcs_state">حالة التهيئة (مخزَّنة مؤقتًا)</string>
+    <string name="rcs_state_m">قيمة تهيئة داخلية يحتفظ بها تطبيق الرسائل لخطك. قد تبقى 0 بعد أن يعمل RCS فعلاً، لذا اعتمد على سطر الاتصال أعلاه.</string>
     <string name="rcs_cfg_version">إصدار الإعداد</string>
     <string name="rcs_cfg_version_m">إصدار إعداد RCS المسلَّم إلى هذا الخط. القيمة 0 تعني أنه لم يصل بعد إعداد صالح.</string>
     <string name="rcs_capable">جهات الاتصال التي تدعم RCS</string>
     <string name="rcs_capable_m">كم عدد جهات اتصالك المعروف حاليًا أنها تدعم دردشة RCS.</string>
-    <string name="rcs_flag_enabled">الميزة مفعَّلة</string>
-    <string name="rcs_flag_enabled_m">ما إذا كان تطبيق الرسائل قد شغّل ميزة RCS.</string>
+    <string name="rcs_flag_enabled">علامة الميزة (مخزَّنة مؤقتًا)</string>
+    <string name="rcs_flag_enabled_m">مؤشر مخزّن مؤقتًا لما إذا كان تطبيق الرسائل قد شغّل ميزة RCS. قد يبقى معطَّلاً بعد أن يعمل RCS فعلاً، لذا اعتمد على سطر الاتصال أعلاه.</string>
     <string name="rcs_flag_unavailable">مُعلَّم كغير متاح</string>
     <string name="rcs_flag_unavailable_m">ما إذا كانت الخدمة قد وضعت علامة على RCS كغير متاح لهذا الخط.</string>
     <string name="rcs_entitlement">تخويل المشغّل</string>

@@ -41,7 +41,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -149,9 +151,9 @@ class MainActivity : ComponentActivity() {
                             },
                             onReloadAtt = { vm.reloadAtt() },
                             onResetWallet = { vm.resetWalletCheck() },
-                            onExport = { Export.share(ctx, Export.buildReport(state.rcs, state.wallet)) },
+                            onExport = { Export.share(ctx, Export.buildReport(state.rcs, state.wallet, state.diag)) },
                             onSave = {
-                                pendingReport = Export.buildReport(state.rcs, state.wallet)
+                                pendingReport = Export.buildReport(state.rcs, state.wallet, state.diag)
                                 runCatching { saveLauncher.launch(Fmt.exportFileName()) }
                             },
                         )
@@ -283,7 +285,23 @@ private fun MainScaffold(
             }
         },
     ) { inner ->
-        Box(Modifier.fillMaxSize().padding(inner)) {
+        Box(
+            Modifier
+                .fillMaxSize()
+                .padding(inner)
+                .pointerInput(tabs.size) {
+                    val threshold = 56.dp.toPx()
+                    var dx = 0f
+                    detectHorizontalDragGestures(
+                        onDragStart = { dx = 0f },
+                        onHorizontalDrag = { _, amount -> dx += amount },
+                        onDragEnd = {
+                            if (dx <= -threshold && sel < tabs.lastIndex) sel++
+                            else if (dx >= threshold && sel > 0) sel--
+                        },
+                    )
+                },
+        ) {
             when (sel) {
                 0 -> AboutScreen()
                 1 -> DgScreen(att)

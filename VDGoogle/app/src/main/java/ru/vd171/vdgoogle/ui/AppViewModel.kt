@@ -32,6 +32,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import ru.vd171.vdgoogle.data.AttData
 import ru.vd171.vdgoogle.data.AttReader
+import ru.vd171.vdgoogle.data.DiagReader
 import ru.vd171.vdgoogle.data.RcsData
 import ru.vd171.vdgoogle.data.RcsReader
 import ru.vd171.vdgoogle.data.WalletData
@@ -46,6 +47,7 @@ data class UiState(
     val rcs: RcsData? = null,
     val wallet: WalletData? = null,
     val att: AttData? = null,
+    val diag: Map<String, Any?>? = null,
 )
 
 class AppViewModel(app: Application) : AndroidViewModel(app) {
@@ -79,7 +81,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             val rcs = RcsReader.load()
             val wallet = WalletReader.load(hasNfc)
             val att = AttReader.load()
-            _state.value = _state.value.copy(loading = false, rcs = rcs, wallet = wallet, att = att)
+            val diag = DiagReader.load()
+            _state.value = _state.value.copy(loading = false, rcs = rcs, wallet = wallet, att = att, diag = diag)
         }
     }
 

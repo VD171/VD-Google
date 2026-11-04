@@ -183,7 +183,7 @@ fun RcsScreen(data: RcsData?, modifier: Modifier = Modifier) {
             InfoRow(
                 stringResource(R.string.rcs_cfg_version),
                 data.mVersion,
-                if (data.mVersion == "0") Tone.BAD else if (data.mVersion != null) Tone.GOOD else Tone.NEUTRAL,
+                if (data.mVersion == "0") (if (connected) Tone.NEUTRAL else Tone.BAD) else if (data.mVersion != null) Tone.GOOD else Tone.NEUTRAL,
                 stringResource(R.string.rcs_cfg_version_m),
             )
             val invalidReason = data.invalidConfigReason?.takeIf { !it.endsWith("UNSPECIFIED") }

@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">कॉन्फ़िगरेशन संस्करण 0 है, जिसका आमतौर पर मतलब है कि आपके कैरियर या Google ने इस लाइन के लिए अभी तक कोई मान्य RCS कॉन्फ़िगरेशन नहीं भेजा है। जब तक यह 0 रहता है, RCS आमतौर पर चालू नहीं हो पाता, भले ही फ़ोन से छेड़छाड़ न की गई हो।</string>
 
     <string name="rcs_sec_status">स्थिति</string>
-    <string name="rcs_available">RCS उपलब्ध</string>
+    <string name="rcs_available">उपलब्धता फ़्लैग (कैश्ड)</string>
     <string name="rcs_available_m">मैसेजिंग ऐप आपके अपने नंबर के लिए रखा गया एक कैश किया हुआ संकेतक। RCS के चालू होने के बाद भी यह पुराना रह सकता है, इसलिए ऊपर दी गई कनेक्शन लाइन पर भरोसा करें।</string>
     <string name="rcs_connected">कनेक्शन</string>
     <string name="rcs_connected_m">इस लाइन पर RCS वास्तव में सेट अप और काम कर रहा है या नहीं, यह चैट कॉन्फ़िगरेशन और प्रोविज़निंग इंजन के आधार पर। यही भरोसेमंद संकेत है। नीचे दिया उपलब्धता संकेतक हर संपर्क के लिए एक कैश है और पिछड़ सकता है।</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">बंद है</string>
     <string name="rcs_self_number">आपका RCS नंबर</string>
     <string name="rcs_self_number_m">इस डिवाइस पर RCS के लिए पंजीकृत फ़ोन नंबर।</string>
-    <string name="rcs_state">RCS स्थिति</string>
-    <string name="rcs_state_m">संदेश ऐप द्वारा आपकी लाइन के लिए बताई गई आंतरिक प्रोविज़निंग स्थिति।</string>
+    <string name="rcs_state">प्रोविज़निंग स्थिति (कैश्ड)</string>
+    <string name="rcs_state_m">मैसेजिंग ऐप आपकी लाइन के लिए रखा गया एक आंतरिक प्रोविज़निंग मान। RCS के चालू होने के बाद भी यह 0 रह सकता है, इसलिए ऊपर दी गई कनेक्शन लाइन पर भरोसा करें।</string>
     <string name="rcs_cfg_version">कॉन्फ़िगरेशन संस्करण</string>
     <string name="rcs_cfg_version_m">इस लाइन को भेजे गए RCS कॉन्फ़िगरेशन का संस्करण। 0 का मतलब है कि अभी तक कोई मान्य कॉन्फ़िगरेशन नहीं आया है।</string>
     <string name="rcs_capable">RCS-सक्षम संपर्क</string>
     <string name="rcs_capable_m">आपके कितने संपर्क फ़िलहाल RCS चैट का समर्थन करने के लिए ज्ञात हैं।</string>
-    <string name="rcs_flag_enabled">सुविधा सक्षम</string>
-    <string name="rcs_flag_enabled_m">क्या संदेश ऐप में RCS सुविधा चालू है।</string>
+    <string name="rcs_flag_enabled">सुविधा फ़्लैग (कैश्ड)</string>
+    <string name="rcs_flag_enabled_m">मैसेजिंग ऐप ने RCS सुविधा चालू की है या नहीं, इसका एक कैश किया हुआ संकेतक। RCS के चालू होने के बाद भी यह बंद रह सकता है, इसलिए ऊपर दी गई कनेक्शन लाइन पर भरोसा करें।</string>
     <string name="rcs_flag_unavailable">अनुपलब्ध के रूप में चिह्नित</string>
     <string name="rcs_flag_unavailable_m">क्या सेवा ने इस लाइन के लिए RCS को अनुपलब्ध के रूप में चिह्नित किया है।</string>
     <string name="rcs_entitlement">कैरियर अधिकार</string>

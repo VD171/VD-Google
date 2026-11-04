@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">Konfigurationsversionen är 0, vilket oftast betyder att din operatör eller Google ännu inte har levererat en giltig RCS-konfiguration till den här linjen. Så länge den är 0 kan RCS normalt inte slås på, inte ens på en orörd telefon.</string>
 
     <string name="rcs_sec_status">Status</string>
-    <string name="rcs_available">RCS tillgängligt</string>
+    <string name="rcs_available">Tillgänglighetsflagga (cachelagrad)</string>
     <string name="rcs_available_m">En cachad flagga som meddelandeappen håller för ditt eget nummer. Den kan förbli inaktuell även när RCS redan fungerar, så lita på raden Anslutning ovan.</string>
     <string name="rcs_connected">Anslutning</string>
     <string name="rcs_connected_m">Om RCS verkligen är konfigurerat och fungerar på den här linjen, utifrån chattkonfigurationen och etableringsmotorn. Det här är den tillförlitliga signalen. Tillgänglighetsflaggan nedan är en cache per kontakt och kan ligga efter.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Avstängd</string>
     <string name="rcs_self_number">Ditt RCS-nummer</string>
     <string name="rcs_self_number_m">Telefonnumret som är registrerat för RCS på den här enheten.</string>
-    <string name="rcs_state">RCS-tillstånd</string>
-    <string name="rcs_state_m">Det interna provisioneringstillstånd som meddelandeappen rapporterar för din linje.</string>
+    <string name="rcs_state">Provisioneringstillstånd (cachelagrat)</string>
+    <string name="rcs_state_m">Ett internt provisioneringsvärde som meddelandeappen håller för din linje. Det kan stå kvar på 0 även när RCS redan fungerar, så lita på raden Anslutning ovan.</string>
     <string name="rcs_cfg_version">Konfigurationsversion</string>
     <string name="rcs_cfg_version_m">Version av RCS-konfigurationen som levererats till den här linjen. Värdet 0 betyder att ingen giltig konfiguration har kommit ännu.</string>
     <string name="rcs_capable">RCS-kapabla kontakter</string>
     <string name="rcs_capable_m">Hur många av dina kontakter som för närvarande är kända för att stödja RCS-chatt.</string>
-    <string name="rcs_flag_enabled">Funktion aktiverad</string>
-    <string name="rcs_flag_enabled_m">Om meddelandeappen har RCS-funktionen påslagen.</string>
+    <string name="rcs_flag_enabled">Funktionsflagga (cachelagrad)</string>
+    <string name="rcs_flag_enabled_m">En cachad flagga för om meddelandeappen har slagit på RCS-funktionen. Den kan förbli avslagen även när RCS redan fungerar, så lita på raden Anslutning ovan.</string>
     <string name="rcs_flag_unavailable">Markerad som otillgänglig</string>
     <string name="rcs_flag_unavailable_m">Om tjänsten har markerat RCS som otillgängligt för den här linjen.</string>
     <string name="rcs_entitlement">Operatörsbehörighet</string>

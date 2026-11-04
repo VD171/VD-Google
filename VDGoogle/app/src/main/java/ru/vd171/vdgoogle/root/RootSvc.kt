@@ -24,7 +24,7 @@ package ru.vd171.vdgoogle.root
 
 import android.content.Context
 import android.content.Intent
-import android.database.sqlite.SQLiteDatabase
+import android.os.Build
 import android.os.IBinder
 import com.topjohnwu.superuser.ipc.RootService
 import java.io.File
@@ -50,36 +50,40 @@ private class RootIpc(private val ctx: Context) : IRootIpc.Stub() {
 
     override fun queryDb(dbPath: String, sql: String): List<String> {
         if (!File(dbPath).exists()) return emptyList()
-        return runCatching { runQuery(dbPath, sql, withWal = true) }
-            .recoverCatching { runQuery(dbPath, sql, withWal = false) }
+        val sq = sqlite3Bin ?: return emptyList()
+        return runCatching { runQuery(sq, dbPath, sql, withWal = true) }
+            .recoverCatching { runQuery(sq, dbPath, sql, withWal = false) }
             .getOrDefault(emptyList())
     }
 
-    private fun runQuery(dbPath: String, sql: String, withWal: Boolean): List<String> {
+    private fun runQuery(sq: File, dbPath: String, sql: String, withWal: Boolean): List<String> {
         val dir = File(ctx.cacheDir, "qdb").apply { mkdirs() }
         val base = "q" + System.nanoTime()
         val copy = File(dir, "$base.db")
-        val out = ArrayList<String>()
         try {
             copyIfExists(File(dbPath), copy)
+            if (!copy.exists()) return emptyList()
             if (withWal) copyIfExists(File("$dbPath-wal"), File(dir, "$base.db-wal"))
-            SQLiteDatabase.openDatabase(copy.absolutePath, null, SQLiteDatabase.OPEN_READWRITE).use { db ->
-                db.rawQuery(sql, null).use { c ->
-                    val n = c.columnCount
-                    while (c.moveToNext()) {
-                        val sb = StringBuilder()
-                        for (i in 0 until n) {
-                            if (i > 0) sb.append('\t')
-                            sb.append(c.getString(i) ?: "")
-                        }
-                        out.add(sb.toString())
-                    }
-                }
-            }
+            val p = ProcessBuilder(sq.absolutePath, "-separator", "\t", copy.absolutePath, sql).start()
+            val out = p.inputStream.bufferedReader().use { it.readText() }
+            p.errorStream.bufferedReader().use { it.readText() }
+            p.waitFor()
+            if (out.isEmpty()) return emptyList()
+            val rows = out.split("\n")
+            return if (rows.isNotEmpty() && rows.last().isEmpty()) rows.dropLast(1) else rows
         } finally {
             dir.listFiles()?.forEach { if (it.name.startsWith(base)) it.delete() }
         }
-        return out
+    }
+
+    private val sqlite3Bin: File? by lazy {
+        runCatching {
+            val abi = if (Build.SUPPORTED_ABIS.any { it.startsWith("arm64") }) "arm64-v8a" else "armeabi-v7a"
+            val dst = File(ctx.cacheDir, "bin/sqlite3").apply { parentFile?.mkdirs() }
+            ctx.assets.open("bin/$abi/sqlite3").use { i -> dst.outputStream().use { o -> i.copyTo(o) } }
+            dst.setExecutable(true, false)
+            dst
+        }.getOrNull()
     }
 
     private fun copyIfExists(from: File, to: File) {

@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">เวอร์ชันการกำหนดค่าเป็น 0 ซึ่งมักหมายความว่าผู้ให้บริการหรือ Google ยังไม่ได้ส่งการกำหนดค่า RCS ที่ใช้ได้มายังเลขหมายนี้ ตราบใดที่ยังเป็น 0 โดยปกติ RCS จะเปิดใช้งานไม่ได้ แม้บนเครื่องที่ไม่ได้ถูกแก้ไข</string>
 
     <string name="rcs_sec_status">สถานะ</string>
-    <string name="rcs_available">RCS พร้อมใช้งาน</string>
+    <string name="rcs_available">แฟล็กความพร้อมใช้งาน (แคช)</string>
     <string name="rcs_available_m">ตัวบ่งชี้ที่แคชไว้ซึ่งแอปข้อความเก็บไว้สำหรับหมายเลขของคุณเอง อาจยังเก่าอยู่แม้ว่า RCS จะทำงานแล้ว จึงควรเชื่อถือบรรทัดการเชื่อมต่อด้านบน</string>
     <string name="rcs_connected">การเชื่อมต่อ</string>
     <string name="rcs_connected_m">RCS ได้รับการตั้งค่าและทำงานบนสายนี้จริงหรือไม่ โดยอ้างอิงจากการกำหนดค่าแชทและเอนจินการจัดเตรียม นี่คือสัญญาณที่เชื่อถือได้ ตัวบ่งชี้ความพร้อมใช้งานด้านล่างเป็นแคชต่อผู้ติดต่อและอาจล่าช้าได้</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">ปิดอยู่</string>
     <string name="rcs_self_number">เลขหมาย RCS ของคุณ</string>
     <string name="rcs_self_number_m">หมายเลขโทรศัพท์ที่ลงทะเบียนไว้สำหรับ RCS บนอุปกรณ์นี้</string>
-    <string name="rcs_state">สถานะ RCS</string>
-    <string name="rcs_state_m">สถานะการจัดเตรียมภายในที่แอปข้อความรายงานสำหรับเลขหมายของคุณ</string>
+    <string name="rcs_state">สถานะการจัดเตรียม (แคช)</string>
+    <string name="rcs_state_m">ค่าการจัดเตรียมภายในที่แอปข้อความเก็บไว้สำหรับเลขหมายของคุณ อาจยังเป็น 0 แม้ว่า RCS จะทำงานแล้ว จึงควรเชื่อถือบรรทัดการเชื่อมต่อด้านบน</string>
     <string name="rcs_cfg_version">เวอร์ชันการกำหนดค่า</string>
     <string name="rcs_cfg_version_m">เวอร์ชันของการกำหนดค่า RCS ที่ส่งมายังเลขหมายนี้ ค่า 0 หมายความว่ายังไม่มีการกำหนดค่าที่ใช้ได้มาถึง</string>
     <string name="rcs_capable">รายชื่อที่รองรับ RCS</string>
     <string name="rcs_capable_m">จำนวนรายชื่อของคุณที่ทราบในปัจจุบันว่ารองรับแชต RCS</string>
-    <string name="rcs_flag_enabled">เปิดใช้ฟีเจอร์แล้ว</string>
-    <string name="rcs_flag_enabled_m">ว่าแอปข้อความเปิดฟีเจอร์ RCS ไว้หรือไม่</string>
+    <string name="rcs_flag_enabled">แฟล็กฟีเจอร์ (แคช)</string>
+    <string name="rcs_flag_enabled_m">แฟล็กที่แคชไว้ว่าแอปข้อความเปิดฟีเจอร์ RCS หรือไม่ อาจยังปิดอยู่แม้ว่า RCS จะทำงานแล้ว จึงควรเชื่อถือบรรทัดการเชื่อมต่อด้านบน</string>
     <string name="rcs_flag_unavailable">ถูกทำเครื่องหมายว่าไม่พร้อมใช้งาน</string>
     <string name="rcs_flag_unavailable_m">ว่าบริการได้ทำเครื่องหมาย RCS ว่าไม่พร้อมใช้งานสำหรับเลขหมายนี้หรือไม่</string>
     <string name="rcs_entitlement">สิทธิ์จากผู้ให้บริการ</string>

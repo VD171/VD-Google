@@ -61,9 +61,10 @@ data class RcsData(
         get() {
             val enabled = rcsEnabled?.equals("true", ignoreCase = true)
             val version = mVersion?.toIntOrNull() ?: 0
+            val pev2 = provStatusPev2?.toIntOrNull()
             return when {
                 enabled == false -> RcsHealth.OFF
-                version > 0 -> RcsHealth.CONNECTED
+                version > 0 || pev2 == 3 -> RcsHealth.CONNECTED
                 engineState == "ConfiguredState" || enabled == true -> RcsHealth.SETUP
                 else -> RcsHealth.UNKNOWN
             }

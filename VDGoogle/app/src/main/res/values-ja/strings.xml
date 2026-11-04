@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">構成バージョンが 0 です。これは通常、通信事業者または Google がこの回線にまだ有効な RCS 構成を配信していないことを意味します。0 のままでは、改変していない端末でも通常 RCS は有効になりません。</string>
 
     <string name="rcs_sec_status">状態</string>
-    <string name="rcs_available">RCS 利用可能</string>
+    <string name="rcs_available">利用可否フラグ（キャッシュ）</string>
     <string name="rcs_available_m">メッセージアプリが自分の番号について保持するキャッシュのフラグです。RCS がすでに動作していても古いままになることがあるため、上の接続の行を信頼してください。</string>
     <string name="rcs_connected">接続</string>
     <string name="rcs_connected_m">チャット設定とプロビジョニングエンジンに基づき、この回線で RCS が実際に設定され動作しているかどうか。これが信頼できる指標です。下の利用可否フラグは連絡先ごとのキャッシュで、遅れることがあります。</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">オフ</string>
     <string name="rcs_self_number">あなたの RCS 番号</string>
     <string name="rcs_self_number_m">この端末で RCS 用に登録されている電話番号。</string>
-    <string name="rcs_state">RCS の状態</string>
-    <string name="rcs_state_m">メッセージアプリが回線について報告する内部プロビジョニング状態。</string>
+    <string name="rcs_state">プロビジョニング状態（キャッシュ）</string>
+    <string name="rcs_state_m">メッセージアプリが回線について保持する内部プロビジョニング値です。RCS がすでに動作していても 0 のままになることがあるため、上の接続の行を信頼してください。</string>
     <string name="rcs_cfg_version">構成バージョン</string>
     <string name="rcs_cfg_version_m">この回線に配信された RCS 構成のバージョン。値が 0 の場合、有効な構成がまだ届いていないことを示します。</string>
     <string name="rcs_capable">RCS 対応の連絡先</string>
     <string name="rcs_capable_m">現在 RCS チャットに対応していると判明している連絡先の数。</string>
-    <string name="rcs_flag_enabled">機能が有効</string>
-    <string name="rcs_flag_enabled_m">メッセージアプリで RCS 機能がオンになっているかどうか。</string>
+    <string name="rcs_flag_enabled">機能フラグ（キャッシュ）</string>
+    <string name="rcs_flag_enabled_m">メッセージアプリが RCS 機能をオンにしたかどうかのキャッシュのフラグです。RCS がすでに動作していてもオフのままになることがあるため、上の接続の行を信頼してください。</string>
     <string name="rcs_flag_unavailable">利用不可と表示</string>
     <string name="rcs_flag_unavailable_m">サービスがこの回線の RCS を利用不可として表示しているかどうか。</string>
     <string name="rcs_entitlement">事業者の権限</string>

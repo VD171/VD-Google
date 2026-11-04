@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">Yapılandırma sürümü 0; bu genellikle operatörünüzün ya da Google\'ın bu hat için henüz geçerli bir RCS yapılandırması göndermediği anlamına gelir. 0 kaldığı sürece, el değmemiş bir telefonda bile RCS normalde açılamaz.</string>
 
     <string name="rcs_sec_status">Durum</string>
-    <string name="rcs_available">RCS kullanılabilir</string>
+    <string name="rcs_available">Uygunluk bayrağı (önbellekte)</string>
     <string name="rcs_available_m">Mesajlaşma uygulamasının kendi numaranız için tuttuğu önbelleğe alınmış bir gösterge. RCS zaten çalışıyor olsa bile güncelliğini yitirmiş kalabilir, bu yüzden yukarıdaki Bağlantı satırına güvenin.</string>
     <string name="rcs_connected">Bağlantı</string>
     <string name="rcs_connected_m">Sohbet yapılandırması ve temel hazırlık motoruna göre, RCS\'nin bu hatta gerçekten kurulu ve çalışıyor olup olmadığı. Güvenilir sinyal budur. Aşağıdaki kullanılabilirlik göstergesi kişi başına bir önbellektir ve geride kalabilir.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Kapalı</string>
     <string name="rcs_self_number">RCS numaranız</string>
     <string name="rcs_self_number_m">Bu cihazda RCS için kayıtlı telefon numarası.</string>
-    <string name="rcs_state">RCS durumu</string>
-    <string name="rcs_state_m">Mesajlaşma uygulamasının hattınız için bildirdiği dahili sağlama durumu.</string>
+    <string name="rcs_state">Sağlama durumu (önbellekte)</string>
+    <string name="rcs_state_m">Mesajlaşma uygulamasının hattınız için tuttuğu dahili bir sağlama değeri. RCS zaten çalışıyor olsa bile 0 olarak kalabilir, bu yüzden yukarıdaki Bağlantı satırına güvenin.</string>
     <string name="rcs_cfg_version">Yapılandırma sürümü</string>
     <string name="rcs_cfg_version_m">Bu hatta gönderilen RCS yapılandırmasının sürümü. 0 değeri, henüz geçerli bir yapılandırmanın gelmediği anlamına gelir.</string>
     <string name="rcs_capable">RCS destekleyen kişiler</string>
     <string name="rcs_capable_m">Kişilerinizden kaçının şu anda RCS sohbetini desteklediği biliniyor.</string>
-    <string name="rcs_flag_enabled">Özellik etkin</string>
-    <string name="rcs_flag_enabled_m">Mesajlaşma uygulamasının RCS özelliğinin açık olup olmadığı.</string>
+    <string name="rcs_flag_enabled">Özellik bayrağı (önbellekte)</string>
+    <string name="rcs_flag_enabled_m">Mesajlaşma uygulamasının RCS özelliğini açıp açmadığını gösteren önbelleğe alınmış bir bayrak. RCS zaten çalışıyor olsa bile kapalı kalabilir, bu yüzden yukarıdaki Bağlantı satırına güvenin.</string>
     <string name="rcs_flag_unavailable">Kullanılamaz olarak işaretli</string>
     <string name="rcs_flag_unavailable_m">Hizmetin bu hat için RCS\'yi kullanılamaz olarak işaretleyip işaretlemediği.</string>
     <string name="rcs_entitlement">Operatör yetkisi</string>

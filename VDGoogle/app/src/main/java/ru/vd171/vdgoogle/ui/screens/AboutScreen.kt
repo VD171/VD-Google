@@ -133,6 +133,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
         AboutCard {
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, "VD Infos", "github.com/VD171/VD-Infos", "https://github.com/VD171/VD-Infos")
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, "COPG-VD", "github.com/VD171/COPG-VD", "https://github.com/VD171/COPG-VD")
+            AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, "VD Backup", "github.com/VD171/VD-Backup", "https://github.com/VD171/VD-Backup")
         }
 
         AboutSectionLabel(stringResource(R.string.about_contacts))
@@ -150,6 +151,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
         AboutSectionLabel(stringResource(R.string.about_support))
         AboutCard {
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "github.com/VD171/VD-Google/releases", "https://github.com/VD171/VD-Google/releases")
+            AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "@Priv8_VD on Telegram", "https://t.me/Priv8_VD")
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "@RootDetected on Telegram", "https://t.me/RootDetected")
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "@BlankAssistance on Telegram", "https://t.me/BlankAssistance")
         }

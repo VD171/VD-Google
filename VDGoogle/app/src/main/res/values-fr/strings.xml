@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">La version de la configuration est 0, ce qui signifie généralement que votre opérateur ou Google n\'a pas encore fourni de configuration RCS valide à cette ligne. Tant qu\'elle reste à 0, le RCS ne peut normalement pas s\'activer, même sur un téléphone intact.</string>
 
     <string name="rcs_sec_status">État</string>
-    <string name="rcs_available">RCS disponible</string>
+    <string name="rcs_available">Indicateur de disponibilité (en cache)</string>
     <string name="rcs_available_m">Un indicateur en cache que l\'application de messagerie conserve pour votre propre numéro. Il peut rester obsolète alors que le RCS fonctionne déjà, fiez-vous donc à la ligne Connexion ci-dessus.</string>
     <string name="rcs_connected">Connexion</string>
     <string name="rcs_connected_m">Si le RCS est réellement configuré et fonctionne sur cette ligne, d\'après la configuration de chat et le moteur de provisionnement. C\'est le signal fiable. L\'indicateur de disponibilité ci-dessous est un cache par contact qui peut être en retard.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Désactivé</string>
     <string name="rcs_self_number">Votre numéro RCS</string>
     <string name="rcs_self_number_m">Le numéro de téléphone enregistré pour le RCS sur cet appareil.</string>
-    <string name="rcs_state">État du RCS</string>
-    <string name="rcs_state_m">L\'état interne de provisionnement signalé par l\'application de messagerie pour votre ligne.</string>
+    <string name="rcs_state">État de provisionnement (en cache)</string>
+    <string name="rcs_state_m">Une valeur interne de provisionnement que l\'application de messagerie conserve pour votre ligne. Elle peut rester à 0 alors que le RCS fonctionne déjà, fiez-vous donc à la ligne Connexion ci-dessus.</string>
     <string name="rcs_cfg_version">Version de la configuration</string>
     <string name="rcs_cfg_version_m">Version de la configuration RCS fournie à cette ligne. Une valeur de 0 signifie qu\'aucune configuration valide n\'est encore arrivée.</string>
     <string name="rcs_capable">Contacts compatibles RCS</string>
     <string name="rcs_capable_m">Combien de vos contacts sont actuellement connus comme prenant en charge le chat RCS.</string>
-    <string name="rcs_flag_enabled">Fonction activée</string>
-    <string name="rcs_flag_enabled_m">Si l\'application de messagerie a la fonction RCS activée.</string>
+    <string name="rcs_flag_enabled">Indicateur de fonction (en cache)</string>
+    <string name="rcs_flag_enabled_m">Un indicateur en cache précisant si l\'application de messagerie a activé la fonction RCS. Il peut rester désactivé alors que le RCS fonctionne déjà, fiez-vous donc à la ligne Connexion ci-dessus.</string>
     <string name="rcs_flag_unavailable">Marqué indisponible</string>
     <string name="rcs_flag_unavailable_m">Si le service a marqué le RCS comme indisponible pour cette ligne.</string>
     <string name="rcs_entitlement">Autorisation opérateur</string>

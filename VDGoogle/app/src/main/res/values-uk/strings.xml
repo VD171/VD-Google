@@ -56,7 +56,7 @@
     <string name="rcs_callout_mversion_zero">Версія конфігурації дорівнює 0. Зазвичай це означає, що оператор або Google ще не надіслав чинну конфігурацію RCS для цієї SIM-картки. Поки значення залишається 0, RCS зазвичай не вдається активувати навіть на пристрої без модифікацій.</string>
 
     <string name="rcs_sec_status">Стан</string>
-    <string name="rcs_available">RCS доступний</string>
+    <string name="rcs_available">Прапорець доступності (кешовано)</string>
     <string name="rcs_available_m">Кешований прапорець, у якому додаток Повідомлення зберігає відомості про доступність RCS для вашого номера. Він може застаріти навіть тоді, коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
     <string name="rcs_connected">Підключення</string>
     <string name="rcs_connected_m">Чи налаштовано і працює RCS для цієї SIM-картки згідно з конфігурацією чатів і механізмом активації служби. Це надійний показник. Наведений нижче показник доступності зберігається в кеші окремо для кожного контакту й може оновлюватися із затримкою.</string>
@@ -65,14 +65,14 @@
     <string name="rcs_st_off">Вимкнено</string>
     <string name="rcs_self_number">Ваш номер RCS</string>
     <string name="rcs_self_number_m">Номер телефону, зареєстрований для RCS на цьому пристрої.</string>
-    <string name="rcs_state">Стан RCS</string>
-    <string name="rcs_state_m">Внутрішній стан активації RCS для вашої SIM-картки, про який повідомляє додаток Повідомлення.</string>
+    <string name="rcs_state">Стан активації (кешовано)</string>
+    <string name="rcs_state_m">Внутрішнє значення активації, яке додаток Повідомлення зберігає для вашої лінії. Воно може лишатися нульовим, навіть коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
     <string name="rcs_cfg_version">Версія конфігурації</string>
     <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано.</string>
     <string name="rcs_capable">Контакти з підтримкою RCS</string>
     <string name="rcs_capable_m">Кількість контактів, для яких наразі відомо, що вони підтримують чати RCS.</string>
-    <string name="rcs_flag_enabled">Функцію ввімкнено</string>
-    <string name="rcs_flag_enabled_m">Чи ввімкнено функцію RCS у застосунку Повідомлення.</string>
+    <string name="rcs_flag_enabled">Прапорець функції (кешовано)</string>
+    <string name="rcs_flag_enabled_m">Кешований прапорець того, чи ввімкнув додаток Повідомлення функцію RCS. Він може лишатися вимкненим, навіть коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
     <string name="rcs_flag_unavailable">Позначено як недоступне</string>
     <string name="rcs_flag_unavailable_m">Чи позначила служба RCS цю SIM-картку як таку, для якої RCS недоступний.</string>
     <string name="rcs_entitlement">Авторизація оператора</string>

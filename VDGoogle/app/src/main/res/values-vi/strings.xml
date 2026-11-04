@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">Phiên bản cấu hình là 0, thường có nghĩa là nhà mạng hoặc Google chưa gửi một cấu hình RCS hợp lệ cho số máy này. Khi còn là 0, RCS thường không thể bật, ngay cả trên một chiếc máy còn nguyên vẹn.</string>
 
     <string name="rcs_sec_status">Trạng thái</string>
-    <string name="rcs_available">RCS khả dụng</string>
+    <string name="rcs_available">Cờ khả dụng (đã lưu trong bộ nhớ đệm)</string>
     <string name="rcs_available_m">Một chỉ báo được lưu đệm mà ứng dụng nhắn tin giữ cho số của bạn. Nó có thể vẫn cũ ngay cả khi RCS đã hoạt động, vì vậy hãy tin vào dòng Kết nối ở trên.</string>
     <string name="rcs_connected">Kết nối</string>
     <string name="rcs_connected_m">RCS có thực sự được thiết lập và hoạt động trên đường dây này hay không, dựa trên cấu hình trò chuyện và công cụ cấp phép. Đây là tín hiệu đáng tin cậy. Chỉ báo khả dụng bên dưới là bộ nhớ đệm theo từng liên hệ và có thể bị trễ.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Đã tắt</string>
     <string name="rcs_self_number">Số RCS của bạn</string>
     <string name="rcs_self_number_m">Số điện thoại được đăng ký cho RCS trên thiết bị này.</string>
-    <string name="rcs_state">Trạng thái RCS</string>
-    <string name="rcs_state_m">Trạng thái cấp phép nội bộ mà ứng dụng tin nhắn báo cáo cho số máy của bạn.</string>
+    <string name="rcs_state">Trạng thái cấp phép (đã lưu trong bộ nhớ đệm)</string>
+    <string name="rcs_state_m">Một giá trị cấp phép nội bộ mà ứng dụng nhắn tin giữ cho số máy của bạn. Nó có thể vẫn ở mức 0 ngay cả khi RCS đã hoạt động, vì vậy hãy tin vào dòng Kết nối ở trên.</string>
     <string name="rcs_cfg_version">Phiên bản cấu hình</string>
     <string name="rcs_cfg_version_m">Phiên bản cấu hình RCS được gửi cho số máy này. Giá trị 0 nghĩa là chưa có cấu hình hợp lệ nào đến.</string>
     <string name="rcs_capable">Liên hệ hỗ trợ RCS</string>
     <string name="rcs_capable_m">Hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện RCS.</string>
-    <string name="rcs_flag_enabled">Tính năng đã bật</string>
-    <string name="rcs_flag_enabled_m">Ứng dụng tin nhắn có bật tính năng RCS hay không.</string>
+    <string name="rcs_flag_enabled">Cờ tính năng (đã lưu trong bộ nhớ đệm)</string>
+    <string name="rcs_flag_enabled_m">Một cờ được lưu đệm cho biết ứng dụng nhắn tin đã bật tính năng RCS hay chưa. Nó có thể vẫn tắt ngay cả khi RCS đã hoạt động, vì vậy hãy tin vào dòng Kết nối ở trên.</string>
     <string name="rcs_flag_unavailable">Bị đánh dấu không khả dụng</string>
     <string name="rcs_flag_unavailable_m">Dịch vụ có đánh dấu RCS là không khả dụng cho số máy này hay không.</string>
     <string name="rcs_entitlement">Quyền của nhà mạng</string>

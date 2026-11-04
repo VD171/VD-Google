@@ -56,7 +56,7 @@
     <string name="rcs_callout_mversion_zero">The configuration version is 0, which usually means your carrier or Google has not yet delivered a valid RCS configuration to this line. While it stays 0, RCS normally cannot turn on, even on an untouched phone.</string>
 
     <string name="rcs_sec_status">Status</string>
-    <string name="rcs_available">RCS available</string>
+    <string name="rcs_available">Availability flag (cached)</string>
     <string name="rcs_available_m">A cached flag the messaging app keeps for your own number. It can stay out of date after RCS is already working, so trust the Connection line above.</string>
     <string name="rcs_connected">Connection</string>
     <string name="rcs_connected_m">Whether RCS is really set up and working on this line, based on the chat configuration and the provisioning engine. This is the reliable signal. The availability flag below is a per-contact cache that can lag behind.</string>
@@ -65,14 +65,14 @@
     <string name="rcs_st_off">Turned off</string>
     <string name="rcs_self_number">Your RCS number</string>
     <string name="rcs_self_number_m">The phone number registered for RCS on this device.</string>
-    <string name="rcs_state">RCS state</string>
-    <string name="rcs_state_m">The internal provisioning state reported by the messaging app for your line.</string>
+    <string name="rcs_state">Provisioning state (cached)</string>
+    <string name="rcs_state_m">An internal provisioning value the messaging app keeps for your line. It can read 0 even after RCS is already working, so trust the Connection line above.</string>
     <string name="rcs_cfg_version">Configuration version</string>
     <string name="rcs_cfg_version_m">Version of the RCS configuration delivered to this line. A value of 0 means no valid configuration has arrived yet.</string>
     <string name="rcs_capable">RCS-capable contacts</string>
     <string name="rcs_capable_m">How many of your contacts are currently known to support RCS chat.</string>
-    <string name="rcs_flag_enabled">Feature enabled</string>
-    <string name="rcs_flag_enabled_m">Whether the messaging app has the RCS feature switched on.</string>
+    <string name="rcs_flag_enabled">Feature flag (cached)</string>
+    <string name="rcs_flag_enabled_m">A cached flag for whether the messaging app switched the RCS feature on. It can stay off after RCS is already working, so trust the Connection line above.</string>
     <string name="rcs_flag_unavailable">Marked unavailable</string>
     <string name="rcs_flag_unavailable_m">Whether the backend has flagged RCS as unavailable for this line.</string>
     <string name="rcs_entitlement">Carrier entitlement</string>

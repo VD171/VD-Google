@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">Версия конфигурации равна 0, что обычно означает, что оператор или Google ещё не доставил действительную конфигурацию RCS на эту линию. Пока значение остаётся 0, RCS, как правило, не может включиться даже на нетронутом телефоне.</string>
 
     <string name="rcs_sec_status">Состояние</string>
-    <string name="rcs_available">RCS доступен</string>
+    <string name="rcs_available">Флаг доступности (из кеша)</string>
     <string name="rcs_available_m">Кэшированный признак, который приложение сообщений хранит для вашего номера. Он может оставаться устаревшим даже после того, как RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_connected">Подключение</string>
     <string name="rcs_connected_m">Действительно ли RCS настроен и работает на этой линии, судя по конфигурации чата и движку подготовки. Это надёжный признак. Показатель доступности ниже - это кэш по каждому контакту, и он может отставать.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Выключено</string>
     <string name="rcs_self_number">Ваш номер RCS</string>
     <string name="rcs_self_number_m">Номер телефона, зарегистрированный для RCS на этом устройстве.</string>
-    <string name="rcs_state">Состояние RCS</string>
-    <string name="rcs_state_m">Внутреннее состояние подготовки, о котором сообщает приложение сообщений для вашей линии.</string>
+    <string name="rcs_state">Состояние подготовки (из кеша)</string>
+    <string name="rcs_state_m">Внутреннее значение подготовки, которое приложение сообщений хранит для вашей линии. Оно может оставаться равным 0, даже когда RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_cfg_version">Версия конфигурации</string>
     <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила.</string>
     <string name="rcs_capable">Контакты с поддержкой RCS</string>
     <string name="rcs_capable_m">Сколько ваших контактов в настоящее время известны как поддерживающие чат RCS.</string>
-    <string name="rcs_flag_enabled">Функция включена</string>
-    <string name="rcs_flag_enabled_m">Включена ли функция RCS в приложении сообщений.</string>
+    <string name="rcs_flag_enabled">Флаг функции (из кеша)</string>
+    <string name="rcs_flag_enabled_m">Кэшированный признак того, включило ли приложение сообщений функцию RCS. Он может оставаться выключенным, даже когда RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_flag_unavailable">Помечено как недоступное</string>
     <string name="rcs_flag_unavailable_m">Пометила ли служба RCS как недоступный для этой линии.</string>
     <string name="rcs_entitlement">Разрешение оператора</string>

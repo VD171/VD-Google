@@ -51,10 +51,18 @@ object Export {
         else -> v.toLongOrNull() ?: v
     }
 
-    fun buildReport(rcs: RcsData?, wallet: WalletData?): String {
+    private fun toJson(v: Any?): Any = when (v) {
+        null -> JSONObject.NULL
+        is Map<*, *> -> JSONObject().also { o -> for ((k, vv) in v) o.put(k.toString(), toJson(vv)) }
+        is List<*> -> org.json.JSONArray().also { a -> for (e in v) a.put(toJson(e)) }
+        else -> v
+    }
+
+    fun buildReport(rcs: RcsData?, wallet: WalletData?, diag: Map<String, Any?>? = null): String {
         val root = JSONObject()
         root.put("app", "VD Google")
         root.put("version", BuildConfig.VERSION_NAME)
+        root.put("exportedAt", js(Fmt.tsMs(System.currentTimeMillis())))
         root.put(
             "device",
             JSONObject()
@@ -113,6 +121,8 @@ object Export {
             w.put("cardEverAdded", jb(it.hadToken))
             root.put("wallet", w)
         }
+
+        if (diag != null) root.put("diagnostics", toJson(diag))
 
         return root.toString(2)
     }

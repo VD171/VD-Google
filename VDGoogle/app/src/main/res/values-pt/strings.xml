@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">A versão da configuração é 0, o que normalmente significa que a operadora ou o Google ainda não entregou uma configuração RCS válida para esta linha. Enquanto ficar em 0, o RCS geralmente não liga, mesmo num aparelho intacto.</string>
 
     <string name="rcs_sec_status">Situação</string>
-    <string name="rcs_available">RCS disponível</string>
+    <string name="rcs_available">Sinalizador de disponibilidade (cache)</string>
     <string name="rcs_available_m">Um indicador em cache que o app de mensagens mantém para o seu próprio número. Ele pode ficar desatualizado mesmo com o RCS já funcionando, então confie na linha Conexão acima.</string>
     <string name="rcs_connected">Conexão</string>
     <string name="rcs_connected_m">Se o RCS está realmente configurado e funcionando nesta linha, com base na configuração de chat e no motor de provisionamento. Este é o sinal confiável. O indicador de disponibilidade abaixo é um cache por contato e pode ficar atrasado.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Desligado</string>
     <string name="rcs_self_number">Seu número RCS</string>
     <string name="rcs_self_number_m">O número de telefone registrado para RCS neste aparelho.</string>
-    <string name="rcs_state">Estado do RCS</string>
-    <string name="rcs_state_m">O estado interno de provisionamento informado pelo app de mensagens para a sua linha.</string>
+    <string name="rcs_state">Estado de provisionamento (cache)</string>
+    <string name="rcs_state_m">Um valor interno de provisionamento que o app de mensagens mantém para a sua linha. Ele pode continuar em 0 mesmo com o RCS já funcionando, então confie na linha Conexão acima.</string>
     <string name="rcs_cfg_version">Versão da configuração</string>
     <string name="rcs_cfg_version_m">Versão da configuração RCS entregue a esta linha. O valor 0 significa que nenhuma configuração válida chegou ainda.</string>
     <string name="rcs_capable">Contatos compatíveis com RCS</string>
     <string name="rcs_capable_m">Quantos dos seus contatos têm suporte a conversa por RCS no momento.</string>
-    <string name="rcs_flag_enabled">Recurso ativado</string>
-    <string name="rcs_flag_enabled_m">Se o app de mensagens está com o recurso RCS ligado.</string>
+    <string name="rcs_flag_enabled">Sinalizador de recurso (cache)</string>
+    <string name="rcs_flag_enabled_m">Um sinalizador em cache que indica se o app de mensagens ligou o recurso RCS. Ele pode continuar desligado mesmo com o RCS já funcionando, então confie na linha Conexão acima.</string>
     <string name="rcs_flag_unavailable">Marcado como indisponível</string>
     <string name="rcs_flag_unavailable_m">Se o serviço marcou o RCS como indisponível para esta linha.</string>
     <string name="rcs_entitlement">Autorização da operadora</string>

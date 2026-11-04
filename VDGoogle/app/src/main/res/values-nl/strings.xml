@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">De configuratieversie is 0, wat meestal betekent dat je provider of Google nog geen geldige RCS-configuratie aan deze lijn heeft geleverd. Zolang deze op 0 blijft, kan RCS normaal gesproken niet worden ingeschakeld, zelfs niet op een ongewijzigd toestel.</string>
 
     <string name="rcs_sec_status">Status</string>
-    <string name="rcs_available">RCS beschikbaar</string>
+    <string name="rcs_available">Beschikbaarheidsvlag (in cache)</string>
     <string name="rcs_available_m">Een gecachte indicator die de berichten-app voor je eigen nummer bijhoudt. Die kan verouderd blijven terwijl RCS al werkt, vertrouw dus op de regel Verbinding hierboven.</string>
     <string name="rcs_connected">Verbinding</string>
     <string name="rcs_connected_m">Of RCS op deze lijn echt is ingesteld en werkt, op basis van de chatconfiguratie en de provisioning-engine. Dit is het betrouwbare signaal. De beschikbaarheidsindicator hieronder is een cache per contact en kan achterlopen.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">Uitgeschakeld</string>
     <string name="rcs_self_number">Je RCS-nummer</string>
     <string name="rcs_self_number_m">Het telefoonnummer dat op dit toestel voor RCS is geregistreerd.</string>
-    <string name="rcs_state">RCS-status</string>
-    <string name="rcs_state_m">De interne provisioningstatus die de berichten-app voor je lijn meldt.</string>
+    <string name="rcs_state">Provisioningstatus (in cache)</string>
+    <string name="rcs_state_m">Een interne provisioningwaarde die de berichten-app voor je lijn bijhoudt. Die kan op 0 blijven terwijl RCS al werkt, vertrouw dus op de regel Verbinding hierboven.</string>
     <string name="rcs_cfg_version">Configuratieversie</string>
     <string name="rcs_cfg_version_m">Versie van de aan deze lijn geleverde RCS-configuratie. De waarde 0 betekent dat er nog geen geldige configuratie is aangekomen.</string>
     <string name="rcs_capable">RCS-geschikte contacten</string>
     <string name="rcs_capable_m">Hoeveel van je contacten op dit moment bekend staan als geschikt voor RCS-chat.</string>
-    <string name="rcs_flag_enabled">Functie ingeschakeld</string>
-    <string name="rcs_flag_enabled_m">Of de berichten-app de RCS-functie heeft ingeschakeld.</string>
+    <string name="rcs_flag_enabled">Functievlag (in cache)</string>
+    <string name="rcs_flag_enabled_m">Een gecachte indicator of de berichten-app de RCS-functie heeft ingeschakeld. Die kan uitgeschakeld blijven terwijl RCS al werkt, vertrouw dus op de regel Verbinding hierboven.</string>
     <string name="rcs_flag_unavailable">Gemarkeerd als niet beschikbaar</string>
     <string name="rcs_flag_unavailable_m">Of de dienst RCS als niet beschikbaar heeft gemarkeerd voor deze lijn.</string>
     <string name="rcs_entitlement">Providerrechten</string>

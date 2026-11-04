@@ -46,7 +46,7 @@
     <string name="rcs_callout_mversion_zero">구성 버전이 0입니다. 이는 보통 통신사나 Google이 이 회선에 아직 유효한 RCS 구성을 전달하지 않았음을 뜻합니다. 0으로 남아 있는 동안에는 손대지 않은 휴대폰에서도 RCS가 일반적으로 켜지지 않습니다.</string>
 
     <string name="rcs_sec_status">상태</string>
-    <string name="rcs_available">RCS 사용 가능</string>
+    <string name="rcs_available">가용성 플래그(캐시됨)</string>
     <string name="rcs_available_m">메시지 앱이 내 번호에 대해 보관하는 캐시된 표시입니다. RCS가 이미 작동한 뒤에도 오래된 값으로 남을 수 있으므로 위의 연결 줄을 신뢰하세요.</string>
     <string name="rcs_connected">연결</string>
     <string name="rcs_connected_m">채팅 구성과 프로비저닝 엔진을 기준으로 이 회선에서 RCS가 실제로 설정되어 작동하는지 여부입니다. 이것이 신뢰할 수 있는 신호입니다. 아래의 사용 가능 표시는 연락처별 캐시여서 지연될 수 있습니다.</string>
@@ -55,14 +55,14 @@
     <string name="rcs_st_off">꺼짐</string>
     <string name="rcs_self_number">내 RCS 번호</string>
     <string name="rcs_self_number_m">이 기기에서 RCS용으로 등록된 전화번호.</string>
-    <string name="rcs_state">RCS 상태</string>
-    <string name="rcs_state_m">메시지 앱이 회선에 대해 보고하는 내부 프로비저닝 상태.</string>
+    <string name="rcs_state">프로비저닝 상태(캐시됨)</string>
+    <string name="rcs_state_m">메시지 앱이 회선에 대해 보관하는 내부 프로비저닝 값입니다. RCS가 이미 작동한 뒤에도 0으로 남을 수 있으므로 위의 연결 줄을 신뢰하세요.</string>
     <string name="rcs_cfg_version">구성 버전</string>
     <string name="rcs_cfg_version_m">이 회선에 전달된 RCS 구성의 버전. 값이 0이면 유효한 구성이 아직 도착하지 않았음을 의미합니다.</string>
     <string name="rcs_capable">RCS 지원 연락처</string>
     <string name="rcs_capable_m">현재 RCS 채팅을 지원하는 것으로 확인된 연락처 수.</string>
-    <string name="rcs_flag_enabled">기능 사용 설정됨</string>
-    <string name="rcs_flag_enabled_m">메시지 앱에서 RCS 기능이 켜져 있는지 여부.</string>
+    <string name="rcs_flag_enabled">기능 플래그(캐시됨)</string>
+    <string name="rcs_flag_enabled_m">메시지 앱이 RCS 기능을 켰는지에 대한 캐시된 표시입니다. RCS가 이미 작동한 뒤에도 꺼진 상태로 남을 수 있으므로 위의 연결 줄을 신뢰하세요.</string>
     <string name="rcs_flag_unavailable">사용 불가로 표시됨</string>
     <string name="rcs_flag_unavailable_m">서비스가 이 회선의 RCS를 사용 불가로 표시했는지 여부.</string>
     <string name="rcs_entitlement">통신사 권한</string>

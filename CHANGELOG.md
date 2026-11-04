@@ -2,6 +2,16 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.13] - 2026-11-04
+
+- RCS and Google service details now load reliably on more phones. On some devices every value could come up blank; they now read correctly.
+- You can now swipe left or right to move between tabs.
+- RCS Connection status is now correct on newer Android and Google Messages (such as Android 17), where it could wrongly read as not connected even though RCS was working.
+- The RCS "RCS-capable contacts" count now reflects your real contacts, instead of always showing 0.
+- The RCS "availability", "state" and "feature" lines are now labeled as cached flags, so a "No" or "0" there is not mistaken for the real status (the Connection line is what counts).
+- The WebUI export now matches the app's export exactly, and both now include an optional diagnostics section (no personal data) to help troubleshoot device-specific issues.
+- The Priv8_VD Telegram channel is now listed in the contacts, and VD Backup appears in "See also".
+
 ## [1.12] - 2026-11-03
 
 - On dual-SIM phones, the carrier and RCS details now follow your data SIM, instead of sometimes showing another SIM's. The app and the WebUI now always agree.

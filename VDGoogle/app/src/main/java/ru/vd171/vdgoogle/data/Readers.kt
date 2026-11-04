@@ -133,7 +133,7 @@ object RcsReader {
     suspend fun load(): RcsData {
         val self = RootRepo.queryDb(BUGLE, "SELECT p.is_rcs_available, p.normalized_destination FROM self_participants s JOIN participants p ON p._id=s.participant_id")
         val selfRow = self.firstOrNull()?.split('\t')
-        val cap = firstCell(RootRepo.queryDb(BUGLE, "SELECT COUNT(*) FROM participants WHERE is_rcs_available=1"))
+        val cap = firstCell(RootRepo.queryDb(BUGLE, "SELECT COUNT(*) FROM rcs_remote_capabilities_cache WHERE instr(rcs_capabilities, x'33677070')>0"))
         val msgLast = firstCell(RootRepo.queryDb(BUGLE, "SELECT MAX(max(IFNULL(received_timestamp,0), IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3"))?.toLongOrNull()
         val capLast = firstCell(RootRepo.queryDb(BUGLE, "SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache"))?.toLongOrNull()
         val dataSub = RootRepo.exec("settings get global multi_sim_data_call")?.trim()?.toIntOrNull()?.takeIf { it > 0 }
@@ -255,5 +255,73 @@ object AttReader {
         val t = out.split(Regex("\\s+")).filter { it.isNotEmpty() }
         if (t.size < 2 || t[0] != "8") return null
         return if (t[1] == "1") "true" else "false"
+    }
+}
+
+object DiagReader {
+    private fun cells(rows: List<String>): List<String>? = rows.firstOrNull()?.split('\t')
+
+    private val HEXRUN = Regex("[0-9a-f]{16,}")
+
+    private suspend fun names(db: String, sql: String): List<String> =
+        RootRepo.queryDb(db, sql).mapNotNull { r -> r.substringBefore('\t').takeIf { it.isNotBlank() }?.replace(HEXRUN, "*") }
+
+    private suspend fun pkgVer(pkg: String): String? =
+        RootRepo.exec("dumpsys package $pkg 2>/dev/null | grep -m1 versionName")?.substringAfter('=')?.trim()?.takeIf { it.isNotBlank() }
+
+    suspend fun load(): Map<String, Any?> {
+        val out = LinkedHashMap<String, Any?>()
+        out["sqliteVersion"] = firstCell(RootRepo.queryDb(TELEPHONY, "SELECT sqlite_version()"))
+
+        val md = LinkedHashMap<String, Any?>()
+        val tables = names(BUGLE, "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
+        md["opened"] = tables.isNotEmpty()
+        md["tables"] = tables
+        cells(RootRepo.queryDb(BUGLE, "SELECT COUNT(*), SUM(is_rcs_available=1) FROM participants"))?.let {
+            md["participants"] = linkedMapOf("total" to it.getOrNull(0)?.toLongOrNull(), "rcsAvailable1" to it.getOrNull(1)?.toLongOrNull())
+        }
+        val d30 = System.currentTimeMillis() - 2_592_000_000L
+        cells(RootRepo.queryDb(BUGLE, "SELECT COUNT(*), SUM(instr(rcs_capabilities,x'33677070')>0), SUM(last_refresh_timestamp>$d30), MIN(length(rcs_capabilities)), MAX(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache"))?.let {
+            md["capabilitiesCache"] = linkedMapOf(
+                "total" to it.getOrNull(0)?.toLongOrNull(),
+                "withRcsTag3gpp" to it.getOrNull(1)?.toLongOrNull(),
+                "freshLast30d" to it.getOrNull(2)?.toLongOrNull(),
+                "blobMin" to it.getOrNull(3)?.toLongOrNull(),
+                "blobMax" to it.getOrNull(4)?.toLongOrNull(),
+            )
+        }
+        md["rcsMessages"] = firstCell(RootRepo.queryDb(BUGLE, "SELECT COUNT(*) FROM messages WHERE message_protocol=3"))?.toLongOrNull()
+        md["columns"] = linkedMapOf(
+            "participants" to names(BUGLE, "SELECT name FROM pragma_table_info('participants')"),
+            "rcs_remote_capabilities_cache" to names(BUGLE, "SELECT name FROM pragma_table_info('rcs_remote_capabilities_cache')"),
+            "messages" to names(BUGLE, "SELECT name FROM pragma_table_info('messages')"),
+            "self_participants" to names(BUGLE, "SELECT name FROM pragma_table_info('self_participants')"),
+        )
+        out["messagesDb"] = md
+
+        Root.text("$PREFS/PhenotypePrefs.xml")?.let { ph ->
+            val flags = LinkedHashMap<String, Any?>()
+            Regex("name=\"(RcsFlags__[A-Za-z0-9_]+|notify_backend_rcs_is_unavailable)\"\\s+value=\"(true|false)\"").findAll(ph).forEach { flags[it.groupValues[1]] = it.groupValues[2] == "true" }
+            out["phenotypeRcsFlags"] = flags
+        }
+
+        out["telephonyDb"] = linkedMapOf(
+            "siminfoRows" to firstCell(RootRepo.queryDb(TELEPHONY, "SELECT COUNT(*) FROM siminfo"))?.toLongOrNull(),
+            "dataSub" to RootRepo.exec("settings get global multi_sim_data_call")?.trim()?.toIntOrNull(),
+            "columns" to linkedMapOf("siminfo" to names(TELEPHONY, "SELECT name FROM pragma_table_info('siminfo')")),
+        )
+
+        out["droidguardDb"] = linkedMapOf(
+            "tables" to names(DG_DB, "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"),
+            "mainColumns" to names(DG_DB, "SELECT name FROM pragma_table_info('main')"),
+            "mainCount" to firstCell(RootRepo.queryDb(DG_DB, "SELECT COUNT(*) FROM main"))?.toLongOrNull(),
+        )
+
+        out["packages"] = linkedMapOf(
+            "messages" to pkgVer("com.google.android.apps.messaging"),
+            "gms" to pkgVer("com.google.android.gms"),
+            "vending" to pkgVer("com.android.vending"),
+        )
+        return out
     }
 }
