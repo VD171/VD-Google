@@ -148,6 +148,7 @@
     <string name="about_license">Licence</string>
     <string name="about_contacts">Kontakty</string>
     <string name="about_support">Podpora</string>
+    <string name="about_trademarks">VD Google je nezávislý, neoficiální projekt, který není spojen se společností Google LLC, není jí schválen ani sponzorován. Google, Google Wallet, Google Play, Play Integrity a Android jsou ochranné známky společnosti Google LLC.</string>
 
     <string name="action_close">Zavřít</string>
     <string name="action_language">Jazyk</string>

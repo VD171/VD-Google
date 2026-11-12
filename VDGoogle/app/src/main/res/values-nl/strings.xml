@@ -148,6 +148,7 @@
     <string name="about_license">Licentie</string>
     <string name="about_contacts">Contacten</string>
     <string name="about_support">Ondersteuning</string>
+    <string name="about_trademarks">VD Google is een onafhankelijk, niet-officieel project dat niet is gelieerd aan, onderschreven door of gesponsord door Google LLC. Google, Google Wallet, Google Play, Play Integrity en Android zijn handelsmerken van Google LLC.</string>
 
     <string name="action_close">Sluiten</string>
     <string name="action_language">Taal</string>

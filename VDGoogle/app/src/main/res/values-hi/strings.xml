@@ -148,6 +148,7 @@
     <string name="about_license">लाइसेंस</string>
     <string name="about_contacts">संपर्क</string>
     <string name="about_support">सहायता</string>
+    <string name="about_trademarks">VD Google एक स्वतंत्र, अनौपचारिक परियोजना है, जो Google LLC से संबद्ध, समर्थित या प्रायोजित नहीं है। Google, Google Wallet, Google Play, Play Integrity और Android, Google LLC के ट्रेडमार्क हैं।</string>
 
     <string name="action_close">बंद करें</string>
     <string name="action_language">भाषा</string>

@@ -148,6 +148,7 @@
     <string name="about_license">Lisans</string>
     <string name="about_contacts">İletişim</string>
     <string name="about_support">Destek</string>
+    <string name="about_trademarks">VD Google, Google LLC ile bağlantısı olmayan, onun tarafından onaylanmayan veya desteklenmeyen bağımsız ve resmi olmayan bir projedir. Google, Google Wallet, Google Play, Play Integrity ve Android, Google LLC\'nin ticari markalarıdır.</string>
 
     <string name="action_close">Kapat</string>
     <string name="action_language">Dil</string>

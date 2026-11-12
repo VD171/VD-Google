@@ -5,18 +5,45 @@
 
 # VD Google
 
-**आपकी Google सेवाएँ, आपके डिवाइस पर पढ़ी गईं। कभी इंटरनेट नहीं।**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google आपको दिखाता है कि Google स्वयं आपके फ़ोन पर तीन चीज़ों के बारे में क्या दर्ज करता है, और बताता है कि हर आइटम का क्या मतलब है, कुछ भी कहीं भेजे बिना।
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **भाषाएँ:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>आपकी Google सेवाएँ, आपके डिवाइस पर पढ़ी गईं। कभी इंटरनेट नहीं।</b><br>
+  VD Google आपको दिखाता है कि Google स्वयं आपके फ़ोन पर RCS, Wallet और Play Integrity के बारे में क्या दर्ज करता है, और बताता है कि हर आइटम का क्या मतलब है, कुछ भी कहीं भेजे बिना।
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## दस्तावेज़ीकरण
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[VD Google यूज़र गाइड](docs/hi/USER-GUIDE.md) · [आर्किटेक्चर](docs/hi/ARCHITECTURE.md) · [निजता](docs/hi/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## ऐप या WebUI
 
@@ -56,12 +83,20 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 सभी समय आपके डिवाइस के वर्तमान समय क्षेत्र में दिखाए जाते हैं, और समय क्षेत्र हमेशा अंकित रहता है।
 
+## यह भी देखें
+
+उसी लेखक की सहोदर परियोजनाएँ:
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: एक डिवाइस मेथड डिबगर जो हर आइटम को उन सभी मेथड से पढ़ता है जो उसे पढ़ सकती हैं और उनकी तुलना साथ-साथ करता है।
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root के रूप में ऐप्स और डेटा का पूर्ण बैकअप और पुनर्स्थापना, पूरी तरह एक WebUI से संचालित।
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: एक डिवाइस स्पूफर जो एक नए फ़िंगरप्रिंट को एक सुसंगत, संगत प्रोफ़ाइल में बदल देता है।
+
 ## संपर्क
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -72,14 +107,10 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) देखें। नेटवर्क क्लॉज़ सहित कॉपीलेफ्ट: जो कोई संशोधित संस्करण चलाता है (सेवा के रूप में भी) उसे उसका सोर्स देना होगा। फोर्क खुले रखने के लिए जानबूझकर चुना गया।
 
-<!-- vd-see-also -->
+## ट्रेडमार्क
 
-## यह भी देखें
+VD Google एक स्वतंत्र, अनौपचारिक परियोजना है। यह Google LLC से संबद्ध, समर्थित या प्रायोजित नहीं है। "Google", "Google Wallet", "Google Play", "Play Integrity", "Android" और संबंधित नाम तथा लोगो Google LLC के ट्रेडमार्क हैं। VD Google केवल वही पढ़ता है जो पहले से आपके डिवाइस पर है और कहीं कुछ नहीं भेजता।
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - मेथड डिबगर
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD एक डिवाइस स्पूफर है
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - अपने ऐप्स और डेटा का बैकअप लें और पुनर्स्थापित करें
-
----
+## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

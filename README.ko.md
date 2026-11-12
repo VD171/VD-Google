@@ -5,18 +5,45 @@
 
 # VD Google
 
-**내 Google 서비스를 기기에서 바로 읽기. 인터넷은 절대 사용하지 않음.**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google은 Google이 직접 휴대폰에 기록하는 세 가지 항목을 보여주고, 각 항목이 무엇을 의미하는지 설명합니다. 어떤 것도 어디로도 보내지 않습니다.
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **언어:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>내 Google 서비스를 기기에서 바로 읽기. 인터넷은 절대 사용하지 않음.</b><br>
+  VD Google은 Google이 직접 휴대폰에 RCS, 월렛, Play Integrity에 대해 기록하는 내용을 보여주고, 각 항목을 설명하며, 어떤 것도 어디로도 보내지 않습니다.
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## 문서
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[VD Google 사용자 가이드](docs/ko/USER-GUIDE.md) · [아키텍처](docs/ko/ARCHITECTURE.md) · [프라이버시](docs/ko/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## 앱 또는 WebUI
 
@@ -56,12 +83,20 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 모든 시간은 기기의 현재 표준 시간대로 표시되며, 표준 시간대는 항상 함께 표기됩니다.
 
+## 함께 보기
+
+같은 작성자의 자매 프로젝트:
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: 각 항목을 읽을 수 있는 모든 메서드로 읽어 나란히 비교하는 기기 메서드 디버거.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root로 앱과 데이터를 완전히 백업하고 복원하며, 전부 WebUI에서 실행.
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: 새 지문을 일관되고 정합적인 프로필로 바꾸는 기기 스푸퍼.
+
 ## 연락처
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -72,14 +107,10 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) 참조. 네트워크 조항을 포함한 카피레프트: 수정된 버전을 (서비스로라도) 실행하는 사람은 그 소스를 제공해야 합니다. 포크를 공개 상태로 유지하기 위해 의도적으로 선택했습니다.
 
-<!-- vd-see-also -->
+## 상표
 
-## 관련 앱
+VD Google은 독립적인 비공식 프로젝트입니다. Google LLC와 제휴, 보증 또는 후원 관계가 없습니다. "Google", "Google Wallet", "Google Play", "Play Integrity", "Android" 및 관련 이름과 로고는 Google LLC의 상표입니다. VD Google은 이미 기기에 있는 것만 읽으며 어디로도 아무것도 보내지 않습니다.
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - 메서드 디버거
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD는 기기 스푸퍼입니다
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - 앱과 데이터를 백업하고 복원
-
----
+## 태그
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

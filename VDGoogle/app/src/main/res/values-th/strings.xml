@@ -148,6 +148,7 @@
     <string name="about_license">สัญญาอนุญาต</string>
     <string name="about_contacts">ช่องทางติดต่อ</string>
     <string name="about_support">การสนับสนุน</string>
+    <string name="about_trademarks">VD Google เป็นโครงการอิสระที่ไม่เป็นทางการ ซึ่งไม่ได้มีส่วนเกี่ยวข้อง ได้รับการรับรอง หรือได้รับการสนับสนุนจาก Google LLC แต่อย่างใด Google, Google Wallet, Google Play, Play Integrity และ Android เป็นเครื่องหมายการค้าของ Google LLC</string>
 
     <string name="action_close">ปิด</string>
     <string name="action_language">ภาษา</string>

@@ -14,8 +14,9 @@
  *  Source         : https://github.com/VD171/VD-Google
  *  GitHub         : @VD171 https://github.com/VD171
  *  XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+ *  XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
  *  Telegram       : @VD_Priv8 https://t.me/VD_Priv8
- *  Telegram       : @Priv8_VD https://t.me/Priv8_VD
+ *  Channel        : @Priv8_VD https://t.me/Priv8_VD
  *  Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
  *  E-mail         : vd.priv8@pm.me
  * ======================================================================
@@ -635,6 +636,7 @@
     h += aboutRow(IC.open, null, "@RootDetected on Telegram", "https://t.me/RootDetected");
     h += aboutRow(IC.open, null, "@BlankAssistance on Telegram", "https://t.me/BlankAssistance");
     h += "</div>";
+    h += "<p style=\"margin:24px 8px 8px; font-size:0.78rem; color:var(--on-variant); line-height:1.5\">" + esc(t("about_trademarks")) + "</p>";
     return h;
   }
 

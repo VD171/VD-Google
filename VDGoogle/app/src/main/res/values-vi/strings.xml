@@ -148,6 +148,7 @@
     <string name="about_license">Giấy phép</string>
     <string name="about_contacts">Liên hệ</string>
     <string name="about_support">Hỗ trợ</string>
+    <string name="about_trademarks">VD Google là một dự án độc lập, không chính thức, không liên kết với, không được chứng thực hoặc tài trợ bởi Google LLC. Google, Google Wallet, Google Play, Play Integrity và Android là các thương hiệu của Google LLC.</string>
 
     <string name="action_close">Đóng</string>
     <string name="action_language">Ngôn ngữ</string>

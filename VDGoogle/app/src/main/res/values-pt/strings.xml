@@ -148,6 +148,7 @@
     <string name="about_license">Licença</string>
     <string name="about_contacts">Contatos</string>
     <string name="about_support">Suporte</string>
+    <string name="about_trademarks">VD Google é um projeto independente e não oficial, não afiliado, endossado ou patrocinado pela Google LLC. Google, Google Wallet, Google Play, Play Integrity e Android são marcas comerciais da Google LLC.</string>
 
     <string name="action_close">Fechar</string>
     <string name="action_language">Idioma</string>

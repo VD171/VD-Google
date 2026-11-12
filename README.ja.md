@@ -5,18 +5,45 @@
 
 # VD Google
 
-**あなたの Google サービスを端末上で読み取る。ネット接続は一切なし。**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google は、Google 自身があなたの端末に記録している 3 つの事柄を表示し、各項目が何を意味するかを説明します。どこにも何も送信しません。
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **言語:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>あなたの Google サービスを端末上で読み取る。ネット接続は一切なし。</b><br>
+  VD Google は、Google 自身があなたの端末に RCS、ウォレット、Play Integrity について記録している内容を表示し、各項目を説明します。どこにも何も送信しません。
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## ドキュメント
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[VD Google ユーザーガイド](docs/ja/USER-GUIDE.md) · [アーキテクチャ](docs/ja/ARCHITECTURE.md) · [プライバシー](docs/ja/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## アプリまたは WebUI
 
@@ -56,12 +83,20 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 すべての時刻は端末の現在のタイムゾーンで表示され、タイムゾーンは常に明記されます。
 
+## 関連プロジェクト
+
+同じ作者による姉妹プロジェクト:
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: 各項目を、それを読み取れるすべてのメソッドで読み取り、並べて比較する端末メソッドデバッガー。
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root でアプリとデータを完全にバックアップ・復元し、すべて WebUI から操作。
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: 新しいフィンガープリントを一貫性のある整合したプロファイルに変える端末スプーファー。
+
 ## 連絡先
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -72,14 +107,10 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 **GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) を参照。ネットワーク条項を含むコピーレフト：改変版を（サービスとしてでも）実行する者は、そのソースを提供しなければなりません。フォークをオープンに保つため意図的に選びました。
 
-<!-- vd-see-also -->
+## 商標
 
-## 関連アプリ
+VD Google は独立した非公式プロジェクトです。Google LLC との提携、承認、スポンサー関係はありません。「Google」「Google Wallet」「Google Play」「Play Integrity」「Android」および関連する名称とロゴは Google LLC の商標です。VD Google は、すでに端末上にあるものを読み取るだけで、どこにも何も送信しません。
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - メソッドデバッガー
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD はデバイススプーファーです
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - アプリとデータのバックアップと復元
-
----
+## タグ
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

@@ -148,6 +148,7 @@
     <string name="about_license">Licens</string>
     <string name="about_contacts">Kontakter</string>
     <string name="about_support">Support</string>
+    <string name="about_trademarks">VD Google är ett oberoende, inofficiellt projekt som inte är anslutet till, godkänt av eller sponsrat av Google LLC. Google, Google Wallet, Google Play, Play Integrity och Android är varumärken som tillhör Google LLC.</string>
 
     <string name="action_close">Stäng</string>
     <string name="action_language">Språk</string>

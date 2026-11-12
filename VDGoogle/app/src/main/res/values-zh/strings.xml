@@ -148,6 +148,7 @@
     <string name="about_license">许可证</string>
     <string name="about_contacts">联系方式</string>
     <string name="about_support">支持</string>
+    <string name="about_trademarks">VD Google 是一个独立的非官方项目，与 Google LLC 无关联，未获得其认可或赞助。Google、Google Wallet、Google Play、Play Integrity 和 Android 是 Google LLC 的商标。</string>
 
     <string name="action_close">关闭</string>
     <string name="action_language">语言</string>

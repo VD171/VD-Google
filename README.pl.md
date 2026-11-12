@@ -5,18 +5,45 @@
 
 # VD Google
 
-**Twoje usługi Google, odczytane na urządzeniu. Nigdy internet.**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google pokazuje, co sam Google zapisuje w telefonie na temat trzech rzeczy, i wyjaśnia, co oznacza każda pozycja, bez wysyłania czegokolwiek gdziekolwiek.
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **Języki:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>Twoje usługi Google, odczytane na urządzeniu. Nigdy internet.</b><br>
+  VD Google pokazuje, co sam Google zapisuje w telefonie na temat RCS, Wallet i Play Integrity, i wyjaśnia każdą pozycję, bez wysyłania czegokolwiek gdziekolwiek.
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## Dokumentacja
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[Przewodnik użytkownika VD Google](docs/pl/USER-GUIDE.md) · [Architektura](docs/pl/ARCHITECTURE.md) · [Prywatność](docs/pl/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## Aplikacja lub WebUI
 
@@ -56,12 +83,20 @@ VD Google nie deklaruje **żadnych uprawnień**, nawet dostępu do internetu. Ni
 
 Wszystkie godziny są wyświetlane w bieżącej strefie czasowej urządzenia, a strefa jest zawsze podana.
 
+## Zobacz także
+
+Projekty siostrzane tego samego autora:
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: debuger metod urządzenia, który odczytuje każdą pozycję każdą metodą zdolną ją odczytać i porównuje je obok siebie.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: pełna kopia zapasowa i przywracanie aplikacji oraz danych jako root, sterowane w całości z WebUI.
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: spoofer urządzenia, który zamienia świeży fingerprint w spójny, zgodny profil.
+
 ## Kontakty
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -72,14 +107,10 @@ Wszystkie godziny są wyświetlane w bieżącej strefie czasowej urządzenia, a 
 
 **GNU AGPL-3.0-or-later** - zobacz [LICENSE](LICENSE). Copyleft, w tym klauzula sieciowa: kto uruchamia zmodyfikowaną wersję (nawet jako usługę), musi udostępnić jej kod źródłowy. Wybrana celowo, aby forki pozostały otwarte.
 
-<!-- vd-see-also -->
+## Znaki towarowe
 
-## Zobacz także
+VD Google to niezależny, nieoficjalny projekt. Nie jest powiązany z Google LLC ani przez nie wspierany czy sponsorowany. "Google", "Google Wallet", "Google Play", "Play Integrity", "Android" oraz powiązane nazwy i logo są znakami towarowymi Google LLC. VD Google odczytuje tylko to, co już jest na Twoim urządzeniu, i niczego nigdzie nie wysyła.
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - Debuger metod
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD to spoofer urządzenia
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - Twórz kopie zapasowe aplikacji i danych oraz je przywracaj
-
----
+## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

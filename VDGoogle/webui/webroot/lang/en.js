@@ -29,6 +29,7 @@ window.__I18N_EN = {
   "about_see_also": "See also",
   "about_source": "Source",
   "about_support": "Support",
+  "about_trademarks": "VD Google is an independent, unofficial project, not affiliated with, endorsed by, or sponsored by Google LLC. Google, Google Wallet, Google Play, Play Integrity and Android are trademarks of Google LLC.",
   "action_close": "Close",
   "action_export": "Export",
   "action_hide": "Hide",

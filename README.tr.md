@@ -5,18 +5,45 @@
 
 # VD Google
 
-**Google hizmetleriniz, cihazınızda okunur. Asla internet yok.**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google, Google'ın üç konu hakkında telefonunuza kaydettiklerini size gösterir ve her bir öğenin ne anlama geldiğini açıklar; hiçbir yere hiçbir şey göndermeden.
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **Diller:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>Google hizmetleriniz, cihazınızda okunur. Asla internet yok.</b><br>
+  VD Google, Google'ın RCS, Wallet ve Play Integrity hakkında telefonunuza kaydettiklerini size gösterir ve her bir öğenin ne anlama geldiğini açıklar; hiçbir yere hiçbir şey göndermeden.
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## Belgeler
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[VD Google kullanıcı kılavuzu](docs/tr/USER-GUIDE.md) · [Mimari](docs/tr/ARCHITECTURE.md) · [Gizlilik](docs/tr/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## Uygulama veya WebUI
 
@@ -56,12 +83,20 @@ VD Google **hiçbir izin** tanımlamaz, internet erişimi bile. Okuduğu hiçbir
 
 Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi her zaman belirtilir.
 
-## İletişim
+## Ayrıca bakınız
+
+Aynı yazarın kardeş projeleri:
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: yeni bir parmak izini tutarlı, kararlı bir profile dönüştüren bir cihaz sahteleyici.
+
+## Contacts
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -70,16 +105,12 @@ Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi h
 
 ## Lisans
 
-**GNU AGPL-3.0-or-later** - bkz. [LICENSE](LICENSE). Ağ maddesi dahil copyleft: değiştirilmiş bir sürümü (hizmet olarak bile) çalıştıran herkes kaynak kodunu sunmalıdır. Fork’ları açık tutmak için bilinçli olarak seçildi.
+**GNU AGPL-3.0-or-later** - bkz. [LICENSE](LICENSE). Ağ maddesi dahil copyleft: değiştirilmiş bir sürümü (hizmet olarak bile) çalıştıran herkes kaynak kodunu sunmalıdır. Fork'ları açık tutmak için bilinçli olarak seçildi.
 
-<!-- vd-see-also -->
+## Ticari markalar
 
-## Ayrıca bakınız
+VD Google bağımsız, resmi olmayan bir projedir. Google LLC ile bağlantılı değildir, onun tarafından onaylanmamış veya desteklenmemiştir. "Google", "Google Wallet", "Google Play", "Play Integrity", "Android" ve ilgili adlar ve logolar Google LLC'nin ticari markalarıdır. VD Google yalnızca cihazınızda zaten bulunanı okur ve hiçbir yere hiçbir şey göndermez.
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - Yöntem hata ayıklayıcı
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD bir cihaz sahteleyicidir
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - Uygulamalarını ve verilerini yedekle ve geri yükle
-
----
+## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`

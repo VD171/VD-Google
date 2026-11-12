@@ -148,6 +148,7 @@
     <string name="about_license">ライセンス</string>
     <string name="about_contacts">連絡先</string>
     <string name="about_support">サポート</string>
+    <string name="about_trademarks">VD Google は独立した非公式のプロジェクトであり、Google LLC と提携しておらず、Google LLC によって承認または後援されているものではありません。Google、Google Wallet、Google Play、Play Integrity、および Android は、Google LLC の商標です。</string>
 
     <string name="action_close">閉じる</string>
     <string name="action_language">言語</string>

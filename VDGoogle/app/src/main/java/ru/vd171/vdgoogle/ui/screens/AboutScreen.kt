@@ -14,8 +14,9 @@
  *  Source         : https://github.com/VD171/VD-Google
  *  GitHub         : @VD171 https://github.com/VD171
  *  XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+ *  XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
  *  Telegram       : @VD_Priv8 https://t.me/VD_Priv8
- *  Telegram       : @Priv8_VD https://t.me/Priv8_VD
+ *  Channel        : @Priv8_VD https://t.me/Priv8_VD
  *  Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
  *  E-mail         : vd.priv8@pm.me
  * ======================================================================
@@ -155,6 +156,13 @@ fun AboutScreen(modifier: Modifier = Modifier) {
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "@RootDetected on Telegram", "https://t.me/RootDetected")
             AboutRow(Icons.AutoMirrored.Outlined.OpenInNew, null, "@BlankAssistance on Telegram", "https://t.me/BlankAssistance")
         }
+
+        Text(
+            stringResource(R.string.about_trademarks),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(start = 8.dp, end = 8.dp, top = 24.dp),
+        )
 
         Spacer(Modifier.size(16.dp))
     }

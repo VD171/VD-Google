@@ -148,6 +148,7 @@
     <string name="about_license">Lisensi</string>
     <string name="about_contacts">Kontak</string>
     <string name="about_support">Dukungan</string>
+    <string name="about_trademarks">VD Google adalah proyek independen dan tidak resmi, tidak berafiliasi dengan, didukung oleh, atau disponsori oleh Google LLC. Google, Google Wallet, Google Play, Play Integrity, dan Android adalah merek dagang dari Google LLC.</string>
 
     <string name="action_close">Tutup</string>
     <string name="action_language">Bahasa</string>

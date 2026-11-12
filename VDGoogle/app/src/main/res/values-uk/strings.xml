@@ -159,6 +159,7 @@
     <string name="about_license">Ліцензія</string>
     <string name="about_contacts">Контакти</string>
     <string name="about_support">Підтримка</string>
+    <string name="about_trademarks">VD Google - це незалежний, неофіційний проєкт, не пов\'язаний із Google LLC, не схвалений і не спонсорований нею. Google, Google Wallet, Google Play, Play Integrity та Android є торговими марками Google LLC.</string>
 
     <string name="rcs_carrier">Мобільний оператор</string>
     <string name="rcs_carrier_m">Мобільний оператор, який обслуговує вашу SIM-картку (назва та коди MCC/MNC).</string>

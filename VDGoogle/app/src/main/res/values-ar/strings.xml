@@ -148,6 +148,7 @@
     <string name="about_license">الترخيص</string>
     <string name="about_contacts">جهات الاتصال</string>
     <string name="about_support">الدعم</string>
+    <string name="about_trademarks">VD Google هو مشروع مستقل وغير رسمي، وغير مرتبط بشركة Google LLC أو معتمد منها أو برعايتها. إن Google وGoogle Wallet وGoogle Play وPlay Integrity وAndroid هي علامات تجارية لشركة Google LLC.</string>
 
     <string name="action_close">إغلاق</string>
     <string name="action_language">اللغة</string>

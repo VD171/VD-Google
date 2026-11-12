@@ -148,6 +148,7 @@
     <string name="about_license">라이선스</string>
     <string name="about_contacts">연락처</string>
     <string name="about_support">지원</string>
+    <string name="about_trademarks">VD Google은 독립적인 비공식 프로젝트이며, Google LLC와 제휴, 보증 또는 후원 관계가 없습니다. Google, Google Wallet, Google Play, Play Integrity 및 Android는 Google LLC의 상표입니다.</string>
 
     <string name="action_close">닫기</string>
     <string name="action_language">언어</string>

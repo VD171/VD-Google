@@ -5,18 +5,45 @@
 
 # VD Google
 
-**你的 Google 服务，在本机读取。永不联网。**
+<p align="center">
+  <img src="images/logo-wordmark.png" alt="VD Google" width="320">
+</p>
 
-VD Google 向你展示 Google 自己在你手机上记录的三类信息，并解释每一项的含义，而不会把任何内容发送到任何地方。
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases/latest"><img src="https://img.shields.io/github/v/release/VD171/VD-Google?label=release&color=0969da" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1a7f37" alt="License"></a>
+  <a href="https://github.com/VD171/VD-Google/releases"><img src="https://img.shields.io/github/downloads/VD171/VD-Google/total?label=downloads&color=8250df" alt="Downloads"></a>
+  <a href="https://github.com/VD171/VD-Google/stargazers"><img src="https://img.shields.io/github/stars/VD171/VD-Google?color=d29922" alt="Stars"></a>
+</p>
 
-> **语言：** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
+<p align="center">
+  <b>你的 Google 服务，在本机读取。永不联网。</b><br>
+  VD Google 向你展示 Google 自己在你手机上记录的关于 RCS、钱包和 Play Integrity 的信息，并解释每一项的含义，而不会把任何内容发送到任何地方。
+</p>
 
-<img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
+<p align="center">
+  <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
+</p>
 
+> **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.in.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
-## 文档
+<p align="center">
+  <img src="images/vdgoogle-01.png" height="420"/>
+  <img src="images/vdgoogle-02.png" height="420"/>
+  <img src="images/vdgoogle-03.png" height="420"/>
+  <img src="images/vdgoogle-04.png" height="420"/>
+  <img src="images/vdgoogle-05.png" height="420"/>
+</p>
 
-[VD Google 用户指南](docs/zh/USER-GUIDE.md) · [架构](docs/zh/ARCHITECTURE.md) · [隐私](docs/zh/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+---
 
 ## 应用或 WebUI
 
@@ -56,12 +83,20 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 所有时间均以你设备当前的时区显示，并始终标注时区。
 
+## 另请参阅
+
+同一作者的姊妹项目：
+
+- **[VDInfos](https://github.com/VD171/VD-Infos)**：设备方法调试器，通过每一种能读取它的方法读取每一项，并将它们并排比较。
+- **[VDBackup](https://github.com/VD171/VD-Backup)**：以 root 权限对应用和数据进行完整备份与恢复，完全从 WebUI 操控。
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**：设备伪装器，将全新的 fingerprint 转化为连贯一致的配置。
+
 ## 联系方式
 
 * https://vd171.ru
 * https://vd.priv8.ru
 * **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Telegram:** @Priv8_VD https://t.me/Priv8_VD
+* **Channel:** @Priv8_VD https://t.me/Priv8_VD
 * **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
 * **E-mail:** vd.priv8@pm.me
 * **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
@@ -72,14 +107,10 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 **GNU AGPL-3.0-or-later** - 参见 [LICENSE](LICENSE)。Copyleft，包含网络条款：任何运行修改版（即使作为服务）的人都必须提供其源代码。特意选择它以保持各分支开放。
 
-<!-- vd-see-also -->
+## 商标
 
-## 另请参阅
+VD Google 是一个独立的非官方项目。它与 Google LLC 无关，未获其认可或赞助。"Google"、"Google Wallet"、"Google Play"、"Play Integrity"、"Android" 以及相关名称和标志均为 Google LLC 的商标。VD Google 仅读取你设备上已有的内容，不会向任何地方发送任何东西。
 
-- **[VD Infos](https://github.com/VD171/VD-Infos)** - 方法调试器
-- **[COPG-VD](https://github.com/VD171/COPG-VD)** - COPG-VD 是一个设备伪装器
-- **[VD Backup](https://github.com/VD171/VD-Backup)** - 备份和恢复您的应用和数据
-
----
+## 标签
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
