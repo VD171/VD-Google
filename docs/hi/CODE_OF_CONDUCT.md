@@ -31,3 +31,9 @@
 ## श्रेय
 
 यह आचार संहिता [Contributor Covenant](https://www.contributor-covenant.org), संस्करण 2.1 से अनुकूलित है।
+
+<!-- doc-footer -->
+
+---
+
+> _यह दस्तावेज़ Claude (Anthropic) से तैयार किया गया है और इसे VD171 द्वारा अनुरक्षित किया जाता है। सुधार और संशोधन का स्वागत है; देखें [CONTRIBUTING.md](CONTRIBUTING.md)।_

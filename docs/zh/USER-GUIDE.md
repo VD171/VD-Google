@@ -164,3 +164,9 @@ VD Google 会说 21 种语言。在首次运行时选择你的语言，或随时
 么](#2-vd-google-不是什么)。
 
 **不用 root 能工作吗？** 不能。数据位于仅限系统的区域。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

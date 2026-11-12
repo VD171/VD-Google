@@ -96,3 +96,9 @@ SHA-256-värden.
 `sqlite3` körs som root, mot en kopia av en databas tagen åt sidan, enbart för att **läsa**.
 Den används aldrig för att skriva till någon av Googles databaser. Dess enda uppgift är att
 låta VD Google läsa samma värden på varje enhet. Ingen annan inbyggd binär levereras.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

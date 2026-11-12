@@ -203,3 +203,9 @@ urządzeniu. To uczciwe - VD Google nie pokaże "Nie", którego nie może poprze
 [2. Czym nie jest](#2-czym-nie-jest).
 
 **Czy działa bez roota?** Nie. Dane żyją w obszarach wyłącznie systemowych.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -41,3 +41,9 @@ Debido a lo que promete VD Google, estos son especialmente importantes:
 
 Solo se admite la última versión publicada. Por favor reproduce en la compilación más reciente antes
 de reportar.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

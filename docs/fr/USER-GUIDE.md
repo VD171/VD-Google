@@ -124,3 +124,9 @@ VD Google parle 21 langues. Choisissez la vôtre au premier lancement, ou change
 **Où est mon verdict Play Integrity ?** Il n'est pas sur votre appareil. Voir [2. Ce qu'il n'est pas](#2-ce-quil-nest-pas).
 
 **Fonctionne-t-il sans root ?** Non. Les données résident dans des zones réservées au système.
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

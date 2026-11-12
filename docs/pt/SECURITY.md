@@ -43,3 +43,9 @@ Por causa do que o VD Google promete, estes são especialmente importantes:
 
 Apenas a versão lançada mais recente é suportada. Por favor, reproduza na build mais
 recente antes de relatar.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

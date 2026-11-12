@@ -37,3 +37,9 @@
 ## 许可证
 
 通过贡献，你同意你的贡献按项目的 **GNU AGPL-3.0-or-later** 授权。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

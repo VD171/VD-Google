@@ -57,3 +57,9 @@ Nic z toho nemusíte brát jako samozřejmost:
   původ.
 - Přibalené binárky jsou zdokumentovány s kontrolními součty v
   [Přibalené binárky](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

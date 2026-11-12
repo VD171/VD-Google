@@ -54,3 +54,9 @@ You do not have to take any of this on trust:
 - The WebUI's Content-Security-Policy is in the source; confirm it blocks every remote
   origin.
 - The bundled binaries are documented with checksums in [Bundled binaries](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

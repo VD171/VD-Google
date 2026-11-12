@@ -193,3 +193,9 @@ RCS が、キャリアではなく Google 自身のバックエンドを通じ�
 [2. VD Google でないもの](#2-vd-google-でないもの) を参照してください。
 
 **root なしで動く?** いいえ。データはシステム専用の領域にあります。
+
+<!-- doc-footer -->
+
+---
+
+> _このドキュメントは Claude (Anthropic) で生成され、VD171 によって保守されています。修正や改善を歓迎します。[CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。_

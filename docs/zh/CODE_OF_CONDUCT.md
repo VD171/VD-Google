@@ -34,3 +34,9 @@
 ## 出处
 
 本行为准则改编自 [Contributor Covenant](https://www.contributor-covenant.org)，版本 2.1。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

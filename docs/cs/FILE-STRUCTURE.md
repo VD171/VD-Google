@@ -66,3 +66,9 @@ Na zařízení si modul WebUI drží svůj stav pod `/data/adb/vdgoogle/`:
 
 Aplikace si drží stejné krátkodobé scratch kopie místo toho ve své vlastní soukromé
 mezipaměti a svůj log akcí zapisuje do svého vlastního soukromého adresáře souborů.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

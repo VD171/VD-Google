@@ -69,3 +69,9 @@ Na urządzeniu moduł WebUI przechowuje swój stan pod `/data/adb/vdgoogle/`:
 
 Aplikacja przechowuje te same krótkotrwałe kopie scratch we własnej prywatnej pamięci
 podręcznej, a swój log działań zapisuje wewnątrz własnego prywatnego katalogu plików.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

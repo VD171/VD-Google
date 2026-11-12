@@ -69,3 +69,9 @@ Cihazda, WebUI modülü durumunu `/data/adb/vdgoogle/` altında tutar:
 
 Uygulama ise aynı kısa ömürlü scratch kopyalarını kendi özel önbelleğinde tutar ve eylem
 günlüğünü kendi özel dosyalar dizininin içine yazar.
+
+<!-- doc-footer -->
+
+---
+
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

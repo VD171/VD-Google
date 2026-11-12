@@ -58,3 +58,9 @@ Je hoeft niets hiervan op vertrouwen aan te nemen:
   externe oorsprong blokkeert.
 - De meegeleverde binaries zijn met checksums gedocumenteerd in
   [Meegeleverde binaries](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._

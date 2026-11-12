@@ -86,3 +86,9 @@ SHA-256 值。
 
 `sqlite3` 以 root 身份运行，针对旁置的数据库副本，纯粹用于**读取**。它绝不会被用于写入 Google 的任
 何数据库。它唯一的职责是让 VD Google 在每台设备上读取相同的数值。不内置任何其他原生二进制文件。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

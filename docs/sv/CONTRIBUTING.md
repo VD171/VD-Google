@@ -46,3 +46,9 @@ just detta.
 
 Genom att bidra godkänner du att ditt bidrag licensieras under projektets
 **GNU AGPL-3.0-or-later**.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

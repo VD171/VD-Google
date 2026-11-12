@@ -93,3 +93,9 @@ each `PROVENANCE.json`, extract them, and compare the file SHA-256 values.
 `sqlite3` is run as root, against a copy of a database taken aside, purely to **read**. It
 is never used to write to any of Google's databases. Its only job is to let VD Google read
 the same values on every device. No other native binary is bundled.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

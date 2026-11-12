@@ -67,3 +67,9 @@ On the device, the WebUI module keeps its state under `/data/adb/vdgoogle/`:
 
 The app keeps the same short-lived scratch copies in its own private cache instead, and
 writes its action log inside its own private files directory.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

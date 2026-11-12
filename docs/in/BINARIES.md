@@ -66,3 +66,9 @@ Setiap hash harus cocok dengan daftar di atas, dan salinan aplikasi dan WebUI ha
 ## Untuk apa ia digunakan
 
 `sqlite3` dijalankan sebagai root, terhadap salinan sebuah basis data yang diambil ke samping, murni untuk **membaca**. Ia tidak pernah digunakan untuk menulis ke basis data Google mana pun. Satu-satunya tugasnya adalah membiarkan VD Google membaca nilai yang sama di setiap perangkat. Tidak ada biner native lain yang disertakan.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

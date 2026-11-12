@@ -93,3 +93,9 @@ sha256sum VDGoogle/app/src/main/assets/bin/*/sqlite3 VDGoogle/app/src/main/asset
 تُشغَّل `sqlite3` بصلاحيات الـ root، على نسخة من قاعدة بيانات مأخوذة جانبًا، لغرض
 **القراءة** محضًا. ولا تُستخدم أبدًا للكتابة في أي من قواعد بيانات Google. ومهمتها الوحيدة
 هي أن تجعل VD Google يقرأ القيم نفسها على كل جهاز. ولا تُرفَق أي ثنائية أصلية أخرى.
+
+<!-- doc-footer -->
+
+---
+
+> _تم إنشاء هذا التوثيق باستخدام Claude (Anthropic) ويتولى صيانته VD171. التصحيحات والتحسينات مرحّب بها؛ راجع [CONTRIBUTING.md](CONTRIBUTING.md)._

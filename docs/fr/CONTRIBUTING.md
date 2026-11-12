@@ -30,3 +30,9 @@ Ouvrez un ticket avec le modèle de votre appareil, la version d'Android, et - s
 ## Licence
 
 En contribuant, vous acceptez que votre contribution soit distribuée sous la licence **GNU AGPL-3.0-or-later** du projet.
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -64,3 +64,9 @@ release 构建会产生 APK 和 WebUI 的 ZIP。构建产物不会被提交。�
 
 应用则改为把同样的短暂存活 scratch 副本保存在它自己的私有缓存中，并把它的操作日志写入它自己的私有文件
 目录内。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

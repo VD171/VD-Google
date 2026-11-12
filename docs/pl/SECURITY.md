@@ -43,3 +43,9 @@ Ze względu na to, co obiecuje VD Google, te są szczególnie ważne:
 
 Wspierana jest tylko najnowsza wydana wersja. Prosimy odtworzyć problem na najnowszej
 kompilacji przed zgłoszeniem.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

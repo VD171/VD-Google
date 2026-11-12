@@ -56,3 +56,9 @@ Di perangkat, modul WebUI menyimpan statusnya di bawah `/data/adb/vdgoogle/`:
 - `actions.jsonl` - log lokal tindakan yang mengubah status (penghapusan cache Google Wallet), masing-masing satu baris JSON, dibatasi hingga 200 entri terakhir. Ia tidak pernah meninggalkan perangkat.
 
 Sebagai gantinya, aplikasi menyimpan salinan scratch berumur-pendek yang sama di cache privatnya sendiri, dan menulis log tindakannya di dalam direktori berkas privatnya sendiri.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

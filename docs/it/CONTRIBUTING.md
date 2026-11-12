@@ -47,3 +47,9 @@ dell'esportazione è costruita esattamente per questo.
 
 Contribuendo, accetti che il tuo contributo sia rilasciato sotto la
 **GNU AGPL-3.0-or-later** del progetto.
+
+<!-- doc-footer -->
+
+---
+
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

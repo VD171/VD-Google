@@ -95,3 +95,9 @@ sha256sum VDGoogle/app/src/main/assets/bin/*/sqlite3 VDGoogle/app/src/main/asset
 実行されます。Google のいかなるデータベースへの書き込みにも決して使われません。その唯一の
 役割は、VD Google があらゆるデバイスで同じ値を読めるようにすることです。他のネイティブ
 バイナリは一切同梱されていません。
+
+<!-- doc-footer -->
+
+---
+
+> _このドキュメントは Claude (Anthropic) で生成され、VD171 によって保守されています。修正や改善を歓迎します。[CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。_

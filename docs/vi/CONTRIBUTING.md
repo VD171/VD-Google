@@ -46,3 +46,9 @@ một **bản xuất** (nó không chứa dữ liệu cá nhân). Phần chẩn 
 
 Bằng việc đóng góp, bạn đồng ý rằng đóng góp của bạn được cấp phép theo giấy phép của dự án,
 **GNU AGPL-3.0-or-later**.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

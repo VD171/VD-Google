@@ -41,3 +41,9 @@ respeitar a privacidade e a segurança de quem relatar qualquer incidente.
 
 Este Código de conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org),
 versão 2.1.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

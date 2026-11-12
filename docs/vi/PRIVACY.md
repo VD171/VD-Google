@@ -58,3 +58,9 @@ Bạn không phải tin điều nào trong số này một cách mù quáng:
   gốc từ xa.
 - Các tệp nhị phân đi kèm được ghi lại cùng tổng kiểm trong [Tệp nhị phân đi
   kèm](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

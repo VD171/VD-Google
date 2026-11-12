@@ -45,3 +45,9 @@ for exactly this.
 
 By contributing you agree that your contribution is licensed under the project's
 **GNU AGPL-3.0-or-later**.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

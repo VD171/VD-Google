@@ -37,3 +37,9 @@
 
 이 행동 강령은 [Contributor Covenant](https://www.contributor-covenant.org) 버전 2.1에서
 각색되었습니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

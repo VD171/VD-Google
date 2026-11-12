@@ -40,3 +40,9 @@ Vzhledem k tomu, co VD Google slibuje, jsou tyto obzvlášť důležité:
 
 Podporována je pouze nejnovější vydaná verze. Před nahlášením prosím reprodukujte na
 nejnovějším sestavení.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

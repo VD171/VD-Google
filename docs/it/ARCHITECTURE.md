@@ -78,3 +78,9 @@ producono lo stesso schema.
 - Non fabbrica, falsifica o nasconde mai un valore.
 - Non riporta mai un verdetto Play Integrity, perché quel verdetto non è sul dispositivo.
 - Cambia lo stato solo tramite un'azione esplicita, confermata e registrata localmente.
+
+<!-- doc-footer -->
+
+---
+
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

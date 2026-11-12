@@ -66,3 +66,9 @@ Chaque empreinte doit correspondre à la liste ci-dessus, et les copies de l'app
 ## À quoi il sert
 
 `sqlite3` est exécuté en root, sur une copie d'une base de données prise à part, uniquement pour **lire**. Il n'est jamais utilisé pour écrire dans une quelconque base de données de Google. Son seul rôle est de permettre à VD Google de lire les mêmes valeurs sur tous les appareils. Aucun autre binaire natif n'est embarqué.
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

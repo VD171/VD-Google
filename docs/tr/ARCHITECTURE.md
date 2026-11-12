@@ -77,3 +77,9 @@ parmak izi varsa çökertilerek kaldırılır. Uygulama ve WebUI aynı şemayı 
 - Asla bir Play Integrity kararı bildirmez, çünkü o karar cihazda değildir.
 - Durumu yalnızca açık, onaylanmış ve yerel olarak günlüğe kaydedilmiş bir eylem
   aracılığıyla değiştirir.
+
+<!-- doc-footer -->
+
+---
+
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

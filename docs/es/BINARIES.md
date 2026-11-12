@@ -95,3 +95,9 @@ entre sí. Para auditar toda la carga útil de principio a fin, vuelve a obtener
 **leer**. Nunca se usa para escribir en ninguna de las bases de datos de Google. Su única función es
 permitir que VD Google lea los mismos valores en todos los dispositivos. No se incluye ningún otro
 binario nativo.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

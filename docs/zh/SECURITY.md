@@ -33,3 +33,9 @@ VD Google 是一款隐私工具。它以 root 身份运行并读取敏感状态�
 ## 受支持的版本
 
 仅支持最新发布的版本。请在报告前于最新构建上复现。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

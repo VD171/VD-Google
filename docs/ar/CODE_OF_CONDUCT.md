@@ -38,3 +38,9 @@
 
 هذه المدونة مقتبسة من [Contributor Covenant](https://www.contributor-covenant.org)،
 الإصدار 2.1.
+
+<!-- doc-footer -->
+
+---
+
+> _تم إنشاء هذا التوثيق باستخدام Claude (Anthropic) ويتولى صيانته VD171. التصحيحات والتحسينات مرحّب بها؛ راجع [CONTRIBUTING.md](CONTRIBUTING.md)._

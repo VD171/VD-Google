@@ -99,3 +99,9 @@ SHA-256 dei file.
 puramente per **leggere**. Non viene mai usato per scrivere su alcun database di Google. Il
 suo unico compito è permettere a VD Google di leggere gli stessi valori su ogni dispositivo.
 Nessun altro binario nativo è incluso.
+
+<!-- doc-footer -->
+
+---
+
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

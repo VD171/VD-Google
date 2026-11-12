@@ -100,3 +100,9 @@ bestands-SHA-256-waarden.
 te **lezen**. Het wordt nooit gebruikt om naar een van Googles databases te schrijven. De
 enige taak ervan is VD Google op elk toestel dezelfde waarden te laten lezen. Er wordt geen
 enkele andere native binary meegeleverd.
+
+<!-- doc-footer -->
+
+---
+
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._

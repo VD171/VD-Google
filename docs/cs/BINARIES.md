@@ -96,3 +96,9 @@ SHA-256 souborů.
 `sqlite3` se spouští jako root proti kopii databáze vzaté stranou, čistě pro **čtení**.
 Nikdy se nepoužívá k zápisu do žádné z databází Google. Jeho jediným úkolem je nechat VD
 Google číst stejné hodnoty na každém zařízení. Žádná jiná nativní binárka se nepřibaluje.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

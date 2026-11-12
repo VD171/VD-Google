@@ -100,3 +100,9 @@ rozpakuj je i porównaj wartości SHA-256 plików.
 to, by **czytać**. Nigdy nie jest używany do zapisu w żadnej z baz danych Google. Jego
 jedynym zadaniem jest umożliwienie VD Google czytania tych samych wartości na każdym
 urządzeniu. Żaden inny natywny plik binarny nie jest dołączany.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

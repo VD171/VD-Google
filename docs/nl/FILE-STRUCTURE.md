@@ -69,3 +69,9 @@ Op het toestel houdt de WebUI-module zijn status onder `/data/adb/vdgoogle/`:
 
 De app houdt dezelfde kortstondige scratch-kopieën in plaats daarvan in zijn eigen private
 cache, en schrijft zijn actielog binnen zijn eigen private bestandenmap.
+
+<!-- doc-footer -->
+
+---
+
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._

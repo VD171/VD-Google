@@ -40,3 +40,9 @@ Ekspor adalah snapshot JSON yang telah dibersihkan. Sebuah penyanitasi berjalan 
 - Ia tidak pernah mengarang, memalsukan, atau menyembunyikan suatu nilai.
 - Ia tidak pernah melaporkan putusan Play Integrity, karena putusan itu tidak ada di perangkat.
 - Ia mengubah status hanya melalui tindakan yang eksplisit, dikonfirmasi, dan dicatat secara lokal.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

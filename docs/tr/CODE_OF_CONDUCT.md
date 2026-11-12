@@ -39,3 +39,9 @@ güvenliğine saygı göstermekle yükümlüdür.
 
 Bu Davranış Kuralları, [Contributor Covenant](https://www.contributor-covenant.org)
 sürüm 2.1'den uyarlanmıştır.
+
+<!-- doc-footer -->
+
+---
+
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

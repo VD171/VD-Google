@@ -45,3 +45,9 @@ exportación está hecha exactamente para esto.
 
 Al contribuir, aceptas que tu contribución se licencia bajo la **GNU AGPL-3.0-or-later** del
 proyecto.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

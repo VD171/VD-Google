@@ -76,3 +76,9 @@ inbäddat i ett namn bort. Appen och WebUI producerar samma schema.
 - Den rapporterar aldrig ett Play Integrity-utlåtande, eftersom det utlåtandet inte finns
   på enheten.
 - Den ändrar tillstånd endast genom en uttrycklig, bekräftad, lokalt loggad åtgärd.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

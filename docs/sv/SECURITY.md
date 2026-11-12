@@ -42,3 +42,9 @@ På grund av vad VD Google lovar är dessa särskilt viktiga:
 
 Endast den senast släppta versionen stöds. Reproducera på den senaste builden innan du
 rapporterar.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

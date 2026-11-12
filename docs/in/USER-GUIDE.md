@@ -124,3 +124,9 @@ VD Google berbicara dalam 21 bahasa. Pilih bahasa Anda saat pertama kali dijalan
 **Di mana putusan Play Integrity saya?** Ia tidak ada di perangkat Anda. Lihat [2. Apa yang bukan](#2-apa-yang-bukan).
 
 **Apakah ia bekerja tanpa root?** Tidak. Datanya berada di area hanya-sistem.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

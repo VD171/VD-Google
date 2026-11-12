@@ -60,3 +60,9 @@ Você não precisa aceitar nada disso por confiança:
   origem remota.
 - Os binários embarcados estão documentados com somas de verificação em
   [Binários embarcados](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

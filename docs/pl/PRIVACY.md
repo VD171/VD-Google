@@ -59,3 +59,9 @@ Nie musisz brać niczego z tego na wiarę:
 - Content-Security-Policy WebUI jest w źródle; potwierdź, że blokuje każde zdalne źródło.
 - Wbudowane pliki binarne są udokumentowane z sumami kontrolnymi w
   [Wbudowane pliki binarne](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

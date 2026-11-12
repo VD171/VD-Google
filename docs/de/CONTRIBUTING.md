@@ -46,3 +46,9 @@ dafür gebaut.
 
 Durch deinen Beitrag stimmst du zu, dass dein Beitrag unter der **GNU AGPL-3.0-or-later** des
 Projekts lizenziert ist.
+
+<!-- doc-footer -->
+
+---
+
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

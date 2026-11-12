@@ -194,3 +194,9 @@ Eso es honesto - VD Google no mostrará un "No" que no pueda respaldar.
 es](#2-qué-no-es).
 
 **¿Funciona sin root?** No. Los datos viven en áreas exclusivas del sistema.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

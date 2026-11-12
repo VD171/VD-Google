@@ -97,3 +97,9 @@ SHA-256-Werte der Dateien.
 **Lesen**. Es wird niemals verwendet, um in irgendeine von Googles Datenbanken zu schreiben. Seine
 einzige Aufgabe ist es, VD Google auf jedem Gerät dieselben Werte lesen zu lassen. Keine weitere
 native Binärdatei wird mitgeliefert.
+
+<!-- doc-footer -->
+
+---
+
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

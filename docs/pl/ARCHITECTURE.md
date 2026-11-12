@@ -80,3 +80,9 @@ nazwie jest usuwany. Aplikacja i WebUI produkują ten sam schemat.
 - Nigdy nie raportuje werdyktu Play Integrity, ponieważ tego werdyktu nie ma na
   urządzeniu.
 - Zmienia stan wyłącznie przez wyraźne, potwierdzone, lokalnie zalogowane działanie.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

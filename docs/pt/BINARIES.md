@@ -100,3 +100,9 @@ O `sqlite3` é executado como root, contra uma cópia de um banco de dados tirad
 lado, puramente para **ler**. Ele nunca é usado para gravar em nenhum dos bancos de dados
 do Google. Seu único trabalho é permitir que o VD Google leia os mesmos valores em todo
 dispositivo. Nenhum outro binário nativo é embarcado.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -40,3 +40,9 @@ incidentu.
 
 Tento Kodex chování vychází z [Contributor Covenant](https://www.contributor-covenant.org),
 verze 2.1.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

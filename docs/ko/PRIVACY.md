@@ -53,3 +53,9 @@ VD Google는 Google Wallet의 캐시된 증명 결과를 지워 향후 재검사
 - WebUI의 Content-Security-Policy는 소스에 있습니다, 모든 원격 출처를 차단함을
   확인하세요.
 - 내장 바이너리는 체크섬과 함께 [내장 바이너리](BINARIES.md)에 문서화되어 있습니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

@@ -32,3 +32,9 @@ En raison de ce que VD Google promet, les points suivants sont particulièrement
 ## Versions prises en charge
 
 Seule la dernière version publiée est prise en charge. Veuillez reproduire le problème sur la dernière compilation avant de le signaler.
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

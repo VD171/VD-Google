@@ -46,3 +46,9 @@ is precies hiervoor gemaakt.
 
 Door bij te dragen ga je ermee akkoord dat jouw bijdrage wordt gelicentieerd onder de
 **GNU AGPL-3.0-or-later** van het project.
+
+<!-- doc-footer -->
+
+---
+
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._

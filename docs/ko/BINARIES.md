@@ -95,3 +95,9 @@ sha256sum VDGoogle/app/src/main/assets/bin/*/sqlite3 VDGoogle/app/src/main/asset
 위해서만 쓰입니다. Google의 어떤 데이터베이스에도 쓰기에 사용되지 않습니다. 유일한 역할은
 VD Google가 모든 기기에서 같은 값을 읽을 수 있게 하는 것입니다. 다른 어떤 네이티브
 바이너리도 내장되지 않습니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

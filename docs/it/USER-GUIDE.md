@@ -203,3 +203,9 @@ dispositivo. Questo è onesto - VD Google non mostrerà un "No" che non può sos
 [2. Cosa non è](#2-cosa-non-è).
 
 **Funziona senza root?** No. I dati vivono in aree riservate al sistema.
+
+<!-- doc-footer -->
+
+---
+
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

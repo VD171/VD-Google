@@ -207,3 +207,9 @@ sustentar.
 [2. O que ele não é](#2-o-que-ele-não-é).
 
 **Funciona sem root?** Não. Os dados vivem em áreas exclusivas do sistema.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

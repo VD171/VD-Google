@@ -98,3 +98,9 @@ tệp.
 toàn chỉ để **đọc**. Nó không bao giờ được dùng để ghi vào bất kỳ cơ sở dữ liệu nào của
 Google. Công việc duy nhất của nó là để VD Google đọc cùng những giá trị trên mọi thiết bị.
 Không có tệp nhị phân gốc nào khác được đi kèm.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -190,3 +190,9 @@ VD Google는 21개 언어를 구사합니다. 첫 실행에서 귀하의 언어�
 것](#2-vd-google가-아닌-것)을 참조하세요.
 
 **root 없이 작동하나요?** 아니요. 데이터는 시스템 전용 영역에 있습니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

@@ -45,3 +45,9 @@ VD Google에 관심을 가져 주셔서 감사합니다. 번역, 버그 신고, 
 
 기여함으로써 귀하의 기여가 프로젝트의 **GNU AGPL-3.0-or-later** 라이선스에 따라 제공됨에
 동의하는 것입니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

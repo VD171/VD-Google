@@ -32,3 +32,9 @@ Karena apa yang dijanjikan VD Google, hal-hal berikut sangat penting:
 ## Versi yang didukung
 
 Hanya versi rilis terbaru yang didukung. Harap reproduksi pada build terbaru sebelum melaporkan.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -45,3 +45,9 @@ VD Google にご興味をお持ちいただきありがとうございます。�
 
 貢献することで、あなたは自分の貢献がプロジェクトの **GNU AGPL-3.0-or-later** の下で
 ライセンスされることに同意します。
+
+<!-- doc-footer -->
+
+---
+
+> _このドキュメントは Claude (Anthropic) で生成され、VD171 によって保守されています。修正や改善を歓迎します。[CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。_

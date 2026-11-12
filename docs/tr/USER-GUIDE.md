@@ -202,3 +202,9 @@ dürüstçedir - VD Google destekleyemeyeceği bir "No" göstermez.
 [2. Ne değildir](#2-ne-değildir) bölümüne bakın.
 
 **Root olmadan çalışır mı?** Hayır. Veriler yalnızca sisteme özel alanlarda yaşar.
+
+<!-- doc-footer -->
+
+---
+
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

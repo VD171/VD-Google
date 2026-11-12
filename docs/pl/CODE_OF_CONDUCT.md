@@ -41,3 +41,9 @@ bezpieczeństwa osoby zgłaszającej dowolny incydent.
 
 Niniejszy Kodeks postępowania jest adaptacją [Contributor Covenant](https://www.contributor-covenant.org),
 w wersji 2.1.
+
+<!-- doc-footer -->
+
+---
+
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

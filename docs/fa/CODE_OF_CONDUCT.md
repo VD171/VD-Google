@@ -31,3 +31,9 @@
 ## انتساب
 
 این آیین‌نامهٔ رفتار برگرفته از [Contributor Covenant](https://www.contributor-covenant.org)، نسخهٔ 2.1 است.
+
+<!-- doc-footer -->
+
+---
+
+> _این مستندات با Claude (Anthropic) تولید شده و توسط VD171 نگهداری می‌شود. اصلاحات و بهبودها خوش‌آمد است؛ به [CONTRIBUTING.md](CONTRIBUTING.md) مراجعه کنید._

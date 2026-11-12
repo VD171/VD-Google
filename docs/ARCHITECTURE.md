@@ -74,3 +74,9 @@ and the WebUI produce the same schema.
 - It never fabricates, spoofs or hides a value.
 - It never reports a Play Integrity verdict, because that verdict is not on the device.
 - It changes state only through an explicit, confirmed, locally logged action.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

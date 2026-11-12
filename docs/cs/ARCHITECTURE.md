@@ -74,3 +74,9 @@ sbalí pryč. Aplikace i WebUI produkují stejné schéma.
 - Nikdy nevymýšlí, nefalšuje ani neskrývá žádnou hodnotu.
 - Nikdy nehlásí verdikt Play Integrity, protože ten verdikt na zařízení není.
 - Stav mění pouze výslovnou, potvrzenou a lokálně zalogovanou akcí.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

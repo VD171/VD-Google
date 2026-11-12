@@ -67,3 +67,9 @@ En el dispositivo, el módulo WebUI guarda su estado bajo `/data/adb/vdgoogle/`:
 
 La app guarda esas mismas copias efímeras de scratch en su propia caché privada en su lugar, y
 escribe su registro de acciones dentro de su propio directorio de archivos privado.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

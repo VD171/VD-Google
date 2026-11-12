@@ -30,3 +30,9 @@ Buka issue dengan model perangkat Anda, versi Android, dan - jika menyangkut sua
 ## Lisensi
 
 Dengan berkontribusi Anda menyetujui bahwa kontribusi Anda dilisensikan di bawah **GNU AGPL-3.0-or-later** proyek ini.
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

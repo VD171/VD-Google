@@ -54,3 +54,9 @@ VD Google は、将来の再チェックがまっさらな状態から始まる�
 - WebUI の Content-Security-Policy はソースの中にあります。あらゆるリモートオリジンを
   ブロックしていることを確認してください。
 - 同梱バイナリはチェックサム付きで[同梱バイナリ](BINARIES.md)に記載されています。
+
+<!-- doc-footer -->
+
+---
+
+> _このドキュメントは Claude (Anthropic) で生成され、VD171 によって保守されています。修正や改善を歓迎します。[CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。_

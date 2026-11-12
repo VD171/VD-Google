@@ -75,3 +75,9 @@ colapsa y elimina. La app y la WebUI producen el mismo esquema.
 - Nunca fabrica, falsea ni oculta un valor.
 - Nunca reporta un veredicto de Play Integrity, porque ese veredicto no está en el dispositivo.
 - Cambia el estado solo mediante una acción explícita, confirmada y registrada localmente.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

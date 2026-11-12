@@ -62,3 +62,9 @@ blob）。可选的诊断部分只携带架构名称、计数、大小和版本 
 - 它绝不臆造、伪造或隐藏任何数值。
 - 它绝不报告 Play Integrity 判定，因为该判定并不在设备上。
 - 它只通过一次明确的、经确认的、本地记录在案的操作来改变状态。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

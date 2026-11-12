@@ -68,3 +68,9 @@ På enheten håller WebUI-modulen sitt tillstånd under `/data/adb/vdgoogle/`:
 
 Appen håller i stället samma kortlivade scratch-kopior i sin egen privata cache och skriver
 sin åtgärdslogg inuti sin egen privata filkatalog.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

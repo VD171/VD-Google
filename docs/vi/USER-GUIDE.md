@@ -202,3 +202,9 @@ Google không phải là gì](#2-vd-google-không-phải-là-gì).
 
 **Nó có hoạt động không cần root không?** Không. Dữ liệu nằm ở những vùng chỉ-dành-cho-hệ-
 thống.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

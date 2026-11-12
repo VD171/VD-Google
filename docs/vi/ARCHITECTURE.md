@@ -80,3 +80,9 @@ một lược đồ.
   thiết bị.
 - Nó chỉ thay đổi trạng thái thông qua một hành động tường minh, đã được xác nhận và được
   ghi nhật ký cục bộ.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

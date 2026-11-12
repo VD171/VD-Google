@@ -69,3 +69,9 @@ Trên thiết bị, module WebUI giữ trạng thái của nó dưới `/data/ad
 
 Thay vào đó, ứng dụng giữ cùng những bản sao scratch tồn tại ngắn ngủi đó trong bộ nhớ đệm
 riêng của nó, và ghi nhật ký hành động của nó bên trong thư mục tệp riêng của chính nó.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

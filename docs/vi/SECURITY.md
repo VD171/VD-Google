@@ -42,3 +42,9 @@ Vì những gì VD Google cam kết, những điều sau đặc biệt quan tr�
 
 Chỉ phiên bản phát hành mới nhất được hỗ trợ. Vui lòng tái hiện trên bản dựng mới nhất trước
 khi báo cáo.
+
+<!-- doc-footer -->
+
+---
+
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._

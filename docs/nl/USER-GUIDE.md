@@ -200,3 +200,9 @@ is eerlijk - VD Google toont geen "No" die het niet kan staven.
 is](#2-wat-het-niet-is).
 
 **Werkt het zonder root?** Nee. De gegevens leven in systeem-only delen.
+
+<!-- doc-footer -->
+
+---
+
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._

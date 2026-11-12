@@ -57,3 +57,9 @@ Non devi credere a nulla di tutto questo sulla fiducia:
 - La Content-Security-Policy della WebUI è nel sorgente; verifica che blocchi ogni origine
   remota.
 - I binari inclusi sono documentati con i checksum in [Binari inclusi](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

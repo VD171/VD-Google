@@ -197,3 +197,9 @@ Das ist ehrlich - VD Google wird kein "Nein" anzeigen, das es nicht belegen kann
 ist](#2-was-es-nicht-ist).
 
 **Funktioniert es ohne Root?** Nein. Die Daten leben in systemeigenen Bereichen.
+
+<!-- doc-footer -->
+
+---
+
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -58,3 +58,9 @@ Du musst nichts davon auf Vertrauen hinnehmen:
   blockiert.
 - Die mitgelieferten Binärdateien sind mit Prüfsummen in [Mitgelieferte Binärdateien](BINARIES.md)
   dokumentiert.
+
+<!-- doc-footer -->
+
+---
+
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

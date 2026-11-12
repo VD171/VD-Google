@@ -198,3 +198,9 @@ negativa. Se [6.2 RCS](#62-rcs).
 [2. Vad det inte är](#2-vad-det-inte-är).
 
 **Fungerar det utan root?** Nej. Datan lever i endast system-åtkomliga områden.
+
+<!-- doc-footer -->
+
+---
+
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._

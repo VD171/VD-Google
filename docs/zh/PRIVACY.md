@@ -49,3 +49,9 @@ VD Google 可以清除 Google Wallet 缓存的认证结果，使未来的重新�
 - 清单在源代码中；请确认它不声明任何权限。
 - WebUI 的 Content-Security-Policy 在源代码中；请确认它阻止一切远程来源。
 - 内置二进制文件连同校验和都记录在[内置二进制文件](BINARIES.md)中。
+
+<!-- doc-footer -->
+
+---
+
+> _本文档由 Claude (Anthropic) 生成，并由 VD171 维护。欢迎修正和改进；请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。_

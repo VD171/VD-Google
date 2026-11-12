@@ -43,3 +43,9 @@ VD Google'ın vaat ettiği şey nedeniyle, şunlar özellikle önemlidir:
 
 Yalnızca en son yayımlanan sürüm desteklenir. Lütfen bildirmeden önce en son derlemede
 yeniden üretin.
+
+<!-- doc-footer -->
+
+---
+
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

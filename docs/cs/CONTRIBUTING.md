@@ -46,3 +46,9 @@ k tomuto.
 
 Přispěním souhlasíte s tím, že váš příspěvek je licencován pod projektovou
 **GNU AGPL-3.0-or-later**.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -56,3 +56,9 @@ Sur l'appareil, le module WebUI conserve son état sous `/data/adb/vdgoogle/` :
 - `actions.jsonl` - le journal local des actions qui modifient l'état (l'effacement du cache de Google Wallet), une ligne JSON chacune, plafonné aux 200 dernières entrées. Il ne quitte jamais l'appareil.
 
 L'application conserve plutôt les mêmes copies éphémères dans son propre cache privé, et écrit son journal d'actions à l'intérieur de son propre répertoire de fichiers privés.
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

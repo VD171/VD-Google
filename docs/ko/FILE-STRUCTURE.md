@@ -68,3 +68,9 @@ readme를 참조하세요.
 
 앱은 대신 동일한 수명 짧은 scratch 복사본을 자신의 전용 캐시에 보관하고, 작업 로그는 자신의
 전용 파일 디렉터리 안에 기록합니다.
+
+<!-- doc-footer -->
+
+---
+
+> _이 문서는 Claude (Anthropic)로 생성되었으며 VD171이 유지 관리합니다. 수정 및 개선을 환영합니다. [CONTRIBUTING.md](CONTRIBUTING.md)를 참조하세요._

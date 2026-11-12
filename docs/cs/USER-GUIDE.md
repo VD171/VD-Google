@@ -197,3 +197,9 @@ je upřímné - VD Google neukáže "Ne", které nemůže podložit.
 [2. Co to není](#2-co-to-není).
 
 **Funguje to bez rootu?** Ne. Data žijí v systémových oblastech.
+
+<!-- doc-footer -->
+
+---
+
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._

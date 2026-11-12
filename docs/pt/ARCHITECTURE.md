@@ -81,3 +81,9 @@ mesmo esquema.
   dispositivo.
 - Ele só altera o estado por meio de uma ação explícita, confirmada e registrada
   localmente.
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._

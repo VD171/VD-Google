@@ -77,3 +77,9 @@ zusammengefaltet und entfernt. Die App und die WebUI erzeugen dasselbe Schema.
 - Es fälscht, täuscht oder verbirgt niemals einen Wert.
 - Es meldet niemals ein Play-Integrity-Urteil, weil dieses Urteil nicht auf dem Gerät liegt.
 - Es ändert den Zustand nur durch eine ausdrückliche, bestätigte, lokal protokollierte Aktion.
+
+<!-- doc-footer -->
+
+---
+
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

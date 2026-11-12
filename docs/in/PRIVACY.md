@@ -43,3 +43,9 @@ Anda tidak harus mempercayai semua ini begitu saja:
 - Manifes ada di dalam sumber; pastikan ia tidak mendeklarasikan izin apa pun.
 - Content-Security-Policy WebUI ada di dalam sumber; pastikan ia memblokir setiap origin jarak jauh.
 - Biner yang disertakan didokumentasikan dengan checksum di [Biner yang disertakan](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

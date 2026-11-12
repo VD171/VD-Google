@@ -196,3 +196,9 @@ That is honest - VD Google will not show a "No" it cannot back up.
 [2. What it is not](#2-what-it-is-not).
 
 **Does it work without root?** No. The data lives in system-only areas.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._

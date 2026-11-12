@@ -43,3 +43,9 @@ Vous n'avez à rien prendre pour argent comptant :
 - Le manifeste est dans le code source ; confirmez qu'il ne déclare aucune permission.
 - La Content-Security-Policy de la WebUI est dans le code source ; confirmez qu'elle bloque toute origine distante.
 - Les binaires embarqués sont documentés avec leurs sommes de contrôle dans [Binaires embarqués](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._

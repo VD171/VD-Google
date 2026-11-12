@@ -93,3 +93,9 @@ sha256sum VDGoogle/app/src/main/assets/bin/*/sqlite3 VDGoogle/app/src/main/asset
 `sqlite3` ถูกรันในฐานะ root กับสำเนาของฐานข้อมูลที่คัดลอกออกมาแยกไว้ เพื่อ **อ่าน** ล้วน ๆ
 มันไม่เคยถูกใช้เขียนลงฐานข้อมูลใด ๆ ของ Google หน้าที่เดียวของมันคือให้ VD Google อ่านค่า
 เดียวกันบนทุกอุปกรณ์ ไม่มีไบนารีเนทีฟอื่นใดมาพร้อมในตัว
+
+<!-- doc-footer -->
+
+---
+
+> _เอกสารนี้สร้างขึ้นด้วย Claude (Anthropic) และดูแลโดย VD171 ยินดีรับการแก้ไขและการปรับปรุง ดู [CONTRIBUTING.md](CONTRIBUTING.md)_

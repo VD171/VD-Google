@@ -55,3 +55,9 @@ No tienes que aceptar nada de esto por confianza:
   remoto.
 - Los binarios incluidos están documentados con sumas de verificación en [Binarios
   incluidos](BINARIES.md).
+
+<!-- doc-footer -->
+
+---
+
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._
