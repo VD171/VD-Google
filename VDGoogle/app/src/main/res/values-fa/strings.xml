@@ -58,7 +58,7 @@
     <string name="rcs_state">وضعیت تدارک (کش‌شده)</string>
     <string name="rcs_state_m">یک مقدار تدارک داخلی که اپ پیام‌رسان برای خط شما نگه می‌دارد. ممکن است پس از کارکردن RCS همچنان ۰ بماند، پس به خط اتصال بالا اعتماد کنید.</string>
     <string name="rcs_cfg_version">نسخه پیکربندی</string>
-    <string name="rcs_cfg_version_m">نسخه پیکربندی RCS که به این خط رسیده است. مقدار ۰ یعنی هنوز پیکربندی معتبری نرسیده است.</string>
+    <string name="rcs_cfg_version_m">نسخه پیکربندی RCS که به این خط رسیده است. مقدار ۰ یعنی هنوز پیکربندی معتبری نرسیده است. وجود ۰ در اینجا طبیعی است وقتی RCS شما به‌جای اپراتور از بک‌اند خود Google عبور می‌کند.</string>
     <string name="rcs_capable">مخاطبان با قابلیت RCS</string>
     <string name="rcs_capable_m">چند نفر از مخاطبان شما در حال حاضر شناخته‌شده‌اند که از گفتگوی RCS پشتیبانی می‌کنند.</string>
     <string name="rcs_flag_enabled">پرچم قابلیت (کش‌شده)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">علامت‌خورده به‌عنوان در دسترس نبودن</string>
     <string name="rcs_flag_unavailable_m">اینکه آیا سرویس، RCS را برای این خط به‌عنوان در دسترس نبودن علامت زده است.</string>
     <string name="rcs_entitlement">اجازه اپراتور</string>
-    <string name="rcs_entitlement_m">اینکه آیا سرویس اجازه اپراتور که RCS را مجاز می‌کند فعال است.</string>
+    <string name="rcs_entitlement_m">اینکه آیا سرویس اجازه اپراتور که RCS را مجاز می‌کند فعال است. وجود ۰ در اینجا طبیعی است وقتی RCS شما به‌جای اپراتور از بک‌اند خود Google عبور می‌کند.</string>
     <string name="rcs_uce">حضور (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange، که به خط شما اجازه می‌دهد قابلیت‌های RCS را اعلام و کشف کند.</string>
+    <string name="rcs_uce_m">User Capability Exchange، که به خط شما اجازه می‌دهد قابلیت‌های RCS را اعلام و کشف کند. وجود «خیر» در اینجا طبیعی است وقتی RCS شما به‌جای اپراتور از بک‌اند خود Google عبور می‌کند.</string>
     <string name="rcs_ims_pkg">سرویس IMS موجود</string>
-    <string name="rcs_ims_pkg_m">اینکه آیا سرویس IMS اپراتور که RCS به آن متکی است روی دستگاه نصب است.</string>
+    <string name="rcs_ims_pkg_m">اینکه آیا سرویس IMS اپراتور که RCS به آن متکی است روی دستگاه نصب است. وجود «خیر» در اینجا طبیعی است وقتی RCS شما به‌جای اپراتور از بک‌اند خود Google عبور می‌کند.</string>
 
     <string name="rcs_sec_times">برچسب‌های زمانی</string>
     <string name="rcs_cfg_updated">پیکربندی به‌روزرسانی شد</string>

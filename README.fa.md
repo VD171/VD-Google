@@ -13,6 +13,11 @@ VD Google به شما نشان می‌دهد که خود Google درباره س�
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## مستندات
+
+[راهنمای کاربر VD Google](docs/fa/USER-GUIDE.md) · [معماری](docs/fa/ARCHITECTURE.md) · [حریم خصوصی](docs/fa/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## اپلیکیشن یا WebUI
 
 هر نسخه به دو شکل عرضه می‌شود و هر دو همان اطلاعات را روی دستگاه شما و بدون اینترنت می‌خوانند:

@@ -13,6 +13,11 @@ VD Google visar vad Google självt registrerar i din telefon om tre saker, och f
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Dokumentation
+
+[VD Google användarguide](docs/sv/USER-GUIDE.md) · [Arkitektur](docs/sv/ARCHITECTURE.md) · [Integritet](docs/sv/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## App eller WebUI
 
 Varje version finns i två former, och båda läser samma saker på din enhet, utan internet:

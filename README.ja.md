@@ -13,6 +13,11 @@ VD Google は、Google 自身があなたの端末に記録している 3 つの
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## ドキュメント
+
+[VD Google ユーザーガイド](docs/ja/USER-GUIDE.md) · [アーキテクチャ](docs/ja/ARCHITECTURE.md) · [プライバシー](docs/ja/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## アプリまたは WebUI
 
 各リリースには2つの形式があり、どちらもインターネットを使わず、端末上で同じ情報を読み取ります。

@@ -64,7 +64,9 @@ private class RootIpc(private val ctx: Context) : IRootIpc.Stub() {
             copyIfExists(File(dbPath), copy)
             if (!copy.exists()) return emptyList()
             if (withWal) copyIfExists(File("$dbPath-wal"), File(dir, "$base.db-wal"))
-            val p = ProcessBuilder(sq.absolutePath, "-separator", "\t", copy.absolutePath, sql).start()
+            val pb = ProcessBuilder(sq.absolutePath, "-separator", "\t", copy.absolutePath, sql)
+            pb.environment()["LD_LIBRARY_PATH"] = File(sq.parentFile, "lib").absolutePath
+            val p = pb.start()
             val out = p.inputStream.bufferedReader().use { it.readText() }
             p.errorStream.bufferedReader().use { it.readText() }
             p.waitFor()
@@ -78,10 +80,20 @@ private class RootIpc(private val ctx: Context) : IRootIpc.Stub() {
 
     private val sqlite3Bin: File? by lazy {
         runCatching {
-            val abi = if (Build.SUPPORTED_ABIS.any { it.startsWith("arm64") }) "arm64-v8a" else "armeabi-v7a"
+            val abi = when {
+                Build.SUPPORTED_ABIS.any { it == "arm64-v8a" } -> "arm64-v8a"
+                Build.SUPPORTED_ABIS.any { it == "armeabi-v7a" } -> "armeabi-v7a"
+                else -> return@runCatching null
+            }
             val dst = File(ctx.cacheDir, "bin/sqlite3").apply { parentFile?.mkdirs() }
             ctx.assets.open("bin/$abi/sqlite3").use { i -> dst.outputStream().use { o -> i.copyTo(o) } }
             dst.setExecutable(true, false)
+            val libDir = File(dst.parentFile, "lib").apply { mkdirs() }
+            for (lib in ctx.assets.list("bin/$abi/lib").orEmpty()) {
+                val lf = File(libDir, lib)
+                ctx.assets.open("bin/$abi/lib/$lib").use { i -> lf.outputStream().use { o -> i.copyTo(o) } }
+                lf.setReadable(true, false)
+            }
             dst
         }.getOrNull()
     }

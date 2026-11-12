@@ -58,7 +58,7 @@
     <string name="rcs_state">Status provisioning (di-cache)</string>
     <string name="rcs_state_m">Nilai provisioning internal yang disimpan aplikasi pesan untuk jalur Anda. Bisa tetap 0 meski RCS sudah berfungsi, jadi andalkan baris Koneksi di atas.</string>
     <string name="rcs_cfg_version">Versi konfigurasi</string>
-    <string name="rcs_cfg_version_m">Versi konfigurasi RCS yang dikirimkan ke jalur ini. Nilai 0 berarti belum ada konfigurasi valid yang tiba.</string>
+    <string name="rcs_cfg_version_m">Versi konfigurasi RCS yang dikirimkan ke jalur ini. Nilai 0 berarti belum ada konfigurasi valid yang tiba. Angka 0 di sini normal bila RCS Anda berjalan melalui backend milik Google, bukan operator Anda.</string>
     <string name="rcs_capable">Kontak yang mendukung RCS</string>
     <string name="rcs_capable_m">Berapa banyak kontak Anda yang saat ini diketahui mendukung chat RCS.</string>
     <string name="rcs_flag_enabled">Flag fitur (di-cache)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Ditandai tidak tersedia</string>
     <string name="rcs_flag_unavailable_m">Apakah layanan menandai RCS sebagai tidak tersedia untuk jalur ini.</string>
     <string name="rcs_entitlement">Hak operator</string>
-    <string name="rcs_entitlement_m">Apakah layanan hak operator yang mengizinkan RCS diaktifkan.</string>
+    <string name="rcs_entitlement_m">Apakah layanan hak operator yang mengizinkan RCS diaktifkan. Angka 0 di sini normal bila RCS Anda berjalan melalui backend milik Google, bukan operator Anda.</string>
     <string name="rcs_uce">Kehadiran (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, yang memungkinkan jalur Anda mengumumkan dan menemukan kemampuan RCS.</string>
+    <string name="rcs_uce_m">User Capability Exchange, yang memungkinkan jalur Anda mengumumkan dan menemukan kemampuan RCS. Tidak di sini normal bila RCS Anda berjalan melalui backend milik Google, bukan operator Anda.</string>
     <string name="rcs_ims_pkg">Layanan IMS ada</string>
-    <string name="rcs_ims_pkg_m">Apakah layanan IMS operator, yang menjadi sandaran RCS, terpasang di perangkat.</string>
+    <string name="rcs_ims_pkg_m">Apakah layanan IMS operator, yang menjadi sandaran RCS, terpasang di perangkat. Tidak di sini normal bila RCS Anda berjalan melalui backend milik Google, bukan operator Anda.</string>
 
     <string name="rcs_sec_times">Stempel waktu</string>
     <string name="rcs_cfg_updated">Konfigurasi diperbarui</string>

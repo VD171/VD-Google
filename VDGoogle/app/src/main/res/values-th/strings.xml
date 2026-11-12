@@ -58,7 +58,7 @@
     <string name="rcs_state">สถานะการจัดเตรียม (แคช)</string>
     <string name="rcs_state_m">ค่าการจัดเตรียมภายในที่แอปข้อความเก็บไว้สำหรับเลขหมายของคุณ อาจยังเป็น 0 แม้ว่า RCS จะทำงานแล้ว จึงควรเชื่อถือบรรทัดการเชื่อมต่อด้านบน</string>
     <string name="rcs_cfg_version">เวอร์ชันการกำหนดค่า</string>
-    <string name="rcs_cfg_version_m">เวอร์ชันของการกำหนดค่า RCS ที่ส่งมายังเลขหมายนี้ ค่า 0 หมายความว่ายังไม่มีการกำหนดค่าที่ใช้ได้มาถึง</string>
+    <string name="rcs_cfg_version_m">เวอร์ชันของการกำหนดค่า RCS ที่ส่งมายังเลขหมายนี้ ค่า 0 หมายความว่ายังไม่มีการกำหนดค่าที่ใช้ได้มาถึง เลข 0 ตรงนี้เป็นเรื่องปกติเมื่อ RCS ของคุณทำงานผ่านแบ็กเอนด์ของ Google เองแทนที่จะเป็นผู้ให้บริการของคุณ</string>
     <string name="rcs_capable">รายชื่อที่รองรับ RCS</string>
     <string name="rcs_capable_m">จำนวนรายชื่อของคุณที่ทราบในปัจจุบันว่ารองรับแชต RCS</string>
     <string name="rcs_flag_enabled">แฟล็กฟีเจอร์ (แคช)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">ถูกทำเครื่องหมายว่าไม่พร้อมใช้งาน</string>
     <string name="rcs_flag_unavailable_m">ว่าบริการได้ทำเครื่องหมาย RCS ว่าไม่พร้อมใช้งานสำหรับเลขหมายนี้หรือไม่</string>
     <string name="rcs_entitlement">สิทธิ์จากผู้ให้บริการ</string>
-    <string name="rcs_entitlement_m">ว่าบริการสิทธิ์ของผู้ให้บริการที่อนุญาต RCS เปิดใช้งานอยู่หรือไม่</string>
+    <string name="rcs_entitlement_m">ว่าบริการสิทธิ์ของผู้ให้บริการที่อนุญาต RCS เปิดใช้งานอยู่หรือไม่ เลข 0 ตรงนี้เป็นเรื่องปกติเมื่อ RCS ของคุณทำงานผ่านแบ็กเอนด์ของ Google เองแทนที่จะเป็นผู้ให้บริการของคุณ</string>
     <string name="rcs_uce">การแสดงตน (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange ซึ่งให้เลขหมายของคุณประกาศและค้นพบความสามารถ RCS ได้</string>
+    <string name="rcs_uce_m">User Capability Exchange ซึ่งให้เลขหมายของคุณประกาศและค้นพบความสามารถ RCS ได้ ไม่ ตรงนี้เป็นเรื่องปกติเมื่อ RCS ของคุณทำงานผ่านแบ็กเอนด์ของ Google เองแทนที่จะเป็นผู้ให้บริการของคุณ</string>
     <string name="rcs_ims_pkg">มีบริการ IMS</string>
-    <string name="rcs_ims_pkg_m">ว่าบริการ IMS ของผู้ให้บริการที่ RCS ต้องพึ่งพานั้นติดตั้งอยู่บนอุปกรณ์หรือไม่</string>
+    <string name="rcs_ims_pkg_m">ว่าบริการ IMS ของผู้ให้บริการที่ RCS ต้องพึ่งพานั้นติดตั้งอยู่บนอุปกรณ์หรือไม่ ไม่ ตรงนี้เป็นเรื่องปกติเมื่อ RCS ของคุณทำงานผ่านแบ็กเอนด์ของ Google เองแทนที่จะเป็นผู้ให้บริการของคุณ</string>
 
     <string name="rcs_sec_times">การประทับเวลา</string>
     <string name="rcs_cfg_updated">อัปเดตการกำหนดค่าแล้ว</string>

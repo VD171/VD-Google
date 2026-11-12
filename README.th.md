@@ -13,6 +13,11 @@ VD Google แสดงให้คุณเห็นสิ่งที่ Google
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## เอกสารประกอบ
+
+[คู่มือผู้ใช้ VD Google](docs/th/USER-GUIDE.md) · [สถาปัตยกรรม](docs/th/ARCHITECTURE.md) · [ความเป็นส่วนตัว](docs/th/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## แอปหรือ WebUI
 
 แต่ละรุ่นมีให้สองแบบ และทั้งสองแบบอ่านข้อมูลเดียวกันบนอุปกรณ์ของคุณโดยไม่ใช้อินเทอร์เน็ต:

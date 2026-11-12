@@ -58,7 +58,7 @@
     <string name="rcs_state">Состояние подготовки (из кеша)</string>
     <string name="rcs_state_m">Внутреннее значение подготовки, которое приложение сообщений хранит для вашей линии. Оно может оставаться равным 0, даже когда RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_cfg_version">Версия конфигурации</string>
-    <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила.</string>
+    <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила. 0 здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_capable">Контакты с поддержкой RCS</string>
     <string name="rcs_capable_m">Сколько ваших контактов в настоящее время известны как поддерживающие чат RCS.</string>
     <string name="rcs_flag_enabled">Флаг функции (из кеша)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Помечено как недоступное</string>
     <string name="rcs_flag_unavailable_m">Пометила ли служба RCS как недоступный для этой линии.</string>
     <string name="rcs_entitlement">Разрешение оператора</string>
-    <string name="rcs_entitlement_m">Включена ли служба разрешений оператора, которая авторизует RCS.</string>
+    <string name="rcs_entitlement_m">Включена ли служба разрешений оператора, которая авторизует RCS. 0 здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_uce">Присутствие (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, позволяющий вашей линии объявлять и обнаруживать возможности RCS.</string>
+    <string name="rcs_uce_m">User Capability Exchange, позволяющий вашей линии объявлять и обнаруживать возможности RCS. Нет здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_ims_pkg">Служба IMS присутствует</string>
-    <string name="rcs_ims_pkg_m">Установлена ли на устройстве служба IMS оператора, от которой зависит RCS.</string>
+    <string name="rcs_ims_pkg_m">Установлена ли на устройстве служба IMS оператора, от которой зависит RCS. Нет здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
 
     <string name="rcs_sec_times">Метки времени</string>
     <string name="rcs_cfg_updated">Конфигурация обновлена</string>

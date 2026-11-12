@@ -58,7 +58,7 @@
     <string name="rcs_state">プロビジョニング状態（キャッシュ）</string>
     <string name="rcs_state_m">メッセージアプリが回線について保持する内部プロビジョニング値です。RCS がすでに動作していても 0 のままになることがあるため、上の接続の行を信頼してください。</string>
     <string name="rcs_cfg_version">構成バージョン</string>
-    <string name="rcs_cfg_version_m">この回線に配信された RCS 構成のバージョン。値が 0 の場合、有効な構成がまだ届いていないことを示します。</string>
+    <string name="rcs_cfg_version_m">この回線に配信された RCS 構成のバージョン。値が 0 の場合、有効な構成がまだ届いていないことを示します。 RCS が通信事業者ではなく Google 独自のバックエンドを経由している場合、ここが 0 なのは正常です。</string>
     <string name="rcs_capable">RCS 対応の連絡先</string>
     <string name="rcs_capable_m">現在 RCS チャットに対応していると判明している連絡先の数。</string>
     <string name="rcs_flag_enabled">機能フラグ（キャッシュ）</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">利用不可と表示</string>
     <string name="rcs_flag_unavailable_m">サービスがこの回線の RCS を利用不可として表示しているかどうか。</string>
     <string name="rcs_entitlement">事業者の権限</string>
-    <string name="rcs_entitlement_m">RCS を許可する通信事業者の権限サービスが有効かどうか。</string>
+    <string name="rcs_entitlement_m">RCS を許可する通信事業者の権限サービスが有効かどうか。 RCS が通信事業者ではなく Google 独自のバックエンドを経由している場合、ここが 0 なのは正常です。</string>
     <string name="rcs_uce">プレゼンス (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange。回線が RCS の機能を通知し、検出できるようにします。</string>
+    <string name="rcs_uce_m">User Capability Exchange。回線が RCS の機能を通知し、検出できるようにします。 RCS が通信事業者ではなく Google 独自のバックエンドを経由している場合、ここが「いいえ」なのは正常です。</string>
     <string name="rcs_ims_pkg">IMS サービスあり</string>
-    <string name="rcs_ims_pkg_m">RCS が依存する通信事業者の IMS サービスが端末にインストールされているかどうか。</string>
+    <string name="rcs_ims_pkg_m">RCS が依存する通信事業者の IMS サービスが端末にインストールされているかどうか。 RCS が通信事業者ではなく Google 独自のバックエンドを経由している場合、ここが「いいえ」なのは正常です。</string>
 
     <string name="rcs_sec_times">タイムスタンプ</string>
     <string name="rcs_cfg_updated">構成を更新</string>

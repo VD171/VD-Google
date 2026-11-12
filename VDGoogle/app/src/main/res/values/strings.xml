@@ -68,7 +68,7 @@
     <string name="rcs_state">Provisioning state (cached)</string>
     <string name="rcs_state_m">An internal provisioning value the messaging app keeps for your line. It can read 0 even after RCS is already working, so trust the Connection line above.</string>
     <string name="rcs_cfg_version">Configuration version</string>
-    <string name="rcs_cfg_version_m">Version of the RCS configuration delivered to this line. A value of 0 means no valid configuration has arrived yet.</string>
+    <string name="rcs_cfg_version_m">Version of the RCS configuration delivered to this line. A value of 0 means no valid configuration has arrived yet. A 0 here is normal when your RCS runs through Google\'s own backend instead of your carrier.</string>
     <string name="rcs_capable">RCS-capable contacts</string>
     <string name="rcs_capable_m">How many of your contacts are currently known to support RCS chat.</string>
     <string name="rcs_flag_enabled">Feature flag (cached)</string>
@@ -76,11 +76,11 @@
     <string name="rcs_flag_unavailable">Marked unavailable</string>
     <string name="rcs_flag_unavailable_m">Whether the backend has flagged RCS as unavailable for this line.</string>
     <string name="rcs_entitlement">Carrier entitlement</string>
-    <string name="rcs_entitlement_m">Whether the carrier entitlement service that authorizes RCS is enabled.</string>
+    <string name="rcs_entitlement_m">Whether the carrier entitlement service that authorizes RCS is enabled. A 0 here is normal when your RCS runs through Google\'s own backend instead of your carrier.</string>
     <string name="rcs_uce">Presence (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, which lets your line advertise and discover RCS capabilities.</string>
+    <string name="rcs_uce_m">User Capability Exchange, which lets your line advertise and discover RCS capabilities. A No here is normal when your RCS runs through Google\'s own backend instead of your carrier.</string>
     <string name="rcs_ims_pkg">IMS service present</string>
-    <string name="rcs_ims_pkg_m">Whether the carrier IMS service that RCS relies on is installed on the device.</string>
+    <string name="rcs_ims_pkg_m">Whether the carrier IMS service that RCS relies on is installed on the device. A No here is normal when your RCS runs through Google\'s own backend instead of your carrier.</string>
 
     <string name="rcs_sec_times">Timestamps</string>
     <string name="rcs_cfg_updated">Configuration updated</string>

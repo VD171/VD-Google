@@ -20,7 +20,7 @@
 # ======================================================================
 
 ui_print ""
-ui_print "  VD Google (WebUI)"
+ui_print "  VD Google"
 MODULE_VERSION=$(grep_prop version "$MODPATH/module.prop")
 MODULE_VERSION_CODE=$(grep_prop versionCode "$MODPATH/module.prop")
 ui_print "  version $MODULE_VERSION (versionCode $MODULE_VERSION_CODE)"
@@ -34,6 +34,33 @@ fi
 if [ "$API" -lt 26 ]; then
   ui_print "  ! Android 8.0 (API 26) or newer is required."
   abort "  ! Android version is too old."
+fi
+
+# Supported CPU only - never ship a wrong-arch sqlite3.
+VDG_ARCH="$ARCH"
+[ -z "$VDG_ARCH" ] && case "$(getprop ro.product.cpu.abi)" in arm64*) VDG_ARCH=arm64 ;; arm*) VDG_ARCH=arm ;; *) VDG_ARCH=other ;; esac
+case "$VDG_ARCH" in
+  arm64) BINABI=arm64-v8a ;;
+  arm)   BINABI=armeabi-v7a ;;
+  *) ui_print "  ! Unsupported CPU ($VDG_ARCH); VD Google needs arm or arm64."; abort "  ! Unsupported architecture." ;;
+esac
+
+# Integrity gate: every bundled binary must match its recorded checksum (PROVENANCE.json).
+PROV="$MODPATH/bin/$BINABI/PROVENANCE.json"
+if [ -f "$PROV" ]; then
+  ui_print "  Verifying bundled binaries ($BINABI)..."
+  VDG_FAIL=0
+  for f in "$MODPATH/bin/$BINABI/sqlite3" "$MODPATH/bin/$BINABI/lib/"*; do
+    [ -f "$f" ] || continue
+    rel=${f#"$MODPATH/bin/$BINABI/"}
+    want=$(grep "\"path\": \"$rel\"" "$PROV" | grep -oE '[0-9a-f]{64}' | head -1)
+    got=$(sha256sum "$f" 2>/dev/null | cut -d' ' -f1)
+    if [ -z "$want" ]; then ui_print "  ! no recorded checksum for $rel"; VDG_FAIL=1
+    elif [ "$want" != "$got" ]; then ui_print "  ! checksum mismatch: $rel"; VDG_FAIL=1; fi
+  done
+  [ "$VDG_FAIL" = 1 ] && abort "  ! Bundled binary verification failed; not installing."
+  ui_print "  Binaries verified."
+  ui_print ""
 fi
 
 ui_print "  Open the WebUI from your root manager (gear icon on this module)."

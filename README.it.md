@@ -13,6 +13,11 @@ VD Google ti mostra ciò che Google stesso registra sul tuo telefono riguardo a 
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Documentazione
+
+[Guida utente di VD Google](docs/it/USER-GUIDE.md) · [Architettura](docs/it/ARCHITECTURE.md) · [Privacy](docs/it/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## App o WebUI
 
 Ogni versione è disponibile in due forme, ed entrambe leggono le stesse informazioni sul tuo dispositivo, senza internet:

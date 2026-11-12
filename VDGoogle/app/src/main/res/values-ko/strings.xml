@@ -58,7 +58,7 @@
     <string name="rcs_state">프로비저닝 상태(캐시됨)</string>
     <string name="rcs_state_m">메시지 앱이 회선에 대해 보관하는 내부 프로비저닝 값입니다. RCS가 이미 작동한 뒤에도 0으로 남을 수 있으므로 위의 연결 줄을 신뢰하세요.</string>
     <string name="rcs_cfg_version">구성 버전</string>
-    <string name="rcs_cfg_version_m">이 회선에 전달된 RCS 구성의 버전. 값이 0이면 유효한 구성이 아직 도착하지 않았음을 의미합니다.</string>
+    <string name="rcs_cfg_version_m">이 회선에 전달된 RCS 구성의 버전. 값이 0이면 유효한 구성이 아직 도착하지 않았음을 의미합니다. RCS가 통신사가 아니라 Google 자체 백엔드를 통해 작동하는 경우 여기가 0인 것은 정상입니다.</string>
     <string name="rcs_capable">RCS 지원 연락처</string>
     <string name="rcs_capable_m">현재 RCS 채팅을 지원하는 것으로 확인된 연락처 수.</string>
     <string name="rcs_flag_enabled">기능 플래그(캐시됨)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">사용 불가로 표시됨</string>
     <string name="rcs_flag_unavailable_m">서비스가 이 회선의 RCS를 사용 불가로 표시했는지 여부.</string>
     <string name="rcs_entitlement">통신사 권한</string>
-    <string name="rcs_entitlement_m">RCS를 승인하는 통신사 권한 서비스가 사용 설정되어 있는지 여부.</string>
+    <string name="rcs_entitlement_m">RCS를 승인하는 통신사 권한 서비스가 사용 설정되어 있는지 여부. RCS가 통신사가 아니라 Google 자체 백엔드를 통해 작동하는 경우 여기가 0인 것은 정상입니다.</string>
     <string name="rcs_uce">프레즌스 (UCE)</string>
-    <string name="rcs_uce_m">회선이 RCS 기능을 알리고 검색할 수 있게 하는 User Capability Exchange.</string>
+    <string name="rcs_uce_m">회선이 RCS 기능을 알리고 검색할 수 있게 하는 User Capability Exchange. RCS가 통신사가 아니라 Google 자체 백엔드를 통해 작동하는 경우 여기가 아니요인 것은 정상입니다.</string>
     <string name="rcs_ims_pkg">IMS 서비스 존재</string>
-    <string name="rcs_ims_pkg_m">RCS가 의존하는 통신사 IMS 서비스가 기기에 설치되어 있는지 여부.</string>
+    <string name="rcs_ims_pkg_m">RCS가 의존하는 통신사 IMS 서비스가 기기에 설치되어 있는지 여부. RCS가 통신사가 아니라 Google 자체 백엔드를 통해 작동하는 경우 여기가 아니요인 것은 정상입니다.</string>
 
     <string name="rcs_sec_times">타임스탬프</string>
     <string name="rcs_cfg_updated">구성 업데이트됨</string>

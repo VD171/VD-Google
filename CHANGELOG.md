@@ -2,6 +2,14 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.14] - 2026-11-10
+
+- The RCS carrier lines (carrier entitlement, presence/UCE, IMS service, configuration version) now explain that a No or 0 there is normal when your RCS runs through Google's own backend instead of your carrier.
+- The WebUI module is now simply named "VD Google" in your root manager.
+- Full documentation and a project wiki are now available in 21 languages.
+- The bundled sqlite3 is now fetched from the official Termux packages, for a fully auditable build (every shipped file has a recorded checksum).
+- The installer now checks every bundled binary against its recorded checksum before installing, and stops with a clear message on an unsupported CPU instead of installing the wrong build.
+
 ## [1.13] - 2026-11-04
 
 - RCS and Google service details now load reliably on more phones. On some devices every value could come up blank; they now read correctly.

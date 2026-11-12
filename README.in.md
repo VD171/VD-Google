@@ -13,6 +13,11 @@ VD Google menunjukkan apa yang dicatat Google sendiri di ponsel Anda tentang tig
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Dokumentasi
+
+[Panduan pengguna VD Google](docs/in/USER-GUIDE.md) · [Arsitektur](docs/in/ARCHITECTURE.md) · [Privasi](docs/in/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## Aplikasi atau WebUI
 
 Setiap rilis hadir dalam dua bentuk, dan keduanya membaca hal yang sama di perangkat Anda, tanpa internet:

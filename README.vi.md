@@ -13,6 +13,11 @@ VD Google cho bạn thấy những gì chính Google ghi lại trên điện tho
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Tài liệu
+
+[Hướng dẫn sử dụng VD Google](docs/vi/USER-GUIDE.md) · [Kiến trúc](docs/vi/ARCHITECTURE.md) · [Quyền riêng tư](docs/vi/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## Ứng dụng hoặc WebUI
 
 Mỗi bản phát hành có hai dạng, và cả hai đều đọc cùng những thông tin trên thiết bị của bạn, không cần internet:

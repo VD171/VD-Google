@@ -58,7 +58,7 @@
     <string name="rcs_state">Trạng thái cấp phép (đã lưu trong bộ nhớ đệm)</string>
     <string name="rcs_state_m">Một giá trị cấp phép nội bộ mà ứng dụng nhắn tin giữ cho số máy của bạn. Nó có thể vẫn ở mức 0 ngay cả khi RCS đã hoạt động, vì vậy hãy tin vào dòng Kết nối ở trên.</string>
     <string name="rcs_cfg_version">Phiên bản cấu hình</string>
-    <string name="rcs_cfg_version_m">Phiên bản cấu hình RCS được gửi cho số máy này. Giá trị 0 nghĩa là chưa có cấu hình hợp lệ nào đến.</string>
+    <string name="rcs_cfg_version_m">Phiên bản cấu hình RCS được gửi cho số máy này. Giá trị 0 nghĩa là chưa có cấu hình hợp lệ nào đến. Giá trị 0 ở đây là bình thường khi RCS của bạn chạy qua backend riêng của Google thay vì nhà mạng.</string>
     <string name="rcs_capable">Liên hệ hỗ trợ RCS</string>
     <string name="rcs_capable_m">Hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện RCS.</string>
     <string name="rcs_flag_enabled">Cờ tính năng (đã lưu trong bộ nhớ đệm)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Bị đánh dấu không khả dụng</string>
     <string name="rcs_flag_unavailable_m">Dịch vụ có đánh dấu RCS là không khả dụng cho số máy này hay không.</string>
     <string name="rcs_entitlement">Quyền của nhà mạng</string>
-    <string name="rcs_entitlement_m">Dịch vụ cấp quyền của nhà mạng cho phép RCS có được bật hay không.</string>
+    <string name="rcs_entitlement_m">Dịch vụ cấp quyền của nhà mạng cho phép RCS có được bật hay không. Giá trị 0 ở đây là bình thường khi RCS của bạn chạy qua backend riêng của Google thay vì nhà mạng.</string>
     <string name="rcs_uce">Hiện diện (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, cho phép số máy của bạn thông báo và phát hiện khả năng RCS.</string>
+    <string name="rcs_uce_m">User Capability Exchange, cho phép số máy của bạn thông báo và phát hiện khả năng RCS. Không ở đây là bình thường khi RCS của bạn chạy qua backend riêng của Google thay vì nhà mạng.</string>
     <string name="rcs_ims_pkg">Có dịch vụ IMS</string>
-    <string name="rcs_ims_pkg_m">Dịch vụ IMS của nhà mạng mà RCS dựa vào có được cài trên thiết bị hay không.</string>
+    <string name="rcs_ims_pkg_m">Dịch vụ IMS của nhà mạng mà RCS dựa vào có được cài trên thiết bị hay không. Không ở đây là bình thường khi RCS của bạn chạy qua backend riêng của Google thay vì nhà mạng.</string>
 
     <string name="rcs_sec_times">Dấu thời gian</string>
     <string name="rcs_cfg_updated">Cấu hình được cập nhật</string>

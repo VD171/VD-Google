@@ -58,7 +58,7 @@
     <string name="rcs_state">Sağlama durumu (önbellekte)</string>
     <string name="rcs_state_m">Mesajlaşma uygulamasının hattınız için tuttuğu dahili bir sağlama değeri. RCS zaten çalışıyor olsa bile 0 olarak kalabilir, bu yüzden yukarıdaki Bağlantı satırına güvenin.</string>
     <string name="rcs_cfg_version">Yapılandırma sürümü</string>
-    <string name="rcs_cfg_version_m">Bu hatta gönderilen RCS yapılandırmasının sürümü. 0 değeri, henüz geçerli bir yapılandırmanın gelmediği anlamına gelir.</string>
+    <string name="rcs_cfg_version_m">Bu hatta gönderilen RCS yapılandırmasının sürümü. 0 değeri, henüz geçerli bir yapılandırmanın gelmediği anlamına gelir. RCS\'niz operatörünüz yerine Google\'ın kendi arka ucu üzerinden çalışıyorsa buradaki 0 normaldir.</string>
     <string name="rcs_capable">RCS destekleyen kişiler</string>
     <string name="rcs_capable_m">Kişilerinizden kaçının şu anda RCS sohbetini desteklediği biliniyor.</string>
     <string name="rcs_flag_enabled">Özellik bayrağı (önbellekte)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Kullanılamaz olarak işaretli</string>
     <string name="rcs_flag_unavailable_m">Hizmetin bu hat için RCS\'yi kullanılamaz olarak işaretleyip işaretlemediği.</string>
     <string name="rcs_entitlement">Operatör yetkisi</string>
-    <string name="rcs_entitlement_m">RCS\'yi yetkilendiren operatör yetkilendirme hizmetinin etkin olup olmadığı.</string>
+    <string name="rcs_entitlement_m">RCS\'yi yetkilendiren operatör yetkilendirme hizmetinin etkin olup olmadığı. RCS\'niz operatörünüz yerine Google\'ın kendi arka ucu üzerinden çalışıyorsa buradaki 0 normaldir.</string>
     <string name="rcs_uce">Mevcudiyet (UCE)</string>
-    <string name="rcs_uce_m">Hattınızın RCS yeteneklerini duyurmasını ve keşfetmesini sağlayan User Capability Exchange.</string>
+    <string name="rcs_uce_m">Hattınızın RCS yeteneklerini duyurmasını ve keşfetmesini sağlayan User Capability Exchange. RCS\'niz operatörünüz yerine Google\'ın kendi arka ucu üzerinden çalışıyorsa buradaki Hayır normaldir.</string>
     <string name="rcs_ims_pkg">IMS hizmeti mevcut</string>
-    <string name="rcs_ims_pkg_m">RCS\'nin dayandığı operatör IMS hizmetinin cihazda yüklü olup olmadığı.</string>
+    <string name="rcs_ims_pkg_m">RCS\'nin dayandığı operatör IMS hizmetinin cihazda yüklü olup olmadığı. RCS\'niz operatörünüz yerine Google\'ın kendi arka ucu üzerinden çalışıyorsa buradaki Hayır normaldir.</string>
 
     <string name="rcs_sec_times">Zaman damgaları</string>
     <string name="rcs_cfg_updated">Yapılandırma güncellendi</string>

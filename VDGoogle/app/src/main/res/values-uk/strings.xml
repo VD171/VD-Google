@@ -68,7 +68,7 @@
     <string name="rcs_state">Стан активації (кешовано)</string>
     <string name="rcs_state_m">Внутрішнє значення активації, яке додаток Повідомлення зберігає для вашої лінії. Воно може лишатися нульовим, навіть коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
     <string name="rcs_cfg_version">Версія конфігурації</string>
-    <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано.</string>
+    <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано. 0 тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_capable">Контакти з підтримкою RCS</string>
     <string name="rcs_capable_m">Кількість контактів, для яких наразі відомо, що вони підтримують чати RCS.</string>
     <string name="rcs_flag_enabled">Прапорець функції (кешовано)</string>
@@ -76,11 +76,11 @@
     <string name="rcs_flag_unavailable">Позначено як недоступне</string>
     <string name="rcs_flag_unavailable_m">Чи позначила служба RCS цю SIM-картку як таку, для якої RCS недоступний.</string>
     <string name="rcs_entitlement">Авторизація оператора</string>
-    <string name="rcs_entitlement_m">Чи активна служба авторизації оператора, яка надає дозвіл на використання RCS.</string>
+    <string name="rcs_entitlement_m">Чи активна служба авторизації оператора, яка надає дозвіл на використання RCS. 0 тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_uce">Обмін відомостями про можливості (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange - механізм, за допомогою якого ваша SIM-картка повідомляє про підтримувані можливості RCS та виявляє такі можливості в інших абонентів.</string>
+    <string name="rcs_uce_m">User Capability Exchange - механізм, за допомогою якого ваша SIM-картка повідомляє про підтримувані можливості RCS та виявляє такі можливості в інших абонентів. Ні тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_ims_pkg">Службу IMS встановлено</string>
-    <string name="rcs_ims_pkg_m">Чи встановлено на пристрої службу IMS мобільного оператора, від якої залежить робота RCS.</string>
+    <string name="rcs_ims_pkg_m">Чи встановлено на пристрої службу IMS мобільного оператора, від якої залежить робота RCS. Ні тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
 
     <string name="rcs_sec_times">Часові позначки</string>
     <string name="rcs_cfg_updated">Конфігурацію оновлено</string>

@@ -13,6 +13,11 @@ VD Google, Google'ın üç konu hakkında telefonunuza kaydettiklerini size gös
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Belgeler
+
+[VD Google kullanıcı kılavuzu](docs/tr/USER-GUIDE.md) · [Mimari](docs/tr/ARCHITECTURE.md) · [Gizlilik](docs/tr/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## Uygulama veya WebUI
 
 Her sürüm iki biçimde gelir ve ikisi de aynı bilgileri cihazınızda, internet olmadan okur:

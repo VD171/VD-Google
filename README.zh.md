@@ -13,6 +13,11 @@ VD Google 向你展示 Google 自己在你手机上记录的三类信息，并�
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## 文档
+
+[VD Google 用户指南](docs/zh/USER-GUIDE.md) · [架构](docs/zh/ARCHITECTURE.md) · [隐私](docs/zh/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## 应用或 WebUI
 
 每个版本都有两种形式，两者都在你的设备上读取相同的信息，且不联网：

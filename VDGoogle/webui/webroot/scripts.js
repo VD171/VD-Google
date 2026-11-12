@@ -127,9 +127,11 @@
   var PRE =
     "MOD=" + MOD + "\n" +
     "ABI=$(getprop ro.product.cpu.abi)\n" +
-    "case \"$ABI\" in arm64*) SQ=$MOD/bin/arm64-v8a/sqlite3;; arm*) SQ=$MOD/bin/armeabi-v7a/sqlite3;; *) SQ=$MOD/bin/arm64-v8a/sqlite3;; esac\n" +
-    "Q=" + STATE + "/q\n" +
-    "mkdir -p $Q\n";
+    "case \"$ABI\" in arm64*) A=arm64-v8a;; arm*) A=armeabi-v7a;; *) A=;; esac\n" +
+    "sq() { LD_LIBRARY_PATH=$MOD/bin/$A/lib $MOD/bin/$A/sqlite3 \"$@\"; }\n" +
+    "Q=" + STATE + "/scratch\n" +
+    "mkdir -p $Q\n" +
+    cleanQ();
 
   function cleanQ() { return "find $Q -name '*.db' -delete -o -name '*.db-wal' -delete 2>/dev/null\n"; }
   function copyDb(src, name) {
@@ -149,16 +151,16 @@
       copyDb("$MSG/databases/bugle_db", "b") +
       copyDb("$TEL", "t") +
       "DS=$(settings get global multi_sim_data_call 2>/dev/null)\n" +
-      "case \"$DS\" in ''|*[!0-9]*) SW=\"\";; *) [ \"$(\"$SQ\" $Q/t.db \"SELECT COUNT(*) FROM siminfo WHERE _id=$DS\" 2>/dev/null)\" = \"1\" ] && SW=\"WHERE _id=$DS\" || SW=\"\";; esac\n" +
-      line("avail", "\"$SQ\" $Q/b.db \"SELECT p.is_rcs_available FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
-      line("selfnum", "\"$SQ\" $Q/b.db \"SELECT p.normalized_destination FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
-      line("cap", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache WHERE instr(rcs_capabilities, x'33677070')>0\" 2>/dev/null") +
-      line("msglast", "\"$SQ\" $Q/b.db \"SELECT MAX(max(IFNULL(received_timestamp,0),IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
-      line("caplast", "\"$SQ\" $Q/b.db \"SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("uce", "\"$SQ\" $Q/t.db \"SELECT ims_rcs_uce_enabled FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
-      line("simname", "\"$SQ\" $Q/t.db \"SELECT carrier_name FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
-      line("simmcc", "\"$SQ\" $Q/t.db \"SELECT mcc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
-      line("simmnc", "\"$SQ\" $Q/t.db \"SELECT mnc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      "case \"$DS\" in ''|*[!0-9]*) SW=\"\";; *) [ \"$(sq $Q/t.db \"SELECT COUNT(*) FROM siminfo WHERE _id=$DS\" 2>/dev/null)\" = \"1\" ] && SW=\"WHERE _id=$DS\" || SW=\"\";; esac\n" +
+      line("avail", "sq $Q/b.db \"SELECT p.is_rcs_available FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
+      line("selfnum", "sq $Q/b.db \"SELECT p.normalized_destination FROM self_participants s JOIN participants p ON p._id=s.participant_id LIMIT 1\" 2>/dev/null") +
+      line("cap", "sq $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache WHERE instr(rcs_capabilities, x'33677070')>0\" 2>/dev/null") +
+      line("msglast", "sq $Q/b.db \"SELECT MAX(max(IFNULL(received_timestamp,0),IFNULL(sent_timestamp,0))) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
+      line("caplast", "sq $Q/b.db \"SELECT MAX(last_refresh_timestamp) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("uce", "sq $Q/t.db \"SELECT ims_rcs_uce_enabled FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simname", "sq $Q/t.db \"SELECT carrier_name FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simmcc", "sq $Q/t.db \"SELECT mcc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
+      line("simmnc", "sq $Q/t.db \"SELECT mnc_string FROM siminfo $SW LIMIT 1\" 2>/dev/null") +
       line("mversion", "grep -oE \"mVersion&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
       line("rcsstate", "grep -oE \"rcsState&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
       line("cfgupd", "grep -oE \"mLastUpdateSecs&quot;:-?[0-9]+\" \"$PV\" 2>/dev/null | sed \"s/.*://\" | head -1") +
@@ -219,7 +221,7 @@
       "echo '---CERT---'\n" +
       "od -An -tu1 -N2 \"$DEV\" 2>/dev/null\n" +
       "echo '---DG---'\n" +
-      "\"$SQ\" $Q/dg.db \"SELECT a, b, h FROM main ORDER BY b DESC\" 2>/dev/null\n" +
+      "sq $Q/dg.db \"SELECT a, b, h FROM main ORDER BY b DESC\" 2>/dev/null\n" +
       cleanQ();
     var out = await ex(cmd);
     var dgPart = out.split("---DG---")[1] || "";
@@ -264,37 +266,37 @@
       copyDb("$TEL", "t") +
       copyDb("$DG", "dg") +
       "D30=$(( ($(date +%s) - 2592000) * 1000 ))\n" +
-      line("sqlver", "\"$SQ\" $Q/t.db \"SELECT sqlite_version()\" 2>/dev/null") +
-      line("ptotal", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM participants\" 2>/dev/null") +
-      line("pavail1", "\"$SQ\" $Q/b.db \"SELECT SUM(is_rcs_available=1) FROM participants\" 2>/dev/null") +
-      line("captotal", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("cap3gpp", "\"$SQ\" $Q/b.db \"SELECT SUM(instr(rcs_capabilities,x'33677070')>0) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("capfresh", "\"$SQ\" $Q/b.db \"SELECT SUM(last_refresh_timestamp>$D30) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("capmin", "\"$SQ\" $Q/b.db \"SELECT MIN(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("capmax", "\"$SQ\" $Q/b.db \"SELECT MAX(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
-      line("rcsmsg", "\"$SQ\" $Q/b.db \"SELECT COUNT(*) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
-      line("simrows", "\"$SQ\" $Q/t.db \"SELECT COUNT(*) FROM siminfo\" 2>/dev/null") +
+      line("sqlver", "sq $Q/t.db \"SELECT sqlite_version()\" 2>/dev/null") +
+      line("ptotal", "sq $Q/b.db \"SELECT COUNT(*) FROM participants\" 2>/dev/null") +
+      line("pavail1", "sq $Q/b.db \"SELECT SUM(is_rcs_available=1) FROM participants\" 2>/dev/null") +
+      line("captotal", "sq $Q/b.db \"SELECT COUNT(*) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("cap3gpp", "sq $Q/b.db \"SELECT SUM(instr(rcs_capabilities,x'33677070')>0) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capfresh", "sq $Q/b.db \"SELECT SUM(last_refresh_timestamp>$D30) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capmin", "sq $Q/b.db \"SELECT MIN(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("capmax", "sq $Q/b.db \"SELECT MAX(length(rcs_capabilities)) FROM rcs_remote_capabilities_cache\" 2>/dev/null") +
+      line("rcsmsg", "sq $Q/b.db \"SELECT COUNT(*) FROM messages WHERE message_protocol=3\" 2>/dev/null") +
+      line("simrows", "sq $Q/t.db \"SELECT COUNT(*) FROM siminfo\" 2>/dev/null") +
       line("datasub", "settings get global multi_sim_data_call 2>/dev/null") +
-      line("dgcount", "\"$SQ\" $Q/dg.db \"SELECT COUNT(*) FROM main\" 2>/dev/null") +
+      line("dgcount", "sq $Q/dg.db \"SELECT COUNT(*) FROM main\" 2>/dev/null") +
       line("pkgmsg", "dumpsys package com.google.android.apps.messaging 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
       line("pkggms", "dumpsys package com.google.android.gms 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
       line("pkgvending", "dumpsys package com.android.vending 2>/dev/null | grep -m1 versionName | cut -d= -f2") +
       "echo '---TABLES---'\n" +
-      "\"$SQ\" $Q/b.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
+      "sq $Q/b.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
       "echo '---DGTABLES---'\n" +
-      "\"$SQ\" $Q/dg.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
+      "sq $Q/dg.db \"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\" 2>/dev/null\n" +
       "echo '---DGCOLS---'\n" +
-      "\"$SQ\" $Q/dg.db \"SELECT name FROM pragma_table_info('main')\" 2>/dev/null\n" +
+      "sq $Q/dg.db \"SELECT name FROM pragma_table_info('main')\" 2>/dev/null\n" +
       "echo '---CPART---'\n" +
-      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('participants')\" 2>/dev/null\n" +
+      "sq $Q/b.db \"SELECT name FROM pragma_table_info('participants')\" 2>/dev/null\n" +
       "echo '---CCAP---'\n" +
-      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('rcs_remote_capabilities_cache')\" 2>/dev/null\n" +
+      "sq $Q/b.db \"SELECT name FROM pragma_table_info('rcs_remote_capabilities_cache')\" 2>/dev/null\n" +
       "echo '---CMSG---'\n" +
-      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('messages')\" 2>/dev/null\n" +
+      "sq $Q/b.db \"SELECT name FROM pragma_table_info('messages')\" 2>/dev/null\n" +
       "echo '---CSELF---'\n" +
-      "\"$SQ\" $Q/b.db \"SELECT name FROM pragma_table_info('self_participants')\" 2>/dev/null\n" +
+      "sq $Q/b.db \"SELECT name FROM pragma_table_info('self_participants')\" 2>/dev/null\n" +
       "echo '---CSIM---'\n" +
-      "\"$SQ\" $Q/t.db \"SELECT name FROM pragma_table_info('siminfo')\" 2>/dev/null\n" +
+      "sq $Q/t.db \"SELECT name FROM pragma_table_info('siminfo')\" 2>/dev/null\n" +
       "echo '---PH---'\n" +
       "cat $PH 2>/dev/null\n" +
       "echo '---END---'\n" +

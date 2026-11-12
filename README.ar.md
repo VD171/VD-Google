@@ -13,6 +13,11 @@
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## التوثيق
+
+[دليل مستخدم VD Google](docs/ar/USER-GUIDE.md) · [البنية المعمارية](docs/ar/ARCHITECTURE.md) · [الخصوصية](docs/ar/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## التطبيق أو WebUI
 
 يأتي كل إصدار بطريقتين، وكلاهما يقرأ المعلومات نفسها على جهازك دون إنترنت:

@@ -13,6 +13,11 @@ VD Google показує те, що сам Google записує на вашом
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Документація
+
+[Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## Додаток або WebUI
 
 Кожен випуск доступний у двох варіантах, і обидва зчитують одне й те саме на вашому пристрої без інтернету:

@@ -58,7 +58,7 @@
     <string name="rcs_state">Bereitstellungszustand (im Cache)</string>
     <string name="rcs_state_m">Ein interner Bereitstellungswert, den die Nachrichten-App für Ihre Leitung führt. Er kann 0 bleiben, obwohl RCS bereits funktioniert. Verlassen Sie sich daher auf die Zeile Verbindung oben.</string>
     <string name="rcs_cfg_version">Konfigurationsversion</string>
-    <string name="rcs_cfg_version_m">Version der an diese Leitung gelieferten RCS-Konfiguration. Der Wert 0 bedeutet, dass noch keine gültige Konfiguration eingetroffen ist.</string>
+    <string name="rcs_cfg_version_m">Version der an diese Leitung gelieferten RCS-Konfiguration. Der Wert 0 bedeutet, dass noch keine gültige Konfiguration eingetroffen ist. Eine 0 hier ist normal, wenn Ihr RCS über Googles eigenes Backend statt über Ihren Mobilfunkanbieter läuft.</string>
     <string name="rcs_capable">RCS-fähige Kontakte</string>
     <string name="rcs_capable_m">Wie viele deiner Kontakte derzeit bekanntermaßen RCS-Chat unterstützen.</string>
     <string name="rcs_flag_enabled">Funktions-Flag (im Cache)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Als nicht verfügbar markiert</string>
     <string name="rcs_flag_unavailable_m">Ob der Dienst RCS für diese Leitung als nicht verfügbar markiert hat.</string>
     <string name="rcs_entitlement">Anbieter-Berechtigung</string>
-    <string name="rcs_entitlement_m">Ob der Berechtigungsdienst des Anbieters, der RCS freigibt, aktiviert ist.</string>
+    <string name="rcs_entitlement_m">Ob der Berechtigungsdienst des Anbieters, der RCS freigibt, aktiviert ist. Eine 0 hier ist normal, wenn Ihr RCS über Googles eigenes Backend statt über Ihren Mobilfunkanbieter läuft.</string>
     <string name="rcs_uce">Präsenz (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, womit deine Leitung RCS-Fähigkeiten ankündigen und erkennen kann.</string>
+    <string name="rcs_uce_m">User Capability Exchange, womit deine Leitung RCS-Fähigkeiten ankündigen und erkennen kann. Ein Nein hier ist normal, wenn Ihr RCS über Googles eigenes Backend statt über Ihren Mobilfunkanbieter läuft.</string>
     <string name="rcs_ims_pkg">IMS-Dienst vorhanden</string>
-    <string name="rcs_ims_pkg_m">Ob der IMS-Dienst des Anbieters, auf den sich RCS stützt, auf dem Gerät installiert ist.</string>
+    <string name="rcs_ims_pkg_m">Ob der IMS-Dienst des Anbieters, auf den sich RCS stützt, auf dem Gerät installiert ist. Ein Nein hier ist normal, wenn Ihr RCS über Googles eigenes Backend statt über Ihren Mobilfunkanbieter läuft.</string>
 
     <string name="rcs_sec_times">Zeitstempel</string>
     <string name="rcs_cfg_updated">Konfiguration aktualisiert</string>

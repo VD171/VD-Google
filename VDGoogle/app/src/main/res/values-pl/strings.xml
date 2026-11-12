@@ -58,7 +58,7 @@
     <string name="rcs_state">Stan provisioningu (w pamięci podręcznej)</string>
     <string name="rcs_state_m">Wewnętrzna wartość provisioningu, którą aplikacja do wiadomości przechowuje dla Twojej linii. Może pozostać na 0, mimo że RCS już działa, więc kieruj się wierszem Połączenie powyżej.</string>
     <string name="rcs_cfg_version">Wersja konfiguracji</string>
-    <string name="rcs_cfg_version_m">Wersja konfiguracji RCS dostarczonej do tej linii. Wartość 0 oznacza, że prawidłowa konfiguracja jeszcze nie dotarła.</string>
+    <string name="rcs_cfg_version_m">Wersja konfiguracji RCS dostarczonej do tej linii. Wartość 0 oznacza, że prawidłowa konfiguracja jeszcze nie dotarła. 0 tutaj jest normalne, gdy Twój RCS działa przez własny backend Google zamiast przez operatora.</string>
     <string name="rcs_capable">Kontakty obsługujące RCS</string>
     <string name="rcs_capable_m">Ilu Twoich kontaktów obecnie wiadomo, że obsługuje czat RCS.</string>
     <string name="rcs_flag_enabled">Flaga funkcji (w pamięci podręcznej)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Oznaczone jako niedostępne</string>
     <string name="rcs_flag_unavailable_m">Czy usługa oznaczyła RCS jako niedostępny dla tej linii.</string>
     <string name="rcs_entitlement">Uprawnienie operatora</string>
-    <string name="rcs_entitlement_m">Czy usługa uprawnień operatora autoryzująca RCS jest włączona.</string>
+    <string name="rcs_entitlement_m">Czy usługa uprawnień operatora autoryzująca RCS jest włączona. 0 tutaj jest normalne, gdy Twój RCS działa przez własny backend Google zamiast przez operatora.</string>
     <string name="rcs_uce">Obecność (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, który pozwala Twojej linii ogłaszać i wykrywać możliwości RCS.</string>
+    <string name="rcs_uce_m">User Capability Exchange, który pozwala Twojej linii ogłaszać i wykrywać możliwości RCS. Nie tutaj jest normalne, gdy Twój RCS działa przez własny backend Google zamiast przez operatora.</string>
     <string name="rcs_ims_pkg">Usługa IMS obecna</string>
-    <string name="rcs_ims_pkg_m">Czy usługa IMS operatora, od której zależy RCS, jest zainstalowana na urządzeniu.</string>
+    <string name="rcs_ims_pkg_m">Czy usługa IMS operatora, od której zależy RCS, jest zainstalowana na urządzeniu. Nie tutaj jest normalne, gdy Twój RCS działa przez własny backend Google zamiast przez operatora.</string>
 
     <string name="rcs_sec_times">Znaczniki czasu</string>
     <string name="rcs_cfg_updated">Konfiguracja zaktualizowana</string>

@@ -58,7 +58,7 @@
     <string name="rcs_state">Stav provisioningu (v mezipaměti)</string>
     <string name="rcs_state_m">Interní hodnota provisioningu, kterou aplikace zpráv udržuje pro vaši linku. Může zůstat na 0, i když RCS už funguje, proto se řiďte řádkem Připojení výše.</string>
     <string name="rcs_cfg_version">Verze konfigurace</string>
-    <string name="rcs_cfg_version_m">Verze konfigurace RCS dodané na tuto linku. Hodnota 0 znamená, že platná konfigurace dosud nedorazila.</string>
+    <string name="rcs_cfg_version_m">Verze konfigurace RCS dodané na tuto linku. Hodnota 0 znamená, že platná konfigurace dosud nedorazila. 0 zde je normální, když vaše RCS běží přes vlastní backend Googlu místo přes operátora.</string>
     <string name="rcs_capable">Kontakty s podporou RCS</string>
     <string name="rcs_capable_m">Kolik vašich kontaktů je momentálně známo jako podporující chat RCS.</string>
     <string name="rcs_flag_enabled">Příznak funkce (v mezipaměti)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Označeno jako nedostupné</string>
     <string name="rcs_flag_unavailable_m">Zda služba označila RCS pro tuto linku jako nedostupné.</string>
     <string name="rcs_entitlement">Oprávnění operátora</string>
-    <string name="rcs_entitlement_m">Zda je zapnuta služba oprávnění operátora, která autorizuje RCS.</string>
+    <string name="rcs_entitlement_m">Zda je zapnuta služba oprávnění operátora, která autorizuje RCS. 0 zde je normální, když vaše RCS běží přes vlastní backend Googlu místo přes operátora.</string>
     <string name="rcs_uce">Přítomnost (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, který umožňuje vaší lince oznamovat a zjišťovat možnosti RCS.</string>
+    <string name="rcs_uce_m">User Capability Exchange, který umožňuje vaší lince oznamovat a zjišťovat možnosti RCS. Ne zde je normální, když vaše RCS běží přes vlastní backend Googlu místo přes operátora.</string>
     <string name="rcs_ims_pkg">Služba IMS přítomna</string>
-    <string name="rcs_ims_pkg_m">Zda je v zařízení nainstalována služba IMS operátora, na níž RCS závisí.</string>
+    <string name="rcs_ims_pkg_m">Zda je v zařízení nainstalována služba IMS operátora, na níž RCS závisí. Ne zde je normální, když vaše RCS běží přes vlastní backend Googlu místo přes operátora.</string>
 
     <string name="rcs_sec_times">Časové značky</string>
     <string name="rcs_cfg_updated">Konfigurace aktualizována</string>

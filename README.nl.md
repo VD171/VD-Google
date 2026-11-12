@@ -13,6 +13,11 @@ VD Google laat je zien wat Google zelf op je telefoon vastlegt over drie dingen,
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Documentatie
+
+[VD Google gebruikershandleiding](docs/nl/USER-GUIDE.md) · [Architectuur](docs/nl/ARCHITECTURE.md) · [Privacy](docs/nl/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## App of WebUI
 
 Elke release komt in twee vormen, en beide lezen dezelfde dingen op je apparaat, zonder internet:

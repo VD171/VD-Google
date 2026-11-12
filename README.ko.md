@@ -13,6 +13,11 @@ VD Google은 Google이 직접 휴대폰에 기록하는 세 가지 항목을 보
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## 문서
+
+[VD Google 사용자 가이드](docs/ko/USER-GUIDE.md) · [아키텍처](docs/ko/ARCHITECTURE.md) · [프라이버시](docs/ko/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## 앱 또는 WebUI
 
 모든 릴리스는 두 가지 형태로 제공되며, 둘 다 인터넷 없이 기기에서 동일한 정보를 읽습니다.

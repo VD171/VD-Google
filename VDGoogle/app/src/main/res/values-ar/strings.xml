@@ -58,7 +58,7 @@
     <string name="rcs_state">حالة التهيئة (مخزَّنة مؤقتًا)</string>
     <string name="rcs_state_m">قيمة تهيئة داخلية يحتفظ بها تطبيق الرسائل لخطك. قد تبقى 0 بعد أن يعمل RCS فعلاً، لذا اعتمد على سطر الاتصال أعلاه.</string>
     <string name="rcs_cfg_version">إصدار الإعداد</string>
-    <string name="rcs_cfg_version_m">إصدار إعداد RCS المسلَّم إلى هذا الخط. القيمة 0 تعني أنه لم يصل بعد إعداد صالح.</string>
+    <string name="rcs_cfg_version_m">إصدار إعداد RCS المسلَّم إلى هذا الخط. القيمة 0 تعني أنه لم يصل بعد إعداد صالح. وجود 0 هنا أمر طبيعي عندما يعمل RCS لديك عبر خادم Google الخاص بدلاً من مشغّل شبكتك.</string>
     <string name="rcs_capable">جهات الاتصال التي تدعم RCS</string>
     <string name="rcs_capable_m">كم عدد جهات اتصالك المعروف حاليًا أنها تدعم دردشة RCS.</string>
     <string name="rcs_flag_enabled">علامة الميزة (مخزَّنة مؤقتًا)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">مُعلَّم كغير متاح</string>
     <string name="rcs_flag_unavailable_m">ما إذا كانت الخدمة قد وضعت علامة على RCS كغير متاح لهذا الخط.</string>
     <string name="rcs_entitlement">تخويل المشغّل</string>
-    <string name="rcs_entitlement_m">ما إذا كانت خدمة تخويل المشغّل التي تصرّح بـ RCS مفعَّلة.</string>
+    <string name="rcs_entitlement_m">ما إذا كانت خدمة تخويل المشغّل التي تصرّح بـ RCS مفعَّلة. وجود 0 هنا أمر طبيعي عندما يعمل RCS لديك عبر خادم Google الخاص بدلاً من مشغّل شبكتك.</string>
     <string name="rcs_uce">الحضور (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange، الذي يتيح لخطك الإعلان عن قدرات RCS واكتشافها.</string>
+    <string name="rcs_uce_m">User Capability Exchange، الذي يتيح لخطك الإعلان عن قدرات RCS واكتشافها. وجود «لا» هنا أمر طبيعي عندما يعمل RCS لديك عبر خادم Google الخاص بدلاً من مشغّل شبكتك.</string>
     <string name="rcs_ims_pkg">خدمة IMS موجودة</string>
-    <string name="rcs_ims_pkg_m">ما إذا كانت خدمة IMS الخاصة بالمشغّل، التي يعتمد عليها RCS، مثبَّتة على الجهاز.</string>
+    <string name="rcs_ims_pkg_m">ما إذا كانت خدمة IMS الخاصة بالمشغّل، التي يعتمد عليها RCS، مثبَّتة على الجهاز. وجود «لا» هنا أمر طبيعي عندما يعمل RCS لديك عبر خادم Google الخاص بدلاً من مشغّل شبكتك.</string>
 
     <string name="rcs_sec_times">الطوابع الزمنية</string>
     <string name="rcs_cfg_updated">تم تحديث الإعداد</string>

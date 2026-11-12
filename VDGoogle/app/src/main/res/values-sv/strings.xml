@@ -58,7 +58,7 @@
     <string name="rcs_state">Provisioneringstillstånd (cachelagrat)</string>
     <string name="rcs_state_m">Ett internt provisioneringsvärde som meddelandeappen håller för din linje. Det kan stå kvar på 0 även när RCS redan fungerar, så lita på raden Anslutning ovan.</string>
     <string name="rcs_cfg_version">Konfigurationsversion</string>
-    <string name="rcs_cfg_version_m">Version av RCS-konfigurationen som levererats till den här linjen. Värdet 0 betyder att ingen giltig konfiguration har kommit ännu.</string>
+    <string name="rcs_cfg_version_m">Version av RCS-konfigurationen som levererats till den här linjen. Värdet 0 betyder att ingen giltig konfiguration har kommit ännu. En 0 här är normalt när din RCS går via Googles eget backend i stället för via din operatör.</string>
     <string name="rcs_capable">RCS-kapabla kontakter</string>
     <string name="rcs_capable_m">Hur många av dina kontakter som för närvarande är kända för att stödja RCS-chatt.</string>
     <string name="rcs_flag_enabled">Funktionsflagga (cachelagrad)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Markerad som otillgänglig</string>
     <string name="rcs_flag_unavailable_m">Om tjänsten har markerat RCS som otillgängligt för den här linjen.</string>
     <string name="rcs_entitlement">Operatörsbehörighet</string>
-    <string name="rcs_entitlement_m">Om operatörens behörighetstjänst som godkänner RCS är aktiverad.</string>
+    <string name="rcs_entitlement_m">Om operatörens behörighetstjänst som godkänner RCS är aktiverad. En 0 här är normalt när din RCS går via Googles eget backend i stället för via din operatör.</string>
     <string name="rcs_uce">Närvaro (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, som låter din linje annonsera och upptäcka RCS-förmågor.</string>
+    <string name="rcs_uce_m">User Capability Exchange, som låter din linje annonsera och upptäcka RCS-förmågor. Ett Nej här är normalt när din RCS går via Googles eget backend i stället för via din operatör.</string>
     <string name="rcs_ims_pkg">IMS-tjänst finns</string>
-    <string name="rcs_ims_pkg_m">Om operatörens IMS-tjänst, som RCS förlitar sig på, är installerad på enheten.</string>
+    <string name="rcs_ims_pkg_m">Om operatörens IMS-tjänst, som RCS förlitar sig på, är installerad på enheten. Ett Nej här är normalt när din RCS går via Googles eget backend i stället för via din operatör.</string>
 
     <string name="rcs_sec_times">Tidsstämplar</string>
     <string name="rcs_cfg_updated">Konfiguration uppdaterad</string>

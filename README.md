@@ -13,6 +13,11 @@ VD Google shows you what Google itself records on your phone about three things,
 
 <img src="images/vdgoogle-01.png" height="420"/> <img src="images/vdgoogle-02.png" height="420"/> <img src="images/vdgoogle-03.png" height="420"/> <img src="images/vdgoogle-04.png" height="420"/> <img src="images/vdgoogle-05.png" height="420"/>
 
+
+## Documentation
+
+[VD Google user guide](docs/USER-GUIDE.md) · [Architecture](docs/ARCHITECTURE.md) · [Privacy](docs/PRIVACY.md) · [Wiki](https://github.com/VD171/VD-Google/wiki)
+
 ## App or WebUI
 
 Every release comes two ways, and both read the same things on your device with no internet:

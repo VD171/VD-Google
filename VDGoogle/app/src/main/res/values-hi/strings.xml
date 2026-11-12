@@ -58,7 +58,7 @@
     <string name="rcs_state">प्रोविज़निंग स्थिति (कैश्ड)</string>
     <string name="rcs_state_m">मैसेजिंग ऐप आपकी लाइन के लिए रखा गया एक आंतरिक प्रोविज़निंग मान। RCS के चालू होने के बाद भी यह 0 रह सकता है, इसलिए ऊपर दी गई कनेक्शन लाइन पर भरोसा करें।</string>
     <string name="rcs_cfg_version">कॉन्फ़िगरेशन संस्करण</string>
-    <string name="rcs_cfg_version_m">इस लाइन को भेजे गए RCS कॉन्फ़िगरेशन का संस्करण। 0 का मतलब है कि अभी तक कोई मान्य कॉन्फ़िगरेशन नहीं आया है।</string>
+    <string name="rcs_cfg_version_m">इस लाइन को भेजे गए RCS कॉन्फ़िगरेशन का संस्करण। 0 का मतलब है कि अभी तक कोई मान्य कॉन्फ़िगरेशन नहीं आया है। यहाँ 0 होना सामान्य है जब आपका RCS आपके कैरियर के बजाय Google के अपने बैकएंड से चलता है।</string>
     <string name="rcs_capable">RCS-सक्षम संपर्क</string>
     <string name="rcs_capable_m">आपके कितने संपर्क फ़िलहाल RCS चैट का समर्थन करने के लिए ज्ञात हैं।</string>
     <string name="rcs_flag_enabled">सुविधा फ़्लैग (कैश्ड)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">अनुपलब्ध के रूप में चिह्नित</string>
     <string name="rcs_flag_unavailable_m">क्या सेवा ने इस लाइन के लिए RCS को अनुपलब्ध के रूप में चिह्नित किया है।</string>
     <string name="rcs_entitlement">कैरियर अधिकार</string>
-    <string name="rcs_entitlement_m">क्या RCS को अधिकृत करने वाली कैरियर अधिकार सेवा सक्षम है।</string>
+    <string name="rcs_entitlement_m">क्या RCS को अधिकृत करने वाली कैरियर अधिकार सेवा सक्षम है। यहाँ 0 होना सामान्य है जब आपका RCS आपके कैरियर के बजाय Google के अपने बैकएंड से चलता है।</string>
     <string name="rcs_uce">उपस्थिति (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, जो आपकी लाइन को RCS क्षमताओं की घोषणा और खोज करने देता है।</string>
+    <string name="rcs_uce_m">User Capability Exchange, जो आपकी लाइन को RCS क्षमताओं की घोषणा और खोज करने देता है। यहाँ नहीं होना सामान्य है जब आपका RCS आपके कैरियर के बजाय Google के अपने बैकएंड से चलता है।</string>
     <string name="rcs_ims_pkg">IMS सेवा मौजूद</string>
-    <string name="rcs_ims_pkg_m">क्या कैरियर की IMS सेवा, जिस पर RCS निर्भर करता है, डिवाइस पर इंस्टॉल है।</string>
+    <string name="rcs_ims_pkg_m">क्या कैरियर की IMS सेवा, जिस पर RCS निर्भर करता है, डिवाइस पर इंस्टॉल है। यहाँ नहीं होना सामान्य है जब आपका RCS आपके कैरियर के बजाय Google के अपने बैकएंड से चलता है।</string>
 
     <string name="rcs_sec_times">समय-चिह्न</string>
     <string name="rcs_cfg_updated">कॉन्फ़िगरेशन अपडेट</string>
