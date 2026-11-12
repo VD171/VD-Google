@@ -83,6 +83,18 @@ VD Google ne déclare **aucune autorisation**, pas même l'accès à Internet. R
 
 Toutes les heures sont affichées dans le fuseau horaire actuel de votre appareil, et le fuseau est toujours indiqué.
 
+## Documentation
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: toute la documentation, consultable en ligne.
+- **[Guide d'utilisation](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: ce que chaque écran affiche et ce que signifie chaque résultat.
+- **[Architecture](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** et **[Structure des fichiers](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: comment ça fonctionne et où se trouve chaque chose.
+- **[Confidentialité](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: aucune autorisation d'accès à Internet, chaque lecture passe par le root, rien ne quitte jamais l'appareil.
+- **[Binaires inclus](https://github.com/VD171/VD-Google/wiki/BINARIES)**: provenance et SHA-256 de chaque binaire précompilé, pour un audit complet.
+- **[Contribuer](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** et **[Sécurité](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** et **[Code de conduite](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Voir aussi
 
 Projets frères du même auteur :

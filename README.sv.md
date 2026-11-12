@@ -83,6 +83,18 @@ VD Google deklarerar **inga behörigheter alls**, inte ens internetåtkomst. Ing
 
 Alla tider visas i enhetens aktuella tidszon, och tidszonen anges alltid.
 
+## Dokumentation
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: all dokumentation, läsbar online.
+- **[Användarguide](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: vad varje skärm läser och vad varje resultat betyder.
+- **[Arkitektur](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** och **[Filstruktur](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: hur det fungerar och var allt finns.
+- **[Integritet](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: inga internetbehörigheter, varje läsning går via root, inget lämnar någonsin enheten.
+- **[Medföljande binärer](https://github.com/VD171/VD-Google/wiki/BINARIES)**: ursprung och SHA-256 för varje förbyggd binär, för fullständig granskning.
+- **[Bidra](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** och **[Säkerhet](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Ändringslogg](CHANGELOG.md)** och **[Uppförandekod](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Se även
 
 Systerprojekt av samma författare:

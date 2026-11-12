@@ -83,6 +83,18 @@ VD Google declares **no permissions at all**, not even internet access. Nothing 
 
 All times are shown in your device's current timezone, and the timezone is always labelled.
 
+## Documentation
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: all the docs, browsable online.
+- **[User guide](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: what each screen reads and what every result means.
+- **[Architecture](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** and **[File structure](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: how it works and where everything lives.
+- **[Privacy](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: no internet permission, every read goes through root, nothing ever leaves the device.
+- **[Bundled binaries](https://github.com/VD171/VD-Google/wiki/BINARIES)**: provenance and SHA-256 of every prebuilt binary, for full auditing.
+- **[Contributing](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** and **[Security](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** and **[Code of Conduct](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## See also
 
 Sibling projects by the same author:

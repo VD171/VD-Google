@@ -83,6 +83,18 @@ VD Google không khai báo **bất kỳ quyền nào**, kể cả quyền truy c
 
 Mọi thời gian được hiển thị theo múi giờ hiện tại của thiết bị, và múi giờ luôn được ghi rõ.
 
+## Tài liệu
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: toàn bộ tài liệu, xem được trực tuyến.
+- **[Hướng dẫn sử dụng](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: mỗi màn hình đọc những gì và mỗi kết quả có ý nghĩa gì.
+- **[Kiến trúc](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** và **[Cấu trúc tệp](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: cách hoạt động và mọi thứ nằm ở đâu.
+- **[Quyền riêng tư](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: không có quyền internet, mọi lần đọc đều qua root, không gì rời khỏi thiết bị.
+- **[Các tệp nhị phân đi kèm](https://github.com/VD171/VD-Google/wiki/BINARIES)**: nguồn gốc và SHA-256 của mọi tệp nhị phân dựng sẵn, để kiểm tra đầy đủ.
+- **[Đóng góp](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** và **[Bảo mật](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Nhật ký thay đổi](CHANGELOG.md)** và **[Quy tắc ứng xử](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Xem thêm
 
 Các dự án cùng tác giả:

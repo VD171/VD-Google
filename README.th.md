@@ -83,6 +83,18 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 เวลาทั้งหมดจะแสดงตามเขตเวลาปัจจุบันของอุปกรณ์ของคุณ และจะระบุเขตเวลาเสมอ
 
+## เอกสาร
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: เอกสารทั้งหมด เปิดอ่านได้ทางออนไลน์
+- **[คู่มือผู้ใช้](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: แต่ละหน้าจออ่านอะไร และผลลัพธ์แต่ละอย่างหมายถึงอะไร
+- **[สถาปัตยกรรม](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** และ **[โครงสร้างไฟล์](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: ทำงานอย่างไร และทุกอย่างอยู่ที่ไหน
+- **[ความเป็นส่วนตัว](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: ไม่มีสิทธิ์อินเทอร์เน็ต ทุกการอ่านผ่าน root ไม่มีสิ่งใดออกจากอุปกรณ์เลย
+- **[ไบนารีที่มาพร้อม](https://github.com/VD171/VD-Google/wiki/BINARIES)**: ที่มาและ SHA-256 ของไบนารีสำเร็จรูปทุกตัว สำหรับการตรวจสอบอย่างครบถ้วน
+- **[การมีส่วนร่วม](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** และ **[ความปลอดภัย](https://github.com/VD171/VD-Google/wiki/SECURITY)**
+- **[บันทึกการเปลี่ยนแปลง](CHANGELOG.md)** และ **[จรรยาบรรณ](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**
+
+<!-- /vd-docs -->
+
 ## ดูเพิ่มเติม
 
 โครงการในเครือโดยผู้เขียนคนเดียวกัน:

@@ -83,6 +83,18 @@ VD Google tidak mendeklarasikan **izin apa pun**, bahkan akses internet. Tidak a
 
 Semua waktu ditampilkan dalam zona waktu perangkat Anda saat ini, dan zona waktu selalu dicantumkan.
 
+## Dokumentasi
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: semua dokumentasi, dapat dijelajahi secara online.
+- **[Panduan pengguna](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: apa yang dibaca setiap layar dan apa arti setiap hasilnya.
+- **[Arsitektur](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** dan **[Struktur berkas](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: cara kerjanya dan di mana semuanya berada.
+- **[Privasi](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: tanpa izin internet, setiap pembacaan melewati root, tidak ada yang pernah keluar dari perangkat.
+- **[Biner yang disertakan](https://github.com/VD171/VD-Google/wiki/BINARIES)**: asal-usul dan SHA-256 dari setiap biner prakompilasi, untuk audit penuh.
+- **[Berkontribusi](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** dan **[Keamanan](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** dan **[Kode etik](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Lihat juga
 
 Proyek saudara dari penulis yang sama:

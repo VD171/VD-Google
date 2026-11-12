@@ -83,6 +83,18 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 所有时间均以你设备当前的时区显示，并始终标注时区。
 
+## 文档
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**：所有文档，可在线浏览。
+- **[用户指南](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**：每个界面读取什么，以及每个结果意味着什么。
+- **[架构](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** 和 **[文件结构](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**：它如何工作，以及一切都在哪里。
+- **[隐私](https://github.com/VD171/VD-Google/wiki/PRIVACY)**：没有联网权限，每一次读取都经过 root，任何内容都绝不离开设备。
+- **[随附二进制文件](https://github.com/VD171/VD-Google/wiki/BINARIES)**：每个预构建二进制文件的来源和 SHA-256，供完整审计。
+- **[贡献](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** 和 **[安全](https://github.com/VD171/VD-Google/wiki/SECURITY)**。
+- **[更新日志](CHANGELOG.md)** 和 **[行为准则](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**。
+
+<!-- /vd-docs -->
+
 ## 另请参阅
 
 同一作者的姊妹项目：

@@ -83,6 +83,18 @@ VD Google nie deklaruje **żadnych uprawnień**, nawet dostępu do internetu. Ni
 
 Wszystkie godziny są wyświetlane w bieżącej strefie czasowej urządzenia, a strefa jest zawsze podana.
 
+## Dokumentacja
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: cała dokumentacja do przeglądania online.
+- **[Przewodnik użytkownika](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: co odczytuje każdy ekran i co oznacza każdy wynik.
+- **[Architektura](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** oraz **[Struktura plików](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: jak to działa i gdzie wszystko się znajduje.
+- **[Prywatność](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: brak uprawnienia do internetu, każdy odczyt przechodzi przez root, nic nigdy nie opuszcza urządzenia.
+- **[Wbudowane pliki binarne](https://github.com/VD171/VD-Google/wiki/BINARIES)**: pochodzenie i SHA-256 każdego prekompilowanego pliku binarnego, do pełnego audytu.
+- **[Współtworzenie](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** oraz **[Bezpieczeństwo](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** oraz **[Kodeks postępowania](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Zobacz także
 
 Projekty siostrzane tego samego autora:

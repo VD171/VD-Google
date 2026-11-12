@@ -83,6 +83,18 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 Усі значення часу показано в поточному часовому поясі вашого пристрою, і часовий пояс завжди позначено.
 
+## Документація
+
+- **[Вікі](https://github.com/VD171/VD-Google/wiki)**: уся документація, доступна для перегляду онлайн.
+- **[Посібник користувача](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: що зчитує кожен екран і що означає кожен результат.
+- **[Архітектура](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** та **[Структура файлів](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: як це працює і де все міститься.
+- **[Приватність](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: жодних інтернет-дозволів, кожне зчитування йде через root, ніщо ніколи не залишає пристрій.
+- **[Вбудовані бінарні файли](https://github.com/VD171/VD-Google/wiki/BINARIES)**: походження та SHA-256 кожного готового бінарного файлу, для повного аудиту.
+- **[Участь у розробці](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** та **[Безпека](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Журнал змін](CHANGELOG.md)** та **[Кодекс поведінки](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Дивіться також
 
 Споріднені проєкти того самого автора:

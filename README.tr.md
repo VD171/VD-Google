@@ -83,6 +83,18 @@ VD Google **hiçbir izin** tanımlamaz, internet erişimi bile. Okuduğu hiçbir
 
 Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi her zaman belirtilir.
 
+## Belgeler
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: tüm belgeler, çevrimiçi olarak göz atılabilir.
+- **[Kullanıcı kılavuzu](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: her ekranın ne okuduğu ve her sonucun ne anlama geldiği.
+- **[Mimari](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** ve **[Dosya yapısı](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: nasıl çalıştığı ve her şeyin nerede olduğu.
+- **[Gizlilik](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: internet izni yok, her okuma root üzerinden geçer, hiçbir şey cihazdan asla çıkmaz.
+- **[Paketlenmiş ikili dosyalar](https://github.com/VD171/VD-Google/wiki/BINARIES)**: her önceden derlenmiş ikili dosyanın kaynağı ve SHA-256'sı, tam denetim için.
+- **[Katkıda bulunma](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** ve **[Güvenlik](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Değişiklik günlüğü](CHANGELOG.md)** ve **[Davranış kuralları](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Ayrıca bakınız
 
 Aynı yazarın kardeş projeleri:

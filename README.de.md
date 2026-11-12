@@ -83,6 +83,18 @@ VD Google deklariert **überhaupt keine Berechtigungen**, nicht einmal Internetz
 
 Alle Zeiten werden in der aktuellen Zeitzone deines Geräts angezeigt, und die Zeitzone wird immer angegeben.
 
+## Dokumentation
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: die gesamte Dokumentation, online durchsuchbar.
+- **[Benutzerhandbuch](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: was jeder Bildschirm anzeigt und was jedes Ergebnis bedeutet.
+- **[Architektur](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** und **[Dateistruktur](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: wie es funktioniert und wo alles liegt.
+- **[Datenschutz](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: keine Internetberechtigung, jede Lesung läuft über Root, nichts verlässt jemals das Gerät.
+- **[Mitgelieferte Binärdateien](https://github.com/VD171/VD-Google/wiki/BINARIES)**: Herkunft und SHA-256 jeder vorkompilierten Binärdatei, für eine vollständige Prüfung.
+- **[Mitwirken](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** und **[Sicherheit](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** und **[Verhaltenskodex](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Siehe auch
 
 Schwesterprojekte desselben Autors:

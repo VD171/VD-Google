@@ -83,6 +83,18 @@ VD Google vraagt **helemaal geen toestemmingen**, zelfs geen internettoegang. Ni
 
 Alle tijden worden getoond in de huidige tijdzone van je toestel, en de tijdzone wordt altijd vermeld.
 
+## Documentatie
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: alle documentatie, online te doorbladeren.
+- **[Gebruikershandleiding](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: wat elk scherm leest en wat elk resultaat betekent.
+- **[Architectuur](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** en **[Bestandsstructuur](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: hoe het werkt en waar alles zich bevindt.
+- **[Privacy](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: geen internettoestemming, elke leesbewerking gaat via root, er verlaat nooit iets het apparaat.
+- **[Meegeleverde binaries](https://github.com/VD171/VD-Google/wiki/BINARIES)**: herkomst en SHA-256 van elke vooraf gebouwde binary, voor volledige controle.
+- **[Bijdragen](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** en **[Beveiliging](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** en **[Gedragscode](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Zie ook
 
 Zusterprojecten van dezelfde auteur:

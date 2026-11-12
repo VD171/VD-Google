@@ -83,6 +83,18 @@
 
 تُعرض جميع الأوقات حسب المنطقة الزمنية الحالية لجهازك، والمنطقة الزمنية مُبيّنة دائمًا.
 
+## التوثيق
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: كل الوثائق، قابلة للتصفّح عبر الإنترنت.
+- **[دليل المستخدم](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: ما تعرضه كل شاشة وما يعنيه كل نتيجة.
+- **[البنية](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** و**[بنية الملفات](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: كيف يعمل وأين يوجد كل شيء.
+- **[الخصوصية](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: لا إذن للإنترنت، كل قراءة تمر عبر الجذر، ولا شيء يغادر الجهاز أبدًا.
+- **[الملفات الثنائية المضمَّنة](https://github.com/VD171/VD-Google/wiki/BINARIES)**: المصدر وSHA-256 لكل ملف ثنائي مُسبق البناء، لتدقيق كامل.
+- **[المساهمة](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** و**[الأمان](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** و**[مدونة قواعد السلوك](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## انظر أيضًا
 
 مشاريع شقيقة من المؤلف نفسه:

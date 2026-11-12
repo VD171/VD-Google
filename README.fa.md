@@ -83,6 +83,18 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 همه زمان‌ها بر اساس منطقه زمانی فعلی دستگاه شما نمایش داده می‌شوند و منطقه زمانی همیشه ذکر می‌شود.
 
+## مستندات
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: همه مستندات، قابل مرور به‌صورت آنلاین.
+- **[راهنمای کاربر](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: اینکه هر صفحه چه چیزی را نشان می‌دهد و هر نتیجه چه معنایی دارد.
+- **[معماری](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** و **[ساختار فایل‌ها](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: اینکه چگونه کار می‌کند و هر چیز کجاست.
+- **[حریم خصوصی](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: بدون مجوز اینترنت، هر خواندن از طریق روت انجام می‌شود و هیچ‌چیز هرگز از دستگاه خارج نمی‌شود.
+- **[باینری‌های همراه](https://github.com/VD171/VD-Google/wiki/BINARIES)**: منشأ و SHA-256 هر باینری از پیش‌کامپایل‌شده، برای بررسی کامل.
+- **[مشارکت](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** و **[امنیت](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** و **[آیین‌نامه رفتار](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## همچنین ببینید
 
 پروژه‌های خواهر از همان نویسنده:

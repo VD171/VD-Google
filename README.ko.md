@@ -83,6 +83,18 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 모든 시간은 기기의 현재 표준 시간대로 표시되며, 표준 시간대는 항상 함께 표기됩니다.
 
+## 문서
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: 모든 문서를 온라인에서 볼 수 있습니다.
+- **[사용자 가이드](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: 각 화면이 무엇을 읽고 각 결과가 무엇을 의미하는지.
+- **[아키텍처](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** 및 **[파일 구조](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: 어떻게 작동하고 모든 것이 어디에 있는지.
+- **[프라이버시](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: 인터넷 권한 없음, 모든 읽기는 root를 거치며, 아무것도 기기를 떠나지 않습니다.
+- **[내장 바이너리](https://github.com/VD171/VD-Google/wiki/BINARIES)**: 모든 사전 빌드된 바이너리의 출처와 SHA-256으로, 완전한 감사가 가능합니다.
+- **[기여하기](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** 및 **[보안](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** 및 **[행동 강령](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## 함께 보기
 
 같은 작성자의 자매 프로젝트:

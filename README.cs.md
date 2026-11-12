@@ -83,6 +83,18 @@ VD Google nedeklaruje **vůbec žádná oprávnění**, dokonce ani přístup k 
 
 Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení a pásmo je vždy uvedeno.
 
+## Dokumentace
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: veškerá dokumentace, k procházení online.
+- **[Uživatelská příručka](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: co každá obrazovka zobrazuje a co každý výsledek znamená.
+- **[Architektura](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** a **[Struktura souborů](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: jak to funguje a kde se co nachází.
+- **[Soukromí](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: žádné oprávnění k internetu, každé čtení probíhá přes root, nic nikdy neopustí zařízení.
+- **[Přibalené binární soubory](https://github.com/VD171/VD-Google/wiki/BINARIES)**: původ a SHA-256 každého předkompilovaného binárního souboru, pro úplný audit.
+- **[Přispívání](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** a **[Zabezpečení](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** a **[Kodex chování](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Viz také
 
 Sesterské projekty téhož autora:

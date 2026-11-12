@@ -83,6 +83,18 @@ VD Google non dichiara **alcun permesso**, nemmeno l'accesso a Internet. Nulla d
 
 Tutti gli orari sono mostrati nel fuso orario attuale del dispositivo, e il fuso è sempre indicato.
 
+## Documentazione
+
+- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: tutta la documentazione, consultabile online.
+- **[Guida utente](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: cosa legge ogni schermata e cosa significa ogni risultato.
+- **[Architettura](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** e **[Struttura dei file](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: come funziona e dove si trova ogni cosa.
+- **[Privacy](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: nessun permesso di accesso a Internet, ogni lettura passa dal root, niente lascia mai il dispositivo.
+- **[Binari inclusi](https://github.com/VD171/VD-Google/wiki/BINARIES)**: provenienza e SHA-256 di ogni binario precompilato, per una verifica completa.
+- **[Contribuire](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** e **[Sicurezza](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
+- **[Changelog](CHANGELOG.md)** e **[Codice di condotta](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+
+<!-- /vd-docs -->
+
 ## Vedi anche
 
 Progetti affini dello stesso autore:
