@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-USER-GUIDE">उपयोगकर्ता मार्गदर्शिका</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-ARCHITECTURE">आर्किटेक्चर</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-PRIVACY">गोपनीयता</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-BINARIES">शामिल बाइनरी</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/hi-FILE-STRUCTURE">फ़ाइल संरचना</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>

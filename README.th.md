@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-USER-GUIDE">คู่มือผู้ใช้</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-ARCHITECTURE">สถาปัตยกรรม</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-PRIVACY">ความเป็นส่วนตัว</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-BINARIES">ไบนารีที่มาพร้อม</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/th-FILE-STRUCTURE">โครงสร้างไฟล์</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>

@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-USER-GUIDE">Guia do usuário</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-ARCHITECTURE">Arquitetura</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-PRIVACY">Privacidade</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-BINARIES">Binários embarcados</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/pt-FILE-STRUCTURE">Estrutura de arquivos</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>

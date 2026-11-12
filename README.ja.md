@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-USER-GUIDE">ユーザーガイド</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-ARCHITECTURE">アーキテクチャ</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-PRIVACY">プライバシー</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-BINARIES">同梱バイナリ</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/ja-FILE-STRUCTURE">ファイル構成</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>

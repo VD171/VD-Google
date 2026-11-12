@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/USER-GUIDE">User guide</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/ARCHITECTURE">Architecture</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/PRIVACY">Privacy</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/BINARIES">Bundled binaries</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE">File structure</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-USER-GUIDE">Hướng dẫn sử dụng</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-ARCHITECTURE">Kiến trúc</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-PRIVACY">Quyền riêng tư</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-BINARIES">Các tệp nhị phân đi kèm</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/vi-FILE-STRUCTURE">Cấu trúc tệp</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>
