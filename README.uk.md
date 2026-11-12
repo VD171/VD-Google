@@ -85,13 +85,13 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 ## Документація
 
-- **[Вікі](https://github.com/VD171/VD-Google/wiki)**: уся документація, доступна для перегляду онлайн.
-- **[Посібник користувача](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: що зчитує кожен екран і що означає кожен результат.
-- **[Архітектура](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** та **[Структура файлів](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: як це працює і де все міститься.
-- **[Приватність](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: жодних інтернет-дозволів, кожне зчитування йде через root, ніщо ніколи не залишає пристрій.
-- **[Вбудовані бінарні файли](https://github.com/VD171/VD-Google/wiki/BINARIES)**: походження та SHA-256 кожного готового бінарного файлу, для повного аудиту.
-- **[Участь у розробці](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** та **[Безпека](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Журнал змін](CHANGELOG.md)** та **[Кодекс поведінки](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Вікі](https://github.com/VD171/VD-Google/wiki/uk-Home)**: уся документація, доступна для перегляду онлайн.
+- **[Посібник користувача](https://github.com/VD171/VD-Google/wiki/uk-USER-GUIDE)**: що зчитує кожен екран і що означає кожен результат.
+- **[Архітектура](https://github.com/VD171/VD-Google/wiki/uk-ARCHITECTURE)** та **[Структура файлів](https://github.com/VD171/VD-Google/wiki/uk-FILE-STRUCTURE)**: як це працює і де все міститься.
+- **[Приватність](https://github.com/VD171/VD-Google/wiki/uk-PRIVACY)**: жодних інтернет-дозволів, кожне зчитування йде через root, ніщо ніколи не залишає пристрій.
+- **[Вбудовані бінарні файли](https://github.com/VD171/VD-Google/wiki/uk-BINARIES)**: походження та SHA-256 кожного готового бінарного файлу, для повного аудиту.
+- **[Участь у розробці](https://github.com/VD171/VD-Google/wiki/uk-CONTRIBUTING)** та **[Безпека](https://github.com/VD171/VD-Google/wiki/uk-SECURITY)**.
+- **[Журнал змін](CHANGELOG.md)** та **[Кодекс поведінки](https://github.com/VD171/VD-Google/wiki/uk-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 

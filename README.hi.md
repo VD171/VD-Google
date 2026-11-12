@@ -85,13 +85,13 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 ## दस्तावेज़ीकरण
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: सारे दस्तावेज़, ऑनलाइन ब्राउज़ करने योग्य।
-- **[उपयोगकर्ता मार्गदर्शिका](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: हर स्क्रीन क्या दिखाती है और हर परिणाम का क्या मतलब है।
-- **[आर्किटेक्चर](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** और **[फ़ाइल संरचना](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: यह कैसे काम करता है और सब कुछ कहाँ है।
-- **[गोपनीयता](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: कोई इंटरनेट अनुमति नहीं, हर पठन root के ज़रिए होता है, कुछ भी कभी डिवाइस से बाहर नहीं जाता।
-- **[शामिल बाइनरी](https://github.com/VD171/VD-Google/wiki/BINARIES)**: हर पूर्व-संकलित बाइनरी की उत्पत्ति और SHA-256, पूर्ण ऑडिट के लिए।
-- **[योगदान](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** और **[सुरक्षा](https://github.com/VD171/VD-Google/wiki/SECURITY)**।
-- **[Changelog](CHANGELOG.md)** और **[आचार संहिता](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**।
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/hi-Home)**: सारे दस्तावेज़, ऑनलाइन ब्राउज़ करने योग्य।
+- **[उपयोगकर्ता मार्गदर्शिका](https://github.com/VD171/VD-Google/wiki/hi-USER-GUIDE)**: हर स्क्रीन क्या दिखाती है और हर परिणाम का क्या मतलब है।
+- **[आर्किटेक्चर](https://github.com/VD171/VD-Google/wiki/hi-ARCHITECTURE)** और **[फ़ाइल संरचना](https://github.com/VD171/VD-Google/wiki/hi-FILE-STRUCTURE)**: यह कैसे काम करता है और सब कुछ कहाँ है।
+- **[गोपनीयता](https://github.com/VD171/VD-Google/wiki/hi-PRIVACY)**: कोई इंटरनेट अनुमति नहीं, हर पठन root के ज़रिए होता है, कुछ भी कभी डिवाइस से बाहर नहीं जाता।
+- **[शामिल बाइनरी](https://github.com/VD171/VD-Google/wiki/hi-BINARIES)**: हर पूर्व-संकलित बाइनरी की उत्पत्ति और SHA-256, पूर्ण ऑडिट के लिए।
+- **[योगदान](https://github.com/VD171/VD-Google/wiki/hi-CONTRIBUTING)** और **[सुरक्षा](https://github.com/VD171/VD-Google/wiki/hi-SECURITY)**।
+- **[Changelog](CHANGELOG.md)** और **[आचार संहिता](https://github.com/VD171/VD-Google/wiki/hi-CODE_OF_CONDUCT)**।
 
 <!-- /vd-docs -->
 

@@ -85,13 +85,13 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 ## مستندات
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: همه مستندات، قابل مرور به‌صورت آنلاین.
-- **[راهنمای کاربر](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: اینکه هر صفحه چه چیزی را نشان می‌دهد و هر نتیجه چه معنایی دارد.
-- **[معماری](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** و **[ساختار فایل‌ها](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: اینکه چگونه کار می‌کند و هر چیز کجاست.
-- **[حریم خصوصی](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: بدون مجوز اینترنت، هر خواندن از طریق روت انجام می‌شود و هیچ‌چیز هرگز از دستگاه خارج نمی‌شود.
-- **[باینری‌های همراه](https://github.com/VD171/VD-Google/wiki/BINARIES)**: منشأ و SHA-256 هر باینری از پیش‌کامپایل‌شده، برای بررسی کامل.
-- **[مشارکت](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** و **[امنیت](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Changelog](CHANGELOG.md)** و **[آیین‌نامه رفتار](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/fa-Home)**: همه مستندات، قابل مرور به‌صورت آنلاین.
+- **[راهنمای کاربر](https://github.com/VD171/VD-Google/wiki/fa-USER-GUIDE)**: اینکه هر صفحه چه چیزی را نشان می‌دهد و هر نتیجه چه معنایی دارد.
+- **[معماری](https://github.com/VD171/VD-Google/wiki/fa-ARCHITECTURE)** و **[ساختار فایل‌ها](https://github.com/VD171/VD-Google/wiki/fa-FILE-STRUCTURE)**: اینکه چگونه کار می‌کند و هر چیز کجاست.
+- **[حریم خصوصی](https://github.com/VD171/VD-Google/wiki/fa-PRIVACY)**: بدون مجوز اینترنت، هر خواندن از طریق روت انجام می‌شود و هیچ‌چیز هرگز از دستگاه خارج نمی‌شود.
+- **[باینری‌های همراه](https://github.com/VD171/VD-Google/wiki/fa-BINARIES)**: منشأ و SHA-256 هر باینری از پیش‌کامپایل‌شده، برای بررسی کامل.
+- **[مشارکت](https://github.com/VD171/VD-Google/wiki/fa-CONTRIBUTING)** و **[امنیت](https://github.com/VD171/VD-Google/wiki/fa-SECURITY)**.
+- **[Changelog](CHANGELOG.md)** و **[آیین‌نامه رفتار](https://github.com/VD171/VD-Google/wiki/fa-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 

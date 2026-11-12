@@ -85,13 +85,13 @@
 
 ## التوثيق
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: كل الوثائق، قابلة للتصفّح عبر الإنترنت.
-- **[دليل المستخدم](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: ما تعرضه كل شاشة وما يعنيه كل نتيجة.
-- **[البنية](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** و**[بنية الملفات](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: كيف يعمل وأين يوجد كل شيء.
-- **[الخصوصية](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: لا إذن للإنترنت، كل قراءة تمر عبر الجذر، ولا شيء يغادر الجهاز أبدًا.
-- **[الملفات الثنائية المضمَّنة](https://github.com/VD171/VD-Google/wiki/BINARIES)**: المصدر وSHA-256 لكل ملف ثنائي مُسبق البناء، لتدقيق كامل.
-- **[المساهمة](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** و**[الأمان](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Changelog](CHANGELOG.md)** و**[مدونة قواعد السلوك](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/ar-Home)**: كل الوثائق، قابلة للتصفّح عبر الإنترنت.
+- **[دليل المستخدم](https://github.com/VD171/VD-Google/wiki/ar-USER-GUIDE)**: ما تعرضه كل شاشة وما يعنيه كل نتيجة.
+- **[البنية](https://github.com/VD171/VD-Google/wiki/ar-ARCHITECTURE)** و**[بنية الملفات](https://github.com/VD171/VD-Google/wiki/ar-FILE-STRUCTURE)**: كيف يعمل وأين يوجد كل شيء.
+- **[الخصوصية](https://github.com/VD171/VD-Google/wiki/ar-PRIVACY)**: لا إذن للإنترنت، كل قراءة تمر عبر الجذر، ولا شيء يغادر الجهاز أبدًا.
+- **[الملفات الثنائية المضمَّنة](https://github.com/VD171/VD-Google/wiki/ar-BINARIES)**: المصدر وSHA-256 لكل ملف ثنائي مُسبق البناء، لتدقيق كامل.
+- **[المساهمة](https://github.com/VD171/VD-Google/wiki/ar-CONTRIBUTING)** و**[الأمان](https://github.com/VD171/VD-Google/wiki/ar-SECURITY)**.
+- **[Changelog](CHANGELOG.md)** و**[مدونة قواعد السلوك](https://github.com/VD171/VD-Google/wiki/ar-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 

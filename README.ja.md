@@ -85,13 +85,13 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 ## ドキュメント
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: すべてのドキュメントをオンラインで閲覧できます。
-- **[ユーザーガイド](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: 各画面が何を読み取り、それぞれの結果が何を意味するか。
-- **[アーキテクチャ](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** と **[ファイル構成](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: どう動作し、どこに何があるか。
-- **[プライバシー](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: インターネット権限なし、すべての読み取りは root を介し、何も端末の外に出ません。
-- **[同梱バイナリ](https://github.com/VD171/VD-Google/wiki/BINARIES)**: すべてのビルド済みバイナリの由来と SHA-256。完全に監査できます。
-- **[貢献する](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** と **[セキュリティ](https://github.com/VD171/VD-Google/wiki/SECURITY)**。
-- **[Changelog](CHANGELOG.md)** と **[行動規範](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**。
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/ja-Home)**: すべてのドキュメントをオンラインで閲覧できます。
+- **[ユーザーガイド](https://github.com/VD171/VD-Google/wiki/ja-USER-GUIDE)**: 各画面が何を読み取り、それぞれの結果が何を意味するか。
+- **[アーキテクチャ](https://github.com/VD171/VD-Google/wiki/ja-ARCHITECTURE)** と **[ファイル構成](https://github.com/VD171/VD-Google/wiki/ja-FILE-STRUCTURE)**: どう動作し、どこに何があるか。
+- **[プライバシー](https://github.com/VD171/VD-Google/wiki/ja-PRIVACY)**: インターネット権限なし、すべての読み取りは root を介し、何も端末の外に出ません。
+- **[同梱バイナリ](https://github.com/VD171/VD-Google/wiki/ja-BINARIES)**: すべてのビルド済みバイナリの由来と SHA-256。完全に監査できます。
+- **[貢献する](https://github.com/VD171/VD-Google/wiki/ja-CONTRIBUTING)** と **[セキュリティ](https://github.com/VD171/VD-Google/wiki/ja-SECURITY)**。
+- **[Changelog](CHANGELOG.md)** と **[行動規範](https://github.com/VD171/VD-Google/wiki/ja-CODE_OF_CONDUCT)**。
 
 <!-- /vd-docs -->
 

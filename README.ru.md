@@ -85,13 +85,13 @@ VD Google не объявляет **вообще никаких разрешен
 
 ## Документация
 
-- **[Вики](https://github.com/VD171/VD-Google/wiki)**: вся документация, доступная для просмотра онлайн.
-- **[Руководство пользователя](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: что читает каждый экран и что означает каждый результат.
-- **[Архитектура](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** и **[Структура файлов](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: как это работает и где всё находится.
-- **[Конфиденциальность](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: никаких интернет-разрешений, каждое чтение идёт через root, ничто никогда не покидает устройство.
-- **[Встроенные бинарные файлы](https://github.com/VD171/VD-Google/wiki/BINARIES)**: происхождение и SHA-256 каждого готового бинарного файла, для полного аудита.
-- **[Участие в разработке](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** и **[Безопасность](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Журнал изменений](CHANGELOG.md)** и **[Кодекс поведения](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Вики](https://github.com/VD171/VD-Google/wiki/ru-Home)**: вся документация, доступная для просмотра онлайн.
+- **[Руководство пользователя](https://github.com/VD171/VD-Google/wiki/ru-USER-GUIDE)**: что читает каждый экран и что означает каждый результат.
+- **[Архитектура](https://github.com/VD171/VD-Google/wiki/ru-ARCHITECTURE)** и **[Структура файлов](https://github.com/VD171/VD-Google/wiki/ru-FILE-STRUCTURE)**: как это работает и где всё находится.
+- **[Конфиденциальность](https://github.com/VD171/VD-Google/wiki/ru-PRIVACY)**: никаких интернет-разрешений, каждое чтение идёт через root, ничто никогда не покидает устройство.
+- **[Встроенные бинарные файлы](https://github.com/VD171/VD-Google/wiki/ru-BINARIES)**: происхождение и SHA-256 каждого готового бинарного файла, для полного аудита.
+- **[Участие в разработке](https://github.com/VD171/VD-Google/wiki/ru-CONTRIBUTING)** и **[Безопасность](https://github.com/VD171/VD-Google/wiki/ru-SECURITY)**.
+- **[Журнал изменений](CHANGELOG.md)** и **[Кодекс поведения](https://github.com/VD171/VD-Google/wiki/ru-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 

@@ -85,13 +85,13 @@ Toutes les heures sont affichées dans le fuseau horaire actuel de votre apparei
 
 ## Documentation
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: toute la documentation, consultable en ligne.
-- **[Guide d'utilisation](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: ce que chaque écran affiche et ce que signifie chaque résultat.
-- **[Architecture](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** et **[Structure des fichiers](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: comment ça fonctionne et où se trouve chaque chose.
-- **[Confidentialité](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: aucune autorisation d'accès à Internet, chaque lecture passe par le root, rien ne quitte jamais l'appareil.
-- **[Binaires inclus](https://github.com/VD171/VD-Google/wiki/BINARIES)**: provenance et SHA-256 de chaque binaire précompilé, pour un audit complet.
-- **[Contribuer](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** et **[Sécurité](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Changelog](CHANGELOG.md)** et **[Code de conduite](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/fr-Home)**: toute la documentation, consultable en ligne.
+- **[Guide d'utilisation](https://github.com/VD171/VD-Google/wiki/fr-USER-GUIDE)**: ce que chaque écran affiche et ce que signifie chaque résultat.
+- **[Architecture](https://github.com/VD171/VD-Google/wiki/fr-ARCHITECTURE)** et **[Structure des fichiers](https://github.com/VD171/VD-Google/wiki/fr-FILE-STRUCTURE)**: comment ça fonctionne et où se trouve chaque chose.
+- **[Confidentialité](https://github.com/VD171/VD-Google/wiki/fr-PRIVACY)**: aucune autorisation d'accès à Internet, chaque lecture passe par le root, rien ne quitte jamais l'appareil.
+- **[Binaires inclus](https://github.com/VD171/VD-Google/wiki/fr-BINARIES)**: provenance et SHA-256 de chaque binaire précompilé, pour un audit complet.
+- **[Contribuer](https://github.com/VD171/VD-Google/wiki/fr-CONTRIBUTING)** et **[Sécurité](https://github.com/VD171/VD-Google/wiki/fr-SECURITY)**.
+- **[Changelog](CHANGELOG.md)** et **[Code de conduite](https://github.com/VD171/VD-Google/wiki/fr-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 

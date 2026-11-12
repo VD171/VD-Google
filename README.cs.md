@@ -85,13 +85,13 @@ Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení 
 
 ## Dokumentace
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki)**: veškerá dokumentace, k procházení online.
-- **[Uživatelská příručka](https://github.com/VD171/VD-Google/wiki/USER-GUIDE)**: co každá obrazovka zobrazuje a co každý výsledek znamená.
-- **[Architektura](https://github.com/VD171/VD-Google/wiki/ARCHITECTURE)** a **[Struktura souborů](https://github.com/VD171/VD-Google/wiki/FILE-STRUCTURE)**: jak to funguje a kde se co nachází.
-- **[Soukromí](https://github.com/VD171/VD-Google/wiki/PRIVACY)**: žádné oprávnění k internetu, každé čtení probíhá přes root, nic nikdy neopustí zařízení.
-- **[Přibalené binární soubory](https://github.com/VD171/VD-Google/wiki/BINARIES)**: původ a SHA-256 každého předkompilovaného binárního souboru, pro úplný audit.
-- **[Přispívání](https://github.com/VD171/VD-Google/wiki/CONTRIBUTING)** a **[Zabezpečení](https://github.com/VD171/VD-Google/wiki/SECURITY)**.
-- **[Changelog](CHANGELOG.md)** a **[Kodex chování](https://github.com/VD171/VD-Google/wiki/CODE_OF_CONDUCT)**.
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/cs-Home)**: veškerá dokumentace, k procházení online.
+- **[Uživatelská příručka](https://github.com/VD171/VD-Google/wiki/cs-USER-GUIDE)**: co každá obrazovka zobrazuje a co každý výsledek znamená.
+- **[Architektura](https://github.com/VD171/VD-Google/wiki/cs-ARCHITECTURE)** a **[Struktura souborů](https://github.com/VD171/VD-Google/wiki/cs-FILE-STRUCTURE)**: jak to funguje a kde se co nachází.
+- **[Soukromí](https://github.com/VD171/VD-Google/wiki/cs-PRIVACY)**: žádné oprávnění k internetu, každé čtení probíhá přes root, nic nikdy neopustí zařízení.
+- **[Přibalené binární soubory](https://github.com/VD171/VD-Google/wiki/cs-BINARIES)**: původ a SHA-256 každého předkompilovaného binárního souboru, pro úplný audit.
+- **[Přispívání](https://github.com/VD171/VD-Google/wiki/cs-CONTRIBUTING)** a **[Zabezpečení](https://github.com/VD171/VD-Google/wiki/cs-SECURITY)**.
+- **[Changelog](CHANGELOG.md)** a **[Kodex chování](https://github.com/VD171/VD-Google/wiki/cs-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 
