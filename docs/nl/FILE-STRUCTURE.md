@@ -39,7 +39,7 @@ VD-Google/
 
 ## Waar dingen leven
 
-- **De readers** - wat VD Google leest en hoe het dat leest - leven alleen in
+- **De readers**: wat VD Google leest en hoe het dat leest. Ze leven alleen in
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (de app) en
   `VDGoogle/webui/webroot/scripts.js` (de WebUI). De twee weerspiegelen elkaar exact.
 - **De strings** zijn de enige bron van elk label, in 21 talen: de app onder
@@ -59,11 +59,11 @@ de readme voor hoe je bouwt.
 
 Op het toestel houdt de WebUI-module zijn status onder `/data/adb/vdgoogle/`:
 
-- `scratch/` - kortstondige kopieën van een database, opzij genomen zodat een query nooit het
+- `scratch/`: kortstondige kopieën van een database, opzij genomen zodat een query nooit het
   live bestand aanraakt. Elke aflezing verwijdert zijn eigen kopieën, en elk restant van een
   onderbroken uitvoering wordt opgeruimd de volgende keer dat de WebUI opent. Niets hier wordt
   bewaard.
-- `actions.jsonl` - het lokale log van status-wijzigende acties (het wissen van de Google
+- `actions.jsonl`: het lokale log van status-wijzigende acties (het wissen van de Google
   Wallet-cache), elk één JSON-regel, begrensd tot de laatste 200 vermeldingen. Het verlaat
   het toestel nooit.
 

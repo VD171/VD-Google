@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet et attestations Play Integrity, lus sur l'appareil.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet et attestations Play Integrity, lus sur l'appareil.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Chaque version existe sous deux formes, et les deux lisent les mêmes informations sur votre appareil, sans Internet :
 
-- **App** - le `.apk`, une application Android classique.
-- **WebUI** - le `.zip`, un module que vous flashez dans votre gestionnaire root (KernelSU, Magisk ou APatch) et que vous ouvrez depuis celui-ci.
+- **App**: le `.apk`, une application Android classique.
+- **WebUI**: le `.zip`, un module que vous flashez dans votre gestionnaire root (KernelSU, Magisk ou APatch) et que vous ouvrez depuis celui-ci.
 
 Dans les deux cas, le root est requis.
 
@@ -102,6 +102,7 @@ Projets frères du même auteur :
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: un débogueur de méthodes de l'appareil qui lit chaque élément via toutes les méthodes capables de le lire et les compare côte à côte.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: sauvegarde et restauration complètes des applications et des données en root, pilotées entièrement depuis une WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: un usurpateur d'appareil qui transforme une empreinte neuve en un profil cohérent et constant.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: un démon SSH autonome en root (Dropbear).
 
 ## Contacts
 
@@ -117,7 +118,7 @@ Projets frères du même auteur :
 
 ## Licence
 
-**GNU AGPL-3.0-or-later** - voir [LICENSE](LICENSE). Copyleft, y compris la clause réseau : quiconque exécute une version modifiée (même comme service) doit en proposer le code source. Choisie délibérément pour garder les forks ouverts.
+**GNU AGPL-3.0-or-later**: voir [LICENSE](LICENSE). Copyleft, y compris la clause réseau : quiconque exécute une version modifiée (même comme service) doit en proposer le code source. Choisie délibérément pour garder les forks ouverts.
 
 ## Marques
 

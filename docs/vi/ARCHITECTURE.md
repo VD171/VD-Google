@@ -5,7 +5,7 @@
 # Kiến trúc
 
 VD Google được xây dựng như thế nào và vì sao. Trang này giải thích thiết kế và các nguyên
-tắc. Nó không liệt kê chính xác những tập tin, bảng hay truy vấn mà mỗi phần đọc sử dụng -
+tắc. Nó không liệt kê chính xác những tập tin, bảng hay truy vấn mà mỗi phần đọc sử dụng;
 điều đó chỉ tồn tại trong mã nguồn, một cách có chủ đích, để ứng dụng và tài liệu không bao
 giờ trôi dạt thành một hướng dẫn cho người muốn giả mạo chính những giá trị đó.
 
@@ -16,7 +16,7 @@ giờ trôi dạt thành một hướng dẫn cho người muốn giả mạo ch
    Không rõ.
 2. **Không mạng.** Ứng dụng không khai báo bất kỳ quyền nào; WebUI chặn mọi nguồn gốc từ xa.
    Không có gì được gửi đi đâu cả, bao giờ.
-3. **Một hành vi, hai bộ mặt.** Ứng dụng và module WebUI được giữ hoàn toàn giống hệt nhau -
+3. **Một hành vi, hai bộ mặt.** Ứng dụng và module WebUI được giữ hoàn toàn giống hệt nhau:
    cùng tín hiệu, cùng cách diễn đạt, cùng báo cáo xuất ra.
 4. **Trung thực hơn là tâng bốc.** Một kết quả âm thật sự được hiển thị là âm; một bộ nhớ
    đệm cũ được ghi nhãn là đã lưu đệm; một giá trị thiếu là Không rõ. Việc phát hiện không
@@ -67,7 +67,7 @@ Phần xuất là một ảnh chụp JSON đã được làm sạch. Một bộ 
 gì được ghi: nó loại bỏ các khóa và giá trị trông giống thông tin xác thực, biên tập ẩn đi
 những chuỗi chữ số dài, và không bao giờ phát ra số điện thoại, nội dung tin nhắn, tên liên
 hệ hay các khối dữ liệu khả năng (capability blob) thô của bạn. Phần chẩn đoán tùy chọn chỉ
-mang theo tên lược đồ, số đếm, kích thước và phiên bản - và ngay cả ở đó, bất kỳ dấu vân tay
+mang theo tên lược đồ, số đếm, kích thước và phiên bản; và ngay cả ở đó, bất kỳ dấu vân tay
 theo-danh-tính nào được nhúng trong một tên đều bị thu gọn đi. Ứng dụng và WebUI tạo ra cùng
 một lược đồ.
 

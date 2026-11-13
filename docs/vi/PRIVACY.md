@@ -4,14 +4,14 @@
 
 # Quyền riêng tư
 
-Quyền riêng tư không phải là một tính năng của VD Google - nó là toàn bộ mục đích. Trang này
+Quyền riêng tư không phải là một tính năng của VD Google: nó là toàn bộ mục đích. Trang này
 nêu chính xác những gì ứng dụng làm và không làm với dữ liệu của bạn, bằng những lời lẽ rõ
 ràng mà bạn có thể xác minh.
 
 ## Lời hứa
 
-- **Không có quyền internet nào được cấp.** Manifest của ứng dụng không khai báo quyền nào cả
-  - không internet, không lưu trữ, không liên hệ, không gì cả. Chẳng có gì để cho phép.
+- **Không có quyền internet nào được cấp.** Manifest của ứng dụng không khai báo quyền nào cả:
+  không internet, không lưu trữ, không liên hệ, không gì cả. Chẳng có gì để cho phép.
 - **Không có gì được lưu, gửi hay truyền** đến bất kỳ tệp hay máy chủ nào ngoài thiết bị của
   bạn.
 - Mọi thao tác đọc diễn ra **cục bộ, thông qua root**, và ở lại trên thiết bị.

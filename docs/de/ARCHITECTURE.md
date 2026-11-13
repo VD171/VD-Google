@@ -5,7 +5,7 @@
 # Architektur
 
 Wie VD Google aufgebaut ist und warum. Diese Seite erklärt den Entwurf und die Grundsätze. Sie
-führt nicht die genauen Dateien, Tabellen oder Abfragen auf, die jeder Leser verwendet - das lebt
+führt nicht die genauen Dateien, Tabellen oder Abfragen auf, die jeder Leser verwendet. Das lebt
 allein im Quellcode, so gewollt, damit App und Dokumentation niemals zu einer Anleitung für jemanden
 abdriften, der dieselben Werte fälschen möchte.
 
@@ -15,7 +15,7 @@ abdriften, der dieselben Werte fälschen möchte.
    und niemals einen Wert erfinden. Wenn das Gerät keine Antwort bereithält, sage Unbekannt.
 2. **Null Netzwerk.** Die App deklariert überhaupt keine Berechtigungen; die WebUI blockiert jede
    entfernte Herkunft. Es wird niemals irgendetwas irgendwohin gesendet.
-3. **Ein Verhalten, zwei Gesichter.** Die App und das WebUI-Modul werden absolut identisch gehalten -
+3. **Ein Verhalten, zwei Gesichter.** Die App und das WebUI-Modul werden absolut identisch gehalten:
    dieselben Signale, derselbe Wortlaut, derselbe exportierte Bericht.
 4. **Ehrlich statt schmeichelhaft.** Ein echtes Negativ wird als negativ gezeigt; ein veralteter
    Cache wird als zwischengespeichert gekennzeichnet; ein fehlender Wert ist Unbekannt. Die Erkennung
@@ -67,7 +67,7 @@ Der Export ist ein bereinigter JSON-Schnappschuss. Ein Bereiniger läuft, bevor 
 geschrieben wird: Er verwirft Schlüssel und Werte, die wie Anmeldedaten aussehen, schwärzt lange
 Ziffernfolgen und gibt niemals deine Telefonnummer, Nachrichteninhalte, Kontaktnamen oder rohe
 Capability-Blobs aus. Der optionale Diagnoseabschnitt trägt nur Schemanamen, Zählwerte, Größen und
-Versionen - und selbst dort wird jeder in einem Namen eingebettete pro-Identität-Fingerabdruck
+Versionen, und selbst dort wird jeder in einem Namen eingebettete pro-Identität-Fingerabdruck
 zusammengefaltet und entfernt. Die App und die WebUI erzeugen dasselbe Schema.
 
 ## Was VD Google niemals tut

@@ -39,7 +39,7 @@ VD-Google/
 
 ## Var saker lever
 
-- **Läsarna** - vad VD Google läser och hur det läser det - lever endast i
+- **Läsarna**: vad VD Google läser och hur det läser det. De lever endast i
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (appen) och
   `VDGoogle/webui/webroot/scripts.js` (WebUI). De två speglar varandra exakt.
 - **Strängarna** är den enda källan till varje etikett, på 21 språk: appen under
@@ -59,10 +59,10 @@ readme för hur man bygger.
 
 På enheten håller WebUI-modulen sitt tillstånd under `/data/adb/vdgoogle/`:
 
-- `scratch/` - kortlivade kopior av en databas, tagna åt sidan så att en fråga aldrig rör
+- `scratch/`: kortlivade kopior av en databas, tagna åt sidan så att en fråga aldrig rör
   den levande filen. Varje läsning raderar sina egna kopior, och eventuella rester från en
   avbruten körning rensas nästa gång WebUI öppnas. Ingenting här behålls.
-- `actions.jsonl` - den lokala loggen över tillståndsändrande åtgärder (rensningen av
+- `actions.jsonl`: den lokala loggen över tillståndsändrande åtgärder (rensningen av
   Google Wallet-cachen), en JSON-rad var, begränsad till de senaste 200 posterna. Den
   lämnar aldrig enheten.
 

@@ -39,7 +39,7 @@ VD-Google/
 
 ## Wo die Dinge leben
 
-- **Die Reader** - was VD Google liest und wie es liest - leben allein in
+- **Die Reader**: was VD Google liest und wie es liest. Sie leben allein in
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (die App) und
   `VDGoogle/webui/webroot/scripts.js` (die WebUI). Die beiden spiegeln einander exakt.
 - **Die Zeichenketten** sind die einzige Quelle jeder Beschriftung, in 21 Sprachen: die App unter
@@ -59,10 +59,10 @@ Readme dafür, wie man baut.
 
 Auf dem Gerät hält das WebUI-Modul seinen Zustand unter `/data/adb/vdgoogle/`:
 
-- `scratch/` - kurzlebige Kopien einer Datenbank, beiseitegelegt, sodass eine Abfrage niemals die
+- `scratch/`: kurzlebige Kopien einer Datenbank, beiseitegelegt, sodass eine Abfrage niemals die
   Live-Datei berührt. Jeder Lesevorgang löscht seine eigenen Kopien, und jeder Überrest aus einem
   unterbrochenen Lauf wird beim nächsten Öffnen der WebUI beseitigt. Hier wird nichts aufbewahrt.
-- `actions.jsonl` - das lokale Protokoll der zustandsändernden Aktionen (das Löschen des Google-Wallet-
+- `actions.jsonl`: das lokale Protokoll der zustandsändernden Aktionen (das Löschen des Google-Wallet-
   Caches), jeweils eine JSON-Zeile, begrenzt auf die letzten 200 Einträge. Es verlässt niemals das
   Gerät.
 

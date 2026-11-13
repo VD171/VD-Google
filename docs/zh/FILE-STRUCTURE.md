@@ -39,7 +39,7 @@ VD-Google/
 
 ## 各部分位于何处
 
-- **各个读取器（reader）** - VD Google 读取什么、如何读取 - 仅位于
+- **各个读取器（reader）**: VD Google 读取什么、如何读取，仅位于
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/`（应用）和
   `VDGoogle/webui/webroot/scripts.js`（WebUI）。两者彼此精确镜像。
 - **各个字符串** 是每个标签的唯一来源，涵盖 21 种语言：应用位于 `res/values*/strings.xml` 之下，
@@ -57,9 +57,9 @@ release 构建会产生 APK 和 WebUI 的 ZIP。构建产物不会被提交。�
 
 在设备上，WebUI 模块将其状态保存在 `/data/adb/vdgoogle/` 之下：
 
-- `scratch/` - 数据库的短暂存活副本，旁置于此，使查询永远不会触碰正在使用的文件。每次读取都会删除它自
+- `scratch/`: 数据库的短暂存活副本，旁置于此，使查询永远不会触碰正在使用的文件。每次读取都会删除它自
   己的副本，而任何来自被中断运行的残留，都会在下一次 WebUI 打开时被清除。这里不保留任何东西。
-- `actions.jsonl` - 改变状态的操作（清除 Google Wallet 缓存）的本地日志，每项一行 JSON，上限为最近
+- `actions.jsonl`: 改变状态的操作（清除 Google Wallet 缓存）的本地日志，每项一行 JSON，上限为最近
   200 条。它绝不会离开设备。
 
 应用则改为把同样的短暂存活 scratch 副本保存在它自己的私有缓存中，并把它的操作日志写入它自己的私有文件

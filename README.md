@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet and Play Integrity attestations, read on-device.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet and Play Integrity attestations, read on-device.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Every release comes two ways, and both read the same things on your device with no internet:
 
-- **App** - the `.apk`, a normal Android app.
-- **WebUI** - the `.zip`, a module you flash in your root manager (KernelSU, Magisk or APatch) and open from there.
+- **App**: the `.apk`, a normal Android app.
+- **WebUI**: the `.zip`, a module you flash in your root manager (KernelSU, Magisk or APatch) and open from there.
 
 Either way, root is required.
 
@@ -102,6 +102,7 @@ Sibling projects by the same author:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: a device method debugger that reads each item through every method that can read it and compares them side by side.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: full app and data backup and restore as root, driven entirely from a WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: a device spoofer that turns a fresh fingerprint into a coherent, consistent profile.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: a standalone rooted SSH daemon (Dropbear).
 
 ## Contacts
 
@@ -117,7 +118,7 @@ Sibling projects by the same author:
 
 ## License
 
-**GNU AGPL-3.0-or-later** - see [LICENSE](LICENSE). Copyleft, including the network clause: anyone who runs a modified version (even as a service) must offer its source. Chosen deliberately to keep forks open.
+**GNU AGPL-3.0-or-later**. See [LICENSE](LICENSE). Copyleft, including the network clause: anyone who runs a modified version (even as a service) must offer its source. Chosen deliberately to keep forks open.
 
 ## Trademarks
 

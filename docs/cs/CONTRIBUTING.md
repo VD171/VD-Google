@@ -31,7 +31,7 @@ tónu a nikdy strojově nepřekládejte technický termín, kterým si nejste ji
 
 ## Hlášení chyby
 
-Založte issue s modelem svého zařízení, verzí Androidu a - pokud jde o čtení - s
+Založte issue s modelem svého zařízení, verzí Androidu a (pokud jde o čtení) s
 **exportem** (neobsahuje žádná osobní data). Diagnostická sekce exportu je stavěná přesně
 k tomuto.
 

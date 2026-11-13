@@ -4,13 +4,13 @@
 
 # Soukromí
 
-Soukromí není funkce VD Google - je to celý jeho smysl. Tato stránka přesně uvádí, co
+Soukromí není funkce VD Google. Je to celý jeho smysl. Tato stránka přesně uvádí, co
 aplikace s vašimi daty dělá a co ne, srozumitelně a ověřitelně.
 
 ## Slib
 
 - **Nedává se žádné oprávnění k internetu.** Manifest aplikace nedeklaruje vůbec žádná
-  oprávnění - ani internet, ani úložiště, ani kontakty, nic. Není co povolovat.
+  oprávnění: ani internet, ani úložiště, ani kontakty, nic. Není co povolovat.
 - **Nic se neukládá, neodesílá ani nepřenáší** do žádného souboru nebo serveru mimo vaše
   zařízení.
 - Každé čtení probíhá **lokálně, přes root**, a zůstává na zařízení.

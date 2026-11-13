@@ -32,11 +32,11 @@ aldrig internet, och det ändrar aldrig något om du inte ber om det.
 VD Google är en läsare. Den tittar på vad Googles egna appar redan lagrar på din enhet om
 tre saker, och förklarar var och en så att du faktiskt förstår den:
 
-- **RCS** - om modern chatt verkligen fungerar på din linje, vem du kan chatta med och om
+- **RCS**: om modern chatt verkligen fungerar på din linje, vem du kan chatta med och om
   Gemini i Google Messages är redo.
-- **Google Wallet** - om din enhet är konfigurerad och attesterad för kontaktlösa
+- **Google Wallet**: om din enhet är konfigurerad och attesterad för kontaktlösa
   betalningar.
-- **Play Integrity-attesteringar** - vilka appar som har bett Android att bevisa att din
+- **Play Integrity-attesteringar**: vilka appar som har bett Android att bevisa att din
   enhet är äkta, och om Google för närvarande certifierar den.
 
 Allt läses lokalt, via root, och visas med en förklaring. Inget värde hittas på: när
@@ -103,58 +103,58 @@ det är hela poängen med appen.
 Detta är den mest innehållsrika fliken. Tidsstämplar visas alltid i din enhets tidszon,
 med zonen märkt.
 
-- **Anslutning** - den enda rad som säger sanningen. Den beräknas utifrån den verkliga
+- **Anslutning**: den enda rad som säger sanningen. Den beräknas utifrån den verkliga
   chattkonfigurationen och provisioneringsmotorn, så den säger Ansluten när RCS faktiskt
   fungerar på din linje, även på nyare Android där de äldre flaggorna ljuger. **Vid
   tvekan, lita på den här raden.**
-- **Operatör** - mobiloperatören för din linje (namn och MCC/MNC), hämtad från ditt
+- **Operatör**: mobiloperatören för din linje (namn och MCC/MNC), hämtad från ditt
   data-SIM på telefoner med dubbla SIM.
-- **Tillgänglighetsflagga (cachad)** - en cachad flagga som meddelandeappen håller för ditt
+- **Tillgänglighetsflagga (cachad)**: en cachad flagga som meddelandeappen håller för ditt
   eget nummer. Den kan förbli inaktuell efter att RCS redan fungerar, så ett "Nej" här
   betyder inte att RCS är av. Lita på Anslutnings-raden ovan.
-- **Ditt RCS-nummer** - numret som registrerats för RCS, maskerat som standard. Tryck på
+- **Ditt RCS-nummer**: numret som registrerats för RCS, maskerat som standard. Tryck på
   ögat för att visa det.
-- **Provisioneringstillstånd (cachat)** och **Konfigurationsversion** - interna värden som
+- **Provisioneringstillstånd (cachat)** och **Konfigurationsversion**: interna värden som
   meddelandeappen håller. De kan läsa 0 även medan RCS fungerar. Se noten om operatör kontra
   Googles backend nedan.
-- **RCS-kapabla kontakter** - hur många av dina kontakter som för närvarande är kända för
+- **RCS-kapabla kontakter**: hur många av dina kontakter som för närvarande är kända för
   att stödja RCS-chatt.
-- **Funktionsflagga (cachad)** - om meddelandeappen har RCS-funktionen påslagen; cachad, så
+- **Funktionsflagga (cachad)**: om meddelandeappen har RCS-funktionen påslagen; cachad, så
   den kan släpa efter.
-- **Operatörsberättigande (entitlement)**, **Närvaro (UCE)**, **IMS-tjänst närvarande** -
+- **Operatörsberättigande (entitlement)**, **Närvaro (UCE)**, **IMS-tjänst närvarande**:
   dessa beskriver *operatörens* RCS-väg (operatörens IMS-nätverk). Ett "Nej" eller "0" här
   är normalt när din RCS körs genom Googles egen backend i stället för din operatör. Se
   nedan.
-- **Gemini** - om Gemini i Google Messages är redo: **Magic Compose** (Geminis
+- **Gemini**: om Gemini i Google Messages är redo: **Magic Compose** (Geminis
   skrivhjälp), **AICore** (motorn på enheten som kör Gemini Nano) och **Gemini-chatt**, som
   levereras över RCS och därför behöver RCS anslutet.
-- **Tidsstämplar** - provisionering, synkronisering, senaste meddelande, tokenförfall med
+- **Tidsstämplar**: provisionering, synkronisering, senaste meddelande, tokenförfall med
   mera.
 
 **Operatörs-RCS kontra Googles backend.** Det finns två sätt som RCS når din telefon. Det
 ena är din *operatörs* RCS över deras IMS-nätverk; det andra är *Googles egen backend*
-(Jibe), som fungerar ovanpå, oberoende av operatören. Om din RCS körs genom Googles backend
-- som den gör för de flesta - då är raderna på operatörssidan (operatörsberättigande,
+(Jibe), som fungerar ovanpå, oberoende av operatören. Om din RCS körs genom Googles backend,
+som den gör för de flesta, då är raderna på operatörssidan (operatörsberättigande,
 närvaro/UCE, IMS-tjänst, konfigurationsversion) genuint "Nej" eller "0", och det är
 korrekt, inte en inaktuell cache. Din RCS kan ha fungerat i åratal på det här sättet.
 Anslutnings-raden är det som talar om för dig att den fungerar.
 
 ### 6.3 Wallet
 
-- **Enhet attesterad** - om Google bedömde den här enheten som äkta och säker nog att hålla
+- **Enhet attesterad**: om Google bedömde den här enheten som äkta och säker nog att hålla
   betalkort. Det är det senaste resultatet som Google sparade på den här enheten, så det
   kan släpa efter Wallet-appen tills Google kontrollerar på nytt. Om det sparade resultatet
   saknas visar VD Google **Okänt** i stället för ett vilseledande "Nej".
-- **Senast kontrollerad** - när den säkerhetskontrollen senast slutfördes.
+- **Senast kontrollerad**: när den säkerhetskontrollen senast slutfördes.
 - **NFC-hårdvara**, **Wallet installerad**, **Wallet-tjänst**, **Tap and pay**,
-  **Skärmlås accepterat**, **Kort någonsin tillagt** - delarna som gör kontaktlös betalning
+  **Skärmlås accepterat**, **Kort någonsin tillagt**: delarna som gör kontaktlös betalning
   möjlig.
 
 ### 6.4 DroidGuard
 
-- **Play Protect-certifierad** - om Google Play erkänner din enhet som certifierad
+- **Play Protect-certifierad**: om Google Play erkänner din enhet som certifierad
   (certifieringen som visas i Play Store).
-- **Attesteringscache** - de Play Integrity- och DroidGuard-attesteringar som din enhet har
+- **Attesteringscache**: de Play Integrity- och DroidGuard-attesteringar som din enhet har
   cachat, var och en med när den förfaller.
 
 ### 6.5 Attesteringar
@@ -167,7 +167,7 @@ integritet eller inte. Använd sökrutan för att filtrera på appnamn eller pak
 
 Nedladdningsikonen skriver en **JSON**-rapport med din enhet, RCS, Wallet och
 attesteringstillstånd. Du kan dela den eller spara den som en fil. Rapporten innehåller
-**inget telefonnummer, inga autentiseringsuppgifter och inget personligt innehåll** - den
+**inget telefonnummer, inga autentiseringsuppgifter och inget personligt innehåll**: den
 saneras innan den skrivs. Den innehåller också ett valfritt **diagnostik**-avsnitt
 (schemanamn, antal och versioner, aldrig dina data) som hjälper till att felsöka
 enhetsspecifika problem. Appen och WebUI skriver samma rapport.
@@ -192,7 +192,7 @@ genom Googles egen backend, inte din operatör. Raderna på operatörssidan är 
 negativa. Se [6.2 RCS](#62-rcs).
 
 **Enhet attesterad säger Okänt.** Det cachade Wallet-resultatet saknas på din enhet. Det är
-ärligt - VD Google kommer inte att visa ett "Nej" som det inte kan styrka.
+ärligt: VD Google kommer inte att visa ett "Nej" som det inte kan styrka.
 
 **Var är mitt Play Integrity-utlåtande?** Det finns inte på din enhet. Se
 [2. Vad det inte är](#2-vad-det-inte-är).

@@ -30,7 +30,7 @@ the existing tone, and never machine-translate a technical term you are unsure o
 
 ## Reporting a bug
 
-Open an issue with your device model, Android version, and - if it is about a reading -
+Open an issue with your device model, Android version, and, if it is about a reading,
 an **export** (it contains no personal data). The export's diagnostics section is built
 for exactly this.
 

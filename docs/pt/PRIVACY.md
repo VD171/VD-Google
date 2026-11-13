@@ -4,14 +4,14 @@
 
 # Privacidade
 
-Privacidade não é um recurso do VD Google - é todo o seu propósito. Esta página declara
+Privacidade não é um recurso do VD Google: é todo o seu propósito. Esta página declara
 exatamente o que o aplicativo faz e não faz com os seus dados, em termos simples que você
 pode verificar.
 
 ## A promessa
 
 - **Nenhuma permissão de internet é concedida.** O manifest do aplicativo não declara
-  permissão alguma - nem internet, nem armazenamento, nem contatos, nada. Não há nada a
+  permissão alguma: nem internet, nem armazenamento, nem contatos, nada. Não há nada a
   autorizar.
 - **Nada é armazenado, enviado ou transmitido** para qualquer arquivo ou servidor fora do
   seu dispositivo.

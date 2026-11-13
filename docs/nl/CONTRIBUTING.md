@@ -31,7 +31,7 @@ toon, en vertaal nooit machinaal een technische term waar je onzeker over bent.
 
 ## Een bug melden
 
-Open een issue met je toestelmodel, Android-versie, en - als het over een aflezing gaat -
+Open een issue met je toestelmodel, Android-versie, en, als het over een aflezing gaat,
 een **export** (die bevat geen persoonlijke gegevens). De diagnostiek-sectie van de export
 is precies hiervoor gemaakt.
 

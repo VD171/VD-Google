@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS、Google ウォレット、Play Integrity 認証を端末上で読み取る。
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS、Google ウォレット、Play Integrity 認証を端末上で読み取る。
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 各リリースには2つの形式があり、どちらもインターネットを使わず、端末上で同じ情報を読み取ります。
 
-- **App** - `.apk`。通常の Android アプリです。
-- **WebUI** - `.zip`。root マネージャー（KernelSU、Magisk、APatch）で書き込み、そこから開くモジュールです。
+- **App**: `.apk`。通常の Android アプリです。
+- **WebUI**: `.zip`。root マネージャー（KernelSU、Magisk、APatch）で書き込み、そこから開くモジュールです。
 
 どちらの場合も root が必要です。
 
@@ -102,6 +102,7 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: 各項目を、それを読み取れるすべてのメソッドで読み取り、並べて比較する端末メソッドデバッガー。
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root でアプリとデータを完全にバックアップ・復元し、すべて WebUI から操作。
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: 新しいフィンガープリントを一貫性のある整合したプロファイルに変える端末スプーファー。
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root 向けの単体で動くスタンドアロン SSH デーモン（Dropbear）。
 
 ## 連絡先
 
@@ -117,7 +118,7 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 ## ライセンス
 
-**GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) を参照。ネットワーク条項を含むコピーレフト：改変版を（サービスとしてでも）実行する者は、そのソースを提供しなければなりません。フォークをオープンに保つため意図的に選びました。
+**GNU AGPL-3.0-or-later**: [LICENSE](LICENSE) を参照。ネットワーク条項を含むコピーレフト：改変版を（サービスとしてでも）実行する者は、そのソースを提供しなければなりません。フォークをオープンに保つため意図的に選びました。
 
 ## 商標
 

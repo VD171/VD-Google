@@ -33,11 +33,11 @@ bạn yêu cầu.
 VD Google là một trình đọc. Nó xem những gì chính các ứng dụng của Google đã lưu trên thiết
 bị của bạn về ba thứ, và nó giải thích từng thứ để bạn thực sự hiểu nó:
 
-- **RCS** - liệu trò chuyện hiện đại có thực sự hoạt động trên đường dây của bạn không, bạn
+- **RCS**: liệu trò chuyện hiện đại có thực sự hoạt động trên đường dây của bạn không, bạn
   có thể trò chuyện với ai, và liệu Gemini trong Google Messages đã sẵn sàng chưa.
-- **Google Wallet** - liệu thiết bị của bạn đã được thiết lập và chứng thực cho thanh toán
+- **Google Wallet**: liệu thiết bị của bạn đã được thiết lập và chứng thực cho thanh toán
   không tiếp xúc chưa.
-- **Các chứng thực Play Integrity** - những ứng dụng nào đã yêu cầu Android chứng minh thiết
+- **Các chứng thực Play Integrity**: những ứng dụng nào đã yêu cầu Android chứng minh thiết
   bị của bạn là chính hãng, và liệu Google hiện có chứng nhận điều đó không.
 
 Mọi thứ được đọc cục bộ, thông qua root, và được hiển thị kèm một lời giải thích. Không giá
@@ -105,57 +105,57 @@ riêng tư một lần: nó là toàn bộ mục đích của ứng dụng.
 Đây là tab phong phú nhất. Dấu thời gian luôn được hiển thị theo múi giờ của thiết bị bạn, có
 ghi nhãn múi giờ.
 
-- **Kết nối** - dòng duy nhất nói lên sự thật. Nó được tính từ cấu hình trò chuyện thực và
+- **Kết nối**: dòng duy nhất nói lên sự thật. Nó được tính từ cấu hình trò chuyện thực và
   engine cấp phép, nên nó nói Đã kết nối khi RCS thực sự đang hoạt động trên đường dây của
   bạn, ngay cả trên Android mới hơn nơi các cờ cũ nói dối. **Khi còn nghi ngờ, hãy tin dòng
   này.**
-- **Nhà mạng** - nhà mạng di động cho đường dây của bạn (tên và MCC/MNC), lấy từ SIM dữ liệu
+- **Nhà mạng**: nhà mạng di động cho đường dây của bạn (tên và MCC/MNC), lấy từ SIM dữ liệu
   của bạn trên điện thoại hai SIM.
-- **Cờ khả dụng (đã lưu đệm)** - một cờ được lưu đệm mà ứng dụng nhắn tin giữ cho chính số
+- **Cờ khả dụng (đã lưu đệm)**: một cờ được lưu đệm mà ứng dụng nhắn tin giữ cho chính số
   của bạn. Nó có thể vẫn lỗi thời sau khi RCS đã hoạt động, nên một "Không" ở đây không có
   nghĩa là RCS đã tắt. Hãy tin dòng Kết nối ở trên.
-- **Số RCS của bạn** - số được đăng ký cho RCS, mặc định được che. Chạm vào biểu tượng con
+- **Số RCS của bạn**: số được đăng ký cho RCS, mặc định được che. Chạm vào biểu tượng con
   mắt để lộ nó.
-- **Trạng thái cấp phép (đã lưu đệm)** và **Phiên bản cấu hình** - những giá trị nội bộ mà
+- **Trạng thái cấp phép (đã lưu đệm)** và **Phiên bản cấu hình**: những giá trị nội bộ mà
   ứng dụng nhắn tin giữ. Chúng có thể đọc ra 0 ngay cả khi RCS hoạt động. Xem ghi chú về
   nhà mạng và backend của Google bên dưới.
-- **Liên hệ hỗ trợ RCS** - hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện
+- **Liên hệ hỗ trợ RCS**: hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện
   RCS.
-- **Cờ tính năng (đã lưu đệm)** - liệu ứng dụng nhắn tin có bật tính năng RCS hay không; được
+- **Cờ tính năng (đã lưu đệm)**: liệu ứng dụng nhắn tin có bật tính năng RCS hay không; được
   lưu đệm, nên nó có thể trễ.
-- **Quyền lợi nhà mạng (carrier entitlement)**, **Hiện diện (UCE)**, **Dịch vụ IMS có mặt** -
+- **Quyền lợi nhà mạng (carrier entitlement)**, **Hiện diện (UCE)**, **Dịch vụ IMS có mặt**:
   những thứ này mô tả đường RCS của *nhà mạng* (mạng IMS của nhà khai thác). Một "Không" hay
   "0" ở đây là bình thường khi RCS của bạn chạy qua backend của chính Google thay vì nhà mạng
   của bạn. Xem bên dưới.
-- **Gemini** - liệu Gemini trong Google Messages đã sẵn sàng chưa: **Magic Compose** (trợ
+- **Gemini**: liệu Gemini trong Google Messages đã sẵn sàng chưa: **Magic Compose** (trợ
   giúp viết của Gemini), **AICore** (engine trên-thiết-bị chạy Gemini Nano), và **Gemini
   chat**, được chuyển qua RCS nên cần RCS đã kết nối.
-- **Dấu thời gian** - cấp phép, đồng bộ, tin nhắn cuối, hết hạn token và nhiều hơn nữa.
+- **Dấu thời gian**: cấp phép, đồng bộ, tin nhắn cuối, hết hạn token và nhiều hơn nữa.
 
 **RCS nhà mạng với backend của Google.** Có hai cách RCS đến điện thoại của bạn. Một là RCS
 của *nhà mạng* qua mạng IMS của họ; cách kia là *backend của chính Google* (Jibe), hoạt động
-bên trên (over the top), độc lập với nhà mạng. Nếu RCS của bạn chạy qua backend của Google -
-như với hầu hết mọi người - thì các dòng phía-nhà-mạng (quyền lợi nhà mạng, hiện diện/UCE,
+bên trên (over the top), độc lập với nhà mạng. Nếu RCS của bạn chạy qua backend của Google
+(như với hầu hết mọi người) thì các dòng phía-nhà-mạng (quyền lợi nhà mạng, hiện diện/UCE,
 dịch vụ IMS, phiên bản cấu hình) thực sự là "Không" hay "0", và điều đó là đúng, không phải
 một bộ nhớ đệm cũ. RCS của bạn có thể đã hoạt động theo cách này trong nhiều năm. Dòng Kết
 nối là thứ cho bạn biết nó đang hoạt động.
 
 ### 6.3 Wallet
 
-- **Thiết bị được chứng thực** - liệu Google có đánh giá thiết bị này là chính hãng và đủ an
+- **Thiết bị được chứng thực**: liệu Google có đánh giá thiết bị này là chính hãng và đủ an
   toàn để giữ thẻ thanh toán hay không. Đó là kết quả cuối cùng mà Google đã lưu trên thiết
   bị này, nên nó có thể trễ hơn ứng dụng Wallet cho đến khi Google kiểm tra lại. Nếu kết quả
   đã lưu bị thiếu, VD Google hiển thị **Không rõ** thay vì một "Không" gây hiểu lầm.
-- **Lần kiểm tra cuối** - khi nào lần kiểm tra bảo mật đó hoàn tất gần nhất.
+- **Lần kiểm tra cuối**: khi nào lần kiểm tra bảo mật đó hoàn tất gần nhất.
 - **Phần cứng NFC**, **Wallet đã cài**, **Dịch vụ Wallet**, **Chạm để thanh toán**, **Khóa
-  màn hình được chấp nhận**, **Từng thêm thẻ** - những mảnh ghép làm cho thanh toán không
+  màn hình được chấp nhận**, **Từng thêm thẻ**: những mảnh ghép làm cho thanh toán không
   tiếp xúc trở nên khả thi.
 
 ### 6.4 DroidGuard
 
-- **Được Play Protect chứng nhận** - liệu Google Play có nhận diện thiết bị của bạn là đã
+- **Được Play Protect chứng nhận**: liệu Google Play có nhận diện thiết bị của bạn là đã
   chứng nhận hay không (chứng nhận được hiển thị trong Play Store).
-- **Bộ nhớ đệm chứng thực** - các chứng thực Play Integrity và DroidGuard mà thiết bị của bạn
+- **Bộ nhớ đệm chứng thực**: các chứng thực Play Integrity và DroidGuard mà thiết bị của bạn
   đã lưu đệm, mỗi cái kèm thời điểm hết hạn.
 
 ### 6.5 Chứng thực
@@ -169,7 +169,7 @@ kiểm tra tính toàn vẹn hay không. Dùng ô tìm kiếm để lọc theo t
 
 Biểu tượng tải xuống ghi một báo cáo **JSON** với trạng thái thiết bị, RCS, Wallet và chứng
 thực của bạn. Bạn có thể chia sẻ nó hoặc lưu nó thành một tệp. Báo cáo không chứa **số điện
-thoại, không thông tin xác thực và không nội dung cá nhân** - nó được làm sạch trước khi được
+thoại, không thông tin xác thực và không nội dung cá nhân**: nó được làm sạch trước khi được
 ghi. Nó cũng bao gồm một phần **chẩn đoán** tùy chọn (tên lược đồ, số đếm và phiên bản, không
 bao giờ là dữ liệu của bạn) giúp khắc phục những vấn đề riêng của từng thiết bị. Ứng dụng và
 WebUI ghi cùng một báo cáo.
@@ -194,7 +194,7 @@ backend của chính Google, không phải nhà mạng của bạn. Các dòng p
 [6.2 RCS](#62-rcs).
 
 **Thiết bị được chứng thực nói Không rõ.** Kết quả Wallet được lưu đệm bị thiếu trên thiết bị
-của bạn. Điều đó là trung thực - VD Google sẽ không hiển thị một "Không" mà nó không thể
+của bạn. Điều đó là trung thực: VD Google sẽ không hiển thị một "Không" mà nó không thể
 chứng minh.
 
 **Phán quyết Play Integrity của tôi ở đâu?** Nó không nằm trên thiết bị của bạn. Xem [2. VD

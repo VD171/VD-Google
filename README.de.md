@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet und Play-Integrity-Attestierungen, auf dem Gerät gelesen.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet und Play-Integrity-Attestierungen, auf dem Gerät gelesen.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Jede Version gibt es in zwei Formen, und beide lesen dieselben Dinge auf deinem Gerät, ohne Internet:
 
-- **App** - die `.apk`, eine normale Android-App.
-- **WebUI** - die `.zip`, ein Modul, das du in deinem Root-Manager (KernelSU, Magisk oder APatch) flashst und von dort öffnest.
+- **App**: die `.apk`, eine normale Android-App.
+- **WebUI**: die `.zip`, ein Modul, das du in deinem Root-Manager (KernelSU, Magisk oder APatch) flashst und von dort öffnest.
 
 In beiden Fällen ist Root erforderlich.
 
@@ -102,6 +102,7 @@ Schwesterprojekte desselben Autors:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: ein Geräte-Methoden-Debugger, der jeden Punkt über jede Methode liest, die ihn lesen kann, und sie nebeneinander vergleicht.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: vollständige Sicherung und Wiederherstellung von Apps und Daten als Root, komplett über eine WebUI gesteuert.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: ein Geräte-Spoofer, der aus einem frischen Fingerprint ein kohärentes, konsistentes Profil macht.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: ein eigenständiger SSH-Daemon (Dropbear) mit Root.
 
 ## Kontakte
 
@@ -117,7 +118,7 @@ Schwesterprojekte desselben Autors:
 
 ## Lizenz
 
-**GNU AGPL-3.0-or-later** - siehe [LICENSE](LICENSE). Copyleft, einschließlich der Netzwerk-Klausel: wer eine modifizierte Version betreibt (auch als Dienst), muss ihren Quellcode anbieten. Bewusst gewählt, um Forks offen zu halten.
+**GNU AGPL-3.0-or-later**: siehe [LICENSE](LICENSE). Copyleft, einschließlich der Netzwerk-Klausel: wer eine modifizierte Version betreibt (auch als Dienst), muss ihren Quellcode anbieten. Bewusst gewählt, um Forks offen zu halten.
 
 ## Markenzeichen
 

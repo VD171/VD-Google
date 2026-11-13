@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google 월렛, Play Integrity 증명을 기기에서 읽기.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google 월렛, Play Integrity 증명을 기기에서 읽기.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 모든 릴리스는 두 가지 형태로 제공되며, 둘 다 인터넷 없이 기기에서 동일한 정보를 읽습니다.
 
-- **App** - `.apk`, 일반 Android 앱입니다.
-- **WebUI** - `.zip`, 루트 관리자(KernelSU, Magisk 또는 APatch)에 플래시하여 거기서 여는 모듈입니다.
+- **App**: `.apk`, 일반 Android 앱입니다.
+- **WebUI**: `.zip`, 루트 관리자(KernelSU, Magisk 또는 APatch)에 플래시하여 거기서 여는 모듈입니다.
 
 두 경우 모두 루트가 필요합니다.
 
@@ -102,6 +102,7 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: 각 항목을 읽을 수 있는 모든 메서드로 읽어 나란히 비교하는 기기 메서드 디버거.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root로 앱과 데이터를 완전히 백업하고 복원하며, 전부 WebUI에서 실행.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: 새 지문을 일관되고 정합적인 프로필로 바꾸는 기기 스푸퍼.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: 독립 실행형 루트 SSH 데몬(Dropbear).
 
 ## 연락처
 
@@ -117,7 +118,7 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 ## 라이선스
 
-**GNU AGPL-3.0-or-later** - [LICENSE](LICENSE) 참조. 네트워크 조항을 포함한 카피레프트: 수정된 버전을 (서비스로라도) 실행하는 사람은 그 소스를 제공해야 합니다. 포크를 공개 상태로 유지하기 위해 의도적으로 선택했습니다.
+**GNU AGPL-3.0-or-later**: [LICENSE](LICENSE) 참조. 네트워크 조항을 포함한 카피레프트: 수정된 버전을 (서비스로라도) 실행하는 사람은 그 소스를 제공해야 합니다. 포크를 공개 상태로 유지하기 위해 의도적으로 선택했습니다.
 
 ## 상표
 

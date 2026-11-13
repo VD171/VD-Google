@@ -5,7 +5,7 @@
 # Arquitetura
 
 Como o VD Google é construído e por quê. Esta página explica o design e os princípios.
-Ela não lista os arquivos, tabelas ou consultas exatos que cada leitura usa - isso vive
+Ela não lista os arquivos, tabelas ou consultas exatos que cada leitura usa; isso vive
 apenas no código-fonte, por design, para que o aplicativo e a documentação nunca se
 desviem para um passo a passo útil a quem quer forjar os mesmos valores.
 
@@ -17,7 +17,7 @@ desviem para um passo a passo útil a quem quer forjar os mesmos valores.
 2. **Zero rede.** O aplicativo não declara permissão alguma; a WebUI bloqueia toda origem
    remota. Nada é enviado a lugar nenhum, jamais.
 3. **Um comportamento, duas faces.** O aplicativo e o módulo WebUI são mantidos
-   absolutamente idênticos - mesmos sinais, mesma redação, mesmo relatório exportado.
+   absolutamente idênticos: mesmos sinais, mesma redação, mesmo relatório exportado.
 4. **Honesto, não bajulador.** Um negativo real é mostrado como negativo; um cache
    desatualizado é rotulado como em cache; um valor ausente é Desconhecido. A detecção
    nunca é suavizada para parecer mais bonita.
@@ -69,7 +69,7 @@ A exportação é um instantâneo JSON higienizado. Um higienizador roda antes d
 coisa ser gravada: ele descarta chaves e valores que parecem credenciais, redige longas
 sequências de dígitos e nunca emite seu número de telefone, conteúdo de mensagens, nomes
 de contatos ou blobs brutos de capacidade. A seção opcional de diagnóstico carrega apenas
-nomes de esquema, contagens, tamanhos e versões - e mesmo ali, qualquer impressão digital
+nomes de esquema, contagens, tamanhos e versões; e mesmo ali, qualquer impressão digital
 ligada a uma identidade embutida num nome é removida. O aplicativo e a WebUI produzem o
 mesmo esquema.
 

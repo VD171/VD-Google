@@ -19,7 +19,7 @@ Terjemahan adalah kontribusi yang paling mudah dan paling berharga. Readme diter
 
 ## Melaporkan bug
 
-Buka issue dengan model perangkat Anda, versi Android, dan - jika menyangkut suatu pembacaan - sebuah **export** (tidak memuat data pribadi). Bagian diagnostik pada export dibuat justru untuk hal ini.
+Buka issue dengan model perangkat Anda, versi Android, dan (jika menyangkut suatu pembacaan) sebuah **export** (tidak memuat data pribadi). Bagian diagnostik pada export dibuat justru untuk hal ini.
 
 ## Kode
 

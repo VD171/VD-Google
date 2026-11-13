@@ -4,14 +4,14 @@
 
 # Privacy
 
-Privacy is geen functie van VD Google - het is het hele punt. Deze pagina stelt precies
+Privacy is geen functie van VD Google: het is het hele punt. Deze pagina stelt precies
 vast wat de app wel en niet met je gegevens doet, in duidelijke bewoordingen die je kunt
 verifiëren.
 
 ## De belofte
 
 - **Er wordt geen internetpermissie gegeven.** Het manifest van de app declareert helemaal
-  geen permissies - geen internet, geen opslag, geen contacten, niets. Er valt niets toe te
+  geen permissies: geen internet, geen opslag, geen contacten, niets. Er valt niets toe te
   staan.
 - **Er wordt niets opgeslagen, verzonden of overgedragen** naar enig bestand of enige server
   buiten je toestel.

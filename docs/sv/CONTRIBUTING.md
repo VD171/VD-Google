@@ -31,7 +31,7 @@ tonen och maskinöversätt aldrig en teknisk term du är osäker på.
 
 ## Rapportera en bugg
 
-Öppna ett issue med din enhetsmodell, Android-version och - om det gäller en avläsning - en
+Öppna ett issue med din enhetsmodell, Android-version och, om det gäller en avläsning, en
 **export** (den innehåller inga personuppgifter). Exportens diagnostikavsnitt är byggt för
 just detta.
 

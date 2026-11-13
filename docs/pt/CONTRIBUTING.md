@@ -31,8 +31,8 @@ tom existente e nunca traduza por máquina um termo técnico do qual você não 
 
 ## Relatando um bug
 
-Abra uma issue com o modelo do seu dispositivo, a versão do Android e - se for sobre uma
-leitura - uma **exportação** (ela não contém dados pessoais). A seção de diagnóstico da
+Abra uma issue com o modelo do seu dispositivo, a versão do Android e, se for sobre uma
+leitura, uma **exportação** (ela não contém dados pessoais). A seção de diagnóstico da
 exportação é feita exatamente para isso.
 
 ## Código

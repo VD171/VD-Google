@@ -4,13 +4,13 @@
 
 # Architecture
 
-Comment VD Google est conçu, et pourquoi. Cette page explique la conception et les principes. Elle n'énumère pas les fichiers, tables ou requêtes exacts qu'utilise chaque lecteur - cela ne vit que dans le code source, à dessein, afin que l'application et la documentation ne puissent jamais dériver vers un mode d'emploi pour quelqu'un qui voudrait falsifier ces mêmes valeurs.
+Comment VD Google est conçu, et pourquoi. Cette page explique la conception et les principes. Elle n'énumère pas les fichiers, tables ou requêtes exacts qu'utilise chaque lecteur; cela ne vit que dans le code source, à dessein, afin que l'application et la documentation ne puissent jamais dériver vers un mode d'emploi pour quelqu'un qui voudrait falsifier ces mêmes valeurs.
 
 ## Objectifs de conception
 
 1. **Lire la vérité.** Montrer ce que les applications de Google elles-mêmes ont déjà enregistré, l'expliquer, et ne jamais inventer de valeur. Lorsque l'appareil ne détient aucune réponse, afficher Inconnu.
 2. **Zéro réseau.** L'application ne déclare aucune permission ; la WebUI bloque toute origine distante. Rien n'est jamais envoyé où que ce soit.
-3. **Un seul comportement, deux visages.** L'application et le module WebUI sont tenus absolument identiques - mêmes signaux, mêmes formulations, même rapport exporté.
+3. **Un seul comportement, deux visages.** L'application et le module WebUI sont tenus absolument identiques: mêmes signaux, mêmes formulations, même rapport exporté.
 4. **Honnête plutôt que flatteur.** Un vrai négatif est affiché comme négatif ; un cache périmé est signalé comme mis en cache ; une valeur absente est Inconnu. La détection n'est jamais adoucie pour faire plus joli.
 
 ## Les deux visages
@@ -32,7 +32,7 @@ Le plus difficile, pour lire le RCS honnêtement, c'est que les indicateurs évi
 
 ## L'export
 
-L'export est un instantané JSON assaini. Un assainisseur s'exécute avant toute écriture : il supprime les clés et valeurs qui ressemblent à des identifiants, masque les longues suites de chiffres, et n'émet jamais votre numéro de téléphone, le contenu des messages, les noms de contacts ou les blobs de capacités bruts. La section facultative de diagnostics ne contient que des noms de schémas, des décomptes, des tailles et des versions - et même là, toute empreinte propre à une identité intégrée dans un nom est réduite à néant. L'application et la WebUI produisent le même schéma.
+L'export est un instantané JSON assaini. Un assainisseur s'exécute avant toute écriture : il supprime les clés et valeurs qui ressemblent à des identifiants, masque les longues suites de chiffres, et n'émet jamais votre numéro de téléphone, le contenu des messages, les noms de contacts ou les blobs de capacités bruts. La section facultative de diagnostics ne contient que des noms de schémas, des décomptes, des tailles et des versions; et même là, toute empreinte propre à une identité intégrée dans un nom est réduite à néant. L'application et la WebUI produisent le même schéma.
 
 ## Ce que VD Google ne fait jamais
 

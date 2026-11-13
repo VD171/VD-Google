@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Cüzdan ve Play Integrity tasdikleri, cihazda okunur.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Cüzdan ve Play Integrity tasdikleri, cihazda okunur.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Her sürüm iki biçimde gelir ve ikisi de aynı bilgileri cihazınızda, internet olmadan okur:
 
-- **App** - `.apk` dosyası, normal bir Android uygulaması.
-- **WebUI** - `.zip` dosyası, root yöneticinize (KernelSU, Magisk veya APatch) kurup oradan açtığınız bir modül.
+- **App**: `.apk` dosyası, normal bir Android uygulaması.
+- **WebUI**: `.zip` dosyası, root yöneticinize (KernelSU, Magisk veya APatch) kurup oradan açtığınız bir modül.
 
 Her iki durumda da root gereklidir.
 
@@ -102,6 +102,7 @@ Aynı yazarın kardeş projeleri:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: yeni bir parmak izini tutarlı, kararlı bir profile dönüştüren bir cihaz sahteleyici.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root olarak çalışan bağımsız bir SSH daemon'ı (Dropbear).
 
 ## Contacts
 
@@ -117,7 +118,7 @@ Aynı yazarın kardeş projeleri:
 
 ## Lisans
 
-**GNU AGPL-3.0-or-later** - bkz. [LICENSE](LICENSE). Ağ maddesi dahil copyleft: değiştirilmiş bir sürümü (hizmet olarak bile) çalıştıran herkes kaynak kodunu sunmalıdır. Fork'ları açık tutmak için bilinçli olarak seçildi.
+**GNU AGPL-3.0-or-later**: bkz. [LICENSE](LICENSE). Ağ maddesi dahil copyleft: değiştirilmiş bir sürümü (hizmet olarak bile) çalıştıran herkes kaynak kodunu sunmalıdır. Fork'ları açık tutmak için bilinçli olarak seçildi.
 
 ## Ticari markalar
 

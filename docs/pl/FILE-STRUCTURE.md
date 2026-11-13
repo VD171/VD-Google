@@ -39,7 +39,7 @@ VD-Google/
 
 ## Gdzie co żyje
 
-- **Czytniki** - co VD Google czyta i jak to czyta - żyją wyłącznie w
+- **Czytniki**: co VD Google czyta i jak to czyta, żyją wyłącznie w
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (aplikacja) i
   `VDGoogle/webui/webroot/scripts.js` (WebUI). Oba odzwierciedlają się nawzajem dokładnie.
 - **Teksty** są jedynym źródłem każdej etykiety, w 21 językach: aplikacja pod
@@ -59,11 +59,11 @@ Zobacz readme, aby dowiedzieć się, jak budować.
 
 Na urządzeniu moduł WebUI przechowuje swój stan pod `/data/adb/vdgoogle/`:
 
-- `scratch/` - krótkotrwałe kopie bazy danych, brane na bok, aby zapytanie nigdy nie
+- `scratch/`: krótkotrwałe kopie bazy danych, brane na bok, aby zapytanie nigdy nie
   dotykało żywego pliku. Każdy odczyt usuwa swoje własne kopie, a wszelkie pozostałości po
   przerwanym uruchomieniu są czyszczone przy następnym otwarciu WebUI. Nic tutaj nie jest
   przechowywane.
-- `actions.jsonl` - lokalny log działań zmieniających stan (wyczyszczenie pamięci
+- `actions.jsonl`: lokalny log działań zmieniających stan (wyczyszczenie pamięci
   podręcznej Google Wallet), po jednej linii JSON każde, ograniczony do ostatnich 200
   wpisów. Nigdy nie opuszcza urządzenia.
 

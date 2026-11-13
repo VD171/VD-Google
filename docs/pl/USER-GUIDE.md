@@ -32,11 +32,11 @@ nie dotyka internetu i nigdy niczego nie zmienia, chyba że o to poprosisz.
 VD Google to czytnik. Patrzy na to, co własne aplikacje Google przechowują już na twoim
 urządzeniu w trzech sprawach, i wyjaśnia każdą z nich, abyś naprawdę ją zrozumiał:
 
-- **RCS** - czy nowoczesny czat naprawdę działa na twojej linii, z kim możesz czatować i
+- **RCS**: czy nowoczesny czat naprawdę działa na twojej linii, z kim możesz czatować i
   czy Gemini w Google Messages jest gotowy.
-- **Google Wallet** - czy twoje urządzenie jest skonfigurowane i poświadczone dla
+- **Google Wallet**: czy twoje urządzenie jest skonfigurowane i poświadczone dla
   płatności zbliżeniowych.
-- **Atestacje Play Integrity** - które aplikacje poprosiły Androida o udowodnienie, że
+- **Atestacje Play Integrity**: które aplikacje poprosiły Androida o udowodnienie, że
   twoje urządzenie jest oryginalne, i czy Google obecnie je certyfikuje.
 
 Wszystko jest czytane lokalnie, przez roota, i pokazywane z wyjaśnieniem. Żadna wartość
@@ -105,59 +105,59 @@ prywatności: to cały sens aplikacji.
 To najbogatsza karta. Znaczniki czasu są zawsze pokazywane w strefie czasowej twojego
 urządzenia, z oznaczoną strefą.
 
-- **Połączenie** - jedna linia, która mówi prawdę. Jest wyliczana z rzeczywistej
+- **Połączenie**: jedna linia, która mówi prawdę. Jest wyliczana z rzeczywistej
   konfiguracji czatu i silnika provisioningu, więc mówi Połączono, gdy RCS rzeczywiście
   działa na twojej linii, nawet na nowszym Androidzie, gdzie starsze flagi kłamią. **W
   razie wątpliwości ufaj tej linii.**
-- **Operator** - operator komórkowy twojej linii (nazwa i MCC/MNC), pobrany z twojej
+- **Operator**: operator komórkowy twojej linii (nazwa i MCC/MNC), pobrany z twojej
   karty SIM z danymi w telefonach dual-SIM.
-- **Flaga dostępności (zbuforowana)** - zbuforowana flaga, którą aplikacja do wiadomości
+- **Flaga dostępności (zbuforowana)**: zbuforowana flaga, którą aplikacja do wiadomości
   utrzymuje dla twojego własnego numeru. Może pozostać nieaktualna po tym, jak RCS już
   działa, więc "Nie" tutaj nie oznacza, że RCS jest wyłączony. Ufaj linii Połączenie
   powyżej.
-- **Twój numer RCS** - numer zarejestrowany dla RCS, domyślnie zamaskowany. Dotknij oka,
+- **Twój numer RCS**: numer zarejestrowany dla RCS, domyślnie zamaskowany. Dotknij oka,
   aby go odsłonić.
-- **Stan provisioningu (zbuforowany)** i **Wersja konfiguracji** - wartości wewnętrzne,
+- **Stan provisioningu (zbuforowany)** i **Wersja konfiguracji**: wartości wewnętrzne,
   które utrzymuje aplikacja do wiadomości. Mogą czytać się jako 0, nawet gdy RCS działa.
   Zobacz uwagę o operatorze a zapleczu Google poniżej.
-- **Kontakty obsługujące RCS** - ilu z twoich kontaktów jest obecnie znanych jako
+- **Kontakty obsługujące RCS**: ilu z twoich kontaktów jest obecnie znanych jako
   obsługujący czat RCS.
-- **Flaga funkcji (zbuforowana)** - czy aplikacja do wiadomości ma włączoną funkcję RCS;
+- **Flaga funkcji (zbuforowana)**: czy aplikacja do wiadomości ma włączoną funkcję RCS;
   zbuforowana, więc może być opóźniona.
-- **Uprawnienie operatora**, **Obecność (UCE)**, **Usługa IMS obecna** - opisują one
+- **Uprawnienie operatora**, **Obecność (UCE)**, **Usługa IMS obecna**: opisują one
   ścieżkę RCS *operatora* (sieć IMS operatora). "Nie" lub "0" tutaj jest normalne, gdy
   twój RCS działa przez własne zaplecze Google zamiast przez operatora. Zobacz poniżej.
-- **Gemini** - czy Gemini w Google Messages jest gotowy: **Magic Compose** (pomoc w
+- **Gemini**: czy Gemini w Google Messages jest gotowy: **Magic Compose** (pomoc w
   pisaniu od Gemini), **AICore** (silnik na urządzeniu uruchamiający Gemini Nano) oraz
   **czat Gemini**, który jest dostarczany przez RCS, a więc wymaga połączonego RCS.
-- **Znaczniki czasu** - provisioning, synchronizacja, ostatnia wiadomość, wygaśnięcie
+- **Znaczniki czasu**: provisioning, synchronizacja, ostatnia wiadomość, wygaśnięcie
   tokena i więcej.
 
 **RCS operatora a zaplecze Google.** Są dwa sposoby, w jakie RCS dociera do twojego
 telefonu. Jeden to RCS *twojego operatora* przez jego sieć IMS; drugi to *własne zaplecze
 Google* (Jibe), które działa niezależnie od operatora. Jeśli twój RCS działa przez
-zaplecze Google - jak u większości ludzi - to linie po stronie operatora (uprawnienie
+zaplecze Google, jak u większości ludzi, to linie po stronie operatora (uprawnienie
 operatora, obecność/UCE, usługa IMS, wersja konfiguracji) są naprawdę "Nie" lub "0" i to
 jest poprawne, a nie nieaktualna pamięć podręczna. Twój RCS mógł działać tak od lat. Linia
 Połączenie jest tym, co mówi ci, że działa.
 
 ### 6.3 Wallet
 
-- **Urządzenie poświadczone** - czy Google uznał to urządzenie za wystarczająco
+- **Urządzenie poświadczone**: czy Google uznał to urządzenie za wystarczająco
   oryginalne i bezpieczne, by przechowywać karty płatnicze. To ostatni wynik, który Google
   zapisał na tym urządzeniu, więc może być opóźniony wobec aplikacji Wallet, dopóki Google
   nie sprawdzi ponownie. Jeśli zapisanego wyniku brakuje, VD Google pokazuje **Nieznane**,
   a nie mylące "Nie".
-- **Ostatnio sprawdzone** - kiedy ta kontrola bezpieczeństwa ostatnio się zakończyła.
+- **Ostatnio sprawdzone**: kiedy ta kontrola bezpieczeństwa ostatnio się zakończyła.
 - **Sprzęt NFC**, **Wallet zainstalowany**, **Usługa Wallet**, **Zbliżeniowe płatności**,
-  **Blokada ekranu zaakceptowana**, **Karta kiedykolwiek dodana** - elementy, które
+  **Blokada ekranu zaakceptowana**, **Karta kiedykolwiek dodana**: elementy, które
   umożliwiają płatność zbliżeniową.
 
 ### 6.4 DroidGuard
 
-- **Certyfikacja Play Protect** - czy Google Play rozpoznaje twoje urządzenie jako
+- **Certyfikacja Play Protect**: czy Google Play rozpoznaje twoje urządzenie jako
   certyfikowane (certyfikacja pokazywana w Sklepie Play).
-- **Pamięć podręczna atestacji** - atestacje Play Integrity i DroidGuard, które twoje
+- **Pamięć podręczna atestacji**: atestacje Play Integrity i DroidGuard, które twoje
   urządzenie zbuforowało, każda z informacją, kiedy wygasa.
 
 ### 6.5 Atestacje
@@ -171,7 +171,7 @@ pakiecie.
 
 Ikona pobierania zapisuje raport **JSON** ze stanem twojego urządzenia, RCS, Wallet i
 atestacji. Możesz go udostępnić lub zapisać jako plik. Raport nie zawiera **żadnego numeru
-telefonu, żadnych danych uwierzytelniających ani żadnych treści osobistych** - jest
+telefonu, żadnych danych uwierzytelniających ani żadnych treści osobistych**: jest
 oczyszczany przed zapisaniem. Zawiera też opcjonalną sekcję **diagnostyczną** (nazwy
 schematów, liczby i wersje, nigdy twoje dane), która pomaga rozwiązywać problemy specyficzne
 dla urządzenia. Aplikacja i WebUI zapisują ten sam raport.
@@ -197,7 +197,7 @@ działa przez własne zaplecze Google, a nie przez operatora. Linie po stronie o
 poprawnie negatywne. Zobacz [6.2 RCS](#62-rcs).
 
 **Urządzenie poświadczone mówi Nieznane.** Zbuforowanego wyniku Wallet brakuje na twoim
-urządzeniu. To uczciwe - VD Google nie pokaże "Nie", którego nie może poprzeć.
+urządzeniu. To uczciwe: VD Google nie pokaże "Nie", którego nie może poprzeć.
 
 **Gdzie jest mój werdykt Play Integrity?** Nie ma go na twoim urządzeniu. Zobacz
 [2. Czym nie jest](#2-czym-nie-jest).

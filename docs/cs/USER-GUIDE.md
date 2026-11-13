@@ -32,10 +32,10 @@ nedotkne internetu a nikdy nic nemění, pokud o to nepožádáte.
 VD Google je čtečka. Dívá se na to, co si samy aplikace Google na vašem zařízení už
 ukládají o třech věcech, a každou vysvětluje tak, abyste jí skutečně rozuměli:
 
-- **RCS** - zda na vaší lince opravdu funguje moderní chat, s kým si můžete psát a zda je
+- **RCS**: zda na vaší lince opravdu funguje moderní chat, s kým si můžete psát a zda je
   připraveno Gemini v Google Messages.
-- **Google Wallet** - zda je vaše zařízení nastavené a atestované pro bezkontaktní platby.
-- **Atestace Play Integrity** - které aplikace požádaly Android, aby dokázal, že vaše
+- **Google Wallet**: zda je vaše zařízení nastavené a atestované pro bezkontaktní platby.
+- **Atestace Play Integrity**: které aplikace požádaly Android, aby dokázal, že vaše
   zařízení je pravé, a zda jej Google aktuálně certifikuje.
 
 Vše se čte lokálně, přes root, a zobrazuje s vysvětlením. Žádná hodnota se nevymýšlí: když
@@ -102,58 +102,58 @@ jednou: je to celý smysl aplikace.
 Toto je nejbohatší záložka. Časové značky se vždy zobrazují v časovém pásmu vašeho
 zařízení, s označeným pásmem.
 
-- **Připojení** - jediný řádek, který říká pravdu. Počítá se ze skutečné konfigurace
+- **Připojení**: jediný řádek, který říká pravdu. Počítá se ze skutečné konfigurace
   chatu a z provisioningového enginu, takže říká Připojeno, když RCS na vaší lince
   opravdu funguje, i na novějším Androidu, kde starší příznaky lžou. **Když si nejste
   jisti, věřte tomuto řádku.**
-- **Operátor** - mobilní operátor vaší linky (název a MCC/MNC), převzatý z vaší datové SIM
+- **Operátor**: mobilní operátor vaší linky (název a MCC/MNC), převzatý z vaší datové SIM
   u telefonů se dvěma SIM.
-- **Příznak dostupnosti (v mezipaměti)** - příznak uložený v mezipaměti, který si
+- **Příznak dostupnosti (v mezipaměti)**: příznak uložený v mezipaměti, který si
   aplikace pro zprávy drží pro vaše vlastní číslo. Může zůstat zastaralý i poté, co už RCS
   funguje, takže "Ne" zde neznamená, že je RCS vypnuté. Věřte řádku Připojení výše.
-- **Vaše číslo RCS** - číslo registrované pro RCS, ve výchozím stavu maskované. Klepnutím
+- **Vaše číslo RCS**: číslo registrované pro RCS, ve výchozím stavu maskované. Klepnutím
   na oko jej odhalíte.
-- **Stav provisioningu (v mezipaměti)** a **Verze konfigurace** - interní hodnoty, které
+- **Stav provisioningu (v mezipaměti)** a **Verze konfigurace**: interní hodnoty, které
   si aplikace pro zprávy drží. Mohou ukazovat 0, i když RCS funguje. Viz poznámka o
   operátorovi vs. backendu Google níže.
-- **Kontakty podporující RCS** - kolik z vašich kontaktů je aktuálně známo, že podporuje
+- **Kontakty podporující RCS**: kolik z vašich kontaktů je aktuálně známo, že podporuje
   chat RCS.
-- **Příznak funkce (v mezipaměti)** - zda má aplikace pro zprávy zapnutou funkci RCS;
+- **Příznak funkce (v mezipaměti)**: zda má aplikace pro zprávy zapnutou funkci RCS;
   uloženo v mezipaměti, takže se může zpožďovat.
-- **Nárok operátora (entitlement)**, **Přítomnost (UCE)**, **Služba IMS přítomna** - tyto
+- **Nárok operátora (entitlement)**, **Přítomnost (UCE)**, **Služba IMS přítomna**: tyto
   popisují cestu RCS *operátora* (síť IMS operátora). "Ne" nebo "0" zde je normální, když
   vaše RCS běží přes vlastní backend Google místo přes operátora. Viz níže.
-- **Gemini** - zda je Gemini v Google Messages připraveno: **Magic Compose** (pomoc s
+- **Gemini**: zda je Gemini v Google Messages připraveno: **Magic Compose** (pomoc s
   psaním od Gemini), **AICore** (engine na zařízení, který pohání Gemini Nano) a **chat
   Gemini**, který se doručuje přes RCS, a proto potřebuje připojené RCS.
-- **Časové značky** - provisioning, synchronizace, poslední zpráva, expirace tokenu a
+- **Časové značky**: provisioning, synchronizace, poslední zpráva, expirace tokenu a
   další.
 
 **RCS operátora vs. backend Google.** RCS se k vašemu telefonu dostává dvěma cestami.
 Jednou je RCS vašeho *operátora* přes jeho síť IMS; druhou je *vlastní backend Google*
 (Jibe), který funguje nad sítí, nezávisle na operátorovi. Pokud vaše RCS běží přes backend
-Google - jako u většiny lidí - pak jsou řádky na straně operátora (nárok operátora,
+Google, jako u většiny lidí, pak jsou řádky na straně operátora (nárok operátora,
 přítomnost/UCE, služba IMS, verze konfigurace) skutečně "Ne" nebo "0", a to je správně, ne
 zastaralá mezipaměť. Vaše RCS mohlo takto fungovat celé roky. Že funguje, vám říká řádek
 Připojení.
 
 ### 6.3 Wallet
 
-- **Zařízení atestováno** - zda Google posoudil toto zařízení jako dost pravé a bezpečné,
+- **Zařízení atestováno**: zda Google posoudil toto zařízení jako dost pravé a bezpečné,
   aby drželo platební karty. Je to poslední výsledek, který Google na tomto zařízení
   uložil, takže se může oproti aplikaci Wallet zpožďovat, dokud Google neprovede
   opakovanou kontrolu. Pokud uložený výsledek chybí, VD Google zobrazí **Neznámé** místo
   zavádějícího "Ne".
-- **Naposledy zkontrolováno** - kdy naposledy proběhla ta bezpečnostní kontrola.
+- **Naposledy zkontrolováno**: kdy naposledy proběhla ta bezpečnostní kontrola.
 - **Hardware NFC**, **Wallet nainstalován**, **Služba Wallet**, **Tap and pay**,
-  **Zámek obrazovky přijat**, **Karta kdy přidána** - součásti, které umožňují
+  **Zámek obrazovky přijat**, **Karta kdy přidána**: součásti, které umožňují
   bezkontaktní platbu.
 
 ### 6.4 DroidGuard
 
-- **Certifikováno Play Protect** - zda Google Play rozpoznává vaše zařízení jako
+- **Certifikováno Play Protect**: zda Google Play rozpoznává vaše zařízení jako
   certifikované (certifikace zobrazená v Play Store).
-- **Mezipaměť atestací** - atestace Play Integrity a DroidGuard, které má vaše zařízení
+- **Mezipaměť atestací**: atestace Play Integrity a DroidGuard, které má vaše zařízení
   uložené v mezipaměti, každá s tím, kdy vyprší.
 
 ### 6.5 Atestace
@@ -166,7 +166,7 @@ integritu, nebo ne. Vyhledávacím polem filtrujte podle názvu aplikace nebo ba
 
 Ikona stažení zapíše report ve formátu **JSON** se stavem vašeho zařízení, RCS, Wallet a
 atestací. Můžete jej sdílet nebo uložit jako soubor. Report neobsahuje **žádné telefonní
-číslo, žádné přihlašovací údaje a žádný osobní obsah** - před zápisem se očistí. Obsahuje
+číslo, žádné přihlašovací údaje a žádný osobní obsah**: před zápisem se očistí. Obsahuje
 také volitelnou sekci **diagnostiky** (názvy schémat, počty a verze, nikdy vaše data),
 která pomáhá řešit problémy specifické pro zařízení. Aplikace a WebUI zapisují stejný
 report.
@@ -191,7 +191,7 @@ vlastní backend Google, ne přes operátora. Řádky na straně operátora jsou
 Viz [6.2 RCS](#62-rcs).
 
 **Zařízení atestováno říká Neznámé.** Uložený výsledek Wallet na vašem zařízení chybí. To
-je upřímné - VD Google neukáže "Ne", které nemůže podložit.
+je upřímné: VD Google neukáže "Ne", které nemůže podložit.
 
 **Kde je můj verdikt Play Integrity?** Na vašem zařízení není. Viz
 [2. Co to není](#2-co-to-není).

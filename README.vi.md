@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Ví và chứng thực Play Integrity, đọc trên thiết bị.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Ví và chứng thực Play Integrity, đọc trên thiết bị.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Mỗi bản phát hành có hai dạng, và cả hai đều đọc cùng những thông tin trên thiết bị của bạn, không cần internet:
 
-- **App** - tệp `.apk`, một ứng dụng Android thông thường.
-- **WebUI** - tệp `.zip`, một mô-đun bạn cài trong trình quản lý root (KernelSU, Magisk hoặc APatch) và mở từ đó.
+- **App**: tệp `.apk`, một ứng dụng Android thông thường.
+- **WebUI**: tệp `.zip`, một mô-đun bạn cài trong trình quản lý root (KernelSU, Magisk hoặc APatch) và mở từ đó.
 
 Dù bằng cách nào, vẫn cần quyền root.
 
@@ -102,6 +102,7 @@ Các dự án cùng tác giả:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: trình gỡ lỗi phương thức thiết bị, đọc từng mục qua mọi phương thức có thể đọc nó và so sánh chúng cạnh nhau.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: sao lưu và khôi phục toàn bộ ứng dụng và dữ liệu bằng quyền root, điều khiển hoàn toàn từ WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: trình giả mạo thiết bị, biến một fingerprint mới thành một hồ sơ mạch lạc, nhất quán.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: một SSH daemon độc lập chạy bằng quyền root (Dropbear).
 
 ## Liên hệ
 
@@ -117,7 +118,7 @@ Các dự án cùng tác giả:
 
 ## Giấy phép
 
-**GNU AGPL-3.0-or-later** - xem [LICENSE](LICENSE). Copyleft, bao gồm điều khoản mạng: bất kỳ ai chạy phiên bản đã sửa đổi (kể cả dưới dạng dịch vụ) đều phải cung cấp mã nguồn của nó. Được chọn có chủ đích để giữ cho các fork luôn mở.
+**GNU AGPL-3.0-or-later**: xem [LICENSE](LICENSE). Copyleft, bao gồm điều khoản mạng: bất kỳ ai chạy phiên bản đã sửa đổi (kể cả dưới dạng dịch vụ) đều phải cung cấp mã nguồn của nó. Được chọn có chủ đích để giữ cho các fork luôn mở.
 
 ## Thương hiệu
 

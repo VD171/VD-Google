@@ -5,7 +5,7 @@
 # Architecture
 
 How VD Google is built and why. This page explains the design and the principles. It
-does not list the exact files, tables or queries each reader uses - that lives only in
+does not list the exact files, tables or queries each reader uses; that lives only in
 the source, by design, so the app and the documentation can never drift into a
 how-to for someone who wants to fake the same values.
 
@@ -16,7 +16,7 @@ how-to for someone who wants to fake the same values.
 2. **Zero network.** The app declares no permissions at all; the WebUI blocks every
    remote origin. Nothing is sent anywhere, ever.
 3. **One behaviour, two faces.** The app and the WebUI module are kept absolutely
-   identical - same signals, same wording, same exported report.
+   identical: same signals, same wording, same exported report.
 4. **Honest over flattering.** A real negative is shown as negative; a stale cache is
    labelled as cached; a missing value is Unknown. Detection is never softened to look
    nicer.
@@ -64,7 +64,7 @@ the lying flags clearly labelled as cached so they inform without misleading. Se
 The export is a sanitized JSON snapshot. A sanitizer runs before anything is written: it
 drops keys and values that look like credentials, redacts long digit runs, and never
 emits your phone number, message content, contact names or raw capability blobs. The
-optional diagnostics section carries only schema names, counts, sizes and versions - and
+optional diagnostics section carries only schema names, counts, sizes and versions, and
 even there, any per-identity fingerprint embedded in a name is collapsed away. The app
 and the WebUI produce the same schema.
 

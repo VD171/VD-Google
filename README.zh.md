@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - 在本机读取 RCS、Google 钱包与 Play Integrity 认证。
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: 在本机读取 RCS、Google 钱包与 Play Integrity 认证。
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 每个版本都有两种形式，两者都在你的设备上读取相同的信息，且不联网：
 
-- **App** - `.apk`，一个普通的 Android 应用。
-- **WebUI** - `.zip`，一个在你的 root 管理器（KernelSU、Magisk 或 APatch）中刷入并从那里打开的模块。
+- **App**: `.apk`，一个普通的 Android 应用。
+- **WebUI**: `.zip`，一个在你的 root 管理器（KernelSU、Magisk 或 APatch）中刷入并从那里打开的模块。
 
 两种方式都需要 root。
 
@@ -102,6 +102,7 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 - **[VDInfos](https://github.com/VD171/VD-Infos)**：设备方法调试器，通过每一种能读取它的方法读取每一项，并将它们并排比较。
 - **[VDBackup](https://github.com/VD171/VD-Backup)**：以 root 权限对应用和数据进行完整备份与恢复，完全从 WebUI 操控。
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**：设备伪装器，将全新的 fingerprint 转化为连贯一致的配置。
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**：独立运行的 root SSH 守护进程（Dropbear）。
 
 ## 联系方式
 
@@ -117,7 +118,7 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 ## 许可证
 
-**GNU AGPL-3.0-or-later** - 参见 [LICENSE](LICENSE)。Copyleft，包含网络条款：任何运行修改版（即使作为服务）的人都必须提供其源代码。特意选择它以保持各分支开放。
+**GNU AGPL-3.0-or-later**: 参见 [LICENSE](LICENSE)。Copyleft，包含网络条款：任何运行修改版（即使作为服务）的人都必须提供其源代码。特意选择它以保持各分支开放。
 
 ## 商标
 

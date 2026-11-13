@@ -4,13 +4,13 @@
 
 # Privacy
 
-La privacy non è una funzionalità di VD Google - è l'intero scopo. Questa pagina dichiara
+La privacy non è una funzionalità di VD Google: è l'intero scopo. Questa pagina dichiara
 esattamente cosa l'app fa e non fa con i tuoi dati, in termini chiari che puoi verificare.
 
 ## La promessa
 
 - **Nessun permesso di internet viene concesso.** Il manifest dell'app non dichiara alcun
-  permesso - né internet, né archiviazione, né contatti, niente. Non c'è nulla da
+  permesso: né internet, né archiviazione, né contatti, niente. Non c'è nulla da
   consentire.
 - **Niente viene memorizzato, inviato o trasmesso** a qualsiasi file o server fuori dal tuo
   dispositivo.

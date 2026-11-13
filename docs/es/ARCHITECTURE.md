@@ -5,7 +5,7 @@
 # Arquitectura
 
 Cómo está construido VD Google y por qué. Esta página explica el diseño y los principios. No enumera
-los archivos, tablas o consultas exactos que usa cada lector - eso vive únicamente en el código
+los archivos, tablas o consultas exactos que usa cada lector; eso vive únicamente en el código
 fuente, por diseño, para que la app y la documentación nunca deriven hacia un manual para alguien que
 quiera falsificar los mismos valores.
 
@@ -15,7 +15,7 @@ quiera falsificar los mismos valores.
    inventar un valor. Cuando el dispositivo no contiene una respuesta, decir Desconocido.
 2. **Cero red.** La app no declara ningún permiso en absoluto; la WebUI bloquea todo origen remoto.
    Nada se envía a ninguna parte, jamás.
-3. **Un comportamiento, dos caras.** La app y el módulo WebUI se mantienen absolutamente idénticos -
+3. **Un comportamiento, dos caras.** La app y el módulo WebUI se mantienen absolutamente idénticos:
    las mismas señales, la misma redacción, el mismo informe exportado.
 4. **Honesto antes que halagador.** Un negativo real se muestra como negativo; una caché obsoleta se
    etiqueta como almacenada en caché; un valor ausente es Desconocido. La detección nunca se suaviza
@@ -66,7 +66,7 @@ La exportación es una instantánea JSON saneada. Un saneador se ejecuta antes d
 descarta claves y valores que parecen credenciales, redacta largas secuencias de dígitos y nunca
 emite tu número de teléfono, el contenido de mensajes, los nombres de contactos ni blobs de
 capacidades en bruto. La sección opcional de diagnósticos lleva solo nombres de esquema, recuentos,
-tamaños y versiones - e incluso ahí, cualquier huella por identidad incrustada en un nombre se
+tamaños y versiones; e incluso ahí, cualquier huella por identidad incrustada en un nombre se
 colapsa y elimina. La app y la WebUI producen el mismo esquema.
 
 ## Lo que VD Google nunca hace

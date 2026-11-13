@@ -32,10 +32,10 @@ Integrity 증명의 상태를 읽고, 각 항목을 쉬운 말로 설명합니�
 VD Google는 리더(reader)입니다. Google의 자체 앱이 세 가지에 대해 이미 기기에 저장해 둔
 것을 살펴보고, 귀하가 실제로 이해할 수 있도록 각각을 설명합니다:
 
-- **RCS** - 귀하의 회선에서 최신 채팅이 정말로 작동하고 있는지, 누구와 채팅할 수 있는지,
+- **RCS**: 귀하의 회선에서 최신 채팅이 정말로 작동하고 있는지, 누구와 채팅할 수 있는지,
   그리고 Google Messages의 Gemini가 준비되었는지.
-- **Google Wallet** - 귀하의 기기가 비접촉 결제를 위해 설정되고 증명되었는지.
-- **Play Integrity 증명** - 어떤 앱이 귀하의 기기가 정품임을 증명하라고 Android에
+- **Google Wallet**: 귀하의 기기가 비접촉 결제를 위해 설정되고 증명되었는지.
+- **Play Integrity 증명**: 어떤 앱이 귀하의 기기가 정품임을 증명하라고 Android에
   요청했는지, 그리고 현재 Google가 그것을 인증하는지.
 
 모든 것은 root를 통해 로컬에서 읽히고 설명과 함께 표시됩니다. 어떤 값도 지어내지
@@ -99,31 +99,31 @@ VD Google는 두 가지 방식으로 제공되며, 정확히 같은 정보를 �
 이것이 가장 풍부한 탭입니다. 타임스탬프는 항상 귀하 기기의 시간대로, 시간대가 레이블된 채
 표시됩니다.
 
-- **Connection** - 진실을 말해 주는 하나의 항목입니다. 실제 채팅 구성과 프로비저닝
+- **Connection**: 진실을 말해 주는 하나의 항목입니다. 실제 채팅 구성과 프로비저닝
   엔진으로부터 계산되므로, 더 오래된 플래그가 거짓말을 하는 최신 Android에서도 RCS가 귀하의
   회선에서 실제로 작동할 때 Connected라고 말합니다. **의심스러울 때는 이 항목을
   믿으세요.**
-- **Carrier** - 귀하 회선의 이동통신사(이름과 MCC/MNC)이며, 듀얼 SIM 전화기에서는 데이터
+- **Carrier**: 귀하 회선의 이동통신사(이름과 MCC/MNC)이며, 듀얼 SIM 전화기에서는 데이터
   SIM에서 가져옵니다.
-- **Availability flag (cached)** - 메시징 앱이 귀하 자신의 번호에 대해 보관하는 캐시된
+- **Availability flag (cached)**: 메시징 앱이 귀하 자신의 번호에 대해 보관하는 캐시된
   플래그입니다. RCS가 이미 작동한 후에도 오래된 상태로 남아 있을 수 있으므로, 여기의
   "No"가 RCS가 꺼져 있다는 뜻은 아닙니다. 위의 Connection 항목을 믿으세요.
-- **Your RCS number** - RCS에 등록된 번호이며, 기본적으로 가려져 있습니다. 눈 아이콘을
+- **Your RCS number**: RCS에 등록된 번호이며, 기본적으로 가려져 있습니다. 눈 아이콘을
   탭하여 드러내세요.
-- **Provisioning state (cached)** 와 **Configuration version** - 메시징 앱이 보관하는
+- **Provisioning state (cached)** 와 **Configuration version**: 메시징 앱이 보관하는
   내부 값입니다. RCS가 작동하는 동안에도 0으로 읽힐 수 있습니다. 아래의 통신사 대 Google
   백엔드에 관한 설명을 참조하세요.
-- **RCS-capable contacts** - 현재 RCS 채팅을 지원하는 것으로 알려진 연락처가 몇 명인지.
-- **Feature flag (cached)** - 메시징 앱이 RCS 기능을 켰는지 여부이며, 캐시되어 있어
+- **RCS-capable contacts**: 현재 RCS 채팅을 지원하는 것으로 알려진 연락처가 몇 명인지.
+- **Feature flag (cached)**: 메시징 앱이 RCS 기능을 켰는지 여부이며, 캐시되어 있어
   지연될 수 있습니다.
-- **Carrier entitlement**, **Presence (UCE)**, **IMS service present** - 이들은
+- **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: 이들은
   *통신사의* RCS 경로(사업자의 IMS 네트워크)를 설명합니다. 귀하의 RCS가 통신사 대신
   Google의 자체 백엔드를 통해 실행될 때 여기의 "No" 또는 "0"은 정상입니다. 아래를
   참조하세요.
-- **Gemini** - Google Messages의 Gemini가 준비되었는지 여부: **Magic Compose**(Gemini의
+- **Gemini**: Google Messages의 Gemini가 준비되었는지 여부: **Magic Compose**(Gemini의
   작문 도우미), **AICore**(Gemini Nano를 실행하는 온디바이스 엔진), 그리고 RCS를 통해
   전달되므로 RCS 연결이 필요한 **Gemini chat**.
-- **Timestamps** - 프로비저닝, 동기화, 마지막 메시지, 토큰 만료 등.
+- **Timestamps**: 프로비저닝, 동기화, 마지막 메시지, 토큰 만료 등.
 
 **통신사 RCS 대 Google 백엔드.** RCS가 귀하의 전화기에 도달하는 방식에는 두 가지가
 있습니다. 하나는 *통신사의* RCS로 그들의 IMS 네트워크를 통하는 것이고, 다른 하나는
@@ -135,19 +135,19 @@ presence/UCE, IMS service, configuration version)은 진짜로 "No" 또는 "0"�
 
 ### 6.3 Wallet
 
-- **Device attested** - Google가 이 기기를 결제 카드를 보관할 만큼 정품이고 안전하다고
+- **Device attested**: Google가 이 기기를 결제 카드를 보관할 만큼 정품이고 안전하다고
   판단했는지 여부입니다. 이것은 Google가 이 기기에 마지막으로 저장한 결과이므로, Google가
   재검사할 때까지 Wallet 앱보다 지연될 수 있습니다. 저장된 결과가 없으면 VD Google는
   오해를 주는 "No" 대신 **Unknown**을 표시합니다.
-- **Last checked** - 그 보안 검사가 마지막으로 완료된 시점.
+- **Last checked**: 그 보안 검사가 마지막으로 완료된 시점.
 - **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**,
-  **Screen lock accepted**, **Card ever added** - 비접촉 결제를 가능하게 하는 요소들.
+  **Screen lock accepted**, **Card ever added**: 비접촉 결제를 가능하게 하는 요소들.
 
 ### 6.4 DroidGuard
 
-- **Play Protect certified** - Google Play가 귀하의 기기를 인증된 것으로 인식하는지
+- **Play Protect certified**: Google Play가 귀하의 기기를 인증된 것으로 인식하는지
   여부(Play 스토어에 표시되는 인증).
-- **Attestation cache** - 귀하의 기기가 캐시한 Play Integrity 및 DroidGuard 증명들,
+- **Attestation cache**: 귀하의 기기가 캐시한 Play Integrity 및 DroidGuard 증명들,
   각각의 만료 시점과 함께.
 
 ### 6.5 증명
@@ -160,7 +160,7 @@ presence/UCE, IMS service, configuration version)은 진짜로 "No" 또는 "0"�
 
 다운로드 아이콘은 귀하의 기기, RCS, Wallet, 증명 상태를 담은 **JSON** 보고서를 기록합니다.
 공유하거나 파일로 저장할 수 있습니다. 보고서에는 **전화번호도, 자격 증명도, 개인 콘텐츠도
-없습니다** - 기록되기 전에 정제됩니다. 또한 기기별 문제를 해결하는 데 도움이 되는 선택적
+없습니다**: 기록되기 전에 정제됩니다. 또한 기기별 문제를 해결하는 데 도움이 되는 선택적
 **진단** 섹션(스키마 이름, 개수, 버전이며 귀하의 데이터는 결코 아님)을 포함합니다. 앱과
 WebUI는 같은 보고서를 기록합니다.
 
@@ -184,7 +184,7 @@ VD Google는 21개 언어를 구사합니다. 첫 실행에서 귀하의 언어�
 부정입니다. [6.2 RCS](#62-rcs)를 참조하세요.
 
 **Device attested가 Unknown이라고 합니다.** 캐시된 Wallet 결과가 귀하의 기기에 없습니다.
-그것은 정직한 것입니다 - VD Google는 뒷받침할 수 없는 "No"를 보여주지 않습니다.
+그것은 정직한 것입니다. VD Google는 뒷받침할 수 없는 "No"를 보여주지 않습니다.
 
 **제 Play Integrity 판정은 어디 있나요?** 귀하의 기기에 없습니다. [2. VD Google가 아닌
 것](#2-vd-google가-아닌-것)을 참조하세요.

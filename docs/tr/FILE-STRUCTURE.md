@@ -40,7 +40,7 @@ VD-Google/
 
 ## Her şeyin yeri
 
-- **Okuyucular (readers)** - VD Google'ın ne okuduğu ve nasıl okuduğu - yalnızca
+- **Okuyucular (readers)**: VD Google'ın ne okuduğu ve nasıl okuduğu, yalnızca
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (uygulama) ve
   `VDGoogle/webui/webroot/scripts.js` (WebUI) içinde yaşar. İkisi birbirini tam olarak
   yansıtır.
@@ -60,11 +60,11 @@ edilmez). Nasıl derleneceği için benioku dosyasına bakın.
 
 Cihazda, WebUI modülü durumunu `/data/adb/vdgoogle/` altında tutar:
 
-- `scratch/` - bir veritabanının kısa ömürlü kopyaları; bir sorgunun canlı dosyaya asla
+- `scratch/`: bir veritabanının kısa ömürlü kopyaları; bir sorgunun canlı dosyaya asla
   dokunmaması için kenara alınır. Her okuma kendi kopyalarını siler ve kesintiye uğramış
   bir çalıştırmadan kalan her şey, WebUI bir sonraki açılışında temizlenir. Burada hiçbir
   şey saklanmaz.
-- `actions.jsonl` - durumu değiştiren eylemlerin (Google Wallet önbellek temizleme) yerel
+- `actions.jsonl`: durumu değiştiren eylemlerin (Google Wallet önbellek temizleme) yerel
   günlüğü; her biri bir JSON satırı, son 200 girdiyle sınırlı. Cihazdan asla çıkmaz.
 
 Uygulama ise aynı kısa ömürlü scratch kopyalarını kendi özel önbelleğinde tutar ve eylem

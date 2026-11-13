@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - อ่าน RCS, Google Wallet และการรับรอง Play Integrity บนเครื่อง
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: อ่าน RCS, Google Wallet และการรับรอง Play Integrity บนเครื่อง
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 แต่ละรุ่นมีให้สองแบบ และทั้งสองแบบอ่านข้อมูลเดียวกันบนอุปกรณ์ของคุณโดยไม่ใช้อินเทอร์เน็ต:
 
-- **App** - ไฟล์ `.apk` แอป Android ทั่วไป
-- **WebUI** - ไฟล์ `.zip` โมดูลที่คุณแฟลชในตัวจัดการ root (KernelSU, Magisk หรือ APatch) แล้วเปิดจากที่นั่น
+- **App**: ไฟล์ `.apk` แอป Android ทั่วไป
+- **WebUI**: ไฟล์ `.zip` โมดูลที่คุณแฟลชในตัวจัดการ root (KernelSU, Magisk หรือ APatch) แล้วเปิดจากที่นั่น
 
 ไม่ว่าแบบใดก็ต้องใช้ root
 
@@ -102,6 +102,7 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: ตัวดีบักเมธอดของอุปกรณ์ที่อ่านแต่ละรายการผ่านทุกเมธอดที่สามารถอ่านได้ และเปรียบเทียบเคียงข้างกัน
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: สำรองและกู้คืนแอปและข้อมูลทั้งหมดในฐานะ root ควบคุมทั้งหมดจาก WebUI
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: เครื่องมือปลอมแปลงอุปกรณ์ที่เปลี่ยนลายนิ้วมือใหม่ให้เป็นโปรไฟล์ที่สอดคล้องและสม่ำเสมอ
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: SSH daemon แบบสแตนด์อโลนที่ทำงานในฐานะ root (Dropbear)
 
 ## Contacts
 
@@ -117,7 +118,7 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 ## สัญญาอนุญาต
 
-**GNU AGPL-3.0-or-later** - ดู [LICENSE](LICENSE) Copyleft รวมถึงข้อกำหนดเครือข่าย: ผู้ที่รันเวอร์ชันที่ดัดแปลง (แม้เป็นบริการ) ต้องเสนอซอร์สโค้ดของมัน เลือกอย่างตั้งใจเพื่อให้ฟอร์กเปิดอยู่เสมอ
+**GNU AGPL-3.0-or-later**: ดู [LICENSE](LICENSE) Copyleft รวมถึงข้อกำหนดเครือข่าย: ผู้ที่รันเวอร์ชันที่ดัดแปลง (แม้เป็นบริการ) ต้องเสนอซอร์สโค้ดของมัน เลือกอย่างตั้งใจเพื่อให้ฟอร์กเปิดอยู่เสมอ
 
 ## เครื่องหมายการค้า
 

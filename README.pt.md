@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet e atestações Play Integrity, lidos no aparelho.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet e atestações Play Integrity, lidos no aparelho.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Cada versão vem de duas formas, e as duas leem as mesmas coisas no seu aparelho, sem internet:
 
-- **App** - o `.apk`, um aplicativo Android comum.
-- **WebUI** - o `.zip`, um módulo que você instala no seu gerenciador de root (KernelSU, Magisk ou APatch) e abre por lá.
+- **App**: o `.apk`, um aplicativo Android comum.
+- **WebUI**: o `.zip`, um módulo que você instala no seu gerenciador de root (KernelSU, Magisk ou APatch) e abre por lá.
 
 De qualquer forma, é necessário root.
 
@@ -102,6 +102,7 @@ Projetos irmãos do mesmo autor:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: um debugger de métodos do aparelho que lê cada item por todos os métodos capazes de lê-lo e os compara lado a lado.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: backup e restauração completos de apps e dados como root, controlados inteiramente por uma WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: um spoofer de dispositivo que transforma um fingerprint novo em um perfil coerente e consistente.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: um daemon SSH autônomo com root (Dropbear).
 
 ## Contatos
 
@@ -117,7 +118,7 @@ Projetos irmãos do mesmo autor:
 
 ## Licença
 
-**GNU AGPL-3.0-or-later** - veja [LICENSE](LICENSE). Copyleft, incluindo a cláusula de rede: quem rodar uma versão modificada (mesmo como serviço) tem que oferecer a fonte. Escolhida de propósito pra manter os forks abertos.
+**GNU AGPL-3.0-or-later**: veja [LICENSE](LICENSE). Copyleft, incluindo a cláusula de rede: quem rodar uma versão modificada (mesmo como serviço) tem que oferecer a fonte. Escolhida de propósito pra manter os forks abertos.
 
 ## Marcas registradas
 

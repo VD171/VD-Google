@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet e attestazioni Play Integrity, letti sul dispositivo.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet e attestazioni Play Integrity, letti sul dispositivo.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Ogni versione è disponibile in due forme, ed entrambe leggono le stesse informazioni sul tuo dispositivo, senza internet:
 
-- **App** - l'`.apk`, una normale app Android.
-- **WebUI** - lo `.zip`, un modulo che installi nel tuo gestore root (KernelSU, Magisk o APatch) e apri da lì.
+- **App**: l'`.apk`, una normale app Android.
+- **WebUI**: lo `.zip`, un modulo che installi nel tuo gestore root (KernelSU, Magisk o APatch) e apri da lì.
 
 In entrambi i casi è necessario il root.
 
@@ -102,6 +102,7 @@ Progetti affini dello stesso autore:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: un debugger di metodi del dispositivo che legge ogni voce attraverso ogni metodo in grado di leggerla e li confronta fianco a fianco.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: backup e ripristino completi di app e dati come root, gestiti interamente da una WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: uno spoofer di dispositivo che trasforma un fingerprint nuovo in un profilo coerente e consistente.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: un demone SSH autonomo con root (Dropbear).
 
 ## Contatti
 
@@ -117,7 +118,7 @@ Progetti affini dello stesso autore:
 
 ## Licenza
 
-**GNU AGPL-3.0-or-later** - vedi [LICENSE](LICENSE). Copyleft, inclusa la clausola di rete: chiunque esegua una versione modificata (anche come servizio) deve offrirne il codice sorgente. Scelta di proposito per mantenere i fork aperti.
+**GNU AGPL-3.0-or-later**: vedi [LICENSE](LICENSE). Copyleft, inclusa la clausola di rete: chiunque esegua una versione modificata (anche come servizio) deve offrirne il codice sorgente. Scelta di proposito per mantenere i fork aperti.
 
 ## Marchi
 

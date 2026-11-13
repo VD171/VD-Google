@@ -33,8 +33,8 @@ pewien.
 
 ## Zgłaszanie błędu
 
-Otwórz zgłoszenie z modelem swojego urządzenia, wersją Androida oraz - jeśli dotyczy
-odczytu - **eksportem** (nie zawiera żadnych danych osobowych). Sekcja diagnostyczna
+Otwórz zgłoszenie z modelem swojego urządzenia, wersją Androida oraz (jeśli dotyczy
+odczytu) **eksportem** (nie zawiera żadnych danych osobowych). Sekcja diagnostyczna
 eksportu jest stworzona dokładnie do tego.
 
 ## Kod

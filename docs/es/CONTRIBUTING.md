@@ -30,8 +30,8 @@ nunca traduzcas automáticamente un término técnico del que no estés seguro.
 
 ## Reportar un error
 
-Abre una incidencia con el modelo de tu dispositivo, la versión de Android y - si se trata de una
-lectura - una **exportación** (no contiene datos personales). La sección de diagnósticos de la
+Abre una incidencia con el modelo de tu dispositivo, la versión de Android y, si se trata de una
+lectura, una **exportación** (no contiene datos personales). La sección de diagnósticos de la
 exportación está hecha exactamente para esto.
 
 ## Código

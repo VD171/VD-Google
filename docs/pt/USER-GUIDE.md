@@ -34,11 +34,11 @@ O VD Google é um leitor. Ele olha o que os próprios aplicativos do Google já 
 seu dispositivo sobre três coisas, e explica cada uma delas para que você realmente a
 entenda:
 
-- **RCS** - se o chat moderno está mesmo funcionando na sua linha, com quem você pode
+- **RCS**: se o chat moderno está mesmo funcionando na sua linha, com quem você pode
   conversar e se o Gemini no Google Messages está pronto.
-- **Google Wallet** - se o seu dispositivo está configurado e atestado para pagamentos por
+- **Google Wallet**: se o seu dispositivo está configurado e atestado para pagamentos por
   aproximação.
-- **Atestações do Play Integrity** - quais aplicativos pediram ao Android para provar que
+- **Atestações do Play Integrity**: quais aplicativos pediram ao Android para provar que
   o seu dispositivo é genuíno, e se o Google atualmente o certifica.
 
 Tudo é lido localmente, por meio do root, e mostrado com uma explicação. Nenhum valor é
@@ -106,38 +106,38 @@ privacidade uma vez: é todo o propósito do aplicativo.
 Esta é a aba mais rica. Os horários são sempre mostrados no fuso horário do seu
 dispositivo, com o fuso rotulado.
 
-- **Conexão** - a única linha que diz a verdade. Ela é calculada a partir da configuração
+- **Conexão**: a única linha que diz a verdade. Ela é calculada a partir da configuração
   real do chat e do motor de provisionamento, então diz Conectado quando o RCS está de
   fato funcionando na sua linha, mesmo no Android mais novo, onde as flags antigas mentem.
   **Na dúvida, confie nesta linha.**
-- **Operadora** - a operadora móvel da sua linha (nome e MCC/MNC), obtida do seu SIM de
+- **Operadora**: a operadora móvel da sua linha (nome e MCC/MNC), obtida do seu SIM de
   dados em telefones com dois SIMs.
-- **Flag de disponibilidade (em cache)** - uma flag em cache que o aplicativo de mensagens
+- **Flag de disponibilidade (em cache)**: uma flag em cache que o aplicativo de mensagens
   mantém para o seu próprio número. Ela pode ficar desatualizada depois que o RCS já está
   funcionando, então um "Não" aqui não significa que o RCS está desligado. Confie na linha
   Conexão acima.
-- **Seu número de RCS** - o número registrado para RCS, mascarado por padrão. Toque no
+- **Seu número de RCS**: o número registrado para RCS, mascarado por padrão. Toque no
   olho para revelá-lo.
-- **Estado de provisionamento (em cache)** e **Versão de configuração** - valores internos
+- **Estado de provisionamento (em cache)** e **Versão de configuração**: valores internos
   que o aplicativo de mensagens mantém. Eles podem aparecer como 0 mesmo com o RCS
   funcionando. Veja a nota sobre operadora x backend do Google abaixo.
-- **Contatos com RCS** - quantos dos seus contatos são atualmente conhecidos por suportar
+- **Contatos com RCS**: quantos dos seus contatos são atualmente conhecidos por suportar
   chat RCS.
-- **Flag de recurso (em cache)** - se o aplicativo de mensagens tem o recurso RCS ligado;
+- **Flag de recurso (em cache)**: se o aplicativo de mensagens tem o recurso RCS ligado;
   em cache, então pode atrasar.
-- **Direito da operadora**, **Presença (UCE)**, **Serviço IMS presente** - estes descrevem
+- **Direito da operadora**, **Presença (UCE)**, **Serviço IMS presente**: estes descrevem
   o caminho de RCS *da operadora* (a rede IMS da operadora). Um "Não" ou "0" aqui é normal
   quando o seu RCS roda pelo próprio backend do Google em vez da operadora. Veja abaixo.
-- **Gemini** - se o Gemini no Google Messages está pronto: **Magic Compose** (a ajuda de
+- **Gemini**: se o Gemini no Google Messages está pronto: **Magic Compose** (a ajuda de
   escrita do Gemini), **AICore** (o motor no dispositivo que roda o Gemini Nano) e **chat
   do Gemini**, que é entregue por RCS e, portanto, precisa do RCS conectado.
-- **Horários** - provisionamento, sincronização, última mensagem, expiração do token e
+- **Horários**: provisionamento, sincronização, última mensagem, expiração do token e
   mais.
 
 **RCS da operadora x backend do Google.** Há duas formas de o RCS chegar ao seu telefone.
 Uma é o RCS *da sua operadora* pela rede IMS dela; a outra é o *próprio backend do Google*
 (Jibe), que funciona por cima, independente da operadora. Se o seu RCS roda pelo backend
-do Google - como é o caso da maioria das pessoas - então as linhas do lado da operadora
+do Google, como é o caso da maioria das pessoas, então as linhas do lado da operadora
 (direito da operadora, presença/UCE, serviço IMS, versão de configuração) são
 genuinamente "Não" ou "0", e isso está correto, não é um cache desatualizado. O seu RCS
 pode ter funcionado assim por anos. A linha Conexão é o que diz a você que ele está
@@ -145,22 +145,22 @@ funcionando.
 
 ### 6.3 Wallet
 
-- **Dispositivo atestado** - se o Google julgou este dispositivo genuíno e seguro o
+- **Dispositivo atestado**: se o Google julgou este dispositivo genuíno e seguro o
   suficiente para guardar cartões de pagamento. É o último resultado que o Google salvou
   neste dispositivo, então pode atrasar em relação ao aplicativo Wallet até o Google
   reavaliar. Se o resultado salvo estiver ausente, o VD Google mostra **Desconhecido** em
   vez de um "Não" enganoso.
-- **Última verificação** - quando essa verificação de segurança foi concluída pela última
+- **Última verificação**: quando essa verificação de segurança foi concluída pela última
   vez.
 - **Hardware NFC**, **Wallet instalado**, **Serviço do Wallet**, **Tocar e pagar**,
-  **Bloqueio de tela aceito**, **Cartão já adicionado** - as peças que tornam o pagamento
+  **Bloqueio de tela aceito**, **Cartão já adicionado**: as peças que tornam o pagamento
   por aproximação possível.
 
 ### 6.4 DroidGuard
 
-- **Certificado pelo Play Protect** - se o Google Play reconhece o seu dispositivo como
+- **Certificado pelo Play Protect**: se o Google Play reconhece o seu dispositivo como
   certificado (a certificação mostrada na Play Store).
-- **Cache de atestação** - as atestações do Play Integrity e do DroidGuard que o seu
+- **Cache de atestação**: as atestações do Play Integrity e do DroidGuard que o seu
   dispositivo tem em cache, cada uma com quando expira.
 
 ### 6.5 Atestações
@@ -174,7 +174,7 @@ nome do aplicativo ou pacote.
 
 O ícone de download grava um relatório **JSON** com o estado do seu dispositivo, RCS,
 Wallet e atestação. Você pode compartilhá-lo ou salvá-lo como arquivo. O relatório não
-contém **nenhum número de telefone, nenhuma credencial e nenhum conteúdo pessoal** - ele é
+contém **nenhum número de telefone, nenhuma credencial e nenhum conteúdo pessoal**: ele é
 higienizado antes de ser gravado. Ele também inclui uma seção opcional de **diagnóstico**
 (nomes de esquema, contagens e versões, nunca os seus dados) que ajuda a resolver problemas
 específicos do dispositivo. O aplicativo e a WebUI gravam o mesmo relatório.
@@ -200,7 +200,7 @@ pelo próprio backend do Google, não pela sua operadora. As linhas do lado da o
 estão corretamente negativas. Veja [6.2 RCS](#62-rcs).
 
 **Dispositivo atestado diz Desconhecido.** O resultado em cache do Wallet está ausente no
-seu dispositivo. Isso é honesto - o VD Google não vai mostrar um "Não" que não consegue
+seu dispositivo. Isso é honesto: o VD Google não vai mostrar um "Não" que não consegue
 sustentar.
 
 **Onde está o meu veredito do Play Integrity?** Ele não está no seu dispositivo. Veja

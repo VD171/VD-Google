@@ -28,9 +28,9 @@ Penjelasan yang ramah dan lengkap tentang VD Google: apa yang ditampilkannya, ar
 
 VD Google adalah sebuah pembaca. Ia melihat apa yang sudah disimpan oleh aplikasi Google sendiri di perangkat Anda tentang tiga hal, dan menjelaskan masing-masing agar Anda benar-benar memahaminya:
 
-- **RCS** - apakah obrolan modern benar-benar bekerja pada jalur Anda, dengan siapa Anda bisa mengobrol, dan apakah Gemini di Google Messages sudah siap.
-- **Google Wallet** - apakah perangkat Anda telah disiapkan dan diatestasi untuk pembayaran nirsentuh.
-- **Atestasi Play Integrity** - aplikasi mana yang telah meminta Android untuk membuktikan bahwa perangkat Anda asli, dan apakah Google saat ini menyertifikasinya.
+- **RCS**: apakah obrolan modern benar-benar bekerja pada jalur Anda, dengan siapa Anda bisa mengobrol, dan apakah Gemini di Google Messages sudah siap.
+- **Google Wallet**: apakah perangkat Anda telah disiapkan dan diatestasi untuk pembayaran nirsentuh.
+- **Atestasi Play Integrity**: aplikasi mana yang telah meminta Android untuk membuktikan bahwa perangkat Anda asli, dan apakah Google saat ini menyertifikasinya.
 
 Semuanya dibaca secara lokal, melalui root, dan ditampilkan dengan penjelasan. Tidak ada nilai yang dikarang: ketika perangkat tidak menyimpan jawaban, VD Google mengatakan "Unknown" alih-alih menebak.
 
@@ -75,29 +75,29 @@ Tentang apa aplikasi ini, janji privasi, versi, dan tautan. Baca bagian privasi 
 
 Ini adalah tab yang paling kaya. Stempel waktu selalu ditampilkan dalam zona waktu perangkat Anda, dengan zonanya diberi label.
 
-- **Connection** - satu baris yang mengatakan kebenaran. Ia dihitung dari konfigurasi obrolan yang sebenarnya dan mesin provisioning, sehingga ia mengatakan Connected ketika RCS benar-benar bekerja pada jalur Anda, bahkan pada Android yang lebih baru tempat flag lama berbohong. **Saat ragu, percayai baris ini.**
-- **Carrier** - operator seluler untuk jalur Anda (nama dan MCC/MNC), diambil dari SIM data Anda pada ponsel dual-SIM.
-- **Availability flag (cached)** - sebuah flag tersimpan yang dijaga aplikasi perpesanan untuk nomor Anda sendiri. Ia bisa tetap usang setelah RCS sudah bekerja, jadi "No" di sini tidak berarti RCS mati. Percayai baris Connection di atas.
-- **Your RCS number** - nomor yang terdaftar untuk RCS, disamarkan secara default. Ketuk ikon mata untuk menampilkannya.
-- **Provisioning state (cached)** dan **Configuration version** - nilai internal yang dijaga aplikasi perpesanan. Keduanya bisa terbaca 0 bahkan saat RCS bekerja. Lihat catatan tentang operator vs backend Google di bawah.
-- **RCS-capable contacts** - berapa banyak kontak Anda yang saat ini diketahui mendukung obrolan RCS.
-- **Feature flag (cached)** - apakah aplikasi perpesanan mengaktifkan fitur RCS; tersimpan, jadi bisa tertinggal.
-- **Carrier entitlement**, **Presence (UCE)**, **IMS service present** - ini menggambarkan jalur RCS *operator* (jaringan IMS operator). "No" atau "0" di sini normal ketika RCS Anda berjalan melalui backend Google sendiri alih-alih operator Anda. Lihat di bawah.
-- **Gemini** - apakah Gemini di Google Messages sudah siap: **Magic Compose** (bantuan menulis Gemini), **AICore** (mesin di perangkat yang menjalankan Gemini Nano), dan **Gemini chat**, yang dikirim melalui RCS sehingga membutuhkan RCS terhubung.
-- **Timestamps** - provisioning, sinkronisasi, pesan terakhir, kedaluwarsa token, dan lainnya.
+- **Connection**: satu baris yang mengatakan kebenaran. Ia dihitung dari konfigurasi obrolan yang sebenarnya dan mesin provisioning, sehingga ia mengatakan Connected ketika RCS benar-benar bekerja pada jalur Anda, bahkan pada Android yang lebih baru tempat flag lama berbohong. **Saat ragu, percayai baris ini.**
+- **Carrier**: operator seluler untuk jalur Anda (nama dan MCC/MNC), diambil dari SIM data Anda pada ponsel dual-SIM.
+- **Availability flag (cached)**: sebuah flag tersimpan yang dijaga aplikasi perpesanan untuk nomor Anda sendiri. Ia bisa tetap usang setelah RCS sudah bekerja, jadi "No" di sini tidak berarti RCS mati. Percayai baris Connection di atas.
+- **Your RCS number**: nomor yang terdaftar untuk RCS, disamarkan secara default. Ketuk ikon mata untuk menampilkannya.
+- **Provisioning state (cached)** dan **Configuration version**: nilai internal yang dijaga aplikasi perpesanan. Keduanya bisa terbaca 0 bahkan saat RCS bekerja. Lihat catatan tentang operator vs backend Google di bawah.
+- **RCS-capable contacts**: berapa banyak kontak Anda yang saat ini diketahui mendukung obrolan RCS.
+- **Feature flag (cached)**: apakah aplikasi perpesanan mengaktifkan fitur RCS; tersimpan, jadi bisa tertinggal.
+- **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: ini menggambarkan jalur RCS *operator* (jaringan IMS operator). "No" atau "0" di sini normal ketika RCS Anda berjalan melalui backend Google sendiri alih-alih operator Anda. Lihat di bawah.
+- **Gemini**: apakah Gemini di Google Messages sudah siap: **Magic Compose** (bantuan menulis Gemini), **AICore** (mesin di perangkat yang menjalankan Gemini Nano), dan **Gemini chat**, yang dikirim melalui RCS sehingga membutuhkan RCS terhubung.
+- **Timestamps**: provisioning, sinkronisasi, pesan terakhir, kedaluwarsa token, dan lainnya.
 
-**RCS operator vs backend Google.** Ada dua cara RCS mencapai ponsel Anda. Yang satu adalah RCS *operator* Anda melalui jaringan IMS mereka; yang lain adalah *backend Google sendiri* (Jibe), yang bekerja di atasnya, independen dari operator. Jika RCS Anda berjalan melalui backend Google - seperti pada kebanyakan orang - maka baris-baris sisi-operator (carrier entitlement, presence/UCE, IMS service, configuration version) memang benar-benar "No" atau "0", dan itu benar, bukan cache usang. RCS Anda bisa jadi sudah bekerja selama bertahun-tahun dengan cara ini. Baris Connection-lah yang memberi tahu Anda bahwa ia bekerja.
+**RCS operator vs backend Google.** Ada dua cara RCS mencapai ponsel Anda. Yang satu adalah RCS *operator* Anda melalui jaringan IMS mereka; yang lain adalah *backend Google sendiri* (Jibe), yang bekerja di atasnya, independen dari operator. Jika RCS Anda berjalan melalui backend Google (seperti pada kebanyakan orang) maka baris-baris sisi-operator (carrier entitlement, presence/UCE, IMS service, configuration version) memang benar-benar "No" atau "0", dan itu benar, bukan cache usang. RCS Anda bisa jadi sudah bekerja selama bertahun-tahun dengan cara ini. Baris Connection-lah yang memberi tahu Anda bahwa ia bekerja.
 
 ### 6.3 Wallet
 
-- **Device attested** - apakah Google menilai perangkat ini cukup asli dan aman untuk menyimpan kartu pembayaran. Ini adalah hasil terakhir yang disimpan Google di perangkat ini, sehingga bisa tertinggal dari aplikasi Wallet hingga Google memeriksa ulang. Jika hasil tersimpan tidak ada, VD Google menampilkan **Unknown** alih-alih "No" yang menyesatkan.
-- **Last checked** - kapan pemeriksaan keamanan itu terakhir selesai.
-- **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**, **Screen lock accepted**, **Card ever added** - bagian-bagian yang memungkinkan pembayaran nirsentuh.
+- **Device attested**: apakah Google menilai perangkat ini cukup asli dan aman untuk menyimpan kartu pembayaran. Ini adalah hasil terakhir yang disimpan Google di perangkat ini, sehingga bisa tertinggal dari aplikasi Wallet hingga Google memeriksa ulang. Jika hasil tersimpan tidak ada, VD Google menampilkan **Unknown** alih-alih "No" yang menyesatkan.
+- **Last checked**: kapan pemeriksaan keamanan itu terakhir selesai.
+- **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**, **Screen lock accepted**, **Card ever added**: bagian-bagian yang memungkinkan pembayaran nirsentuh.
 
 ### 6.4 DroidGuard
 
-- **Play Protect certified** - apakah Google Play mengenali perangkat Anda sebagai tersertifikasi (sertifikasi yang ditampilkan di Play Store).
-- **Attestation cache** - atestasi Play Integrity dan DroidGuard yang telah di-cache perangkat Anda, masing-masing dengan kapan ia kedaluwarsa.
+- **Play Protect certified**: apakah Google Play mengenali perangkat Anda sebagai tersertifikasi (sertifikasi yang ditampilkan di Play Store).
+- **Attestation cache**: atestasi Play Integrity dan DroidGuard yang telah di-cache perangkat Anda, masing-masing dengan kapan ia kedaluwarsa.
 
 ### 6.5 Atestasi
 
@@ -105,7 +105,7 @@ Riwayat aplikasi mana yang meminta Play Integrity di perangkat Anda: ikon, nama,
 
 ## 7. Ekspor laporan Anda
 
-Ikon unduh menulis laporan **JSON** dengan status perangkat, RCS, Wallet, dan atestasi Anda. Anda bisa membagikannya atau menyimpannya sebagai berkas. Laporan tidak memuat **nomor telepon, kredensial, dan konten pribadi apa pun** - ia dibersihkan sebelum ditulis. Ia juga menyertakan bagian **diagnostik** opsional (nama skema, jumlah, dan versi, tidak pernah data Anda) yang membantu memecahkan masalah khusus perangkat. Aplikasi dan WebUI menulis laporan yang sama.
+Ikon unduh menulis laporan **JSON** dengan status perangkat, RCS, Wallet, dan atestasi Anda. Anda bisa membagikannya atau menyimpannya sebagai berkas. Laporan tidak memuat **nomor telepon, kredensial, dan konten pribadi apa pun**: ia dibersihkan sebelum ditulis. Ia juga menyertakan bagian **diagnostik** opsional (nama skema, jumlah, dan versi, tidak pernah data Anda) yang membantu memecahkan masalah khusus perangkat. Aplikasi dan WebUI menulis laporan yang sama.
 
 ## 8. Tindakan yang mengubah status
 
@@ -119,7 +119,7 @@ VD Google berbicara dalam 21 bahasa. Pilih bahasa Anda saat pertama kali dijalan
 
 **RCS mengatakan Connected tetapi beberapa baris mengatakan No atau 0. Mengapa?** Karena RCS Anda berjalan melalui backend Google sendiri, bukan operator Anda. Baris-baris sisi-operator memang benar negatif. Lihat [6.2 RCS](#62-rcs).
 
-**Device attested mengatakan Unknown.** Hasil Wallet yang tersimpan di cache tidak ada di perangkat Anda. Itu jujur - VD Google tidak akan menampilkan "No" yang tidak bisa dibuktikannya.
+**Device attested mengatakan Unknown.** Hasil Wallet yang tersimpan di cache tidak ada di perangkat Anda. Itu jujur: VD Google tidak akan menampilkan "No" yang tidak bisa dibuktikannya.
 
 **Di mana putusan Play Integrity saya?** Ia tidak ada di perangkat Anda. Lihat [2. Apa yang bukan](#2-apa-yang-bukan).
 

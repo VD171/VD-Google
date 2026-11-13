@@ -4,11 +4,11 @@
 
 # Privasi
 
-Privasi bukanlah sebuah fitur VD Google - itulah seluruh inti dari keberadaannya. Halaman ini menyatakan persis apa yang aplikasi lakukan dan tidak lakukan terhadap data Anda, dalam istilah yang jelas yang bisa Anda verifikasi.
+Privasi bukanlah sebuah fitur VD Google: itulah seluruh inti dari keberadaannya. Halaman ini menyatakan persis apa yang aplikasi lakukan dan tidak lakukan terhadap data Anda, dalam istilah yang jelas yang bisa Anda verifikasi.
 
 ## Janji
 
-- **Tidak ada izin internet yang diberikan.** Manifes aplikasi tidak mendeklarasikan izin apa pun - tidak internet, tidak penyimpanan, tidak kontak, tidak ada apa-apa. Tidak ada yang perlu diizinkan.
+- **Tidak ada izin internet yang diberikan.** Manifes aplikasi tidak mendeklarasikan izin apa pun: tidak internet, tidak penyimpanan, tidak kontak, tidak ada apa-apa. Tidak ada yang perlu diizinkan.
 - **Tidak ada yang disimpan, dikirim, atau ditransmisikan** ke berkas atau server mana pun di luar perangkat Anda.
 - Setiap pembacaan terjadi **secara lokal, melalui root**, dan tetap berada di perangkat.
 

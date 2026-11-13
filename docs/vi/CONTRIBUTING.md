@@ -31,7 +31,7 @@ có, và không bao giờ dịch máy một thuật ngữ kỹ thuật mà bạn
 
 ## Báo cáo lỗi
 
-Mở một issue với kiểu máy thiết bị, phiên bản Android, và - nếu đó là về một kết quả đọc -
+Mở một issue với kiểu máy thiết bị, phiên bản Android, và (nếu đó là về một kết quả đọc)
 một **bản xuất** (nó không chứa dữ liệu cá nhân). Phần chẩn đoán của bản xuất được xây dựng
 đúng cho mục đích này.
 

@@ -5,7 +5,7 @@
 # Architektura
 
 Jak zbudowano VD Google i dlaczego. Ta strona wyjaśnia projekt i jego zasady. Nie
-wymienia dokładnych plików, tabel ani zapytań używanych przez poszczególne elementy -
+wymienia dokładnych plików, tabel ani zapytań używanych przez poszczególne elementy:
 to żyje wyłącznie w kodzie źródłowym, celowo, tak aby aplikacja i dokumentacja nigdy nie
 zamieniły się w poradnik dla kogoś, kto chciałby sfałszować te same wartości.
 
@@ -16,7 +16,7 @@ zamieniły się w poradnik dla kogoś, kto chciałby sfałszować te same warto�
 2. **Zero sieci.** Aplikacja nie deklaruje żadnych uprawnień; WebUI blokuje każde zdalne
    źródło. Nic nigdy nie jest nigdzie wysyłane.
 3. **Jedno zachowanie, dwie twarze.** Aplikacja i moduł WebUI są utrzymywane jako
-   absolutnie identyczne - te same sygnały, te same sformułowania, ten sam eksportowany
+   absolutnie identyczne: te same sygnały, te same sformułowania, ten sam eksportowany
    raport.
 4. **Uczciwie, nie pochlebnie.** Prawdziwy wynik negatywny jest pokazywany jako
    negatywny; nieaktualna pamięć podręczna jest oznaczana jako zbuforowana; brakująca
@@ -69,7 +69,7 @@ Eksport to oczyszczony zrzut JSON. Przed zapisaniem czegokolwiek uruchamia się 
 usuwa klucze i wartości, które wyglądają jak dane uwierzytelniające, redaguje długie ciągi
 cyfr i nigdy nie emituje twojego numeru telefonu, treści wiadomości, nazw kontaktów ani
 surowych blobów możliwości. Opcjonalna sekcja diagnostyczna niesie tylko nazwy schematów,
-liczby, rozmiary i wersje - a nawet tam każdy odcisk powiązany z tożsamością osadzony w
+liczby, rozmiary i wersje, a nawet tam każdy odcisk powiązany z tożsamością osadzony w
 nazwie jest usuwany. Aplikacja i WebUI produkują ten sam schemat.
 
 ## Czego VD Google nigdy nie robi

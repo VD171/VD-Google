@@ -15,7 +15,7 @@ taklit etmek isteyen biri için bir nasıl-yapılır kılavuzuna dönüşemez.
    asla bir değer uydurma. Cihaz bir yanıt tutmadığında Unknown de.
 2. **Sıfır ağ.** Uygulama hiçbir izin beyan etmez; WebUI her uzak kaynağı engeller.
    Hiçbir şey hiçbir yere, hiçbir zaman gönderilmez.
-3. **Tek davranış, iki yüz.** Uygulama ve WebUI modülü kesinlikle aynı tutulur - aynı
+3. **Tek davranış, iki yüz.** Uygulama ve WebUI modülü kesinlikle aynı tutulur: aynı
    sinyaller, aynı ifadeler, aynı dışa aktarılan rapor.
 4. **Yaltaklanmaktansa dürüst.** Gerçek bir olumsuz, olumsuz olarak gösterilir; eski bir
    önbellek, önbelleklenmiş olarak etiketlenir; eksik bir değer Unknown'dır. Algılama,
@@ -67,7 +67,7 @@ Dışa aktarma, temizlenmiş bir JSON anlık görüntüsüdür. Herhangi bir şe
 bir temizleyici çalışır: kimlik bilgisi gibi görünen anahtarları ve değerleri atar, uzun
 rakam dizilerini karartır ve asla telefon numaranızı, mesaj içeriğini, kişi adlarını veya
 ham yetenek bloblarını yaymaz. İsteğe bağlı tanılama bölümü yalnızca şema adlarını,
-sayıları, boyutları ve sürümleri taşır - ve orada bile, bir ada gömülü kimlik başına
+sayıları, boyutları ve sürümleri taşır; ve orada bile, bir ada gömülü kimlik başına
 parmak izi varsa çökertilerek kaldırılır. Uygulama ve WebUI aynı şemayı üretir.
 
 ## VD Google'ın asla yapmadıkları

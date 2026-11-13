@@ -32,10 +32,10 @@ berührt niemals das Internet, und es ändert niemals etwas, es sei denn, du bit
 VD Google ist ein Reader. Es betrachtet, was Googles eigene Apps bereits auf deinem Gerät über drei
 Dinge speichern, und erklärt jedes davon, sodass du es tatsächlich verstehst:
 
-- **RCS** - ob moderner Chat auf deiner Leitung wirklich funktioniert, mit wem du chatten kannst und
+- **RCS**: ob moderner Chat auf deiner Leitung wirklich funktioniert, mit wem du chatten kannst und
   ob Gemini in Google Messages bereit ist.
-- **Google Wallet** - ob dein Gerät für kontaktlose Zahlungen eingerichtet und attestiert ist.
-- **Play-Integrity-Attestierungen** - welche Apps Android gebeten haben zu beweisen, dass dein Gerät
+- **Google Wallet**: ob dein Gerät für kontaktlose Zahlungen eingerichtet und attestiert ist.
+- **Play-Integrity-Attestierungen**: welche Apps Android gebeten haben zu beweisen, dass dein Gerät
   echt ist, und ob Google es derzeit zertifiziert.
 
 Alles wird lokal gelesen, über Root, und mit einer Erklärung gezeigt. Kein Wert wird erfunden: Wenn
@@ -102,57 +102,57 @@ einmal: Er ist der ganze Sinn der App.
 Dies ist der umfangreichste Tab. Zeitstempel werden immer in der Zeitzone deines Geräts angezeigt,
 mit gekennzeichneter Zone.
 
-- **Verbindung** - die eine Zeile, die die Wahrheit sagt. Sie wird aus der echten Chat-Konfiguration
+- **Verbindung**: die eine Zeile, die die Wahrheit sagt. Sie wird aus der echten Chat-Konfiguration
   und der Provisionierungs-Engine berechnet, sodass sie Verbunden sagt, wenn RCS auf deiner Leitung
   tatsächlich funktioniert, selbst auf neueren Android-Versionen, wo die älteren Flags lügen. **Im
   Zweifel vertraue dieser Zeile.**
-- **Mobilfunkanbieter** - der Mobilfunkanbieter für deine Leitung (Name und MCC/MNC), entnommen
+- **Mobilfunkanbieter**: der Mobilfunkanbieter für deine Leitung (Name und MCC/MNC), entnommen
   deiner Daten-SIM auf Dual-SIM-Telefonen.
-- **Verfügbarkeits-Flag (zwischengespeichert)** - ein zwischengespeichertes Flag, das die
+- **Verfügbarkeits-Flag (zwischengespeichert)**: ein zwischengespeichertes Flag, das die
   Messaging-App für deine eigene Nummer führt. Es kann veraltet bleiben, nachdem RCS bereits
   funktioniert, sodass ein "Nein" hier nicht bedeutet, dass RCS aus ist. Vertraue der Verbindungszeile
   oben.
-- **Deine RCS-Nummer** - die für RCS registrierte Nummer, standardmäßig maskiert. Tippe auf das Auge,
+- **Deine RCS-Nummer**: die für RCS registrierte Nummer, standardmäßig maskiert. Tippe auf das Auge,
   um sie aufzudecken.
-- **Provisionierungszustand (zwischengespeichert)** und **Konfigurationsversion** - interne Werte,
+- **Provisionierungszustand (zwischengespeichert)** und **Konfigurationsversion**: interne Werte,
   die die Messaging-App führt. Sie können 0 anzeigen, selbst während RCS funktioniert. Siehe die
   Anmerkung zu Mobilfunkanbieter gegenüber Googles Backend unten.
-- **RCS-fähige Kontakte** - wie viele deiner Kontakte derzeit bekannt dafür sind, RCS-Chat zu
+- **RCS-fähige Kontakte**: wie viele deiner Kontakte derzeit bekannt dafür sind, RCS-Chat zu
   unterstützen.
-- **Feature-Flag (zwischengespeichert)** - ob die Messaging-App das RCS-Feature eingeschaltet hat;
+- **Feature-Flag (zwischengespeichert)**: ob die Messaging-App das RCS-Feature eingeschaltet hat;
   zwischengespeichert, also kann es hinterherhinken.
-- **Carrier Entitlement**, **Presence (UCE)**, **IMS-Dienst vorhanden** - diese beschreiben den
+- **Carrier Entitlement**, **Presence (UCE)**, **IMS-Dienst vorhanden**: diese beschreiben den
   RCS-Pfad des *Mobilfunkanbieters* (das IMS-Netz des Betreibers). Ein "Nein" oder "0" hier ist
   normal, wenn dein RCS über Googles eigenes Backend statt über deinen Mobilfunkanbieter läuft. Siehe
   unten.
-- **Gemini** - ob Gemini in Google Messages bereit ist: **Magic Compose** (Geminis Schreibhilfe),
+- **Gemini**: ob Gemini in Google Messages bereit ist: **Magic Compose** (Geminis Schreibhilfe),
   **AICore** (die geräteinterne Engine, die Gemini Nano ausführt) und **Gemini-Chat**, der über RCS
   bereitgestellt wird und daher eine verbundene RCS-Verbindung benötigt.
-- **Zeitstempel** - Provisionierung, Synchronisierung, letzte Nachricht, Token-Ablauf und mehr.
+- **Zeitstempel**: Provisionierung, Synchronisierung, letzte Nachricht, Token-Ablauf und mehr.
 
 **Mobilfunkanbieter-RCS gegenüber Googles Backend.** Es gibt zwei Wege, auf denen RCS dein Telefon
 erreicht. Einer ist das RCS deines *Mobilfunkanbieters* über dessen IMS-Netz; der andere ist *Googles
 eigenes Backend* (Jibe), das obendrauf funktioniert, unabhängig vom Mobilfunkanbieter. Wenn dein RCS
-über Googles Backend läuft - wie bei den meisten Menschen - dann sind die mobilfunkanbieterseitigen
+über Googles Backend läuft, wie bei den meisten Menschen, dann sind die mobilfunkanbieterseitigen
 Zeilen (Carrier Entitlement, Presence/UCE, IMS-Dienst, Konfigurationsversion) tatsächlich "Nein" oder
 "0", und das ist korrekt, kein veralteter Cache. Dein RCS kann auf diese Weise seit Jahren
 funktioniert haben. Die Verbindungszeile ist das, was dir sagt, dass es funktioniert.
 
 ### 6.3 Wallet
 
-- **Gerät attestiert** - ob Google dieses Gerät als echt und sicher genug beurteilt hat, um
+- **Gerät attestiert**: ob Google dieses Gerät als echt und sicher genug beurteilt hat, um
   Zahlungskarten zu halten. Es ist das letzte Ergebnis, das Google auf diesem Gerät gespeichert hat,
   sodass es der Wallet-App hinterherhinken kann, bis Google erneut prüft. Wenn das gespeicherte
   Ergebnis fehlt, zeigt VD Google **Unbekannt** statt eines irreführenden "Nein".
-- **Zuletzt geprüft** - wann diese Sicherheitsprüfung zuletzt abgeschlossen wurde.
+- **Zuletzt geprüft**: wann diese Sicherheitsprüfung zuletzt abgeschlossen wurde.
 - **NFC-Hardware**, **Wallet installiert**, **Wallet-Dienst**, **Tap and Pay**, **Bildschirmsperre
-  akzeptiert**, **Karte jemals hinzugefügt** - die Teile, die kontaktloses Zahlen möglich machen.
+  akzeptiert**, **Karte jemals hinzugefügt**: die Teile, die kontaktloses Zahlen möglich machen.
 
 ### 6.4 DroidGuard
 
-- **Play Protect zertifiziert** - ob Google Play dein Gerät als zertifiziert erkennt (die
+- **Play Protect zertifiziert**: ob Google Play dein Gerät als zertifiziert erkennt (die
   Zertifizierung, die im Play Store angezeigt wird).
-- **Attestierungs-Cache** - die Play-Integrity- und DroidGuard-Attestierungen, die dein Gerät
+- **Attestierungs-Cache**: die Play-Integrity- und DroidGuard-Attestierungen, die dein Gerät
   zwischengespeichert hat, jeweils mit dem Zeitpunkt, zu dem sie ablaufen.
 
 ### 6.5 Attestierungen
@@ -165,7 +165,7 @@ prüft oder nicht. Verwende das Suchfeld, um nach App-Name oder Paket zu filtern
 
 Das Download-Symbol schreibt einen **JSON**-Bericht mit deinem Geräte-, RCS-, Wallet- und
 Attestierungszustand. Du kannst ihn teilen oder als Datei speichern. Der Bericht enthält **keine
-Telefonnummer, keine Anmeldedaten und keinen persönlichen Inhalt** - er wird bereinigt, bevor er
+Telefonnummer, keine Anmeldedaten und keinen persönlichen Inhalt**: er wird bereinigt, bevor er
 geschrieben wird. Er enthält außerdem einen optionalen **Diagnose**-Abschnitt (Schemanamen, Zählwerte
 und Versionen, niemals deine Daten), der hilft, gerätespezifische Probleme zu beheben. Die App und die
 WebUI schreiben denselben Bericht.
@@ -191,7 +191,7 @@ eigenes Backend läuft, nicht über deinen Mobilfunkanbieter. Die mobilfunkanbie
 korrekterweise negativ. Siehe [6.2 RCS](#62-rcs).
 
 **Gerät attestiert sagt Unbekannt.** Das zwischengespeicherte Wallet-Ergebnis fehlt auf deinem Gerät.
-Das ist ehrlich - VD Google wird kein "Nein" anzeigen, das es nicht belegen kann.
+Das ist ehrlich: VD Google wird kein "Nein" anzeigen, das es nicht belegen kann.
 
 **Wo ist mein Play-Integrity-Urteil?** Es liegt nicht auf deinem Gerät. Siehe [2. Was es nicht
 ist](#2-was-es-nicht-ist).

@@ -39,7 +39,7 @@ VD-Google/
 
 ## Kde co žije
 
-- **Čtečky** - co VD Google čte a jak to čte - žijí jen v
+- **Čtečky**: co VD Google čte a jak to čte, žijí jen v
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (aplikace) a
   `VDGoogle/webui/webroot/scripts.js` (WebUI). Obě se navzájem přesně zrcadlí.
 - **Řetězce** jsou jediným zdrojem každého popisku, ve 21 jazycích: aplikace pod
@@ -58,10 +58,10 @@ sestavovat, viz readme.
 
 Na zařízení si modul WebUI drží svůj stav pod `/data/adb/vdgoogle/`:
 
-- `scratch/` - krátkodobé kopie databáze, vzaté stranou, aby se dotaz nikdy nedotkl živého
+- `scratch/`: krátkodobé kopie databáze, vzaté stranou, aby se dotaz nikdy nedotkl živého
   souboru. Každé čtení své vlastní kopie smaže a jakýkoli zbytek z přerušeného běhu se
   vyčistí při příštím otevření WebUI. Nic se zde neuchovává.
-- `actions.jsonl` - lokální log akcí měnících stav (vymazání mezipaměti Google Wallet),
+- `actions.jsonl`: lokální log akcí měnících stav (vymazání mezipaměti Google Wallet),
   každá na jednom řádku JSON, omezeno na posledních 200 záznamů. Nikdy neopouští zařízení.
 
 Aplikace si drží stejné krátkodobé scratch kopie místo toho ve své vlastní soukromé

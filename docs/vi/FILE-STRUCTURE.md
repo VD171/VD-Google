@@ -39,7 +39,7 @@ VD-Google/
 
 ## Mọi thứ nằm ở đâu
 
-- **Các trình đọc (reader)** - VD Google đọc gì và nó đọc như thế nào - chỉ nằm trong
+- **Các trình đọc (reader)**: VD Google đọc gì và nó đọc như thế nào, chỉ nằm trong
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (ứng dụng) và
   `VDGoogle/webui/webroot/scripts.js` (WebUI). Hai bên phản chiếu nhau chính xác.
 - **Các chuỗi** là nguồn duy nhất của mọi nhãn, trong 21 ngôn ngữ: ứng dụng dưới
@@ -59,11 +59,11 @@ Các bản dựng release tạo ra APK và tệp ZIP WebUI. Các tạo phẩm d�
 
 Trên thiết bị, module WebUI giữ trạng thái của nó dưới `/data/adb/vdgoogle/`:
 
-- `scratch/` - các bản sao tồn tại ngắn ngủi của một cơ sở dữ liệu, được tách riêng để một
+- `scratch/`: các bản sao tồn tại ngắn ngủi của một cơ sở dữ liệu, được tách riêng để một
   truy vấn không bao giờ chạm vào tệp đang hoạt động. Mỗi lần đọc sẽ xóa các bản sao của chính
   nó, và mọi phần còn sót lại từ một lần chạy bị gián đoạn đều được dọn sạch vào lần tiếp theo
   WebUI được mở. Không có gì ở đây được giữ lại.
-- `actions.jsonl` - nhật ký cục bộ của các hành động thay đổi trạng thái (việc xóa bộ nhớ đệm
+- `actions.jsonl`: nhật ký cục bộ của các hành động thay đổi trạng thái (việc xóa bộ nhớ đệm
   của Google Wallet), mỗi hành động một dòng JSON, giới hạn ở 200 mục gần nhất. Nó không bao
   giờ rời khỏi thiết bị.
 

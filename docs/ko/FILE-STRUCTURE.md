@@ -39,7 +39,7 @@ VD-Google/
 
 ## 각 요소의 위치
 
-- **리더(readers)** - VD Google가 무엇을 어떻게 읽는지 - 는 오직
+- **리더(readers)**: VD Google가 무엇을 어떻게 읽는지는 오직
   `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/`(앱)와
   `VDGoogle/webui/webroot/scripts.js`(WebUI)에만 존재합니다. 둘은 서로를 정확히
   반영합니다.
@@ -60,10 +60,10 @@ readme를 참조하세요.
 
 기기에서 WebUI 모듈은 자신의 상태를 `/data/adb/vdgoogle/` 아래에 보관합니다:
 
-- `scratch/` - 쿼리가 라이브 파일을 결코 건드리지 않도록 따로 떠 둔, 수명이 짧은
+- `scratch/`: 쿼리가 라이브 파일을 결코 건드리지 않도록 따로 떠 둔, 수명이 짧은
   데이터베이스 복사본입니다. 각 읽기는 자신의 복사본을 삭제하며, 중단된 실행에서 남은 것은
   다음에 WebUI가 열릴 때 정리됩니다. 여기의 어떤 것도 보관되지 않습니다.
-- `actions.jsonl` - 상태를 변경하는 작업(Google Wallet 캐시 지우기)의 로컬 로그이며, 각각
+- `actions.jsonl`: 상태를 변경하는 작업(Google Wallet 캐시 지우기)의 로컬 로그이며, 각각
   한 줄의 JSON으로, 최근 200개 항목으로 제한됩니다. 기기를 결코 떠나지 않습니다.
 
 앱은 대신 동일한 수명 짧은 scratch 복사본을 자신의 전용 캐시에 보관하고, 작업 로그는 자신의

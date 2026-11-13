@@ -31,7 +31,7 @@ uyun ve emin olmadığınız bir teknik terimi asla makineyle çevirmeyin.
 
 ## Bir hatayı bildirme
 
-Cihaz modelinizi, Android sürümünüzü ve - eğer bir okumayla ilgiliyse - bir **dışa
+Cihaz modelinizi, Android sürümünüzü ve (eğer bir okumayla ilgiliyse) bir **dışa
 aktarma** (export) içeren bir sorun (issue) açın (hiçbir kişisel veri içermez). Dışa
 aktarmanın tanılama bölümü tam da bunun için yapılmıştır.
 

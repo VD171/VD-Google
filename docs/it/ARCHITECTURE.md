@@ -68,7 +68,7 @@ L'esportazione è un'istantanea JSON sanificata. Un sanificatore viene eseguito 
 qualsiasi cosa venga scritta: scarta chiavi e valori che somigliano a credenziali, oscura
 le lunghe sequenze di cifre e non emette mai il tuo numero di telefono, il contenuto dei
 messaggi, i nomi dei contatti o i blob grezzi di capacità. La sezione diagnostica opzionale
-porta solo nomi di schema, conteggi, dimensioni e versioni - e anche lì, qualsiasi
+porta solo nomi di schema, conteggi, dimensioni e versioni; e anche lì, qualsiasi
 impronta per-identità incorporata in un nome viene collassata via. L'app e la WebUI
 producono lo stesso schema.
 

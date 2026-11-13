@@ -33,11 +33,11 @@ değiştirmez.
 VD Google bir okuyucudur. Google'ın kendi uygulamalarının cihazınızda üç şey hakkında
 zaten sakladığı bilgilere bakar ve gerçekten anlamanız için her birini açıklar:
 
-- **RCS** - modern sohbetin hattınızda gerçekten çalışıp çalışmadığı, kimlerle sohbet
+- **RCS**: modern sohbetin hattınızda gerçekten çalışıp çalışmadığı, kimlerle sohbet
   edebileceğiniz ve Google Messages'taki Gemini'nin hazır olup olmadığı.
-- **Google Wallet** - cihazınızın temassız ödemeler için kurulup kurulmadığı ve
+- **Google Wallet**: cihazınızın temassız ödemeler için kurulup kurulmadığı ve
   doğrulanıp doğrulanmadığı.
-- **Play Integrity doğrulamaları** - hangi uygulamaların Android'den cihazınızın gerçek
+- **Play Integrity doğrulamaları**: hangi uygulamaların Android'den cihazınızın gerçek
   olduğunu kanıtlamasını istediği ve Google'ın şu anda onu belgeleyip belgelemediği.
 
 Her şey yerel olarak, root aracılığıyla okunur ve bir açıklamayla gösterilir. Hiçbir
@@ -106,57 +106,57 @@ okuyun: uygulamanın tüm amacı budur.
 Bu en zengin sekmedir. Zaman damgaları, bölge etiketiyle birlikte her zaman cihazınızın
 saat diliminde gösterilir.
 
-- **Connection** - gerçeği söyleyen tek satır. Gerçek sohbet yapılandırmasından ve
+- **Connection**: gerçeği söyleyen tek satır. Gerçek sohbet yapılandırmasından ve
   provizyon motorundan hesaplanır, bu yüzden eski bayrakların yalan söylediği yeni
   Android'de bile, RCS hattınızda gerçekten çalışırken Connected der. **Şüphe
   duyduğunuzda bu satıra güvenin.**
-- **Carrier** - hattınız için mobil operatör (ad ve MCC/MNC), çift SIM'li telefonlarda
+- **Carrier**: hattınız için mobil operatör (ad ve MCC/MNC), çift SIM'li telefonlarda
   veri SIM'inizden alınır.
-- **Availability flag (cached)** - mesajlaşma uygulamasının kendi numaranız için tuttuğu
+- **Availability flag (cached)**: mesajlaşma uygulamasının kendi numaranız için tuttuğu
   önbelleklenmiş bir bayrak. RCS zaten çalışmaya başladıktan sonra güncelliğini
   yitirebilir, bu yüzden buradaki bir "No", RCS'nin kapalı olduğu anlamına gelmez.
   Yukarıdaki Connection satırına güvenin.
-- **RCS numaranız** - RCS için kayıtlı numara, varsayılan olarak maskelenir. Göstermek
+- **RCS numaranız**: RCS için kayıtlı numara, varsayılan olarak maskelenir. Göstermek
   için göz simgesine dokunun.
-- **Provisioning state (cached)** ve **Configuration version** - mesajlaşma uygulamasının
+- **Provisioning state (cached)** ve **Configuration version**: mesajlaşma uygulamasının
   tuttuğu dahili değerler. RCS çalışırken bile 0 okuyabilirler. Aşağıdaki operatör ve
   Google'ın arka ucu notuna bakın.
-- **RCS destekli kişiler** - kişilerinizden kaçının şu anda RCS sohbetini desteklediğinin
+- **RCS destekli kişiler**: kişilerinizden kaçının şu anda RCS sohbetini desteklediğinin
   bilindiği.
-- **Feature flag (cached)** - mesajlaşma uygulamasının RCS özelliğinin açık olup
+- **Feature flag (cached)**: mesajlaşma uygulamasının RCS özelliğinin açık olup
   olmadığı; önbelleklenmiş olduğundan geride kalabilir.
-- **Carrier entitlement**, **Presence (UCE)**, **IMS service present** - bunlar
+- **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: bunlar
   *operatörün* RCS yolunu (operatörün IMS ağı) tanımlar. RCS'niz operatörünüz yerine
   Google'ın kendi arka ucu üzerinden çalıştığında, buradaki bir "No" ya da "0" normaldir.
   Aşağıya bakın.
-- **Gemini** - Google Messages'taki Gemini'nin hazır olup olmadığı: **Magic Compose**
+- **Gemini**: Google Messages'taki Gemini'nin hazır olup olmadığı: **Magic Compose**
   (Gemini'nin yazma yardımı), **AICore** (Gemini Nano'yu çalıştıran cihaz üzerindeki
   motor) ve RCS üzerinden sunulan ve bu yüzden bağlı bir RCS gerektiren **Gemini chat**.
-- **Zaman damgaları** - provizyon, eşitleme, son mesaj, jeton süresi ve dahası.
+- **Zaman damgaları**: provizyon, eşitleme, son mesaj, jeton süresi ve dahası.
 
 **Operatör RCS'si ve Google'ın arka ucu.** RCS'nin telefonunuza ulaşmasının iki yolu
 vardır. Biri *operatörünüzün* IMS ağı üzerinden RCS'si; diğeri operatörden bağımsız
 olarak, üstten çalışan *Google'ın kendi arka ucudur* (Jibe). RCS'niz Google'ın arka ucu
-üzerinden çalışıyorsa - çoğu insanda olduğu gibi - o zaman operatör tarafı satırlar
+üzerinden çalışıyorsa (çoğu insanda olduğu gibi) o zaman operatör tarafı satırlar
 (carrier entitlement, presence/UCE, IMS service, configuration version) gerçekten "No"
 ya da "0" olur ve bu doğrudur, eski bir önbellek değildir. RCS'niz bu şekilde yıllardır
 çalışıyor olabilir. Çalıştığını size söyleyen şey Connection satırıdır.
 
 ### 6.3 Wallet
 
-- **Device attested** - Google'ın bu cihazı ödeme kartlarını tutacak kadar gerçek ve
+- **Device attested**: Google'ın bu cihazı ödeme kartlarını tutacak kadar gerçek ve
   güvenli bulup bulmadığı. Bu, Google'ın bu cihazda sakladığı son sonuçtur, bu yüzden
   Google yeniden denetleyene kadar Wallet uygulamasının gerisinde kalabilir. Kaydedilen
   sonuç eksikse, VD Google yanıltıcı bir "No" yerine **Unknown** gösterir.
-- **Last checked** - o güvenlik denetiminin en son ne zaman tamamlandığı.
+- **Last checked**: o güvenlik denetiminin en son ne zaman tamamlandığı.
 - **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**,
-  **Screen lock accepted**, **Card ever added** - temassız ödemeyi mümkün kılan parçalar.
+  **Screen lock accepted**, **Card ever added**: temassız ödemeyi mümkün kılan parçalar.
 
 ### 6.4 DroidGuard
 
-- **Play Protect certified** - Google Play'in cihazınızı belgelenmiş olarak tanıyıp
+- **Play Protect certified**: Google Play'in cihazınızı belgelenmiş olarak tanıyıp
   tanımadığı (Play Store'da gösterilen belgelendirme).
-- **Attestation cache** - cihazınızın önbelleğe aldığı Play Integrity ve DroidGuard
+- **Attestation cache**: cihazınızın önbelleğe aldığı Play Integrity ve DroidGuard
   doğrulamaları, her biri ne zaman süresinin dolacağıyla birlikte.
 
 ### 6.5 Doğrulamalar
@@ -170,7 +170,7 @@ kutusunu kullanın.
 
 İndirme simgesi, cihaz, RCS, Wallet ve doğrulama durumunuzla birlikte bir **JSON** raporu
 yazar. Onu paylaşabilir veya bir dosya olarak kaydedebilirsiniz. Rapor **hiçbir telefon
-numarası, hiçbir kimlik bilgisi ve hiçbir kişisel içerik** içermez - yazılmadan önce
+numarası, hiçbir kimlik bilgisi ve hiçbir kişisel içerik** içermez: yazılmadan önce
 temizlenir. Ayrıca, cihaza özgü sorunları gidermeye yardımcı olan isteğe bağlı bir
 **tanılama** bölümü de içerir (şema adları, sayılar ve sürümler, asla verileriniz değil).
 Uygulama ve WebUI aynı raporu yazar.
@@ -196,7 +196,7 @@ operatörünüz üzerinden değil, Google'ın kendi arka ucu üzerinden çalış
 tarafı satırlar doğru biçimde olumsuzdur. [6.2 RCS](#62-rcs) bölümüne bakın.
 
 **Device attested, Unknown diyor.** Önbelleklenmiş Wallet sonucu cihazınızda eksik. Bu
-dürüstçedir - VD Google destekleyemeyeceği bir "No" göstermez.
+dürüstçedir: VD Google destekleyemeyeceği bir "No" göstermez.
 
 **Play Integrity kararım nerede?** Cihazınızda değil.
 [2. Ne değildir](#2-ne-değildir) bölümüne bakın.

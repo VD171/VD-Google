@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet och Play Integrity-attesteringar, lästa på enheten.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet och Play Integrity-attesteringar, lästa på enheten.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Varje version finns i två former, och båda läser samma saker på din enhet, utan internet:
 
-- **App** - `.apk`-filen, en vanlig Android-app.
-- **WebUI** - `.zip`-filen, en modul som du flashar i din root-hanterare (KernelSU, Magisk eller APatch) och öppnar därifrån.
+- **App**: `.apk`-filen, en vanlig Android-app.
+- **WebUI**: `.zip`-filen, en modul som du flashar i din root-hanterare (KernelSU, Magisk eller APatch) och öppnar därifrån.
 
 I båda fallen krävs root.
 
@@ -102,6 +102,7 @@ Systerprojekt av samma författare:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: en enhetsmetod-debugger som läser varje post genom varje metod som kan läsa den och jämför dem sida vid sida.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: fullständig säkerhetskopiering och återställning av appar och data som root, helt styrd från en WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: en enhetsspoofer som förvandlar ett nytt fingeravtryck till en sammanhängande, konsekvent profil.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: en fristående SSH-daemon (Dropbear) med root.
 
 ## Contacts
 
@@ -117,7 +118,7 @@ Systerprojekt av samma författare:
 
 ## Licens
 
-**GNU AGPL-3.0-or-later** - se [LICENSE](LICENSE). Copyleft, inklusive nätverksklausulen: den som kör en modifierad version (även som tjänst) måste erbjuda dess källkod. Vald med avsikt för att hålla forkar öppna.
+**GNU AGPL-3.0-or-later**: se [LICENSE](LICENSE). Copyleft, inklusive nätverksklausulen: den som kör en modifierad version (även som tjänst) måste erbjuda dess källkod. Vald med avsikt för att hålla forkar öppna.
 
 ## Varumärken
 

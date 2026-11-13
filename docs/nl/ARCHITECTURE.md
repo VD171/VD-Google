@@ -5,7 +5,7 @@
 # Architectuur
 
 Hoe VD Google is gebouwd en waarom. Deze pagina legt het ontwerp en de principes uit. Ze
-somt niet de exacte bestanden, tabellen of query's op die elke lezer gebruikt - dat leeft
+somt niet de exacte bestanden, tabellen of query's op die elke lezer gebruikt. Dat leeft
 alleen in de broncode, met opzet, zodat de app en de documentatie nooit kunnen afglijden
 naar een handleiding voor iemand die dezelfde waarden wil vervalsen.
 
@@ -16,7 +16,7 @@ naar een handleiding voor iemand die dezelfde waarden wil vervalsen.
 2. **Geen netwerk.** De app declareert helemaal geen permissies; de WebUI blokkeert elke
    externe oorsprong. Er wordt nooit iets ergens naartoe gestuurd, nooit.
 3. **Eén gedrag, twee gezichten.** De app en de WebUI-module worden absoluut identiek
-   gehouden - dezelfde signalen, dezelfde bewoordingen, hetzelfde geëxporteerde rapport.
+   gehouden: dezelfde signalen, dezelfde bewoordingen, hetzelfde geëxporteerde rapport.
 4. **Eerlijk boven vleiend.** Een echte negatief wordt als negatief getoond; een verouderde
    cache wordt als gecachet gelabeld; een ontbrekende waarde is Unknown. Detectie wordt
    nooit afgezwakt om er mooier uit te zien.
@@ -67,7 +67,7 @@ De export is een opgeschoonde JSON-momentopname. Een opschoner draait voordat er
 weggeschreven: hij verwijdert sleutels en waarden die op inloggegevens lijken, redigeert
 lange cijferreeksen, en zendt nooit je telefoonnummer, berichtinhoud, contactnamen of ruwe
 capability-blobs uit. De optionele diagnostiek-sectie bevat alleen schemanamen, aantallen,
-groottes en versies - en zelfs daar wordt elke per-identiteit-vingerafdruk die in een naam
+groottes en versies, en zelfs daar wordt elke per-identiteit-vingerafdruk die in een naam
 is ingebed, weggevouwen. De app en de WebUI produceren hetzelfde schema.
 
 ## Wat VD Google nooit doet

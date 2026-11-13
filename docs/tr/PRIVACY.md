@@ -4,15 +4,15 @@
 
 # Gizlilik
 
-Gizlilik, VD Google'ın bir özelliği değildir - tüm amacı budur. Bu sayfa, uygulamanın
+Gizlilik, VD Google'ın bir özelliği değildir: tüm amacı budur. Bu sayfa, uygulamanın
 verilerinizle ne yapıp ne yapmadığını, doğrulayabileceğiniz açık terimlerle tam olarak
 belirtir.
 
 ## Söz
 
-- **Hiçbir internet izni verilmez.** Uygulamanın manifestosu hiçbir izin beyan etmez - ne
+- **Hiçbir internet izni verilmez.** Uygulamanın manifestosu hiçbir izin beyan etmez: ne
   internet, ne depolama, ne kişiler, hiçbir şey. İzin verilecek bir şey yoktur.
-- **Hiçbir şey saklanmaz, gönderilmez veya iletilmez** - cihazınızın dışındaki hiçbir
+- **Hiçbir şey saklanmaz, gönderilmez veya iletilmez**: cihazınızın dışındaki hiçbir
   dosyaya veya sunucuya.
 - Her okuma **yerel olarak, root aracılığıyla** gerçekleşir ve cihazda kalır.
 

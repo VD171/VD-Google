@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet dan atestasi Play Integrity, dibaca di perangkat.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet dan atestasi Play Integrity, dibaca di perangkat.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Setiap rilis hadir dalam dua bentuk, dan keduanya membaca hal yang sama di perangkat Anda, tanpa internet:
 
-- **App** - berkas `.apk`, aplikasi Android biasa.
-- **WebUI** - berkas `.zip`, modul yang Anda pasang di pengelola root (KernelSU, Magisk, atau APatch) dan buka dari sana.
+- **App**: berkas `.apk`, aplikasi Android biasa.
+- **WebUI**: berkas `.zip`, modul yang Anda pasang di pengelola root (KernelSU, Magisk, atau APatch) dan buka dari sana.
 
 Keduanya memerlukan root.
 
@@ -102,6 +102,7 @@ Proyek saudara dari penulis yang sama:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metode perangkat yang membaca setiap item melalui setiap metode yang dapat membacanya dan membandingkannya secara berdampingan.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: pencadangan dan pemulihan penuh aplikasi dan data sebagai root, dijalankan sepenuhnya dari WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: pengusur (spoofer) perangkat yang mengubah fingerprint baru menjadi profil yang koheren dan konsisten.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: daemon SSH mandiri yang berjalan sebagai root (Dropbear).
 
 ## Kontak
 
@@ -117,7 +118,7 @@ Proyek saudara dari penulis yang sama:
 
 ## Lisensi
 
-**GNU AGPL-3.0-or-later** - lihat [LICENSE](LICENSE). Copyleft, termasuk klausul jaringan: siapa pun yang menjalankan versi modifikasi (bahkan sebagai layanan) harus menyediakan kode sumbernya. Dipilih dengan sengaja agar fork tetap terbuka.
+**GNU AGPL-3.0-or-later**: lihat [LICENSE](LICENSE). Copyleft, termasuk klausul jaringan: siapa pun yang menjalankan versi modifikasi (bahkan sebagai layanan) harus menyediakan kode sumbernya. Dipilih dengan sengaja agar fork tetap terbuka.
 
 ## Merek dagang
 

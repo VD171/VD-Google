@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet i atestacje Play Integrity, odczytane na urządzeniu.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet i atestacje Play Integrity, odczytane na urządzeniu.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Każde wydanie jest dostępne w dwóch postaciach, a obie odczytują te same informacje na Twoim urządzeniu, bez internetu:
 
-- **App** - plik `.apk`, zwykła aplikacja na Androida.
-- **WebUI** - plik `.zip`, moduł, który instalujesz w menedżerze roota (KernelSU, Magisk lub APatch) i stamtąd otwierasz.
+- **App**: plik `.apk`, zwykła aplikacja na Androida.
+- **WebUI**: plik `.zip`, moduł, który instalujesz w menedżerze roota (KernelSU, Magisk lub APatch) i stamtąd otwierasz.
 
 W obu przypadkach wymagany jest root.
 
@@ -102,6 +102,7 @@ Projekty siostrzane tego samego autora:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: debuger metod urządzenia, który odczytuje każdą pozycję każdą metodą zdolną ją odczytać i porównuje je obok siebie.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: pełna kopia zapasowa i przywracanie aplikacji oraz danych jako root, sterowane w całości z WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: spoofer urządzenia, który zamienia świeży fingerprint w spójny, zgodny profil.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: samodzielny demon SSH działający z uprawnieniami roota (Dropbear).
 
 ## Kontakty
 
@@ -117,7 +118,7 @@ Projekty siostrzane tego samego autora:
 
 ## Licencja
 
-**GNU AGPL-3.0-or-later** - zobacz [LICENSE](LICENSE). Copyleft, w tym klauzula sieciowa: kto uruchamia zmodyfikowaną wersję (nawet jako usługę), musi udostępnić jej kod źródłowy. Wybrana celowo, aby forki pozostały otwarte.
+**GNU AGPL-3.0-or-later**: zobacz [LICENSE](LICENSE). Copyleft, w tym klauzula sieciowa: kto uruchamia zmodyfikowaną wersję (nawet jako usługę), musi udostępnić jej kod źródłowy. Wybrana celowo, aby forki pozostały otwarte.
 
 ## Znaki towarowe
 

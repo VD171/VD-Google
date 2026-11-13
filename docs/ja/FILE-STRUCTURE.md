@@ -39,7 +39,7 @@ VD-Google/
 
 ## 何がどこにあるか
 
-- **リーダー** - VD Google が何を読み、どう読むか - は、`VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/`
+- **リーダー**: VD Google が何を読み、どう読むかは、`VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/`
   （アプリ）と `VDGoogle/webui/webroot/scripts.js`（WebUI）の中にだけ存在します。両者は
   互いを正確に鏡写しにしています。
 - **文字列**は、21 言語におけるすべてのラベルの単一の源です。アプリは `res/values*/strings.xml`
@@ -58,10 +58,10 @@ release ビルドは APK と WebUI の ZIP を生成します。ビルド成果�
 
 デバイス上では、WebUI モジュールはその状態を `/data/adb/vdgoogle/` 以下に保持します:
 
-- `scratch/` - データベースの短命なコピー。クエリが生きたファイルに決して触れないよう、脇に
+- `scratch/`: データベースの短命なコピー。クエリが生きたファイルに決して触れないよう、脇に
   取られます。各読み取りは自分のコピーを削除し、中断された実行による残留物は次に WebUI が
   開くときにすべてクリアされます。ここには何も保持されません。
-- `actions.jsonl` - 状態を変更するアクション（Google Wallet のキャッシュ消去）のローカル
+- `actions.jsonl`: 状態を変更するアクション（Google Wallet のキャッシュ消去）のローカル
   ログ。それぞれ 1 行の JSON で、最新の 200 エントリに制限されます。決してデバイスから
   出ていきません。
 

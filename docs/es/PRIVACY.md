@@ -4,13 +4,13 @@
 
 # Privacidad
 
-La privacidad no es una función de VD Google - es el objetivo entero. Esta página expone exactamente
+La privacidad no es una función de VD Google: es el objetivo entero. Esta página expone exactamente
 qué hace y qué no hace la app con tus datos, en términos claros que puedes verificar.
 
 ## La promesa
 
 - **No se otorga ningún permiso de internet.** El manifiesto de la app no declara ningún permiso en
-  absoluto - ni internet, ni almacenamiento, ni contactos, nada. No hay nada que permitir.
+  absoluto: ni internet, ni almacenamiento, ni contactos, nada. No hay nada que permitir.
 - **Nada se almacena, envía ni transmite** a ningún archivo o servidor fuera de tu dispositivo.
 - Cada lectura ocurre **localmente, a través de root**, y permanece en el dispositivo.
 

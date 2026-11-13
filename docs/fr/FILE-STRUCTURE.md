@@ -39,7 +39,7 @@ VD-Google/
 
 ## Où les choses se trouvent
 
-- **Les lecteurs** - ce que lit VD Google et la façon dont il le lit - vivent uniquement dans `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (l'application) et `VDGoogle/webui/webroot/scripts.js` (la WebUI). Les deux se reflètent exactement l'un l'autre.
+- **Les lecteurs**: ce que lit VD Google et la façon dont il le lit, vivent uniquement dans `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (l'application) et `VDGoogle/webui/webroot/scripts.js` (la WebUI). Les deux se reflètent exactement l'un l'autre.
 - **Les chaînes** sont la source unique de chaque libellé, en 21 langues : l'application sous `res/values*/strings.xml`, la WebUI sous `webroot/lang/`. Un libellé n'est jamais écrit deux fois.
 - **La documentation** vit dans `docs/`. Elle est la source de vérité du wiki du projet ; le wiki en est généré (voir `tools/` et `.github/scripts/gen_wiki.sh`).
 - **L'outil embarqué** (`sqlite3`) vit dans `assets/bin/` pour l'application et `bin/` pour le module, et est documenté dans [Binaires embarqués](BINARIES.md).
@@ -52,8 +52,8 @@ Les compilations en release produisent l'APK et le ZIP de la WebUI. Les artefact
 
 Sur l'appareil, le module WebUI conserve son état sous `/data/adb/vdgoogle/` :
 
-- `scratch/` - des copies éphémères d'une base de données, prises à part afin qu'une requête ne touche jamais au fichier actif. Chaque lecture supprime ses propres copies, et tout reliquat d'une exécution interrompue est effacé à la prochaine ouverture de la WebUI. Rien ici n'est conservé.
-- `actions.jsonl` - le journal local des actions qui modifient l'état (l'effacement du cache de Google Wallet), une ligne JSON chacune, plafonné aux 200 dernières entrées. Il ne quitte jamais l'appareil.
+- `scratch/`: des copies éphémères d'une base de données, prises à part afin qu'une requête ne touche jamais au fichier actif. Chaque lecture supprime ses propres copies, et tout reliquat d'une exécution interrompue est effacé à la prochaine ouverture de la WebUI. Rien ici n'est conservé.
+- `actions.jsonl`: le journal local des actions qui modifient l'état (l'effacement du cache de Google Wallet), une ligne JSON chacune, plafonné aux 200 dernières entrées. Il ne quitte jamais l'appareil.
 
 L'application conserve plutôt les mêmes copies éphémères dans son propre cache privé, et écrit son journal d'actions à l'intérieur de son propre répertoire de fichiers privés.
 

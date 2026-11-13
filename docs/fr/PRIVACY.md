@@ -4,11 +4,11 @@
 
 # Confidentialité
 
-La confidentialité n'est pas une fonctionnalité de VD Google - c'est toute sa raison d'être. Cette page énonce exactement ce que l'application fait et ne fait pas de vos données, en termes clairs que vous pouvez vérifier.
+La confidentialité n'est pas une fonctionnalité de VD Google: c'est toute sa raison d'être. Cette page énonce exactement ce que l'application fait et ne fait pas de vos données, en termes clairs que vous pouvez vérifier.
 
 ## La promesse
 
-- **Aucune permission internet n'est accordée.** Le manifeste de l'application ne déclare aucune permission - ni internet, ni stockage, ni contacts, rien. Il n'y a rien à autoriser.
+- **Aucune permission internet n'est accordée.** Le manifeste de l'application ne déclare aucune permission: ni internet, ni stockage, ni contacts, rien. Il n'y a rien à autoriser.
 - **Rien n'est stocké, envoyé ou transmis** vers un fichier ou un serveur en dehors de votre appareil.
 - Chaque lecture se produit **localement, via le root**, et reste sur l'appareil.
 

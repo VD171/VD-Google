@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet a atestace Play Integrity, čtené v zařízení.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet a atestace Play Integrity, čtené v zařízení.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Každé vydání je dostupné ve dvou podobách a obě čtou totéž ve vašem zařízení, bez internetu:
 
-- **App** - soubor `.apk`, běžná aplikace pro Android.
-- **WebUI** - soubor `.zip`, modul, který nainstalujete ve svém správci rootu (KernelSU, Magisk nebo APatch) a odtud jej otevřete.
+- **App**: soubor `.apk`, běžná aplikace pro Android.
+- **WebUI**: soubor `.zip`, modul, který nainstalujete ve svém správci rootu (KernelSU, Magisk nebo APatch) a odtud jej otevřete.
 
 V obou případech je vyžadován root.
 
@@ -102,6 +102,7 @@ Sesterské projekty téhož autora:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metod zařízení, který čte každou položku všemi metodami, které ji dokážou přečíst, a porovnává je vedle sebe.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: úplné zálohování a obnova aplikací a dat jako root, ovládané zcela z WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: spoofer zařízení, který z nové fingerprint vytvoří soudržný, konzistentní profil.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: samostatný SSH démon běžící pod rootem (Dropbear).
 
 ## Kontakty
 
@@ -117,7 +118,7 @@ Sesterské projekty téhož autora:
 
 ## Licence
 
-**GNU AGPL-3.0-or-later** - viz [LICENSE](LICENSE). Copyleft včetně síťové klauzule: kdo provozuje upravenou verzi (i jako službu), musí nabídnout její zdrojový kód. Zvoleno záměrně, aby forky zůstaly otevřené.
+**GNU AGPL-3.0-or-later**: viz [LICENSE](LICENSE). Copyleft včetně síťové klauzule: kdo provozuje upravenou verzi (i jako službu), musí nabídnout její zdrojový kód. Zvoleno záměrně, aby forky zůstaly otevřené.
 
 ## Ochranné známky
 

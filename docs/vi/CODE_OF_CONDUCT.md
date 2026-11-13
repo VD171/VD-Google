@@ -9,7 +9,7 @@
 Với tư cách là thành viên, người đóng góp và người bảo trì, chúng tôi cam kết làm cho việc
 tham gia cộng đồng VD Google trở thành một trải nghiệm không có quấy rối cho tất cả mọi
 người, bất kể tuổi tác, vóc dáng, khuyết tật hữu hình hay vô hình, sắc tộc, đặc điểm giới
-tính, bản dạng và biểu hiện giới, trình độ kinh nghiệm, học vấn, địa vị kinh tế - xã hội,
+tính, bản dạng và biểu hiện giới, trình độ kinh nghiệm, học vấn, địa vị kinh tế-xã hội,
 quốc tịch, ngoại hình, chủng tộc, tôn giáo, hoặc bản dạng và xu hướng tính dục.
 
 ## Tiêu chuẩn của chúng tôi

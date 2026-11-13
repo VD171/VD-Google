@@ -39,7 +39,7 @@ VD-Google/
 
 ## Di mana segala sesuatu berada
 
-- **Para pembaca (readers)** - apa yang dibaca VD Google dan bagaimana ia membacanya - hanya berada di `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (aplikasi) dan `VDGoogle/webui/webroot/scripts.js` (WebUI). Keduanya saling mencerminkan dengan persis.
+- **Para pembaca (readers)**: apa yang dibaca VD Google dan bagaimana ia membacanya, hanya berada di `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (aplikasi) dan `VDGoogle/webui/webroot/scripts.js` (WebUI). Keduanya saling mencerminkan dengan persis.
 - **String** adalah satu-satunya sumber setiap label, dalam 21 bahasa: aplikasi di bawah `res/values*/strings.xml`, WebUI di bawah `webroot/lang/`. Sebuah label tidak pernah ditulis dua kali.
 - **Dokumentasi** berada di `docs/`. Ia adalah sumber kebenaran untuk wiki proyek; wiki dihasilkan darinya (lihat `tools/` dan `.github/scripts/gen_wiki.sh`).
 - **Alat yang disertakan** (`sqlite3`) berada di `assets/bin/` untuk aplikasi dan `bin/` untuk modul, dan didokumentasikan di [Biner yang disertakan](BINARIES.md).
@@ -52,8 +52,8 @@ Build release menghasilkan APK dan ZIP WebUI. Artefak build tidak di-commit. Lih
 
 Di perangkat, modul WebUI menyimpan statusnya di bawah `/data/adb/vdgoogle/`:
 
-- `scratch/` - salinan berumur-pendek dari sebuah basis data, diambil ke samping agar sebuah kueri tidak pernah menyentuh berkas langsung. Setiap pembacaan menghapus salinannya sendiri, dan sisa apa pun dari proses yang terhenti akan dibersihkan pada kali berikutnya WebUI dibuka. Tidak ada yang disimpan di sini.
-- `actions.jsonl` - log lokal tindakan yang mengubah status (penghapusan cache Google Wallet), masing-masing satu baris JSON, dibatasi hingga 200 entri terakhir. Ia tidak pernah meninggalkan perangkat.
+- `scratch/`: salinan berumur-pendek dari sebuah basis data, diambil ke samping agar sebuah kueri tidak pernah menyentuh berkas langsung. Setiap pembacaan menghapus salinannya sendiri, dan sisa apa pun dari proses yang terhenti akan dibersihkan pada kali berikutnya WebUI dibuka. Tidak ada yang disimpan di sini.
+- `actions.jsonl`: log lokal tindakan yang mengubah status (penghapusan cache Google Wallet), masing-masing satu baris JSON, dibatasi hingga 200 entri terakhir. Ia tidak pernah meninggalkan perangkat.
 
 Sebagai gantinya, aplikasi menyimpan salinan scratch berumur-pendek yang sama di cache privatnya sendiri, dan menulis log tindakannya di dalam direktori berkas privatnya sendiri.
 

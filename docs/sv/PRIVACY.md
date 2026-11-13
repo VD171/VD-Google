@@ -4,12 +4,12 @@
 
 # Integritet
 
-Integritet är inte en funktion i VD Google - det är hela poängen. Den här sidan anger exakt
+Integritet är inte en funktion i VD Google: det är hela poängen. Den här sidan anger exakt
 vad appen gör och inte gör med dina data, i klara ordalag som du kan verifiera.
 
 ## Löftet
 
-- **Ingen internetbehörighet ges.** Appens manifest deklarerar inga behörigheter alls -
+- **Ingen internetbehörighet ges.** Appens manifest deklarerar inga behörigheter alls:
   inte internet, inte lagring, inte kontakter, ingenting. Det finns inget att tillåta.
 - **Ingenting lagras, skickas eller överförs** till någon fil eller server utanför din
   enhet.

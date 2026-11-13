@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet en Play Integrity-attestaties, gelezen op het toestel.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet en Play Integrity-attestaties, gelezen op het toestel.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Elke release komt in twee vormen, en beide lezen dezelfde dingen op je apparaat, zonder internet:
 
-- **App** - de `.apk`, een gewone Android-app.
-- **WebUI** - de `.zip`, een module die je in je root-manager (KernelSU, Magisk of APatch) flasht en daar opent.
+- **App**: de `.apk`, een gewone Android-app.
+- **WebUI**: de `.zip`, een module die je in je root-manager (KernelSU, Magisk of APatch) flasht en daar opent.
 
 In beide gevallen is root vereist.
 
@@ -102,6 +102,7 @@ Zusterprojecten van dezelfde auteur:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: een methode-debugger die elk item leest via elke methode die het kan lezen en ze naast elkaar vergelijkt.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: volledige back-up en herstel van apps en gegevens als root, volledig aangestuurd vanuit een WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: een apparaatspoofer die een nieuwe fingerprint omzet in een coherent, consistent profiel.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: een standalone SSH-daemon (Dropbear) met root.
 
 ## Contacten
 
@@ -117,7 +118,7 @@ Zusterprojecten van dezelfde auteur:
 
 ## Licentie
 
-**GNU AGPL-3.0-or-later** - zie [LICENSE](LICENSE). Copyleft, inclusief de netwerkclausule: wie een gewijzigde versie draait (ook als dienst) moet de broncode aanbieden. Bewust gekozen om forks open te houden.
+**GNU AGPL-3.0-or-later**: zie [LICENSE](LICENSE). Copyleft, inclusief de netwerkclausule: wie een gewijzigde versie draait (ook als dienst) moet de broncode aanbieden. Bewust gekozen om forks open te houden.
 
 ## Handelsmerken
 

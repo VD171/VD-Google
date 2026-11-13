@@ -1,6 +1,6 @@
 <!--
-  VD GOOGLE - RCS, Google Wallet y atestaciones de Play Integrity, leídos en el dispositivo.
-  Copyright (C) 2026  VD171 - SPDX-License-Identifier: AGPL-3.0-or-later
+  VD GOOGLE: RCS, Google Wallet y atestaciones de Play Integrity, leídos en el dispositivo.
+  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 # VD Google
@@ -49,8 +49,8 @@
 
 Cada versión viene de dos formas, y ambas leen lo mismo en tu dispositivo, sin internet:
 
-- **App** - el `.apk`, una aplicación de Android normal.
-- **WebUI** - el `.zip`, un módulo que instalas en tu gestor de root (KernelSU, Magisk o APatch) y abres desde ahí.
+- **App**: el `.apk`, una aplicación de Android normal.
+- **WebUI**: el `.zip`, un módulo que instalas en tu gestor de root (KernelSU, Magisk o APatch) y abres desde ahí.
 
 En cualquier caso, se requiere root.
 
@@ -102,6 +102,7 @@ Proyectos hermanos del mismo autor:
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: un depurador de métodos del dispositivo que lee cada dato con todos los métodos que pueden leerlo y los compara lado a lado.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: copia de seguridad y restauración completas de apps y datos como root, gestionadas por completo desde una WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: un spoofer de dispositivo que convierte una huella nueva en un perfil coherente y consistente.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: un demonio SSH autónomo con root (Dropbear).
 
 ## Contactos
 
@@ -117,7 +118,7 @@ Proyectos hermanos del mismo autor:
 
 ## Licencia
 
-**GNU AGPL-3.0-or-later** - consulta [LICENSE](LICENSE). Copyleft, incluida la cláusula de red: quien ejecute una versión modificada (incluso como servicio) debe ofrecer su código fuente. Elegida a propósito para mantener los forks abiertos.
+**GNU AGPL-3.0-or-later**: consulta [LICENSE](LICENSE). Copyleft, incluida la cláusula de red: quien ejecute una versión modificada (incluso como servicio) debe ofrecer su código fuente. Elegida a propósito para mantener los forks abiertos.
 
 ## Marcas comerciales
 

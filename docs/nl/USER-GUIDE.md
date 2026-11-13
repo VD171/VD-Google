@@ -33,11 +33,11 @@ vraagt.
 VD Google is een lezer. Het kijkt naar wat Googles eigen apps al op je toestel opslaan over
 drie dingen, en het legt elk ervan uit zodat je het echt begrijpt:
 
-- **RCS** - of moderne chat echt werkt op je lijn, met wie je kunt chatten, en of Gemini in
+- **RCS**: of moderne chat echt werkt op je lijn, met wie je kunt chatten, en of Gemini in
   Google Messages klaar is.
-- **Google Wallet** - of je toestel is ingesteld en geattesteerd voor contactloze
+- **Google Wallet**: of je toestel is ingesteld en geattesteerd voor contactloze
   betalingen.
-- **Play Integrity-attestaties** - welke apps Android hebben gevraagd te bewijzen dat je
+- **Play Integrity-attestaties**: welke apps Android hebben gevraagd te bewijzen dat je
   toestel echt is, en of Google het momenteel certificeert.
 
 Alles wordt lokaal gelezen, via root, en getoond met een uitleg. Geen enkele waarde wordt
@@ -106,57 +106,57 @@ is het hele punt van de app.
 Dit is het rijkste tabblad. Tijdstempels worden altijd getoond in de tijdzone van je
 toestel, met de zone gelabeld.
 
-- **Connection** - de ene regel die de waarheid vertelt. Ze wordt berekend uit de echte
+- **Connection**: de ene regel die de waarheid vertelt. Ze wordt berekend uit de echte
   chatconfiguratie en de provisioning-engine, dus ze zegt Connected wanneer RCS werkelijk
   werkt op je lijn, zelfs op nieuwere Android waar de oudere vlaggen liegen. **Vertrouw bij
   twijfel op deze regel.**
-- **Carrier** - de mobiele provider voor je lijn (naam en MCC/MNC), genomen van je data-SIM
+- **Carrier**: de mobiele provider voor je lijn (naam en MCC/MNC), genomen van je data-SIM
   op dual-SIM-telefoons.
-- **Availability flag (cached)** - een gecachete vlag die de berichten-app bijhoudt voor je
+- **Availability flag (cached)**: een gecachete vlag die de berichten-app bijhoudt voor je
   eigen nummer. Ze kan verouderd blijven nadat RCS al werkt, dus een "No" hier betekent niet
   dat RCS uit staat. Vertrouw op de Connection-regel hierboven.
-- **Your RCS number** - het voor RCS geregistreerde nummer, standaard gemaskeerd. Tik op het
+- **Your RCS number**: het voor RCS geregistreerde nummer, standaard gemaskeerd. Tik op het
   oog om het te onthullen.
-- **Provisioning state (cached)** en **Configuration version** - interne waarden die de
+- **Provisioning state (cached)** en **Configuration version**: interne waarden die de
   berichten-app bijhoudt. Ze kunnen 0 lezen terwijl RCS werkt. Zie de opmerking over
   provider versus Googles backend hieronder.
-- **RCS-capable contacts** - hoeveel van je contacten momenteel bekend zijn als
+- **RCS-capable contacts**: hoeveel van je contacten momenteel bekend zijn als
   ondersteunend voor RCS-chat.
-- **Feature flag (cached)** - of de berichten-app de RCS-functie heeft ingeschakeld;
+- **Feature flag (cached)**: of de berichten-app de RCS-functie heeft ingeschakeld;
   gecachet, dus kan achterlopen.
-- **Carrier entitlement**, **Presence (UCE)**, **IMS service present** - deze beschrijven het
+- **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: deze beschrijven het
   RCS-pad van de *provider* (het IMS-netwerk van de operator). Een "No" of "0" hier is normaal
   wanneer je RCS via Googles eigen backend loopt in plaats van via je provider. Zie hieronder.
-- **Gemini** - of Gemini in Google Messages klaar is: **Magic Compose** (Gemini's schrijfhulp),
+- **Gemini**: of Gemini in Google Messages klaar is: **Magic Compose** (Gemini's schrijfhulp),
   **AICore** (de on-device engine die Gemini Nano draait), en **Gemini chat**, die over RCS
   wordt geleverd en dus RCS verbonden nodig heeft.
-- **Timestamps** - provisioning, synchronisatie, laatste bericht, tokenvervaldatum en meer.
+- **Timestamps**: provisioning, synchronisatie, laatste bericht, tokenvervaldatum en meer.
 
 **Provider-RCS versus Googles backend.** Er zijn twee manieren waarop RCS je telefoon
 bereikt. Eén is de RCS van je *provider* over hun IMS-netwerk; de andere is *Googles eigen
 backend* (Jibe), die over-the-top werkt, onafhankelijk van de provider. Als je RCS via Googles
-backend loopt - zoals bij de meeste mensen - dan zijn de provider-zijde regels (carrier
+backend loopt, zoals bij de meeste mensen, dan zijn de provider-zijde regels (carrier
 entitlement, presence/UCE, IMS service, configuration version) oprecht "No" of "0", en dat is
 correct, geen verouderde cache. Je RCS kan op deze manier jarenlang hebben gewerkt. De
 Connection-regel is wat je vertelt dat het werkt.
 
 ### 6.3 Wallet
 
-- **Device attested** - of Google dit toestel echt en veilig genoeg oordeelde om
+- **Device attested**: of Google dit toestel echt en veilig genoeg oordeelde om
   betaalkaarten te bevatten. Het is het laatste resultaat dat Google op dit toestel heeft
   opgeslagen, dus het kan achterlopen op de Wallet-app totdat Google opnieuw controleert. Als
   het opgeslagen resultaat ontbreekt, toont VD Google **Unknown** in plaats van een misleidend
   "No".
-- **Last checked** - wanneer die beveiligingscontrole als laatste werd voltooid.
+- **Last checked**: wanneer die beveiligingscontrole als laatste werd voltooid.
 - **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**,
-  **Screen lock accepted**, **Card ever added** - de onderdelen die contactloos betalen
+  **Screen lock accepted**, **Card ever added**: de onderdelen die contactloos betalen
   mogelijk maken.
 
 ### 6.4 DroidGuard
 
-- **Play Protect certified** - of Google Play je toestel als gecertificeerd herkent (de
+- **Play Protect certified**: of Google Play je toestel als gecertificeerd herkent (de
   certificering die in de Play Store wordt getoond).
-- **Attestation cache** - de Play Integrity- en DroidGuard-attestaties die je toestel heeft
+- **Attestation cache**: de Play Integrity- en DroidGuard-attestaties die je toestel heeft
   gecachet, elk met wanneer ze vervallen.
 
 ### 6.5 Attestaties
@@ -169,7 +169,7 @@ controleert of niet. Gebruik het zoekvak om te filteren op app-naam of pakket.
 
 Het downloadicoon schrijft een **JSON**-rapport met je toestel-, RCS-, Wallet- en
 attestatiestatus. Je kunt het delen of als bestand opslaan. Het rapport bevat **geen
-telefoonnummer, geen inloggegevens en geen persoonlijke inhoud** - het wordt opgeschoond
+telefoonnummer, geen inloggegevens en geen persoonlijke inhoud**: het wordt opgeschoond
 voordat het wordt geschreven. Het bevat ook een optionele **diagnostiek**-sectie (schemanamen,
 aantallen en versies, nooit je gegevens) die helpt bij het oplossen van toestelspecifieke
 problemen. De app en de WebUI schrijven hetzelfde rapport.
@@ -194,7 +194,7 @@ eigen backend loopt, niet via je provider. De provider-zijde regels zijn correct
 [6.2 RCS](#62-rcs).
 
 **Device attested zegt Unknown.** Het gecachete Wallet-resultaat ontbreekt op je toestel. Dat
-is eerlijk - VD Google toont geen "No" die het niet kan staven.
+is eerlijk: VD Google toont geen "No" die het niet kan staven.
 
 **Waar is mijn Play Integrity-oordeel?** Het staat niet op je toestel. Zie [2. Wat het niet
 is](#2-wat-het-niet-is).

@@ -5,7 +5,7 @@
 # Architektura
 
 Jak je VD Google postaven a proč. Tato stránka vysvětluje návrh a jeho principy.
-Neuvádí přesné soubory, tabulky ani dotazy, které používá každá čtečka - to zůstává
+Neuvádí přesné soubory, tabulky ani dotazy, které používá každá čtečka: to zůstává
 záměrně pouze ve zdrojovém kódu, aby se aplikace ani dokumentace nikdy nezvrhly v návod
 pro někoho, kdo chce stejné hodnoty zfalšovat.
 
@@ -16,7 +16,7 @@ pro někoho, kdo chce stejné hodnoty zfalšovat.
 2. **Nulová síť.** Aplikace nedeklaruje vůbec žádná oprávnění; WebUI blokuje každý
    vzdálený původ. Nikam se nikdy nic neodesílá.
 3. **Jedno chování, dvě tváře.** Aplikace a modul WebUI jsou udržovány naprosto
-   identické - stejné signály, stejné znění, stejný exportovaný report.
+   identické: stejné signály, stejné znění, stejný exportovaný report.
 4. **Raději upřímné než lichotivé.** Skutečné záporné zjištění je zobrazeno jako záporné;
    zastaralá mezipaměť je označena jako uložená v mezipaměti; chybějící hodnota je
    Neznámé. Detekce se nikdy nezměkčuje, aby vypadala hezčeji.

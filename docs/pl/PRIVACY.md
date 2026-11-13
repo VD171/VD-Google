@@ -4,14 +4,14 @@
 
 # Prywatność
 
-Prywatność nie jest funkcją VD Google - jest całym jego sensem. Ta strona dokładnie
+Prywatność nie jest funkcją VD Google. Jest całym jego sensem. Ta strona dokładnie
 określa, co aplikacja robi, a czego nie robi z twoimi danymi, w prostych słowach, które
 możesz zweryfikować.
 
 ## Obietnica
 
 - **Nie jest przyznawane żadne uprawnienie internetowe.** Manifest aplikacji nie deklaruje
-  żadnych uprawnień - ani internetu, ani pamięci, ani kontaktów, niczego. Nie ma czego
+  żadnych uprawnień: ani internetu, ani pamięci, ani kontaktów, niczego. Nie ma czego
   zezwalać.
 - **Nic nie jest przechowywane, wysyłane ani przesyłane** do żadnego pliku czy serwera
   poza twoim urządzeniem.

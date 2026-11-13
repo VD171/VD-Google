@@ -4,13 +4,13 @@
 
 # Privatsphäre
 
-Privatsphäre ist kein Feature von VD Google - sie ist der ganze Sinn. Diese Seite erklärt genau, was
+Privatsphäre ist kein Feature von VD Google: Sie ist der ganze Sinn. Diese Seite erklärt genau, was
 die App mit deinen Daten tut und was nicht, in klaren Worten, die du überprüfen kannst.
 
 ## Das Versprechen
 
 - **Keine Internetberechtigung wird erteilt.** Das Manifest der App deklariert überhaupt keine
-  Berechtigungen - kein Internet, keinen Speicher, keine Kontakte, nichts. Es gibt nichts zu
+  Berechtigungen: kein Internet, keinen Speicher, keine Kontakte, nichts. Es gibt nichts zu
   erlauben.
 - **Nichts wird gespeichert, gesendet oder übertragen** an irgendeine Datei oder einen Server
   außerhalb deines Geräts.

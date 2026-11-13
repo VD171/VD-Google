@@ -1,7 +1,7 @@
 #!/system/bin/sh
 # ======================================================================
 #  VD GOOGLE  ::  your Google services, read on-device
-#  RCS, Google Wallet and Play Integrity attestations - local, no internet.
+#  RCS, Google Wallet and Play Integrity attestations: local, no internet.
 #
 #  Copyright (C) 2026  VD171
 #  SPDX-License-Identifier: AGPL-3.0-or-later

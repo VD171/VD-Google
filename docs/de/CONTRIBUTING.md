@@ -31,7 +31,7 @@ und übersetze niemals maschinell einen technischen Begriff, bei dem du dir unsi
 
 ## Einen Fehler melden
 
-Eröffne ein Issue mit deinem Gerätemodell, deiner Android-Version und - wenn es um eine Lesung geht -
+Eröffne ein Issue mit deinem Gerätemodell, deiner Android-Version und, wenn es um eine Lesung geht,
 einem **Export** (er enthält keine persönlichen Daten). Der Diagnoseabschnitt des Exports ist genau
 dafür gebaut.
 

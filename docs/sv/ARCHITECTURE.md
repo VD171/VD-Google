@@ -5,7 +5,7 @@
 # Arkitektur
 
 Hur VD Google är byggt och varför. Den här sidan förklarar designen och principerna. Den
-listar inte de exakta filer, tabeller eller frågor som varje läsare använder - det lever
+listar inte de exakta filer, tabeller eller frågor som varje läsare använder. Det lever
 bara i källkoden, avsiktligt, så att appen och dokumentationen aldrig kan glida in i en
 bruksanvisning för någon som vill förfalska samma värden.
 
@@ -15,7 +15,7 @@ bruksanvisning för någon som vill förfalska samma värden.
    och hitta aldrig på ett värde. När enheten inte har något svar, säg Okänt.
 2. **Noll nätverk.** Appen deklarerar inga behörigheter alls; WebUI blockerar varje
    fjärrursprung. Ingenting skickas någonstans, någonsin.
-3. **Ett beteende, två ansikten.** Appen och WebUI-modulen hålls absolut identiska - samma
+3. **Ett beteende, två ansikten.** Appen och WebUI-modulen hålls absolut identiska: samma
    signaler, samma formuleringar, samma exporterade rapport.
 4. **Ärlig framför smickrande.** Ett verkligt negativt resultat visas som negativt; en
    inaktuell cache märks som cachad; ett saknat värde är Okänt. Detektering mjukas aldrig
@@ -65,7 +65,7 @@ Exporten är en sanerad JSON-ögonblicksbild. En sanerare körs innan något skr
 släpper nycklar och värden som ser ut som autentiseringsuppgifter, redigerar bort långa
 sifferföljder och lämnar aldrig ut ditt telefonnummer, meddelandeinnehåll, kontaktnamn
 eller råa kapacitetsblobbar. Det valfria diagnostikavsnittet bär endast schemanamn,
-antal, storlekar och versioner - och även där kollapsas varje per-identitet-fingeravtryck
+antal, storlekar och versioner, och även där kollapsas varje per-identitet-fingeravtryck
 inbäddat i ett namn bort. Appen och WebUI producerar samma schema.
 
 ## Vad VD Google aldrig gör

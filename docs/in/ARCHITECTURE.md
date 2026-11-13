@@ -4,13 +4,13 @@
 
 # Arsitektur
 
-Bagaimana VD Google dibangun dan mengapa. Halaman ini menjelaskan desain dan prinsipnya. Halaman ini tidak mencantumkan berkas, tabel, atau kueri persis yang digunakan setiap pembaca - itu hanya tersimpan di dalam sumber, memang disengaja, agar aplikasi dan dokumentasi tidak pernah melenceng menjadi panduan praktis bagi seseorang yang ingin memalsukan nilai-nilai yang sama.
+Bagaimana VD Google dibangun dan mengapa. Halaman ini menjelaskan desain dan prinsipnya. Halaman ini tidak mencantumkan berkas, tabel, atau kueri persis yang digunakan setiap pembaca: itu hanya tersimpan di dalam sumber, memang disengaja, agar aplikasi dan dokumentasi tidak pernah melenceng menjadi panduan praktis bagi seseorang yang ingin memalsukan nilai-nilai yang sama.
 
 ## Tujuan desain
 
 1. **Baca kebenaran.** Tampilkan apa yang sudah direkam oleh aplikasi Google sendiri, jelaskan, dan jangan pernah mengarang suatu nilai. Ketika perangkat tidak menyimpan jawaban, katakan Unknown.
 2. **Nol jaringan.** Aplikasi tidak mendeklarasikan izin apa pun; WebUI memblokir setiap origin jarak jauh. Tidak ada yang pernah dikirim ke mana pun, selamanya.
-3. **Satu perilaku, dua wajah.** Aplikasi dan modul WebUI dijaga benar-benar identik - sinyal yang sama, kata-kata yang sama, laporan ekspor yang sama.
+3. **Satu perilaku, dua wajah.** Aplikasi dan modul WebUI dijaga benar-benar identik: sinyal yang sama, kata-kata yang sama, laporan ekspor yang sama.
 4. **Jujur di atas menyenangkan.** Nilai negatif yang nyata ditampilkan sebagai negatif; cache usang diberi label sebagai tersimpan; nilai yang hilang adalah Unknown. Deteksi tidak pernah diperhalus agar terlihat lebih baik.
 
 ## Dua wajah
@@ -32,7 +32,7 @@ Bagian tersulit dalam membaca RCS secara jujur adalah bahwa flag yang tampak jel
 
 ## Ekspor
 
-Ekspor adalah snapshot JSON yang telah dibersihkan. Sebuah penyanitasi berjalan sebelum apa pun ditulis: ia membuang kunci dan nilai yang tampak seperti kredensial, menyunting rangkaian digit panjang, dan tidak pernah memancarkan nomor telepon Anda, isi pesan, nama kontak, atau blob kapabilitas mentah. Bagian diagnostik opsional hanya membawa nama skema, jumlah, ukuran, dan versi - dan bahkan di situ, setiap sidik jari per-identitas yang tertanam dalam sebuah nama diringkas hingga hilang. Aplikasi dan WebUI menghasilkan skema yang sama.
+Ekspor adalah snapshot JSON yang telah dibersihkan. Sebuah penyanitasi berjalan sebelum apa pun ditulis: ia membuang kunci dan nilai yang tampak seperti kredensial, menyunting rangkaian digit panjang, dan tidak pernah memancarkan nomor telepon Anda, isi pesan, nama kontak, atau blob kapabilitas mentah. Bagian diagnostik opsional hanya membawa nama skema, jumlah, ukuran, dan versi; dan bahkan di situ, setiap sidik jari per-identitas yang tertanam dalam sebuah nama diringkas hingga hilang. Aplikasi dan WebUI menghasilkan skema yang sama.
 
 ## Apa yang tidak pernah dilakukan VD Google
 

@@ -4,13 +4,13 @@
 
 # Privacy
 
-Privacy is not a feature of VD Google - it is the whole point. This page states exactly
+Privacy is not a feature of VD Google. It is the whole point. This page states exactly
 what the app does and does not do with your data, in plain terms you can verify.
 
 ## The promise
 
 - **No internet permission is given.** The app's manifest declares no permissions at
-  all - not internet, not storage, not contacts, nothing. There is nothing to allow.
+  all: not internet, not storage, not contacts, nothing. There is nothing to allow.
 - **Nothing is stored, sent or transmitted** to any file or server off your device.
 - Every read happens **locally, through root**, and stays on the device.
 

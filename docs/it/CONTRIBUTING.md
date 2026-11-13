@@ -32,8 +32,8 @@ il tono esistente e non tradurre mai automaticamente un termine tecnico di cui n
 
 ## Segnalare un bug
 
-Apri una issue con il modello del tuo dispositivo, la versione di Android e - se riguarda una
-lettura - un'**esportazione** (non contiene dati personali). La sezione diagnostica
+Apri una issue con il modello del tuo dispositivo, la versione di Android e, se riguarda una
+lettura, un'**esportazione** (non contiene dati personali). La sezione diagnostica
 dell'esportazione è costruita esattamente per questo.
 
 ## Codice

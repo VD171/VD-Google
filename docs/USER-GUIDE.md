@@ -32,11 +32,11 @@ words. It never touches the internet, and it never changes anything unless you a
 VD Google is a reader. It looks at what Google's own apps already store on your device
 about three things, and it explains each one so you actually understand it:
 
-- **RCS** - whether modern chat is really working on your line, who you can chat with,
+- **RCS**: whether modern chat is really working on your line, who you can chat with,
   and whether Gemini in Google Messages is ready.
-- **Google Wallet** - whether your device is set up and attested for contactless
+- **Google Wallet**: whether your device is set up and attested for contactless
   payments.
-- **Play Integrity attestations** - which apps have asked Android to prove your device
+- **Play Integrity attestations**: which apps have asked Android to prove your device
   is genuine, and whether Google currently certifies it.
 
 Everything is read locally, through root, and shown with an explanation. No value is
@@ -103,56 +103,56 @@ once: it is the whole point of the app.
 This is the richest tab. Timestamps are always shown in your device's time zone, with
 the zone labelled.
 
-- **Connection** - the one line that tells the truth. It is computed from the real chat
+- **Connection**: the one line that tells the truth. It is computed from the real chat
   configuration and the provisioning engine, so it says Connected when RCS is actually
   working on your line, even on newer Android where the older flags lie. **When in
   doubt, trust this line.**
-- **Carrier** - the mobile carrier for your line (name and MCC/MNC), taken from your
+- **Carrier**: the mobile carrier for your line (name and MCC/MNC), taken from your
   data SIM on dual-SIM phones.
-- **Availability flag (cached)** - a cached flag the messaging app keeps for your own
+- **Availability flag (cached)**: a cached flag the messaging app keeps for your own
   number. It can stay out of date after RCS is already working, so a "No" here does not
   mean RCS is off. Trust the Connection line above.
-- **Your RCS number** - the number registered for RCS, masked by default. Tap the eye
+- **Your RCS number**: the number registered for RCS, masked by default. Tap the eye
   to reveal it.
-- **Provisioning state (cached)** and **Configuration version** - internal values the
+- **Provisioning state (cached)** and **Configuration version**: internal values the
   messaging app keeps. They can read 0 even while RCS works. See the note on carrier vs
   Google's backend below.
-- **RCS-capable contacts** - how many of your contacts are currently known to support
+- **RCS-capable contacts**: how many of your contacts are currently known to support
   RCS chat.
-- **Feature flag (cached)** - whether the messaging app has the RCS feature switched on;
+- **Feature flag (cached)**: whether the messaging app has the RCS feature switched on;
   cached, so it can lag.
-- **Carrier entitlement**, **Presence (UCE)**, **IMS service present** - these describe
+- **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: these describe
   the *carrier's* RCS path (the operator's IMS network). A "No" or "0" here is normal
   when your RCS runs through Google's own backend instead of your carrier. See below.
-- **Gemini** - whether Gemini in Google Messages is ready: **Magic Compose** (Gemini's
+- **Gemini**: whether Gemini in Google Messages is ready: **Magic Compose** (Gemini's
   writing help), **AICore** (the on-device engine that runs Gemini Nano), and **Gemini
   chat**, which is delivered over RCS and so needs RCS connected.
-- **Timestamps** - provisioning, sync, last message, token expiry and more.
+- **Timestamps**: provisioning, sync, last message, token expiry and more.
 
 **Carrier RCS vs Google's backend.** There are two ways RCS reaches your phone. One is
 your *carrier's* RCS over their IMS network; the other is *Google's own backend* (Jibe),
 which works over the top, independent of the carrier. If your RCS runs through Google's
-backend - as it does for most people - then the carrier-side lines (carrier entitlement,
+backend, as it does for most people, then the carrier-side lines (carrier entitlement,
 presence/UCE, IMS service, configuration version) are genuinely "No" or "0", and that is
 correct, not a stale cache. Your RCS can have worked for years this way. The Connection
 line is what tells you it is working.
 
 ### 6.3 Wallet
 
-- **Device attested** - whether Google judged this device genuine and secure enough to
+- **Device attested**: whether Google judged this device genuine and secure enough to
   hold payment cards. It is the last result Google saved on this device, so it can lag
   the Wallet app until Google re-checks. If the saved result is missing, VD Google shows
   **Unknown** rather than a misleading "No".
-- **Last checked** - when that security check last completed.
+- **Last checked**: when that security check last completed.
 - **NFC hardware**, **Wallet installed**, **Wallet service**, **Tap and pay**,
-  **Screen lock accepted**, **Card ever added** - the pieces that make contactless
+  **Screen lock accepted**, **Card ever added**: the pieces that make contactless
   payment possible.
 
 ### 6.4 DroidGuard
 
-- **Play Protect certified** - whether Google Play recognizes your device as certified
+- **Play Protect certified**: whether Google Play recognizes your device as certified
   (the certification shown in the Play Store).
-- **Attestation cache** - the Play Integrity and DroidGuard attestations your device has
+- **Attestation cache**: the Play Integrity and DroidGuard attestations your device has
   cached, each with when it expires.
 
 ### 6.5 Attestations
@@ -165,7 +165,7 @@ integrity or not. Use the search box to filter by app name or package.
 
 The download icon writes a **JSON** report with your device, RCS, Wallet and attestation
 state. You can share it or save it as a file. The report contains **no phone number, no
-credentials and no personal content** - it is sanitized before it is written. It also
+credentials and no personal content**: it is sanitized before it is written. It also
 includes an optional **diagnostics** section (schema names, counts and versions, never
 your data) that helps troubleshoot device-specific issues. The app and WebUI write the
 same report.
@@ -190,7 +190,7 @@ Google's own backend, not your carrier. The carrier-side lines are correctly neg
 See [6.2 RCS](#62-rcs).
 
 **Device attested says Unknown.** The cached Wallet result is missing on your device.
-That is honest - VD Google will not show a "No" it cannot back up.
+That is honest. VD Google will not show a "No" it cannot back up.
 
 **Where is my Play Integrity verdict?** It is not on your device. See
 [2. What it is not](#2-what-it-is-not).

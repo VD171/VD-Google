@@ -19,7 +19,7 @@ Les traductions sont la contribution la plus facile et la plus précieuse. Le re
 
 ## Signaler un bug
 
-Ouvrez un ticket avec le modèle de votre appareil, la version d'Android, et - s'il s'agit d'une lecture - un **export** (il ne contient aucune donnée personnelle). La section de diagnostics de l'export est faite exactement pour cela.
+Ouvrez un ticket avec le modèle de votre appareil, la version d'Android, et, s'il s'agit d'une lecture, un **export** (il ne contient aucune donnée personnelle). La section de diagnostics de l'export est faite exactement pour cela.
 
 ## Code
 
