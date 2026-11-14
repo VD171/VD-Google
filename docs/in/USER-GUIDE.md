@@ -43,7 +43,7 @@ VD Google juga tidak melakukan spoof, menyembunyikan, atau memalsukan apa pun. I
 ## 3. Persyaratan
 
 - **Android 8.0 (API 26) atau yang lebih baru.**
-- **Root.** Data yang dibaca VD Google berada di area Android yang terlindungi dan hanya-sistem, yang hanya dapat dijangkau dengan root. Solusi root modern apa pun bisa digunakan: KernelSU, KernelSU Next, Magisk, atau APatch.
+- **Root.** Data yang dibaca VD Google berada di area Android yang terlindungi dan hanya-sistem, yang hanya dapat dijangkau dengan root. Solusi root modern apa pun bisa digunakan: KernelSU, KernelSU Next, APatch, atau Magisk.
 - **Tanpa internet.** VD Google tidak mendeklarasikan izin apa pun, jadi tidak ada yang perlu diizinkan dan tidak ada yang perlu diblokir.
 
 ## 4. Aplikasi atau WebUI
@@ -51,7 +51,7 @@ VD Google juga tidak melakukan spoof, menyembunyikan, atau memalsukan apa pun. I
 VD Google hadir dalam dua cara, dan keduanya menampilkan informasi yang persis sama:
 
 - **Aplikasi (APK).** Aplikasi Android biasa yang Anda pasang dan buka. Meminta root pertama kali, seperti aplikasi root mana pun.
-- **Modul WebUI (ZIP).** Flash di pengelola root Anda (KernelSU, Magisk, atau APatch) dan buka dari sana. Tidak ada yang dipasang sebagai aplikasi; ia berjalan di dalam WebUI pengelola root Anda.
+- **Modul WebUI (ZIP).** Flash di pengelola root Anda (KernelSU, APatch, atau Magisk) dan buka dari sana. Tidak ada yang dipasang sebagai aplikasi; ia berjalan di dalam WebUI pengelola root Anda.
 
 Pilih mana pun yang Anda sukai. Layar, kata-kata, dan laporan ekspornya identik di antara keduanya.
 

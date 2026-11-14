@@ -62,7 +62,7 @@ parecer errado para você, o objetivo deste guia é explicar por que a verdade p
 - **Android 8.0 (API 26) ou mais recente.**
 - **Root.** Os dados que o VD Google lê vivem em áreas protegidas, exclusivas do sistema,
   do Android, alcançáveis apenas com root. Qualquer solução de root moderna funciona:
-  KernelSU, KernelSU Next, Magisk ou APatch.
+  KernelSU, KernelSU Next, APatch ou Magisk.
 - **Sem internet.** O VD Google não declara permissão alguma, então não há nada a
   autorizar nem nada a bloquear.
 
@@ -72,8 +72,8 @@ O VD Google é distribuído de duas formas, e elas mostram exatamente as mesmas 
 
 - **O aplicativo (APK).** Um aplicativo Android normal que você instala e abre. Pede root
   na primeira vez, como qualquer aplicativo root.
-- **O módulo WebUI (ZIP).** Instale-o no seu gerenciador de root (KernelSU, Magisk ou
-  APatch) e abra-o de lá. Nada é instalado como aplicativo; ele roda dentro da WebUI do seu
+- **O módulo WebUI (ZIP).** Instale-o no seu gerenciador de root (KernelSU, APatch ou
+  Magisk) e abra-o de lá. Nada é instalado como aplicativo; ele roda dentro da WebUI do seu
   gerenciador de root.
 
 Escolha o que preferir. As telas, a redação e o relatório exportado são idênticos entre os

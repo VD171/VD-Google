@@ -50,7 +50,7 @@
 모든 릴리스는 두 가지 형태로 제공되며, 둘 다 인터넷 없이 기기에서 동일한 정보를 읽습니다.
 
 - **App**: `.apk`, 일반 Android 앱입니다.
-- **WebUI**: `.zip`, 루트 관리자(KernelSU, Magisk 또는 APatch)에 플래시하여 거기서 여는 모듈입니다.
+- **WebUI**: `.zip`, 루트 관리자(KernelSU, APatch 또는 Magisk)에 플래시하여 거기서 여는 모듈입니다.
 
 두 경우 모두 루트가 필요합니다.
 
@@ -106,15 +106,15 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 ## 연락처
 
-* https://vd171.ru
-* https://vd.priv8.ru
-* **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Channel:** @Priv8_VD https://t.me/Priv8_VD
-* **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-* **E-mail:** vd.priv8@pm.me
-* **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-* **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-* **GitHub:** @VD171 https://github.com/VD171
+- https://vd171.ru
+- https://vd.priv8.ru
+- *Telegram:* @VD_Priv8 https://t.me/VD_Priv8
+- *Channel:* @Priv8_VD https://t.me/Priv8_VD
+- *Discord:* @VD.Priv8 https://discord.com/users/1296831918989639721
+- *E-mail:* vd.priv8@pm.me
+- *XDA-Developers:* @VD171 https://xdaforums.com/m/vd171.4699873/
+- *XDA thread:* https://xdaforums.com/t/VD-Google.4803837/
+- *GitHub:* @VD171 https://github.com/VD171
 
 ## 라이선스
 

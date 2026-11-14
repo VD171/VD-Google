@@ -57,8 +57,8 @@ VD Google는 또한 아무것도 스푸핑하거나, 숨기거나, 위조하지 
 
 - **Android 8.0 (API 26) 이상.**
 - **Root.** VD Google가 읽는 데이터는 root로만 접근할 수 있는, 보호된 시스템 전용 Android
-  영역에 있습니다. 모든 최신 root 솔루션이 작동합니다: KernelSU, KernelSU Next, Magisk
-  또는 APatch.
+  영역에 있습니다. 모든 최신 root 솔루션이 작동합니다: KernelSU, KernelSU Next, APatch
+  또는 Magisk.
 - **인터넷 없음.** VD Google는 어떤 권한도 전혀 선언하지 않으므로, 허용할 것도 차단할
   것도 없습니다.
 
@@ -68,7 +68,7 @@ VD Google는 두 가지 방식으로 제공되며, 정확히 같은 정보를 �
 
 - **앱 (APK).** 귀하가 설치하고 여는 일반 Android 앱입니다. 다른 root 앱처럼 처음 한 번
   root를 요청합니다.
-- **WebUI 모듈 (ZIP).** root 관리자(KernelSU, Magisk 또는 APatch)에서 플래시하고 거기서
+- **WebUI 모듈 (ZIP).** root 관리자(KernelSU, APatch 또는 Magisk)에서 플래시하고 거기서
   엽니다. 앱으로 설치되는 것은 없으며, 귀하의 root 관리자 WebUI 안에서 실행됩니다.
 
 원하는 것을 고르세요. 화면, 문구, 내보내기 보고서는 둘 사이에 동일합니다.

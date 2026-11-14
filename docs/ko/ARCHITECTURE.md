@@ -25,7 +25,7 @@ VD Google가 어떻게 만들어졌고 왜 그렇게 만들어졌는지. 이 페
 - **앱**은 Jetpack Compose(Material 3)를 사용하는 Kotlin입니다. libsu `RootService`를
   통해 root를 얻으며, `su`를 직접 실행하는 방식은 절대 쓰지 않고, 그 권한 서비스 안에서
   읽습니다.
-- **WebUI 모듈**은 root 관리자(KernelSU, Magisk 또는 APatch)가 제공하는 작은 HTML/JS 웹
+- **WebUI 모듈**은 root 관리자(KernelSU, APatch 또는 Magisk)가 제공하는 작은 HTML/JS 웹
   루트입니다. 관리자의 root 브리지를 통해 동일한 읽기를 수행합니다. 엄격한
   Content-Security-Policy가 모든 원격 출처를 금지하므로, 페이지는 원리상으로도 외부와
   통신할 수 없습니다.

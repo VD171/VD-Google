@@ -62,7 +62,7 @@ uitziet.
 - **Android 8.0 (API 26) of nieuwer.**
 - **Root.** De gegevens die VD Google leest, leven in beschermde, systeem-only delen van
   Android, alleen bereikbaar met root. Elke moderne root-oplossing werkt: KernelSU, KernelSU
-  Next, Magisk of APatch.
+  Next, APatch of Magisk.
 - **Geen internet.** VD Google declareert helemaal geen permissies, dus er is niets toe te
   staan en niets te blokkeren.
 
@@ -72,7 +72,7 @@ VD Google wordt op twee manieren geleverd, en ze tonen exact dezelfde informatie
 
 - **De app (APK).** Een normale Android-app die je installeert en opent. Vraagt de eerste
   keer om root, zoals elke root-app.
-- **De WebUI-module (ZIP).** Flash hem in je root-manager (KernelSU, Magisk of APatch) en
+- **De WebUI-module (ZIP).** Flash hem in je root-manager (KernelSU, APatch of Magisk) en
   open hem van daaruit. Er wordt niets als app geïnstalleerd; het draait binnen de WebUI van
   je root-manager.
 

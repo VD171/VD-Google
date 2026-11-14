@@ -27,7 +27,7 @@ bruksanvisning för någon som vill förfalska samma värden.
   `RootService`, aldrig genom att köra `su` direkt, och den läser inuti den privilegierade
   tjänsten.
 - **WebUI-modulen** är en liten HTML/JS-webbrot som serveras av din root-hanterare
-  (KernelSU, Magisk eller APatch). Den utför samma läsningar via hanterarens root-brygga.
+  (KernelSU, APatch eller Magisk). Den utför samma läsningar via hanterarens root-brygga.
   En strikt Content-Security-Policy förbjuder varje fjärrursprung, så sidan kan inte ringa
   hem ens i princip.
 

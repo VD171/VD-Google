@@ -50,7 +50,7 @@
 Every release comes two ways, and both read the same things on your device with no internet:
 
 - **App**: the `.apk`, a normal Android app.
-- **WebUI**: the `.zip`, a module you flash in your root manager (KernelSU, Magisk or APatch) and open from there.
+- **WebUI**: the `.zip`, a module you flash in your root manager (KernelSU, APatch or Magisk) and open from there.
 
 Either way, root is required.
 
@@ -106,15 +106,15 @@ Sibling projects by the same author:
 
 ## Contacts
 
-* https://vd171.ru
-* https://vd.priv8.ru
-* **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Channel:** @Priv8_VD https://t.me/Priv8_VD
-* **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-* **E-mail:** vd.priv8@pm.me
-* **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-* **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-* **GitHub:** @VD171 https://github.com/VD171
+- https://vd171.ru
+- https://vd.priv8.ru
+- *Telegram:* @VD_Priv8 https://t.me/VD_Priv8
+- *Channel:* @Priv8_VD https://t.me/Priv8_VD
+- *Discord:* @VD.Priv8 https://discord.com/users/1296831918989639721
+- *E-mail:* vd.priv8@pm.me
+- *XDA-Developers:* @VD171 https://xdaforums.com/m/vd171.4699873/
+- *XDA thread:* https://xdaforums.com/t/VD-Google.4803837/
+- *GitHub:* @VD171 https://github.com/VD171
 
 ## License
 

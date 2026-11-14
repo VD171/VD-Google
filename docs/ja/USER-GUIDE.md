@@ -59,7 +59,7 @@ VD Google はまた、何も偽装、隠蔽、ねつ造しません。真実を�
 - **Android 8.0（API 26）以降。**
 - **root。** VD Google が読むデータは、root でしか到達できない、システム専用の保護された領域に
   あります。モダンな root ソリューションであれば何でも機能します: KernelSU、KernelSU Next、
-  Magisk、APatch。
+  APatch、Magisk。
 - **インターネット不要。** VD Google は一切の権限を宣言しないため、許可するものも、ブロック
   するものもありません。
 
@@ -69,7 +69,7 @@ VD Google は 2 通りの形で配布され、まったく同じ情報を表示�
 
 - **アプリ（APK）。** インストールして開く通常の Android アプリです。あらゆる root アプリと
   同様に、初回に root を求めます。
-- **WebUI モジュール（ZIP）。** あなたの root マネージャー（KernelSU、Magisk、APatch）で
+- **WebUI モジュール（ZIP）。** あなたの root マネージャー（KernelSU、APatch、Magisk）で
   インストールし、そこから開きます。アプリとしては何もインストールされず、あなたの root
   マネージャーの WebUI の中で動きます。
 

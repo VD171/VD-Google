@@ -50,7 +50,7 @@
 แต่ละรุ่นมีให้สองแบบ และทั้งสองแบบอ่านข้อมูลเดียวกันบนอุปกรณ์ของคุณโดยไม่ใช้อินเทอร์เน็ต:
 
 - **App**: ไฟล์ `.apk` แอป Android ทั่วไป
-- **WebUI**: ไฟล์ `.zip` โมดูลที่คุณแฟลชในตัวจัดการ root (KernelSU, Magisk หรือ APatch) แล้วเปิดจากที่นั่น
+- **WebUI**: ไฟล์ `.zip` โมดูลที่คุณแฟลชในตัวจัดการ root (KernelSU, APatch หรือ Magisk) แล้วเปิดจากที่นั่น
 
 ไม่ว่าแบบใดก็ต้องใช้ root
 
@@ -106,15 +106,15 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 ## Contacts
 
-* https://vd171.ru
-* https://vd.priv8.ru
-* **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Channel:** @Priv8_VD https://t.me/Priv8_VD
-* **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-* **E-mail:** vd.priv8@pm.me
-* **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-* **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-* **GitHub:** @VD171 https://github.com/VD171
+- https://vd171.ru
+- https://vd.priv8.ru
+- *Telegram:* @VD_Priv8 https://t.me/VD_Priv8
+- *Channel:* @Priv8_VD https://t.me/Priv8_VD
+- *Discord:* @VD.Priv8 https://discord.com/users/1296831918989639721
+- *E-mail:* vd.priv8@pm.me
+- *XDA-Developers:* @VD171 https://xdaforums.com/m/vd171.4699873/
+- *XDA thread:* https://xdaforums.com/t/VD-Google.4803837/
+- *GitHub:* @VD171 https://github.com/VD171
 
 ## สัญญาอนุญาต
 

@@ -23,7 +23,7 @@ VD Google 是如何构建的，以及为什么这样构建。本页解释设计�
 
 - **应用** 使用 Kotlin 搭配 Jetpack Compose（Material 3）编写。它通过 libsu 的 `RootService` 获
   取 root，绝不直接调用 `su`，并在那个特权服务内部进行读取。
-- **WebUI 模块** 是一个由你的 root 管理器（KernelSU、Magisk 或 APatch）提供服务的小型 HTML/JS
+- **WebUI 模块** 是一个由你的 root 管理器（KernelSU、APatch 或 Magisk）提供服务的小型 HTML/JS
   web root。它通过管理器的 root 桥接执行相同的读取。严格的 Content-Security-Policy 禁止任何远程
   来源，因此该页面即便在原理上也无法向外联网回传。
 

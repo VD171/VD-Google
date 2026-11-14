@@ -27,7 +27,7 @@ how-to for someone who wants to fake the same values.
   libsu `RootService`, never by shelling out to `su` directly, and it reads inside that
   privileged service.
 - **The WebUI module** is a small HTML/JS web root served by your root manager
-  (KernelSU, Magisk or APatch). It performs the same reads through the manager's root
+  (KernelSU, APatch or Magisk). It performs the same reads through the manager's root
   bridge. A strict Content-Security-Policy forbids any remote origin, so the page cannot
   phone home even in principle.
 

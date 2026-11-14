@@ -26,7 +26,7 @@ taklit etmek isteyen biri için bir nasıl-yapılır kılavuzuna dönüşemez.
 - **Uygulama**, Jetpack Compose (Material 3) ile Kotlin'dir. Root'u doğrudan `su`
   çağırarak değil, libsu `RootService` aracılığıyla alır ve okumayı o ayrıcalıklı servis
   içinde yapar.
-- **WebUI modülü**, root yöneticiniz (KernelSU, Magisk veya APatch) tarafından sunulan
+- **WebUI modülü**, root yöneticiniz (KernelSU, APatch veya Magisk) tarafından sunulan
   küçük bir HTML/JS web kökü (web root) olur. Aynı okumaları yöneticinin root köprüsü
   üzerinden gerçekleştirir. Katı bir Content-Security-Policy her uzak kaynağı yasaklar,
   bu yüzden sayfa ilke olarak bile eve telefon edemez.

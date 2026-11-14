@@ -61,7 +61,7 @@ như vậy.
 - **Android 8.0 (API 26) trở lên.**
 - **Root.** Dữ liệu mà VD Google đọc nằm ở những vùng được bảo vệ, chỉ-dành-cho-hệ-thống của
   Android, chỉ có thể tiếp cận bằng root. Mọi giải pháp root hiện đại đều hoạt động: KernelSU,
-  KernelSU Next, Magisk hoặc APatch.
+  KernelSU Next, APatch hoặc Magisk.
 - **Không internet.** VD Google không khai báo quyền nào cả, nên chẳng có gì để cho phép và
   chẳng có gì để chặn.
 
@@ -71,8 +71,8 @@ VD Google đến theo hai cách, và chúng hiển thị chính xác cùng một
 
 - **Ứng dụng (APK).** Một ứng dụng Android bình thường mà bạn cài và mở. Xin quyền root lần
   đầu, giống như bất kỳ ứng dụng root nào.
-- **Module WebUI (ZIP).** Nạp (flash) nó trong trình quản lý root của bạn (KernelSU, Magisk
-  hoặc APatch) và mở nó từ đó. Không có gì được cài như một ứng dụng; nó chạy bên trong WebUI
+- **Module WebUI (ZIP).** Nạp (flash) nó trong trình quản lý root của bạn (KernelSU, APatch
+  hoặc Magisk) và mở nó từ đó. Không có gì được cài như một ứng dụng; nó chạy bên trong WebUI
   của trình quản lý root của bạn.
 
 Chọn cái bạn thích hơn. Các màn hình, cách diễn đạt và báo cáo xuất ra là giống hệt nhau giữa

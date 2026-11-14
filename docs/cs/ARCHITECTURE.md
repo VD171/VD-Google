@@ -27,7 +27,7 @@ pro někoho, kdo chce stejné hodnoty zfalšovat.
   `RootService` z libsu, nikdy přímým voláním `su`, a čte uvnitř této privilegované
   služby.
 - **Modul WebUI** je malý webový root v HTML/JS, obsluhovaný vaším správcem root
-  (KernelSU, Magisk nebo APatch). Provádí stejná čtení přes rootovací most správce. Přísná
+  (KernelSU, APatch nebo Magisk). Provádí stejná čtení přes rootovací most správce. Přísná
   Content-Security-Policy zakazuje jakýkoli vzdálený původ, takže stránka nemůže volat
   domů ani v principu.
 

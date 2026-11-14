@@ -28,7 +28,7 @@ giờ trôi dạt thành một hướng dẫn cho người muốn giả mạo ch
   `RootService` của libsu, không bao giờ bằng cách gọi thẳng `su`, và nó đọc bên trong dịch
   vụ đặc quyền đó.
 - **Module WebUI** là một web root HTML/JS nhỏ được trình quản lý root của bạn (KernelSU,
-  Magisk hoặc APatch) phục vụ. Nó thực hiện cùng những thao tác đọc thông qua cầu nối root
+  APatch hoặc Magisk) phục vụ. Nó thực hiện cùng những thao tác đọc thông qua cầu nối root
   của trình quản lý. Một Content-Security-Policy nghiêm ngặt cấm mọi nguồn gốc từ xa, nên về
   nguyên tắc trang này không thể gọi về nhà.
 

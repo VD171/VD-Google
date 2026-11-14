@@ -28,7 +28,7 @@ scivolare in un manuale per chi vuole falsificare gli stessi valori.
   tramite il `RootService` di libsu, mai invocando direttamente `su` dalla shell, e legge
   all'interno di quel servizio privilegiato.
 - **Il modulo WebUI** è una piccola web root in HTML/JS servita dal tuo gestore di root
-  (KernelSU, Magisk o APatch). Esegue le stesse letture attraverso il ponte root del
+  (KernelSU, APatch o Magisk). Esegue le stesse letture attraverso il ponte root del
   gestore. Una rigida Content-Security-Policy vieta ogni origine remota, così la pagina
   non può telefonare a casa nemmeno in linea di principio.
 

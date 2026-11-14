@@ -59,7 +59,7 @@ så.
 - **Android 8.0 (API 26) eller nyare.**
 - **Root.** Datan som VD Google läser lever i skyddade, endast system-åtkomliga områden av
   Android, nåbara endast med root. Vilken modern root-lösning som helst fungerar: KernelSU,
-  KernelSU Next, Magisk eller APatch.
+  KernelSU Next, APatch eller Magisk.
 - **Inget internet.** VD Google deklarerar inga behörigheter alls, så det finns inget att
   tillåta och inget att blockera.
 
@@ -69,7 +69,7 @@ VD Google levereras på två sätt, och de visar exakt samma information:
 
 - **Appen (APK).** En vanlig Android-app som du installerar och öppnar. Ber om root första
   gången, som vilken root-app som helst.
-- **WebUI-modulen (ZIP).** Flasha den i din root-hanterare (KernelSU, Magisk eller APatch)
+- **WebUI-modulen (ZIP).** Flasha den i din root-hanterare (KernelSU, APatch eller Magisk)
   och öppna den därifrån. Ingenting installeras som en app; den körs inuti din
   root-hanterares WebUI.
 

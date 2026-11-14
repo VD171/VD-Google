@@ -62,7 +62,7 @@ açıklamaktır.
 - **Android 8.0 (API 26) veya daha yenisi.**
 - **Root.** VD Google'ın okuduğu veriler, Android'in yalnızca root ile erişilebilen,
   korumalı, yalnızca sisteme özel alanlarında yaşar. Herhangi bir modern root çözümü
-  çalışır: KernelSU, KernelSU Next, Magisk veya APatch.
+  çalışır: KernelSU, KernelSU Next, APatch veya Magisk.
 - **İnternet yok.** VD Google hiçbir izin beyan etmez, bu yüzden izin verilecek ve
   engellenecek bir şey yoktur.
 
@@ -72,7 +72,7 @@ VD Google iki şekilde gelir ve ikisi de tam olarak aynı bilgileri gösterir:
 
 - **Uygulama (APK).** Kurduğunuz ve açtığınız normal bir Android uygulaması. Herhangi bir
   root uygulaması gibi, ilk seferde root ister.
-- **WebUI modülü (ZIP).** Root yöneticinizde (KernelSU, Magisk veya APatch) flaşlayın ve
+- **WebUI modülü (ZIP).** Root yöneticinizde (KernelSU, APatch veya Magisk) flaşlayın ve
   oradan açın. Hiçbir şey uygulama olarak kurulmaz; root yöneticinizin WebUI'si içinde
   çalışır.
 

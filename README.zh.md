@@ -50,7 +50,7 @@
 每个版本都有两种形式，两者都在你的设备上读取相同的信息，且不联网：
 
 - **App**: `.apk`，一个普通的 Android 应用。
-- **WebUI**: `.zip`，一个在你的 root 管理器（KernelSU、Magisk 或 APatch）中刷入并从那里打开的模块。
+- **WebUI**: `.zip`，一个在你的 root 管理器（KernelSU、APatch 或 Magisk）中刷入并从那里打开的模块。
 
 两种方式都需要 root。
 
@@ -106,15 +106,15 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 ## 联系方式
 
-* https://vd171.ru
-* https://vd.priv8.ru
-* **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Channel:** @Priv8_VD https://t.me/Priv8_VD
-* **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-* **E-mail:** vd.priv8@pm.me
-* **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-* **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-* **GitHub:** @VD171 https://github.com/VD171
+- https://vd171.ru
+- https://vd.priv8.ru
+- *Telegram:* @VD_Priv8 https://t.me/VD_Priv8
+- *Channel:* @Priv8_VD https://t.me/Priv8_VD
+- *Discord:* @VD.Priv8 https://discord.com/users/1296831918989639721
+- *E-mail:* vd.priv8@pm.me
+- *XDA-Developers:* @VD171 https://xdaforums.com/m/vd171.4699873/
+- *XDA thread:* https://xdaforums.com/t/VD-Google.4803837/
+- *GitHub:* @VD171 https://github.com/VD171
 
 ## 许可证
 

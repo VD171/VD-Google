@@ -58,7 +58,7 @@ vypadá.
 - **Android 8.0 (API 26) nebo novější.**
 - **Root.** Data, která VD Google čte, žijí v chráněných, systémových oblastech Androidu,
   dosažitelných jen rootem. Funguje jakékoli moderní rootovací řešení: KernelSU, KernelSU
-  Next, Magisk nebo APatch.
+  Next, APatch nebo Magisk.
 - **Žádný internet.** VD Google nedeklaruje vůbec žádná oprávnění, takže není co povolovat
   ani co blokovat.
 
@@ -68,8 +68,8 @@ VD Google se dodává dvěma způsoby a oba ukazují přesně stejné informace:
 
 - **Aplikace (APK).** Běžná aplikace pro Android, kterou nainstalujete a otevřete. Při
   prvním spuštění požádá o root, jako každá rootovací aplikace.
-- **Modul WebUI (ZIP).** Nainstalujte jej ve svém správci root (KernelSU, Magisk nebo
-  APatch) a otevřete jej odtamtud. Nic se neinstaluje jako aplikace; běží uvnitř WebUI
+- **Modul WebUI (ZIP).** Nainstalujte jej ve svém správci root (KernelSU, APatch nebo
+  Magisk) a otevřete jej odtamtud. Nic se neinstaluje jako aplikace; běží uvnitř WebUI
   vašeho správce root.
 
 Vyberte si, co preferujete. Obrazovky, znění i exportovaný report jsou mezi oběma

@@ -50,7 +50,7 @@
 Setiap rilis hadir dalam dua bentuk, dan keduanya membaca hal yang sama di perangkat Anda, tanpa internet:
 
 - **App**: berkas `.apk`, aplikasi Android biasa.
-- **WebUI**: berkas `.zip`, modul yang Anda pasang di pengelola root (KernelSU, Magisk, atau APatch) dan buka dari sana.
+- **WebUI**: berkas `.zip`, modul yang Anda pasang di pengelola root (KernelSU, APatch, atau Magisk) dan buka dari sana.
 
 Keduanya memerlukan root.
 
@@ -106,15 +106,15 @@ Proyek saudara dari penulis yang sama:
 
 ## Kontak
 
-* https://vd171.ru
-* https://vd.priv8.ru
-* **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-* **Channel:** @Priv8_VD https://t.me/Priv8_VD
-* **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-* **E-mail:** vd.priv8@pm.me
-* **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-* **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-* **GitHub:** @VD171 https://github.com/VD171
+- https://vd171.ru
+- https://vd.priv8.ru
+- *Telegram:* @VD_Priv8 https://t.me/VD_Priv8
+- *Channel:* @Priv8_VD https://t.me/Priv8_VD
+- *Discord:* @VD.Priv8 https://discord.com/users/1296831918989639721
+- *E-mail:* vd.priv8@pm.me
+- *XDA-Developers:* @VD171 https://xdaforums.com/m/vd171.4699873/
+- *XDA thread:* https://xdaforums.com/t/VD-Google.4803837/
+- *GitHub:* @VD171 https://github.com/VD171
 
 ## Lisensi
 

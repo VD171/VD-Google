@@ -59,7 +59,7 @@ looks wrong to you, the goal of this guide is to explain why the truth looks tha
 - **Android 8.0 (API 26) or newer.**
 - **Root.** The data VD Google reads lives in protected, system-only areas of Android,
   reachable only with root. Any modern root solution works: KernelSU, KernelSU Next,
-  Magisk or APatch.
+  APatch or Magisk.
 - **No internet.** VD Google declares no permissions at all, so there is nothing to
   allow and nothing to block.
 
@@ -69,8 +69,8 @@ VD Google ships two ways, and they show exactly the same information:
 
 - **The app (APK).** A normal Android app you install and open. Asks for root the
   first time, like any root app.
-- **The WebUI module (ZIP).** Flash it in your root manager (KernelSU, Magisk or
-  APatch) and open it from there. Nothing is installed as an app; it runs inside your
+- **The WebUI module (ZIP).** Flash it in your root manager (KernelSU, APatch or
+  Magisk) and open it from there. Nothing is installed as an app; it runs inside your
   root manager's WebUI.
 
 Pick whichever you prefer. The screens, the wording and the exported report are

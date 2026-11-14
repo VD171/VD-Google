@@ -54,7 +54,7 @@ VD Google 同样不伪装、不隐藏、不伪造任何东西。它读取真相�
 
 - **Android 8.0（API 26）或更新版本。**
 - **Root。** VD Google 读取的数据位于 Android 受保护的、仅限系统的区域，只有通过 root 才能触及。任
-  何现代 root 方案都适用：KernelSU、KernelSU Next、Magisk 或 APatch。
+  何现代 root 方案都适用：KernelSU、KernelSU Next、APatch 或 Magisk。
 - **无需网络。** VD Google 完全不声明任何权限，因此没有什么需要允许，也没有什么需要阻止。
 
 ## 4. App 还是 WebUI
@@ -63,7 +63,7 @@ VD Google 以两种方式发布，它们展示的信息完全相同：
 
 - **应用（APK）。** 一个你照常安装并打开的普通 Android 应用。像任何 root 应用一样，首次使用时请求
   root。
-- **WebUI 模块（ZIP）。** 在你的 root 管理器（KernelSU、Magisk 或 APatch）中刷入它，并从那里打开。
+- **WebUI 模块（ZIP）。** 在你的 root 管理器（KernelSU、APatch 或 Magisk）中刷入它，并从那里打开。
   它不会作为应用被安装；它运行在你的 root 管理器的 WebUI 里。
 
 挑你更喜欢的那种。两者之间的界面、措辞和导出报告完全相同。

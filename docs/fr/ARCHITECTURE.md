@@ -16,7 +16,7 @@ Comment VD Google est conçu, et pourquoi. Cette page explique la conception et 
 ## Les deux visages
 
 - **L'application** est écrite en Kotlin avec Jetpack Compose (Material 3). Elle obtient le root via le `RootService` de libsu, jamais en appelant directement `su`, et elle effectue ses lectures à l'intérieur de ce service privilégié.
-- **Le module WebUI** est un petit web root HTML/JS servi par votre gestionnaire de root (KernelSU, Magisk ou APatch). Il effectue les mêmes lectures via le pont root du gestionnaire. Une Content-Security-Policy stricte interdit toute origine distante, de sorte que la page ne peut, même en principe, appeler l'extérieur.
+- **Le module WebUI** est un petit web root HTML/JS servi par votre gestionnaire de root (KernelSU, APatch ou Magisk). Il effectue les mêmes lectures via le pont root du gestionnaire. Une Content-Security-Policy stricte interdit toute origine distante, de sorte que la page ne peut, même en principe, appeler l'extérieur.
 
 Les deux sont générés à partir d'un unique jeu de chaînes partagé en 21 langues, de sorte qu'un libellé n'est jamais traduit deux fois.
 

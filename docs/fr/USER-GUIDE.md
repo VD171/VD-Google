@@ -43,7 +43,7 @@ VD Google n'usurpe, ne masque ni ne falsifie non plus quoi que ce soit. Il lit l
 ## 3. Prérequis
 
 - **Android 8.0 (API 26) ou plus récent.**
-- **Root.** Les données que lit VD Google résident dans des zones protégées d'Android, réservées au système, accessibles uniquement avec le root. Toute solution de root moderne convient : KernelSU, KernelSU Next, Magisk ou APatch.
+- **Root.** Les données que lit VD Google résident dans des zones protégées d'Android, réservées au système, accessibles uniquement avec le root. Toute solution de root moderne convient : KernelSU, KernelSU Next, APatch ou Magisk.
 - **Pas d'internet.** VD Google ne déclare aucune permission, il n'y a donc rien à autoriser et rien à bloquer.
 
 ## 4. Application ou WebUI
@@ -51,7 +51,7 @@ VD Google n'usurpe, ne masque ni ne falsifie non plus quoi que ce soit. Il lit l
 VD Google se décline de deux façons, et elles affichent exactement les mêmes informations :
 
 - **L'application (APK).** Une application Android normale que vous installez et ouvrez. Elle demande le root la première fois, comme toute application root.
-- **Le module WebUI (ZIP).** Flashez-le dans votre gestionnaire de root (KernelSU, Magisk ou APatch) et ouvrez-le depuis là. Rien n'est installé comme application ; il s'exécute à l'intérieur de la WebUI de votre gestionnaire de root.
+- **Le module WebUI (ZIP).** Flashez-le dans votre gestionnaire de root (KernelSU, APatch ou Magisk) et ouvrez-le depuis là. Rien n'est installé comme application ; il s'exécute à l'intérieur de la WebUI de votre gestionnaire de root.
 
 Choisissez celle que vous préférez. Les écrans, les formulations et le rapport exporté sont identiques entre les deux.
 

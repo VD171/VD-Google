@@ -58,7 +58,7 @@ erscheint, ist das Ziel dieser Anleitung, zu erklären, warum die Wahrheit so au
 - **Android 8.0 (API 26) oder neuer.**
 - **Root.** Die Daten, die VD Google liest, leben in geschützten, systemeigenen Bereichen von
   Android, die nur mit Root erreichbar sind. Jede moderne Root-Lösung funktioniert: KernelSU,
-  KernelSU Next, Magisk oder APatch.
+  KernelSU Next, APatch oder Magisk.
 - **Kein Internet.** VD Google deklariert überhaupt keine Berechtigungen, sodass es nichts zu
   erlauben und nichts zu blockieren gibt.
 
@@ -68,7 +68,7 @@ VD Google wird auf zwei Arten geliefert, und sie zeigen genau dieselben Informat
 
 - **Die App (APK).** Eine normale Android-App, die du installierst und öffnest. Fragt beim ersten Mal
   nach Root, wie jede Root-App.
-- **Das WebUI-Modul (ZIP).** Flashe es in deinem Root-Manager (KernelSU, Magisk oder APatch) und
+- **Das WebUI-Modul (ZIP).** Flashe es in deinem Root-Manager (KernelSU, APatch oder Magisk) und
   öffne es von dort. Nichts wird als App installiert; es läuft innerhalb der WebUI deines
   Root-Managers.
 

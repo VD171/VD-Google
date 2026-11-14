@@ -25,7 +25,7 @@ VD Google がどのように作られ、なぜそうなっているか。この�
 - **アプリ**は Jetpack Compose（Material 3）を用いた Kotlin 製です。`su` を直接シェルで
   呼び出すのではなく、libsu の `RootService` を通じて root を取得し、その特権サービスの
   中で読み取ります。
-- **WebUI モジュール**は、あなたの root マネージャー（KernelSU、Magisk、APatch）が提供する
+- **WebUI モジュール**は、あなたの root マネージャー（KernelSU、APatch、Magisk）が提供する
   小さな HTML/JS の web root です。マネージャーの root ブリッジを通じて同じ読み取りを
   行います。厳格な Content-Security-Policy があらゆるリモートオリジンを禁じているため、
   ページは原理的にも外部へ通信できません。

@@ -27,7 +27,7 @@ naar een handleiding voor iemand die dezelfde waarden wil vervalsen.
   `RootService`, nooit door rechtstreeks `su` aan te roepen, en ze leest binnen die
   bevoorrechte service.
 - **De WebUI-module** is een kleine HTML/JS-webroot die door je root-manager (KernelSU,
-  Magisk of APatch) wordt geserveerd. Ze voert dezelfde leesbewerkingen uit via de
+  APatch of Magisk) wordt geserveerd. Ze voert dezelfde leesbewerkingen uit via de
   root-brug van de manager. Een strikt Content-Security-Policy verbiedt elke externe
   oorsprong, zodat de pagina zelfs in principe niet naar huis kan bellen.
 

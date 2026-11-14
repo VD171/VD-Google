@@ -27,7 +27,7 @@ abdriften, der dieselben Werte fälschen möchte.
   `RootService`, niemals indem sie direkt `su` aufruft, und sie liest innerhalb dieses
   privilegierten Dienstes.
 - **Das WebUI-Modul** ist ein kleiner HTML/JS-Web-Root, der von deinem Root-Manager (KernelSU,
-  Magisk oder APatch) bereitgestellt wird. Es führt dieselben Lesevorgänge über die Root-Brücke des
+  APatch oder Magisk) bereitgestellt wird. Es führt dieselben Lesevorgänge über die Root-Brücke des
   Managers aus. Eine strikte Content-Security-Policy verbietet jede entfernte Herkunft, sodass die
   Seite schon im Prinzip nicht nach Hause telefonieren kann.
 

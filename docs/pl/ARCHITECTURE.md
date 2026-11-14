@@ -28,7 +28,7 @@ zamieniły się w poradnik dla kogoś, kto chciałby sfałszować te same warto�
   przez `RootService` z biblioteki libsu, nigdy przez bezpośrednie wywołanie `su`, i
   czyta wewnątrz tej uprzywilejowanej usługi.
 - **Moduł WebUI** to niewielki web root w HTML/JS udostępniany przez twojego menedżera
-  roota (KernelSU, Magisk lub APatch). Wykonuje te same odczyty przez mostek roota
+  roota (KernelSU, APatch lub Magisk). Wykonuje te same odczyty przez mostek roota
   menedżera. Ścisła Content-Security-Policy zabrania jakiegokolwiek zdalnego źródła, więc
   strona nie może zadzwonić do domu nawet w teorii.
 

@@ -25,8 +25,8 @@ quiera falsificar los mismos valores.
 
 - **La app** es Kotlin con Jetpack Compose (Material 3). Obtiene root a través del `RootService` de
   libsu, nunca invocando `su` directamente, y lee dentro de ese servicio privilegiado.
-- **El módulo WebUI** es una pequeña raíz web HTML/JS servida por tu gestor de root (KernelSU, Magisk
-  o APatch). Realiza las mismas lecturas a través del puente de root del gestor. Una
+- **El módulo WebUI** es una pequeña raíz web HTML/JS servida por tu gestor de root (KernelSU, APatch
+  o Magisk). Realiza las mismas lecturas a través del puente de root del gestor. Una
   Content-Security-Policy estricta prohíbe cualquier origen remoto, de modo que la página no puede
   llamar a casa ni siquiera en principio.
 
