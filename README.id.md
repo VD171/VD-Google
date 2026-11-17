@@ -23,12 +23,12 @@
 
 <p align="center">
   <a href="https://github.com/VD171/VD-Google/releases">Releases</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-Home">Wiki</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-USER-GUIDE">Panduan pengguna</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-ARCHITECTURE">Arsitektur</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-PRIVACY">Privasi</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-BINARIES">Biner yang disertakan</a> ·
-  <a href="https://github.com/VD171/VD-Google/wiki/in-FILE-STRUCTURE">Struktur berkas</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-Home">Wiki</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-USER-GUIDE">Panduan pengguna</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-ARCHITECTURE">Arsitektur</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-PRIVACY">Privasi</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-BINARIES">Biner yang disertakan</a> ·
+  <a href="https://github.com/VD171/VD-Google/wiki/id-FILE-STRUCTURE">Struktur berkas</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://xdaforums.com/t/VD-Google.4803837/">XDA thread</a>
 </p>
@@ -85,13 +85,13 @@ Semua waktu ditampilkan dalam zona waktu perangkat Anda saat ini, dan zona waktu
 
 ## Dokumentasi
 
-- **[Wiki](https://github.com/VD171/VD-Google/wiki/in-Home)**: semua dokumentasi, dapat dijelajahi secara online.
-- **[Panduan pengguna](https://github.com/VD171/VD-Google/wiki/in-USER-GUIDE)**: apa yang dibaca setiap layar dan apa arti setiap hasilnya.
-- **[Arsitektur](https://github.com/VD171/VD-Google/wiki/in-ARCHITECTURE)** dan **[Struktur berkas](https://github.com/VD171/VD-Google/wiki/in-FILE-STRUCTURE)**: cara kerjanya dan di mana semuanya berada.
-- **[Privasi](https://github.com/VD171/VD-Google/wiki/in-PRIVACY)**: tanpa izin internet, setiap pembacaan melewati root, tidak ada yang pernah keluar dari perangkat.
-- **[Biner yang disertakan](https://github.com/VD171/VD-Google/wiki/in-BINARIES)**: asal-usul dan SHA-256 dari setiap biner prakompilasi, untuk audit penuh.
-- **[Berkontribusi](https://github.com/VD171/VD-Google/wiki/in-CONTRIBUTING)** dan **[Keamanan](https://github.com/VD171/VD-Google/wiki/in-SECURITY)**.
-- **[Changelog](CHANGELOG.md)** dan **[Kode etik](https://github.com/VD171/VD-Google/wiki/in-CODE_OF_CONDUCT)**.
+- **[Wiki](https://github.com/VD171/VD-Google/wiki/id-Home)**: semua dokumentasi, dapat dijelajahi secara online.
+- **[Panduan pengguna](https://github.com/VD171/VD-Google/wiki/id-USER-GUIDE)**: apa yang dibaca setiap layar dan apa arti setiap hasilnya.
+- **[Arsitektur](https://github.com/VD171/VD-Google/wiki/id-ARCHITECTURE)** dan **[Struktur berkas](https://github.com/VD171/VD-Google/wiki/id-FILE-STRUCTURE)**: cara kerjanya dan di mana semuanya berada.
+- **[Privasi](https://github.com/VD171/VD-Google/wiki/id-PRIVACY)**: tanpa izin internet, setiap pembacaan melewati root, tidak ada yang pernah keluar dari perangkat.
+- **[Biner yang disertakan](https://github.com/VD171/VD-Google/wiki/id-BINARIES)**: asal-usul dan SHA-256 dari setiap biner prakompilasi, untuk audit penuh.
+- **[Berkontribusi](https://github.com/VD171/VD-Google/wiki/id-CONTRIBUTING)** dan **[Keamanan](https://github.com/VD171/VD-Google/wiki/id-SECURITY)**.
+- **[Changelog](CHANGELOG.md)** dan **[Kode etik](https://github.com/VD171/VD-Google/wiki/id-CODE_OF_CONDUCT)**.
 
 <!-- /vd-docs -->
 
