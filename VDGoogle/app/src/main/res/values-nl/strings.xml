@@ -160,6 +160,7 @@
     <string name="action_theme">Thema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exporteren</string>
+    <string name="export_warning">Het rapport wordt opgeslagen in de map Downloads en bevat de gegevens van je apparaat (provider, model, RCS, Wallet en attestatiestatus). Het verlaat je apparaat nooit, maar elke app met toegang tot de opslag kan het daar lezen, dus verwijder het zodra je klaar bent.</string>
     <string name="action_save">Opslaan</string>
     <string name="rcs_carrier">Provider</string>
     <string name="rcs_carrier_m">De mobiele provider van je lijn (naam en MCC/MNC).</string>

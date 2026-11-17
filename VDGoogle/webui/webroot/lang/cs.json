@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google je nezávislý, neoficiální projekt, který není spojen se společností Google LLC, není jí schválen ani sponzorován. Google, Google Wallet, Google Play, Play Integrity a Android jsou ochranné známky společnosti Google LLC.",
   "action_close": "Zavřít",
   "action_export": "Exportovat",
+  "export_warning": "Zpráva se ukládá do složky Downloads a obsahuje údaje o vašem zařízení (operátor, model, RCS, Wallet a stav atestace). Vaše zařízení nikdy neopustí, ale může ji tam přečíst jakákoli aplikace s přístupem k úložišti, takže ji po dokončení smažte.",
   "action_hide": "Skrýt",
   "action_info": "Info",
   "action_language": "Jazyk",

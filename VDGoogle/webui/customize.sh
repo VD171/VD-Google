@@ -37,7 +37,7 @@ if [ "$API" -lt 26 ]; then
   abort "  ! Android version is too old."
 fi
 
-# Supported CPU only - never ship a wrong-arch sqlite3.
+# Supported CPU only: never ship a wrong-arch sqlite3.
 VDG_ARCH="$ARCH"
 [ -z "$VDG_ARCH" ] && case "$(getprop ro.product.cpu.abi)" in arm64*) VDG_ARCH=arm64 ;; arm*) VDG_ARCH=arm ;; *) VDG_ARCH=other ;; esac
 case "$VDG_ARCH" in
@@ -80,7 +80,7 @@ if [ "$BOOTMODE" = "true" ] && [ -n "$MID" ] && [ "$MODPATH" != "$ACTIVE" ]; the
     mv "$ACTIVE.new" "$ACTIVE"
     rm -f "$ACTIVE/update" "$ACTIVE/remove" "$ACTIVE/disable"
     setsid sh -c "n=0; while [ \$n -lt 30 ]; do rm -f '$ACTIVE/update' '$ACTIVE/remove' '$ACTIVE/disable'; sleep 1; n=\$((n+1)); done" >/dev/null 2>&1 &
-    ui_print "  Activated now - no reboot needed."
+    ui_print "  Activated now, no reboot needed."
   else
     rm -rf "$ACTIVE.new"
     ui_print "  ! Live activation failed; active after a reboot."

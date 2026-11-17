@@ -160,6 +160,7 @@
     <string name="action_theme">Thème</string>
     <string name="action_info">Infos</string>
     <string name="action_export">Exporter</string>
+    <string name="export_warning">Le rapport est enregistré dans le dossier Downloads et contient les informations de votre appareil (opérateur, modèle, RCS, Wallet et état d\'attestation). Il ne quitte jamais votre appareil, mais toute application ayant accès au stockage peut l\'y lire, alors supprimez-le une fois terminé.</string>
     <string name="action_save">Enregistrer</string>
     <string name="rcs_carrier">Opérateur</string>
     <string name="rcs_carrier_m">L\'opérateur mobile de votre ligne (nom et MCC/MNC).</string>

@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google은 독립적인 비공식 프로젝트이며, Google LLC와 제휴, 보증 또는 후원 관계가 없습니다. Google, Google Wallet, Google Play, Play Integrity 및 Android는 Google LLC의 상표입니다.",
   "action_close": "닫기",
   "action_export": "내보내기",
+  "export_warning": "보고서는 Downloads 폴더에 저장되며 기기 정보(통신사, 모델, RCS, Wallet, 증명 상태)를 담고 있습니다. 기기를 벗어나지 않지만 저장소 접근 권한이 있는 앱이라면 거기에서 읽을 수 있으므로 작업을 마치면 삭제하세요.",
   "action_hide": "숨기기",
   "action_info": "정보",
   "action_language": "언어",

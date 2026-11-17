@@ -49,7 +49,7 @@
     <string name="rcs_available">Флаг доступности (из кеша)</string>
     <string name="rcs_available_m">Кэшированный признак, который приложение сообщений хранит для вашего номера. Он может оставаться устаревшим даже после того, как RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_connected">Подключение</string>
-    <string name="rcs_connected_m">Действительно ли RCS настроен и работает на этой линии, судя по конфигурации чата и движку подготовки. Это надёжный признак. Показатель доступности ниже - это кэш по каждому контакту, и он может отставать.</string>
+    <string name="rcs_connected_m">Действительно ли RCS настроен и работает на этой линии, судя по конфигурации чата и движку подготовки. Это надёжный признак. Показатель доступности ниже является кэшем по каждому контакту, и он может отставать.</string>
     <string name="rcs_st_connected">Подключено</string>
     <string name="rcs_st_setup">Не подключено</string>
     <string name="rcs_st_off">Выключено</string>
@@ -58,7 +58,7 @@
     <string name="rcs_state">Состояние подготовки (из кеша)</string>
     <string name="rcs_state_m">Внутреннее значение подготовки, которое приложение сообщений хранит для вашей линии. Оно может оставаться равным 0, даже когда RCS уже работает, поэтому ориентируйтесь на строку Подключение выше.</string>
     <string name="rcs_cfg_version">Версия конфигурации</string>
-    <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила. 0 здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
+    <string name="rcs_cfg_version_m">Версия конфигурации RCS, доставленной на эту линию. Значение 0 означает, что действительная конфигурация ещё не поступила. 0 здесь нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_capable">Контакты с поддержкой RCS</string>
     <string name="rcs_capable_m">Сколько ваших контактов в настоящее время известны как поддерживающие чат RCS.</string>
     <string name="rcs_flag_enabled">Флаг функции (из кеша)</string>
@@ -66,11 +66,11 @@
     <string name="rcs_flag_unavailable">Помечено как недоступное</string>
     <string name="rcs_flag_unavailable_m">Пометила ли служба RCS как недоступный для этой линии.</string>
     <string name="rcs_entitlement">Разрешение оператора</string>
-    <string name="rcs_entitlement_m">Включена ли служба разрешений оператора, которая авторизует RCS. 0 здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
+    <string name="rcs_entitlement_m">Включена ли служба разрешений оператора, которая авторизует RCS. 0 здесь нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_uce">Присутствие (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange, позволяющий вашей линии объявлять и обнаруживать возможности RCS. Нет здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
+    <string name="rcs_uce_m">User Capability Exchange, позволяющий вашей линии объявлять и обнаруживать возможности RCS. «Нет» здесь нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
     <string name="rcs_ims_pkg">Служба IMS присутствует</string>
-    <string name="rcs_ims_pkg_m">Установлена ли на устройстве служба IMS оператора, от которой зависит RCS. Нет здесь - это нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
+    <string name="rcs_ims_pkg_m">Установлена ли на устройстве служба IMS оператора, от которой зависит RCS. «Нет» здесь нормально, когда ваш RCS работает через собственный бэкенд Google, а не через оператора.</string>
 
     <string name="rcs_sec_times">Метки времени</string>
     <string name="rcs_cfg_updated">Конфигурация обновлена</string>
@@ -148,7 +148,7 @@
     <string name="about_license">Лицензия</string>
     <string name="about_contacts">Контакты</string>
     <string name="about_support">Поддержка</string>
-    <string name="about_trademarks">VD Google - это независимый, неофициальный проект, не связанный с Google LLC, не одобренный и не спонсируемый ею. Google, Google Wallet, Google Play, Play Integrity и Android являются товарными знаками Google LLC.</string>
+    <string name="about_trademarks">VD Google является независимым, неофициальным проектом, не связанным с Google LLC, не одобренным и не спонсируемым ею. Google, Google Wallet, Google Play, Play Integrity и Android являются товарными знаками Google LLC.</string>
 
     <string name="action_close">Закрыть</string>
     <string name="action_language">Язык</string>
@@ -160,6 +160,7 @@
     <string name="action_theme">Тема</string>
     <string name="action_info">Инфо</string>
     <string name="action_export">Экспорт</string>
+    <string name="export_warning">Отчёт сохраняется в папку Downloads и содержит данные вашего устройства (оператор, модель, RCS, Wallet и состояние аттестации). Он никогда не покидает ваше устройство, но любое приложение с доступом к хранилищу может прочитать его там, поэтому удалите его, когда закончите.</string>
     <string name="action_save">Сохранить</string>
     <string name="rcs_carrier">Оператор</string>
     <string name="rcs_carrier_m">Мобильный оператор вашей линии (название и MCC/MNC).</string>

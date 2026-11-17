@@ -8,3 +8,4 @@
 
 # Packaged WebUI module zips (built by VDGoogle/webui/package.sh).
 /dist/
+CLAUDE.md

@@ -160,6 +160,7 @@
     <string name="action_theme">پوسته</string>
     <string name="action_info">اطلاعات</string>
     <string name="action_export">برون‌بری</string>
+    <string name="export_warning">گزارش در پوشه Downloads ذخیره می‌شود و جزئیات دستگاه شما (اپراتور، مدل، RCS، Wallet و وضعیت گواهی) را در بر دارد. هرگز از دستگاه شما خارج نمی‌شود، اما هر برنامه‌ای که به حافظه دسترسی داشته باشد می‌تواند آن را همان‌جا بخواند، پس پس از پایان کار آن را حذف کنید.</string>
     <string name="action_save">ذخیره</string>
     <string name="rcs_carrier">اپراتور</string>
     <string name="rcs_carrier_m">اپراتور تلفن همراه خط شما (نام و MCC/MNC).</string>

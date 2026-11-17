@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google, Google LLC ile bağlantısı olmayan, onun tarafından onaylanmayan veya desteklenmeyen bağımsız ve resmi olmayan bir projedir. Google, Google Wallet, Google Play, Play Integrity ve Android, Google LLC'nin ticari markalarıdır.",
   "action_close": "Kapat",
   "action_export": "Dışa aktar",
+  "export_warning": "Rapor Downloads klasörüne kaydedilir ve cihazınızın bilgilerini (operatör, model, RCS, Wallet ve tasdik durumu) içerir. Cihazınızdan asla çıkmaz, ancak depolama erişimi olan herhangi bir uygulama onu orada okuyabilir, bu yüzden işiniz bittiğinde silin.",
   "action_hide": "Gizle",
   "action_info": "Bilgi",
   "action_language": "Dil",

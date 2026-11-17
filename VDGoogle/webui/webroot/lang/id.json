@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google adalah proyek independen dan tidak resmi, tidak berafiliasi dengan, didukung oleh, atau disponsori oleh Google LLC. Google, Google Wallet, Google Play, Play Integrity, dan Android adalah merek dagang dari Google LLC.",
   "action_close": "Tutup",
   "action_export": "Ekspor",
+  "export_warning": "Laporan disimpan ke folder Downloads dan memuat detail perangkat Anda (operator, model, RCS, Wallet, dan status atestasi). Laporan tidak pernah keluar dari perangkat Anda, tetapi aplikasi apa pun dengan akses penyimpanan dapat membacanya di sana, jadi hapus setelah Anda selesai.",
   "action_hide": "Sembunyikan",
   "action_info": "Info",
   "action_language": "Bahasa",

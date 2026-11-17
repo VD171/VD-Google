@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google là một dự án độc lập, không chính thức, không liên kết với, không được chứng thực hoặc tài trợ bởi Google LLC. Google, Google Wallet, Google Play, Play Integrity và Android là các thương hiệu của Google LLC.",
   "action_close": "Đóng",
   "action_export": "Xuất",
+  "export_warning": "Báo cáo được lưu vào thư mục Downloads và chứa thông tin thiết bị của bạn (nhà mạng, kiểu máy, RCS, Wallet và trạng thái chứng thực). Báo cáo không bao giờ rời khỏi thiết bị của bạn, nhưng bất kỳ ứng dụng nào có quyền truy cập bộ nhớ đều có thể đọc nó ở đó, vì vậy hãy xóa nó khi bạn hoàn tất.",
   "action_hide": "Ẩn",
   "action_info": "Thông tin",
   "action_language": "Ngôn ngữ",

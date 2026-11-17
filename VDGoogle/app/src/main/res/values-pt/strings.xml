@@ -160,6 +160,7 @@
     <string name="action_theme">Tema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exportar</string>
+    <string name="export_warning">O relatório é salvo na pasta Downloads e contém os dados do seu aparelho (operadora, modelo, RCS, Carteira e estado da atestação). Ele nunca sai do seu aparelho, mas qualquer app com acesso ao armazenamento pode lê-lo ali, então apague-o assim que terminar.</string>
     <string name="action_save">Salvar</string>
     <string name="rcs_carrier">Operadora</string>
     <string name="rcs_carrier_m">A operadora da sua linha (nome e MCC/MNC).</string>

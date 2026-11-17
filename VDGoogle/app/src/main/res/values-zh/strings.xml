@@ -160,6 +160,7 @@
     <string name="action_theme">主题</string>
     <string name="action_info">信息</string>
     <string name="action_export">导出</string>
+    <string name="export_warning">报告会保存到 Downloads 文件夹，其中包含你的设备信息（运营商、型号、RCS、Wallet 和认证状态）。它绝不会离开你的设备，但任何拥有存储访问权限的应用都能在那里读取它，因此用完后请将其删除。</string>
     <string name="action_save">保存</string>
     <string name="rcs_carrier">运营商</string>
     <string name="rcs_carrier_m">你号码的移动运营商（名称和 MCC/MNC）。</string>

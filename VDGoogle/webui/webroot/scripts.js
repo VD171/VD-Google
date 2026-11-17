@@ -712,8 +712,9 @@
 
   async function logAction(action, ok) {
     var entry = JSON.stringify({ time: tsMs(Date.now()), action: action, ok: ok, appVersion: APPVER });
+    var entry64 = btoa(unescape(encodeURIComponent(entry)));
     try {
-      await ex("mkdir -p " + STATE + " && printf '%s\\n' '" + entry + "' >> " + STATE + "/actions.jsonl" +
+      await ex("mkdir -p " + STATE + " && { printf '%s' '" + entry64 + "' | base64 -d; printf '\\n'; } >> " + STATE + "/actions.jsonl" +
         " && tail -n 200 " + STATE + "/actions.jsonl > " + STATE + "/actions.jsonl.tmp && mv -f " + STATE + "/actions.jsonl.tmp " + STATE + "/actions.jsonl");
     } catch (e) {}
   }
@@ -849,7 +850,7 @@
   });
 
   document.getElementById("export").addEventListener("click", function () {
-    if (hasRoot()) doExport();
+    if (hasRoot()) confirmDialog(t("action_export"), t("export_warning"), t("action_export"), t("wallet_reset_cancel"), doExport);
   });
 
   document.getElementById("theme").addEventListener("click", function () {
@@ -890,7 +891,7 @@
     var n = (navigator.language || "en").toLowerCase();
     if (I18N.AVAILABLE.indexOf(n) >= 0) return n;
     var base = n.split("-")[0];
-    if (base === "id") return "in";
+    if (base === "in") return "id";
     return I18N.AVAILABLE.indexOf(base) >= 0 ? base : "en";
   }
 

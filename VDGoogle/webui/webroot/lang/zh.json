@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google 是一个独立的非官方项目，与 Google LLC 无关联，未获得其认可或赞助。Google、Google Wallet、Google Play、Play Integrity 和 Android 是 Google LLC 的商标。",
   "action_close": "关闭",
   "action_export": "导出",
+  "export_warning": "报告会保存到 Downloads 文件夹，其中包含你的设备信息（运营商、型号、RCS、Wallet 和认证状态）。它绝不会离开你的设备，但任何拥有存储访问权限的应用都能在那里读取它，因此用完后请将其删除。",
   "action_hide": "隐藏",
   "action_info": "信息",
   "action_language": "语言",

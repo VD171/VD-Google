@@ -41,8 +41,8 @@ android {
         applicationId = "ru.vd171.vdgoogle"
         minSdk = 26
         targetSdk = 35
-        versionCode = 17
-        versionName = "1.14"
+        versionCode = 18
+        versionName = "1.15"
         vectorDrawables.useSupportLibrary = true
         ndk {
             abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")

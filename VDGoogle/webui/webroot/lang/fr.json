@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google est un projet indépendant et non officiel, qui n'est ni affilié à Google LLC, ni approuvé ou parrainé par celle-ci. Google, Google Wallet, Google Play, Play Integrity et Android sont des marques de Google LLC.",
   "action_close": "Fermer",
   "action_export": "Exporter",
+  "export_warning": "Le rapport est enregistré dans le dossier Downloads et contient les informations de votre appareil (opérateur, modèle, RCS, Wallet et état d'attestation). Il ne quitte jamais votre appareil, mais toute application ayant accès au stockage peut l'y lire, alors supprimez-le une fois terminé.",
   "action_hide": "Masquer",
   "action_info": "Infos",
   "action_language": "Langue",

@@ -160,6 +160,7 @@
     <string name="action_theme">Motyw</string>
     <string name="action_info">Info</string>
     <string name="action_export">Eksportuj</string>
+    <string name="export_warning">Raport jest zapisywany w folderze Downloads i zawiera dane Twojego urządzenia (operator, model, RCS, Wallet i stan atestacji). Nigdy nie opuszcza Twojego urządzenia, ale może go tam odczytać każda aplikacja z dostępem do pamięci, więc usuń go po zakończeniu.</string>
     <string name="action_save">Zapisz</string>
     <string name="rcs_carrier">Operator</string>
     <string name="rcs_carrier_m">Operator komórkowy Twojej linii (nazwa i MCC/MNC).</string>

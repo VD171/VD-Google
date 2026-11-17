@@ -160,6 +160,7 @@
     <string name="action_theme">Tema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Esporta</string>
+    <string name="export_warning">Il report viene salvato nella cartella Downloads e contiene i dati del tuo dispositivo (operatore, modello, RCS, Wallet e stato dell\'attestazione). Non lascia mai il tuo dispositivo, ma qualsiasi app con accesso all\'archiviazione può leggerlo lì, quindi eliminalo quando hai finito.</string>
     <string name="action_save">Salva</string>
     <string name="rcs_carrier">Operatore</string>
     <string name="rcs_carrier_m">L\'operatore mobile della tua linea (nome e MCC/MNC).</string>

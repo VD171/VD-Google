@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google is een onafhankelijk, niet-officieel project dat niet is gelieerd aan, onderschreven door of gesponsord door Google LLC. Google, Google Wallet, Google Play, Play Integrity en Android zijn handelsmerken van Google LLC.",
   "action_close": "Sluiten",
   "action_export": "Exporteren",
+  "export_warning": "Het rapport wordt opgeslagen in de map Downloads en bevat de gegevens van je apparaat (provider, model, RCS, Wallet en attestatiestatus). Het verlaat je apparaat nooit, maar elke app met toegang tot de opslag kan het daar lezen, dus verwijder het zodra je klaar bent.",
   "action_hide": "Verbergen",
   "action_info": "Info",
   "action_language": "Taal",

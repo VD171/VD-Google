@@ -160,6 +160,7 @@
     <string name="action_theme">Design</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exportieren</string>
+    <string name="export_warning">Der Bericht wird im Ordner Downloads gespeichert und enthält die Daten deines Geräts (Mobilfunkanbieter, Modell, RCS, Wallet und Attestierungsstatus). Er verlässt dein Gerät nie, aber jede App mit Speicherzugriff kann ihn dort lesen, lösche ihn also, sobald du fertig bist.</string>
     <string name="action_save">Speichern</string>
     <string name="rcs_carrier">Mobilfunkanbieter</string>
     <string name="rcs_carrier_m">Der Mobilfunkanbieter deiner Leitung (Name und MCC/MNC).</string>

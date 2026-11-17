@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google एक स्वतंत्र, अनौपचारिक परियोजना है, जो Google LLC से संबद्ध, समर्थित या प्रायोजित नहीं है। Google, Google Wallet, Google Play, Play Integrity और Android, Google LLC के ट्रेडमार्क हैं।",
   "action_close": "बंद करें",
   "action_export": "निर्यात",
+  "export_warning": "रिपोर्ट आपके Downloads फ़ोल्डर में सहेजी जाती है और इसमें आपके डिवाइस की जानकारी (कैरियर, मॉडल, RCS, Wallet और प्रमाणन स्थिति) होती है। यह कभी आपके डिवाइस से बाहर नहीं जाती, लेकिन स्टोरेज एक्सेस वाला कोई भी ऐप इसे वहाँ पढ़ सकता है, इसलिए काम पूरा होते ही इसे हटा दें।",
   "action_hide": "छिपाएँ",
   "action_info": "जानकारी",
   "action_language": "भाषा",

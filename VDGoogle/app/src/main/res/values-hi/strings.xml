@@ -160,6 +160,7 @@
     <string name="action_theme">थीम</string>
     <string name="action_info">जानकारी</string>
     <string name="action_export">निर्यात</string>
+    <string name="export_warning">रिपोर्ट आपके Downloads फ़ोल्डर में सहेजी जाती है और इसमें आपके डिवाइस की जानकारी (कैरियर, मॉडल, RCS, Wallet और प्रमाणन स्थिति) होती है। यह कभी आपके डिवाइस से बाहर नहीं जाती, लेकिन स्टोरेज एक्सेस वाला कोई भी ऐप इसे वहाँ पढ़ सकता है, इसलिए काम पूरा होते ही इसे हटा दें।</string>
     <string name="action_save">सहेजें</string>
     <string name="rcs_carrier">कैरियर</string>
     <string name="rcs_carrier_m">आपकी लाइन का मोबाइल कैरियर (नाम और MCC/MNC)।</string>

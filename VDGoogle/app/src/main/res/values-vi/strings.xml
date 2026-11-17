@@ -160,6 +160,7 @@
     <string name="action_theme">Giao diện</string>
     <string name="action_info">Thông tin</string>
     <string name="action_export">Xuất</string>
+    <string name="export_warning">Báo cáo được lưu vào thư mục Downloads và chứa thông tin thiết bị của bạn (nhà mạng, kiểu máy, RCS, Wallet và trạng thái chứng thực). Báo cáo không bao giờ rời khỏi thiết bị của bạn, nhưng bất kỳ ứng dụng nào có quyền truy cập bộ nhớ đều có thể đọc nó ở đó, vì vậy hãy xóa nó khi bạn hoàn tất.</string>
     <string name="action_save">Lưu</string>
     <string name="rcs_carrier">Nhà mạng</string>
     <string name="rcs_carrier_m">Nhà mạng di động của số máy bạn (tên và MCC/MNC).</string>

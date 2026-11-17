@@ -39,6 +39,7 @@
     <string name="action_info">Info</string>
     <string name="action_save">Save</string>
     <string name="action_export">Export</string>
+    <string name="export_warning">The report is saved to your Downloads folder and holds your device details (carrier, model, RCS, Wallet and attestation state). It never leaves your device, but any app with storage access can read it there, so delete it once you are done.</string>
     <string name="action_language">Language</string>
     <string name="lang_title">Choose language</string>
     <string name="lang_system">System default</string>

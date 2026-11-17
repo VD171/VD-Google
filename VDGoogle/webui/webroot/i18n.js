@@ -23,11 +23,11 @@
  */
 (function () {
   "use strict";
-  var AVAILABLE = ["en", "ar", "cs", "de", "es", "fa", "fr", "hi", "in", "it", "ja",
+  var AVAILABLE = ["en", "ar", "cs", "de", "es", "fa", "fr", "hi", "id", "it", "ja",
                    "ko", "nl", "pl", "pt", "ru", "sv", "th", "tr", "uk", "vi", "zh"];
   var NAMES = {
     en: "English", ar: "العربية", cs: "Čeština", de: "Deutsch", es: "Español",
-    fa: "فارسی", fr: "Français", hi: "हिन्दी", in: "Bahasa Indonesia", it: "Italiano",
+    fa: "فارسی", fr: "Français", hi: "हिन्दी", id: "Bahasa Indonesia", it: "Italiano",
     ja: "日本語", ko: "한국어", nl: "Nederlands", pl: "Polski", pt: "Português",
     ru: "Русский", sv: "Svenska", th: "ไทย", tr: "Türkçe", uk: "Українська", vi: "Tiếng Việt", zh: "中文"
   };
@@ -39,7 +39,7 @@
     var n = (navigator.language || "en").toLowerCase();
     if (AVAILABLE.indexOf(n) >= 0) return n;
     var base = n.split("-")[0];
-    if (base === "id") return "in";
+    if (base === "in") return "id";
     if (AVAILABLE.indexOf(base) >= 0) return base;
     return "en";
   }

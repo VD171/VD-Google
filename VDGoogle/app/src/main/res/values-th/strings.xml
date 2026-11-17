@@ -160,6 +160,7 @@
     <string name="action_theme">ธีม</string>
     <string name="action_info">ข้อมูล</string>
     <string name="action_export">ส่งออก</string>
+    <string name="export_warning">รายงานจะถูกบันทึกไว้ในโฟลเดอร์ Downloads และมีรายละเอียดอุปกรณ์ของคุณ (ผู้ให้บริการ รุ่น RCS Wallet และสถานะการรับรอง) รายงานจะไม่ออกจากอุปกรณ์ของคุณ แต่แอปใดก็ตามที่เข้าถึงพื้นที่จัดเก็บได้สามารถอ่านรายงานที่นั่นได้ ดังนั้นโปรดลบออกเมื่อเสร็จแล้ว</string>
     <string name="action_save">บันทึก</string>
     <string name="rcs_carrier">ผู้ให้บริการ</string>
     <string name="rcs_carrier_m">ผู้ให้บริการมือถือของเลขหมายคุณ (ชื่อและ MCC/MNC)</string>

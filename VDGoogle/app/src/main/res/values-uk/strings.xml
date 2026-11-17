@@ -39,6 +39,7 @@
     <string name="action_info">Відомості</string>
     <string name="action_save">Зберегти</string>
     <string name="action_export">Експортувати</string>
+    <string name="export_warning">Звіт зберігається в папку Downloads і містить дані вашого пристрою (оператор, модель, RCS, Wallet і стан атестації). Він ніколи не залишає ваш пристрій, але будь-який застосунок із доступом до сховища може прочитати його там, тож видаліть його, щойно закінчите.</string>
     <string name="action_language">Мова</string>
     <string name="lang_title">Виберіть мову</string>
     <string name="lang_system">Типова мова системи</string>
@@ -68,7 +69,7 @@
     <string name="rcs_state">Стан активації (кешовано)</string>
     <string name="rcs_state_m">Внутрішнє значення активації, яке додаток Повідомлення зберігає для вашої лінії. Воно може лишатися нульовим, навіть коли RCS вже працює. Тому орієнтуйтеся на стан підключення вище.</string>
     <string name="rcs_cfg_version">Версія конфігурації</string>
-    <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано. 0 тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
+    <string name="rcs_cfg_version_m">Версія конфігурації RCS, отриманої для цієї SIM-картки. Значення 0 означає, що чинну конфігурацію ще не отримано. 0 тут нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_capable">Контакти з підтримкою RCS</string>
     <string name="rcs_capable_m">Кількість контактів, для яких наразі відомо, що вони підтримують чати RCS.</string>
     <string name="rcs_flag_enabled">Прапорець функції (кешовано)</string>
@@ -76,11 +77,11 @@
     <string name="rcs_flag_unavailable">Позначено як недоступне</string>
     <string name="rcs_flag_unavailable_m">Чи позначила служба RCS цю SIM-картку як таку, для якої RCS недоступний.</string>
     <string name="rcs_entitlement">Авторизація оператора</string>
-    <string name="rcs_entitlement_m">Чи активна служба авторизації оператора, яка надає дозвіл на використання RCS. 0 тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
+    <string name="rcs_entitlement_m">Чи активна служба авторизації оператора, яка надає дозвіл на використання RCS. 0 тут нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_uce">Обмін відомостями про можливості (UCE)</string>
-    <string name="rcs_uce_m">User Capability Exchange - механізм, за допомогою якого ваша SIM-картка повідомляє про підтримувані можливості RCS та виявляє такі можливості в інших абонентів. Ні тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
+    <string name="rcs_uce_m">User Capability Exchange є механізмом, за допомогою якого ваша SIM-картка повідомляє про підтримувані можливості RCS та виявляє такі можливості в інших абонентів. «Ні» тут нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
     <string name="rcs_ims_pkg">Службу IMS встановлено</string>
-    <string name="rcs_ims_pkg_m">Чи встановлено на пристрої службу IMS мобільного оператора, від якої залежить робота RCS. Ні тут - це нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
+    <string name="rcs_ims_pkg_m">Чи встановлено на пристрої службу IMS мобільного оператора, від якої залежить робота RCS. «Ні» тут нормально, коли ваш RCS працює через власний бекенд Google, а не через оператора.</string>
 
     <string name="rcs_sec_times">Часові позначки</string>
     <string name="rcs_cfg_updated">Конфігурацію оновлено</string>
@@ -159,7 +160,7 @@
     <string name="about_license">Ліцензія</string>
     <string name="about_contacts">Контакти</string>
     <string name="about_support">Підтримка</string>
-    <string name="about_trademarks">VD Google - це незалежний, неофіційний проєкт, не пов\'язаний із Google LLC, не схвалений і не спонсорований нею. Google, Google Wallet, Google Play, Play Integrity та Android є торговими марками Google LLC.</string>
+    <string name="about_trademarks">VD Google є незалежним, неофіційним проєктом, не пов\'язаним із Google LLC, не схваленим і не спонсорованим нею. Google, Google Wallet, Google Play, Play Integrity та Android є торговими марками Google LLC.</string>
 
     <string name="rcs_carrier">Мобільний оператор</string>
     <string name="rcs_carrier_m">Мобільний оператор, який обслуговує вашу SIM-картку (назва та коди MCC/MNC).</string>

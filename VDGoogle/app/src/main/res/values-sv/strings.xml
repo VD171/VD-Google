@@ -160,6 +160,7 @@
     <string name="action_theme">Tema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exportera</string>
+    <string name="export_warning">Rapporten sparas i mappen Downloads och innehåller uppgifter om din enhet (operatör, modell, RCS, Wallet och attesteringsstatus). Den lämnar aldrig din enhet, men vilken app som helst med lagringsåtkomst kan läsa den där, så radera den när du är klar.</string>
     <string name="action_save">Spara</string>
     <string name="rcs_carrier">Operatör</string>
     <string name="rcs_carrier_m">Mobiloperatören för din linje (namn och MCC/MNC).</string>

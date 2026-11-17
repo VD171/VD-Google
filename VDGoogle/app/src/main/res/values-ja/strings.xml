@@ -160,6 +160,7 @@
     <string name="action_theme">テーマ</string>
     <string name="action_info">情報</string>
     <string name="action_export">エクスポート</string>
+    <string name="export_warning">レポートは Downloads フォルダに保存され、端末の情報（通信事業者、モデル、RCS、Wallet、認証状態）が含まれます。端末の外に出ることはありませんが、ストレージにアクセスできるアプリならそこで読み取れるため、作業が終わったら削除してください。</string>
     <string name="action_save">保存</string>
     <string name="rcs_carrier">通信事業者</string>
     <string name="rcs_carrier_m">回線の通信事業者 (名前と MCC/MNC)。</string>

@@ -160,6 +160,7 @@
     <string name="action_theme">Tema</string>
     <string name="action_info">Bilgi</string>
     <string name="action_export">Dışa aktar</string>
+    <string name="export_warning">Rapor Downloads klasörüne kaydedilir ve cihazınızın bilgilerini (operatör, model, RCS, Wallet ve tasdik durumu) içerir. Cihazınızdan asla çıkmaz, ancak depolama erişimi olan herhangi bir uygulama onu orada okuyabilir, bu yüzden işiniz bittiğinde silin.</string>
     <string name="action_save">Kaydet</string>
     <string name="rcs_carrier">Operatör</string>
     <string name="rcs_carrier_m">Hattınızın mobil operatörü (ad ve MCC/MNC).</string>

@@ -2,6 +2,11 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.15] - 2026-11-17
+
+- Exporting the report from the WebUI now asks you to confirm first: the file is saved to your Downloads folder and, while it never leaves your device, any app with storage access can read it there, so you can delete it once you are done.
+- Indonesian now uses the standard "id" language code.
+
 ## [1.14] - 2026-11-10
 
 - The RCS carrier lines (carrier entitlement, presence/UCE, IMS service, configuration version) now explain that a No or 0 there is normal when your RCS runs through Google's own backend instead of your carrier.
@@ -103,3 +108,9 @@ All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 - Google Wallet: payment attestation, NFC, tap-to-pay and related settings.
 - Attestations: which apps have asked Google Play Integrity about the device, with search and reload.
 - In-app language selector (21 languages). No internet permission. Root required.
+
+<!-- doc-footer -->
+
+---
+
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](docs/CONTRIBUTING.md)._

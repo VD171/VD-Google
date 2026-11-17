@@ -160,6 +160,7 @@
     <string name="action_theme">Tema</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exportar</string>
+    <string name="export_warning">El informe se guarda en la carpeta Downloads y contiene los datos de tu dispositivo (operador, modelo, RCS, Wallet y estado de atestación). Nunca sale de tu dispositivo, pero cualquier app con acceso al almacenamiento puede leerlo ahí, así que elimínalo cuando termines.</string>
     <string name="action_save">Guardar</string>
     <string name="rcs_carrier">Operador</string>
     <string name="rcs_carrier_m">El operador móvil de tu línea (nombre y MCC/MNC).</string>

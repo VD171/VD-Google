@@ -10,6 +10,7 @@
   "about_trademarks": "VD Google هو مشروع مستقل وغير رسمي، وغير مرتبط بشركة Google LLC أو معتمد منها أو برعايتها. إن Google وGoogle Wallet وGoogle Play وPlay Integrity وAndroid هي علامات تجارية لشركة Google LLC.",
   "action_close": "إغلاق",
   "action_export": "تصدير",
+  "export_warning": "يُحفظ التقرير في مجلد Downloads ويحتوي على تفاصيل جهازك (المشغّل والطراز وRCS وWallet وحالة التثبيت). لا يغادر جهازك أبدًا، لكن يمكن لأي تطبيق لديه صلاحية الوصول إلى مساحة التخزين قراءته هناك، لذا احذفه بمجرد الانتهاء.",
   "action_hide": "إخفاء",
   "action_info": "معلومات",
   "action_language": "اللغة",

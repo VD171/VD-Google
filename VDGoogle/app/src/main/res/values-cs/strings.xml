@@ -160,6 +160,7 @@
     <string name="action_theme">Motiv</string>
     <string name="action_info">Info</string>
     <string name="action_export">Exportovat</string>
+    <string name="export_warning">Zpráva se ukládá do složky Downloads a obsahuje údaje o vašem zařízení (operátor, model, RCS, Wallet a stav atestace). Vaše zařízení nikdy neopustí, ale může ji tam přečíst jakákoli aplikace s přístupem k úložišti, takže ji po dokončení smažte.</string>
     <string name="action_save">Uložit</string>
     <string name="rcs_carrier">Operátor</string>
     <string name="rcs_carrier_m">Mobilní operátor vaší linky (název a MCC/MNC).</string>

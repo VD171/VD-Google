@@ -160,6 +160,7 @@
     <string name="action_theme">المظهر</string>
     <string name="action_info">معلومات</string>
     <string name="action_export">تصدير</string>
+    <string name="export_warning">يُحفظ التقرير في مجلد Downloads ويحتوي على تفاصيل جهازك (المشغّل والطراز وRCS وWallet وحالة التثبيت). لا يغادر جهازك أبدًا، لكن يمكن لأي تطبيق لديه صلاحية الوصول إلى مساحة التخزين قراءته هناك، لذا احذفه بمجرد الانتهاء.</string>
     <string name="action_save">حفظ</string>
     <string name="rcs_carrier">المشغّل</string>
     <string name="rcs_carrier_m">مشغّل الهاتف المحمول لخطك (الاسم و MCC/MNC).</string>
