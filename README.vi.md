@@ -77,6 +77,7 @@ VD Google không khai báo **bất kỳ quyền nào**, kể cả quyền truy c
 ## Yêu cầu
 
 - Android 8.0 (API 26) trở lên.
+- Chạy trên các thiết bị arm, arm64, x86 và x86_64 - điện thoại, máy tính bảng, trình giả lập và ChromeOS.
 - **Cần quyền root.** Những thông tin trên nằm trong các vùng được bảo vệ của Android, chỉ hệ thống mới truy cập được. VD Google đọc chúng bằng quyền siêu người dùng và không làm gì khác với chúng. Không có root, ứng dụng chỉ hiển thị một màn hình giải thích vì sao cần root.
 
 ## Dấu thời gian
@@ -100,9 +101,11 @@ Mọi thời gian được hiển thị theo múi giờ hiện tại của thi�
 Các dự án cùng tác giả:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: trình gỡ lỗi phương thức thiết bị, đọc từng mục qua mọi phương thức có thể đọc nó và so sánh chúng cạnh nhau.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: sao lưu và khôi phục toàn bộ ứng dụng và dữ liệu bằng quyền root, điều khiển hoàn toàn từ WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: trình giả mạo thiết bị, biến một fingerprint mới thành một hồ sơ mạch lạc, nhất quán.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: một SSH daemon độc lập chạy bằng quyền root (Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: sao lưu và khôi phục toàn bộ ứng dụng và dữ liệu bằng quyền root, điều khiển hoàn toàn từ WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: một engine tự cập nhật tăng dần không cần flash, được nhúng vào các module KernelSU/APatch/Magisk.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: một trình cài đặt sideload với quyền root không ma sát cho các APK đơn, hàng loạt và phân tách, với công tắc trình xác minh Play Protect và giả mạo nguồn cài đặt.
 
 ## Liên hệ
 

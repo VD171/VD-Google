@@ -77,6 +77,7 @@ VD Google vraagt **helemaal geen toestemmingen**, zelfs geen internettoegang. Ni
 ## Vereisten
 
 - Android 8.0 (API 26) of nieuwer.
+- Werkt op arm-, arm64-, x86- en x86_64-toestellen - telefoons, tablets, emulators en ChromeOS.
 - **Root is vereist.** De bovenstaande informatie bevindt zich in beschermde, alleen voor het systeem toegankelijke gebieden van Android. VD Google leest ze met superuser-toegang en doet er verder niets mee. Zonder root toont de app alleen een scherm dat uitlegt waarom root nodig is.
 
 ## Tijdstempels
@@ -100,9 +101,11 @@ Alle tijden worden getoond in de huidige tijdzone van je toestel, en de tijdzone
 Zusterprojecten van dezelfde auteur:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: een methode-debugger die elk item leest via elke methode die het kan lezen en ze naast elkaar vergelijkt.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: volledige back-up en herstel van apps en gegevens als root, volledig aangestuurd vanuit een WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: een apparaatspoofer die een nieuwe fingerprint omzet in een coherent, consistent profiel.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: een standalone SSH-daemon (Dropbear) met root.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: volledige back-up en herstel van apps en gegevens als root, volledig aangestuurd vanuit een WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: een flashloze, incrementele zelfupdate-engine, ingebed in KernelSU/APatch/Magisk-modules.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: een wrijvingsloze root-sideload-installer voor losse, batch- en split-APK's, met een Play Protect-verifier-schakelaar en vervalsing van de installatiebron.
 
 ## Contacten
 

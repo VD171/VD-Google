@@ -1,6 +1,6 @@
 {
   "abi": "arm64-v8a",
-  "generated_utc": "2026-11-10T03:45:46Z",
+  "generated_utc": "2026-11-19T01:52:34Z",
   "policy": "sqlite3 and its libraries are fetched at build time from the official Termux apt repository, never from a device. Audit: re-fetch the pinned sources, extract, and compare the file sha256 values.",
   "sources": [
     {"type": "termux-deb", "package": "sqlite", "version": "3.54.1-1", "url": "https://packages.termux.dev/apt/termux-main/pool/main/s/sqlite/sqlite_3.54.1-1_aarch64.deb", "deb_sha256": "d20026cd0c91e1078e429dd93774e90b412e7b60549948fb378c62e43476d1bf"},

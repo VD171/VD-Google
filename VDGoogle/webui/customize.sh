@@ -37,22 +37,25 @@ if [ "$API" -lt 26 ]; then
   abort "  ! Android version is too old."
 fi
 
-# Supported CPU only: never ship a wrong-arch sqlite3.
+. "$MODPATH/.vd/sha256-gate.sh"
+
 VDG_ARCH="$ARCH"
-[ -z "$VDG_ARCH" ] && case "$(getprop ro.product.cpu.abi)" in arm64*) VDG_ARCH=arm64 ;; arm*) VDG_ARCH=arm ;; *) VDG_ARCH=other ;; esac
+[ -z "$VDG_ARCH" ] && case "$(getprop ro.product.cpu.abi)" in arm64*) VDG_ARCH=arm64 ;; x86_64) VDG_ARCH=x64 ;; x86) VDG_ARCH=x86 ;; arm*) VDG_ARCH=arm ;; *) VDG_ARCH=other ;; esac
 case "$VDG_ARCH" in
   arm64) BINABI=arm64-v8a ;;
   arm)   BINABI=armeabi-v7a ;;
-  *) ui_print "  ! Unsupported CPU ($VDG_ARCH); VD Google needs arm or arm64."; abort "  ! Unsupported architecture." ;;
+  x64)   BINABI=x86_64 ;;
+  x86)   BINABI=x86 ;;
+  *) ui_print "  ! Unsupported CPU ($VDG_ARCH); VD Google needs arm, arm64, x86 or x86_64."; abort "  ! Unsupported architecture." ;;
 esac
 
-# Integrity gate: every bundled binary must match its recorded checksum (PROVENANCE.json).
 PROV="$MODPATH/bin/$BINABI/PROVENANCE.json"
 if [ -f "$PROV" ]; then
   ui_print "  Verifying bundled binaries ($BINABI)..."
   VDG_FAIL=0
   for f in "$MODPATH/bin/$BINABI/sqlite3" "$MODPATH/bin/$BINABI/lib/"*; do
     [ -f "$f" ] || continue
+    case "$f" in *.sha256) continue ;; esac
     rel=${f#"$MODPATH/bin/$BINABI/"}
     want=$(grep "\"path\": \"$rel\"" "$PROV" | grep -oE '[0-9a-f]{64}' | head -1)
     got=$(sha256sum "$f" 2>/dev/null | cut -d' ' -f1)

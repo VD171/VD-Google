@@ -22,20 +22,23 @@
 
 name: Release
 
-# CI release: build the signed APK + WebUI zip and draft a release. The signing
-# key never lives in the repo: it is injected from encrypted GitHub Actions
-# secrets at build time and wiped after. Fork PRs cannot read secrets (GitHub
-# blocks that), so this only runs on the owner's tags and manual dispatch.
-# Actions are pinned by commit SHA.
+# CI release, dispatched manually (workflow_dispatch), NEVER by pushing a tag: a
+# hand-pushed tag trips the pre-push guard's workflow scan, and the fleet standard
+# is for the CI to create the tag itself. `build` signs the APK and packages the
+# WebUI zip (signing key injected from encrypted secrets at build time and wiped
+# after), then uploads them as an artifact. `publish` runs behind the
+# `release-approval` environment (if the owner configured a required reviewer it
+# approves the deployment - approving is not publishing) and then `gh release
+# create` makes BOTH the tag and the release server-side as github-actions[bot],
+# with the version read from webui/module.prop. Never draft, never the UI Publish
+# button, never a PAT. The human gate to start a release is dispatching this
+# workflow on the default branch.
 
 on:
-  push:
-    tags:
-      - 'v*'
   workflow_dispatch:
     inputs:
-      ref:
-        description: 'Tag/branch/commit to build'
+      notes:
+        description: 'Extra release notes (optional; prepended to the generated body)'
         required: false
         default: ''
 
@@ -51,21 +54,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-        with:
-          ref: ${{ github.event.inputs.ref || github.ref }}
+        uses: actions/checkout@v7
 
       - name: Set up JDK 17
-        uses: actions/setup-java@7a6d8a8234af8eb26422e24e3006232cccaa061b # v4.6.0
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '17'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3.2.2
+        uses: android-actions/setup-android@v4
+        with:
+          packages: ''
 
-      - name: Install NDK + CMake
-        run: sdkmanager "ndk;27.0.12077973" "cmake;3.22.1"
+      - name: Install SDK packages
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.1" "ndk;27.0.12077973" "cmake;3.22.1"
+
+      - name: Drop the local JBR pin (CI uses the temurin JDK from setup-java)
+        run: sed -i '/^org.gradle.java.home=/d' VDGoogle/gradle.properties
 
       - name: Inject signing material
         env:
@@ -104,6 +110,7 @@ jobs:
         run: |
           mkdir -p dist
           cp VDGoogle/app/build/outputs/apk/release/*.apk dist/
+          # the WebUI zip is already in dist/ (package.sh writes it there)
           ls -l dist/
           APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -1)
           for a in dist/*.apk; do
@@ -112,17 +119,58 @@ jobs:
           done
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b # v4.5.0
+        uses: actions/upload-artifact@v7
         with:
           name: vdgoogle-release
           path: dist/*
           if-no-files-found: error
 
-      - name: Draft release (tag only)
-        if: startsWith(github.ref, 'refs/tags/')
-        uses: softprops/action-gh-release@e7a8f85e1c67a31e6ed99a94b41bd0b71bbee6b8 # v2.0.9
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    # Owner-configured gate: if a required reviewer is set, it approves the
+    # deployment (not the publish), so the release stays authored by the bot.
+    environment: release-approval
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v8
         with:
-          draft: true
-          files: dist/*
-          fail_on_unmatched_files: true
-          generate_release_notes: false
+          name: vdgoogle-release
+          path: dist
+
+      - name: Prepare release notes and version
+        env:
+          EXTRA_NOTES: ${{ github.event.inputs.notes }}
+        run: |
+          ver="$(sed -n 's/^version=//p' VDGoogle/webui/module.prop)"
+          [ -n "$ver" ] || { echo "::error::could not read version from VDGoogle/webui/module.prop"; exit 1; }
+          VER="${ver#v}"
+          : > body.md
+          [ -n "$EXTRA_NOTES" ] && printf '%s\n\n' "$EXTRA_NOTES" >> body.md
+          awk -v h="## [$VER]" 'index($0,h)==1{f=1;next} f&&/^## \[/{exit} f{print}' CHANGELOG.md >> body.md
+          if [ ! -s body.md ]; then echo "See the commit history for the changes in this version." > body.md; fi
+          printf '\n---\n\n📣 Join the channel for updates: @Priv8_VD https://t.me/Priv8_VD\n' >> body.md
+          echo "VDG_VER=$ver" >> "$GITHUB_ENV"
+          cat body.md
+
+      - name: Publish release (bot-authored; gh release create makes the tag server-side)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$VDG_VER" --target "$GITHUB_SHA" --title "VD Google $VDG_VER" --notes-file body.md dist/*
+
+      - name: Assert release author is github-actions[bot]
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          author="$(gh release view "$VDG_VER" --json author -q '.author.login')"
+          if [ "$author" != "github-actions[bot]" ]; then
+            echo "::error::Release $VDG_VER was authored by '$author', not github-actions[bot] - auditability rule violated. The release step must use github.token, never a user PAT."
+            exit 1
+          fi
+          echo "Release author verified: github-actions[bot]"

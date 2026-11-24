@@ -49,9 +49,10 @@ REPO="${TERMUX_REPO:-https://packages.termux.dev/apt/termux-main}"
 
 termux_arch() { case "$1" in
   arm64-v8a) echo aarch64 ;; armeabi-v7a) echo arm ;;
+  x86_64) echo x86_64 ;; x86) echo i686 ;;
 esac; }
 
-ABIS="arm64-v8a armeabi-v7a"
+ABIS="arm64-v8a armeabi-v7a x86 x86_64"
 TOOL_PKGS="sqlite"
 WANT_BINS="sqlite3"
 BIONIC="libc.so libm.so libdl.so liblog.so libandroid.so libz.so libselinux.so libc++.so libc++_shared.so libstdc++.so libEGL.so libnativehelper.so libbinder.so"

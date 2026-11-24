@@ -77,6 +77,7 @@ VD Google nedeklaruje **vůbec žádná oprávnění**, dokonce ani přístup k 
 ## Požadavky
 
 - Android 8.0 (API 26) nebo novější.
+- Běží na zařízeních arm, arm64, x86 a x86_64 - telefony, tablety, emulátory a ChromeOS.
 - **Je vyžadován root.** Výše uvedené informace se nacházejí v chráněných oblastech Androidu přístupných pouze systému. VD Google je čte s přístupem superuživatele a nic jiného s nimi nedělá. Bez rootu aplikace pouze zobrazí obrazovku vysvětlující, proč je root potřeba.
 
 ## Časové značky
@@ -100,9 +101,11 @@ Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení 
 Sesterské projekty téhož autora:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metod zařízení, který čte každou položku všemi metodami, které ji dokážou přečíst, a porovnává je vedle sebe.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: úplné zálohování a obnova aplikací a dat jako root, ovládané zcela z WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: spoofer zařízení, který z nové fingerprint vytvoří soudržný, konzistentní profil.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: samostatný SSH démon běžící pod rootem (Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: úplné zálohování a obnova aplikací a dat jako root, ovládané zcela z WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: bezflashový, inkrementální engine pro samoaktualizaci, vestavěný do modulů KernelSU/APatch/Magisk.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: bezproblémový rootový sideload instalátor pro jednotlivé, dávkové a rozdělené APK, s přepínačem ověřování Play Protect a podvržením zdroje instalace.
 
 ## Kontakty
 

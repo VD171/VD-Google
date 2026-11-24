@@ -77,6 +77,7 @@ VD Google ne déclare **aucune autorisation**, pas même l'accès à Internet. R
 ## Prérequis
 
 - Android 8.0 (API 26) ou plus récent.
+- Fonctionne sur les appareils arm, arm64, x86 et x86_64 - téléphones, tablettes, émulateurs et ChromeOS.
 - **Le root est requis.** Les informations ci-dessus se trouvent dans des zones protégées d'Android, accessibles uniquement au système. VD Google les lit avec un accès superutilisateur et n'en fait rien d'autre. Sans root, l'application affiche seulement un écran expliquant pourquoi le root est nécessaire.
 
 ## Horodatages
@@ -100,9 +101,11 @@ Toutes les heures sont affichées dans le fuseau horaire actuel de votre apparei
 Projets frères du même auteur :
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: un débogueur de méthodes de l'appareil qui lit chaque élément via toutes les méthodes capables de le lire et les compare côte à côte.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: sauvegarde et restauration complètes des applications et des données en root, pilotées entièrement depuis une WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: un usurpateur d'appareil qui transforme une empreinte neuve en un profil cohérent et constant.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: un démon SSH autonome en root (Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: sauvegarde et restauration complètes des applications et des données en root, pilotées entièrement depuis une WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)** : un moteur d'auto-mise à jour incrémentale et sans flashage, intégré aux modules KernelSU/APatch/Magisk.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)** : un installateur sideload en root et sans friction pour les APK uniques, par lots et splittés, avec un interrupteur pour le vérificateur Play Protect et l'usurpation de la source d'installation.
 
 ## Contacts
 

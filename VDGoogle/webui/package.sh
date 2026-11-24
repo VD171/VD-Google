@@ -31,10 +31,12 @@ mkdir -p "$OUT_DIR"
 rm -f "$ZIP"
 
 cd "$HERE"
-zip -r9 -X "$ZIP" \
-    module.prop customize.sh uninstall.sh update.json \
-    META-INF bin webroot \
-    -x '*/.git*' >/dev/null
+STAGE="$(mktemp -d)"
+trap 'rm -rf "$STAGE"' EXIT
+cp -a module.prop customize.sh uninstall.sh update.json META-INF bin webroot .vd "$STAGE/"
+find "$STAGE" -name '.git*' -exec rm -rf {} + 2>/dev/null || true
+sh "$HERE/../../.github/scripts/gen-sha256.sh" "$STAGE" >/dev/null
+( cd "$STAGE" && zip -r9 -X "$ZIP" . -x './.git*' >/dev/null )
 
 echo "built $ZIP"
 unzip -l "$ZIP" | tail -n 1

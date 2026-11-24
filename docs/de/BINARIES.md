@@ -74,6 +74,26 @@ e7c301bc235e39984ab71f1906b00cc8cdfaea3451207597bc96132c8e247ca9  lib/libncurses
 fcf98d0343a3bc6326e08f92ca30f7a456eca87aa3834c05c1042a1c2daedeac  lib/libz.so.1  (56048 bytes)
 ```
 
+`x86`:
+
+```
+9b936d8539634249836b7bfb1b51b68f108f94b5cf3b9e02bab8cbb4a222250c  sqlite3  (1637296 bytes)
+b1004239a469cb492b683f28f1b59d525cb40715be6bcb51bf86c3351c0b59d8  lib/libandroid-support.so  (19656 bytes)
+e3a0c521443635effaf29bbd3387b080e960b86fea2a50c2c49cd74ead637079  lib/libncursesw.so.6  (357980 bytes)
+026876da62e303293d2ea3e33f14231964a02a12a93b076938d9589392323b73  lib/libreadline.so.8  (268876 bytes)
+1b5e10b598b40dedac5c51636067c1f94f8b83b643912bc5ad2b8d0b15d7552f  lib/libz.so.1  (77892 bytes)
+```
+
+`x86_64`:
+
+```
+70ef3fff45e735859d139fb893300cdf7d4cf371030c7d2e6fc3dc737de0642c  sqlite3  (1612376 bytes)
+f0f44e60090b07b3536729993fad94bb6127ff1c6f70188f5c6dab6a33b85dda  lib/libandroid-support.so  (20640 bytes)
+79789fd21d13b82fa87d6373382c815b3d97838962351ab3ec2f7f77edf79c09  lib/libncursesw.so.6  (384896 bytes)
+f8b0eb7ef121241c400824c0cc59e1eb2c02ca8901d526d428d41ee20fc40a13  lib/libreadline.so.8  (308584 bytes)
+9ac487f65c341194dd285b5cdb5464190552813800d78379953a45023d5b2a34  lib/libz.so.1  (82824 bytes)
+```
+
 Dieselben Prüfsummen sind in jeder `bin/<abi>/PROVENANCE.json` festgehalten, die neben der Binärdatei
 mitgeliefert wird.
 
@@ -90,6 +110,15 @@ Jeder Hash muss mit der obigen Auflistung übereinstimmen, und die Kopien der Ap
 miteinander übereinstimmen. Um die gesamte Nutzlast von Anfang bis Ende zu prüfen, hole die in jeder
 `PROVENANCE.json` aufgeführten, fixierten `.deb`-URLs erneut, entpacke sie und vergleiche die
 SHA-256-Werte der Dateien.
+
+## Integrität beim Flashen
+
+Das WebUI-Modul prüft sich selbst, während es installiert wird. Jede mitgelieferte Datei
+wird neben einer `.sha256`-Begleitdatei ausgeliefert, und `customize.sh` verifiziert jede
+einzelne, bevor es das System anfasst; wurde eine Datei beschädigt oder die `.zip` unterwegs
+abgeschnitten, wird das Flashen mit einer klaren Meldung abgebrochen, statt eine beschädigte
+Nutzlast zu installieren. Die Prüfung wird auf dem seltenen Gerät, dessen Recovery kein
+`sha256sum` mit Unterstützung für `-c` hat, sicher übersprungen.
 
 ## Wofür es verwendet wird
 

@@ -77,6 +77,7 @@ VD Google deklarerar **inga behörigheter alls**, inte ens internetåtkomst. Ing
 ## Krav
 
 - Android 8.0 (API 26) eller senare.
+- Körs på arm-, arm64-, x86- och x86_64-enheter - telefoner, surfplattor, emulatorer och ChromeOS.
 - **Root krävs.** Informationen ovan finns i skyddade områden i Android som endast systemet kommer åt. VD Google läser den med superanvändaråtkomst och gör inget annat med den. Utan root visar appen bara en skärm som förklarar varför root behövs.
 
 ## Tidsstämplar
@@ -100,9 +101,11 @@ Alla tider visas i enhetens aktuella tidszon, och tidszonen anges alltid.
 Systerprojekt av samma författare:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: en enhetsmetod-debugger som läser varje post genom varje metod som kan läsa den och jämför dem sida vid sida.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: fullständig säkerhetskopiering och återställning av appar och data som root, helt styrd från en WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: en enhetsspoofer som förvandlar ett nytt fingeravtryck till en sammanhängande, konsekvent profil.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: en fristående SSH-daemon (Dropbear) med root.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: fullständig säkerhetskopiering och återställning av appar och data som root, helt styrd från en WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: en flashfri, inkrementell självuppdateringsmotor, inbäddad i KernelSU/APatch/Magisk-moduler.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: en friktionsfri root-sideload-installerare för enskilda, batch- och split-APK:er, med en växel för Play Protect-verifieraren och förfalskning av installationskällan.
 
 ## Contacts
 

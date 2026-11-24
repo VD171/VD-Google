@@ -128,7 +128,7 @@
   var PRE =
     "MOD=" + MOD + "\n" +
     "ABI=$(getprop ro.product.cpu.abi)\n" +
-    "case \"$ABI\" in arm64*) A=arm64-v8a;; arm*) A=armeabi-v7a;; *) A=;; esac\n" +
+    "case \"$ABI\" in arm64*) A=arm64-v8a;; x86_64) A=x86_64;; x86) A=x86;; arm*) A=armeabi-v7a;; *) A=;; esac\n" +
     "sq() { LD_LIBRARY_PATH=$MOD/bin/$A/lib $MOD/bin/$A/sqlite3 \"$@\"; }\n" +
     "Q=" + STATE + "/scratch\n" +
     "mkdir -p $Q\n" +

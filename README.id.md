@@ -77,6 +77,7 @@ VD Google tidak mendeklarasikan **izin apa pun**, bahkan akses internet. Tidak a
 ## Persyaratan
 
 - Android 8.0 (API 26) atau lebih baru.
+- Berjalan pada perangkat arm, arm64, x86, dan x86_64 - ponsel, tablet, emulator, dan ChromeOS.
 - **Root diperlukan.** Informasi di atas berada di area terlindungi Android yang hanya dapat diakses sistem. VD Google membacanya dengan akses superuser dan tidak melakukan hal lain dengannya. Tanpa root, aplikasi hanya menampilkan layar yang menjelaskan mengapa root diperlukan.
 
 ## Stempel waktu
@@ -100,9 +101,11 @@ Semua waktu ditampilkan dalam zona waktu perangkat Anda saat ini, dan zona waktu
 Proyek saudara dari penulis yang sama:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metode perangkat yang membaca setiap item melalui setiap metode yang dapat membacanya dan membandingkannya secara berdampingan.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: pencadangan dan pemulihan penuh aplikasi dan data sebagai root, dijalankan sepenuhnya dari WebUI.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: pengusur (spoofer) perangkat yang mengubah fingerprint baru menjadi profil yang koheren dan konsisten.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: daemon SSH mandiri yang berjalan sebagai root (Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: pencadangan dan pemulihan penuh aplikasi dan data sebagai root, dijalankan sepenuhnya dari WebUI.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: sebuah mesin pembaruan-mandiri inkremental tanpa flash, tertanam di dalam modul KernelSU/APatch/Magisk.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: sebuah pemasang sideload ber-root tanpa hambatan untuk APK tunggal, batch, dan split, dengan sakelar verifier Play Protect dan pemalsuan sumber pemasangan.
 
 ## Kontak
 

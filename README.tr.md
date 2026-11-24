@@ -77,6 +77,7 @@ VD Google **hiçbir izin** tanımlamaz, internet erişimi bile. Okuduğu hiçbir
 ## Gereksinimler
 
 - Android 8.0 (API 26) veya daha yenisi.
+- arm, arm64, x86 ve x86_64 cihazlarında çalışır - telefonlar, tabletler, emülatörler ve ChromeOS.
 - **Root gereklidir.** Yukarıdaki bilgiler Android'in yalnızca sisteme açık korumalı alanlarında bulunur. VD Google bunları süper kullanıcı erişimiyle okur ve başka hiçbir şey yapmaz. Root olmadan uygulama yalnızca root'un neden gerektiğini açıklayan bir ekran gösterir.
 
 ## Zaman damgaları
@@ -100,9 +101,11 @@ Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi h
 Aynı yazarın kardeş projeleri:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: yeni bir parmak izini tutarlı, kararlı bir profile dönüştüren bir cihaz sahteleyici.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root olarak çalışan bağımsız bir SSH daemon'ı (Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk modüllerine gömülü, flash'sız, artımlı bir kendini güncelleme motoru.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: tekli, toplu ve bölünmüş APK'lar için sürtünmesiz bir root sideload yükleyicisi; Play Protect doğrulayıcı anahtarı ve kurulum kaynağı sahteciliği ile birlikte.
 
 ## Contacts
 

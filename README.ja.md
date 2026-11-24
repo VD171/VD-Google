@@ -77,6 +77,7 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 ## 必要条件
 
 - Android 8.0 (API 26) 以降。
+- arm、arm64、x86、x86_64 のデバイスで動作します - スマートフォン、タブレット、エミュレーター、ChromeOS。
 - **Root が必要です。** 上記の情報は、システムのみがアクセスできる Android の保護領域にあります。VD Google はスーパーユーザー権限でそれを読み取り、それ以外のことは一切しません。root がない場合、アプリはなぜ root が必要かを説明する画面を表示するだけです。
 
 ## タイムスタンプ
@@ -100,9 +101,11 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 同じ作者による姉妹プロジェクト:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: 各項目を、それを読み取れるすべてのメソッドで読み取り、並べて比較する端末メソッドデバッガー。
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: root でアプリとデータを完全にバックアップ・復元し、すべて WebUI から操作。
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: 新しいフィンガープリントを一貫性のある整合したプロファイルに変える端末スプーファー。
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root 向けの単体で動くスタンドアロン SSH デーモン（Dropbear）。
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root でアプリとデータを完全にバックアップ・復元し、すべて WebUI から操作。
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: フラッシュ不要の増分セルフアップデートエンジンで、KernelSU/APatch/Magisk モジュールに組み込まれます。
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: 単一・バッチ・分割 APK に対応した、摩擦のない root サイドロードインストーラーで、Play Protect 検証のトグルとインストール元の偽装を備えます。
 
 ## 連絡先
 

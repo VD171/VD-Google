@@ -77,6 +77,7 @@ VD Google deklariert **überhaupt keine Berechtigungen**, nicht einmal Internetz
 ## Voraussetzungen
 
 - Android 8.0 (API 26) oder neuer.
+- Läuft auf arm-, arm64-, x86- und x86_64-Geräten - Smartphones, Tablets, Emulatoren und ChromeOS.
 - **Root ist erforderlich.** Die obigen Informationen liegen in geschützten, nur für das System zugänglichen Bereichen von Android. VD Google liest sie mit Superuser-Zugriff und tut sonst nichts damit. Ohne Root zeigt die App nur einen Bildschirm, der erklärt, warum Root nötig ist.
 
 ## Zeitstempel
@@ -100,9 +101,11 @@ Alle Zeiten werden in der aktuellen Zeitzone deines Geräts angezeigt, und die Z
 Schwesterprojekte desselben Autors:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: ein Geräte-Methoden-Debugger, der jeden Punkt über jede Methode liest, die ihn lesen kann, und sie nebeneinander vergleicht.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: vollständige Sicherung und Wiederherstellung von Apps und Daten als Root, komplett über eine WebUI gesteuert.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: ein Geräte-Spoofer, der aus einem frischen Fingerprint ein kohärentes, konsistentes Profil macht.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: ein eigenständiger SSH-Daemon (Dropbear) mit Root.
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: vollständige Sicherung und Wiederherstellung von Apps und Daten als Root, komplett über eine WebUI gesteuert.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: eine flashlose, inkrementelle Selbstaktualisierungs-Engine, eingebettet in KernelSU/APatch/Magisk-Module.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: ein reibungsloser Root-Sideload-Installer für einzelne, Batch- und Split-APKs, mit einem Play-Protect-Verifier-Schalter und Fälschung der Installationsquelle.
 
 ## Kontakte
 

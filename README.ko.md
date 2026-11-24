@@ -77,6 +77,7 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 ## 요구 사항
 
 - Android 8.0 (API 26) 이상.
+- arm, arm64, x86, x86_64 기기에서 작동합니다 - 휴대폰, 태블릿, 에뮬레이터, ChromeOS.
 - **Root가 필요합니다.** 위 정보는 시스템만 접근할 수 있는 Android의 보호된 영역에 있습니다. VD Google은 슈퍼유저 권한으로 이를 읽을 뿐 그 밖의 어떤 일도 하지 않습니다. root가 없으면 앱은 root가 왜 필요한지 설명하는 화면만 표시합니다.
 
 ## 타임스탬프
@@ -100,9 +101,11 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 같은 작성자의 자매 프로젝트:
 
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: 각 항목을 읽을 수 있는 모든 메서드로 읽어 나란히 비교하는 기기 메서드 디버거.
-- **[VDBackup](https://github.com/VD171/VD-Backup)**: root로 앱과 데이터를 완전히 백업하고 복원하며, 전부 WebUI에서 실행.
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: 새 지문을 일관되고 정합적인 프로필로 바꾸는 기기 스푸퍼.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: 독립 실행형 루트 SSH 데몬(Dropbear).
+- **[VDBackup](https://github.com/VD171/VD-Backup)**: root로 앱과 데이터를 완전히 백업하고 복원하며, 전부 WebUI에서 실행.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk 모듈에 내장된, 플래시가 필요 없는 증분 자가 업데이트 엔진.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: 단일, 배치, 분할 APK 를 위한 마찰 없는 root 사이드로드 설치기로, Play Protect 검사기 토글과 설치 출처 위장을 갖추고 있습니다.
 
 ## 연락처
 

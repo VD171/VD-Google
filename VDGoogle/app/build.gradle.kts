@@ -41,11 +41,11 @@ android {
         applicationId = "ru.vd171.vdgoogle"
         minSdk = 26
         targetSdk = 35
-        versionCode = 18
-        versionName = "1.15"
+        versionCode = 19
+        versionName = "1.16"
         vectorDrawables.useSupportLibrary = true
         ndk {
-            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
+            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
         }
         externalNativeBuild {
             cmake {

@@ -68,8 +68,9 @@ private class RootIpc(private val ctx: Context) : IRootIpc.Stub() {
             val pb = ProcessBuilder(sq.absolutePath, "-separator", "\t", copy.absolutePath, sql)
             pb.environment()["LD_LIBRARY_PATH"] = File(sq.parentFile, "lib").absolutePath
             val p = pb.start()
+            val errDrain = Thread { runCatching { p.errorStream.bufferedReader().use { it.readText() } } }.apply { start() }
             val out = p.inputStream.bufferedReader().use { it.readText() }
-            p.errorStream.bufferedReader().use { it.readText() }
+            errDrain.join()
             p.waitFor()
             if (out.isEmpty()) return emptyList()
             val rows = out.split("\n")
@@ -81,11 +82,9 @@ private class RootIpc(private val ctx: Context) : IRootIpc.Stub() {
 
     private val sqlite3Bin: File? by lazy {
         runCatching {
-            val abi = when {
-                Build.SUPPORTED_ABIS.any { it == "arm64-v8a" } -> "arm64-v8a"
-                Build.SUPPORTED_ABIS.any { it == "armeabi-v7a" } -> "armeabi-v7a"
-                else -> return@runCatching null
-            }
+            val abi = Build.SUPPORTED_ABIS.firstOrNull {
+                it == "arm64-v8a" || it == "armeabi-v7a" || it == "x86_64" || it == "x86"
+            } ?: return@runCatching null
             val dst = File(ctx.cacheDir, "bin/sqlite3").apply { parentFile?.mkdirs() }
             ctx.assets.open("bin/$abi/sqlite3").use { i -> dst.outputStream().use { o -> i.copyTo(o) } }
             dst.setExecutable(true, false)

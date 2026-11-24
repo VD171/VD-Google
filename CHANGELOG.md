@@ -2,6 +2,11 @@
 
 All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
+## [1.16] - 2026-11-19
+
+- VD Google now runs on x86 and x86_64 devices (emulators, ChromeOS, Intel tablets), not only ARM: the bundled sqlite3 ships for all four architectures.
+- The WebUI module now checks every bundled file against a recorded checksum while flashing, and stops the install if the zip was corrupted or truncated.
+
 ## [1.15] - 2026-11-17
 
 - Exporting the report from the WebUI now asks you to confirm first: the file is saved to your Downloads folder and, while it never leaves your device, any app with storage access can read it there, so you can delete it once you are done.

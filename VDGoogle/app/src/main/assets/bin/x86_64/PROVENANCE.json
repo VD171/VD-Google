@@ -1,0 +1,19 @@
+{
+  "abi": "x86_64",
+  "generated_utc": "2026-11-19T01:53:05Z",
+  "policy": "sqlite3 and its libraries are fetched at build time from the official Termux apt repository, never from a device. Audit: re-fetch the pinned sources, extract, and compare the file sha256 values.",
+  "sources": [
+    {"type": "termux-deb", "package": "sqlite", "version": "3.54.1-1", "url": "https://packages.termux.dev/apt/termux-main/pool/main/s/sqlite/sqlite_3.54.1-1_x86_64.deb", "deb_sha256": "43980cb07ed434ced732fa5bd7213ddb62d34a2c918db6cd35999903a779e35c"},
+    {"type": "termux-deb", "package": "readline", "version": "8.3.6", "url": "https://packages.termux.dev/apt/termux-main/pool/main/r/readline/readline_8.3.6_x86_64.deb", "deb_sha256": "e9684798d13ede05f785315f68d3ff739563db2abef0e73db4dc9b8e17ded368"},
+    {"type": "termux-deb", "package": "zlib", "version": "1.4", "url": "https://packages.termux.dev/apt/termux-main/pool/main/z/zlib/zlib_1.4_x86_64.deb", "deb_sha256": "55ab8f16e492d6ed03c2e2bf701af52cf54a313442dd7adedd3d6f3e3eba2e4f"},
+    {"type": "termux-deb", "package": "libandroid-support", "version": "29-1", "url": "https://packages.termux.dev/apt/termux-main/pool/main/liba/libandroid-support/libandroid-support_29-1_x86_64.deb", "deb_sha256": "665900760c05959ec076082a0941f05bd452f301e5a70bdfa7383fd3404d44d5"},
+    {"type": "termux-deb", "package": "ncurses", "version": "6.6.20260307+really6.5.20250830", "url": "https://packages.termux.dev/apt/termux-main/pool/main/n/ncurses/ncurses_6.6.20260307+really6.5.20250830_x86_64.deb", "deb_sha256": "3f30f53c6a41c8450d146d4d42611a44be6ba0a8de1e8bb4dc903109a5fc3ff1"}
+  ],
+  "files": [
+    {"path": "sqlite3", "bytes": 1612376, "sha256": "70ef3fff45e735859d139fb893300cdf7d4cf371030c7d2e6fc3dc737de0642c"},
+    {"path": "lib/libandroid-support.so", "bytes": 20640, "sha256": "f0f44e60090b07b3536729993fad94bb6127ff1c6f70188f5c6dab6a33b85dda"},
+    {"path": "lib/libncursesw.so.6", "bytes": 384896, "sha256": "79789fd21d13b82fa87d6373382c815b3d97838962351ab3ec2f7f77edf79c09"},
+    {"path": "lib/libreadline.so.8", "bytes": 308584, "sha256": "f8b0eb7ef121241c400824c0cc59e1eb2c02ca8901d526d428d41ee20fc40a13"},
+    {"path": "lib/libz.so.1", "bytes": 82824, "sha256": "9ac487f65c341194dd285b5cdb5464190552813800d78379953a45023d5b2a34"}
+  ]
+}
