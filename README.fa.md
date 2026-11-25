@@ -84,6 +84,14 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 همه زمان‌ها بر اساس منطقه زمانی فعلی دستگاه شما نمایش داده می‌شوند و منطقه زمانی همیشه ذکر می‌شود.
 
+## عامل‌های هوش مصنوعی
+
+VD Google یک **خروجی** JSON واحد می‌نویسد: یک نمای فوری ساختارمند و قابل‌خواندن توسط ماشین از آنچه Google روی دستگاه شما درباره RCS، Wallet و Play Integrity ثبت می‌کند، بدون هیچ داده شخصی در آن. عاملی که یک دستگاه را بازرسی می‌کند همان یک فایل را می‌خواند، به‌جای جست‌وجوی دستی در چند برنامه و پایگاه‌داده Google. برنامه و WebUI دقیقاً همان طرح‌واره را تولید می‌کنند و هیچ‌کدام به شبکه دست نمی‌زنند. به [docs/AI-AGENTS.md](docs/AI-AGENTS.md) مراجعه کنید.
+
+## ساخت
+
+همیشه release، هرگز debug. برنامه Android از `VDGoogle/` با `./gradlew assembleRelease` ساخته می‌شود؛ ماژول WebUI با `webui/package.sh` بسته‌بندی می‌شود. تنها فایل باینری بومی `sqlite3` است که از مخزن Termux همراه با بستار کتابخانه‌هایش گرفته می‌شود و با SHA-256 آن ثبت می‌شود. به [مشارکت](CONTRIBUTING.md)، [باینری‌های همراه](https://github.com/VD171/VD-Google/wiki/BINARIES) و [ویکی](https://github.com/VD171/VD-Google/wiki) مراجعه کنید.
+
 ## مستندات
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/fa-Home)**: همه مستندات، قابل مرور به‌صورت آنلاین.
@@ -98,26 +106,28 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 
 ## همچنین ببینید
 
-پروژه‌های خواهر از همان نویسنده:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: یک اشکال‌زدای روش‌های دستگاه که هر مورد را با همه روش‌هایی که می‌توانند آن را بخوانند می‌خواند و آن‌ها را کنار هم مقایسه می‌کند.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: یک جعل‌کننده دستگاه که یک اثرانگشت تازه را به یک نمایه منسجم و یکدست تبدیل می‌کند.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: یک دیمون SSH مستقل که به‌صورت روت اجرا می‌شود (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: جعل سراسری اثرانگشت دستگاه / Play Integrity، روی کل دستگاه با دامنه‌ی هر اپ و یک WebUI.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: پشتیبان‌گیری و بازیابی کامل برنامه‌ها و داده‌ها به‌صورت روت، که به‌طور کامل از یک WebUI هدایت می‌شود.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: یک موتور خودبه‌روزرسانی افزایشی و بدون فلش، تعبیه‌شده در ماژول‌های KernelSU/APatch/Magisk.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: یک دیمون SSH مستقل که به‌صورت روت اجرا می‌شود (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: یک نصب‌کنندهٔ ساید‌لود روت‌شدهٔ بدون‌اصطکاک برای APKهای تکی، دسته‌ای و تقسیم‌شده، همراه با کلید تأییدکنندهٔ Play Protect و جعل منبع نصب.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: یک اشکال‌زدای روش‌های دستگاه که هر مورد را با همه روش‌هایی که می‌توانند آن را بخوانند می‌خواند و آن‌ها را کنار هم مقایسه می‌کند.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: یک موتور خودبه‌روزرسانی افزایشی و بدون فلش، تعبیه‌شده در ماژول‌های KernelSU/APatch/Magisk.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: مخزن ماژول‌های MMRL/WebUI-X ما (همه‌ی آن‌ها را از مدیر root خود نصب کنید).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: یک مجموعه‌داده از اثرانگشت‌های `build.prop` پیکسل (فورک از @T3SL4).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: از Telegram به‌عنوان ذخیره‌گاه شیء از طریق یک Go CLI کوچک استفاده کنید.
 
 ## راه‌های ارتباط
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## مجوز
 

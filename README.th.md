@@ -84,6 +84,14 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 เวลาทั้งหมดจะแสดงตามเขตเวลาปัจจุบันของอุปกรณ์ของคุณ และจะระบุเขตเวลาเสมอ
 
+## เอเจนต์ AI
+
+VD Google เขียน **ไฟล์ส่งออก** JSON เพียงไฟล์เดียว: ภาพรวมแบบมีโครงสร้างที่เครื่องอ่านได้ของสิ่งที่ Google บันทึกบนอุปกรณ์ของคุณเกี่ยวกับ RCS, Wallet และ Play Integrity โดยไม่มีข้อมูลส่วนบุคคลอยู่ในนั้น เอเจนต์ที่ตรวจสอบอุปกรณ์จะอ่านไฟล์เดียวนั้นแทนที่จะไล่เก็บข้อมูลจากแอปและฐานข้อมูลของ Google หลายรายการด้วยมือ แอปและ WebUI สร้างสคีมาที่เหมือนกันทุกประการ และทั้งคู่ไม่แตะเครือข่าย ดู [docs/AI-AGENTS.md](docs/AI-AGENTS.md)
+
+## การสร้าง
+
+เป็น release เสมอ ไม่เคยเป็น debug แอป Android สร้างจาก `VDGoogle/` ด้วย `./gradlew assembleRelease`; โมดูล WebUI แพ็กด้วย `webui/package.sh` ไบนารีเนทีฟเดียวคือ `sqlite3` ซึ่งดึงมาจากที่เก็บ Termux พร้อมคลอเชอร์ไลบรารีของมัน และบันทึกไว้พร้อม SHA-256 ดู [การร่วมพัฒนา](CONTRIBUTING.md), [ไบนารีที่แนบมา](https://github.com/VD171/VD-Google/wiki/BINARIES) และ [วิกิ](https://github.com/VD171/VD-Google/wiki)
+
 ## เอกสาร
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/th-Home)**: เอกสารทั้งหมด เปิดอ่านได้ทางออนไลน์
@@ -98,26 +106,28 @@ VD Google **ไม่ประกาศสิทธิ์ใด ๆ เลย** 
 
 ## ดูเพิ่มเติม
 
-โครงการในเครือโดยผู้เขียนคนเดียวกัน:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: ตัวดีบักเมธอดของอุปกรณ์ที่อ่านแต่ละรายการผ่านทุกเมธอดที่สามารถอ่านได้ และเปรียบเทียบเคียงข้างกัน
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: เครื่องมือปลอมแปลงอุปกรณ์ที่เปลี่ยนลายนิ้วมือใหม่ให้เป็นโปรไฟล์ที่สอดคล้องและสม่ำเสมอ
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: SSH daemon แบบสแตนด์อโลนที่ทำงานในฐานะ root (Dropbear)
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: การสปูฟ fingerprint ของอุปกรณ์ / Play Integrity แบบครอบคลุมทั้งเครื่อง พร้อมขอบเขตแยกตามแอปและ WebUI
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: สำรองและกู้คืนแอปและข้อมูลทั้งหมดในฐานะ root ควบคุมทั้งหมดจาก WebUI
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: เอนจินอัปเดตตัวเองแบบเพิ่มทีละส่วนโดยไม่ต้องแฟลช ฝังอยู่ในโมดูล KernelSU/APatch/Magisk
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: SSH daemon แบบสแตนด์อโลนที่ทำงานในฐานะ root (Dropbear)
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: ตัวติดตั้งแบบ sideload ด้วยสิทธิ์ root ที่ไร้แรงเสียดทาน สำหรับ APK เดี่ยว แบบชุด และแบบแยก พร้อมสวิตช์ตัวตรวจสอบ Play Protect และการปลอมแหล่งที่มาของการติดตั้ง
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: ตัวดีบักเมธอดของอุปกรณ์ที่อ่านแต่ละรายการผ่านทุกเมธอดที่สามารถอ่านได้ และเปรียบเทียบเคียงข้างกัน
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: เอนจินอัปเดตตัวเองแบบเพิ่มทีละส่วนโดยไม่ต้องแฟลช ฝังอยู่ในโมดูล KernelSU/APatch/Magisk
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: ที่เก็บโมดูล MMRL/WebUI-X ของเรา (ติดตั้งทั้งหมดได้จากตัวจัดการ root ของคุณ)
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: ชุดข้อมูล fingerprint `build.prop` ของ Pixel (ฟอร์กจาก @T3SL4)
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: ใช้ Telegram เป็น object store จาก Go CLI ขนาดเล็ก
 
 ## Contacts
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## สัญญาอนุญาต
 

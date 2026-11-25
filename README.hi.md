@@ -84,6 +84,14 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 सभी समय आपके डिवाइस के वर्तमान समय क्षेत्र में दिखाए जाते हैं, और समय क्षेत्र हमेशा अंकित रहता है।
 
+## AI एजेंट
+
+VD Google एक अकेला JSON **निर्यात** लिखता है: इस बात का एक संरचित, मशीन-पठनीय स्नैपशॉट कि Google आपके डिवाइस पर RCS, Wallet और Play Integrity के बारे में क्या दर्ज करता है, जिसमें कोई व्यक्तिगत डेटा नहीं होता। किसी डिवाइस का ऑडिट करने वाला एजेंट कई Google ऐप और डेटाबेस को हाथ से खंगालने के बजाय वही एक फ़ाइल पढ़ता है। ऐप और WebUI बिल्कुल एक ही स्कीमा बनाते हैं, और इनमें से कोई भी नेटवर्क को नहीं छूता। देखें [docs/AI-AGENTS.md](docs/AI-AGENTS.md)।
+
+## बिल्ड
+
+हमेशा release, कभी debug नहीं। Android ऐप `VDGoogle/` से `./gradlew assembleRelease` के साथ बनता है; WebUI मॉड्यूल `webui/package.sh` से पैकेज होता है। एकमात्र नेटिव बाइनरी `sqlite3` है, जो Termux रिपॉज़िटरी से उसके लाइब्रेरी क्लोज़र सहित लाई जाती है और उसके SHA-256 के साथ दर्ज की जाती है। देखें [योगदान](CONTRIBUTING.md), [संलग्न बाइनरी](https://github.com/VD171/VD-Google/wiki/BINARIES) और [विकी](https://github.com/VD171/VD-Google/wiki)।
+
 ## दस्तावेज़ीकरण
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/hi-Home)**: सारे दस्तावेज़, ऑनलाइन ब्राउज़ करने योग्य।
@@ -98,26 +106,28 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 
 ## यह भी देखें
 
-उसी लेखक की सहोदर परियोजनाएँ:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: एक डिवाइस मेथड डिबगर जो हर आइटम को उन सभी मेथड से पढ़ता है जो उसे पढ़ सकती हैं और उनकी तुलना साथ-साथ करता है।
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: एक डिवाइस स्पूफर जो एक नए फ़िंगरप्रिंट को एक सुसंगत, संगत प्रोफ़ाइल में बदल देता है।
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root के रूप में चलने वाला एक स्वतंत्र SSH डेमन (Dropbear)।
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: डिवाइस fingerprint / Play Integrity का ग्लोबल स्पूफ़िंग, पूरे डिवाइस पर प्रति-ऐप स्कोप और एक WebUI के साथ।
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root के रूप में ऐप्स और डेटा का पूर्ण बैकअप और पुनर्स्थापना, पूरी तरह एक WebUI से संचालित।
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk मॉड्यूल में एम्बेडेड एक फ्लैशलेस, इंक्रीमेंटल सेल्फ-अपडेट इंजन।
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root के रूप में चलने वाला एक स्वतंत्र SSH डेमन (Dropbear)।
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: एकल, बैच और स्प्लिट APK के लिए एक घर्षण-रहित रूट साइडलोड इंस्टॉलर, जिसमें Play Protect वेरिफायर टॉगल और इंस्टॉल-सोर्स स्पूफिंग शामिल है।
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: एक डिवाइस मेथड डिबगर जो हर आइटम को उन सभी मेथड से पढ़ता है जो उसे पढ़ सकती हैं और उनकी तुलना साथ-साथ करता है।
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk मॉड्यूल में एम्बेडेड एक फ्लैशलेस, इंक्रीमेंटल सेल्फ-अपडेट इंजन।
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: हमारा MMRL/WebUI-X मॉड्यूल रिपॉज़िटरी (इन सभी को अपने root मैनेजर से इंस्टॉल करें)।
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: Pixel `build.prop` fingerprints का एक डेटासेट (@T3SL4 का फ़ोर्क)।
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: एक छोटे-से Go CLI से Telegram को ऑब्जेक्ट स्टोर के रूप में उपयोग करें।
 
 ## संपर्क
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## लाइसेंस
 

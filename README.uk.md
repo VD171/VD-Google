@@ -84,6 +84,14 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 Усі значення часу показано в поточному часовому поясі вашого пристрою, і часовий пояс завжди позначено.
 
+## Агенти ШІ
+
+VD Google записує єдиний **експорт** JSON: структурований, машиночитний знімок того, що Google фіксує на вашому пристрої про RCS, Wallet і Play Integrity, без жодних персональних даних. Агент, що перевіряє пристрій, читає цей один файл замість того, щоб вручну перебирати кілька застосунків і баз даних Google. Застосунок і WebUI створюють абсолютно однакову схему, і жоден із них не звертається до мережі. Див. [docs/AI-AGENTS.md](docs/AI-AGENTS.md).
+
+## Збирання
+
+Завжди release, ніколи debug. Android-застосунок збирається з `VDGoogle/` командою `./gradlew assembleRelease`; модуль WebUI пакується за допомогою `webui/package.sh`. Єдиний нативний бінарник - `sqlite3`, отриманий зі сховища Termux разом із замиканням бібліотек і зафіксований своїм SHA-256. Див. [Внесок](CONTRIBUTING.md), [Вбудовані бінарники](https://github.com/VD171/VD-Google/wiki/BINARIES) і [вікі](https://github.com/VD171/VD-Google/wiki).
+
 ## Документація
 
 - **[Вікі](https://github.com/VD171/VD-Google/wiki/uk-Home)**: уся документація, доступна для перегляду онлайн.
@@ -98,26 +106,28 @@ VD Google не оголошує **жодного дозволу**, навіть 
 
 ## Дивіться також
 
-Споріднені проєкти того самого автора:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: дебагер методів пристрою, що зчитує кожен пункт усіма методами, які можуть його прочитати, і порівнює їх поруч.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: спуфер пристрою, що перетворює свіжий fingerprint на узгоджений, послідовний профіль.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: автономний SSH-демон із правами root (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: глобальний спуфінг fingerprint пристрою / Play Integrity, для всього пристрою з областю дії на рівні застосунків і WebUI.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: повне резервне копіювання та відновлення застосунків і даних з правами root, повністю кероване з WebUI.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: безфлешевий інкрементальний рушій самооновлення, вбудований у модулі KernelSU/APatch/Magisk.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: автономний SSH-демон із правами root (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: безперешкодний root-інсталятор sideload для одиночних, пакетних і розділених APK, з перемикачем верифікатора Play Protect та підробкою джерела встановлення.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: дебагер методів пристрою, що зчитує кожен пункт усіма методами, які можуть його прочитати, і порівнює їх поруч.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: безфлешевий інкрементальний рушій самооновлення, вбудований у модулі KernelSU/APatch/Magisk.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: наш репозиторій модулів MMRL/WebUI-X (встановіть їх усі зі свого root-менеджера).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: набір даних fingerprint `build.prop` від Pixel (форк @T3SL4).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: використовуйте Telegram як об'єктне сховище з крихітного CLI на Go.
 
 ## Контакти
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## Ліцензія
 

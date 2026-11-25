@@ -84,6 +84,14 @@ VD Google **hiçbir izin** tanımlamaz, internet erişimi bile. Okuduğu hiçbir
 
 Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi her zaman belirtilir.
 
+## Yapay zekâ ajanları
+
+VD Google tek bir JSON **dışa aktarım** yazar: Google'ın cihazınızda RCS, Wallet ve Play Integrity hakkında tuttuğu kayıtların, içinde hiçbir kişisel veri olmayan, yapılandırılmış ve makinece okunabilir bir anlık görüntüsü. Bir cihazı denetleyen bir ajan, birkaç Google uygulamasını ve veritabanını elle taramak yerine o tek dosyayı okur. Uygulama ve WebUI tamamen aynı şemayı üretir ve ikisi de ağa dokunmaz. Bkz. [docs/AI-AGENTS.md](docs/AI-AGENTS.md).
+
+## Derleme
+
+Her zaman release, asla debug. Android uygulaması `VDGoogle/` dizininden `./gradlew assembleRelease` ile derlenir; WebUI modülü `webui/package.sh` ile paketlenir. Tek yerel ikili dosya `sqlite3`'tür; Termux deposundan kitaplık kapanışıyla birlikte alınır ve SHA-256'sı ile kaydedilir. Bkz. [Katkıda bulunma](CONTRIBUTING.md), [Birlikte gelen ikili dosyalar](https://github.com/VD171/VD-Google/wiki/BINARIES) ve [wiki](https://github.com/VD171/VD-Google/wiki).
+
 ## Belgeler
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/tr-Home)**: tüm belgeler, çevrimiçi olarak göz atılabilir.
@@ -98,26 +106,28 @@ Tüm saatler cihazınızın geçerli saat diliminde gösterilir ve saat dilimi h
 
 ## Ayrıca bakınız
 
-Aynı yazarın kardeş projeleri:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: yeni bir parmak izini tutarlı, kararlı bir profile dönüştüren bir cihaz sahteleyici.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root olarak çalışan bağımsız bir SSH daemon'ı (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: global cihaz fingerprint / Play Integrity sahteleme, uygulama bazlı kapsam ve bir WebUI ile tüm cihazda.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk modüllerine gömülü, flash'sız, artımlı bir kendini güncelleme motoru.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root olarak çalışan bağımsız bir SSH daemon'ı (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: tekli, toplu ve bölünmüş APK'lar için sürtünmesiz bir root sideload yükleyicisi; Play Protect doğrulayıcı anahtarı ve kurulum kaynağı sahteciliği ile birlikte.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk modüllerine gömülü, flash'sız, artımlı bir kendini güncelleme motoru.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: MMRL/WebUI-X modül deposumuz (hepsini root yöneticinizden kurun).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: Pixel `build.prop` fingerprint'lerinden oluşan bir veri kümesi (@T3SL4 fork'u).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: Telegram'ı minik bir Go CLI'sinden nesne deposu olarak kullanın.
 
 ## Contacts
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## Lisans
 

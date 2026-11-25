@@ -84,6 +84,14 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 すべての時刻は端末の現在のタイムゾーンで表示され、タイムゾーンは常に明記されます。
 
+## AI エージェント
+
+VD Google は単一の JSON **エクスポート**を書き出します。これは、Google がデバイス上に RCS、Wallet、Play Integrity について記録している内容の、構造化された機械可読なスナップショットで、個人データは一切含みません。デバイスを監査するエージェントは、複数の Google アプリやデータベースを手作業で調べる代わりに、この 1 つのファイルを読みます。アプリと WebUI はまったく同じスキーマを生成し、どちらもネットワークに触れません。[docs/AI-AGENTS.md](docs/AI-AGENTS.md) を参照してください。
+
+## ビルド
+
+常にリリース、デバッグは不可。Android アプリは `VDGoogle/` から `./gradlew assembleRelease` でビルドします。WebUI モジュールは `webui/package.sh` でパッケージ化します。唯一のネイティブバイナリは `sqlite3` で、Termux リポジトリからライブラリのクロージャとともに取得し、その SHA-256 とともに記録します。[コントリビュート](CONTRIBUTING.md)、[同梱バイナリ](https://github.com/VD171/VD-Google/wiki/BINARIES)、[wiki](https://github.com/VD171/VD-Google/wiki) を参照してください。
+
 ## ドキュメント
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/ja-Home)**: すべてのドキュメントをオンラインで閲覧できます。
@@ -98,26 +106,28 @@ VD Google は**いかなる権限も宣言しません**。インターネット
 
 ## 関連プロジェクト
 
-同じ作者による姉妹プロジェクト:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: 各項目を、それを読み取れるすべてのメソッドで読み取り、並べて比較する端末メソッドデバッガー。
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: 新しいフィンガープリントを一貫性のある整合したプロファイルに変える端末スプーファー。
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root 向けの単体で動くスタンドアロン SSH デーモン（Dropbear）。
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: デバイスの fingerprint / Play Integrity のグローバルなスプーフィング。端末全体を対象に、アプリ単位のスコープと WebUI を備えます。
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root でアプリとデータを完全にバックアップ・復元し、すべて WebUI から操作。
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: フラッシュ不要の増分セルフアップデートエンジンで、KernelSU/APatch/Magisk モジュールに組み込まれます。
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root 向けの単体で動くスタンドアロン SSH デーモン（Dropbear）。
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: 単一・バッチ・分割 APK に対応した、摩擦のない root サイドロードインストーラーで、Play Protect 検証のトグルとインストール元の偽装を備えます。
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: 各項目を、それを読み取れるすべてのメソッドで読み取り、並べて比較する端末メソッドデバッガー。
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: フラッシュ不要の増分セルフアップデートエンジンで、KernelSU/APatch/Magisk モジュールに組み込まれます。
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: 私たちの MMRL/WebUI-X モジュールリポジトリ（これらすべてを root マネージャーからインストールできます）。
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: Pixel の `build.prop` fingerprint のデータセット（@T3SL4 のフォーク）。
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: 小さな Go CLI から Telegram をオブジェクトストアとして使います。
 
 ## 連絡先
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## ライセンス
 

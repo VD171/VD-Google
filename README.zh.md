@@ -84,6 +84,14 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 所有时间均以你设备当前的时区显示，并始终标注时区。
 
+## AI 代理
+
+VD Google 写出单个 JSON **导出**：一份结构化、机器可读的快照，记录 Google 在你设备上关于 RCS、Wallet 和 Play Integrity 所保存的内容，其中不含任何个人数据。审计设备的代理读取这一个文件，而无需手动翻查多个 Google 应用和数据库。应用和 WebUI 生成完全相同的结构，二者都不接触网络。参见 [docs/AI-AGENTS.md](docs/AI-AGENTS.md)。
+
+## 构建
+
+始终 release，绝不 debug。Android 应用从 `VDGoogle/` 用 `./gradlew assembleRelease` 构建；WebUI 模块用 `webui/package.sh` 打包。唯一的原生二进制是 `sqlite3`，从 Termux 仓库连同其库闭包一起获取，并记录其 SHA-256。参见 [贡献](CONTRIBUTING.md)、[随附二进制](https://github.com/VD171/VD-Google/wiki/BINARIES) 和 [wiki](https://github.com/VD171/VD-Google/wiki)。
+
 ## 文档
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/zh-Home)**：所有文档，可在线浏览。
@@ -98,26 +106,28 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 
 ## 另请参阅
 
-同一作者的姊妹项目：
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**：设备方法调试器，通过每一种能读取它的方法读取每一项，并将它们并排比较。
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**：设备伪装器，将全新的 fingerprint 转化为连贯一致的配置。
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**：独立运行的 root SSH 守护进程（Dropbear）。
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**：设备 fingerprint / Play Integrity 的全局伪装，覆盖整机并支持按应用范围和一个 WebUI。
 - **[VDBackup](https://github.com/VD171/VD-Backup)**：以 root 权限对应用和数据进行完整备份与恢复，完全从 WebUI 操控。
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: 一个无需刷入的增量自更新引擎，嵌入到 KernelSU/APatch/Magisk 模块中。
-- **[VDInstaller](https://github.com/VD171/VD-Installer)**: 一个面向单个、批量和拆分 APK 的无摩擦 root 侧载安装器，带有 Play Protect 验证器开关和安装来源伪装。
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**：独立运行的 root SSH 守护进程（Dropbear）。
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**：一个面向单个、批量和拆分 APK 的无摩擦 root 侧载安装器，带有 Play Protect 验证器开关和安装来源伪装。
+- **[VDInfos](https://github.com/VD171/VD-Infos)**：设备方法调试器，通过每一种能读取它的方法读取每一项，并将它们并排比较。
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**：一个无需刷入的增量自更新引擎，嵌入到 KernelSU/APatch/Magisk 模块中。
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**：我们的 MMRL/WebUI-X 模块仓库（从你的 root 管理器一次性安装它们全部）。
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**：一组 Pixel `build.prop` fingerprint 数据集（@T3SL4 的分支）。
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**：通过一个小巧的 Go CLI 把 Telegram 当作对象存储使用。
 
 ## 联系方式
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## 许可证
 

@@ -84,6 +84,14 @@ VD Google nedeklaruje **vůbec žádná oprávnění**, dokonce ani přístup k 
 
 Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení a pásmo je vždy uvedeno.
 
+## AI agenti
+
+VD Google zapisuje jediný **export** JSON: strukturovaný, strojově čitelný snímek toho, co Google ve vašem zařízení zaznamenává o RCS, Wallet a Play Integrity, bez jakýchkoli osobních údajů. Agent provádějící audit zařízení přečte tento jediný soubor místo ručního procházení několika aplikací a databází Googlu. Aplikace a WebUI vytvářejí přesně stejné schéma a ani jedna se nedotýká sítě. Viz [docs/AI-AGENTS.md](docs/AI-AGENTS.md).
+
+## Build
+
+Vždy release, nikdy debug. Aplikace pro Android se sestavuje z `VDGoogle/` příkazem `./gradlew assembleRelease`; modul WebUI se balí pomocí `webui/package.sh`. Jediným nativním binárním souborem je `sqlite3`, stažený z repozitáře Termux i s uzávěrem knihoven a zaznamenaný se svým SHA-256. Viz [Přispívání](CONTRIBUTING.md), [Přibalené binární soubory](https://github.com/VD171/VD-Google/wiki/BINARIES) a [wiki](https://github.com/VD171/VD-Google/wiki).
+
 ## Dokumentace
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/cs-Home)**: veškerá dokumentace, k procházení online.
@@ -98,26 +106,28 @@ Všechny časy se zobrazují v aktuálním časovém pásmu vašeho zařízení 
 
 ## Viz také
 
-Sesterské projekty téhož autora:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metod zařízení, který čte každou položku všemi metodami, které ji dokážou přečíst, a porovnává je vedle sebe.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: spoofer zařízení, který z nové fingerprint vytvoří soudržný, konzistentní profil.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: samostatný SSH démon běžící pod rootem (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: globální spoofing fingerprintu zařízení / Play Integrity, pro celé zařízení s rozsahem podle aplikace a WebUI.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: úplné zálohování a obnova aplikací a dat jako root, ovládané zcela z WebUI.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: bezflashový, inkrementální engine pro samoaktualizaci, vestavěný do modulů KernelSU/APatch/Magisk.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: samostatný SSH démon běžící pod rootem (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: bezproblémový rootový sideload instalátor pro jednotlivé, dávkové a rozdělené APK, s přepínačem ověřování Play Protect a podvržením zdroje instalace.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: debugger metod zařízení, který čte každou položku všemi metodami, které ji dokážou přečíst, a porovnává je vedle sebe.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: bezflashový, inkrementální engine pro samoaktualizaci, vestavěný do modulů KernelSU/APatch/Magisk.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: náš repozitář modulů MMRL/WebUI-X (nainstaluj je všechny ze svého root správce).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: datová sada fingerprintů `build.prop` z Pixelů (fork @T3SL4).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: použij Telegram jako object store z malého Go CLI.
 
 ## Kontakty
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## Licence
 

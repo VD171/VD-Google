@@ -84,6 +84,14 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 모든 시간은 기기의 현재 표준 시간대로 표시되며, 표준 시간대는 항상 함께 표기됩니다.
 
+## AI 에이전트
+
+VD Google은 단일 JSON **내보내기**를 작성합니다. 이는 Google이 기기에 RCS, Wallet, Play Integrity에 대해 기록하는 내용을 구조화된 기계 판독 가능 스냅샷으로 담은 것이며, 개인 데이터는 전혀 포함하지 않습니다. 기기를 감사하는 에이전트는 여러 Google 앱과 데이터베이스를 손으로 긁어모으는 대신 그 하나의 파일을 읽습니다. 앱과 WebUI는 정확히 같은 스키마를 생성하며, 둘 다 네트워크에 접근하지 않습니다. [docs/AI-AGENTS.md](docs/AI-AGENTS.md)를 참조하세요.
+
+## 빌드
+
+항상 릴리스, 디버그는 안 됩니다. Android 앱은 `VDGoogle/`에서 `./gradlew assembleRelease`로 빌드합니다. WebUI 모듈은 `webui/package.sh`로 패키징합니다. 유일한 네이티브 바이너리는 `sqlite3`로, Termux 저장소에서 라이브러리 클로저와 함께 가져와 그 SHA-256과 함께 기록합니다. [기여하기](CONTRIBUTING.md), [동봉 바이너리](https://github.com/VD171/VD-Google/wiki/BINARIES), [위키](https://github.com/VD171/VD-Google/wiki)를 참조하세요.
+
 ## 문서
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/ko-Home)**: 모든 문서를 온라인에서 볼 수 있습니다.
@@ -98,26 +106,28 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 
 ## 함께 보기
 
-같은 작성자의 자매 프로젝트:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: 각 항목을 읽을 수 있는 모든 메서드로 읽어 나란히 비교하는 기기 메서드 디버거.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: 새 지문을 일관되고 정합적인 프로필로 바꾸는 기기 스푸퍼.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: 독립 실행형 루트 SSH 데몬(Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: 기기 fingerprint / Play Integrity의 전역 스푸핑. 앱별 범위와 WebUI를 갖추고 기기 전체에 적용됩니다.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root로 앱과 데이터를 완전히 백업하고 복원하며, 전부 WebUI에서 실행.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk 모듈에 내장된, 플래시가 필요 없는 증분 자가 업데이트 엔진.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: 독립 실행형 루트 SSH 데몬(Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: 단일, 배치, 분할 APK 를 위한 마찰 없는 root 사이드로드 설치기로, Play Protect 검사기 토글과 설치 출처 위장을 갖추고 있습니다.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: 각 항목을 읽을 수 있는 모든 메서드로 읽어 나란히 비교하는 기기 메서드 디버거.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk 모듈에 내장된, 플래시가 필요 없는 증분 자가 업데이트 엔진.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: 우리의 MMRL/WebUI-X 모듈 저장소 (루트 관리자에서 이 모두를 설치하세요).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: Pixel `build.prop` fingerprint 데이터세트 (@T3SL4의 포크).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: 작은 Go CLI로 Telegram을 객체 저장소로 사용하세요.
 
 ## 연락처
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## 라이선스
 

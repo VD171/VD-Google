@@ -84,6 +84,14 @@
 
 تُعرض جميع الأوقات حسب المنطقة الزمنية الحالية لجهازك، والمنطقة الزمنية مُبيّنة دائمًا.
 
+## وكلاء الذكاء الاصطناعي
+
+يكتب VD Google **تصديرًا** واحدًا بصيغة JSON: لقطة منظمة وقابلة للقراءة آليًا لما يسجّله Google على جهازك بخصوص RCS وWallet وPlay Integrity، دون أي بيانات شخصية فيها. يقرأ الوكيل الذي يدقّق جهازًا هذا الملف الواحد بدلاً من تتبع عدة تطبيقات وقواعد بيانات من Google يدويًا. ينتج التطبيق وWebUI المخطط نفسه تمامًا، ولا يمسّ أي منهما الشبكة. راجع [docs/AI-AGENTS.md](docs/AI-AGENTS.md).
+
+## البناء
+
+دائمًا release ولا تستخدم debug أبدًا. يُبنى تطبيق Android من `VDGoogle/` بالأمر `./gradlew assembleRelease`؛ وتُحزَم وحدة WebUI باستخدام `webui/package.sh`. الملف الثنائي الأصلي الوحيد هو `sqlite3`، يُجلَب من مستودع Termux مع إغلاق مكتباته ويُسجَّل مع بصمته SHA-256. راجع [المساهمة](CONTRIBUTING.md) و[الملفات الثنائية المضمّنة](https://github.com/VD171/VD-Google/wiki/BINARIES) و[الويكي](https://github.com/VD171/VD-Google/wiki).
+
 ## التوثيق
 
 - **[Wiki](https://github.com/VD171/VD-Google/wiki/ar-Home)**: كل الوثائق، قابلة للتصفّح عبر الإنترنت.
@@ -98,26 +106,28 @@
 
 ## انظر أيضًا
 
-مشاريع شقيقة من المؤلف نفسه:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: مُنقّح طرق للجهاز يقرأ كل عنصر عبر كل طريقة يمكنها قراءته ويقارن بينها جنبًا إلى جنب.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: مُزيّف للجهاز يحوّل بصمة جديدة إلى ملف تعريف متماسك ومتّسق.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: خادم SSH مستقل يعمل بصلاحيات الجذر (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: تزييف عالمي لبصمة الجهاز / Play Integrity، على كامل الجهاز مع نطاق لكل تطبيق وWebUI.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: نسخ احتياطي واستعادة كاملان للتطبيقات والبيانات بصلاحيات الجذر، يُدار بالكامل من WebUI.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: محرك تحديث ذاتي تزايدي بلا فلاش، مدمج في وحدات KernelSU/APatch/Magisk.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: خادم SSH مستقل يعمل بصلاحيات الجذر (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: مثبّت تحميل جانبي بصلاحيات الجذر وبلا احتكاك لحزم APK المفردة والمجمّعة والمقسّمة، مع مفتاح لمدقّق Play Protect وانتحال مصدر التثبيت.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: مُنقّح طرق للجهاز يقرأ كل عنصر عبر كل طريقة يمكنها قراءته ويقارن بينها جنبًا إلى جنب.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: محرك تحديث ذاتي تزايدي بلا فلاش، مدمج في وحدات KernelSU/APatch/Magisk.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: مستودع وحدات MMRL/WebUI-X الخاص بنا (ثبّتها جميعاً من مدير الـ root لديك).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: مجموعة بيانات لبصمات `build.prop` من Pixel (تفرّع من @T3SL4).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: استخدم Telegram كمخزن كائنات من أداة Go CLI صغيرة.
 
 ## جهات الاتصال
 
-- https://vd171.ru
-- https://vd.priv8.ru
-- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
-- **Channel:** @Priv8_VD https://t.me/Priv8_VD
-- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
-- **E-mail:** vd.priv8@pm.me
-- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
-- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
-- **GitHub:** @VD171 https://github.com/VD171
+- Site           : https://vd171.ru
+- Site           : https://vd.priv8.ru
+- Source         : https://github.com/VD171/VD-Google
+- GitHub         : [@VD171](https://github.com/VD171)
+- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
+- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
+- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
+- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
+- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
+- E-mail         : vd.priv8@pm.me
 
 ## الترخيص
 
