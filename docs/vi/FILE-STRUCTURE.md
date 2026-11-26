@@ -45,7 +45,7 @@ VD-Google/
 - **Các chuỗi** là nguồn duy nhất của mọi nhãn, trong 21 ngôn ngữ: ứng dụng dưới
   `res/values*/strings.xml`, WebUI dưới `webroot/lang/`. Một nhãn không bao giờ được viết hai
   lần.
-- **Tài liệu** nằm trong `docs/`. Nó là nguồn chân lý cho wiki của dự án; wiki được tạo ra từ
+- **Tài liệu** nằm trong `docs/`. Nó là nguồn chân lý cho wiki của dự án, wiki được tạo ra từ
   nó (xem `tools/` và `.github/scripts/gen_wiki.sh`).
 - **Công cụ đi kèm** (`sqlite3`) nằm trong `assets/bin/` cho ứng dụng và `bin/` cho module,
   và được ghi lại trong [Tệp nhị phân đi kèm](BINARIES.md).
@@ -74,4 +74,4 @@ riêng của nó, và ghi nhật ký hành động của nó bên trong thư m�
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

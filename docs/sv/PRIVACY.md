@@ -20,7 +20,7 @@ vad appen gör och inte gör med dina data, i klara ordalag som du kan verifiera
 Tillståndet för RCS, Wallet och attestering som VD Google förklarar lever i skyddade,
 endast system-åtkomliga områden av Android som vanliga appar inte kan se. VD Google läser
 dem med root i stället för att be dig om breda behörigheter. Root är den smala, granskbara
-vägen in; en hög med körtidsbehörigheter skulle vara den breda, läckande vägen. Appen
+vägen in, en hög med körtidsbehörigheter skulle vara den breda, läckande vägen. Appen
 väljer den smala.
 
 ## Exporten saneras
@@ -52,8 +52,8 @@ Ingen åtgärd når någonsin nätverket, och ingenting lämnar din telefon.
 Du behöver inte ta något av detta på tro:
 
 - Källkoden är offentlig: <https://github.com/VD171/VD-Google>.
-- Manifestet finns i källkoden; bekräfta att det inte deklarerar några behörigheter.
-- WebUI:ns Content-Security-Policy finns i källkoden; bekräfta att den blockerar varje
+- Manifestet finns i källkoden, bekräfta att det inte deklarerar några behörigheter.
+- WebUI:ns Content-Security-Policy finns i källkoden, bekräfta att den blockerar varje
   fjärrursprung.
 - De medföljande binärerna är dokumenterade med kontrollsummor i
   [Medföljande binärer](BINARIES.md).
@@ -62,4 +62,4 @@ Du behöver inte ta något av detta på tro:
 
 ---
 
-> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas, se [CONTRIBUTING.md](CONTRIBUTING.md)._

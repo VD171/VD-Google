@@ -118,7 +118,7 @@ valores de SHA-256 dos arquivos.
 
 O módulo WebUI verifica a si mesmo enquanto se instala. Cada arquivo embarcado é distribuído
 ao lado de um companheiro `.sha256`, e o `customize.sh` verifica cada um antes de tocar no
-sistema; se um arquivo foi corrompido ou o `.zip` foi truncado no trânsito, o flash é abortado
+sistema, se um arquivo foi corrompido ou o `.zip` foi truncado no trânsito, o flash é abortado
 com uma mensagem clara em vez de instalar um payload danificado. A verificação é pulada com
 segurança no raro aparelho cujo recovery não tem um `sha256sum` que entenda `-c`.
 
@@ -133,4 +133,4 @@ dispositivo. Nenhum outro binário nativo é embarcado.
 
 ---
 
-> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas, veja [CONTRIBUTING.md](CONTRIBUTING.md)._

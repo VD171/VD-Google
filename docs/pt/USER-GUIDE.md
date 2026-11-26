@@ -73,7 +73,7 @@ O VD Google é distribuído de duas formas, e elas mostram exatamente as mesmas 
 - **O aplicativo (APK).** Um aplicativo Android normal que você instala e abre. Pede root
   na primeira vez, como qualquer aplicativo root.
 - **O módulo WebUI (ZIP).** Instale-o no seu gerenciador de root (KernelSU, APatch ou
-  Magisk) e abra-o de lá. Nada é instalado como aplicativo; ele roda dentro da WebUI do seu
+  Magisk) e abra-o de lá. Nada é instalado como aplicativo, ele roda dentro da WebUI do seu
   gerenciador de root.
 
 Escolha o que preferir. As telas, a redação e o relatório exportado são idênticos entre os
@@ -88,7 +88,7 @@ explicando por que o root é necessário e oferece tentar de novo.
 **WebUI:** instale o ZIP como módulo no seu gerenciador de root e, em seguida, abra a
 WebUI do módulo pelo gerenciador. Ele lê assim que abre.
 
-Na primeira abertura você pode escolher o seu idioma; você pode mudá-lo depois pelo ícone
+Na primeira abertura você pode escolher o seu idioma, você pode mudá-lo depois pelo ícone
 de engrenagem no topo.
 
 ## 6. As abas
@@ -135,7 +135,7 @@ dispositivo, com o fuso rotulado.
   mais.
 
 **RCS da operadora x backend do Google.** Há duas formas de o RCS chegar ao seu telefone.
-Uma é o RCS *da sua operadora* pela rede IMS dela; a outra é o *próprio backend do Google*
+Uma é o RCS *da sua operadora* pela rede IMS dela, a outra é o *próprio backend do Google*
 (Jibe), que funciona por cima, independente da operadora. Se o seu RCS roda pelo backend
 do Google, como é o caso da maioria das pessoas, então as linhas do lado da operadora
 (direito da operadora, presença/UCE, serviço IMS, versão de configuração) são
@@ -212,4 +212,4 @@ sustentar.
 
 ---
 
-> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas, veja [CONTRIBUTING.md](CONTRIBUTING.md)._

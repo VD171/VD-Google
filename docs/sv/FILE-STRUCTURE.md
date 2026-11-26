@@ -45,7 +45,7 @@ VD-Google/
 - **Strängarna** är den enda källan till varje etikett, på 21 språk: appen under
   `res/values*/strings.xml`, WebUI under `webroot/lang/`. En etikett skrivs aldrig två
   gånger.
-- **Dokumentationen** lever i `docs/`. Den är sanningskällan för projektets wiki; wikin
+- **Dokumentationen** lever i `docs/`. Den är sanningskällan för projektets wiki, wikin
   genereras från den (se `tools/` och `.github/scripts/gen_wiki.sh`).
 - **Det medföljande verktyget** (`sqlite3`) lever i `assets/bin/` för appen och `bin/` för
   modulen, och är dokumenterat i [Medföljande binärer](BINARIES.md).
@@ -73,4 +73,4 @@ sin åtgärdslogg inuti sin egen privata filkatalog.
 
 ---
 
-> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas, se [CONTRIBUTING.md](CONTRIBUTING.md)._

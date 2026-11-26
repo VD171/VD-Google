@@ -4,7 +4,7 @@
 
 # Binaires embarqués : provenance et audit
 
-VD Google promet que rien d'opaque n'est livré en son sein. Il s'exécute en root et lit votre état le plus privé ; vous devez donc pouvoir voir exactement ce qu'il transporte. Cette page énumère l'unique outil natif que l'application et le module embarquent, d'où il provient, et comment le vérifier.
+VD Google promet que rien d'opaque n'est livré en son sein. Il s'exécute en root et lit votre état le plus privé, vous devez donc pouvoir voir exactement ce qu'il transporte. Cette page énumère l'unique outil natif que l'application et le module embarquent, d'où il provient, et comment le vérifier.
 
 ## Principe
 
@@ -24,7 +24,7 @@ VD Google embarque exactement un outil natif : une commande `sqlite3`, accompagn
 3. copie `sqlite3`, puis copie uniquement la fermeture de bibliothèques partagées dont le binaire a réellement besoin (résolue avec `readelf`), en ignorant les bibliothèques qu'Android fournit toujours lui-même ;
 4. écrit `PROVENANCE.json`.
 
-Les binaires de Termux sont liés dynamiquement aux bibliothèques propres à Termux ; VD Google livre donc cette fermeture aux côtés de `sqlite3` et l'exécute avec `LD_LIBRARY_PATH` pointant vers le répertoire `lib/` embarqué. Termux utilise des sonames versionnés (`libz.so.1`, `libreadline.so.8`, `libncursesw.so.6`), de sorte qu'ils n'entrent jamais en conflit avec les bibliothèques propres au framework Android. Le `LD_LIBRARY_PATH` n'est défini que pour le processus `sqlite3`, jamais globalement.
+Les binaires de Termux sont liés dynamiquement aux bibliothèques propres à Termux, VD Google livre donc cette fermeture aux côtés de `sqlite3` et l'exécute avec `LD_LIBRARY_PATH` pointant vers le répertoire `lib/` embarqué. Termux utilise des sonames versionnés (`libz.so.1`, `libreadline.so.8`, `libncursesw.so.6`), de sorte qu'ils n'entrent jamais en conflit avec les bibliothèques propres au framework Android. Le `LD_LIBRARY_PATH` n'est défini que pour le processus `sqlite3`, jamais globalement.
 
 ## Les fichiers
 
@@ -85,7 +85,7 @@ Chaque empreinte doit correspondre à la liste ci-dessus, et les copies de l'app
 
 ## Intégrité au flashage
 
-Le module WebUI se vérifie lui-même pendant qu'il s'installe. Chaque fichier livré est distribué à côté d'un compagnon `.sha256`, et `customize.sh` vérifie chacun d'eux avant de toucher au système ; si un fichier a été corrompu ou si le `.zip` a été tronqué en chemin, le flashage est interrompu avec un message clair au lieu d'installer une charge utile endommagée. La vérification est ignorée sans danger sur le rare appareil dont le recovery n'a pas de `sha256sum` comprenant `-c`.
+Le module WebUI se vérifie lui-même pendant qu'il s'installe. Chaque fichier livré est distribué à côté d'un compagnon `.sha256`, et `customize.sh` vérifie chacun d'eux avant de toucher au système, si un fichier a été corrompu ou si le `.zip` a été tronqué en chemin, le flashage est interrompu avec un message clair au lieu d'installer une charge utile endommagée. La vérification est ignorée sans danger sur le rare appareil dont le recovery n'a pas de `sha256sum` comprenant `-c`.
 
 ## À quoi il sert
 
@@ -95,4 +95,4 @@ Le module WebUI se vérifie lui-même pendant qu'il s'installe. Chaque fichier l
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

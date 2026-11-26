@@ -85,7 +85,7 @@ Setiap hash harus cocok dengan daftar di atas, dan salinan aplikasi dan WebUI ha
 
 ## Integritas saat flash
 
-Modul WebUI memeriksa dirinya sendiri selama pemasangan. Setiap berkas yang disertakan dikirim di samping sebuah pendamping `.sha256`, dan `customize.sh` memverifikasi masing-masing sebelum menyentuh sistem; jika sebuah berkas rusak atau `.zip`-nya terpotong saat transit, flash dibatalkan dengan pesan yang jelas alih-alih memasang payload yang rusak. Pemeriksaan ini dilewati dengan aman pada perangkat langka yang recovery-nya tidak memiliki `sha256sum` yang memahami `-c`.
+Modul WebUI memeriksa dirinya sendiri selama pemasangan. Setiap berkas yang disertakan dikirim di samping sebuah pendamping `.sha256`, dan `customize.sh` memverifikasi masing-masing sebelum menyentuh sistem, jika sebuah berkas rusak atau `.zip`-nya terpotong saat transit, flash dibatalkan dengan pesan yang jelas alih-alih memasang payload yang rusak. Pemeriksaan ini dilewati dengan aman pada perangkat langka yang recovery-nya tidak memiliki `sha256sum` yang memahami `-c`.
 
 ## Untuk apa ia digunakan
 
@@ -95,4 +95,4 @@ Modul WebUI memeriksa dirinya sendiri selama pemasangan. Setiap berkas yang dise
 
 ---
 
-> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan, lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

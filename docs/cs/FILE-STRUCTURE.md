@@ -44,7 +44,7 @@ VD-Google/
   `VDGoogle/webui/webroot/scripts.js` (WebUI). Obě se navzájem přesně zrcadlí.
 - **Řetězce** jsou jediným zdrojem každého popisku, ve 21 jazycích: aplikace pod
   `res/values*/strings.xml`, WebUI pod `webroot/lang/`. Popisek se nikdy nepíše dvakrát.
-- **Dokumentace** žije v `docs/`. Je zdrojem pravdy pro projektovou wiki; wiki se z ní
+- **Dokumentace** žije v `docs/`. Je zdrojem pravdy pro projektovou wiki, wiki se z ní
   generuje (viz `tools/` a `.github/scripts/gen_wiki.sh`).
 - **Přibalený nástroj** (`sqlite3`) žije v `assets/bin/` pro aplikaci a v `bin/` pro
   modul a je zdokumentován v [Přibalené binárky](BINARIES.md).
@@ -71,4 +71,4 @@ mezipaměti a svůj log akcí zapisuje do svého vlastního soukromého adresá�
 
 ---
 
-> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány, viz [CONTRIBUTING.md](CONTRIBUTING.md)._

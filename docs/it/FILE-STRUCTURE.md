@@ -45,7 +45,7 @@ VD-Google/
 - **Le stringhe** sono la fonte unica di ogni etichetta, in 21 lingue: l'app sotto
   `res/values*/strings.xml`, la WebUI sotto `webroot/lang/`. Un'etichetta non viene mai
   scritta due volte.
-- **La documentazione** vive in `docs/`. È la fonte autorevole per il wiki del progetto; il
+- **La documentazione** vive in `docs/`. È la fonte autorevole per il wiki del progetto, il
   wiki è generato da essa (vedi `tools/` e `.github/scripts/gen_wiki.sh`).
 - **Lo strumento incluso** (`sqlite3`) vive in `assets/bin/` per l'app e `bin/` per il
   modulo, ed è documentato in [Binari inclusi](BINARIES.md).
@@ -74,4 +74,4 @@ scrive il suo log delle azioni all'interno della propria directory privata dei f
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

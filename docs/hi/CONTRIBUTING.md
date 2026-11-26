@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · हिन्दी · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · हिन्दी · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -8,7 +8,7 @@ VD Google में आपकी रुचि के लिए धन्यव�
 
 ## बुनियादी नियम
 
-- **VD Google सच पढ़ता है और कभी कुछ नकली नहीं बनाता।** योगदानों को इसे वैसा ही बनाए रखना होगा। एक वास्तविक नकारात्मक नकारात्मक ही रहता है; एक पुराना कैश कैश्ड के रूप में लेबल किया जाता है; एक अनुपस्थित मान Unknown होता है। किसी रीडिंग को बेहतर दिखाने के लिए उसे नरम मत करो।
+- **VD Google सच पढ़ता है और कभी कुछ नकली नहीं बनाता।** योगदानों को इसे वैसा ही बनाए रखना होगा। एक वास्तविक नकारात्मक नकारात्मक ही रहता है, एक पुराना कैश कैश्ड के रूप में लेबल किया जाता है, एक अनुपस्थित मान Unknown होता है। किसी रीडिंग को बेहतर दिखाने के लिए उसे नरम मत करो।
 - **निजता पूर्ण है।** ऐप कोई अनुमति घोषित नहीं करता और WebUI किसी रिमोट ऑरिजिन से संपर्क नहीं करता। कभी कोई अनुमति, कोई नेटवर्क कॉल, या कुछ भी ऐसा मत जोड़ो जो डिवाइस से डेटा बाहर भेजे।
 - **ऐप और WebUI एक जैसे हैं।** जो दिखाया जाता है, या एक्सपोर्ट की गई रिपोर्ट में, किसी भी बदलाव को दोनों में, वही शब्दावली के साथ उतरना होगा। उन्हें कभी अलग नहीं होना चाहिए।
 - **लेबल एक ही बार रहते हैं, 21 भाषाओं में।** हर उपयोगकर्ता-सामने वाली स्ट्रिंग ऐप (`res/values*/strings.xml`) और WebUI (`webroot/lang/`) के लिए परिभाषित है। यदि आप कोई लेबल जोड़ते या बदलते हैं, तो सभी भाषाओं को अपडेट करें।
@@ -24,7 +24,7 @@ VD Google में आपकी रुचि के लिए धन्यव�
 ## कोड
 
 - release बिल्ड करें, कभी debug नहीं। एक वास्तविक, rooted डिवाइस पर परीक्षण करें।
-- कोड से टिप्पणियाँ बाहर रखें; नाम मंशा समझाते हैं। एकमात्र हेडर हर सोर्स फ़ाइल के शीर्ष पर लाइसेंस बैनर है।
+- कोड से टिप्पणियाँ बाहर रखें, नाम मंशा समझाते हैं। एकमात्र हेडर हर सोर्स फ़ाइल के शीर्ष पर लाइसेंस बैनर है।
 - मौजूदा शैली से मेल खाएँ और बदलावों को केंद्रित रखें।
 
 ## लाइसेंस
@@ -35,4 +35,4 @@ VD Google में आपकी रुचि के लिए धन्यव�
 
 ---
 
-> _यह दस्तावेज़ Claude (Anthropic) से तैयार किया गया है और इसे VD171 द्वारा अनुरक्षित किया जाता है। सुधार और संशोधन का स्वागत है; देखें [CONTRIBUTING.md](CONTRIBUTING.md)।_
+> _यह दस्तावेज़ Claude (Anthropic) से तैयार किया गया है और इसे VD171 द्वारा अनुरक्षित किया जाता है। सुधार और संशोधन का स्वागत है, देखें [CONTRIBUTING.md](CONTRIBUTING.md)।_

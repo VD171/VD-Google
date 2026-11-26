@@ -73,7 +73,7 @@ VD Google iki şekilde gelir ve ikisi de tam olarak aynı bilgileri gösterir:
 - **Uygulama (APK).** Kurduğunuz ve açtığınız normal bir Android uygulaması. Herhangi bir
   root uygulaması gibi, ilk seferde root ister.
 - **WebUI modülü (ZIP).** Root yöneticinizde (KernelSU, APatch veya Magisk) flaşlayın ve
-  oradan açın. Hiçbir şey uygulama olarak kurulmaz; root yöneticinizin WebUI'si içinde
+  oradan açın. Hiçbir şey uygulama olarak kurulmaz, root yöneticinizin WebUI'si içinde
   çalışır.
 
 Hangisini tercih ederseniz onu seçin. Ekranlar, ifadeler ve dışa aktarılan rapor ikisi
@@ -88,7 +88,7 @@ açıklayan bir ekran gösterir ve tekrar denemeyi önerir.
 **WebUI:** ZIP'i root yöneticinizde bir modül olarak flaşlayın, ardından modülün WebUI'sini
 yöneticiden açın. Açılır açılmaz okur.
 
-İlk açılışta dilinizi seçebilirsiniz; daha sonra üstteki dişli simgesinden
+İlk açılışta dilinizi seçebilirsiniz, daha sonra üstteki dişli simgesinden
 değiştirebilirsiniz.
 
 ## 6. Sekmeler
@@ -124,7 +124,7 @@ saat diliminde gösterilir.
 - **RCS destekli kişiler**: kişilerinizden kaçının şu anda RCS sohbetini desteklediğinin
   bilindiği.
 - **Feature flag (cached)**: mesajlaşma uygulamasının RCS özelliğinin açık olup
-  olmadığı; önbelleklenmiş olduğundan geride kalabilir.
+  olmadığı, önbelleklenmiş olduğundan geride kalabilir.
 - **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: bunlar
   *operatörün* RCS yolunu (operatörün IMS ağı) tanımlar. RCS'niz operatörünüz yerine
   Google'ın kendi arka ucu üzerinden çalıştığında, buradaki bir "No" ya da "0" normaldir.
@@ -135,7 +135,7 @@ saat diliminde gösterilir.
 - **Zaman damgaları**: provizyon, eşitleme, son mesaj, jeton süresi ve dahası.
 
 **Operatör RCS'si ve Google'ın arka ucu.** RCS'nin telefonunuza ulaşmasının iki yolu
-vardır. Biri *operatörünüzün* IMS ağı üzerinden RCS'si; diğeri operatörden bağımsız
+vardır. Biri *operatörünüzün* IMS ağı üzerinden RCS'si, diğeri operatörden bağımsız
 olarak, üstten çalışan *Google'ın kendi arka ucudur* (Jibe). RCS'niz Google'ın arka ucu
 üzerinden çalışıyorsa (çoğu insanda olduğu gibi) o zaman operatör tarafı satırlar
 (carrier entitlement, presence/UCE, IMS service, configuration version) gerçekten "No"
@@ -207,4 +207,4 @@ dürüstçedir: VD Google destekleyemeyeceği bir "No" göstermez.
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

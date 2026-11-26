@@ -14,12 +14,12 @@ giờ trôi dạt thành một hướng dẫn cho người muốn giả mạo ch
 1. **Đọc sự thật.** Hiển thị những gì chính các ứng dụng của Google đã ghi lại, giải thích
    nó, và không bao giờ bịa ra một giá trị. Khi thiết bị không giữ câu trả lời, hãy nói
    Không rõ.
-2. **Không mạng.** Ứng dụng không khai báo bất kỳ quyền nào; WebUI chặn mọi nguồn gốc từ xa.
+2. **Không mạng.** Ứng dụng không khai báo bất kỳ quyền nào, WebUI chặn mọi nguồn gốc từ xa.
    Không có gì được gửi đi đâu cả, bao giờ.
 3. **Một hành vi, hai bộ mặt.** Ứng dụng và module WebUI được giữ hoàn toàn giống hệt nhau:
    cùng tín hiệu, cùng cách diễn đạt, cùng báo cáo xuất ra.
-4. **Trung thực hơn là tâng bốc.** Một kết quả âm thật sự được hiển thị là âm; một bộ nhớ
-   đệm cũ được ghi nhãn là đã lưu đệm; một giá trị thiếu là Không rõ. Việc phát hiện không
+4. **Trung thực hơn là tâng bốc.** Một kết quả âm thật sự được hiển thị là âm, một bộ nhớ
+   đệm cũ được ghi nhãn là đã lưu đệm, một giá trị thiếu là Không rõ. Việc phát hiện không
    bao giờ bị làm dịu đi để trông đẹp hơn.
 
 ## Hai bộ mặt
@@ -67,7 +67,7 @@ Phần xuất là một ảnh chụp JSON đã được làm sạch. Một bộ 
 gì được ghi: nó loại bỏ các khóa và giá trị trông giống thông tin xác thực, biên tập ẩn đi
 những chuỗi chữ số dài, và không bao giờ phát ra số điện thoại, nội dung tin nhắn, tên liên
 hệ hay các khối dữ liệu khả năng (capability blob) thô của bạn. Phần chẩn đoán tùy chọn chỉ
-mang theo tên lược đồ, số đếm, kích thước và phiên bản; và ngay cả ở đó, bất kỳ dấu vân tay
+mang theo tên lược đồ, số đếm, kích thước và phiên bản, và ngay cả ở đó, bất kỳ dấu vân tay
 theo-danh-tính nào được nhúng trong một tên đều bị thu gọn đi. Ứng dụng và WebUI tạo ra cùng
 một lược đồ.
 
@@ -85,4 +85,4 @@ một lược đồ.
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

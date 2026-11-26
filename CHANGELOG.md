@@ -118,4 +118,4 @@ All notable changes to VD Google. Dates are ISO (YYYY-MM-DD).
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](docs/CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md)._

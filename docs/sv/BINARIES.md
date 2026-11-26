@@ -115,7 +115,7 @@ SHA-256-värden.
 
 WebUI-modulen kontrollerar sig själv medan den installeras. Varje levererad fil levereras
 bredvid en `.sha256`-kompanjon, och `customize.sh` verifierar var och en innan den rör
-systemet; om en fil var skadad eller om `.zip`-filen kapades under överföringen avbryts
+systemet, om en fil var skadad eller om `.zip`-filen kapades under överföringen avbryts
 flashningen med ett tydligt meddelande i stället för att installera en skadad nyttolast.
 Kontrollen hoppas säkert över på den sällsynta enhet vars recovery saknar en `sha256sum`
 som förstår `-c`.
@@ -130,4 +130,4 @@ låta VD Google läsa samma värden på varje enhet. Ingen annan inbyggd binär 
 
 ---
 
-> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas, se [CONTRIBUTING.md](CONTRIBUTING.md)._

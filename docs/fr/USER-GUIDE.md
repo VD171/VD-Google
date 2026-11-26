@@ -36,7 +36,7 @@ Tout est lu localement, via le root, et affiché avec une explication. Aucune va
 
 ## 2. Ce qu'il n'est pas
 
-**VD Google n'est pas un vérificateur d'intégrité.** Il n'exécute ni ne rapporte aucun verdict basic / device / strong. Ce résultat ne vit qu'à l'intérieur du jeton chiffré qu'une application envoie à son propre serveur, et n'est jamais stocké sur l'appareil ; aucun lecteur honnête ne peut donc l'afficher. Les outils qui prétendent afficher votre « verdict Play Integrity » localement vous montrent une supposition mise en cache ou une requête qu'ils ont faite eux-mêmes, non pas la vraie réponse.
+**VD Google n'est pas un vérificateur d'intégrité.** Il n'exécute ni ne rapporte aucun verdict basic / device / strong. Ce résultat ne vit qu'à l'intérieur du jeton chiffré qu'une application envoie à son propre serveur, et n'est jamais stocké sur l'appareil, aucun lecteur honnête ne peut donc l'afficher. Les outils qui prétendent afficher votre « verdict Play Integrity » localement vous montrent une supposition mise en cache ou une requête qu'ils ont faite eux-mêmes, non pas la vraie réponse.
 
 VD Google n'usurpe, ne masque ni ne falsifie non plus quoi que ce soit. Il lit la vérité. Si une valeur vous semble fausse, l'objectif de ce guide est d'expliquer pourquoi la vérité se présente ainsi.
 
@@ -51,7 +51,7 @@ VD Google n'usurpe, ne masque ni ne falsifie non plus quoi que ce soit. Il lit l
 VD Google se décline de deux façons, et elles affichent exactement les mêmes informations :
 
 - **L'application (APK).** Une application Android normale que vous installez et ouvrez. Elle demande le root la première fois, comme toute application root.
-- **Le module WebUI (ZIP).** Flashez-le dans votre gestionnaire de root (KernelSU, APatch ou Magisk) et ouvrez-le depuis là. Rien n'est installé comme application ; il s'exécute à l'intérieur de la WebUI de votre gestionnaire de root.
+- **Le module WebUI (ZIP).** Flashez-le dans votre gestionnaire de root (KernelSU, APatch ou Magisk) et ouvrez-le depuis là. Rien n'est installé comme application, il s'exécute à l'intérieur de la WebUI de votre gestionnaire de root.
 
 Choisissez celle que vous préférez. Les écrans, les formulations et le rapport exporté sont identiques entre les deux.
 
@@ -61,7 +61,7 @@ Choisissez celle que vous préférez. Les écrans, les formulations et le rappor
 
 **WebUI :** flashez le ZIP comme module dans votre gestionnaire de root, puis ouvrez la WebUI du module depuis le gestionnaire. Il lit dès qu'il s'ouvre.
 
-À la première ouverture, vous pouvez choisir votre langue ; vous pourrez la changer plus tard depuis l'icône d'engrenage en haut.
+À la première ouverture, vous pouvez choisir votre langue, vous pourrez la changer plus tard depuis l'icône d'engrenage en haut.
 
 ## 6. Les onglets
 
@@ -81,12 +81,12 @@ C'est l'onglet le plus riche. Les horodatages sont toujours affichés dans le fu
 - **Votre numéro RCS**: le numéro enregistré pour le RCS, masqué par défaut. Touchez l'œil pour le révéler.
 - **État de provisionnement (en cache)** et **Version de configuration**: des valeurs internes que l'application de messagerie conserve. Elles peuvent afficher 0 alors même que le RCS fonctionne. Voyez la note sur l'opérateur vs le backend de Google ci-dessous.
 - **Contacts compatibles RCS**: combien de vos contacts sont actuellement connus pour prendre en charge le chat RCS.
-- **Indicateur de fonctionnalité (en cache)**: si l'application de messagerie a la fonctionnalité RCS activée ; mis en cache, il peut donc être en retard.
+- **Indicateur de fonctionnalité (en cache)**: si l'application de messagerie a la fonctionnalité RCS activée, mis en cache, il peut donc être en retard.
 - **Éligibilité opérateur**, **Présence (UCE)**, **Service IMS présent**: ceux-ci décrivent le chemin RCS de l'*opérateur* (le réseau IMS de l'opérateur). Un « Non » ou « 0 » ici est normal lorsque votre RCS passe par le backend de Google au lieu de votre opérateur. Voir ci-dessous.
 - **Gemini**: si Gemini dans Google Messages est prêt : **Magic Compose** (l'aide à la rédaction de Gemini), **AICore** (le moteur sur l'appareil qui exécute Gemini Nano), et **Gemini chat**, qui est acheminé via le RCS et nécessite donc une connexion RCS.
 - **Horodatages**: provisionnement, synchronisation, dernier message, expiration du jeton, et plus encore.
 
-**RCS de l'opérateur vs backend de Google.** Il y a deux façons dont le RCS parvient à votre téléphone. L'une est le RCS de votre *opérateur* sur son réseau IMS ; l'autre est le *backend de Google* (Jibe), qui fonctionne par-dessus, indépendamment de l'opérateur. Si votre RCS passe par le backend de Google, comme c'est le cas pour la plupart des gens, alors les lignes côté opérateur (éligibilité opérateur, présence/UCE, service IMS, version de configuration) sont véritablement « Non » ou « 0 », et c'est correct, non pas un cache périmé. Votre RCS a pu fonctionner ainsi pendant des années. La ligne Connexion est ce qui vous dit qu'il fonctionne.
+**RCS de l'opérateur vs backend de Google.** Il y a deux façons dont le RCS parvient à votre téléphone. L'une est le RCS de votre *opérateur* sur son réseau IMS, l'autre est le *backend de Google* (Jibe), qui fonctionne par-dessus, indépendamment de l'opérateur. Si votre RCS passe par le backend de Google, comme c'est le cas pour la plupart des gens, alors les lignes côté opérateur (éligibilité opérateur, présence/UCE, service IMS, version de configuration) sont véritablement « Non » ou « 0 », et c'est correct, non pas un cache périmé. Votre RCS a pu fonctionner ainsi pendant des années. La ligne Connexion est ce qui vous dit qu'il fonctionne.
 
 ### 6.3 Wallet
 
@@ -129,4 +129,4 @@ VD Google parle 21 langues. Choisissez la vôtre au premier lancement, ou change
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

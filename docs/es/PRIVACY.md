@@ -18,7 +18,7 @@ qué hace y qué no hace la app con tus datos, en términos claros que puedes ve
 
 El estado de RCS, Wallet y atestación que explica VD Google vive en áreas protegidas y exclusivas del
 sistema de Android que las apps normales no pueden ver. VD Google las lee con root en vez de pedirte
-permisos amplios. Root es la vía de entrada estrecha y auditable; un montón de permisos en tiempo de
+permisos amplios. Root es la vía de entrada estrecha y auditable, un montón de permisos en tiempo de
 ejecución sería la vía amplia y con fugas. La app elige la estrecha.
 
 ## La exportación está saneada
@@ -50,8 +50,8 @@ Ninguna acción llega jamás a la red, y nada sale de tu teléfono.
 No tienes que aceptar nada de esto por confianza:
 
 - El código fuente es público: <https://github.com/VD171/VD-Google>.
-- El manifiesto está en el código fuente; confirma que no declara permisos.
-- La Content-Security-Policy de la WebUI está en el código fuente; confirma que bloquea todo origen
+- El manifiesto está en el código fuente, confirma que no declara permisos.
+- La Content-Security-Policy de la WebUI está en el código fuente, confirma que bloquea todo origen
   remoto.
 - Los binarios incluidos están documentados con sumas de verificación en [Binarios
   incluidos](BINARIES.md).
@@ -60,4 +60,4 @@ No tienes que aceptar nada de esto por confianza:
 
 ---
 
-> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas, consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

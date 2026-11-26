@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · Deutsch · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · Deutsch · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,7 +10,7 @@ Dokumentation und Code.
 ## Grundregeln
 
 - **VD Google liest die Wahrheit und fälscht niemals etwas.** Beiträge müssen das so bewahren. Ein
-  echtes Negativ bleibt negativ; ein veralteter Cache wird als zwischengespeichert gekennzeichnet;
+  echtes Negativ bleibt negativ, ein veralteter Cache wird als zwischengespeichert gekennzeichnet;
   ein fehlender Wert ist Unbekannt. Schwäche eine Lesung nicht ab, damit sie schöner aussieht.
 - **Privatsphäre ist absolut.** Die App deklariert keine Berechtigungen und die WebUI kontaktiert
   keine entfernte Herkunft. Füge niemals eine Berechtigung, einen Netzwerkaufruf oder irgendetwas
@@ -38,7 +38,7 @@ dafür gebaut.
 ## Code
 
 - Baue Release, niemals Debug. Teste auf einem echten, gerooteten Gerät.
-- Halte Kommentare aus dem Code heraus; Namen erklären die Absicht. Der einzige Header ist das
+- Halte Kommentare aus dem Code heraus, Namen erklären die Absicht. Der einzige Header ist das
   Lizenz-Banner am Anfang jeder Quelldatei.
 - Triff den bestehenden Stil und halte Änderungen fokussiert.
 
@@ -51,4 +51,4 @@ Projekts lizenziert ist.
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

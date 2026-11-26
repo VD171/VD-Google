@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: 在本机读取 RCS、Google 钱包与 Play Integrity 认证。
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/zh/about.png" height="420"/>
+  <img src="docs/screenshots/zh/droidguard.png" height="420"/>
+  <img src="docs/screenshots/zh/rcs.png" height="420"/>
+  <img src="docs/screenshots/zh/wallet.png" height="420"/>
+  <img src="docs/screenshots/zh/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,7 +96,7 @@ VD Google **不声明任何权限**，连联网权限都没有。它读取的任
 ## 要求
 
 - Android 8.0（API 26）或更高版本。
-- 可在 arm、arm64、x86 和 x86_64 设备上运行 - 手机、平板、模拟器和 ChromeOS。
+- 可在 arm、arm64、x86 和 x86_64 设备上运行：手机、平板、模拟器和 ChromeOS。
 - **需要 Root。** 以上信息位于 Android 中仅系统可访问的受保护区域。VD Google 以超级用户权限读取这些信息，除此之外不做任何事。没有 root 时，应用只会显示一个说明为何需要 root 的界面。
 
 ## 时间戳
@@ -118,16 +137,15 @@ VD Google 写出单个 JSON **导出**：一份结构化、机器可读的快照
 
 ## 联系方式
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## 许可证
 
@@ -140,3 +158,7 @@ VD Google 是一个独立的非官方项目。它与 Google LLC 无关，未获�
 ## 标签
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **加入频道以获取更新：** @Priv8_VD https://t.me/Priv8_VD

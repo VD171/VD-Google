@@ -21,7 +21,7 @@ ràng mà bạn có thể xác minh.
 Trạng thái RCS, Wallet và chứng thực mà VD Google giải thích nằm ở những vùng được bảo vệ,
 chỉ-dành-cho-hệ-thống của Android mà các ứng dụng thông thường không thể thấy. VD Google đọc
 chúng bằng root thay vì bằng cách xin bạn những quyền rộng. Root là lối vào hẹp, có thể kiểm
-toán; một đống quyền thời gian chạy sẽ là lối vào rộng, dễ rò rỉ. Ứng dụng chọn lối hẹp.
+toán, một đống quyền thời gian chạy sẽ là lối vào rộng, dễ rò rỉ. Ứng dụng chọn lối hẹp.
 
 ## Bản xuất đã được làm sạch
 
@@ -53,8 +53,8 @@ Không có hành động nào từng chạm tới mạng, và không có gì r�
 Bạn không phải tin điều nào trong số này một cách mù quáng:
 
 - Mã nguồn là công khai: <https://github.com/VD171/VD-Google>.
-- Manifest nằm trong mã nguồn; hãy xác nhận rằng nó không khai báo quyền nào.
-- Content-Security-Policy của WebUI nằm trong mã nguồn; hãy xác nhận rằng nó chặn mọi nguồn
+- Manifest nằm trong mã nguồn, hãy xác nhận rằng nó không khai báo quyền nào.
+- Content-Security-Policy của WebUI nằm trong mã nguồn, hãy xác nhận rằng nó chặn mọi nguồn
   gốc từ xa.
 - Các tệp nhị phân đi kèm được ghi lại cùng tổng kiểm trong [Tệp nhị phân đi
   kèm](BINARIES.md).
@@ -63,4 +63,4 @@ Bạn không phải tin điều nào trong số này một cách mù quáng:
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

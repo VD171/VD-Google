@@ -14,7 +14,7 @@ La confidentialité n'est pas une fonctionnalité de VD Google: c'est toute sa r
 
 ## Pourquoi il a besoin du root plutôt que de permissions
 
-L'état du RCS, de Wallet et des attestations que VD Google explique réside dans des zones protégées d'Android, réservées au système, que les applications normales ne peuvent pas voir. VD Google les lit avec le root plutôt qu'en vous demandant de larges permissions. Le root est la voie d'accès étroite et auditable ; un amas de permissions d'exécution serait la voie large et poreuse. L'application choisit la voie étroite.
+L'état du RCS, de Wallet et des attestations que VD Google explique réside dans des zones protégées d'Android, réservées au système, que les applications normales ne peuvent pas voir. VD Google les lit avec le root plutôt qu'en vous demandant de larges permissions. Le root est la voie d'accès étroite et auditable, un amas de permissions d'exécution serait la voie large et poreuse. L'application choisit la voie étroite.
 
 ## L'export est assaini
 
@@ -40,12 +40,12 @@ Aucune action n'atteint jamais le réseau, et rien ne quitte votre téléphone.
 Vous n'avez à rien prendre pour argent comptant :
 
 - Le code source est public : <https://github.com/VD171/VD-Google>.
-- Le manifeste est dans le code source ; confirmez qu'il ne déclare aucune permission.
-- La Content-Security-Policy de la WebUI est dans le code source ; confirmez qu'elle bloque toute origine distante.
+- Le manifeste est dans le code source, confirmez qu'il ne déclare aucune permission.
+- La Content-Security-Policy de la WebUI est dans le code source, confirmez qu'elle bloque toute origine distante.
 - Les binaires embarqués sont documentés avec leurs sommes de contrôle dans [Binaires embarqués](BINARIES.md).
 
 <!-- doc-footer -->
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -70,7 +70,7 @@ VD Google levereras på två sätt, och de visar exakt samma information:
 - **Appen (APK).** En vanlig Android-app som du installerar och öppnar. Ber om root första
   gången, som vilken root-app som helst.
 - **WebUI-modulen (ZIP).** Flasha den i din root-hanterare (KernelSU, APatch eller Magisk)
-  och öppna den därifrån. Ingenting installeras som en app; den körs inuti din
+  och öppna den därifrån. Ingenting installeras som en app, den körs inuti din
   root-hanterares WebUI.
 
 Välj det du föredrar. Skärmarna, formuleringarna och den exporterade rapporten är
@@ -85,7 +85,7 @@ krävs och erbjuder att försöka igen.
 **WebUI:** flasha ZIP:en som en modul i din root-hanterare, öppna sedan modulens WebUI från
 hanteraren. Den läser så snart den öppnas.
 
-Vid första öppningen kan du välja ditt språk; du kan ändra det senare från kugghjulsikonen
+Vid första öppningen kan du välja ditt språk, du kan ändra det senare från kugghjulsikonen
 högst upp.
 
 ## 6. Flikarna
@@ -119,7 +119,7 @@ med zonen märkt.
   Googles backend nedan.
 - **RCS-kapabla kontakter**: hur många av dina kontakter som för närvarande är kända för
   att stödja RCS-chatt.
-- **Funktionsflagga (cachad)**: om meddelandeappen har RCS-funktionen påslagen; cachad, så
+- **Funktionsflagga (cachad)**: om meddelandeappen har RCS-funktionen påslagen, cachad, så
   den kan släpa efter.
 - **Operatörsberättigande (entitlement)**, **Närvaro (UCE)**, **IMS-tjänst närvarande**:
   dessa beskriver *operatörens* RCS-väg (operatörens IMS-nätverk). Ett "Nej" eller "0" här
@@ -132,7 +132,7 @@ med zonen märkt.
   mera.
 
 **Operatörs-RCS kontra Googles backend.** Det finns två sätt som RCS når din telefon. Det
-ena är din *operatörs* RCS över deras IMS-nätverk; det andra är *Googles egen backend*
+ena är din *operatörs* RCS över deras IMS-nätverk, det andra är *Googles egen backend*
 (Jibe), som fungerar ovanpå, oberoende av operatören. Om din RCS körs genom Googles backend,
 som den gör för de flesta, då är raderna på operatörssidan (operatörsberättigande,
 närvaro/UCE, IMS-tjänst, konfigurationsversion) genuint "Nej" eller "0", och det är
@@ -203,4 +203,4 @@ negativa. Se [6.2 RCS](#62-rcs).
 
 ---
 
-> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas, se [CONTRIBUTING.md](CONTRIBUTING.md)._

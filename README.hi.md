@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: RCS, Google वॉलेट और Play Integrity प्रमाणन, डिवाइस पर पढ़े गए।
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/hi/about.png" height="420"/>
+  <img src="docs/screenshots/hi/droidguard.png" height="420"/>
+  <img src="docs/screenshots/hi/rcs.png" height="420"/>
+  <img src="docs/screenshots/hi/wallet.png" height="420"/>
+  <img src="docs/screenshots/hi/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,7 +96,7 @@ VD Google **कोई भी अनुमति** घोषित नहीं �
 ## आवश्यकताएँ
 
 - Android 8.0 (API 26) या नया।
-- arm, arm64, x86 और x86_64 डिवाइसों पर चलता है - फ़ोन, टैबलेट, एमुलेटर और ChromeOS।
+- arm, arm64, x86 और x86_64 डिवाइसों पर चलता है: फ़ोन, टैबलेट, एमुलेटर और ChromeOS।
 - **रूट आवश्यक है।** उपरोक्त जानकारी Android के सुरक्षित, केवल सिस्टम-सुलभ क्षेत्रों में रहती है। VD Google इसे सुपरयूज़र पहुँच से पढ़ता है और इसके साथ और कुछ नहीं करता। रूट के बिना, ऐप केवल एक स्क्रीन दिखाता है जो बताती है कि रूट क्यों आवश्यक है।
 
 ## समय-चिह्न
@@ -90,7 +109,7 @@ VD Google एक अकेला JSON **निर्यात** लिखता 
 
 ## बिल्ड
 
-हमेशा release, कभी debug नहीं। Android ऐप `VDGoogle/` से `./gradlew assembleRelease` के साथ बनता है; WebUI मॉड्यूल `webui/package.sh` से पैकेज होता है। एकमात्र नेटिव बाइनरी `sqlite3` है, जो Termux रिपॉज़िटरी से उसके लाइब्रेरी क्लोज़र सहित लाई जाती है और उसके SHA-256 के साथ दर्ज की जाती है। देखें [योगदान](CONTRIBUTING.md), [संलग्न बाइनरी](https://github.com/VD171/VD-Google/wiki/BINARIES) और [विकी](https://github.com/VD171/VD-Google/wiki)।
+हमेशा release, कभी debug नहीं। Android ऐप `VDGoogle/` से `./gradlew assembleRelease` के साथ बनता है, WebUI मॉड्यूल `webui/package.sh` से पैकेज होता है। एकमात्र नेटिव बाइनरी `sqlite3` है, जो Termux रिपॉज़िटरी से उसके लाइब्रेरी क्लोज़र सहित लाई जाती है और उसके SHA-256 के साथ दर्ज की जाती है। देखें [योगदान](CONTRIBUTING.md), [संलग्न बाइनरी](https://github.com/VD171/VD-Google/wiki/BINARIES) और [विकी](https://github.com/VD171/VD-Google/wiki)।
 
 ## दस्तावेज़ीकरण
 
@@ -118,16 +137,15 @@ VD Google एक अकेला JSON **निर्यात** लिखता 
 
 ## संपर्क
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## लाइसेंस
 
@@ -140,3 +158,7 @@ VD Google एक स्वतंत्र, अनौपचारिक परि
 ## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **अपडेट के लिए चैनल से जुड़ें:** @Priv8_VD https://t.me/Priv8_VD

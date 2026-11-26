@@ -44,7 +44,7 @@ VD-Google/
   `VDGoogle/webui/webroot/scripts.js` (la WebUI). Los dos se reflejan exactamente.
 - **Las cadenas** son la única fuente de cada etiqueta, en 21 idiomas: la app bajo
   `res/values*/strings.xml`, la WebUI bajo `webroot/lang/`. Una etiqueta nunca se escribe dos veces.
-- **La documentación** vive en `docs/`. Es la fuente de verdad para el wiki del proyecto; el wiki se
+- **La documentación** vive en `docs/`. Es la fuente de verdad para el wiki del proyecto, el wiki se
   genera a partir de ella (consulta `tools/` y `.github/scripts/gen_wiki.sh`).
 - **La herramienta incluida** (`sqlite3`) vive en `assets/bin/` para la app y `bin/` para el módulo, y
   está documentada en [Binarios incluidos](BINARIES.md).
@@ -72,4 +72,4 @@ escribe su registro de acciones dentro de su propio directorio de archivos priva
 
 ---
 
-> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas, consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

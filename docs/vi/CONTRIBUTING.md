@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · Tiếng Việt · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · Tiếng Việt · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@ lỗi, tài liệu và mã nguồn.
 ## Nguyên tắc nền tảng
 
 - **VD Google đọc sự thật và không bao giờ giả mạo bất cứ điều gì.** Các đóng góp phải giữ
-  nguyên điều đó. Một kết quả âm thật sự vẫn là âm; một bộ nhớ đệm cũ được ghi nhãn là đã lưu
-  đệm; một giá trị thiếu là Không rõ. Đừng làm dịu một kết quả đọc để nó trông đẹp hơn.
+  nguyên điều đó. Một kết quả âm thật sự vẫn là âm, một bộ nhớ đệm cũ được ghi nhãn là đã lưu
+  đệm, một giá trị thiếu là Không rõ. Đừng làm dịu một kết quả đọc để nó trông đẹp hơn.
 - **Quyền riêng tư là tuyệt đối.** Ứng dụng không khai báo quyền nào và WebUI không liên lạc
   với nguồn gốc từ xa nào. Không bao giờ thêm một quyền, một lệnh gọi mạng, hay bất cứ thứ gì
   gửi dữ liệu ra khỏi thiết bị.
@@ -38,7 +38,7 @@ một **bản xuất** (nó không chứa dữ liệu cá nhân). Phần chẩn 
 ## Mã nguồn
 
 - Dựng bản release, không bao giờ debug. Kiểm thử trên một thiết bị đã root thật.
-- Giữ bình luận ra khỏi mã; tên gọi giải thích ý định. Tiêu đề duy nhất là banner giấy phép ở
+- Giữ bình luận ra khỏi mã, tên gọi giải thích ý định. Tiêu đề duy nhất là banner giấy phép ở
   đầu mỗi tệp nguồn.
 - Khớp với phong cách hiện có và giữ các thay đổi tập trung.
 
@@ -51,4 +51,4 @@ Bằng việc đóng góp, bạn đồng ý rằng đóng góp của bạn đư�
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

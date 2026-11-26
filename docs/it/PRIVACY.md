@@ -20,7 +20,7 @@ esattamente cosa l'app fa e non fa con i tuoi dati, in termini chiari che puoi v
 
 Lo stato di RCS, Wallet e attestazione che VD Google spiega vive in aree protette di Android
 riservate al sistema, che le app normali non possono vedere. VD Google le legge con root
-anziché chiederti permessi ampi. Root è la via d'accesso stretta e verificabile; una pila di
+anziché chiederti permessi ampi. Root è la via d'accesso stretta e verificabile, una pila di
 permessi runtime sarebbe la via ampia e dispersiva. L'app sceglie quella stretta.
 
 ## L'esportazione è sanificata
@@ -53,8 +53,8 @@ Nessuna azione raggiunge mai la rete, e niente lascia il tuo telefono.
 Non devi credere a nulla di tutto questo sulla fiducia:
 
 - Il sorgente è pubblico: <https://github.com/VD171/VD-Google>.
-- Il manifest è nel sorgente; verifica che non dichiari alcun permesso.
-- La Content-Security-Policy della WebUI è nel sorgente; verifica che blocchi ogni origine
+- Il manifest è nel sorgente, verifica che non dichiari alcun permesso.
+- La Content-Security-Policy della WebUI è nel sorgente, verifica che blocchi ogni origine
   remota.
 - I binari inclusi sono documentati con i checksum in [Binari inclusi](BINARIES.md).
 
@@ -62,4 +62,4 @@ Non devi credere a nulla di tutto questo sulla fiducia:
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · Italiano · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · Italiano · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@ segnalazioni di bug, documentazione e codice.
 ## Regole di base
 
 - **VD Google legge la verità e non falsifica mai nulla.** I contributi devono mantenerlo
-  tale. Un vero esito negativo resta negativo; una cache obsoleta è etichettata come
-  memorizzata in cache; un valore mancante è Sconosciuto. Non ammorbidire una lettura per
+  tale. Un vero esito negativo resta negativo, una cache obsoleta è etichettata come
+  memorizzata in cache, un valore mancante è Sconosciuto. Non ammorbidire una lettura per
   farla apparire più gradevole.
 - **La privacy è assoluta.** L'app non dichiara alcun permesso e la WebUI non contatta alcuna
   origine remota. Non aggiungere mai un permesso, una chiamata di rete o qualunque cosa che
@@ -39,7 +39,7 @@ dell'esportazione è costruita esattamente per questo.
 ## Codice
 
 - Compila in release, mai in debug. Testa su un dispositivo reale con root.
-- Tieni i commenti fuori dal codice; i nomi spiegano l'intento. L'unica intestazione è il
+- Tieni i commenti fuori dal codice, i nomi spiegano l'intento. L'unica intestazione è il
   banner della licenza in cima a ogni file sorgente.
 - Rispetta lo stile esistente e mantieni le modifiche mirate.
 
@@ -52,4 +52,4 @@ Contribuendo, accetti che il tuo contributo sia rilasciato sotto la
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

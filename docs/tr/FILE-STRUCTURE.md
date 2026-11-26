@@ -46,7 +46,7 @@ VD-Google/
   yansıtır.
 - **Dizeler**, 21 dilde her etiketin tek kaynağıdır: uygulama `res/values*/strings.xml`
   altında, WebUI `webroot/lang/` altında. Bir etiket asla iki kez yazılmaz.
-- **Belgeler**, `docs/` içinde yaşar. Proje wiki'sinin doğruluk kaynağıdır; wiki ondan
+- **Belgeler**, `docs/` içinde yaşar. Proje wiki'sinin doğruluk kaynağıdır, wiki ondan
   üretilir (bkz. `tools/` ve `.github/scripts/gen_wiki.sh`).
 - **Paket içindeki araç** (`sqlite3`), uygulama için `assets/bin/` ve modül için `bin/`
   içinde yaşar ve [Paket içindeki ikililer](BINARIES.md) belgesinde belgelenmiştir.
@@ -60,12 +60,12 @@ edilmez). Nasıl derleneceği için benioku dosyasına bakın.
 
 Cihazda, WebUI modülü durumunu `/data/adb/vdgoogle/` altında tutar:
 
-- `scratch/`: bir veritabanının kısa ömürlü kopyaları; bir sorgunun canlı dosyaya asla
+- `scratch/`: bir veritabanının kısa ömürlü kopyaları, bir sorgunun canlı dosyaya asla
   dokunmaması için kenara alınır. Her okuma kendi kopyalarını siler ve kesintiye uğramış
   bir çalıştırmadan kalan her şey, WebUI bir sonraki açılışında temizlenir. Burada hiçbir
   şey saklanmaz.
 - `actions.jsonl`: durumu değiştiren eylemlerin (Google Wallet önbellek temizleme) yerel
-  günlüğü; her biri bir JSON satırı, son 200 girdiyle sınırlı. Cihazdan asla çıkmaz.
+  günlüğü, her biri bir JSON satırı, son 200 girdiyle sınırlı. Cihazdan asla çıkmaz.
 
 Uygulama ise aynı kısa ömürlü scratch kopyalarını kendi özel önbelleğinde tutar ve eylem
 günlüğünü kendi özel dosyalar dizininin içine yazar.
@@ -74,4 +74,4 @@ günlüğünü kendi özel dosyalar dizininin içine yazar.
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

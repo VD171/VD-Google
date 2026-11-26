@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · Українська · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · Українська · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,7 +10,7 @@
 ## Основні правила
 
 - **VD Google читає правду і ніколи нічого не підробляє.** Внески повинні це зберігати. Справжній
-  негативний результат залишається негативним; застарілий кеш позначається як кешований; відсутнє
+  негативний результат залишається негативним, застарілий кеш позначається як кешований, відсутнє
   значення є Невідомим. Не пом'якшуйте показання, щоб вони виглядали краще.
 - **Приватність є абсолютною.** Застосунок не оголошує жодних дозволів, а WebUI не звертається до
   жодного віддаленого джерела. Ніколи не додавайте дозвіл, мережевий виклик чи будь-що, що надсилає
@@ -37,7 +37,7 @@
 ## Код
 
 - Збирайте release, ніколи не debug. Тестуйте на справжньому, рутованому пристрої.
-- Тримайте коментарі поза кодом; імена пояснюють намір. Єдиний заголовок: банер
+- Тримайте коментарі поза кодом, імена пояснюють намір. Єдиний заголовок: банер
   ліцензії на початку кожного файлу вихідного коду.
 - Дотримуйтесь наявного стилю і тримайте зміни сфокусованими.
 
@@ -50,4 +50,4 @@
 
 ---
 
-> _Ця документація створена за допомогою Claude (Anthropic) і підтримується VD171. Виправлення та покращення вітаються; див. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ця документація створена за допомогою Claude (Anthropic) і підтримується VD171. Виправлення та покращення вітаються, див. [CONTRIBUTING.md](CONTRIBUTING.md)._

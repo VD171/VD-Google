@@ -54,6 +54,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      # Guard doc translations: fail if an accented-Latin page was ASCII-folded.
+      - name: Check translation accents (docs)
+        run: sh .github/scripts/i18n-accents.sh docs
+
       - name: Mirror docs/ into the wiki
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

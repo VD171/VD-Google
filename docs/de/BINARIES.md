@@ -115,7 +115,7 @@ SHA-256-Werte der Dateien.
 
 Das WebUI-Modul prüft sich selbst, während es installiert wird. Jede mitgelieferte Datei
 wird neben einer `.sha256`-Begleitdatei ausgeliefert, und `customize.sh` verifiziert jede
-einzelne, bevor es das System anfasst; wurde eine Datei beschädigt oder die `.zip` unterwegs
+einzelne, bevor es das System anfasst, wurde eine Datei beschädigt oder die `.zip` unterwegs
 abgeschnitten, wird das Flashen mit einer klaren Meldung abgebrochen, statt eine beschädigte
 Nutzlast zu installieren. Die Prüfung wird auf dem seltenen Gerät, dessen Recovery kein
 `sha256sum` mit Unterstützung für `-c` hat, sicher übersprungen.
@@ -131,4 +131,4 @@ native Binärdatei wird mitgeliefert.
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

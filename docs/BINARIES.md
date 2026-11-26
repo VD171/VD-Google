@@ -111,7 +111,7 @@ each `PROVENANCE.json`, extract them, and compare the file SHA-256 values.
 ## Flash-time integrity
 
 The WebUI module checks itself while it installs. Every bundled file ships next to a
-`.sha256` companion, and `customize.sh` verifies each one before touching the system; if a
+`.sha256` companion, and `customize.sh` verifies each one before touching the system, if a
 file was corrupted or the `.zip` was truncated in transit, the flash is aborted with a clear
 message instead of installing a damaged payload. The check is skipped safely on the rare
 device whose recovery lacks a `sha256sum` that understands `-c`.
@@ -126,4 +126,4 @@ the same values on every device. No other native binary is bundled.
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](../CONTRIBUTING.md)._

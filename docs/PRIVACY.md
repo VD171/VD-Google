@@ -18,7 +18,7 @@ what the app does and does not do with your data, in plain terms you can verify.
 
 The RCS, Wallet and attestation state VD Google explains lives in protected, system-only
 areas of Android that normal apps cannot see. VD Google reads them with root rather than
-by asking you for broad permissions. Root is the narrow, auditable way in; a pile of
+by asking you for broad permissions. Root is the narrow, auditable way in, a pile of
 runtime permissions would be the broad, leaky way. The app chooses the narrow one.
 
 ## The export is sanitized
@@ -50,8 +50,8 @@ No action ever reaches the network, and nothing leaves your phone.
 You do not have to take any of this on trust:
 
 - The source is public: <https://github.com/VD171/VD-Google>.
-- The manifest is in the source; confirm it declares no permissions.
-- The WebUI's Content-Security-Policy is in the source; confirm it blocks every remote
+- The manifest is in the source, confirm it declares no permissions.
+- The WebUI's Content-Security-Policy is in the source, confirm it blocks every remote
   origin.
 - The bundled binaries are documented with checksums in [Bundled binaries](BINARIES.md).
 
@@ -59,4 +59,4 @@ You do not have to take any of this on trust:
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](../CONTRIBUTING.md)._

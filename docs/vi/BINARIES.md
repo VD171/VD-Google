@@ -115,7 +115,7 @@ tệp.
 ## Tính toàn vẹn khi nạp (flash)
 
 Mô-đun WebUI tự kiểm tra chính nó trong khi cài đặt. Mỗi tệp đi kèm đều có một tệp `.sha256`
-đồng hành bên cạnh, và `customize.sh` xác minh từng tệp trước khi chạm vào hệ thống; nếu một
+đồng hành bên cạnh, và `customize.sh` xác minh từng tệp trước khi chạm vào hệ thống, nếu một
 tệp bị hỏng hoặc `.zip` bị cắt cụt trong khi truyền, việc nạp sẽ bị hủy kèm một thông báo rõ
 ràng thay vì cài đặt một phần tải bị hỏng. Việc kiểm tra được bỏ qua một cách an toàn trên
 những thiết bị hiếm hoi mà recovery thiếu một `sha256sum` hiểu được `-c`.
@@ -131,4 +131,4 @@ Không có tệp nhị phân gốc nào khác được đi kèm.
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

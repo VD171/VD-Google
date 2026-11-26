@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: RCS, Google 월렛, Play Integrity 증명을 기기에서 읽기.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/ko/about.png" height="420"/>
+  <img src="docs/screenshots/ko/droidguard.png" height="420"/>
+  <img src="docs/screenshots/ko/rcs.png" height="420"/>
+  <img src="docs/screenshots/ko/wallet.png" height="420"/>
+  <img src="docs/screenshots/ko/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,7 +96,7 @@ VD Google은 **어떤 권한도 선언하지 않습니다**. 인터넷 접근 �
 ## 요구 사항
 
 - Android 8.0 (API 26) 이상.
-- arm, arm64, x86, x86_64 기기에서 작동합니다 - 휴대폰, 태블릿, 에뮬레이터, ChromeOS.
+- arm, arm64, x86, x86_64 기기에서 작동합니다: 휴대폰, 태블릿, 에뮬레이터, ChromeOS.
 - **Root가 필요합니다.** 위 정보는 시스템만 접근할 수 있는 Android의 보호된 영역에 있습니다. VD Google은 슈퍼유저 권한으로 이를 읽을 뿐 그 밖의 어떤 일도 하지 않습니다. root가 없으면 앱은 root가 왜 필요한지 설명하는 화면만 표시합니다.
 
 ## 타임스탬프
@@ -118,16 +137,15 @@ VD Google은 단일 JSON **내보내기**를 작성합니다. 이는 Google이 �
 
 ## 연락처
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## 라이선스
 
@@ -140,3 +158,7 @@ VD Google은 독립적인 비공식 프로젝트입니다. Google LLC와 제휴,
 ## 태그
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **업데이트를 받으려면 채널에 참여하세요:** @Priv8_VD https://t.me/Priv8_VD

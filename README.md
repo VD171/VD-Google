@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: RCS, Google Wallet and Play Integrity attestations, read on-device.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/en/about.png" height="420"/>
+  <img src="docs/screenshots/en/droidguard.png" height="420"/>
+  <img src="docs/screenshots/en/rcs.png" height="420"/>
+  <img src="docs/screenshots/en/wallet.png" height="420"/>
+  <img src="docs/screenshots/en/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,12 +96,20 @@ VD Google declares **no permissions at all**, not even internet access. Nothing 
 ## Requirements
 
 - Android 8.0 (API 26) or newer.
-- Runs on arm, arm64, x86 and x86_64 devices - phones, tablets, emulators and ChromeOS.
+- Runs on arm, arm64, x86 and x86_64 devices: phones, tablets, emulators and ChromeOS.
 - **Root is required.** The information above lives in protected, system-only areas of Android. VD Google reads it with superuser access and does nothing else with it. Without root, the app only shows a screen explaining why root is needed.
 
 ## Timestamps
 
 All times are shown in your device's current timezone, and the timezone is always labelled.
+
+## AI agents
+
+VD Google writes a single JSON **export**: a structured, machine-readable snapshot of what Google records on your device about RCS, Wallet and Play Integrity, with no personal data in it. An agent auditing a device reads that one file instead of scraping several Google apps and databases by hand. The App and the WebUI produce the exact same schema, and neither ever touches the network. See [docs/AI-AGENTS.md](docs/AI-AGENTS.md).
+
+## Build
+
+Always release, never debug. The Android app builds from `VDGoogle/` with `./gradlew assembleRelease`, the WebUI module is packaged with `webui/package.sh`. The only native binary is `sqlite3`, fetched from the Termux repository with its library closure and recorded with its SHA-256. See [Contributing](CONTRIBUTING.md), [Bundled binaries](https://github.com/VD171/VD-Google/wiki/BINARIES) and the [wiki](https://github.com/VD171/VD-Google/wiki).
 
 ## Documentation
 
@@ -98,14 +125,15 @@ All times are shown in your device's current timezone, and the timezone is alway
 
 ## See also
 
-Sibling projects by the same author:
-
-- **[VDInfos](https://github.com/VD171/VD-Infos)**: a device method debugger that reads each item through every method that can read it and compares them side by side.
-- **[COPG-VD](https://github.com/VD171/COPG-VD)**: a device spoofer that turns a fresh fingerprint into a coherent, consistent profile.
-- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: a standalone rooted SSH daemon (Dropbear).
+- **[COPG-VD](https://github.com/VD171/COPG-VD)**: global device fingerprint / Play Integrity spoofing, whole-device with per-app scope and a WebUI.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: full app and data backup and restore as root, driven entirely from a WebUI.
-- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: a flashless, incremental self-update engine embedded into KernelSU/APatch/Magisk modules.
+- **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: a standalone rooted SSH daemon (Dropbear).
 - **[VDInstaller](https://github.com/VD171/VD-Installer)**: a frictionless root sideload installer for single, batch and split APKs, with a Play Protect verifier toggle and install-source spoofing.
+- **[VDInfos](https://github.com/VD171/VD-Infos)**: a device method debugger that reads each item through every method that can read it and compares them side by side.
+- **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: a flashless, incremental self-update engine embedded into KernelSU/APatch/Magisk modules.
+- **[VD-Modules](https://github.com/VD171/VD-Modules)**: our MMRL/WebUI-X module repository (install all of these from your root manager).
+- **[@VictorGabriel7Dev/build.prop](https://github.com/VictorGabriel7Dev/build.prop)**: a dataset of Pixel `build.prop` fingerprints (fork of @T3SL4).
+- **[@VictorGabriel7Dev/mtproto-store](https://github.com/VictorGabriel7Dev/mtproto-store)**: use Telegram as an object store from a tiny Go CLI.
 
 ## Contacts
 
@@ -130,3 +158,7 @@ VD Google is an independent, unofficial project. It is not affiliated with, endo
 ## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **Join the channel for updates:** @Priv8_VD https://t.me/Priv8_VD

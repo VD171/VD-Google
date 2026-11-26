@@ -69,7 +69,7 @@ VD Google se dodává dvěma způsoby a oba ukazují přesně stejné informace:
 - **Aplikace (APK).** Běžná aplikace pro Android, kterou nainstalujete a otevřete. Při
   prvním spuštění požádá o root, jako každá rootovací aplikace.
 - **Modul WebUI (ZIP).** Nainstalujte jej ve svém správci root (KernelSU, APatch nebo
-  Magisk) a otevřete jej odtamtud. Nic se neinstaluje jako aplikace; běží uvnitř WebUI
+  Magisk) a otevřete jej odtamtud. Nic se neinstaluje jako aplikace, běží uvnitř WebUI
   vašeho správce root.
 
 Vyberte si, co preferujete. Obrazovky, znění i exportovaný report jsou mezi oběma
@@ -84,7 +84,7 @@ vysvětlující, proč je root potřeba, a nabídne nový pokus.
 **WebUI:** nainstalujte ZIP jako modul ve svém správci root a pak otevřete WebUI modulu
 ze správce. Čte hned, jakmile se otevře.
 
-Při prvním otevření si můžete vybrat jazyk; změnit jej lze později pomocí ikony ozubeného
+Při prvním otevření si můžete vybrat jazyk, změnit jej lze později pomocí ikony ozubeného
 kola nahoře.
 
 ## 6. Záložky
@@ -130,7 +130,7 @@ zařízení, s označeným pásmem.
   další.
 
 **RCS operátora vs. backend Google.** RCS se k vašemu telefonu dostává dvěma cestami.
-Jednou je RCS vašeho *operátora* přes jeho síť IMS; druhou je *vlastní backend Google*
+Jednou je RCS vašeho *operátora* přes jeho síť IMS, druhou je *vlastní backend Google*
 (Jibe), který funguje nad sítí, nezávisle na operátorovi. Pokud vaše RCS běží přes backend
 Google, jako u většiny lidí, pak jsou řádky na straně operátora (nárok operátora,
 přítomnost/UCE, služba IMS, verze konfigurace) skutečně "Ne" nebo "0", a to je správně, ne
@@ -202,4 +202,4 @@ je upřímné: VD Google neukáže "Ne", které nemůže podložit.
 
 ---
 
-> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány, viz [CONTRIBUTING.md](CONTRIBUTING.md)._

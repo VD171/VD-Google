@@ -13,13 +13,13 @@ zamieniły się w poradnik dla kogoś, kto chciałby sfałszować te same warto�
 
 1. **Czytaj prawdę.** Pokazuj to, co zapisały już własne aplikacje Google, wyjaśniaj to i
    nigdy nie wymyślaj wartości. Gdy urządzenie nie ma odpowiedzi, napisz Nieznane.
-2. **Zero sieci.** Aplikacja nie deklaruje żadnych uprawnień; WebUI blokuje każde zdalne
+2. **Zero sieci.** Aplikacja nie deklaruje żadnych uprawnień, WebUI blokuje każde zdalne
    źródło. Nic nigdy nie jest nigdzie wysyłane.
 3. **Jedno zachowanie, dwie twarze.** Aplikacja i moduł WebUI są utrzymywane jako
    absolutnie identyczne: te same sygnały, te same sformułowania, ten sam eksportowany
    raport.
 4. **Uczciwie, nie pochlebnie.** Prawdziwy wynik negatywny jest pokazywany jako
-   negatywny; nieaktualna pamięć podręczna jest oznaczana jako zbuforowana; brakująca
+   negatywny, nieaktualna pamięć podręczna jest oznaczana jako zbuforowana, brakująca
    wartość to Nieznane. Wykrywanie nigdy nie jest łagodzone, by wyglądać ładniej.
 
 ## Dwie twarze
@@ -85,4 +85,4 @@ nazwie jest usuwany. Aplikacja i WebUI produkują ten sam schemat.
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

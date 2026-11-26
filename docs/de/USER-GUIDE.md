@@ -69,7 +69,7 @@ VD Google wird auf zwei Arten geliefert, und sie zeigen genau dieselben Informat
 - **Die App (APK).** Eine normale Android-App, die du installierst und öffnest. Fragt beim ersten Mal
   nach Root, wie jede Root-App.
 - **Das WebUI-Modul (ZIP).** Flashe es in deinem Root-Manager (KernelSU, APatch oder Magisk) und
-  öffne es von dort. Nichts wird als App installiert; es läuft innerhalb der WebUI deines
+  öffne es von dort. Nichts wird als App installiert, es läuft innerhalb der WebUI deines
   Root-Managers.
 
 Wähle, was du bevorzugst. Die Bildschirme, der Wortlaut und der exportierte Bericht sind zwischen den
@@ -84,7 +84,7 @@ Root erforderlich ist, und bietet an, es erneut zu versuchen.
 **WebUI:** Flashe die ZIP als Modul in deinem Root-Manager, dann öffne die WebUI des Moduls aus dem
 Manager. Es liest, sobald es sich öffnet.
 
-Beim ersten Öffnen kannst du deine Sprache wählen; du kannst sie später über das Zahnradsymbol oben
+Beim ersten Öffnen kannst du deine Sprache wählen, du kannst sie später über das Zahnradsymbol oben
 ändern.
 
 ## 6. Die Tabs
@@ -131,7 +131,7 @@ mit gekennzeichneter Zone.
 - **Zeitstempel**: Provisionierung, Synchronisierung, letzte Nachricht, Token-Ablauf und mehr.
 
 **Mobilfunkanbieter-RCS gegenüber Googles Backend.** Es gibt zwei Wege, auf denen RCS dein Telefon
-erreicht. Einer ist das RCS deines *Mobilfunkanbieters* über dessen IMS-Netz; der andere ist *Googles
+erreicht. Einer ist das RCS deines *Mobilfunkanbieters* über dessen IMS-Netz, der andere ist *Googles
 eigenes Backend* (Jibe), das obendrauf funktioniert, unabhängig vom Mobilfunkanbieter. Wenn dein RCS
 über Googles Backend läuft, wie bei den meisten Menschen, dann sind die mobilfunkanbieterseitigen
 Zeilen (Carrier Entitlement, Presence/UCE, IMS-Dienst, Konfigurationsversion) tatsächlich "Nein" oder
@@ -202,4 +202,4 @@ ist](#2-was-es-nicht-ist).
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

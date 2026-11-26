@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · Bahasa Indonesia · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · Bahasa Indonesia · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -8,7 +8,7 @@ Terima kasih atas ketertarikan Anda pada VD Google. Kontribusi disambut baik: te
 
 ## Aturan dasar
 
-- **VD Google membaca kebenaran dan tidak pernah memalsukan apa pun.** Kontribusi harus menjaganya tetap demikian. Nilai negatif yang nyata tetap negatif; cache usang diberi label tersimpan; nilai yang hilang adalah Unknown. Jangan memperhalus suatu pembacaan agar terlihat lebih baik.
+- **VD Google membaca kebenaran dan tidak pernah memalsukan apa pun.** Kontribusi harus menjaganya tetap demikian. Nilai negatif yang nyata tetap negatif, cache usang diberi label tersimpan, nilai yang hilang adalah Unknown. Jangan memperhalus suatu pembacaan agar terlihat lebih baik.
 - **Privasi bersifat mutlak.** Aplikasi tidak mendeklarasikan izin apa pun dan WebUI tidak menghubungi origin jarak jauh mana pun. Jangan pernah menambahkan izin, panggilan jaringan, atau apa pun yang mengirim data keluar dari perangkat.
 - **Aplikasi dan WebUI identik.** Setiap perubahan pada apa yang ditampilkan, atau pada laporan ekspor, harus diterapkan pada keduanya, dengan kata-kata yang sama. Keduanya tidak boleh melenceng.
 - **Label hidup sekali saja, dalam 21 bahasa.** Setiap string yang dihadapi pengguna didefinisikan untuk aplikasi (`res/values*/strings.xml`) dan WebUI (`webroot/lang/`). Jika Anda menambah atau mengubah sebuah label, perbarui semua bahasa.
@@ -24,7 +24,7 @@ Buka issue dengan model perangkat Anda, versi Android, dan (jika menyangkut suat
 ## Kode
 
 - Build release, tidak pernah debug. Uji pada perangkat nyata yang sudah di-root.
-- Jauhkan komentar dari kode; nama menjelaskan maksudnya. Satu-satunya header adalah banner lisensi di bagian atas setiap berkas sumber.
+- Jauhkan komentar dari kode, nama menjelaskan maksudnya. Satu-satunya header adalah banner lisensi di bagian atas setiap berkas sumber.
 - Sesuaikan dengan gaya yang ada dan jaga perubahan tetap terfokus.
 
 ## Lisensi
@@ -35,4 +35,4 @@ Dengan berkontribusi Anda menyetujui bahwa kontribusi Anda dilisensikan di bawah
 
 ---
 
-> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan, lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

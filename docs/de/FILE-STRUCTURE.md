@@ -45,7 +45,7 @@ VD-Google/
 - **Die Zeichenketten** sind die einzige Quelle jeder Beschriftung, in 21 Sprachen: die App unter
   `res/values*/strings.xml`, die WebUI unter `webroot/lang/`. Eine Beschriftung wird niemals zweimal
   geschrieben.
-- **Die Dokumentation** lebt in `docs/`. Sie ist die maßgebliche Quelle für das Projekt-Wiki; das
+- **Die Dokumentation** lebt in `docs/`. Sie ist die maßgebliche Quelle für das Projekt-Wiki, das
   Wiki wird aus ihr erzeugt (siehe `tools/` und `.github/scripts/gen_wiki.sh`).
 - **Das mitgelieferte Werkzeug** (`sqlite3`) lebt in `assets/bin/` für die App und `bin/` für das
   Modul und ist in [Mitgelieferte Binärdateien](BINARIES.md) dokumentiert.
@@ -73,4 +73,4 @@ schreibt ihr Aktionsprotokoll in ihr eigenes privates Dateiverzeichnis.
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

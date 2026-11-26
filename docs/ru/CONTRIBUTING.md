@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · Русский · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · Русский · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@
 ## Основные правила
 
 - **VD Google читает правду и никогда ничего не подделывает.** Ваш вклад должен сохранять
-  это. Настоящий отрицательный результат остаётся отрицательным; устаревший кеш помечается
-  как кешированный; отсутствующее значение: «Неизвестно». Не смягчайте показание, чтобы
+  это. Настоящий отрицательный результат остаётся отрицательным, устаревший кеш помечается
+  как кешированный, отсутствующее значение: «Неизвестно». Не смягчайте показание, чтобы
   оно выглядело приятнее.
 - **Приватность абсолютна.** Приложение не объявляет разрешений, а WebUI не обращается ни
   к какому удалённому источнику. Никогда не добавляйте разрешение, сетевой вызов или что
@@ -39,7 +39,7 @@
 ## Код
 
 - Собирайте release, никогда не debug. Тестируйте на реальном устройстве с root.
-- Не держите комментарии в коде; имена объясняют замысел. Единственный заголовок: баннер
+- Не держите комментарии в коде, имена объясняют замысел. Единственный заголовок: баннер
   лицензии в начале каждого файла исходного кода.
 - Соблюдайте существующий стиль и держите изменения сфокусированными.
 
@@ -52,4 +52,4 @@
 
 ---
 
-> _Эта документация создана с помощью Claude (Anthropic) и поддерживается VD171. Исправления и улучшения приветствуются; см. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Эта документация создана с помощью Claude (Anthropic) и поддерживается VD171. Исправления и улучшения приветствуются, см. [CONTRIBUTING.md](CONTRIBUTING.md)._

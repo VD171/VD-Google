@@ -22,7 +22,7 @@ możesz zweryfikować.
 Stan RCS, Wallet i atestacji, który wyjaśnia VD Google, znajduje się w chronionych,
 wyłącznie systemowych obszarach Androida, niewidocznych dla zwykłych aplikacji. VD Google
 czyta je za pomocą roota, a nie prosząc cię o szerokie uprawnienia. Root to wąska,
-audytowalna droga wejścia; sterta uprawnień czasu wykonania byłaby drogą szeroką i
+audytowalna droga wejścia, sterta uprawnień czasu wykonania byłaby drogą szeroką i
 nieszczelną. Aplikacja wybiera tę wąską.
 
 ## Eksport jest oczyszczany
@@ -55,8 +55,8 @@ kontrola zaczęła od nowa. Każde działanie, które zmienia stan:
 Nie musisz brać niczego z tego na wiarę:
 
 - Źródło jest publiczne: <https://github.com/VD171/VD-Google>.
-- Manifest jest w źródle; potwierdź, że nie deklaruje żadnych uprawnień.
-- Content-Security-Policy WebUI jest w źródle; potwierdź, że blokuje każde zdalne źródło.
+- Manifest jest w źródle, potwierdź, że nie deklaruje żadnych uprawnień.
+- Content-Security-Policy WebUI jest w źródle, potwierdź, że blokuje każde zdalne źródło.
 - Wbudowane pliki binarne są udokumentowane z sumami kontrolnymi w
   [Wbudowane pliki binarne](BINARIES.md).
 
@@ -64,4 +64,4 @@ Nie musisz brać niczego z tego na wiarę:
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -14,7 +14,7 @@ Privasi bukanlah sebuah fitur VD Google: itulah seluruh inti dari keberadaannya.
 
 ## Mengapa ia membutuhkan root alih-alih izin
 
-Status RCS, Wallet, dan atestasi yang dijelaskan VD Google berada di area Android yang terlindungi dan hanya-sistem yang tidak bisa dilihat aplikasi biasa. VD Google membacanya dengan root alih-alih meminta izin yang luas kepada Anda. Root adalah jalan masuk yang sempit dan dapat diaudit; setumpuk izin runtime akan menjadi jalan yang luas dan bocor. Aplikasi memilih yang sempit.
+Status RCS, Wallet, dan atestasi yang dijelaskan VD Google berada di area Android yang terlindungi dan hanya-sistem yang tidak bisa dilihat aplikasi biasa. VD Google membacanya dengan root alih-alih meminta izin yang luas kepada Anda. Root adalah jalan masuk yang sempit dan dapat diaudit, setumpuk izin runtime akan menjadi jalan yang luas dan bocor. Aplikasi memilih yang sempit.
 
 ## Ekspor telah dibersihkan
 
@@ -40,12 +40,12 @@ Tidak ada tindakan yang pernah mencapai jaringan, dan tidak ada yang meninggalka
 Anda tidak harus mempercayai semua ini begitu saja:
 
 - Sumbernya publik: <https://github.com/VD171/VD-Google>.
-- Manifes ada di dalam sumber; pastikan ia tidak mendeklarasikan izin apa pun.
-- Content-Security-Policy WebUI ada di dalam sumber; pastikan ia memblokir setiap origin jarak jauh.
+- Manifes ada di dalam sumber, pastikan ia tidak mendeklarasikan izin apa pun.
+- Content-Security-Policy WebUI ada di dalam sumber, pastikan ia memblokir setiap origin jarak jauh.
 - Biner yang disertakan didokumentasikan dengan checksum di [Biner yang disertakan](BINARIES.md).
 
 <!-- doc-footer -->
 
 ---
 
-> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan, lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

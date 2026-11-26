@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · Français · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · Français · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -8,7 +8,7 @@ Merci de l'intérêt que vous portez à VD Google. Les contributions sont les bi
 
 ## Règles de base
 
-- **VD Google lit la vérité et ne falsifie jamais rien.** Les contributions doivent préserver cela. Un vrai négatif reste négatif ; un cache périmé est signalé comme mis en cache ; une valeur absente est Inconnu. N'adoucissez pas une lecture pour la rendre plus jolie.
+- **VD Google lit la vérité et ne falsifie jamais rien.** Les contributions doivent préserver cela. Un vrai négatif reste négatif, un cache périmé est signalé comme mis en cache, une valeur absente est Inconnu. N'adoucissez pas une lecture pour la rendre plus jolie.
 - **La confidentialité est absolue.** L'application ne déclare aucune permission et la WebUI ne contacte aucune origine distante. N'ajoutez jamais de permission, d'appel réseau, ni quoi que ce soit qui envoie des données hors de l'appareil.
 - **L'application et la WebUI sont identiques.** Tout changement de ce qui est affiché, ou du rapport exporté, doit arriver dans les deux, avec la même formulation. Elles ne doivent jamais diverger.
 - **Les libellés vivent une seule fois, en 21 langues.** Chaque chaîne destinée à l'utilisateur est définie pour l'application (`res/values*/strings.xml`) et la WebUI (`webroot/lang/`). Si vous ajoutez ou modifiez un libellé, mettez à jour toutes les langues.
@@ -24,7 +24,7 @@ Ouvrez un ticket avec le modèle de votre appareil, la version d'Android, et, s'
 ## Code
 
 - Compilez en release, jamais en debug. Testez sur un véritable appareil rooté.
-- Ne laissez pas de commentaires dans le code ; les noms expliquent l'intention. Le seul en-tête est la bannière de licence en haut de chaque fichier source.
+- Ne laissez pas de commentaires dans le code, les noms expliquent l'intention. Le seul en-tête est la bannière de licence en haut de chaque fichier source.
 - Respectez le style existant et gardez vos changements ciblés.
 
 ## Licence
@@ -35,4 +35,4 @@ En contribuant, vous acceptez que votre contribution soit distribuée sous la li
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

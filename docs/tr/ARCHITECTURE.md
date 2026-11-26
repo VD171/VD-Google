@@ -5,7 +5,7 @@
 # Mimari
 
 VD Google'ın nasıl ve neden inşa edildiği. Bu sayfa tasarımı ve ilkeleri açıklar. Her
-okuyucunun kullandığı tam dosyaları, tabloları veya sorguları listelemez; bunlar tasarım
+okuyucunun kullandığı tam dosyaları, tabloları veya sorguları listelemez, bunlar tasarım
 gereği yalnızca kaynak kodda bulunur, böylece uygulama ve belgeler asla aynı değerleri
 taklit etmek isteyen biri için bir nasıl-yapılır kılavuzuna dönüşemez.
 
@@ -13,12 +13,12 @@ taklit etmek isteyen biri için bir nasıl-yapılır kılavuzuna dönüşemez.
 
 1. **Gerçeği oku.** Google'ın kendi uygulamalarının zaten kaydettiğini göster, açıkla ve
    asla bir değer uydurma. Cihaz bir yanıt tutmadığında Unknown de.
-2. **Sıfır ağ.** Uygulama hiçbir izin beyan etmez; WebUI her uzak kaynağı engeller.
+2. **Sıfır ağ.** Uygulama hiçbir izin beyan etmez, WebUI her uzak kaynağı engeller.
    Hiçbir şey hiçbir yere, hiçbir zaman gönderilmez.
 3. **Tek davranış, iki yüz.** Uygulama ve WebUI modülü kesinlikle aynı tutulur: aynı
    sinyaller, aynı ifadeler, aynı dışa aktarılan rapor.
-4. **Yaltaklanmaktansa dürüst.** Gerçek bir olumsuz, olumsuz olarak gösterilir; eski bir
-   önbellek, önbelleklenmiş olarak etiketlenir; eksik bir değer Unknown'dır. Algılama,
+4. **Yaltaklanmaktansa dürüst.** Gerçek bir olumsuz, olumsuz olarak gösterilir, eski bir
+   önbellek, önbelleklenmiş olarak etiketlenir, eksik bir değer Unknown'dır. Algılama,
    daha hoş görünsün diye asla yumuşatılmaz.
 
 ## İki yüz
@@ -45,7 +45,7 @@ ve sorguları root olarak onun aracılığıyla çalıştırır. Uygulama ve Web
 kullanır, böylece her zaman aynı motoru ve aynı sonucu okurlar. O ikilinin kaynağı ve
 sağlama toplamları [Paket içindeki ikililer](BINARIES.md) belgesinde belgelenmiştir.
 
-Okumalar, veritabanını açmadan önce kenara kopyalar; canlı dosyaya asla dokunmaz ve
+Okumalar, veritabanını açmadan önce kenara kopyalar, canlı dosyaya asla dokunmaz ve
 çalışan bir veritabanının bozuk olarak bildirebileceği paylaşımlı bellek dizinini asla
 kopyalamaz.
 
@@ -53,10 +53,10 @@ kopyalamaz.
 
 RCS'yi dürüstçe okumanın en zor yanı, bariz bayrakların yalan söylemesidir. Basit
 "available" bayrağı, özellik bayrakları ve provizyon durumunun hepsi, RCS'nin kusursuz
-çalıştığı bir hatta olumsuz okunabilir; çünkü bunlar önbelleklerdir ya da hat,
+çalıştığı bir hatta olumsuz okunabilir, çünkü bunlar önbelleklerdir ya da hat,
 operatörün IMS ağı yerine Google'ın kendi arka ucunda (Jibe) çalışıyordur. VD Google,
 gerçek sohbet yapılandırmasından ve provizyon motorundan tek bir **Connection** kararı
-hesaplar; bu, Android ve Google Messages sürümleri arasında doğru kalır ve yalan söyleyen
+hesaplar, bu, Android ve Google Messages sürümleri arasında doğru kalır ve yalan söyleyen
 bayrakları, yanıltmadan bilgi vermeleri için önbelleklenmiş olarak açıkça etiketlenmiş
 biçimde sunar. Her satırın ne anlama geldiği için [kullanıcı kılavuzuna](USER-GUIDE.md)
 bakın.
@@ -67,7 +67,7 @@ Dışa aktarma, temizlenmiş bir JSON anlık görüntüsüdür. Herhangi bir şe
 bir temizleyici çalışır: kimlik bilgisi gibi görünen anahtarları ve değerleri atar, uzun
 rakam dizilerini karartır ve asla telefon numaranızı, mesaj içeriğini, kişi adlarını veya
 ham yetenek bloblarını yaymaz. İsteğe bağlı tanılama bölümü yalnızca şema adlarını,
-sayıları, boyutları ve sürümleri taşır; ve orada bile, bir ada gömülü kimlik başına
+sayıları, boyutları ve sürümleri taşır, ve orada bile, bir ada gömülü kimlik başına
 parmak izi varsa çökertilerek kaldırılır. Uygulama ve WebUI aynı şemayı üretir.
 
 ## VD Google'ın asla yapmadıkları
@@ -82,4 +82,4 @@ parmak izi varsa çökertilerek kaldırılır. Uygulama ve WebUI aynı şemayı 
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -5,7 +5,7 @@
 # Architecture
 
 How VD Google is built and why. This page explains the design and the principles. It
-does not list the exact files, tables or queries each reader uses; that lives only in
+does not list the exact files, tables or queries each reader uses, that lives only in
 the source, by design, so the app and the documentation can never drift into a
 how-to for someone who wants to fake the same values.
 
@@ -13,12 +13,12 @@ how-to for someone who wants to fake the same values.
 
 1. **Read the truth.** Show what Google's own apps already recorded, explain it, and
    never invent a value. When the device holds no answer, say Unknown.
-2. **Zero network.** The app declares no permissions at all; the WebUI blocks every
+2. **Zero network.** The app declares no permissions at all, the WebUI blocks every
    remote origin. Nothing is sent anywhere, ever.
 3. **One behaviour, two faces.** The app and the WebUI module are kept absolutely
    identical: same signals, same wording, same exported report.
-4. **Honest over flattering.** A real negative is shown as negative; a stale cache is
-   labelled as cached; a missing value is Unknown. Detection is never softened to look
+4. **Honest over flattering.** A real negative is shown as negative, a stale cache is
+   labelled as cached, a missing value is Unknown. Detection is never softened to look
    nicer.
 
 ## The two faces
@@ -79,4 +79,4 @@ and the WebUI produce the same schema.
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](../CONTRIBUTING.md)._

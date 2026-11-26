@@ -13,12 +13,12 @@ naar een handleiding voor iemand die dezelfde waarden wil vervalsen.
 
 1. **Lees de waarheid.** Toon wat Googles eigen apps al hebben vastgelegd, leg het uit, en
    verzin nooit een waarde. Als het toestel geen antwoord heeft, zeg Unknown.
-2. **Geen netwerk.** De app declareert helemaal geen permissies; de WebUI blokkeert elke
+2. **Geen netwerk.** De app declareert helemaal geen permissies, de WebUI blokkeert elke
    externe oorsprong. Er wordt nooit iets ergens naartoe gestuurd, nooit.
 3. **Eén gedrag, twee gezichten.** De app en de WebUI-module worden absoluut identiek
    gehouden: dezelfde signalen, dezelfde bewoordingen, hetzelfde geëxporteerde rapport.
-4. **Eerlijk boven vleiend.** Een echte negatief wordt als negatief getoond; een verouderde
-   cache wordt als gecachet gelabeld; een ontbrekende waarde is Unknown. Detectie wordt
+4. **Eerlijk boven vleiend.** Een echte negatief wordt als negatief getoond, een verouderde
+   cache wordt als gecachet gelabeld, een ontbrekende waarde is Unknown. Detectie wordt
    nooit afgezwakt om er mooier uit te zien.
 
 ## De twee gezichten
@@ -83,4 +83,4 @@ is ingebed, weggevouwen. De app en de WebUI produceren hetzelfde schema.
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._

@@ -72,7 +72,7 @@ VD Google jest dostarczany na dwa sposoby i pokazują one dokładnie te same inf
 - **Aplikacja (APK).** Zwykła aplikacja Androida, którą instalujesz i otwierasz. Prosi o
   roota za pierwszym razem, jak każda aplikacja rootowa.
 - **Moduł WebUI (ZIP).** Zainstaluj go w swoim menedżerze roota (KernelSU, APatch lub
-  Magisk) i otwórz go stamtąd. Nic nie jest instalowane jako aplikacja; działa wewnątrz
+  Magisk) i otwórz go stamtąd. Nic nie jest instalowane jako aplikacja, działa wewnątrz
   WebUI twojego menedżera roota.
 
 Wybierz to, co wolisz. Ekrany, sformułowania i eksportowany raport są identyczne między
@@ -87,7 +87,7 @@ wyjaśniający, dlaczego root jest wymagany, i oferuje ponowną próbę.
 **WebUI:** zainstaluj ZIP jako moduł w swoim menedżerze roota, a następnie otwórz WebUI
 modułu z menedżera. Czyta, gdy tylko się otworzy.
 
-Przy pierwszym otwarciu możesz wybrać swój język; możesz zmienić go później z ikony koła
+Przy pierwszym otwarciu możesz wybrać swój język, możesz zmienić go później z ikony koła
 zębatego u góry.
 
 ## 6. Karty
@@ -134,7 +134,7 @@ urządzenia, z oznaczoną strefą.
   tokena i więcej.
 
 **RCS operatora a zaplecze Google.** Są dwa sposoby, w jakie RCS dociera do twojego
-telefonu. Jeden to RCS *twojego operatora* przez jego sieć IMS; drugi to *własne zaplecze
+telefonu. Jeden to RCS *twojego operatora* przez jego sieć IMS, drugi to *własne zaplecze
 Google* (Jibe), które działa niezależnie od operatora. Jeśli twój RCS działa przez
 zaplecze Google, jak u większości ludzi, to linie po stronie operatora (uprawnienie
 operatora, obecność/UCE, usługa IMS, wersja konfiguracji) są naprawdę "Nie" lub "0" i to
@@ -208,4 +208,4 @@ urządzeniu. To uczciwe: VD Google nie pokaże "Nie", którego nie może poprze�
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

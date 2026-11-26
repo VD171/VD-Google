@@ -19,7 +19,7 @@ aplikace s vašimi daty dělá a co ne, srozumitelně a ověřitelně.
 
 Stav RCS, Wallet a atestací, který VD Google vysvětluje, žije v chráněných, systémových
 oblastech Androidu, jež běžné aplikace nevidí. VD Google je čte rootem, místo aby vás
-žádal o široká oprávnění. Root je úzká, auditovatelná cesta dovnitř; hromada runtime
+žádal o široká oprávnění. Root je úzká, auditovatelná cesta dovnitř, hromada runtime
 oprávnění by byla ta široká, netěsná cesta. Aplikace volí tu úzkou.
 
 ## Export je očištěn
@@ -52,8 +52,8 @@ kontrola začala načisto. Jakákoli akce, která mění stav:
 Nic z toho nemusíte brát jako samozřejmost:
 
 - Zdrojový kód je veřejný: <https://github.com/VD171/VD-Google>.
-- Manifest je ve zdrojovém kódu; ověřte, že nedeklaruje žádná oprávnění.
-- Content-Security-Policy WebUI je ve zdrojovém kódu; ověřte, že blokuje každý vzdálený
+- Manifest je ve zdrojovém kódu, ověřte, že nedeklaruje žádná oprávnění.
+- Content-Security-Policy WebUI je ve zdrojovém kódu, ověřte, že blokuje každý vzdálený
   původ.
 - Přibalené binárky jsou zdokumentovány s kontrolními součty v
   [Přibalené binárky](BINARIES.md).
@@ -62,4 +62,4 @@ Nic z toho nemusíte brát jako samozřejmost:
 
 ---
 
-> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány, viz [CONTRIBUTING.md](CONTRIBUTING.md)._

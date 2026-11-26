@@ -13,12 +13,12 @@ abdriften, der dieselben Werte fälschen möchte.
 
 1. **Die Wahrheit lesen.** Zeigen, was Googles eigene Apps bereits aufgezeichnet haben, es erklären
    und niemals einen Wert erfinden. Wenn das Gerät keine Antwort bereithält, sage Unbekannt.
-2. **Null Netzwerk.** Die App deklariert überhaupt keine Berechtigungen; die WebUI blockiert jede
+2. **Null Netzwerk.** Die App deklariert überhaupt keine Berechtigungen, die WebUI blockiert jede
    entfernte Herkunft. Es wird niemals irgendetwas irgendwohin gesendet.
 3. **Ein Verhalten, zwei Gesichter.** Die App und das WebUI-Modul werden absolut identisch gehalten:
    dieselben Signale, derselbe Wortlaut, derselbe exportierte Bericht.
-4. **Ehrlich statt schmeichelhaft.** Ein echtes Negativ wird als negativ gezeigt; ein veralteter
-   Cache wird als zwischengespeichert gekennzeichnet; ein fehlender Wert ist Unbekannt. Die Erkennung
+4. **Ehrlich statt schmeichelhaft.** Ein echtes Negativ wird als negativ gezeigt, ein veralteter
+   Cache wird als zwischengespeichert gekennzeichnet, ein fehlender Wert ist Unbekannt. Die Erkennung
    wird niemals abgeschwächt, um schöner auszusehen.
 
 ## Die zwei Gesichter
@@ -82,4 +82,4 @@ zusammengefaltet und entfernt. Die App und die WebUI erzeugen dasselbe Schema.
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

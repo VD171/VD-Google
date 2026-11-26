@@ -13,12 +13,12 @@ bruksanvisning för någon som vill förfalska samma värden.
 
 1. **Läs sanningen.** Visa det som Googles egna appar redan har registrerat, förklara det
    och hitta aldrig på ett värde. När enheten inte har något svar, säg Okänt.
-2. **Noll nätverk.** Appen deklarerar inga behörigheter alls; WebUI blockerar varje
+2. **Noll nätverk.** Appen deklarerar inga behörigheter alls, WebUI blockerar varje
    fjärrursprung. Ingenting skickas någonstans, någonsin.
 3. **Ett beteende, två ansikten.** Appen och WebUI-modulen hålls absolut identiska: samma
    signaler, samma formuleringar, samma exporterade rapport.
-4. **Ärlig framför smickrande.** Ett verkligt negativt resultat visas som negativt; en
-   inaktuell cache märks som cachad; ett saknat värde är Okänt. Detektering mjukas aldrig
+4. **Ärlig framför smickrande.** Ett verkligt negativt resultat visas som negativt, en
+   inaktuell cache märks som cachad, ett saknat värde är Okänt. Detektering mjukas aldrig
    upp för att se snyggare ut.
 
 ## De två ansiktena
@@ -81,4 +81,4 @@ inbäddat i ett namn bort. Appen och WebUI producerar samma schema.
 
 ---
 
-> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas; se [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Denna dokumentation genererades med Claude (Anthropic) och underhålls av VD171. Rättelser och förbättringar välkomnas, se [CONTRIBUTING.md](CONTRIBUTING.md)._

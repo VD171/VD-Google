@@ -41,7 +41,7 @@ VD-Google/
 
 - **Para pembaca (readers)**: apa yang dibaca VD Google dan bagaimana ia membacanya, hanya berada di `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (aplikasi) dan `VDGoogle/webui/webroot/scripts.js` (WebUI). Keduanya saling mencerminkan dengan persis.
 - **String** adalah satu-satunya sumber setiap label, dalam 21 bahasa: aplikasi di bawah `res/values*/strings.xml`, WebUI di bawah `webroot/lang/`. Sebuah label tidak pernah ditulis dua kali.
-- **Dokumentasi** berada di `docs/`. Ia adalah sumber kebenaran untuk wiki proyek; wiki dihasilkan darinya (lihat `tools/` dan `.github/scripts/gen_wiki.sh`).
+- **Dokumentasi** berada di `docs/`. Ia adalah sumber kebenaran untuk wiki proyek, wiki dihasilkan darinya (lihat `tools/` dan `.github/scripts/gen_wiki.sh`).
 - **Alat yang disertakan** (`sqlite3`) berada di `assets/bin/` untuk aplikasi dan `bin/` untuk modul, dan didokumentasikan di [Biner yang disertakan](BINARIES.md).
 
 ## Keluaran build
@@ -61,4 +61,4 @@ Sebagai gantinya, aplikasi menyimpan salinan scratch berumur-pendek yang sama di
 
 ---
 
-> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan, lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

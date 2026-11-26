@@ -118,7 +118,7 @@ rozpakuj je i porównaj wartości SHA-256 plików.
 
 Moduł WebUI sprawdza samego siebie w trakcie instalacji. Każdy dołączony plik jest
 dostarczany obok towarzysza `.sha256`, a `customize.sh` weryfikuje każdy z nich przed
-dotknięciem systemu; jeśli plik został uszkodzony lub `.zip` został obcięty w trakcie
+dotknięciem systemu, jeśli plik został uszkodzony lub `.zip` został obcięty w trakcie
 przesyłania, flashowanie zostaje przerwane z czytelnym komunikatem zamiast zainstalowania
 uszkodzonego ładunku. Sprawdzenie jest bezpiecznie pomijane na rzadkim urządzeniu, którego
 recovery nie ma `sha256sum` rozumiejącego `-c`.
@@ -134,4 +134,4 @@ urządzeniu. Żaden inny natywny plik binarny nie jest dołączany.
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

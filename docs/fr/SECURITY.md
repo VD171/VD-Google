@@ -1,10 +1,10 @@
-> **Languages:** [English](../SECURITY.md) · [العربية](../ar/SECURITY.md) · [Čeština](../cs/SECURITY.md) · [Deutsch](../de/SECURITY.md) · [Español](../es/SECURITY.md) · [فارسی](../fa/SECURITY.md) · Français · [हिन्दी](../hi/SECURITY.md) · [Bahasa Indonesia](../id/SECURITY.md) · [Italiano](../it/SECURITY.md) · [日本語](../ja/SECURITY.md) · [한국어](../ko/SECURITY.md) · [Nederlands](../nl/SECURITY.md) · [Polski](../pl/SECURITY.md) · [Português](../pt/SECURITY.md) · [Русский](../ru/SECURITY.md) · [Svenska](../sv/SECURITY.md) · [ไทย](../th/SECURITY.md) · [Türkçe](../tr/SECURITY.md) · [Українська](../uk/SECURITY.md) · [Tiếng Việt](../vi/SECURITY.md) · [中文](../zh/SECURITY.md)
+> **Languages:** [English](../../SECURITY.md) · [العربية](../ar/SECURITY.md) · [Čeština](../cs/SECURITY.md) · [Deutsch](../de/SECURITY.md) · [Español](../es/SECURITY.md) · [فارسی](../fa/SECURITY.md) · Français · [हिन्दी](../hi/SECURITY.md) · [Bahasa Indonesia](../id/SECURITY.md) · [Italiano](../it/SECURITY.md) · [日本語](../ja/SECURITY.md) · [한국어](../ko/SECURITY.md) · [Nederlands](../nl/SECURITY.md) · [Polski](../pl/SECURITY.md) · [Português](../pt/SECURITY.md) · [Русский](../ru/SECURITY.md) · [Svenska](../sv/SECURITY.md) · [ไทย](../th/SECURITY.md) · [Türkçe](../tr/SECURITY.md) · [Українська](../uk/SECURITY.md) · [Tiếng Việt](../vi/SECURITY.md) · [中文](../zh/SECURITY.md)
 
 ---
 
 # Politique de sécurité
 
-VD Google est un outil de confidentialité. Il s'exécute en root et lit un état sensible ; les rapports de sécurité sont donc pris au sérieux.
+VD Google est un outil de confidentialité. Il s'exécute en root et lit un état sensible, les rapports de sécurité sont donc pris au sérieux.
 
 ## Signaler une vulnérabilité
 
@@ -12,7 +12,7 @@ Veuillez signaler les problèmes de sécurité **en privé**, non pas dans un ti
 
 - Écrivez à **vd.priv8@pm.me**.
 - Décrivez le problème, la version concernée, et comment le reproduire.
-- S'il concerne une exposition de données, décrivez la catégorie de problème ; vous n'avez pas besoin de joindre un exploit fonctionnel.
+- S'il concerne une exposition de données, décrivez la catégorie de problème, vous n'avez pas besoin de joindre un exploit fonctionnel.
 
 Vous recevrez une réponse dès que possible. Veuillez accorder un délai raisonnable pour corriger le problème avant toute divulgation publique.
 
@@ -37,4 +37,4 @@ Seule la dernière version publiée est prise en charge. Veuillez reproduire le 
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

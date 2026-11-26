@@ -14,12 +14,12 @@ scivolare in un manuale per chi vuole falsificare gli stessi valori.
 1. **Leggere la verità.** Mostrare ciò che le app di Google hanno già registrato,
    spiegarlo e non inventare mai un valore. Quando il dispositivo non ha una risposta,
    dire Sconosciuto.
-2. **Zero rete.** L'app non dichiara alcun permesso; la WebUI blocca ogni origine remota.
+2. **Zero rete.** L'app non dichiara alcun permesso, la WebUI blocca ogni origine remota.
    Niente viene inviato da nessuna parte, mai.
 3. **Un comportamento, due volti.** L'app e il modulo WebUI sono mantenuti assolutamente
    identici: stessi segnali, stessa formulazione, stesso report esportato.
-4. **Onesti più che lusinghieri.** Un vero esito negativo è mostrato come negativo; una
-   cache obsoleta è etichettata come memorizzata in cache; un valore mancante è
+4. **Onesti più che lusinghieri.** Un vero esito negativo è mostrato come negativo, una
+   cache obsoleta è etichettata come memorizzata in cache, un valore mancante è
    Sconosciuto. Il rilevamento non viene mai ammorbidito per apparire più gradevole.
 
 ## I due volti
@@ -68,7 +68,7 @@ L'esportazione è un'istantanea JSON sanificata. Un sanificatore viene eseguito 
 qualsiasi cosa venga scritta: scarta chiavi e valori che somigliano a credenziali, oscura
 le lunghe sequenze di cifre e non emette mai il tuo numero di telefono, il contenuto dei
 messaggi, i nomi dei contatti o i blob grezzi di capacità. La sezione diagnostica opzionale
-porta solo nomi di schema, conteggi, dimensioni e versioni; e anche lì, qualsiasi
+porta solo nomi di schema, conteggi, dimensioni e versioni, e anche lì, qualsiasi
 impronta per-identità incorporata in un nome viene collassata via. L'app e la WebUI
 producono lo stesso schema.
 
@@ -83,4 +83,4 @@ producono lo stesso schema.
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

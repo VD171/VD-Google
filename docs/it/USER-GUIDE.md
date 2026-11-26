@@ -71,7 +71,7 @@ VD Google è distribuito in due modi, e mostrano esattamente le stesse informazi
 - **L'app (APK).** Una normale app Android che installi e apri. Chiede il root la prima
   volta, come qualsiasi app root.
 - **Il modulo WebUI (ZIP).** Installalo nel tuo gestore di root (KernelSU, APatch o Magisk)
-  e aprilo da lì. Niente viene installato come app; gira dentro la WebUI del tuo gestore di
+  e aprilo da lì. Niente viene installato come app, gira dentro la WebUI del tuo gestore di
   root.
 
 Scegli quello che preferisci. Le schermate, la formulazione e il report esportato sono
@@ -86,7 +86,7 @@ il root è necessario e offre di riprovare.
 **WebUI:** installa lo ZIP come modulo nel tuo gestore di root, poi apri la WebUI del modulo
 dal gestore. Legge non appena si apre.
 
-Alla prima apertura puoi scegliere la tua lingua; puoi cambiarla in seguito dall'icona
+Alla prima apertura puoi scegliere la tua lingua, puoi cambiarla in seguito dall'icona
 dell'ingranaggio in alto.
 
 ## 6. Le schede
@@ -121,7 +121,7 @@ dispositivo, con il fuso etichettato.
 - **Contatti con RCS**: quanti dei tuoi contatti sono attualmente noti per supportare la
   chat RCS.
 - **Flag della funzionalità (in cache)**: se l'app di messaggistica ha la funzionalità RCS
-  attivata; in cache, quindi può essere in ritardo.
+  attivata, in cache, quindi può essere in ritardo.
 - **Entitlement dell'operatore**, **Presenza (UCE)**, **Servizio IMS presente**: questi
   descrivono il percorso RCS *dell'operatore* (la rete IMS dell'operatore). Un "No" o "0"
   qui è normale quando il tuo RCS gira attraverso il backend di Google anziché il tuo
@@ -133,7 +133,7 @@ dispositivo, con il fuso etichettato.
   altro.
 
 **RCS dell'operatore vs backend di Google.** Ci sono due modi in cui l'RCS raggiunge il tuo
-telefono. Uno è l'RCS *del tuo operatore* sulla sua rete IMS; l'altro è il *backend proprio
+telefono. Uno è l'RCS *del tuo operatore* sulla sua rete IMS, l'altro è il *backend proprio
 di Google* (Jibe), che funziona over-the-top, indipendente dall'operatore. Se il tuo RCS
 gira attraverso il backend di Google, come accade per la maggior parte delle persone,
 allora le righe lato operatore (entitlement dell'operatore, presenza/UCE, servizio IMS,
@@ -208,4 +208,4 @@ dispositivo. Questo è onesto: VD Google non mostrerà un "No" che non può sost
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

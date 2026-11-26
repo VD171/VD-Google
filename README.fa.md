@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: خواندن RCS، Google Wallet و گواهی‌های Play Integrity روی دستگاه.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/fa/about.png" height="420"/>
+  <img src="docs/screenshots/fa/droidguard.png" height="420"/>
+  <img src="docs/screenshots/fa/rcs.png" height="420"/>
+  <img src="docs/screenshots/fa/wallet.png" height="420"/>
+  <img src="docs/screenshots/fa/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,7 +96,7 @@ VD Google **هیچ مجوزی** اعلام نمی‌کند، حتی دسترسی
 ## پیش‌نیازها
 
 - Android 8.0 (API 26) یا جدیدتر.
-- روی دستگاه‌های arm، arm64، x86 و x86_64 اجرا می‌شود - تلفن‌ها، تبلت‌ها، شبیه‌سازها و ChromeOS.
+- روی دستگاه‌های arm، arm64، x86 و x86_64 اجرا می‌شود: تلفن‌ها، تبلت‌ها، شبیه‌سازها و ChromeOS.
 - **روت لازم است.** اطلاعات بالا در نواحی محافظت‌شده Android قرار دارند که فقط سیستم به آن‌ها دسترسی دارد. VD Google آن‌ها را با دسترسی اَبَرکاربر می‌خواند و کار دیگری با آن‌ها نمی‌کند. بدون روت، اپ فقط صفحه‌ای نمایش می‌دهد که توضیح می‌دهد چرا روت لازم است.
 
 ## برچسب‌های زمانی
@@ -118,16 +137,15 @@ VD Google یک **خروجی** JSON واحد می‌نویسد: یک نمای ف�
 
 ## راه‌های ارتباط
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## مجوز
 
@@ -140,3 +158,7 @@ VD Google یک پروژه مستقل و غیررسمی است. وابسته به
 ## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **برای دریافت به‌روزرسانی‌ها به کانال بپیوندید:** @Priv8_VD https://t.me/Priv8_VD

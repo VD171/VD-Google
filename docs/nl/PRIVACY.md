@@ -53,8 +53,8 @@ Geen enkele actie bereikt ooit het netwerk, en niets verlaat je telefoon.
 Je hoeft niets hiervan op vertrouwen aan te nemen:
 
 - De broncode is openbaar: <https://github.com/VD171/VD-Google>.
-- Het manifest staat in de broncode; bevestig dat het geen permissies declareert.
-- Het Content-Security-Policy van de WebUI staat in de broncode; bevestig dat het elke
+- Het manifest staat in de broncode, bevestig dat het geen permissies declareert.
+- Het Content-Security-Policy van de WebUI staat in de broncode, bevestig dat het elke
   externe oorsprong blokkeert.
 - De meegeleverde binaries zijn met checksums gedocumenteerd in
   [Meegeleverde binaries](BINARIES.md).
@@ -63,4 +63,4 @@ Je hoeft niets hiervan op vertrouwen aan te nemen:
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._

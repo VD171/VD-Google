@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · Čeština · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · Čeština · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@ dokumentace a kód.
 ## Základní pravidla
 
 - **VD Google čte pravdu a nikdy nic nefalšuje.** Příspěvky to tak musí zachovat.
-  Skutečné záporné zjištění zůstává záporné; zastaralá mezipaměť je označena jako uložená
-  v mezipaměti; chybějící hodnota je Neznámé. Nezměkčujte čtení, aby vypadalo hezčeji.
+  Skutečné záporné zjištění zůstává záporné, zastaralá mezipaměť je označena jako uložená
+  v mezipaměti, chybějící hodnota je Neznámé. Nezměkčujte čtení, aby vypadalo hezčeji.
 - **Soukromí je absolutní.** Aplikace nedeklaruje žádná oprávnění a WebUI nekontaktuje
   žádný vzdálený původ. Nikdy nepřidávejte oprávnění, síťové volání ani cokoli, co posílá
   data mimo zařízení.
@@ -38,7 +38,7 @@ k tomuto.
 ## Kód
 
 - Sestavujte release, nikdy debug. Testujte na skutečném rootnutém zařízení.
-- Komentáře v kódu nenechávejte; záměr vysvětlují názvy. Jediným hlavičkovým textem je
+- Komentáře v kódu nenechávejte, záměr vysvětlují názvy. Jediným hlavičkovým textem je
   banner licence na začátku každého zdrojového souboru.
 - Držte se stávajícího stylu a udržujte změny soustředěné.
 
@@ -51,4 +51,4 @@ Přispěním souhlasíte s tím, že váš příspěvek je licencován pod proje
 
 ---
 
-> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány; viz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tato dokumentace byla vytvořena pomocí Claude (Anthropic) a spravuje ji VD171. Opravy a vylepšení jsou vítány, viz [CONTRIBUTING.md](CONTRIBUTING.md)._

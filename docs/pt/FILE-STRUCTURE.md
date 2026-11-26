@@ -46,7 +46,7 @@ VD-Google/
 - **Os textos** são a fonte única de todo rótulo, em 21 idiomas: o aplicativo sob
   `res/values*/strings.xml`, a WebUI sob `webroot/lang/`. Um rótulo nunca é escrito duas
   vezes.
-- **A documentação** vive em `docs/`. É a fonte da verdade para o wiki do projeto; o wiki
+- **A documentação** vive em `docs/`. É a fonte da verdade para o wiki do projeto, o wiki
   é gerado a partir dela (veja `tools/` e `.github/scripts/gen_wiki.sh`).
 - **A ferramenta embarcada** (`sqlite3`) vive em `assets/bin/` para o aplicativo e `bin/`
   para o módulo, e está documentada em [Binários embarcados](BINARIES.md).
@@ -75,4 +75,4 @@ privado, e grava o seu log de ações dentro do seu próprio diretório de arqui
 
 ---
 
-> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas; veja [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentação foi gerada com o Claude (Anthropic) e é mantida por VD171. Correções e melhorias são bem-vindas, veja [CONTRIBUTING.md](CONTRIBUTING.md)._

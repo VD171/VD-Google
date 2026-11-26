@@ -72,7 +72,7 @@ VD Google đến theo hai cách, và chúng hiển thị chính xác cùng một
 - **Ứng dụng (APK).** Một ứng dụng Android bình thường mà bạn cài và mở. Xin quyền root lần
   đầu, giống như bất kỳ ứng dụng root nào.
 - **Module WebUI (ZIP).** Nạp (flash) nó trong trình quản lý root của bạn (KernelSU, APatch
-  hoặc Magisk) và mở nó từ đó. Không có gì được cài như một ứng dụng; nó chạy bên trong WebUI
+  hoặc Magisk) và mở nó từ đó. Không có gì được cài như một ứng dụng, nó chạy bên trong WebUI
   của trình quản lý root của bạn.
 
 Chọn cái bạn thích hơn. Các màn hình, cách diễn đạt và báo cáo xuất ra là giống hệt nhau giữa
@@ -87,7 +87,7 @@ root và đề nghị thử lại.
 **WebUI:** nạp (flash) tệp ZIP như một module trong trình quản lý root của bạn, rồi mở WebUI
 của module từ trình quản lý. Nó đọc ngay khi mở.
 
-Ở lần mở đầu tiên bạn có thể chọn ngôn ngữ; bạn có thể đổi nó sau từ biểu tượng bánh răng ở
+Ở lần mở đầu tiên bạn có thể chọn ngôn ngữ, bạn có thể đổi nó sau từ biểu tượng bánh răng ở
 trên cùng.
 
 ## 6. Các tab
@@ -121,7 +121,7 @@ ghi nhãn múi giờ.
   nhà mạng và backend của Google bên dưới.
 - **Liên hệ hỗ trợ RCS**: hiện có bao nhiêu liên hệ của bạn được biết là hỗ trợ trò chuyện
   RCS.
-- **Cờ tính năng (đã lưu đệm)**: liệu ứng dụng nhắn tin có bật tính năng RCS hay không; được
+- **Cờ tính năng (đã lưu đệm)**: liệu ứng dụng nhắn tin có bật tính năng RCS hay không, được
   lưu đệm, nên nó có thể trễ.
 - **Quyền lợi nhà mạng (carrier entitlement)**, **Hiện diện (UCE)**, **Dịch vụ IMS có mặt**:
   những thứ này mô tả đường RCS của *nhà mạng* (mạng IMS của nhà khai thác). Một "Không" hay
@@ -133,7 +133,7 @@ ghi nhãn múi giờ.
 - **Dấu thời gian**: cấp phép, đồng bộ, tin nhắn cuối, hết hạn token và nhiều hơn nữa.
 
 **RCS nhà mạng với backend của Google.** Có hai cách RCS đến điện thoại của bạn. Một là RCS
-của *nhà mạng* qua mạng IMS của họ; cách kia là *backend của chính Google* (Jibe), hoạt động
+của *nhà mạng* qua mạng IMS của họ, cách kia là *backend của chính Google* (Jibe), hoạt động
 bên trên (over the top), độc lập với nhà mạng. Nếu RCS của bạn chạy qua backend của Google
 (như với hầu hết mọi người) thì các dòng phía-nhà-mạng (quyền lợi nhà mạng, hiện diện/UCE,
 dịch vụ IMS, phiên bản cấu hình) thực sự là "Không" hay "0", và điều đó là đúng, không phải
@@ -207,4 +207,4 @@ thống.
 
 ---
 
-> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến; xem [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Tài liệu này được tạo bằng Claude (Anthropic) và được duy trì bởi VD171. Chúng tôi hoan nghênh các chỉnh sửa và cải tiến, xem [CONTRIBUTING.md](CONTRIBUTING.md)._

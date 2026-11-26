@@ -113,7 +113,7 @@ entre sí. Para auditar toda la carga útil de principio a fin, vuelve a obtener
 
 El módulo WebUI se verifica a sí mismo mientras se instala. Cada archivo incluido se
 distribuye junto a un acompañante `.sha256`, y `customize.sh` verifica cada uno antes de
-tocar el sistema; si un archivo se corrompió o el `.zip` se truncó en el camino, la
+tocar el sistema, si un archivo se corrompió o el `.zip` se truncó en el camino, la
 instalación se aborta con un mensaje claro en lugar de instalar una carga útil dañada. La
 comprobación se omite de forma segura en el raro dispositivo cuyo recovery carece de un
 `sha256sum` que entienda `-c`.
@@ -129,4 +129,4 @@ binario nativo.
 
 ---
 
-> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas, consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

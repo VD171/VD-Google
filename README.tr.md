@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: RCS, Google Cüzdan ve Play Integrity tasdikleri, cihazda okunur.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -18,7 +37,7 @@
 
 <p align="center">
   <b>Google hizmetleriniz, cihazınızda okunur. Asla internet yok.</b><br>
-  VD Google, Google'ın RCS, Wallet ve Play Integrity hakkında telefonunuza kaydettiklerini size gösterir ve her bir öğenin ne anlama geldiğini açıklar; hiçbir yere hiçbir şey göndermeden.
+  VD Google, Google'ın RCS, Wallet ve Play Integrity hakkında telefonunuza kaydettiklerini size gösterir ve her bir öğenin ne anlama geldiğini açıklar, hiçbir yere hiçbir şey göndermeden.
 </p>
 
 <p align="center">
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/tr/about.png" height="420"/>
+  <img src="docs/screenshots/tr/droidguard.png" height="420"/>
+  <img src="docs/screenshots/tr/rcs.png" height="420"/>
+  <img src="docs/screenshots/tr/wallet.png" height="420"/>
+  <img src="docs/screenshots/tr/attestations.png" height="420"/>
 </p>
 
 ---
@@ -66,7 +85,7 @@ Cihazınızın ödemeler için tasdikli olup olmadığı, NFC donanımı olup ol
 Google Play'in bu cihazı sertifikalı olarak tanıyıp tanımadığı. Play Store'da gösterilen Play Protect sertifikasıdır. Bu cihazın Play Integrity ve DroidGuard için önbelleğe aldığı doğrulamalar. Gösterilen saat, her birinin sona erdiği zamandır.
 
 ### Tasdikler (Play Integrity)
-Yakın zamanda Google Play Integrity'den cihazınıza kefil olmasını isteyen uygulamalar; her biri simgesi, adı, son isteğinin tam zamanı ve geçerli penceredeki istek sayısıyla.
+Yakın zamanda Google Play Integrity'den cihazınıza kefil olmasını isteyen uygulamalar, her biri simgesi, adı, son isteğinin tam zamanı ve geçerli penceredeki istek sayısıyla.
 
 Her öğe, gerçekte ne anlama geldiğini sade bir dille anlatan kısa bir açıklama içerir.
 
@@ -77,7 +96,7 @@ VD Google **hiçbir izin** tanımlamaz, internet erişimi bile. Okuduğu hiçbir
 ## Gereksinimler
 
 - Android 8.0 (API 26) veya daha yenisi.
-- arm, arm64, x86 ve x86_64 cihazlarında çalışır - telefonlar, tabletler, emülatörler ve ChromeOS.
+- arm, arm64, x86 ve x86_64 cihazlarında çalışır: telefonlar, tabletler, emülatörler ve ChromeOS.
 - **Root gereklidir.** Yukarıdaki bilgiler Android'in yalnızca sisteme açık korumalı alanlarında bulunur. VD Google bunları süper kullanıcı erişimiyle okur ve başka hiçbir şey yapmaz. Root olmadan uygulama yalnızca root'un neden gerektiğini açıklayan bir ekran gösterir.
 
 ## Zaman damgaları
@@ -90,7 +109,7 @@ VD Google tek bir JSON **dışa aktarım** yazar: Google'ın cihazınızda RCS, 
 
 ## Derleme
 
-Her zaman release, asla debug. Android uygulaması `VDGoogle/` dizininden `./gradlew assembleRelease` ile derlenir; WebUI modülü `webui/package.sh` ile paketlenir. Tek yerel ikili dosya `sqlite3`'tür; Termux deposundan kitaplık kapanışıyla birlikte alınır ve SHA-256'sı ile kaydedilir. Bkz. [Katkıda bulunma](CONTRIBUTING.md), [Birlikte gelen ikili dosyalar](https://github.com/VD171/VD-Google/wiki/BINARIES) ve [wiki](https://github.com/VD171/VD-Google/wiki).
+Her zaman release, asla debug. Android uygulaması `VDGoogle/` dizininden `./gradlew assembleRelease` ile derlenir, WebUI modülü `webui/package.sh` ile paketlenir. Tek yerel ikili dosya `sqlite3`'tür, Termux deposundan kitaplık kapanışıyla birlikte alınır ve SHA-256'sı ile kaydedilir. Bkz. [Katkıda bulunma](CONTRIBUTING.md), [Birlikte gelen ikili dosyalar](https://github.com/VD171/VD-Google/wiki/BINARIES) ve [wiki](https://github.com/VD171/VD-Google/wiki).
 
 ## Belgeler
 
@@ -109,7 +128,7 @@ Her zaman release, asla debug. Android uygulaması `VDGoogle/` dizininden `./gra
 - **[COPG-VD](https://github.com/VD171/COPG-VD)**: global cihaz fingerprint / Play Integrity sahteleme, uygulama bazlı kapsam ve bir WebUI ile tüm cihazda.
 - **[VDBackup](https://github.com/VD171/VD-Backup)**: root olarak tam uygulama ve veri yedekleme ve geri yükleme, tamamen bir WebUI'den yönetilir.
 - **[VD-dropbear](https://github.com/VD171/VD-dropbear)**: root olarak çalışan bağımsız bir SSH daemon'ı (Dropbear).
-- **[VDInstaller](https://github.com/VD171/VD-Installer)**: tekli, toplu ve bölünmüş APK'lar için sürtünmesiz bir root sideload yükleyicisi; Play Protect doğrulayıcı anahtarı ve kurulum kaynağı sahteciliği ile birlikte.
+- **[VDInstaller](https://github.com/VD171/VD-Installer)**: tekli, toplu ve bölünmüş APK'lar için sürtünmesiz bir root sideload yükleyicisi, Play Protect doğrulayıcı anahtarı ve kurulum kaynağı sahteciliği ile birlikte.
 - **[VDInfos](https://github.com/VD171/VD-Infos)**: her öğeyi okuyabilen her yöntemle okuyan ve bunları yan yana karşılaştıran bir cihaz yöntem hata ayıklayıcısı.
 - **[VDLiveUpdate](https://github.com/VD171/VDLiveUpdate)**: KernelSU/APatch/Magisk modüllerine gömülü, flash'sız, artımlı bir kendini güncelleme motoru.
 - **[VD-Modules](https://github.com/VD171/VD-Modules)**: MMRL/WebUI-X modül deposumuz (hepsini root yöneticinizden kurun).
@@ -118,16 +137,15 @@ Her zaman release, asla debug. Android uygulaması `VDGoogle/` dizininden `./gra
 
 ## Contacts
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## Lisans
 
@@ -140,3 +158,7 @@ VD Google bağımsız, resmi olmayan bir projedir. Google LLC ile bağlantılı 
 ## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **Güncellemeler için kanala katılın:** @Priv8_VD https://t.me/Priv8_VD

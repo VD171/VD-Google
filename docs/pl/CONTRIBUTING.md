@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · Polski · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · Polski · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@ błędów, dokumentacja i kod.
 ## Zasady podstawowe
 
 - **VD Google czyta prawdę i nigdy niczego nie fałszuje.** Wkład musi to zachować.
-  Prawdziwy wynik negatywny pozostaje negatywny; nieaktualna pamięć podręczna jest
-  oznaczana jako zbuforowana; brakująca wartość to Nieznane. Nie łagodź odczytu, by
+  Prawdziwy wynik negatywny pozostaje negatywny, nieaktualna pamięć podręczna jest
+  oznaczana jako zbuforowana, brakująca wartość to Nieznane. Nie łagodź odczytu, by
   wyglądał ładniej.
 - **Prywatność jest absolutna.** Aplikacja nie deklaruje żadnych uprawnień, a WebUI nie
   kontaktuje się z żadnym zdalnym źródłem. Nigdy nie dodawaj uprawnienia, wywołania
@@ -40,7 +40,7 @@ eksportu jest stworzona dokładnie do tego.
 ## Kod
 
 - Buduj release, nigdy debug. Testuj na prawdziwym, zrootowanym urządzeniu.
-- Nie umieszczaj komentarzy w kodzie; nazwy wyjaśniają intencję. Jedynym nagłówkiem jest
+- Nie umieszczaj komentarzy w kodzie, nazwy wyjaśniają intencję. Jedynym nagłówkiem jest
   baner licencyjny na górze każdego pliku źródłowego.
 - Dopasuj się do istniejącego stylu i utrzymuj zmiany w jednym temacie.
 
@@ -53,4 +53,4 @@ Współtworząc, zgadzasz się, że twój wkład jest licencjonowany na warunkac
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

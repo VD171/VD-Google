@@ -46,7 +46,7 @@ VD-Google/
   `res/values*/strings.xml`, the WebUI under `webroot/lang/`. A label is never written
   twice.
 - **The documentation** lives in `docs/`. It is the source of truth for the project
-  wiki; the wiki is generated from it (see `tools/` and `.github/scripts/gen_wiki.sh`).
+  wiki, the wiki is generated from it (see `tools/` and `.github/scripts/gen_wiki.sh`).
 - **The bundled tool** (`sqlite3`) lives in `assets/bin/` for the app and `bin/` for the
   module, and is documented in [Bundled binaries](BINARIES.md).
 
@@ -72,4 +72,4 @@ writes its action log inside its own private files directory.
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](../CONTRIBUTING.md)._

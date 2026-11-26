@@ -51,7 +51,7 @@ VD Google juga tidak melakukan spoof, menyembunyikan, atau memalsukan apa pun. I
 VD Google hadir dalam dua cara, dan keduanya menampilkan informasi yang persis sama:
 
 - **Aplikasi (APK).** Aplikasi Android biasa yang Anda pasang dan buka. Meminta root pertama kali, seperti aplikasi root mana pun.
-- **Modul WebUI (ZIP).** Flash di pengelola root Anda (KernelSU, APatch, atau Magisk) dan buka dari sana. Tidak ada yang dipasang sebagai aplikasi; ia berjalan di dalam WebUI pengelola root Anda.
+- **Modul WebUI (ZIP).** Flash di pengelola root Anda (KernelSU, APatch, atau Magisk) dan buka dari sana. Tidak ada yang dipasang sebagai aplikasi, ia berjalan di dalam WebUI pengelola root Anda.
 
 Pilih mana pun yang Anda sukai. Layar, kata-kata, dan laporan ekspornya identik di antara keduanya.
 
@@ -61,7 +61,7 @@ Pilih mana pun yang Anda sukai. Layar, kata-kata, dan laporan ekspornya identik 
 
 **WebUI:** flash ZIP sebagai modul di pengelola root Anda, lalu buka WebUI modul dari pengelola. Ia langsung membaca begitu dibuka.
 
-Pada pembukaan pertama Anda bisa memilih bahasa; Anda bisa mengubahnya nanti dari ikon roda gigi di bagian atas.
+Pada pembukaan pertama Anda bisa memilih bahasa, Anda bisa mengubahnya nanti dari ikon roda gigi di bagian atas.
 
 ## 6. Tab
 
@@ -81,12 +81,12 @@ Ini adalah tab yang paling kaya. Stempel waktu selalu ditampilkan dalam zona wak
 - **Your RCS number**: nomor yang terdaftar untuk RCS, disamarkan secara default. Ketuk ikon mata untuk menampilkannya.
 - **Provisioning state (cached)** dan **Configuration version**: nilai internal yang dijaga aplikasi perpesanan. Keduanya bisa terbaca 0 bahkan saat RCS bekerja. Lihat catatan tentang operator vs backend Google di bawah.
 - **RCS-capable contacts**: berapa banyak kontak Anda yang saat ini diketahui mendukung obrolan RCS.
-- **Feature flag (cached)**: apakah aplikasi perpesanan mengaktifkan fitur RCS; tersimpan, jadi bisa tertinggal.
+- **Feature flag (cached)**: apakah aplikasi perpesanan mengaktifkan fitur RCS, tersimpan, jadi bisa tertinggal.
 - **Carrier entitlement**, **Presence (UCE)**, **IMS service present**: ini menggambarkan jalur RCS *operator* (jaringan IMS operator). "No" atau "0" di sini normal ketika RCS Anda berjalan melalui backend Google sendiri alih-alih operator Anda. Lihat di bawah.
 - **Gemini**: apakah Gemini di Google Messages sudah siap: **Magic Compose** (bantuan menulis Gemini), **AICore** (mesin di perangkat yang menjalankan Gemini Nano), dan **Gemini chat**, yang dikirim melalui RCS sehingga membutuhkan RCS terhubung.
 - **Timestamps**: provisioning, sinkronisasi, pesan terakhir, kedaluwarsa token, dan lainnya.
 
-**RCS operator vs backend Google.** Ada dua cara RCS mencapai ponsel Anda. Yang satu adalah RCS *operator* Anda melalui jaringan IMS mereka; yang lain adalah *backend Google sendiri* (Jibe), yang bekerja di atasnya, independen dari operator. Jika RCS Anda berjalan melalui backend Google (seperti pada kebanyakan orang) maka baris-baris sisi-operator (carrier entitlement, presence/UCE, IMS service, configuration version) memang benar-benar "No" atau "0", dan itu benar, bukan cache usang. RCS Anda bisa jadi sudah bekerja selama bertahun-tahun dengan cara ini. Baris Connection-lah yang memberi tahu Anda bahwa ia bekerja.
+**RCS operator vs backend Google.** Ada dua cara RCS mencapai ponsel Anda. Yang satu adalah RCS *operator* Anda melalui jaringan IMS mereka, yang lain adalah *backend Google sendiri* (Jibe), yang bekerja di atasnya, independen dari operator. Jika RCS Anda berjalan melalui backend Google (seperti pada kebanyakan orang) maka baris-baris sisi-operator (carrier entitlement, presence/UCE, IMS service, configuration version) memang benar-benar "No" atau "0", dan itu benar, bukan cache usang. RCS Anda bisa jadi sudah bekerja selama bertahun-tahun dengan cara ini. Baris Connection-lah yang memberi tahu Anda bahwa ia bekerja.
 
 ### 6.3 Wallet
 
@@ -129,4 +129,4 @@ VD Google berbicara dalam 21 bahasa. Pilih bahasa Anda saat pertama kali dijalan
 
 ---
 
-> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan; lihat [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Dokumentasi ini dibuat dengan Claude (Anthropic) dan dikelola oleh VD171. Koreksi dan perbaikan dipersilakan, lihat [CONTRIBUTING.md](CONTRIBUTING.md)._

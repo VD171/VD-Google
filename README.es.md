@@ -1,6 +1,25 @@
 <!--
-  VD GOOGLE: RCS, Google Wallet y atestaciones de Play Integrity, leídos en el dispositivo.
-  Copyright (C) 2026  VD171. SPDX-License-Identifier: AGPL-3.0-or-later
+  ======================================================================
+   VD GOOGLE  ::  your Google services, read on-device
+   RCS, Google Wallet and Play Integrity attestations: local, no internet.
+
+   Copyright (C) 2026  VD171
+   SPDX-License-Identifier: AGPL-3.0-or-later
+
+   Free software under the GNU AGPL v3 or later. NETWORK COPYLEFT: run a
+   modified version, even as a service, and you MUST offer its source.
+
+   Site           : https://vd171.ru
+   Site           : https://vd.priv8.ru
+   Source         : https://github.com/VD171/VD-Google
+   GitHub         : @VD171 https://github.com/VD171
+   XDA-Developers : @VD171 https://xdaforums.com/m/vd171.4699873/
+   XDA thread     : https://xdaforums.com/t/VD-Google.4803837/
+   Telegram       : @VD_Priv8 https://t.me/VD_Priv8
+   Channel        : @Priv8_VD https://t.me/Priv8_VD
+   Discord        : @VD.Priv8 https://discord.com/users/1296831918989639721
+   E-mail         : vd.priv8@pm.me
+  ======================================================================
 -->
 
 # VD Google
@@ -36,11 +55,11 @@
 > **Languages:** [English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [فارسی](README.fa.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [中文](README.zh.md)
 
 <p align="center">
-  <img src="images/vdgoogle-01.png" height="420"/>
-  <img src="images/vdgoogle-02.png" height="420"/>
-  <img src="images/vdgoogle-03.png" height="420"/>
-  <img src="images/vdgoogle-04.png" height="420"/>
-  <img src="images/vdgoogle-05.png" height="420"/>
+  <img src="docs/screenshots/es/about.png" height="420"/>
+  <img src="docs/screenshots/es/droidguard.png" height="420"/>
+  <img src="docs/screenshots/es/rcs.png" height="420"/>
+  <img src="docs/screenshots/es/wallet.png" height="420"/>
+  <img src="docs/screenshots/es/attestations.png" height="420"/>
 </p>
 
 ---
@@ -77,7 +96,7 @@ VD Google no declara **ningún permiso**, ni siquiera acceso a internet. Nada de
 ## Requisitos
 
 - Android 8.0 (API 26) o posterior.
-- Funciona en dispositivos arm, arm64, x86 y x86_64 - teléfonos, tablets, emuladores y ChromeOS.
+- Funciona en dispositivos arm, arm64, x86 y x86_64: teléfonos, tablets, emuladores y ChromeOS.
 - **Se necesita root.** La información anterior reside en zonas protegidas de Android, accesibles solo para el sistema. VD Google la lee con acceso de superusuario y no hace nada más con ella. Sin root, la app solo muestra una pantalla que explica por qué se necesita root.
 
 ## Marcas de tiempo
@@ -90,7 +109,7 @@ VD Google escribe una única **exportación** JSON: una instantánea estructurad
 
 ## Compilación
 
-Siempre release, nunca debug. La app de Android se compila desde `VDGoogle/` con `./gradlew assembleRelease`; el módulo WebUI se empaqueta con `webui/package.sh`. El único binario nativo es `sqlite3`, obtenido del repositorio de Termux con su cierre de bibliotecas y registrado con su SHA-256. Consulta [Contribuir](CONTRIBUTING.md), [Binarios incluidos](https://github.com/VD171/VD-Google/wiki/BINARIES) y la [wiki](https://github.com/VD171/VD-Google/wiki).
+Siempre release, nunca debug. La app de Android se compila desde `VDGoogle/` con `./gradlew assembleRelease`, el módulo WebUI se empaqueta con `webui/package.sh`. El único binario nativo es `sqlite3`, obtenido del repositorio de Termux con su cierre de bibliotecas y registrado con su SHA-256. Consulta [Contribuir](CONTRIBUTING.md), [Binarios incluidos](https://github.com/VD171/VD-Google/wiki/BINARIES) y la [wiki](https://github.com/VD171/VD-Google/wiki).
 
 ## Documentación
 
@@ -118,16 +137,15 @@ Siempre release, nunca debug. La app de Android se compila desde `VDGoogle/` con
 
 ## Contactos
 
-- Site           : https://vd171.ru
-- Site           : https://vd.priv8.ru
-- Source         : https://github.com/VD171/VD-Google
-- GitHub         : [@VD171](https://github.com/VD171)
-- XDA-Developers : [@VD171](https://xdaforums.com/m/vd171.4699873/)
-- XDA thread     : [VD-Google](https://xdaforums.com/t/VD-Google.4803837/)
-- Telegram       : [@VD_Priv8](https://t.me/VD_Priv8)
-- Channel        : [@Priv8_VD](https://t.me/Priv8_VD)
-- Discord        : [@VD.Priv8](https://discord.com/users/1296831918989639721)
-- E-mail         : vd.priv8@pm.me
+- https://vd171.ru
+- https://vd.priv8.ru
+- **Telegram:** @VD_Priv8 https://t.me/VD_Priv8
+- **Channel:** @Priv8_VD https://t.me/Priv8_VD
+- **Discord:** @VD.Priv8 https://discord.com/users/1296831918989639721
+- **E-mail:** vd.priv8@pm.me
+- **XDA-Developers:** @VD171 https://xdaforums.com/m/vd171.4699873/
+- **XDA thread:** https://xdaforums.com/t/VD-Google.4803837/
+- **GitHub:** @VD171 https://github.com/VD171
 
 ## Licencia
 
@@ -140,3 +158,7 @@ VD Google es un proyecto independiente y no oficial. No está afiliado a Google 
 ## Tags
 
 `android` `privacy` `security` `rcs` `google-wallet` `play-integrity` `attestation` `nfc` `tap-to-pay` `no-internet` `root` `kernelsu` `magisk` `lsposed` `on-device` `kotlin` `jetpack-compose` `material3` `vdgoogle`
+
+---
+
+📣 **Únete al canal para las actualizaciones:** @Priv8_VD https://t.me/Priv8_VD

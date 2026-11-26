@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · Türkçe · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · [Nederlands](../nl/CONTRIBUTING.md) · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · Türkçe · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,8 +10,8 @@ VD Google'a gösterdiğiniz ilgi için teşekkürler. Katkılar memnuniyetle kar
 ## Temel kurallar
 
 - **VD Google gerçeği okur ve asla hiçbir şeyi taklit etmez.** Katkılar bunu böyle
-  tutmalıdır. Gerçek bir olumsuz, olumsuz kalır; eski bir önbellek, önbelleklenmiş olarak
-  etiketlenir; eksik bir değer Unknown'dır. Bir okumayı daha hoş görünsün diye
+  tutmalıdır. Gerçek bir olumsuz, olumsuz kalır, eski bir önbellek, önbelleklenmiş olarak
+  etiketlenir, eksik bir değer Unknown'dır. Bir okumayı daha hoş görünsün diye
   yumuşatmayın.
 - **Gizlilik mutlaktır.** Uygulama hiçbir izin beyan etmez ve WebUI hiçbir uzak kaynağa
   bağlanmaz. Asla bir izin, bir ağ çağrısı veya verileri cihazdan dışarı gönderen hiçbir
@@ -38,7 +38,7 @@ aktarmanın tanılama bölümü tam da bunun için yapılmıştır.
 ## Kod
 
 - Her zaman release derleyin, asla debug değil. Gerçek, root'lanmış bir cihazda test edin.
-- Yorumları koddan uzak tutun; adlar niyeti açıklar. Tek başlık, her kaynak dosyanın
+- Yorumları koddan uzak tutun, adlar niyeti açıklar. Tek başlık, her kaynak dosyanın
   tepesindeki lisans afişidir.
 - Mevcut stile uyun ve değişiklikleri odaklı tutun.
 
@@ -51,4 +51,4 @@ lisanslandığını kabul etmiş olursunuz.
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

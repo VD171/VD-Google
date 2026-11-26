@@ -41,7 +41,7 @@ VD-Google/
 
 - **Les lecteurs**: ce que lit VD Google et la façon dont il le lit, vivent uniquement dans `VDGoogle/app/src/main/java/ru/vd171/vdgoogle/data/` (l'application) et `VDGoogle/webui/webroot/scripts.js` (la WebUI). Les deux se reflètent exactement l'un l'autre.
 - **Les chaînes** sont la source unique de chaque libellé, en 21 langues : l'application sous `res/values*/strings.xml`, la WebUI sous `webroot/lang/`. Un libellé n'est jamais écrit deux fois.
-- **La documentation** vit dans `docs/`. Elle est la source de vérité du wiki du projet ; le wiki en est généré (voir `tools/` et `.github/scripts/gen_wiki.sh`).
+- **La documentation** vit dans `docs/`. Elle est la source de vérité du wiki du projet, le wiki en est généré (voir `tools/` et `.github/scripts/gen_wiki.sh`).
 - **L'outil embarqué** (`sqlite3`) vit dans `assets/bin/` pour l'application et `bin/` pour le module, et est documenté dans [Binaires embarqués](BINARIES.md).
 
 ## Sortie de compilation
@@ -61,4 +61,4 @@ L'application conserve plutôt les mêmes copies éphémères dans son propre ca
 
 ---
 
-> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Cette documentation a été générée avec Claude (Anthropic) et est maintenue par VD171. Les corrections et améliorations sont les bienvenues, voir [CONTRIBUTING.md](CONTRIBUTING.md)._

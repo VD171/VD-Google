@@ -52,8 +52,8 @@ Hiçbir eylem ağa ulaşmaz ve hiçbir şey telefonunuzdan çıkmaz.
 Bunların hiçbirine güvenerek kabul etmek zorunda değilsiniz:
 
 - Kaynak herkese açıktır: <https://github.com/VD171/VD-Google>.
-- Manifesto kaynaktadır; hiçbir izin beyan etmediğini doğrulayın.
-- WebUI'nin Content-Security-Policy'si kaynaktadır; her uzak kaynağı engellediğini
+- Manifesto kaynaktadır, hiçbir izin beyan etmediğini doğrulayın.
+- WebUI'nin Content-Security-Policy'si kaynaktadır, her uzak kaynağı engellediğini
   doğrulayın.
 - Paket içindeki ikililer, sağlama toplamlarıyla birlikte
   [Paket içindeki ikililer](BINARIES.md) belgesinde belgelenmiştir.
@@ -62,4 +62,4 @@ Bunların hiçbirine güvenerek kabul etmek zorunda değilsiniz:
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

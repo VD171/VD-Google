@@ -19,7 +19,7 @@ okuyamamasına neden olur. Nedeni için [Mimari](ARCHITECTURE.md) belgesine bak�
 
 - **Üst kaynaktan alınır, asla bir cihazdan değil.** `sqlite3` ve kitaplıkları, resmi
   **Termux** paket deposundan (`packages.termux.dev/apt`), imzalı `.deb` paketlerinden
-  gelir; asla bir telefona kurulu bir Termux'tan kopyalanmaz.
+  gelir, asla bir telefona kurulu bir Termux'tan kopyalanmaz.
 - **Her yerde aynı baytlar.** Aynı dosyalar, uygulamada (`assets/bin/` altında) ve WebUI
   modülünde (`bin/` altında) gelir, böylece ikisi de tek bir motor üzerinden okur ve
   uyuşur.
@@ -116,7 +116,7 @@ değerlerini karşılaştırın.
 ## Flaşlama anında bütünlük
 
 WebUI modülü kurulurken kendini denetler. Paketlenen her dosya, yanında bir `.sha256`
-eşlikçisiyle gelir ve `customize.sh` sisteme dokunmadan önce her birini doğrular; bir dosya
+eşlikçisiyle gelir ve `customize.sh` sisteme dokunmadan önce her birini doğrular, bir dosya
 bozulduysa ya da `.zip` aktarım sırasında kesildiyse, hasarlı bir yük kurmak yerine flaşlama
 açık bir mesajla iptal edilir. Bu denetim, recovery'sinde `-c` anlayan bir `sha256sum`
 bulunmayan nadir cihazlarda güvenle atlanır.
@@ -132,4 +132,4 @@ paketlenmez.
 
 ---
 
-> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır; bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Bu belgeler Claude (Anthropic) ile oluşturulmuş olup VD171 tarafından yürütülmektedir. Düzeltmeler ve iyileştirmeler memnuniyetle karşılanır, bkz. [CONTRIBUTING.md](CONTRIBUTING.md)._

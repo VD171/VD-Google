@@ -69,7 +69,7 @@ VD Google se distribuye de dos maneras, y muestran exactamente la misma informac
 - **La app (APK).** Una app de Android normal que instalas y abres. Pide root la primera vez, como
   cualquier app de root.
 - **El módulo WebUI (ZIP).** Flashéalo en tu gestor de root (KernelSU, APatch o Magisk) y ábrelo
-  desde ahí. Nada se instala como app; corre dentro de la WebUI de tu gestor de root.
+  desde ahí. Nada se instala como app, corre dentro de la WebUI de tu gestor de root.
 
 Elige el que prefieras. Las pantallas, la redacción y el informe exportado son idénticos entre los
 dos.
@@ -83,7 +83,7 @@ ofrece volver a intentarlo.
 **WebUI:** flashea el ZIP como módulo en tu gestor de root, luego abre la WebUI del módulo desde el
 gestor. Lee en cuanto se abre.
 
-En la primera apertura puedes elegir tu idioma; puedes cambiarlo más tarde desde el icono del
+En la primera apertura puedes elegir tu idioma, puedes cambiarlo más tarde desde el icono del
 engranaje en la parte superior.
 
 ## 6. Las pestañas
@@ -118,7 +118,7 @@ dispositivo, con la zona etiquetada.
 - **Contactos compatibles con RCS**: cuántos de tus contactos se sabe actualmente que admiten chat
   por RCS.
 - **Bandera de característica (en caché)**: si la app de mensajería tiene activada la característica
-  RCS; en caché, así que puede ir con retraso.
+  RCS, en caché, así que puede ir con retraso.
 - **Habilitación de operadora**, **Presencia (UCE)**, **Servicio IMS presente**: estas describen la
   ruta de RCS de la *operadora* (la red IMS del operador). Un "No" o "0" aquí es normal cuando tu RCS
   corre a través del propio backend de Google en lugar de tu operadora. Consulta más abajo.
@@ -128,7 +128,7 @@ dispositivo, con la zona etiquetada.
 - **Marcas de tiempo**: aprovisionamiento, sincronización, último mensaje, caducidad de token y más.
 
 **RCS de operadora frente al backend de Google.** Hay dos maneras en que RCS llega a tu teléfono. Una
-es el RCS de tu *operadora* sobre su red IMS; la otra es el *propio backend de Google* (Jibe), que
+es el RCS de tu *operadora* sobre su red IMS, la otra es el *propio backend de Google* (Jibe), que
 funciona por encima, independiente de la operadora. Si tu RCS corre a través del backend de Google,
 como ocurre para la mayoría de la gente, entonces las líneas del lado de la operadora (habilitación
 de operadora, presencia/UCE, servicio IMS, versión de configuración) son genuinamente "No" o "0", y
@@ -199,4 +199,4 @@ es](#2-qué-no-es).
 
 ---
 
-> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas; consulta [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Esta documentación se generó con Claude (Anthropic) y la mantiene VD171. Las correcciones y mejoras son bienvenidas, consulta [CONTRIBUTING.md](CONTRIBUTING.md)._

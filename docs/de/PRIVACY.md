@@ -20,7 +20,7 @@ die App mit deinen Daten tut und was nicht, in klaren Worten, die du überprüfe
 
 Der RCS-, Wallet- und Attestierungszustand, den VD Google erklärt, lebt in geschützten,
 systemeigenen Bereichen von Android, die normale Apps nicht sehen können. VD Google liest sie mit
-Root, statt dich um weitreichende Berechtigungen zu bitten. Root ist der enge, prüfbare Zugang; ein
+Root, statt dich um weitreichende Berechtigungen zu bitten. Root ist der enge, prüfbare Zugang, ein
 Haufen Laufzeitberechtigungen wäre der breite, undichte Weg. Die App wählt den engen.
 
 ## Der Export ist bereinigt
@@ -53,8 +53,8 @@ Keine Aktion erreicht jemals das Netzwerk, und nichts verlässt dein Telefon.
 Du musst nichts davon auf Vertrauen hinnehmen:
 
 - Der Quellcode ist öffentlich: <https://github.com/VD171/VD-Google>.
-- Das Manifest ist im Quellcode; bestätige, dass es keine Berechtigungen deklariert.
-- Die Content-Security-Policy der WebUI ist im Quellcode; bestätige, dass sie jede entfernte Herkunft
+- Das Manifest ist im Quellcode, bestätige, dass es keine Berechtigungen deklariert.
+- Die Content-Security-Policy der WebUI ist im Quellcode, bestätige, dass sie jede entfernte Herkunft
   blockiert.
 - Die mitgelieferten Binärdateien sind mit Prüfsummen in [Mitgelieferte Binärdateien](BINARIES.md)
   dokumentiert.
@@ -63,4 +63,4 @@ Du musst nichts davon auf Vertrauen hinnehmen:
 
 ---
 
-> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen; siehe [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Diese Dokumentation wurde mit Claude (Anthropic) erstellt und wird von VD171 gepflegt. Korrekturen und Verbesserungen sind willkommen, siehe [CONTRIBUTING.md](CONTRIBUTING.md)._

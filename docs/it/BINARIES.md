@@ -117,7 +117,7 @@ SHA-256 dei file.
 
 Il modulo WebUI verifica sé stesso durante l'installazione. Ogni file incluso è distribuito
 accanto a un compagno `.sha256`, e `customize.sh` ne verifica ciascuno prima di toccare il
-sistema; se un file è stato corrotto o lo `.zip` è stato troncato durante il trasferimento,
+sistema, se un file è stato corrotto o lo `.zip` è stato troncato durante il trasferimento,
 l'installazione viene interrotta con un messaggio chiaro invece di installare un payload
 danneggiato. Il controllo viene saltato in modo sicuro sul raro dispositivo il cui recovery
 non dispone di un `sha256sum` che comprenda `-c`.
@@ -133,4 +133,4 @@ Nessun altro binario nativo è incluso.
 
 ---
 
-> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti; vedi [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Questa documentazione è stata generata con Claude (Anthropic) ed è gestita da VD171. Correzioni e miglioramenti sono benvenuti, vedi [CONTRIBUTING.md](CONTRIBUTING.md)._

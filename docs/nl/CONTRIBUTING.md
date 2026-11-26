@@ -1,4 +1,4 @@
-> **Languages:** [English](../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · Nederlands · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
+> **Languages:** [English](../../CONTRIBUTING.md) · [العربية](../ar/CONTRIBUTING.md) · [Čeština](../cs/CONTRIBUTING.md) · [Deutsch](../de/CONTRIBUTING.md) · [Español](../es/CONTRIBUTING.md) · [فارسی](../fa/CONTRIBUTING.md) · [Français](../fr/CONTRIBUTING.md) · [हिन्दी](../hi/CONTRIBUTING.md) · [Bahasa Indonesia](../id/CONTRIBUTING.md) · [Italiano](../it/CONTRIBUTING.md) · [日本語](../ja/CONTRIBUTING.md) · [한국어](../ko/CONTRIBUTING.md) · Nederlands · [Polski](../pl/CONTRIBUTING.md) · [Português](../pt/CONTRIBUTING.md) · [Русский](../ru/CONTRIBUTING.md) · [Svenska](../sv/CONTRIBUTING.md) · [ไทย](../th/CONTRIBUTING.md) · [Türkçe](../tr/CONTRIBUTING.md) · [Українська](../uk/CONTRIBUTING.md) · [Tiếng Việt](../vi/CONTRIBUTING.md) · [中文](../zh/CONTRIBUTING.md)
 
 ---
 
@@ -10,7 +10,7 @@ documentatie en code.
 ## Basisregels
 
 - **VD Google leest de waarheid en vervalst nooit iets.** Bijdragen moeten dat zo houden.
-  Een echte negatief blijft negatief; een verouderde cache wordt gecachet gelabeld; een
+  Een echte negatief blijft negatief, een verouderde cache wordt gecachet gelabeld, een
   ontbrekende waarde is Unknown. Zwak een aflezing niet af om er mooier uit te laten zien.
 - **Privacy is absoluut.** De app declareert geen permissies en de WebUI contacteert geen
   externe oorsprong. Voeg nooit een permissie, een netwerkoproep, of iets dat gegevens van
@@ -38,7 +38,7 @@ is precies hiervoor gemaakt.
 ## Code
 
 - Bouw release, nooit debug. Test op een echt, geroot toestel.
-- Houd commentaar uit de code; namen verklaren de bedoeling. De enige header is de
+- Houd commentaar uit de code, namen verklaren de bedoeling. De enige header is de
   licentiebanner bovenaan elk bronbestand.
 - Sluit aan bij de bestaande stijl en houd wijzigingen gericht.
 
@@ -51,4 +51,4 @@ Door bij te dragen ga je ermee akkoord dat jouw bijdrage wordt gelicentieerd ond
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._

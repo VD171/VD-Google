@@ -70,7 +70,7 @@ VD Google ships two ways, and they show exactly the same information:
 - **The app (APK).** A normal Android app you install and open. Asks for root the
   first time, like any root app.
 - **The WebUI module (ZIP).** Flash it in your root manager (KernelSU, APatch or
-  Magisk) and open it from there. Nothing is installed as an app; it runs inside your
+  Magisk) and open it from there. Nothing is installed as an app, it runs inside your
   root manager's WebUI.
 
 Pick whichever you prefer. The screens, the wording and the exported report are
@@ -85,7 +85,7 @@ root is required and offers to try again.
 **WebUI:** flash the ZIP as a module in your root manager, then open the module's
 WebUI from the manager. It reads as soon as it opens.
 
-On the first open you can pick your language; you can change it later from the gear
+On the first open you can pick your language, you can change it later from the gear
 icon at the top.
 
 ## 6. The tabs
@@ -130,7 +130,7 @@ the zone labelled.
 - **Timestamps**: provisioning, sync, last message, token expiry and more.
 
 **Carrier RCS vs Google's backend.** There are two ways RCS reaches your phone. One is
-your *carrier's* RCS over their IMS network; the other is *Google's own backend* (Jibe),
+your *carrier's* RCS over their IMS network, the other is *Google's own backend* (Jibe),
 which works over the top, independent of the carrier. If your RCS runs through Google's
 backend, as it does for most people, then the carrier-side lines (carrier entitlement,
 presence/UCE, IMS service, configuration version) are genuinely "No" or "0", and that is
@@ -201,4 +201,4 @@ That is honest. VD Google will not show a "No" it cannot back up.
 
 ---
 
-> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _This documentation was generated with Claude (Anthropic) and is maintained by VD171. Corrections and improvements are welcome, see [CONTRIBUTING.md](../CONTRIBUTING.md)._

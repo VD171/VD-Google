@@ -118,7 +118,7 @@ bestands-SHA-256-waarden.
 
 De WebUI-module controleert zichzelf terwijl ze wordt geïnstalleerd. Elk meegeleverd bestand
 wordt geleverd naast een `.sha256`-metgezel, en `customize.sh` verifieert elk daarvan voordat
-het systeem wordt aangeraakt; als een bestand beschadigd was of de `.zip` onderweg werd
+het systeem wordt aangeraakt, als een bestand beschadigd was of de `.zip` onderweg werd
 afgekapt, wordt het flashen afgebroken met een duidelijke melding in plaats van een
 beschadigde payload te installeren. De controle wordt veilig overgeslagen op het zeldzame
 toestel waarvan de recovery geen `sha256sum` heeft die `-c` begrijpt.
@@ -134,4 +134,4 @@ enkele andere native binary meegeleverd.
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._

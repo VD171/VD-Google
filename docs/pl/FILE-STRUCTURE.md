@@ -45,7 +45,7 @@ VD-Google/
 - **Teksty** są jedynym źródłem każdej etykiety, w 21 językach: aplikacja pod
   `res/values*/strings.xml`, WebUI pod `webroot/lang/`. Etykieta nigdy nie jest pisana
   dwa razy.
-- **Dokumentacja** żyje w `docs/`. Jest źródłem prawdy dla wiki projektu; wiki jest z niej
+- **Dokumentacja** żyje w `docs/`. Jest źródłem prawdy dla wiki projektu, wiki jest z niej
   generowane (zobacz `tools/` i `.github/scripts/gen_wiki.sh`).
 - **Wbudowane narzędzie** (`sqlite3`) żyje w `assets/bin/` dla aplikacji i `bin/` dla
   modułu, i jest udokumentowane w [Wbudowane pliki binarne](BINARIES.md).
@@ -74,4 +74,4 @@ podręcznej, a swój log działań zapisuje wewnątrz własnego prywatnego katal
 
 ---
 
-> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane; zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Ta dokumentacja została wygenerowana za pomocą Claude (Anthropic) i jest utrzymywana przez VD171. Poprawki i ulepszenia są mile widziane, zobacz [CONTRIBUTING.md](CONTRIBUTING.md)._

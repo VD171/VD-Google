@@ -73,7 +73,7 @@ VD Google wordt op twee manieren geleverd, en ze tonen exact dezelfde informatie
 - **De app (APK).** Een normale Android-app die je installeert en opent. Vraagt de eerste
   keer om root, zoals elke root-app.
 - **De WebUI-module (ZIP).** Flash hem in je root-manager (KernelSU, APatch of Magisk) en
-  open hem van daaruit. Er wordt niets als app geïnstalleerd; het draait binnen de WebUI van
+  open hem van daaruit. Er wordt niets als app geïnstalleerd, het draait binnen de WebUI van
   je root-manager.
 
 Kies wat je verkiest. De schermen, de bewoordingen en het geëxporteerde rapport zijn tussen
@@ -88,7 +88,7 @@ root vereist is en biedt aan het opnieuw te proberen.
 **WebUI:** flash de ZIP als een module in je root-manager, en open dan de WebUI van de module
 vanuit de manager. Het leest zodra het opent.
 
-Bij de eerste opening kun je je taal kiezen; je kunt die later wijzigen via het tandwielicoon
+Bij de eerste opening kun je je taal kiezen, je kunt die later wijzigen via het tandwielicoon
 bovenaan.
 
 ## 6. De tabbladen
@@ -133,7 +133,7 @@ toestel, met de zone gelabeld.
 - **Timestamps**: provisioning, synchronisatie, laatste bericht, tokenvervaldatum en meer.
 
 **Provider-RCS versus Googles backend.** Er zijn twee manieren waarop RCS je telefoon
-bereikt. Eén is de RCS van je *provider* over hun IMS-netwerk; de andere is *Googles eigen
+bereikt. Eén is de RCS van je *provider* over hun IMS-netwerk, de andere is *Googles eigen
 backend* (Jibe), die over-the-top werkt, onafhankelijk van de provider. Als je RCS via Googles
 backend loopt, zoals bij de meeste mensen, dan zijn de provider-zijde regels (carrier
 entitlement, presence/UCE, IMS service, configuration version) oprecht "No" of "0", en dat is
@@ -205,4 +205,4 @@ is](#2-wat-het-niet-is).
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._

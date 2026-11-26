@@ -45,7 +45,7 @@ VD-Google/
 - **De strings** zijn de enige bron van elk label, in 21 talen: de app onder
   `res/values*/strings.xml`, de WebUI onder `webroot/lang/`. Een label wordt nooit twee keer
   geschreven.
-- **De documentatie** leeft in `docs/`. Het is de bron van waarheid voor de projectwiki; de
+- **De documentatie** leeft in `docs/`. Het is de bron van waarheid voor de projectwiki, de
   wiki wordt eruit gegenereerd (zie `tools/` en `.github/scripts/gen_wiki.sh`).
 - **De meegeleverde tool** (`sqlite3`) leeft in `assets/bin/` voor de app en `bin/` voor de
   module, en is gedocumenteerd in [Meegeleverde binaries](BINARIES.md).
@@ -74,4 +74,4 @@ cache, en schrijft zijn actielog binnen zijn eigen private bestandenmap.
 
 ---
 
-> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom; zie [CONTRIBUTING.md](CONTRIBUTING.md)._
+> _Deze documentatie is gegenereerd met Claude (Anthropic) en wordt onderhouden door VD171. Correcties en verbeteringen zijn welkom, zie [CONTRIBUTING.md](CONTRIBUTING.md)._
