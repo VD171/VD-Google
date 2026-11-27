@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/KernelSU-Modules/tools/main/schemas/module.schema.json
+schemaVersion: 1
+id: vdgoogle
+name: VD Google
+summary: Read your RCS, Google Wallet and Play Integrity attestation state on-device through root, with no internet access.
+description: README.md
+license: AGPL-3.0-or-later
+homepage: https://github.com/VD171/VD-Google
+support: https://xdaforums.com/t/4803837
+tags:
+  - kernelsu
+  - apatch
+  - magisk
+  - root
+  - google
+  - play-integrity
+  - rcs
+  - attestation
+  - webui
+icon: VDGoogle/webui/webroot/icon.png
+compatibility:
+  architectures:
+    - arm64-v8a
+    - armeabi-v7a
+    - x86
+    - x86_64
+release:
+  assetPattern: "VDGoogle-WebUI-*.zip"
